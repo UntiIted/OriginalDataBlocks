@@ -1,0 +1,133 @@
+Single: health
+Single: healthRegenStartDelayAfterDamage
+Single: healthRegenRelMax
+Single: healthRegenDelay
+Single: healthRegenPerSecond
+Single: friendlyFireMulti
+Single: fallDamageMinHeight
+Single: fallDamageMaxHeight
+Single: fallDamageMin
+Single: fallDamageMax
+Int32: battery
+Single: smallBatteryConsumtionPerSec
+Single: mediumBatteryConsumtionPerSec
+Single: largeBatteryConsumtionPerSec
+Single: walkMoveSpeed
+Single: runMoveSpeed
+Single: airMoveSpeed
+Single: crouchMoveSpeed
+Single: ladderMoveSpeed
+Single: walkFootstepLength
+Single: runFootstepLength
+Single: crouchFootstepLength
+Single: throttleSmoothAcc
+Single: throttleSmoothStop
+Single: throttleSmoothVertical
+Single: jumpVelInitial
+Single: jumpGravityMulDefault
+Single: jumpGravityMulButtonReleased
+Single: jumpGravityMulAfterPeak
+Single: jumpGravityMulFalling
+Single: jumpVerticalVelocityMax
+Vector3: camPosDefault
+Vector3: camPosCrouch
+Single: camFovRunDif
+DOFSettingsData: DofDefault
+   Boolean: enabled
+   Single: focusDistance
+   Single: aperture
+   Single: focalLength
+DOFSettingsData: DofInElevator
+   Boolean: enabled
+   Single: focusDistance
+   Single: aperture
+   Single: focalLength
+DOFSettingsData: DofInTerminal
+   Boolean: enabled
+   Single: focusDistance
+   Single: aperture
+   Single: focalLength
+Single: ChromaticAbberationIntensityMax
+Vector2: mouselookAimScaleMinMax
+Vector2: mouselookAimScaleFovRef
+Vector3: FPSArmsOffset
+Vector3: FPSBodyOffset
+Vector3: FPSBodyOffsetWhenNotFollowingCamera
+Vector3: FPSBodyScale
+Boolean: FPSBodyMoveNeckToFollowCamera
+Single: FPSBodyWantedDisToNeck
+Single: GearMaxSightHeightDiff
+Int32: AmmoStandardInitial
+Int32: AmmoStandardInitialOnDropin
+Int32: AmmoStandardMaxCap
+Int32: AmmoStandardResourcePackMaxCap
+Int32: AmmoSpecialInitial
+Int32: AmmoSpecialInitialOnDropin
+Int32: AmmoSpecialMaxCap
+Int32: AmmoSpecialResourcePackMaxCap
+Int32: AmmoClassInitial
+Int32: AmmoClassInitialOnDropin
+Int32: AmmoClassMaxCap
+Int32: AmmoClassResourcePackMaxCap
+Single: implantSmallTriggerDelay
+Single: implantBigTriggerDelay
+Single: itemAnimWeight
+Vector3: itemAnimAxisWeight
+Single: itemLookatAimWeight
+Single: itemLookSwayWeight
+Vector3: itemLookSwayPosImpulseScale
+Single: itemLookSwayPosStiffness
+Single: itemLookSwayPosDamping
+Vector3: itemLookSwayRotImpulseScale
+Vector2: itemLookSwayRotXMulti
+Single: itemLookSwayRotStiffness
+Single: itemLookSwayRotDamping
+Single: itemLookSwayWeightAiming
+Vector3: itemLookSwayPosImpulseScaleAiming
+Vector3: itemLookSwayRotImpulseScaleAiming
+Single: itemAnimWeightAiming
+Single: itemRecoilWeight
+Single: itemFootstepWeight
+Single: itemFootstepWeightAiming
+Single: itemFootstepDelay
+Vector3: itemFootstepImpulseScale
+Single: itemFootstepStiffness
+Single: itemFootstepDamping
+Boolean: breathingEnabled
+Boolean: breathingFatigueEnabled
+Boolean: breathingScaredEnabled
+Boolean: breathingDebugEnabled
+Single: breathingVolume
+Single: fatigueMax
+Single: FatigueLimitNormalBreathing
+Single: FatigueLimitPanting
+Single: FatigueLimitGasping
+Single: fatigueRunIncreasePerSecond
+Single: fatigueWalkIncreasePerSecond
+Single: fatigueWalkCeiling
+Single: fatigueRecoverPerSecond
+Single: fatigueHealthFactorMin
+Single: fatigueHealthFactorMax
+Single: breathingHealthLowLimit
+Single: defaultDialogLineDelay
+Single: shortDialogCooldown
+Single: mediumDialogCooldown
+Single: longDialogCooldown
+Single: radioEnabledDefaultDistance
+Single: radioQualityLowestAtDistance
+Single: lowTensionMaxLimit
+Single: mediumTensionMaxLimit
+Boolean: dialogEnabledInSpectator
+Single: radioQualityInSpectator
+Single: radioDistortionInSpectator
+Single: noAirTimeToEmpty
+Single: noAirDamageRel
+Single: noAirDamageDelay
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

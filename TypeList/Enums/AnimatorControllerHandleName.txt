@@ -1,0 +1,11 @@
+Unspecified
+EnemyCripple
+EnemyRunner
+EnemyFiddler
+EnemyLow
+EnemyCrawlFlip
+EnemyCrawl
+EnemyGiant
+EnemyBig
+EnemyExploder
+EnemyBirtherCrawlFlip

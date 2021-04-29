@@ -1,0 +1,867 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_9.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S11"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 25,
+        "WorldFovZoom": 48
+      },
+      "name": "Sight_9",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_20.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S12"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 22,
+        "WorldFovZoom": 45
+      },
+      "name": "Sight_20",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_11.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 30,
+        "WorldFovZoom": 49
+      },
+      "name": "Sight_11",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_8.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S14"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 8,
+        "WorldFovZoom": 38
+      },
+      "name": "Sight_8",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 21,
+        "WorldFovZoom": 45
+      },
+      "name": "Sight_2",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_18.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S16"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 40,
+        "WorldFovZoom": 46
+      },
+      "name": "Sight_18",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_14.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S17"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 15,
+        "WorldFovZoom": 48
+      },
+      "name": "Sight_14",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S18"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 28,
+        "WorldFovZoom": 50
+      },
+      "name": "Sight_1",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_16.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S19"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 17,
+        "WorldFovZoom": 47
+      },
+      "name": "Sight_16",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_21.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S20"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 22,
+        "WorldFovZoom": 44
+      },
+      "name": "Sight_21",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_10.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 15,
+        "WorldFovZoom": 35
+      },
+      "name": "Sight_10",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_15.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S2"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 22,
+        "WorldFovZoom": 39
+      },
+      "name": "Sight_15",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_19.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S3"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 29,
+        "WorldFovZoom": 35
+      },
+      "name": "Sight_19",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_7.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S4"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 25,
+        "WorldFovZoom": 45
+      },
+      "name": "Sight_7",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_17.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 28,
+        "WorldFovZoom": 30
+      },
+      "name": "Sight_17",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_13.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S6"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 10,
+        "WorldFovZoom": 25
+      },
+      "name": "Sight_13",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_6.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S7"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 15,
+        "WorldFovZoom": 44
+      },
+      "name": "Sight_6",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_5.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S8"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 20,
+        "WorldFovZoom": 43
+      },
+      "name": "Sight_5",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_3.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S9"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 6,
+        "WorldFovZoom": 17
+      },
+      "name": "Sight_3",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_4.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S10"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 16,
+        "WorldFovZoom": 40
+      },
+      "name": "Sight_4",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_12.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S11"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 24,
+        "WorldFovZoom": 40
+      },
+      "name": "Sight_12",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_Empty.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S12"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 35,
+        "WorldFovZoom": 55
+      },
+      "name": "Sight_Empty",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_1_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S8"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_1_B",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_1_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S8"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_1_F",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_2_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S7"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_2_B",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_2_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S7"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_2_F",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_3_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S2"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_3_B",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_3_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S2"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_3_F",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_4_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_4_B",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_4_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_4_F",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_5_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_5_B",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_5_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_5_F",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_6_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_6_B",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_6_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_6_F",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_7_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_7_B",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_7_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_7_F",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_8_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_8_B",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_8_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_8_F",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_9_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S4"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_9_B",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_10_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S4"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_10",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_9_F.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S4"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 0,
+        "WorldFovZoom": 0
+      },
+      "name": "IronSights_9_F_Copy",
+      "internalEnabled": true,
+      "persistentID": 44
+    }
+  ],
+  "LastPersistentID": 44
+}

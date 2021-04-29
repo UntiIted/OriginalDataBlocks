@@ -1,0 +1,196 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "health": 25.0,
+      "healthRegenStartDelayAfterDamage": 5.0,
+      "healthRegenRelMax": 0.2,
+      "healthRegenDelay": 1.0,
+      "healthRegenPerSecond": 0.2,
+      "friendlyFireMulti": 0.5,
+      "fallDamageMinHeight": 4.0,
+      "fallDamageMaxHeight": 20.0,
+      "fallDamageMin": 2.0,
+      "fallDamageMax": 15.0,
+      "battery": 100,
+      "smallBatteryConsumtionPerSec": 0.25,
+      "mediumBatteryConsumtionPerSec": 0.5,
+      "largeBatteryConsumtionPerSec": 3.0,
+      "walkMoveSpeed": 3.5,
+      "runMoveSpeed": 6.0,
+      "airMoveSpeed": 3.0,
+      "crouchMoveSpeed": 2.0,
+      "ladderMoveSpeed": 1.5,
+      "walkFootstepLength": 1.8,
+      "runFootstepLength": 1.9,
+      "crouchFootstepLength": 1.3,
+      "throttleSmoothAcc": 1.0,
+      "throttleSmoothStop": 0.4,
+      "throttleSmoothVertical": 1.0,
+      "jumpVelInitial": 9.0,
+      "jumpGravityMulDefault": 3.0,
+      "jumpGravityMulButtonReleased": 5.5,
+      "jumpGravityMulAfterPeak": 1.65,
+      "jumpGravityMulFalling": 1.65,
+      "jumpVerticalVelocityMax": 20.0,
+      "camPosDefault": {
+        "x": 0.0,
+        "y": 1.8,
+        "z": 0.0
+      },
+      "camPosCrouch": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "camFovRunDif": 0.0,
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofInElevator": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofInTerminal": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "ChromaticAbberationIntensityMax": 0.204,
+      "mouselookAimScaleMinMax": {
+        "x": 0.1,
+        "y": 0.5
+      },
+      "mouselookAimScaleFovRef": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "FPSArmsOffset": {
+        "x": 0.0,
+        "y": -0.08,
+        "z": 0.0
+      },
+      "FPSBodyOffset": {
+        "x": -0.2,
+        "y": -0.1,
+        "z": -0.5
+      },
+      "FPSBodyOffsetWhenNotFollowingCamera": {
+        "x": 0.0,
+        "y": -1.8,
+        "z": -0.4
+      },
+      "FPSBodyScale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "FPSBodyMoveNeckToFollowCamera": true,
+      "FPSBodyWantedDisToNeck": 1.45,
+      "GearMaxSightHeightDiff": 0.105,
+      "AmmoStandardInitial": 300,
+      "AmmoStandardInitialOnDropin": 200,
+      "AmmoStandardMaxCap": 460,
+      "AmmoStandardResourcePackMaxCap": 450,
+      "AmmoSpecialInitial": 150,
+      "AmmoSpecialInitialOnDropin": 100,
+      "AmmoSpecialMaxCap": 230,
+      "AmmoSpecialResourcePackMaxCap": 450,
+      "AmmoClassInitial": 100,
+      "AmmoClassInitialOnDropin": 70,
+      "AmmoClassMaxCap": 150,
+      "AmmoClassResourcePackMaxCap": 150,
+      "implantSmallTriggerDelay": 0.5,
+      "implantBigTriggerDelay": 1.0,
+      "itemAnimWeight": 0.5,
+      "itemAnimAxisWeight": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 1.0
+      },
+      "itemLookatAimWeight": 0.8,
+      "itemLookSwayWeight": 1.0,
+      "itemLookSwayPosImpulseScale": {
+        "x": -0.015,
+        "y": -0.015,
+        "z": 0.0
+      },
+      "itemLookSwayPosStiffness": 300.0,
+      "itemLookSwayPosDamping": 20.0,
+      "itemLookSwayRotImpulseScale": {
+        "x": 2.0,
+        "y": -1.5,
+        "z": -3.0
+      },
+      "itemLookSwayRotXMulti": {
+        "x": 0.8,
+        "y": 1.0
+      },
+      "itemLookSwayRotStiffness": 140.0,
+      "itemLookSwayRotDamping": 15.0,
+      "itemLookSwayWeightAiming": 0.15,
+      "itemLookSwayPosImpulseScaleAiming": {
+        "x": -0.0075,
+        "y": -0.0075,
+        "z": 0.0
+      },
+      "itemLookSwayRotImpulseScaleAiming": {
+        "x": 2.0,
+        "y": -1.5,
+        "z": -1.0
+      },
+      "itemAnimWeightAiming": 0.03,
+      "itemRecoilWeight": 1.0,
+      "itemFootstepWeight": 0.6,
+      "itemFootstepWeightAiming": 0.0,
+      "itemFootstepDelay": 0.12,
+      "itemFootstepImpulseScale": {
+        "x": 0.13,
+        "y": -0.09,
+        "z": 0.05
+      },
+      "itemFootstepStiffness": 40.0,
+      "itemFootstepDamping": 5.0,
+      "breathingEnabled": true,
+      "breathingFatigueEnabled": false,
+      "breathingScaredEnabled": false,
+      "breathingDebugEnabled": false,
+      "breathingVolume": 15.0,
+      "fatigueMax": 100.0,
+      "FatigueLimitNormalBreathing": 0.0,
+      "FatigueLimitPanting": 20.0,
+      "FatigueLimitGasping": 85.0,
+      "fatigueRunIncreasePerSecond": 3.0,
+      "fatigueWalkIncreasePerSecond": 1.2,
+      "fatigueWalkCeiling": 15.0,
+      "fatigueRecoverPerSecond": 1.0,
+      "fatigueHealthFactorMin": 1.0,
+      "fatigueHealthFactorMax": 2.0,
+      "breathingHealthLowLimit": 0.1,
+      "defaultDialogLineDelay": 0.5,
+      "shortDialogCooldown": 60.0,
+      "mediumDialogCooldown": 300.0,
+      "longDialogCooldown": 600.0,
+      "radioEnabledDefaultDistance": 15.0,
+      "radioQualityLowestAtDistance": 100.0,
+      "lowTensionMaxLimit": 50.0,
+      "mediumTensionMaxLimit": 90.0,
+      "dialogEnabledInSpectator": true,
+      "radioQualityInSpectator": 50.0,
+      "radioDistortionInSpectator": 0.0,
+      "noAirTimeToEmpty": 90.0,
+      "noAirDamageRel": 0.15,
+      "noAirDamageDelay": 1.5,
+      "name": "PlayerLocal",
+      "internalEnabled": true,
+      "persistentID": 1
+    }
+  ],
+  "LastPersistentID": 1
+}

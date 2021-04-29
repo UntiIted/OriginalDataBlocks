@@ -1,0 +1,16 @@
+(enum) eEnemyGroupType: Type
+(enum) eEnemyRoleDifficulty: Difficulty
+(enum) eSpawnPlacementType: SpawnPlacementType
+Single: MaxScore
+Single: RelativeWeight
+List<EnemyGroupCompositionData>: Roles
+   (enum) eEnemyRole: Role
+   (enum) eEnemyRoleDistribution: Distribution
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,46 @@
+Int32: listIndex
+UInt32: syncID
+Il2CppReferenceArray`1: ItemToolsPerSlot
+String: publicName
+String: terminalItemShortName
+String: terminalItemLongName
+Boolean: addSerialNumberToName
+Boolean: registerInTerminalSystem
+(enum) AssetBundleShard: Shard
+(enum) InventorySlot: inventorySlot
+UInt32: FPSSettings
+(enum) Crosshair: crosshair
+String: HUDIcon
+Boolean: ShowCrosshairWhenAiming
+Boolean: GUIShowAmmoClip
+Boolean: GUIShowAmmoPack
+Boolean: GUIShowAmmoTotalRel
+Boolean: GUIShowAmmoInfinite
+Boolean: canMoveQuick
+Single: ClassAmmoCostFactor
+Int32: ConsumableAmmoMin
+Int32: ConsumableAmmoMax
+String: audioEventEquip
+List<String>: FirstPersonPrefabs
+List<String>: ThirdPersonPrefabs
+List<String>: PickupPrefabs
+List<String>: InstancePrefabs
+Single: EquipTransitionTime
+Single: AimTransitionTime
+String: FPSArmsAnim
+(enum) eFullbodyPlayerMovementSet: ThirdPersonFullbodyMovementSet
+String: LeftHandGripAlign
+String: LeftHandGripAnim
+String: RightHandGripAlign
+String: RightHandGripAnim
+String: SightLookAlign
+String: MuzzleAlign
+String: BackpackAlign
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

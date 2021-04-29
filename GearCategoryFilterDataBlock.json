@@ -1,0 +1,128 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 1
+        },
+        {
+          "CategoryID": 2
+        },
+        {
+          "CategoryID": 3
+        },
+        {
+          "CategoryID": 4
+        },
+        {
+          "CategoryID": 5
+        }
+      ],
+      "name": "Rifles",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 6
+        }
+      ],
+      "name": "Shotguns",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 7
+        }
+      ],
+      "name": "Revolvers",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 8
+        }
+      ],
+      "name": "Pistols",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 9
+        }
+      ],
+      "name": "Motion Trackers",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 10
+        }
+      ],
+      "name": "Mappers",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 11
+        }
+      ],
+      "name": "GlueGuns",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 12
+        }
+      ],
+      "name": "SentryGuns",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 13
+        }
+      ],
+      "name": "TripMines",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 14
+        }
+      ],
+      "name": "MeleeWeapons",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 15
+        }
+      ],
+      "name": "HackingTools",
+      "internalEnabled": true,
+      "persistentID": 15
+    }
+  ],
+  "LastPersistentID": 15
+}

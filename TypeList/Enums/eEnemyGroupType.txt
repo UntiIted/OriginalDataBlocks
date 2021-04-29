@@ -1,0 +1,7 @@
+Hibernate
+PureSneak
+Detect
+PureDetect
+Patrol
+Awake
+Hunter

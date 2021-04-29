@@ -1,0 +1,587 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "RoleDatas": [
+        {
+          "Role": "Melee",
+          "Difficulty": "Easy",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Easy",
+          "Enemy": 28,
+          "Cost": 6.0,
+          "Weight": 0.08
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 28,
+          "Cost": 6.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 28,
+          "Cost": 6.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Biss",
+          "Enemy": 21,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Buss",
+          "Enemy": 35,
+          "Cost": 6.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.08
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Easy",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Medium",
+          "Enemy": 20,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Hard",
+          "Enemy": 20,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Boss",
+          "Enemy": 40,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 28,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 18,
+          "Cost": 3.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 0.15
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 33,
+          "Cost": 3.0,
+          "Weight": 0.75
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 28,
+          "Cost": 3.0,
+          "Weight": 0.1
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Hard",
+          "Enemy": 36,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Biss",
+          "Enemy": 33,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Patroller",
+          "Difficulty": "Easy",
+          "Enemy": 30,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Easy",
+          "Enemy": 33,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Medium",
+          "Enemy": 33,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Hard",
+          "Enemy": 36,
+          "Cost": 6.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "MiniBoss",
+          "Enemy": 37,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "MegaBoss",
+          "Enemy": 29,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Easy",
+          "Enemy": 30,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Medium",
+          "Enemy": 30,
+          "Cost": 2.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Hard",
+          "Enemy": 39,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "BirtherChild",
+          "Difficulty": "Easy",
+          "Enemy": 38,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Boss",
+          "Difficulty": "Boss",
+          "Enemy": 37,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "MiniBoss",
+          "Difficulty": "MiniBoss",
+          "Enemy": 36,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "MiniBoss",
+          "Difficulty": "MegaBoss",
+          "Enemy": 29,
+          "Cost": 10.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "DefaultPop",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "RoleDatas": [
+        {
+          "Role": "Melee",
+          "Difficulty": "Easy",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.15
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Easy",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.15
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Medium",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Hard",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 18,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Hard",
+          "Enemy": 18,
+          "Cost": 2.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "ShootersOnly",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "RoleDatas": [
+        {
+          "Role": "Melee",
+          "Difficulty": "Easy",
+          "Enemy": 30,
+          "Cost": 1.5,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Easy",
+          "Enemy": 28,
+          "Cost": 6.0,
+          "Weight": 0.1
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 30,
+          "Cost": 1.5,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 28,
+          "Cost": 6.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.15
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Easy",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Medium",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Hard",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 30,
+          "Cost": 1.5,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 28,
+          "Cost": 6.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 28,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 18,
+          "Cost": 3.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 0.5
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 28,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 3.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Hard",
+          "Enemy": 28,
+          "Cost": 2.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Hard",
+          "Enemy": 18,
+          "Cost": 2.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Easy",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Hard",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Tank",
+          "Difficulty": "Easy",
+          "Enemy": 30,
+          "Cost": 3.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "BullrushInsteadOfStrikers",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "RoleDatas": [
+        {
+          "Role": "Patroller",
+          "Difficulty": "Easy",
+          "Enemy": 32,
+          "Cost": 1.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "PatrolDebug",
+      "internalEnabled": true,
+      "persistentID": 6
+    }
+  ],
+  "LastPersistentID": 6
+}

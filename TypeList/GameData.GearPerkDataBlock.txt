@@ -1,0 +1,43 @@
+List<GearSpecialPerkData>: PerkSpecials
+   (enum) eGearPerkSpecialType: Type
+   Single: TypeValue1
+   Single: TypeValue2
+   Single: TypeValue3
+GearPerkModifierData: ModFirerate
+   Boolean: Active
+   Single: Min
+   Single: Max
+   Single: Cost
+GearPerkModifierData: ModDamage
+   Boolean: Active
+   Single: Min
+   Single: Max
+   Single: Cost
+GearPerkModifierData: ModReloadTime
+   Boolean: Active
+   Single: Min
+   Single: Max
+   Single: Cost
+GearPerkModifierData: ModRange
+   Boolean: Active
+   Single: Min
+   Single: Max
+   Single: Cost
+GearPerkModifierData: ModRecoilReduction
+   Boolean: Active
+   Single: Min
+   Single: Max
+   Single: Cost
+GearPerkModifierData: ModHandling
+   Boolean: Active
+   Single: Min
+   Single: Max
+   Single: Cost
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

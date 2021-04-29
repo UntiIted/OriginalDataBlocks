@@ -1,0 +1,11 @@
+IsClose
+IsVeryClose
+IsFarAway
+HasFlashlight
+HasMapper
+HasScanner
+HasGlueGun
+HasLockCutter
+HeavylyArmed
+LowAmmo
+PlentyAmmo

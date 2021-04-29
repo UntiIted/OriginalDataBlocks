@@ -1,0 +1,43 @@
+(enum) DialogPriority: priority
+(enum) DialogProbability: probabilityToTrigger
+(enum) DialogTriggerInterval: triggerInterval
+Vector2: randomDelay
+(enum) DialogTensionLimit: tensionLimit
+DialogDramaFilter: dramaFilter
+   Boolean: Exploration
+   Boolean: Alert
+   Boolean: Sneaking
+   Boolean: Encounter
+   Boolean: Combat
+List<DialogStructureHolder>: dialogAlternatives
+   DialogStructure: structure
+      Boolean: enabled
+      Single: weight
+      List<DialogLine>: lines
+         UInt32: lineEvent
+         Boolean: A
+         Boolean: B
+         Boolean: C
+         Boolean: D
+         Boolean: UNI
+         Single: exit
+   DialogActorSettings: ActorA
+      (enum) DialogCharFilter: charFilter
+      (enum) List<DialogCondition>: conditions
+   DialogActorSettings: ActorB
+      (enum) DialogCharFilter: charFilter
+      (enum) List<DialogCondition>: conditions
+   DialogActorSettings: ActorC
+      (enum) DialogCharFilter: charFilter
+      (enum) List<DialogCondition>: conditions
+   DialogActorSettings: ActorD
+      (enum) DialogCharFilter: charFilter
+      (enum) List<DialogCondition>: conditions
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

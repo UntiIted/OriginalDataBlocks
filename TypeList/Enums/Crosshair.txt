@@ -1,0 +1,6 @@
+None
+Neutral
+AssaultRifle
+Shotgun
+Keypad
+Circle

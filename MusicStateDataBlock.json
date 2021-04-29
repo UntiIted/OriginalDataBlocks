@@ -1,0 +1,656 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_start"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "Startup",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_silence"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "Silence",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "MainMenu",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_elevator_idle"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "ElevatorIdle",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_elevator_down"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "ElevatorGoingDown",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [
+        {
+          "GameEvent": "player_enter_new_zone",
+          "SoundEvent": "music_theme_recall",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "weak_door_opening",
+          "SoundEvent": "weak_door_open_stinger",
+          "Cooldown": 0.0
+        }
+      ],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_exploration"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "Exploration",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 210.0,
+        "stateAfterMaxTime": "Exploration"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_theme"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "randomizer_theme",
+          "switchName": "theme_",
+          "randomCount": 11
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "Theme",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_tension"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "randomizer_tension_pulse",
+          "switchName": "tension_pulse_",
+          "randomCount": 2
+        },
+        {
+          "switchGroup": "randomizer_tension_drone",
+          "switchName": "tension_drone_",
+          "randomCount": 11
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "suspense",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "Tension",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_tensionmax"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "randomizer_tensionmax_loop",
+          "switchName": "tensionmax_",
+          "randomCount": 45
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [
+        {
+          "timeIsClockRelative": false,
+          "active": false,
+          "nextTrigger": 30.0,
+          "time": 30.0,
+          "repeat": false,
+          "events": [
+            {
+              "eventName": "music_tensionmax_timeout"
+            }
+          ]
+        }
+      ],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "TensionMax",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 5.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_encounter"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "encounter_stinger_level",
+          "switchName": "level_001",
+          "randomCount": 0
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "suspense",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "CombatEncounter",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 5.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [
+        {
+          "GameEvent": "player_take_damage",
+          "SoundEvent": "combat_orch_hit_level_3",
+          "Cooldown": 1.0
+        },
+        {
+          "GameEvent": "weak_door_punched",
+          "SoundEvent": "combat_deep_roll",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "weak_door_explode",
+          "SoundEvent": "combat_braahm_org",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "None",
+          "Cooldown": 0.0
+        }
+      ],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "combat_regular"
+        },
+        {
+          "eventName": "music_combat"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "CombatRegular",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 5.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "combat_hidden"
+        },
+        {
+          "eventName": "music_combat"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "CombatHidden",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_survival"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "music_state_survival",
+          "switchName": "hidden",
+          "randomCount": 0
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "SurvivalHidden",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_survival"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "music_state_survival",
+          "switchName": "regular",
+          "randomCount": 0
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "SurvivalRegular",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_survival"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "music_state_survival",
+          "switchName": "epic_moment",
+          "randomCount": 0
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "SurvivalEpicMoment",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "music_survival_extreme"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "music_state_survival",
+          "switchName": "regular",
+          "randomCount": 0
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "SurvivalExtreme",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [
+        {
+          "GameEvent": "weak_door_opening",
+          "SoundEvent": "scary_swell_130_level_001",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "security_door_opening",
+          "SoundEvent": "scary_swell_130_level_002",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "hibernating_enemy_wakeup",
+          "SoundEvent": "exploration_eerie_roll",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "scout_enemy_found_player",
+          "SoundEvent": "exploration_eerie_roll",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "scout_enemy_spotted",
+          "SoundEvent": "stinger_low_boom",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "hibernating_enemy_spotted",
+          "SoundEvent": "stinger_low_rumble",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "player_take_damage",
+          "SoundEvent": "combat_cooldown_up_20",
+          "Cooldown": 0.0
+        },
+        {
+          "GameEvent": "enemy_scout_dead_from_melee",
+          "Cooldown": 0.0
+        }
+      ],
+      "m_EventsOnEnter": [],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "GlobalGameEvents",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "switch_test_play"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [
+        {
+          "customCue": "test_cue_1",
+          "switches": [
+            {
+              "switchGroup": "test",
+              "switchName": "test_04",
+              "randomCount": 0
+            }
+          ]
+        }
+      ],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "Testing",
+      "internalEnabled": true,
+      "persistentID": 20
+    }
+  ],
+  "LastPersistentID": 20
+}

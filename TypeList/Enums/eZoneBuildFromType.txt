@@ -1,0 +1,6 @@
+From_Random
+From_Start
+From_AverageCenter
+From_Furthest
+From_BetweenStartAndFurthest
+From_IndexWeight

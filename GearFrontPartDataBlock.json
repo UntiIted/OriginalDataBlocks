@@ -1,0 +1,2773 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_GlueGun.prefab",
+        "GearCategoryFilter": 11,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S14"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "aMuzzle"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "aSightLook"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": "FrontPartAnim"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound"
+        }
+      ],
+      "name": "Gluegun_1",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_a.prefab",
+        "GearCategoryFilter": 14,
+        "LeftHandGripAnim": "SledgeHammer_fp_arms",
+        "RightHandGripAnim": "SledgeHammer_fp_arms",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Melee_1",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_b.prefab",
+        "GearCategoryFilter": 14,
+        "LeftHandGripAnim": "SledgeHammer_fp_arms",
+        "RightHandGripAnim": "SledgeHammer_fp_arms",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S16"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Melee_2",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_c.prefab",
+        "GearCategoryFilter": 14,
+        "LeftHandGripAnim": "SledgeHammer_fp_arms",
+        "RightHandGripAnim": "SledgeHammer_fp_arms",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S17"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Melee_3",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_d.prefab",
+        "GearCategoryFilter": 14,
+        "LeftHandGripAnim": "SledgeHammer_fp_arms",
+        "RightHandGripAnim": "SledgeHammer_fp_arms",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S18"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Melee_4",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_MapperBase_c.prefab",
+        "GearCategoryFilter": 10,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S19"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Mapper_1",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_MotionTracker_Antenna_c.prefab",
+        "GearCategoryFilter": 9,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S20"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "MotionTracker_1",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_3.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_3_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_AutoShootgun_3",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RifleReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_AutoShotgun_3",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_AutoShotgun_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S2"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_AutoShotgun_1_animation_reload_weaponmovement"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_AutoShotgun_1_animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_AutoShotgun_1_animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Sound",
+          "StringData": "generic_reload_pat_soft"
+        },
+        {
+          "TriggerTime": 0.4,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_out"
+        },
+        {
+          "TriggerTime": 0.9,
+          "Type": "Sound",
+          "StringData": "cannon_reload_grab_mag"
+        },
+        {
+          "TriggerTime": 1.2,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 1.5,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_cock_back"
+        },
+        {
+          "TriggerTime": 1.9,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 1.95,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.2,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.2,
+          "Type": "Empty",
+          "StringData": ""
+        },
+        {
+          "TriggerTime": 2.9,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_AutoShotgun_1",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_4.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_4_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_AutoShootgun_4",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S3"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RifleReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_AutoShotgun_4",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Rifle_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Rifle_1",
+        "RightHandGripAnim": "Front_Rifle_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S7"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Fire"
+        },
+        {
+          "TriggerTime": 0.06,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RifleReload_Rifle_1_anim"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Rifle1_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "carbine_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 0.7,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.9,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.95,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.45,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Rifle_1",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Rifle_3.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Rifle_3_idle",
+        "RightHandGripAnim": "Front_Rifle_3_idle",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S4"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_3_reload_animation"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Rifle_3_reload_animation"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "RightHandAnim",
+          "StringData": "Front_Rifle_3_reload_animation"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Rifle_3",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Rifle_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Rifle_2",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S16"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_2_fire"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Rifle_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Sound",
+          "StringData": "carbine_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 0.6,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "carbine_mag_bump"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 1.05,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.3,
+          "Type": "Sound",
+          "StringData": "carbine_reload_5_release_slide"
+        },
+        {
+          "TriggerTime": 1.2,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Rifle_2",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Rifle_4.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Rifle_4",
+        "RightHandGripAnim": "Front_Rifle_4",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S6"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_4_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_4_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "RightHandAnim",
+          "StringData": "Front_Rifle_4_reload_60"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Rifle_4_reload_60"
+        },
+        {
+          "TriggerTime": 0.6,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 1.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 1.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.8,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Rifle_4",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_MachineGun_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_MachineGun_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_fire"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "MachineGunReload_Front_Machinegun_1_anim"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_MachineGun_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_out"
+        },
+        {
+          "TriggerTime": 0.7,
+          "Type": "Sound",
+          "StringData": "cannon_reload_grab_mag"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 1.05,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.35,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 1.4,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_MachineGun_1",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Precision_3.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Precision_3_GripAlign.prefab"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Precision_3",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S8"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "PrecisionReload_Front_Precision_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Precision_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_out"
+        },
+        {
+          "TriggerTime": 0.75,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick_soft"
+        },
+        {
+          "TriggerTime": 1.04,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 1.1,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 1.15,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.4,
+          "Type": "Sound",
+          "StringData": "generic_reload_pat_soft"
+        },
+        {
+          "TriggerTime": 1.45,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 1.55,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Precision_3",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Precision_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Precision_2",
+        "RightHandGripAnim": "Front_Precision_2",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S18"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Precision_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "RightHandAnim",
+          "StringData": "Front_Precision_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Precision_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Precision_2_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.4,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_out"
+        },
+        {
+          "TriggerTime": 0.7,
+          "Type": "Sound",
+          "StringData": "cannon_reload_grab_mag"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "carbine_mag_bump"
+        },
+        {
+          "TriggerTime": 1.3,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 1.35,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.8,
+          "Type": "Sound",
+          "StringData": "carbine_reload_5_pull_slide"
+        },
+        {
+          "TriggerTime": 1.9,
+          "Type": "Sound",
+          "StringData": "carbine_reload_5_release_slide"
+        },
+        {
+          "TriggerTime": 1.95,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon_soft"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Precision_2",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Precision_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Precision_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S10"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Precision_1_fire"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "PrecisionReload_Front_Precision_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Precision_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Precision_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_out"
+        },
+        {
+          "TriggerTime": 0.75,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick_soft"
+        },
+        {
+          "TriggerTime": 1.04,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 1.1,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 1.15,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.4,
+          "Type": "Sound",
+          "StringData": "generic_reload_pat_soft"
+        },
+        {
+          "TriggerTime": 1.45,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 1.55,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Precision_1",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Shotgun_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Shotgun_1",
+        "RightHandGripAnim": "Front_Shotgun_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S10"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Shotgun_1_pump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Shotgun_1_pump"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Empty",
+          "StringData": ""
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_1_animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Shotgun_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Shotgun_1_animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick_soft"
+        },
+        {
+          "TriggerTime": 0.9,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.1,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick_soft"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 1.53,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 1.68,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_cock_back"
+        },
+        {
+          "TriggerTime": 1.76,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_cock_forward"
+        },
+        {
+          "TriggerTime": 2.4,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Shotgun_1",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Shotgun_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Shotgun_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S20"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "ShotgunReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "carbine_reload_3_foley"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Reload"
+        },
+        {
+          "TriggerTime": 0.95,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.5,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_2_cock"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Shotgun_2",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Shotgun_3.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Shotgun_3",
+        "RightHandGripAnim": "Front_Shotgun_3",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S9"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_3_animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Rifle_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Shotgun_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": "Sound",
+          "StringData": "generic_reload_pat_soft"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 0.7,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 1.2,
+          "Type": "Sound",
+          "StringData": "pistol_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 1.5,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 1.8,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.15,
+          "Type": "Sound",
+          "StringData": "generic_reload_pat_soft"
+        },
+        {
+          "TriggerTime": 2.88,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Shotgun_3",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_4.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_4_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_SMG_3",
+        "RightHandGripAnim": "Front_SMG_3",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S12"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "SMGReload_Front_SMG_3_anim"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_SMG_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_SMG_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "SMG_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.4,
+          "Type": "Sound",
+          "StringData": "smg_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "SMG_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "smg_reload_4_pat_mag"
+        },
+        {
+          "TriggerTime": 1.1,
+          "Type": "Sound",
+          "StringData": "smg_reload_5_slide_release"
+        },
+        {
+          "TriggerTime": 1.25,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_SMG_4",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_1.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_1_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_SMG_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RifleReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_SMG_1",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_2.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_2_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_SMG_2",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S14"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RifleReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_SMG_2",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_3.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_SMG_3",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_SMG_3_fire"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "SMGReload_Front_SMG_3_anim"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_SMG_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_SMG_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "SMG_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.4,
+          "Type": "Sound",
+          "StringData": "smg_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "SMG_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "smg_reload_4_pat_mag"
+        },
+        {
+          "TriggerTime": 1.1,
+          "Type": "Sound",
+          "StringData": "smg_reload_5_slide_release"
+        },
+        {
+          "TriggerTime": 1.25,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_SMG_3",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_MachineGun_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Machinegun_2_Animation_idle",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S16"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Machinegun_2_Animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Machinegun_2_Animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Machinegun_2_Animation_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.55,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_out"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "cannon_reload_grab_mag"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
+        },
+        {
+          "TriggerTime": 1.55,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 1.6,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 2.3,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick_soft"
+        },
+        {
+          "TriggerTime": 2.5,
+          "Type": "Sound",
+          "StringData": "carbine_reload_5_pull_slide"
+        },
+        {
+          "TriggerTime": 2.7,
+          "Type": "Sound",
+          "StringData": "carbine_reload_5_release_slide"
+        },
+        {
+          "TriggerTime": 2.95,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 3.7,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_MachineGun_2",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_2.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_2_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_AutoShootgun_2",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S19"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RifleReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_3_FOLEY"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_AutoShotgun_2",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Revolver_2.prefab",
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Revolver_2_Idle",
+        "RightHandGripAnim": "Front_Revolver_2_Idle",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Stock_Revolver_2_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Revolver_2_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Revolver_2_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "ReceiverAnim",
+          "StringData": "Front_Revolver_2_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.25,
+          "Type": "Sound",
+          "StringData": "revolver_open"
+        },
+        {
+          "TriggerTime": 0.4,
+          "Type": "Sound",
+          "StringData": "revolver_reload_grab_mag"
+        },
+        {
+          "TriggerTime": 0.75,
+          "Type": "Sound",
+          "StringData": "revolver_reload_foley"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.1,
+          "Type": "Sound",
+          "StringData": "revolver_mag_in"
+        },
+        {
+          "TriggerTime": 1.4,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 1.6,
+          "Type": "Sound",
+          "StringData": "revolver_close"
+        },
+        {
+          "TriggerTime": 1.9,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 2.3,
+          "Type": "Sound",
+          "StringData": "revolver_reload_foley"
+        },
+        {
+          "TriggerTime": 2.5,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_subtle"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Revolver_2",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Revolver_1_GripAlign.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Front_Revolver_1",
+        "RightHandGripAnim": "Front_Revolver_1",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S2"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Revolver_1_fire"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "StockAnim",
+          "StringData": "Stock_Revolver_1_fire"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "RevolverReload_Revolver_1_anim"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Revolver_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_Revolver_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "ReceiverAnim",
+          "StringData": "Front_Revolver_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "revolver_open"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": "Sound",
+          "StringData": "revolver_reload_foley"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "revolver_reload_grab_mag"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": "Sound",
+          "StringData": "revolver_mag_in"
+        },
+        {
+          "TriggerTime": 0.85,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.35,
+          "Type": "Sound",
+          "StringData": "revolver_close"
+        },
+        {
+          "TriggerTime": 1.5,
+          "Type": "Sound",
+          "StringData": "revolver_reload_foley"
+        },
+        {
+          "TriggerTime": 1.55,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Revolver_1",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Short_Shotgun_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S3"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "ShotgunReload_bump"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "carbine_reload_3_foley"
+        },
+        {
+          "TriggerTime": 0.95,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 1.0,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.5,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_2_cock"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Front_Short_Shotgun_1",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Pistol_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Stock_Pistol_1",
+        "RightHandGripAnim": "",
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S4"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_Pistol_1_fire"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Empty"
+        }
+      ],
+      "ReloadSequence": [],
+      "name": "Front_Pistol_1",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_UZI_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Receiver_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        },
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Front_UZI_2",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_UZI_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S6"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Receiver_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        },
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Front_UZI_1",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Bullpop_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S7"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Receiver_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Front_Bullpop_1",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Pistol_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S8"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Front_Pistol_2",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Bullpop_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Front",
+        "BundleShard": "S9"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": "ShellEject",
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Front_Bullpop_2",
+      "internalEnabled": true,
+      "persistentID": 46
+    }
+  ],
+  "LastPersistentID": 46
+}

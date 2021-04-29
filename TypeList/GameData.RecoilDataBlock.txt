@@ -1,0 +1,38 @@
+MinMaxValue: power
+   Single: Min
+   Single: Max
+Single: spring
+Single: dampening
+Single: hipFireCrosshairSizeDefault
+Single: hipFireCrosshairRecoilPop
+Single: hipFireCrosshairSizeMax
+MinMaxValue: horizontalScale
+   Single: Min
+   Single: Max
+MinMaxValue: verticalScale
+   Single: Min
+   Single: Max
+Single: directionalSimilarity
+Single: worldToViewSpaceBlendHorizontal
+Single: worldToViewSpaceBlendVertical
+Vector3: recoilPosImpulse
+Vector3: recoilPosShift
+Single: recoilPosShiftWeight
+Single: recoilPosStiffness
+Single: recoilPosDamping
+Single: recoilPosImpulseWeight
+Single: recoilCameraPosWeight
+Single: recoilAimingWeight
+Vector3: recoilRotImpulse
+Single: recoilRotStiffness
+Single: recoilRotDamping
+Single: recoilRotImpulseWeight
+Single: recoilCameraRotWeight
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

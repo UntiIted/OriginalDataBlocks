@@ -1,0 +1,7 @@
+Unspecified
+None
+Micro
+Light
+Heavy
+ToDeath
+InstantRagdollDeath

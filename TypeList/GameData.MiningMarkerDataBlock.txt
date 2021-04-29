@@ -1,0 +1,34 @@
+String: m_funcLinksAssetPath
+String: m_funcLinksResourcePath
+Dictionary`2: m_blocksPerGroup
+Dictionary`2: m_prefabSpawnerCounter
+Transform: m_root
+MarkerDataCommon: CommonData
+   Il2CppReferenceArray`1: FunctionComponentLinks
+   List<MarkerComposition>: m_compositions
+      GameObject: preppedInstance
+      Single: weight
+      String: prefab
+      (enum) ExpeditionFunction: function
+      (enum) AssetBundleShard: Shard
+   List<MarkerComposition>: Compositions
+      GameObject: preppedInstance
+      Single: weight
+      String: prefab
+      (enum) ExpeditionFunction: function
+      (enum) AssetBundleShard: Shard
+   (enum) AssetBundleName: AssetBundleName
+   UInt32: Group
+   Single: FunctionPotential
+   Int32: RotationSnap
+   Single: RotationNoise
+   String: EditorMesh
+   Single: BoundingVolume
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,2931 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Explosion/Explosion_2",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_grenade_explosion",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Explosion/Explosion_Pipebomb",
+          "AttachToRoot": true,
+          "DoNoKill": true
+        }
+      ],
+      "name": "wpn_pipe_bomb",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -218,
+          "Delay": 0.0,
+          "AudioEvent": "MeleeGenericHitMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Delay": 0.0,
+          "AudioEvent": "MeleeGenericHitFlesh"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "MeleeGenericHitStone"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Mud, Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "MeleeGenericHitDirt"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -25,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupYellow",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupRed",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -25,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/HitTarget",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_HitEnemyFlesh",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_meleehit",
+      "internalEnabled": false,
+      "persistentID": 3
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/E_MuzzleFlash_Submachine_S_Sync",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/Tracer/E_TracerAssultRifle",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_muzzleflash",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "EnemyWeakspotExplode"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_HitEnemyWeakspot",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyWeakspotSpray_003",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/EnemyWeakspotParticleFountain",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyWeakspotFiller",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "weakspot_dead",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupEnemyExplosion",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "debug_sphere",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ParasiteNestExplodeAtPlayer"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupParticleFountain",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_parasiteNest_explode_at_player",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ParasiteNestExplode"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupParticleFountain",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_parasiteNest_die",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ParasiteNestSwell"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupParticleFountain",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_parasiteNest_start_swell",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupEnemyDebris",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_mut_explosion_debris",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "SirenHurt"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_HitEnemyFlesh",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyWeakspotSpray_003",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyWeaksportSplash_02",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_death",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "SirenHurt"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/EnemyWeakspotParticleFountain",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyWeakspotSpray_003",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyWeaksportSplash_02",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "tank_hitreact",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_EnemyBone_reverse",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_death_recover_bone",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_EnemyRecover_Cloud",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_death_recover_cloud",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_Melee_Infuse",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_tentacle_origin",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupParticleFountain",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_tentacle_spawn",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_ChilderAttack",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_dissolve_hit_target",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "audioData": [],
+      "effectData": [],
+      "name": "enemy_ab_dissolve_death",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_Siren_Buildup",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_siren_buildup",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "EnemyBody",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitEnemyLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "EnemyBody",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitEnemySync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "EnemyWeakspot",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitEnemyWeakspotLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "EnemyWeakspot",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitEnemyWeakspotSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitConcreteLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitConcreteSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitMetalLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitMetalSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitGlassLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitGlassSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitRubberLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitRubberSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitSheetMetalLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitSheetMetalSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitWoodLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitWoodSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitMudLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitMudSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitDirtLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitDirtSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitMetalLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitMetalSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitPlayerSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitPlayerLocal"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalConcrete",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_ConcreteBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.1,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Concrete_Smoke_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.4,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Concrete_debri_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.3,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Concrete_debri_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Concrete_debri_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Smoke_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.1,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Concrete",
+          "Chance": 0.1,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSpark_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalMetal",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalGlow",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_MetalBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/BulletGlow_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 0.3,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Vertical_Smoke_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 0.3,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSpark_BigFiller",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 0.1,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Ricochet",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Metal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Metal_Fire_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalSheetMetal",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/BulletGlow_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.1,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalGlow",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Metal_Fire_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_004",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Vertical_Smoke_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "SheetMetal",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/MetalSparkFlash_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Wood",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalWood",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Wood",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_WoodBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Wood",
+          "Chance": 0.4,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Wood_debri_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Wood",
+          "Chance": 0.6,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Wood_debri_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Mud",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalDirt",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Mud",
+          "Chance": 0.4,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Dirt_debri_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Mud",
+          "Chance": 0.3,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Dirt_debri_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Mud",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Dirt_debri_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Mud",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_DirtBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Glass",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_GlassBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Plastic",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_PlasticBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Plastic",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Vertical_Smoke_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": "Plastic",
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Metal_Fire_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupBlue",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 2097176,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/hitFlower01",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Decals/DecalConcrete",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/E_ConcreteBaseImpact",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Concrete_debri_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 0.4,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Concrete_debri_002",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 0.3,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Debri/E_Concrete_debri_003",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": false,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnvironments/Concrete_Smoke_001",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -1,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/DebugDecal",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/DebugDecal",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_BulletHit",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_bullethit",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_Siren_WaveRippleSound",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockBigSphere",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_siren_alarm_active",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ShooterFireLightProjectile"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_RangedAttack_Big",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_shooter_small",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ShooterFireLightProjectile"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_RangedAttack_Big",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_shooter_big",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ShooterFireLightProjectile"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_RangedAttack_Tiny",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_shooter_tiny",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "ShooterLightProjectileHit"
+        }
+      ],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/EnemyAttack/E_RangedHitMedium",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_ab_shooter_hit_small",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_footstep_walk",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_footstep_sneak",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_footstep_jump",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_footstep_land",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_footstep_crouchwalk",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideSheetMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideSheetMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_crouch_slide",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunConcrete"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Concrete",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunConcrete_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Metal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunMetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Glass",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunMetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunRubber"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Plastic",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunRubber_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunMud"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Mud",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunMud_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunGravel"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Gravel",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunGravel_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunSheetmetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "SheetMetal",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunSheetmetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunSheetmetal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunSheetmetal_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunWood"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Wood",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunWood_3rd"
+        }
+      ],
+      "effectData": [],
+      "name": "player_footstep_run",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupEnemyExplosion",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_mut_explosion_sphere_Copy",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupImplantDetonationExplosion",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 1.0,
+          "EffectPrefab": "Effects/Mockup/MockupImplantDetonationDebris",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "PIMP_Detonate",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "audioData": [],
+      "effectData": [],
+      "name": "PIMP_SmallCone",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Chance": 0.1,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/RandomSmoke/MuzzleSmoke_ADD_1",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/RandomSmoke/MuzzleSmoke_ADD_2",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": 0,
+          "Chance": 0.2,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/RandomSmoke/Muzzle_spark_ADD_1",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/Tracer/E_TracerAssultRifle",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_pistol_muzzle",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/RandomSmoke/MuzzleSmoke_ADD_1",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_assault_muzzle",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "audioData": [],
+      "effectData": [],
+      "name": "wpn_shotgun_muzzle",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/RandomSmoke/MuzzleSmoke_ADD_1",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_submachine_muzzle",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/E_Shell_9x18mm",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/RandomSmoke/ShellSmoke_ADD_2",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_pistol_shell",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/E_Shell_338",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/RandomSmoke/ShellSmoke_ADD_1",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_assault_shell",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/E_Shell_45_ACP",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/RandomSmoke/ShellSmoke_ADD_1",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_submachine_shell",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/E_Shell_mos_590",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Shells/RandomSmoke/ShellSmoke_ADD_1",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "wpn_shotgun_shell",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Weapon/MuzzleFlash/E_FlareGun",
+          "AttachToRoot": true,
+          "DoNoKill": false
+        }
+      ],
+      "name": "cons_flaregun_flare",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 0.5,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Impacts/RandomEnemy/E_EnemyNo_hatching",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_parasite_hatching",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/E_enemyFireFlashSmall",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "enemy_fireFlashSmall",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 10.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_BulletHit",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_Burst_Directional",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_Burst_Omni",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_Spurt_01",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_Spurt_02",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_Blood_Spurt_Small",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 5.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_StyleBlood_BulletHit",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_StyleBlood_Burst_01",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot",
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "PS_StyleBlood_Burst_02",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "impacts_flesh",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_dirt_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_flesh_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_metal_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_lock_small_regular"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_melee_hit_normal",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_dirt_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_flesh_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_metal_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_hit_lock_small_hard"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_melee_hit_hard",
+      "internalEnabled": true,
+      "persistentID": 51
+    }
+  ],
+  "LastPersistentID": 51
+}

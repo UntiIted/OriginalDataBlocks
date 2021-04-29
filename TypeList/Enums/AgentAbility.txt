@@ -1,0 +1,9 @@
+None
+Melee
+Ranged
+Alarm
+Defensive
+Healing
+GroupEnhance
+Detection
+DoorBreaker

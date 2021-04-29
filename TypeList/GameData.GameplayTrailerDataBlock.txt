@@ -1,0 +1,13 @@
+List<GameplayTrailerDirectorAction>: Actions
+   String: GOPath
+   (enum) GameplayTrailerActionName: Action
+   (enum) GameplayTrailerActionTrigger: Trigger
+   Vector3: Position
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

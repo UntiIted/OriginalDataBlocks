@@ -1,0 +1,3 @@
+HeadshotMulti
+FirstShotInMagMulti
+LastShotInMagMulti

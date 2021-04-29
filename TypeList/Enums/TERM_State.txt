@@ -1,0 +1,11 @@
+Sleeping
+Awake
+PlayerInteracting
+DataMining
+Hacked
+CodePuzzle
+InputTest
+ReactorError
+AskToPlayLogAudio
+DoPlayAudioFile
+AudioLoopError

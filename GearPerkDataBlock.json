@@ -1,0 +1,625 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "PerkSpecials": [
+        {
+          "Type": "HeadshotMulti",
+          "TypeValue1": 2.0,
+          "TypeValue2": 0.0,
+          "TypeValue3": 0.0
+        }
+      ],
+      "ModFirerate": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": true,
+        "Min": 0.9,
+        "Max": 0.9,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "Headshot_special",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.1,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": true,
+        "Min": 0.9,
+        "Max": 0.975,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_I",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.1,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": true,
+        "Min": 0.9,
+        "Max": 0.95,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_II",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.15,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": true,
+        "Min": 0.85,
+        "Max": 0.925,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_III",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.2,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": true,
+        "Min": 0.8,
+        "Max": 0.9,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_IV",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.05,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_v2_I",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.1,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_v2_II",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.15,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_v2_III",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.2,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "FirerateBoost_v2_IV",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.2,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": true,
+        "Min": 0.8,
+        "Max": 0.9,
+        "Cost": 0.0
+      },
+      "name": "RangeBoost_I",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.2,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": true,
+        "Min": 0.8,
+        "Max": 0.9,
+        "Cost": 0.0
+      },
+      "name": "RangeBoost_II",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.2,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": true,
+        "Min": 0.8,
+        "Max": 0.9,
+        "Cost": 0.0
+      },
+      "name": "RangeBoost_III",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": true,
+        "Min": 1.0,
+        "Max": 1.25,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": true,
+        "Min": 0.75,
+        "Max": 0.875,
+        "Cost": 0.0
+      },
+      "name": "RangeBoost_IV",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 0.9,
+        "Max": 0.95,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "Recoildamper_I",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 0.85,
+        "Max": 0.925,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "Recoildamper_II",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 0.8,
+        "Max": 0.9,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "Recoildamper_III",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "PerkSpecials": [],
+      "ModFirerate": {
+        "Active": true,
+        "Min": 0.75,
+        "Max": 0.875,
+        "Cost": 0.0
+      },
+      "ModDamage": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModReloadTime": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModRange": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "ModHandling": {
+        "Active": false,
+        "Min": 0.0,
+        "Max": 0.0,
+        "Cost": 0.0
+      },
+      "name": "Recoildamper_IV",
+      "internalEnabled": true,
+      "persistentID": 17
+    }
+  ],
+  "LastPersistentID": 17
+}

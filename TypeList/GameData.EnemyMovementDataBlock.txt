@@ -1,0 +1,21 @@
+(enum) AnimatorControllerHandleName: AnimationControllers
+Boolean: MoveSlowerWhenInPlayerRoom
+Single: MoveSlowerWithinTargetDistance
+Single: GlobalAnimSpeedMulti
+Single: PathMoveAnimSpeedMulti
+Single: RotationLerp
+Single: RotationLerpWhenNotMoving
+(enum) ES_StateEnum: DefaultMoveState
+Single: BlendIntoAttackAnim
+Single: BlendIntoScreamAnim
+Boolean: AllowMovmentBlendOutOfPathMove
+Single: PathMoveAnimDampTime
+Boolean: AllowClimbDownLadders
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

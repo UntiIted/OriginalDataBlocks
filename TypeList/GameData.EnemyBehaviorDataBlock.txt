@@ -1,0 +1,53 @@
+MinMaxValue: MeleeAttackDistance
+   Single: Min
+   Single: Max
+MinMaxValue: RangedAttackDistance
+   Single: Min
+   Single: Max
+MinMaxValue: StrafeDistance
+   Single: Min
+   Single: Max
+MinMaxValue: HowOftenToStrafe
+   Single: Min
+   Single: Max
+MinMaxValue: DistanceToStrafeWithoutLOS
+   Single: Min
+   Single: Max
+MinMaxValue: DistanceToStrafeInTargetsLOS
+   Single: Min
+   Single: Max
+MinMaxValue: DistanceToStrafeWithoutTargetsLOS
+   Single: Min
+   Single: Max
+MinMaxValue: MoveCloserDelayAfterAttack
+   Single: Min
+   Single: Max
+MinMaxValue: MoveTowardsTargetDuration
+   Single: Min
+   Single: Max
+MinMaxValue: ClosestTargetDistance
+   Single: Min
+   Single: Max
+MinMaxValue: StartWalkDuration
+   Single: Min
+   Single: Max
+MinMaxValue: StartWalkTimeoutUntilNext
+   Single: Min
+   Single: Max
+MinMaxValue: ScreamStateDelay
+   Single: Min
+   Single: Max
+Single: RushTargetDistance
+Single: ChanceToPropagateOnDetection
+Single: ChanceToPropagateOnDeath
+Single: ChanceToPropagateToMastermind
+Single: PropagationDistance
+Boolean: DisableTargetPreferenceWeight
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,156 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Sound": {
+        "On": false,
+        "SoundID": 1103958200
+      },
+      "PostEffect": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "FogSettings": {
+        "On": false,
+        "ValueA": 0.0
+      },
+      "EnemyWave": {
+        "On": true,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "Lights": {
+        "On": false,
+        "LightSettingsID": 0,
+        "Scope": "CurrentArea"
+      },
+      "name": "Apex Wave With sound",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "Sound": {
+        "On": false,
+        "SoundID": 0
+      },
+      "PostEffect": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "FogSettings": {
+        "On": false,
+        "ValueA": 0.0
+      },
+      "EnemyWave": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "Lights": {
+        "On": false,
+        "LightSettingsID": 0,
+        "Scope": "CurrentArea"
+      },
+      "name": "Thick Yellow Fog",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "Sound": {
+        "On": false,
+        "SoundID": 0
+      },
+      "PostEffect": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "FogSettings": {
+        "On": false,
+        "ValueA": 0.0
+      },
+      "EnemyWave": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "Lights": {
+        "On": true,
+        "LightSettingsID": 9,
+        "Scope": "CurrentArea"
+      },
+      "name": "Lights out",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "Sound": {
+        "On": false,
+        "SoundID": 0
+      },
+      "PostEffect": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "FogSettings": {
+        "On": false,
+        "ValueA": 0.0
+      },
+      "EnemyWave": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "Lights": {
+        "On": true,
+        "LightSettingsID": 9,
+        "Scope": "CurrentArea"
+      },
+      "name": "Warning Lights Red",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "Sound": {
+        "On": true,
+        "SoundID": 2200133294
+      },
+      "PostEffect": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "FogSettings": {
+        "On": false,
+        "ValueA": 0.0
+      },
+      "EnemyWave": {
+        "On": false,
+        "ValueA": 0.0,
+        "ValueB": 0.0,
+        "ValueC": 0.0
+      },
+      "Lights": {
+        "On": false,
+        "LightSettingsID": 0,
+        "Scope": "CurrentArea"
+      },
+      "name": "Decontamination Alarm",
+      "internalEnabled": true,
+      "persistentID": 5
+    }
+  ],
+  "LastPersistentID": 5
+}

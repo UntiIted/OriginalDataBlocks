@@ -1,0 +1,149 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "MeshColor": {
+        "a": 0.5019608,
+        "r": 0.196078435,
+        "g": 1.0,
+        "b": 0.294117659
+      },
+      "name": "Mining_Storage",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "MeshColor": {
+        "a": 0.5019608,
+        "r": 1.0,
+        "g": 0.196078435,
+        "b": 0.294117659
+      },
+      "name": "Mining_Shelf",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "MeshColor": {
+        "a": 0.5019608,
+        "r": 0.0,
+        "g": 0.196078435,
+        "b": 1.0
+      },
+      "name": "Mining_Digsite",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "MeshColor": {
+        "a": 0.539,
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.156862751
+      },
+      "name": "Mining_SubMarkers",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "MeshColor": {
+        "a": 0.5019608,
+        "r": 1.0,
+        "g": 0.5019608,
+        "b": 0.5019608
+      },
+      "name": "Mining_Refinery",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "MeshColor": {
+        "a": 0.803,
+        "r": 0.121999979,
+        "g": 1.0,
+        "b": 0.963669062
+      },
+      "name": "Mining_Expedition",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "MeshColor": {
+        "a": 0.578,
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.881999969
+      },
+      "name": "Mining_Dig_Site_SubMarkers",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "MeshColor": {
+        "a": 0.566,
+        "r": 0.641,
+        "g": 0.396138,
+        "b": 0.0
+      },
+      "name": "Mining_Refinery_SubMarkers",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "MeshColor": {
+        "a": 0.622,
+        "r": 0.16911763,
+        "g": 0.5874241,
+        "b": 1.0
+      },
+      "name": "Tech_DataCenter",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "MeshColor": {
+        "a": 0.803,
+        "r": 0.121999979,
+        "g": 1.0,
+        "b": 0.963669062
+      },
+      "name": "Tech_Expedition",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "MeshColor": {
+        "a": 0.684,
+        "r": 0.668779433,
+        "g": 1.0,
+        "b": 0.257352948
+      },
+      "name": "Tech_Lab",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "MeshColor": {
+        "a": 0.8,
+        "r": 0.121568628,
+        "g": 1.0,
+        "b": 0.9647059
+      },
+      "name": "Service_Expedition",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "MeshColor": {
+        "a": 0.466666669,
+        "r": 0.6392157,
+        "g": 0.396078438,
+        "b": 0.0
+      },
+      "name": "Service_Floodways",
+      "internalEnabled": true,
+      "persistentID": 13
+    }
+  ],
+  "LastPersistentID": 13
+}

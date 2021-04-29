@@ -1,0 +1,5007 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "officialForRelease": false,
+      "publicName": "[RR] TechMan Defense [SP] [AT] Rifle [TP] ",
+      "baseItemID": 54,
+      "weaponPersonalityID": 3,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 7,
+          "partName": "Rifle_AR15_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 9,
+          "partName": "AR15_Stock",
+          "macroText": ""
+        },
+        {
+          "allowed": true,
+          "ID": 4,
+          "partName": "AKM_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 74,
+          "partName": "FNC_Stock",
+          "macroText": ""
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 5,
+          "partName": "AR15_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 6,
+          "partName": "AR15_Barrel_ModA"
+        },
+        {
+          "allowed": true,
+          "ID": 75,
+          "partName": "AR15_Mod_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 77,
+          "partName": "Rifle_Makeshift_OverhandGrip_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": true,
+          "ID": 8,
+          "partName": "AR15_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 20,
+          "partName": "GasParts_Receiver_a"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight",
+          "macroText": "Hi Power Light"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen",
+          "macroText": "Halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent",
+          "macroText": "Incandscent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "flashlight_small_led",
+          "macroText": "LED"
+        },
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        },
+        {
+          "allowed": false,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight",
+          "macroText": "NAVTech"
+        },
+        {
+          "allowed": true,
+          "ID": 47,
+          "partName": "FlipUpSight_a_rear",
+          "macroText": "Hopper"
+        },
+        {
+          "allowed": true,
+          "ID": 48,
+          "partName": "FlipUpSight_b_rear",
+          "macroText": "Skipper"
+        },
+        {
+          "allowed": true,
+          "ID": 49,
+          "partName": "FlipUpSight_c_rear",
+          "macroText": "Japper"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": true,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": true,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 114,
+          "partName": "Grip_Straight_a"
+        },
+        {
+          "allowed": false,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": true,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": true,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": true,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": true,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": true,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": true,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": true,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [
+        {
+          "allowed": true,
+          "ID": 139,
+          "partName": "magazine_rifle_angled_medium"
+        },
+        {
+          "allowed": true,
+          "ID": 140,
+          "partName": "magazine_rifle_bent_medium"
+        },
+        {
+          "allowed": true,
+          "ID": 141,
+          "partName": "magazine_rifle_bent_medium_quick"
+        },
+        {
+          "allowed": true,
+          "ID": 142,
+          "partName": "magazine_rifle_curved_large"
+        },
+        {
+          "allowed": true,
+          "ID": 143,
+          "partName": "magazine_rifle_curved_medium"
+        },
+        {
+          "allowed": true,
+          "ID": 144,
+          "partName": "magazine_rifle_drum_large"
+        }
+      ],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": false,
+      "name": "Basic_AR15",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[RR] Malatack Armaments [SP] Rifle [AT] [TP] ",
+      "baseItemID": 77,
+      "weaponPersonalityID": 3,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 3,
+          "macroText": "Sabertooth Mäktig"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 5,
+          "macroText": "Sabertooth Carnelian"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 2,
+          "partName": "AKM_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 72,
+          "partName": "FNC_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 4,
+          "partName": "AKM_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 9,
+          "partName": "AR15_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 74,
+          "partName": "FNC_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 1,
+          "partName": "AKM_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 71,
+          "partName": "FNC_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 84,
+          "partName": "AKM_Mod_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 3,
+          "partName": "AKM_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 20,
+          "partName": "GasParts_Receiver_a"
+        },
+        {
+          "allowed": false,
+          "ID": 73,
+          "partName": "FNC_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 83,
+          "partName": "Rifle_AKM_Mod_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": true,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": true,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": true,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [
+        {
+          "allowed": true,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": true,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": true,
+          "ID": 107,
+          "partName": "muzzle_c"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Mod_Receiver_AKM",
+      "internalEnabled": true,
+      "persistentID": 105
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[RR] Malatack Armaments [SP] [AT] Ximitar Rifle [TP] ",
+      "baseItemID": 77,
+      "weaponPersonalityID": 3,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 2,
+          "partName": "AKM_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 72,
+          "partName": "FNC_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 4,
+          "partName": "AKM_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 9,
+          "partName": "AR15_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 74,
+          "partName": "FNC_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 1,
+          "partName": "AKM_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 71,
+          "partName": "FNC_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 84,
+          "partName": "AKM_Mod_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 3,
+          "partName": "AKM_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 20,
+          "partName": "GasParts_Receiver_a"
+        },
+        {
+          "allowed": false,
+          "ID": 73,
+          "partName": "FNC_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 83,
+          "partName": "Rifle_AKM_Mod_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": true,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": true,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": true,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [
+        {
+          "allowed": true,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": true,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": true,
+          "ID": 107,
+          "partName": "muzzle_c"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Mod_Barrel_Receiver_AKM",
+      "internalEnabled": true,
+      "persistentID": 107
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[RR] Malatack Armaments [SP] [AT] Golok Rifle [TP] ",
+      "baseItemID": 77,
+      "weaponPersonalityID": 3,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 2,
+          "partName": "AKM_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 72,
+          "partName": "FNC_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 4,
+          "partName": "AKM_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 9,
+          "partName": "AR15_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 74,
+          "partName": "FNC_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 1,
+          "partName": "AKM_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 71,
+          "partName": "FNC_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 84,
+          "partName": "AKM_Mod_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 3,
+          "partName": "AKM_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 20,
+          "partName": "GasParts_Receiver_a"
+        },
+        {
+          "allowed": false,
+          "ID": 73,
+          "partName": "FNC_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 83,
+          "partName": "Rifle_AKM_Mod_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": true,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": true,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": true,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_AKM_Gas",
+      "internalEnabled": true,
+      "persistentID": 102
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[RR] Henriksen [SP] [AT] Sniper [TP] ",
+      "baseItemID": 78,
+      "weaponPersonalityID": 30,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 22,
+          "partName": "Rifle_Hunter85_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 20,
+          "partName": "Rifle_GasParts_Receiver_a"
+        },
+        {
+          "allowed": true,
+          "ID": 24,
+          "partName": "Rifle_Hunter85_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 8,
+          "partName": "Rifle_AR15_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 51,
+          "partName": "Sight_Hunter_Scope"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_Hunter85",
+      "internalEnabled": true,
+      "persistentID": 79
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[SP] Eder22 [AT] [TP]",
+      "baseItemID": 79,
+      "weaponPersonalityID": 1,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 30,
+          "partName": "Pistol_P350_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 12,
+          "partName": "Pistol_Eder22_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 36,
+          "partName": "pistol_rear_sight_1"
+        },
+        {
+          "allowed": false,
+          "ID": 37,
+          "partName": "pistol_rear_sight_2"
+        },
+        {
+          "allowed": false,
+          "ID": 38,
+          "partName": "pistol_rear_sight_3"
+        },
+        {
+          "allowed": false,
+          "ID": 39,
+          "partName": "pistol_rear_sight_4"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_Eder22",
+      "internalEnabled": false,
+      "persistentID": 2
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[SP] Accrat [AT] Athena [TP]",
+      "baseItemID": 80,
+      "weaponPersonalityID": 1,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 11,
+          "partName": "Eder22_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 76,
+          "partName": "Eder22_Mod_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 29,
+          "partName": "Pistol_P350_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 31,
+          "partName": "PistolBarrelExtension_a"
+        },
+        {
+          "allowed": false,
+          "ID": 13,
+          "partName": "EmptyPart"
+        },
+        {
+          "allowed": false,
+          "ID": 32,
+          "partName": "PistolBarrelExtension_b"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 30,
+          "partName": "P350_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 12,
+          "partName": "Eder22_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 21,
+          "partName": "GaussParts_PistolReceiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 36,
+          "partName": "pistol_rear_sight_1"
+        },
+        {
+          "allowed": false,
+          "ID": 37,
+          "partName": "pistol_rear_sight_2"
+        },
+        {
+          "allowed": false,
+          "ID": 38,
+          "partName": "pistol_rear_sight_3"
+        },
+        {
+          "allowed": false,
+          "ID": 39,
+          "partName": "pistol_rear_sight_4"
+        },
+        {
+          "allowed": true,
+          "ID": 49,
+          "partName": "FlipUpSight_c_rear"
+        },
+        {
+          "allowed": true,
+          "ID": 48,
+          "partName": "FlipUpSight_b_rear"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": false,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 155,
+          "partName": "Pistol_BarrelGrip"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Special_P350_Gauss",
+      "internalEnabled": true,
+      "persistentID": 96
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "[SP] SMG [AT][TP]",
+      "baseItemID": 99,
+      "weaponPersonalityID": 2,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Fully automatic\nShort range\nLow damage",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 161,
+          "partName": "SMG_ShellingSecurity"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": false,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 114,
+          "partName": "Grip_Straight_a"
+        },
+        {
+          "allowed": true,
+          "ID": 162,
+          "partName": "SMG_ShellingSecurity_LeftHandGrip"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": true,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": false,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": false,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": false,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_SMG",
+      "internalEnabled": true,
+      "persistentID": 119
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Handgun [AT][TP]",
+      "baseItemID": 80,
+      "weaponPersonalityID": 1,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Semi automatic\nMedium range",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 11,
+          "partName": "Eder22_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 76,
+          "partName": "Eder22_Mod_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 29,
+          "partName": "Pistol_P350_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 31,
+          "partName": "PistolBarrelExtension_a"
+        },
+        {
+          "allowed": false,
+          "ID": 13,
+          "partName": "EmptyPart"
+        },
+        {
+          "allowed": false,
+          "ID": 32,
+          "partName": "PistolBarrelExtension_b"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 12,
+          "partName": "Eder22_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 21,
+          "partName": "GaussParts_PistolReceiver"
+        },
+        {
+          "allowed": false,
+          "ID": 30,
+          "partName": "Pistol_P350_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 36,
+          "partName": "pistol_rear_sight_1"
+        },
+        {
+          "allowed": false,
+          "ID": 37,
+          "partName": "pistol_rear_sight_2"
+        },
+        {
+          "allowed": false,
+          "ID": 38,
+          "partName": "pistol_rear_sight_3"
+        },
+        {
+          "allowed": false,
+          "ID": 39,
+          "partName": "pistol_rear_sight_4"
+        },
+        {
+          "allowed": false,
+          "ID": 49,
+          "partName": "FlipUpSight_c_rear"
+        },
+        {
+          "allowed": false,
+          "ID": 48,
+          "partName": "FlipUpSight_b_rear"
+        },
+        {
+          "allowed": false,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": false,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 155,
+          "partName": "Pistol_BarrelGrip"
+        },
+        {
+          "allowed": true,
+          "ID": 30,
+          "partName": "Pistol_P350_Receiver"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_P350",
+      "internalEnabled": true,
+      "persistentID": 85
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Burst Rifle [TP][RR][SP][AT]",
+      "baseItemID": 54,
+      "weaponPersonalityID": 3,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Golok"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 3,
+          "macroText": "Triple"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Golok Mäktig"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Burst fire\nMedium range\nLow recoil",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 7,
+          "partName": "Rifle_AR15_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": false,
+          "ID": 9,
+          "partName": "AR15_Stock"
+        },
+        {
+          "allowed": false,
+          "ID": 4,
+          "partName": "AKM_Stock"
+        },
+        {
+          "allowed": false,
+          "ID": 74,
+          "partName": "FNC_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 5,
+          "partName": "AR15_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 6,
+          "partName": "AR15_Barrel_ModA"
+        },
+        {
+          "allowed": false,
+          "ID": 75,
+          "partName": "AR15_Mod_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 77,
+          "partName": "Rifle_Makeshift_OverhandGrip_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 8,
+          "partName": "AR15_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 20,
+          "partName": "GasParts_Receiver_a"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        },
+        {
+          "allowed": false,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": false,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": false,
+          "ID": 47,
+          "partName": "FlipUpSight_a_rear"
+        },
+        {
+          "allowed": false,
+          "ID": 48,
+          "partName": "FlipUpSight_b_rear"
+        },
+        {
+          "allowed": false,
+          "ID": 49,
+          "partName": "FlipUpSight_c_rear"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": false,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": false,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 114,
+          "partName": "Grip_Straight_a"
+        },
+        {
+          "allowed": true,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": false,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": false,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": false,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": false,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [
+        {
+          "allowed": true,
+          "ID": 139,
+          "partName": "magazine_rifle_angled_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 140,
+          "partName": "magazine_rifle_bent_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 141,
+          "partName": "magazine_rifle_bent_medium_quick"
+        },
+        {
+          "allowed": false,
+          "ID": 142,
+          "partName": "magazine_rifle_curved_large"
+        },
+        {
+          "allowed": false,
+          "ID": 143,
+          "partName": "magazine_rifle_curved_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 144,
+          "partName": "magazine_rifle_drum_large"
+        }
+      ],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_BurstRifle",
+      "internalEnabled": true,
+      "persistentID": 100
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "DMR [RR][SP][AT][TP] ",
+      "baseItemID": 11,
+      "weaponPersonalityID": 34,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 15,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Semi automatic\nMedium to long range",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 159,
+          "partName": "VanAukenArms_SMG_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight",
+          "macroText": "Hi Power Light"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        },
+        {
+          "allowed": false,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "Sight_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 160,
+          "partName": "VanAukenArms_SMG_GripFront"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": true,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": false,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": false,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": false,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_DMR",
+      "internalEnabled": true,
+      "persistentID": 121
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[SP] Accrat [AT] [TP]",
+      "baseItemID": 80,
+      "weaponPersonalityID": 1,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 11,
+          "partName": "Eder22_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 76,
+          "partName": "Eder22_Mod_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 29,
+          "partName": "Pistol_P350_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 31,
+          "partName": "PistolBarrelExtension_a"
+        },
+        {
+          "allowed": true,
+          "ID": 13,
+          "partName": "EmptyPart"
+        },
+        {
+          "allowed": true,
+          "ID": 32,
+          "partName": "PistolBarrelExtension_b"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": true,
+          "ID": 30,
+          "partName": "P350_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 12,
+          "partName": "Eder22_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 21,
+          "partName": "GaussParts_PistolReceiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 36,
+          "partName": "pistol_rear_sight_1"
+        },
+        {
+          "allowed": false,
+          "ID": 37,
+          "partName": "pistol_rear_sight_2"
+        },
+        {
+          "allowed": false,
+          "ID": 38,
+          "partName": "pistol_rear_sight_3"
+        },
+        {
+          "allowed": false,
+          "ID": 39,
+          "partName": "pistol_rear_sight_4"
+        },
+        {
+          "allowed": true,
+          "ID": 49,
+          "partName": "FlipUpSight_c_rear"
+        },
+        {
+          "allowed": true,
+          "ID": 48,
+          "partName": "FlipUpSight_b_rear"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 155,
+          "partName": "Pistol_BarrelGrip"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Mod_P350",
+      "internalEnabled": true,
+      "persistentID": 104
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Shotgun [TP][AT]",
+      "baseItemID": 98,
+      "weaponPersonalityID": 4,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 9,
+          "macroText": "Pump"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 0,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 11,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 13,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Semi automatic\r\nShort range\r\nBlast fire with spread\r\r\n",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 157,
+          "partName": "ShotgunKoning_righthand_grip"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 118,
+          "partName": "Grip_shotgun_grip_for_barrels"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": true,
+          "ID": 111,
+          "partName": "muzzle_f"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": true,
+      "name": "Special_Shotgun",
+      "internalEnabled": true,
+      "persistentID": 118
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Revolver [AT][TP]",
+      "baseItemID": 33,
+      "weaponPersonalityID": 29,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": ""
+        },
+        {
+          "allowed": true,
+          "archetypeID": 6,
+          "macroText": "semi"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Semi automatic\r\nMedium range\r\nHigh recoil\r",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 95,
+          "partName": "Revolver_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 99,
+          "partName": "Revolver_Rhino_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 105,
+          "partName": "Hydraulic_Revolver_Grip_a"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 94,
+          "partName": "Revolver_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 97,
+          "partName": "Revolver_Rhino_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 100,
+          "partName": "Revolver_Mod_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 96,
+          "partName": "Revolver_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 98,
+          "partName": "Revolver_Rhino_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 101,
+          "partName": "Sight_Revolver_Rear_a"
+        },
+        {
+          "allowed": true,
+          "ID": 102,
+          "partName": "Sight_Revolver_Rear_b"
+        },
+        {
+          "allowed": false,
+          "ID": 103,
+          "partName": "Sight_Revolver_Optical_a"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": true,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": false,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": false,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": false,
+          "ID": 109,
+          "partName": "muzzle_d"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": true,
+      "name": "Special_Revolver",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Machinegun Advanced [AT][TP] ",
+      "baseItemID": 77,
+      "weaponPersonalityID": 33,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 8,
+          "macroText": "Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Fully automatic\r\nMedium range\nCharge up firemode\r\n",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 2,
+          "partName": "AKM_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 72,
+          "partName": "FNC_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 7,
+          "partName": "Rifle_AR15_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": false,
+          "ID": 4,
+          "partName": "AKM_Stock"
+        },
+        {
+          "allowed": false,
+          "ID": 9,
+          "partName": "AR15_Stock"
+        },
+        {
+          "allowed": false,
+          "ID": 74,
+          "partName": "FNC_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 1,
+          "partName": "AKM_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 71,
+          "partName": "FNC_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 84,
+          "partName": "AKM_Mod_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 3,
+          "partName": "AKM_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 20,
+          "partName": "GasParts_Receiver_a"
+        },
+        {
+          "allowed": false,
+          "ID": 73,
+          "partName": "FNC_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 83,
+          "partName": "Rifle_AKM_Mod_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": false,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": false,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": false,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": false,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        }
+      ],
+      "magazinesAllowed": [
+        {
+          "allowed": false,
+          "ID": 141,
+          "partName": "magazine_rifle_bent_medium_quick"
+        },
+        {
+          "allowed": false,
+          "ID": 139,
+          "partName": "magazine_rifle_angled_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 140,
+          "partName": "magazine_rifle_bent_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 142,
+          "partName": "magazine_rifle_curved_large"
+        },
+        {
+          "allowed": false,
+          "ID": 143,
+          "partName": "magazine_rifle_curved_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 144,
+          "partName": "magazine_rifle_drum_large"
+        }
+      ],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Special_AKM",
+      "internalEnabled": true,
+      "persistentID": 71
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Gauss Rifle Advanced [AT][TP][SP][RR]",
+      "baseItemID": 104,
+      "weaponPersonalityID": 36,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 16,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Very high damage\r\nLong range\r\nLow ammo reserves\r",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 2,
+          "partName": "Rifle_AKM_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 72,
+          "partName": "Rifle_FNC_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 7,
+          "partName": "Rifle_AR15_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": false,
+          "ID": 4,
+          "partName": "Rifle_AKM_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 9,
+          "partName": "Rifle_AR15_Stock"
+        },
+        {
+          "allowed": false,
+          "ID": 74,
+          "partName": "Rifle_FNC_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 1,
+          "partName": "Rifle_AKM_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 71,
+          "partName": "Rifle_FNC_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 84,
+          "partName": "Rifle_AKM_Mod_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 3,
+          "partName": "Rifle_AKM_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 20,
+          "partName": "Rifle_GasParts_Receiver_a"
+        },
+        {
+          "allowed": false,
+          "ID": 73,
+          "partName": "Rifle_FNC_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 83,
+          "partName": "Rifle_AKM_Mod_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight",
+          "macroText": "Hi Power Light"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        },
+        {
+          "allowed": false,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": false,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "Sight_NavTech_Sight"
+        },
+        {
+          "allowed": false,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": false,
+          "ID": 81,
+          "partName": "Sight_Rear_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 5,
+          "partName": "Rifle_AR15_Barrel"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": true,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        }
+      ],
+      "magazinesAllowed": [
+        {
+          "allowed": false,
+          "ID": 141,
+          "partName": "magazine_rifle_bent_medium_quick"
+        },
+        {
+          "allowed": false,
+          "ID": 139,
+          "partName": "magazine_rifle_angled_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 140,
+          "partName": "magazine_rifle_bent_medium"
+        },
+        {
+          "allowed": true,
+          "ID": 142,
+          "partName": "magazine_rifle_curved_large"
+        },
+        {
+          "allowed": false,
+          "ID": 143,
+          "partName": "magazine_rifle_curved_medium"
+        },
+        {
+          "allowed": false,
+          "ID": 144,
+          "partName": "magazine_rifle_drum_large"
+        }
+      ],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": false,
+      "name": "Special_GaussRifle",
+      "internalEnabled": true,
+      "persistentID": 123
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "Köning: [AT]",
+      "baseItemID": 33,
+      "weaponPersonalityID": 31,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Voxel"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 6,
+          "macroText": "Treffen"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 95,
+          "partName": "Revolver_Grip"
+        },
+        {
+          "allowed": false,
+          "ID": 99,
+          "partName": "Revolver_Rhino_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 105,
+          "partName": "Hydraulic_Revolver_Grip_a"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 94,
+          "partName": "Revolver_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 97,
+          "partName": "Revolver_Rhino_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 100,
+          "partName": "Revolver_Mod_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 96,
+          "partName": "Revolver_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 98,
+          "partName": "Revolver_Rhino_Receiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 101,
+          "partName": "Sight_Revolver_Rear_a"
+        },
+        {
+          "allowed": false,
+          "ID": 102,
+          "partName": "Sight_Revolver_Rear_b"
+        },
+        {
+          "allowed": true,
+          "ID": 103,
+          "partName": "Sight_Revolver_Optical_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 115,
+          "partName": "Grip_Default_Left"
+        },
+        {
+          "allowed": false,
+          "ID": 116,
+          "partName": "Grip_Default_Right"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": false,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": false,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": false,
+          "ID": 109,
+          "partName": "muzzle_d"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "GhostMagnet",
+      "internalEnabled": true,
+      "persistentID": 91
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Buckland [TP] [AT]",
+      "baseItemID": 21,
+      "weaponPersonalityID": 4,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 9,
+          "macroText": "Pump"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 0,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 11,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 13,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 41,
+          "partName": "Shotgun_590A_grip"
+        },
+        {
+          "allowed": true,
+          "ID": 44,
+          "partName": "Shotgun_benelli_grip"
+        },
+        {
+          "allowed": false,
+          "ID": 70,
+          "partName": "shotgun_grip_sawed_off"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 40,
+          "partName": "Shotgun_590A_barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 43,
+          "partName": "Shotgun_benelli_barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 67,
+          "partName": "shotgun_barrel_a"
+        },
+        {
+          "allowed": false,
+          "ID": 69,
+          "partName": "shotgun_barrel_shorty"
+        },
+        {
+          "allowed": false,
+          "ID": 82,
+          "partName": "Shotgun_Mod_Barrel_a"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 42,
+          "partName": "Shotgun_590A_receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 45,
+          "partName": "Shotgun_benelli_receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 25,
+          "partName": "Shotgun_Hydraulic_ShotgunReceiver_a"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": false,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 68,
+          "partName": "shotgun_rear_sight_1"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": false,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 117,
+          "partName": "Grip_Shotgun_Barrel_Shorty"
+        },
+        {
+          "allowed": true,
+          "ID": 118,
+          "partName": "Grip_shotgun_grip_for_barrels"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_Mossberg",
+      "internalEnabled": false,
+      "persistentID": 12
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "Buckland [AT] [TP]",
+      "baseItemID": 21,
+      "weaponPersonalityID": 4,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 2,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 9,
+          "macroText": "Pump Omneco"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 11,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 13,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 41,
+          "partName": "590A_grip"
+        },
+        {
+          "allowed": true,
+          "ID": 44,
+          "partName": "benelli_grip"
+        },
+        {
+          "allowed": true,
+          "ID": 70,
+          "partName": "shotgun_grip_sawed_off"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 40,
+          "partName": "590A_barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 43,
+          "partName": "benelli_barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 67,
+          "partName": "shotgun_barrel_a"
+        },
+        {
+          "allowed": false,
+          "ID": 69,
+          "partName": "shotgun_barrel_shorty"
+        },
+        {
+          "allowed": true,
+          "ID": 82,
+          "partName": "Shotgun_Mod_Barrel_a"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 42,
+          "partName": "590A_receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 45,
+          "partName": "benelli_receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 25,
+          "partName": "Hydraulic_ShotgunReceiver_a"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "WPN_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": true,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 68,
+          "partName": "WPN_590_sights"
+        },
+        {
+          "allowed": true,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": true,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 117,
+          "partName": "Grip_Shotgun_Barrel_Shorty"
+        },
+        {
+          "allowed": true,
+          "ID": 118,
+          "partName": "Grip_shotgun_grip_for_barrels"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Special_Mossberg",
+      "internalEnabled": true,
+      "persistentID": 108
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "Buckland Surano [AT] [TP]",
+      "baseItemID": 81,
+      "weaponPersonalityID": 4,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 2,
+          "macroText": "Pump"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 9,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 11,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 13,
+          "macroText": "Special Burst"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 41,
+          "partName": "Shotgun_590A_grip"
+        },
+        {
+          "allowed": true,
+          "ID": 44,
+          "partName": "Shotgun_benelli_grip"
+        },
+        {
+          "allowed": true,
+          "ID": 70,
+          "partName": "shotgun_grip_sawed_off"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 40,
+          "partName": "Shotgun_590A_barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 43,
+          "partName": "Shotgun_benelli_barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 67,
+          "partName": "shotgun_barrel_a"
+        },
+        {
+          "allowed": true,
+          "ID": 69,
+          "partName": "shotgun_barrel_shorty"
+        },
+        {
+          "allowed": false,
+          "ID": 82,
+          "partName": "Shotgun_Mod_Barrel_a"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": true,
+          "ID": 42,
+          "partName": "Shotgun_590A_receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 45,
+          "partName": "Shotgun_benelli_receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 25,
+          "partName": "Shotgun_Hydraulic_ShotgunReceiver_a"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 68,
+          "partName": "shotgun_rear_sight_1"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        },
+        {
+          "allowed": false,
+          "ID": 78,
+          "partName": "Sight_Reflex_a"
+        },
+        {
+          "allowed": false,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 117,
+          "partName": "Grip_Shotgun_Barrel_Shorty"
+        },
+        {
+          "allowed": false,
+          "ID": 118,
+          "partName": "Grip_shotgun_grip_for_barrels"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_Mossberg_Shorty",
+      "internalEnabled": true,
+      "persistentID": 106
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[AT] Van Auken Arms [TP] Kumasi [SP]",
+      "baseItemID": 11,
+      "weaponPersonalityID": 2,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 1,
+          "macroText": "Semi"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 6,
+          "macroText": "Special Semi"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 86,
+          "partName": "SMG_UMP_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 90,
+          "partName": "SMG_MP5_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 88,
+          "partName": "SMG_UMP_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 92,
+          "partName": "SMG_MP5_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 89,
+          "partName": "SMG_MP5_Barrel"
+        },
+        {
+          "allowed": false,
+          "ID": 85,
+          "partName": "SMG_UMP_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 87,
+          "partName": "SMG_UMP_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 91,
+          "partName": "SMG_MP5_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 93,
+          "partName": "CoilParts_SMGReceiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        },
+        {
+          "allowed": false,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": false,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 113,
+          "partName": "Grip_Angled_a"
+        },
+        {
+          "allowed": false,
+          "ID": 114,
+          "partName": "Grip_Straight_a"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": true,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": true,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": true,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": true,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": true,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": true,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": true,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_MP5",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "[AT] Van Auken Arms [TP] Surano [SP]",
+      "baseItemID": 11,
+      "weaponPersonalityID": 2,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 159,
+          "partName": "VanAukenArms_SMG_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        },
+        {
+          "allowed": false,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": false,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": false,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": false,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": false,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": false,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 160,
+          "partName": "VanAukenArms_SMG_GripFront"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": false,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": false,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": false,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": false,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": false,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": true,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": true,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": false,
+      "allowEmptyMagazineSlot": true,
+      "name": "SMG_VanAukenArms",
+      "internalEnabled": false,
+      "persistentID": 11
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[AT] Van Auken Arms [TP] [SP]",
+      "baseItemID": 11,
+      "weaponPersonalityID": 2,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": false,
+          "archetypeID": 3,
+          "macroText": "Burst"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 7,
+          "macroText": "Special Burst"
+        },
+        {
+          "allowed": false,
+          "archetypeID": 5,
+          "macroText": "Auto"
+        },
+        {
+          "allowed": true,
+          "archetypeID": 8,
+          "macroText": "Special Auto"
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 86,
+          "partName": "SMG_UMP_Grip"
+        },
+        {
+          "allowed": true,
+          "ID": 90,
+          "partName": "SMG_MP5_Grip"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 88,
+          "partName": "SMG_UMP_Stock"
+        },
+        {
+          "allowed": true,
+          "ID": 92,
+          "partName": "SMG_MP5_Stock"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 89,
+          "partName": "SMG_MP5_Barrel"
+        },
+        {
+          "allowed": true,
+          "ID": 85,
+          "partName": "SMG_UMP_Barrel"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 87,
+          "partName": "SMG_UMP_Receiver"
+        },
+        {
+          "allowed": false,
+          "ID": 91,
+          "partName": "SMG_MP5_Receiver"
+        },
+        {
+          "allowed": true,
+          "ID": 93,
+          "partName": "CoilParts_SMGReceiver"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 17,
+          "partName": "Tool_M9_Flashlight"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        }
+      ],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 52,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 79,
+          "partName": "Sight_Reflex_Makeshift_a"
+        },
+        {
+          "allowed": true,
+          "ID": 80,
+          "partName": "Sight_Reflex_Makeshift_b"
+        }
+      ],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 113,
+          "partName": "Grip_Angled_a"
+        },
+        {
+          "allowed": true,
+          "ID": 114,
+          "partName": "Grip_Straight_a"
+        }
+      ],
+      "muzzlesAllowed": [
+        {
+          "allowed": true,
+          "ID": 106,
+          "partName": "muzzle_a"
+        },
+        {
+          "allowed": true,
+          "ID": 108,
+          "partName": "muzzle_b"
+        },
+        {
+          "allowed": true,
+          "ID": 107,
+          "partName": "muzzle_c"
+        },
+        {
+          "allowed": true,
+          "ID": 109,
+          "partName": "muzzle_d"
+        },
+        {
+          "allowed": true,
+          "ID": 110,
+          "partName": "muzzle_e"
+        },
+        {
+          "allowed": true,
+          "ID": 111,
+          "partName": "muzzle_f"
+        },
+        {
+          "allowed": false,
+          "ID": 112,
+          "partName": "muzzle_silencer_a"
+        }
+      ],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Special_UMP",
+      "internalEnabled": true,
+      "persistentID": 109
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Cutting Torch",
+      "baseItemID": 71,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 150,
+          "partName": "CuttingTorchMockupModel"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 149,
+          "partName": "CuttingTorchFrontGrip"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_CuttingTorch",
+      "internalEnabled": false,
+      "persistentID": 14
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "Portable Cryobiotics Unit",
+      "baseItemID": 96,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_HealerFreezer",
+      "internalEnabled": true,
+      "persistentID": 116
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "Gossard Lock Breaker",
+      "baseItemID": 72,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 151,
+          "partName": "lock_cutter_grip_drill"
+        },
+        {
+          "allowed": true,
+          "ID": 152,
+          "partName": "lock_cutter_grip_plasma"
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 153,
+          "partName": "lock_cutter_stock_drill"
+        },
+        {
+          "allowed": true,
+          "ID": 154,
+          "partName": "lock_cutter_stock_plasma"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 147,
+          "partName": "lock_cutter_barrel_drill"
+        },
+        {
+          "allowed": true,
+          "ID": 148,
+          "partName": "lock_cutter_barrel_plasma"
+        }
+      ],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 149,
+          "partName": "lock_cutter_grip_a"
+        },
+        {
+          "allowed": true,
+          "ID": 150,
+          "partName": "lock_cutter_grip_b"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_ImpactHammer",
+      "internalEnabled": false,
+      "persistentID": 6
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Cornell Enterprises: [TP] Torch",
+      "baseItemID": 30,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 129,
+          "partName": "Tool_FlashlightMedium_Powerpack_a"
+        },
+        {
+          "allowed": true,
+          "ID": 130,
+          "partName": "Tool_FlashlightMedium_Powerpack_b"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 131,
+          "partName": "Tool_FlashlightMedium_Lightsource_a",
+          "macroText": "Sodium"
+        },
+        {
+          "allowed": true,
+          "ID": 132,
+          "partName": "Tool_FlashlightMedium_Lightsource_b",
+          "macroText": "Halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 133,
+          "partName": "Tool_FlashlightMedium_Lightsource_c",
+          "macroText": "Incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 134,
+          "partName": "Tool_FlashlightMedium_Lightsource_d",
+          "macroText": "LED"
+        },
+        {
+          "allowed": true,
+          "ID": 135,
+          "partName": "Tool_FlashlightMedium_Lightsource_e",
+          "macroText": "Bulb"
+        }
+      ],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_FlashlightBig",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "Staley LLC: Small Torch [TP]",
+      "baseItemID": 31,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": true,
+          "ID": 136,
+          "partName": "Tool_FlashlightSmall_a"
+        },
+        {
+          "allowed": true,
+          "ID": 137,
+          "partName": "Tool_FlashlightSmall_b"
+        },
+        {
+          "allowed": true,
+          "ID": 138,
+          "partName": "Tool_FlashlightSmall_c"
+        },
+        {
+          "allowed": true,
+          "ID": 14,
+          "partName": "Tool_flashlight_small_halogen"
+        },
+        {
+          "allowed": true,
+          "ID": 15,
+          "partName": "Tool_flashlight_small_incandescent"
+        },
+        {
+          "allowed": true,
+          "ID": 16,
+          "partName": "Tool_flashlight_small_led"
+        }
+      ],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_FlashlightSmall",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Enemy Scanner",
+      "baseItemID": 28,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Enemy detection\r\nEnemy tagging\r\n",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 54,
+          "partName": "EnemyScanner_makeshift_a"
+        },
+        {
+          "allowed": false,
+          "ID": 53,
+          "partName": "EnemyScanner_a"
+        },
+        {
+          "allowed": false,
+          "ID": 55,
+          "partName": "Tool_EnemyScanner_c"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 58,
+          "partName": "Tool_EnemyScanner_antenna_a"
+        },
+        {
+          "allowed": false,
+          "ID": 59,
+          "partName": "Tool_EnemyScanner_antenna_b"
+        },
+        {
+          "allowed": false,
+          "ID": 60,
+          "partName": "Tool_EnemyScanner_antenna_c"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 56,
+          "partName": "Tool_EnemyScanner_display_a"
+        },
+        {
+          "allowed": false,
+          "ID": 57,
+          "partName": "Tool_EnemyScanner_display_b"
+        },
+        {
+          "allowed": false,
+          "ID": 61,
+          "partName": "Tool_EnemyScanner_display_c"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_EnemyScanner",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Glue Gun",
+      "baseItemID": 73,
+      "weaponPersonalityID": 35,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.3,
+      "PublicGearInfo": "Enemy slowdown\r\nDoor reinforcement\r\nGlue traps\n",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [
+        {
+          "allowed": false,
+          "ID": 12,
+          "partName": "WPN_MP5_FlashlightGrip_Tungsten"
+        },
+        {
+          "allowed": false,
+          "ID": 6,
+          "partName": "WPN_MP5_FlashlightGrip_xenon"
+        }
+      ],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_GlueGun",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Mapping device",
+      "baseItemID": 74,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "Geometry scan\r\nLoads data to the map\r\n",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": false,
+          "ID": 126,
+          "partName": "MapperDisplay_a"
+        },
+        {
+          "allowed": false,
+          "ID": 127,
+          "partName": "MapperDisplay_b"
+        },
+        {
+          "allowed": true,
+          "ID": 158,
+          "partName": "MapperBattery_c"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": false,
+          "ID": 124,
+          "partName": "MapperBattery_a"
+        },
+        {
+          "allowed": false,
+          "ID": 125,
+          "partName": "MapperBattery_b"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": false,
+          "ID": 123,
+          "partName": "MapperBase_a"
+        },
+        {
+          "allowed": false,
+          "ID": 122,
+          "partName": "MapperBase_b"
+        },
+        {
+          "allowed": true,
+          "ID": 156,
+          "partName": "MapperBase_c"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_Mapper",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "officialForRelease": false,
+      "publicName": "[AT] SMG Test",
+      "baseItemID": 76,
+      "weaponPersonalityID": 2,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [
+        {
+          "allowed": true,
+          "archetypeID": 3
+        }
+      ],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 57,
+          "partName": "SMG_Grip",
+          "macroText": ""
+        }
+      ],
+      "structualModsAllowedStock": [
+        {
+          "allowed": true,
+          "ID": 58,
+          "partName": "SMG_Stock_1",
+          "macroText": ""
+        },
+        {
+          "allowed": true,
+          "ID": 59,
+          "partName": "SMG_Stock_2"
+        },
+        {
+          "allowed": true,
+          "ID": 60,
+          "partName": "SMG_Stock_3"
+        }
+      ],
+      "structualModsAllowedBarrel": [
+        {
+          "allowed": true,
+          "ID": 61,
+          "partName": "SMG_Barrel_1"
+        },
+        {
+          "allowed": true,
+          "ID": 62,
+          "partName": "SMG_Barrel_2"
+        },
+        {
+          "allowed": true,
+          "ID": 63,
+          "partName": "SMG_Barrel_3"
+        }
+      ],
+      "structualModsAllowedReceiver": [
+        {
+          "allowed": true,
+          "ID": 64,
+          "partName": "SMG_Receiver_1"
+        },
+        {
+          "allowed": true,
+          "ID": 65,
+          "partName": "SMG_Receiver_2"
+        },
+        {
+          "allowed": true,
+          "ID": 66,
+          "partName": "SMG_Receiver_3"
+        }
+      ],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [
+        {
+          "allowed": true,
+          "ID": 44,
+          "partName": "WPN_NavTech_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 31,
+          "partName": "WPN_AR15_Folding_Sight"
+        },
+        {
+          "allowed": true,
+          "ID": 32,
+          "partName": "ApertureSightA"
+        }
+      ],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": false,
+      "allowEmptyToolSlot": false,
+      "allowEmptySightSlot": false,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_SMG_old",
+      "internalEnabled": false,
+      "persistentID": 56
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Trip Mine",
+      "baseItemID": 37,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 16.67,
+      "PublicGearInfo": "Laser triggered explosion\nPlace on walls and floors",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 166,
+          "partName": "tripmine"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [
+        {
+          "allowed": true,
+          "ID": 167,
+          "partName": "tripmine_LeftHand"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": false,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": false,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_StickyMine",
+      "internalEnabled": true,
+      "persistentID": 113
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Sentry Gun",
+      "baseItemID": 97,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 0.285,
+      "PublicGearInfo": "Deployable\r\nAutomatic enemy detection\r\nHigh ammo reserves",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [
+        {
+          "allowed": true,
+          "ID": 165,
+          "partName": "SentryGunModelFirst"
+        }
+      ],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [
+        {
+          "allowed": false,
+          "ID": 116,
+          "partName": "Grip_Default_Right"
+        },
+        {
+          "allowed": true,
+          "ID": 164,
+          "partName": "SentryGunModel_LeftHand"
+        }
+      ],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_SentryGun",
+      "internalEnabled": true,
+      "persistentID": 117
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Marker Gun",
+      "baseItemID": 39,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_MarkerGun",
+      "internalEnabled": false,
+      "persistentID": 114
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Antibiotics Spray",
+      "baseItemID": 70,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": true,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "Basic_Antibiotics",
+      "internalEnabled": false,
+      "persistentID": 115
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Sledgehammer",
+      "baseItemID": 100,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "SledgeHammer",
+      "internalEnabled": true,
+      "persistentID": 120
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Hacking Tool",
+      "baseItemID": 53,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "HackingTool",
+      "internalEnabled": true,
+      "persistentID": 122
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Grinder",
+      "baseItemID": 105,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "SledgeHammer_Krotzaren",
+      "internalEnabled": true,
+      "persistentID": 124
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Driveshaft",
+      "baseItemID": 106,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "SledgeHammer_Mozaren",
+      "internalEnabled": true,
+      "persistentID": 125
+    },
+    {
+      "officialForRelease": true,
+      "publicName": "Mace",
+      "baseItemID": 107,
+      "weaponPersonalityID": 0,
+      "showAmmoInGUI": false,
+      "archetypesAllowed": [],
+      "ClassAmmoCostFactor": 1.0,
+      "PublicGearInfo": "",
+      "dropPeriodRange": [],
+      "structualModsAllowedGrip": [],
+      "structualModsAllowedStock": [],
+      "structualModsAllowedBarrel": [],
+      "structualModsAllowedReceiver": [],
+      "visualModsAllowed": [],
+      "toolsAllowed": [],
+      "sightsAllowed": [],
+      "gripsAllowed": [],
+      "muzzlesAllowed": [],
+      "magazinesAllowed": [],
+      "allowEmptyStructualModSlot": true,
+      "allowEmptyVisualModSlot": true,
+      "allowEmptyToolSlot": true,
+      "allowEmptySightSlot": true,
+      "allowEmptyGripSlot": true,
+      "allowEmptyMuzzleSlot": true,
+      "allowEmptyMagazineSlot": true,
+      "name": "SledgeHammer_Forgoraren",
+      "internalEnabled": true,
+      "persistentID": 126
+    }
+  ],
+  "LastPersistentID": 126
+}

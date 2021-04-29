@@ -1,0 +1,12 @@
+Int32: SpawnsPerZone
+List<BigPickupSpawnData>: SpawnData
+   UInt32: ItemID
+   Single: Weight
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

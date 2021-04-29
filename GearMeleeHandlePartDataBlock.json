@@ -1,0 +1,126 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S10"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_1",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_10.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S11"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_10",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_7.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S12"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_7",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_8.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S13"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_8",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_5.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S14"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_5",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_3.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S15"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_3",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_6.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S16"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_6",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_9.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S17"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_9",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S18"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_2",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_4.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S19"
+      },
+      "Aligns": [],
+      "name": "Handle_Hammer_4",
+      "internalEnabled": true,
+      "persistentID": 12
+    }
+  ],
+  "LastPersistentID": 13
+}

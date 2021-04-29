@@ -1,0 +1,25 @@
+Single: m_pauseBeforeStart
+Single: m_pauseBetweenGroups
+Single: m_wavePauseMin_atCost
+Single: m_wavePauseMax_atCost
+Single: m_wavePauseMin
+Single: m_wavePauseMax
+(enum) List<eEnemyType>: m_populationFilter
+(enum) eEnemyFilterType: m_filterType
+Single: m_chanceToRandomizeSpawnDirectionPerWave
+Single: m_chanceToRandomizeSpawnDirectionPerGroup
+Single: m_populationPointsTotal
+Single: m_populationPointsPerWaveStart
+Single: m_populationPointsPerWaveEnd
+Single: m_populationPointsMinPerGroup
+Single: m_populationPointsPerGroupStart
+Single: m_populationPointsPerGroupEnd
+Single: m_populationRampOverTime
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

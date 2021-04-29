@@ -1,0 +1,47 @@
+String: PublicName
+String: Description
+(enum) eWeaponFireMode: FireMode
+UInt32: RecoilDataID
+Single: Damage
+Vector2: DamageFalloff
+Single: StaggerDamageMulti
+Single: PrecisionDamageMulti
+Int32: DefaultClipSize
+Single: DefaultReloadTime
+Single: CostOfBullet
+Single: ShotDelay
+Boolean: PiercingBullets
+Int32: PiercingDamageCountLimit
+Single: HipFireSpread
+Single: AimSpread
+Single: EquipTransitionTime
+List<WeaponAnimSequenceItem>: EquipSequence
+   Single: TriggerTime
+   (enum) eWeaponAnimSequenceItemType: Type
+   String: StringData
+Single: AimTransitionTime
+List<WeaponAnimSequenceItem>: AimSequence
+   Single: TriggerTime
+   (enum) eWeaponAnimSequenceItemType: Type
+   String: StringData
+Single: BurstDelay
+Int32: BurstShotCount
+Int32: ShotgunBulletCount
+Int32: ShotgunConeSize
+Int32: ShotgunBulletSpread
+Single: SpecialChargetupTime
+Single: SpecialCooldownTime
+Single: SpecialSemiBurstCountTimeout
+Single: Sentry_StartFireDelay
+Single: Sentry_RotationSpeed
+Single: Sentry_DetectionMaxRange
+Single: Sentry_DetectionMaxAngle
+Boolean: Sentry_FireTowardsTargetInsteadOfForward
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,5 @@
+None
+Char_G
+Char_T
+Char_F
+Char_O

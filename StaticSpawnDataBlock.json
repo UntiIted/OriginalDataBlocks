@@ -1,0 +1,40 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "On": true,
+      "RegisterForNodeUpdate": true,
+      "RandomType": "SessionSeed",
+      "Path": "Assets/AssetPrefabs/Infestation/InfectionSpitter.prefab",
+      "PlacementType": "OnNodes_WallsAndCeiling",
+      "RadiusToAvoidMasked": 2.5,
+      "MaxHeightFromNodes": 15.0,
+      "PushOutScaleAlongNormal": 0.1,
+      "SpreadScale": 3.0,
+      "ClusterChance": 0.25,
+      "MinScale": 0.5,
+      "MaxScale": 1.5,
+      "name": "InfectionSpitter",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "On": true,
+      "RegisterForNodeUpdate": false,
+      "RandomType": "FixedSeed",
+      "Path": "Assets/AssetPrefabs/Infestation/World_EggSack_Small_Collision.prefab",
+      "PlacementType": "OnNodes_WallsAndCeiling",
+      "RadiusToAvoidMasked": 2.5,
+      "MaxHeightFromNodes": 25.0,
+      "PushOutScaleAlongNormal": 0.1,
+      "SpreadScale": 1.5,
+      "ClusterChance": 0.75,
+      "MinScale": 0.5,
+      "MaxScale": 2.0,
+      "name": "EggSack_Spreadout",
+      "internalEnabled": true,
+      "persistentID": 3
+    }
+  ],
+  "LastPersistentID": 3
+}

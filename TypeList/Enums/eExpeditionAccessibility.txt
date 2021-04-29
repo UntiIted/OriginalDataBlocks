@@ -1,0 +1,5 @@
+Normal
+AlwayBlock
+AlwaysAllow
+BlockedAndScrambled
+UseCustomProgressionLock

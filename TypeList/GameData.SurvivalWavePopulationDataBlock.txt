@@ -1,0 +1,13 @@
+UInt32: WaveRoleWeakling
+UInt32: WaveRoleStandard
+UInt32: WaveRoleSpecial
+UInt32: WaveRoleMiniBoss
+UInt32: WaveRoleBoss
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

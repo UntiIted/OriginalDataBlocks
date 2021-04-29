@@ -1,0 +1,28 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "weaponDetectionDistanceMin": 10.0,
+      "weaponDetectionDistanceMax": 50.0,
+      "detectionNodeDistanceMax": 2.0,
+      "movementDetectionDistance": 8.0,
+      "detectionBuildupSpeed": 2.0,
+      "detectionCooldownSpeed": 0.075,
+      "name": "DefaultDetection",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "weaponDetectionDistanceMin": 10.0,
+      "weaponDetectionDistanceMax": 50.0,
+      "detectionNodeDistanceMax": 2.0,
+      "movementDetectionDistance": 20.0,
+      "detectionBuildupSpeed": 2.0,
+      "detectionCooldownSpeed": 0.075,
+      "name": "LongerRangeDetection",
+      "internalEnabled": true,
+      "persistentID": 28
+    }
+  ],
+  "LastPersistentID": 28
+}

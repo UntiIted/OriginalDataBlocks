@@ -1,0 +1,4 @@
+IdleTalk
+PersonalEvent
+TeamEvent
+CombatEvent

@@ -1,0 +1,8 @@
+Semi
+Burst
+Auto
+SemiBurst
+SentryGunSemi
+SentryGunAuto
+SentryGunBurst
+SentryGunShotgunSemi

@@ -1,0 +1,15 @@
+String: PublicName
+(enum) LootCategory: Category
+Int32: Weight
+List<Loot>: LootCollection
+   Int32: m_amountAbs
+   (enum) LootType: m_type
+   Single: m_amountRel
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

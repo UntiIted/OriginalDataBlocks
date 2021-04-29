@@ -1,0 +1,6568 @@
+{
+  "Headers": [
+    {
+      "AboveBlockID": 9,
+      "LabelText": "Expedition",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 45,
+      "LabelText": "Lab",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 1,
+      "LabelText": "Datacenter",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 65,
+      "LabelText": "Destroyed",
+      "FoldoutStatus": true
+    }
+  ],
+  "Blocks": [
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/Signs/sign_2x2_tech_wallflat.prefab",
+            "function": "Sign",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_200x50x200",
+        "BoundingVolume": 2000.0
+      },
+      "name": "Tech_sign_200x50x200",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 3.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/Signs/sign_4x3_tech_wallflat.prefab",
+            "function": "Sign",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_400x50x300",
+        "BoundingVolume": 6000.0
+      },
+      "name": "Tech_sign_400x50x300",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_700x50x300",
+        "BoundingVolume": 10500.0
+      },
+      "name": "Tech_sign_700x50x300",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_700x50x700",
+        "BoundingVolume": 24500.0
+      },
+      "name": "Tech_sign_700x50x700",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            10
+          ],
+          [
+            9
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            8
+          ],
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Floor.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/AirSupply_Floor.prefab",
+            "function": "AirSupply",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+            "function": "SmallPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_weak_box_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_security_box_01.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_HSU_120x120x240_r.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_05.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_generator_120x120x240_u.prefab",
+            "function": "PowerGenerator",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Bulkhead_Door_Controller.prefab",
+            "function": "BulkheadDoorController",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 10,
+        "RotationNoise": 0.0,
+        "EditorMesh": "",
+        "BoundingVolume": 0.0
+      },
+      "name": "tech_function_fallback",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [],
+          [
+            0
+          ],
+          [],
+          [
+            1,
+            3
+          ],
+          [
+            3
+          ],
+          [],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/AirSupply_2x3.prefab",
+            "function": "AirSupply",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Floor.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_wall_200x50x300/Tech_function_wall_200x50x300_sign_2x2_01.prefab",
+            "function": "Sign",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/tech_function_wall_200x50x300_locker_01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_fallback_200x50x300",
+        "BoundingVolume": 3000.0
+      },
+      "name": "Tech_function_wall_200x50x300",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            1,
+            2,
+            3
+          ],
+          [],
+          [
+            0
+          ],
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_weak_box_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V04.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V05.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V06.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 17.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mini_120x120x120",
+        "BoundingVolume": 1728.0
+      },
+      "name": "Tech_function_submarker_120x120x120",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            6,
+            7,
+            8
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            10
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_secure.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_weak.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Mini.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V02.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V03.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V04.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V05.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_function_submarker_120x50x120/Tech_function_submarker_120x50x120_V06.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 3.0,
+            "function": "None",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_120x50x120",
+        "BoundingVolume": 720.0
+      },
+      "name": "Tech_function_submarker_120x50x120",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_security_box_01.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 11.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mini_120x120x120",
+        "BoundingVolume": 1728.0
+      },
+      "name": "Tech_function_submarker_security_120x120x120",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+            "function": "SmallPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 11.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_submarker_60x30x60",
+        "BoundingVolume": 108.0
+      },
+      "name": "Tech_function_pickup_60x60x30",
+      "internalEnabled": true,
+      "persistentID": 68
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 11.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_cover_60x120x120",
+        "BoundingVolume": 864.0
+      },
+      "name": "Tech_function_big_pickup_60x120x120",
+      "internalEnabled": true,
+      "persistentID": 71
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            5
+          ],
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_security_01.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_weak_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Tech_locker_terminal_200x300x50_01.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 50.0,
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Tech_container_locker_Pickup_200x300x50_01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Tech_container_locker_Big_Pickup_200x300x50_01.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "Tech_container_locker_200x300x50",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Bulkhead_Door_Controller.prefab",
+            "function": "BulkheadDoorController",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "Tech_bulkhead_controller_200x300x50",
+      "internalEnabled": true,
+      "persistentID": 75
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_04.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_06.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_05.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.25,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "",
+        "BoundingVolume": 0.0
+      },
+      "name": "Tech_light_submarker_door_4x4",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_01.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_02.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_03.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_04.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_05.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_06.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_07.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_08.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_09.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_10.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_11.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_12.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 18.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dead_body_floor_85x195x35",
+        "BoundingVolume": 580.125
+      },
+      "name": "Tech_corpse_floor_85x195x35",
+      "internalEnabled": true,
+      "persistentID": 63
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.25,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_edge_75x135x90/tech_corpse_edge_75x135x90_01.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.25,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_edge_75x135x90/tech_corpse_edge_75x135x90_02.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.4,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_edge_75x135x90/tech_corpse_edge_75x135x90_03.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_edge_75x135x90/tech_corpse_edge_75x135x90_04.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 7.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dead_body_edge_75x135x90",
+        "BoundingVolume": 911.25
+      },
+      "name": "Tech_corpse_edge_75x135x90",
+      "internalEnabled": true,
+      "persistentID": 64
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V02.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V03.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V04.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V05.prefab",
+            "function": "HydroStatisUnitCluster",
+            "Shard": "S20"
+          },
+          {
+            "weight": 3.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dead_body_floor_400x400x35",
+        "BoundingVolume": 5600.0
+      },
+      "name": "Tech_corpse_floor_400x400x35",
+      "internalEnabled": true,
+      "persistentID": 69
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            8,
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            12,
+            0
+          ],
+          [
+            8,
+            6,
+            5,
+            10,
+            11,
+            2,
+            0,
+            9,
+            7,
+            1,
+            3,
+            4,
+            12
+          ],
+          [],
+          [],
+          [
+            0,
+            9,
+            10,
+            6,
+            8,
+            5,
+            11,
+            2,
+            7
+          ],
+          [
+            6,
+            0,
+            1,
+            2,
+            5,
+            8,
+            9,
+            10,
+            12,
+            3,
+            11,
+            7,
+            4
+          ],
+          [
+            0,
+            9,
+            10,
+            6,
+            8,
+            5,
+            11,
+            2,
+            7,
+            1,
+            12,
+            3,
+            4
+          ],
+          [],
+          [
+            0,
+            9,
+            10,
+            6,
+            8,
+            5,
+            11,
+            2,
+            7,
+            1,
+            12,
+            3,
+            4
+          ],
+          [
+            6,
+            0,
+            1,
+            2,
+            5,
+            8,
+            9,
+            10,
+            12,
+            3,
+            11,
+            7,
+            4
+          ],
+          [
+            0,
+            9,
+            10,
+            6,
+            8,
+            5,
+            11,
+            2,
+            7,
+            1,
+            12,
+            3,
+            4
+          ],
+          [
+            6,
+            1,
+            2,
+            5,
+            8,
+            9,
+            10,
+            12,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          [
+            0,
+            9,
+            10,
+            6,
+            8,
+            5,
+            11,
+            2,
+            7
+          ],
+          [
+            1,
+            10,
+            11
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_02_A2.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_03.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_04.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_05.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_gen_05.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_06.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_07.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_08.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_09.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_10.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_I_1600x1600x800/DataCenter_medium_I_1600x1600x800_HA_11.prefab",
+            "function": "None",
+            "Shard": "S2"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 5.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_medium_I_1600x1600x800",
+        "BoundingVolume": 2048000.0
+      },
+      "name": "DataCenter_medium_I_1600x1600x800",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            5,
+            1,
+            3,
+            0,
+            2,
+            4,
+            6
+          ],
+          [],
+          [],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            4,
+            1,
+            3,
+            5,
+            6
+          ],
+          [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4,
+            6
+          ],
+          [],
+          [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            1,
+            3,
+            5,
+            6
+          ],
+          [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4,
+            6
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_02.prefab",
+            "function": "ResourceContainerCluster",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_03.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_04.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_05.prefab",
+            "function": "ResourceContainerCluster",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_06.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_open_1200x1200x800/DataCenter_medium_open_1200x1200x800_HA_07.prefab",
+            "function": "None",
+            "Shard": "S2"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 4.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Lab_medium_open_1200x1200x800",
+        "BoundingVolume": 1152000.0
+      },
+      "name": "DataCenter_medium_open_1200x1200x800",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            3,
+            4,
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            5,
+            6,
+            2,
+            7
+          ],
+          [],
+          [],
+          [
+            3,
+            4,
+            1,
+            2,
+            5,
+            6,
+            7,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            1,
+            2,
+            5,
+            6,
+            7,
+            0
+          ],
+          [],
+          [
+            3,
+            4,
+            1,
+            2,
+            5,
+            6,
+            7,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            1,
+            2,
+            5,
+            6,
+            7,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            1,
+            2,
+            5,
+            6,
+            7,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            5,
+            6,
+            7
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_01.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_03.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_04.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_05.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_06.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_07.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.67,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_medium_long_1600x3800x800/DataCenter_medium_long_1600x3800x800_HA_08.prefab",
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 8.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_medium_long_1600x3800x800",
+        "BoundingVolume": 4864000.0
+      },
+      "name": "DataCenter_medium_long_1600x3800x800",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            1,
+            2,
+            5,
+            0,
+            3,
+            4
+          ],
+          [
+            2,
+            1,
+            5,
+            3,
+            4,
+            0
+          ],
+          [],
+          [],
+          [
+            1,
+            5,
+            2,
+            4,
+            0,
+            3
+          ],
+          [
+            1,
+            5,
+            0,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            5,
+            2,
+            0,
+            3
+          ],
+          [],
+          [
+            4,
+            1,
+            5,
+            2,
+            0,
+            3
+          ],
+          [
+            1,
+            5,
+            0,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            5,
+            2,
+            0,
+            3
+          ],
+          [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            2,
+            4,
+            0,
+            3
+          ],
+          [
+            1,
+            2,
+            5
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_large_2600x4400x800/DataCenter_large_2600x4400x800_HA_01.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_large_2600x4400x800/DataCenter_large_2600x4400x800_HA_02.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_large_2600x4400x800/DataCenter_large_2600x4400x800_HA_05.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_large_2600x4400x800/DataCenter_large_2600x4400x800_HA_04.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_large_2600x4400x800/DataCenter_large_2600x4400x800_HA_06.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_large_2600x4400x800/DataCenter_large_2600x4400x800_HA_03.prefab",
+            "function": "None",
+            "Shard": "S4"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 10.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_large_2600x4400x800",
+        "BoundingVolume": 9152000.0
+      },
+      "name": "DataCenter_large_2600x4400x800",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            6,
+            0,
+            4,
+            3,
+            1,
+            5,
+            7,
+            2
+          ],
+          [],
+          [],
+          [
+            4,
+            0,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          [
+            4,
+            0,
+            3,
+            1,
+            2,
+            5,
+            7,
+            6
+          ],
+          [],
+          [
+            4,
+            0,
+            3,
+            1,
+            2,
+            6,
+            5,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          [
+            4,
+            0,
+            3,
+            1,
+            2,
+            6,
+            5,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            0,
+            3
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V01.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V02.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V03.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V05.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V06.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_V07.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1E-06,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_1000x500x800/DataCenter_wall_1000x400x800_bulk_V01.prefab",
+            "function": "None",
+            "Shard": "S5"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 4.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/DataCenter_wall_1000x500x800",
+        "BoundingVolume": 400000.0
+      },
+      "name": "DataCenter_wall_1000x500x800",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            4,
+            5,
+            6,
+            2
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            3,
+            2,
+            5,
+            0,
+            1,
+            4,
+            6
+          ],
+          [
+            0,
+            1,
+            4,
+            3,
+            2,
+            5,
+            6
+          ],
+          [],
+          [
+            0,
+            1,
+            4,
+            3,
+            2,
+            5,
+            6
+          ],
+          [
+            3,
+            2,
+            5,
+            0,
+            1,
+            4,
+            6
+          ],
+          [
+            0,
+            1,
+            4,
+            3,
+            2,
+            5,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            0,
+            2,
+            6,
+            4,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V03.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 0.6,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V05.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V06.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.6,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_I_600x400x400/DataCenter_corridor_I_600x400x400_V04_V2.prefab",
+            "function": "None",
+            "Shard": "S4"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_corridor_I_600x400x400",
+        "BoundingVolume": 96000.0
+      },
+      "name": "DataCenter_corridor_I_600x400x400",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [],
+          [],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [],
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_recess_I_800x400x400/DataCenter_corridor_recess_I_800x400x400_V01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_recess_I_800x400x400/DataCenter_corridor_recess_I_800x400x400_V02.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_recess_I_800x400x400/DataCenter_corridor_recess_I_800x400x400_V03.prefab",
+            "function": "None",
+            "Shard": "S2"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 4.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_corridor_recess_I_800x400x400",
+        "BoundingVolume": 128000.0
+      },
+      "name": "DataCenter_corridor_recess_I_800x400x400",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            11
+          ],
+          [
+            2,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          [],
+          [],
+          [],
+          [
+            1,
+            2,
+            3,
+            9,
+            4,
+            5,
+            7,
+            8
+          ],
+          [
+            1,
+            2,
+            3,
+            9,
+            0,
+            4,
+            5,
+            7,
+            8
+          ],
+          [],
+          [
+            1,
+            2,
+            3,
+            9,
+            4,
+            5,
+            7,
+            8
+          ],
+          [
+            1,
+            2,
+            3,
+            9,
+            4,
+            5,
+            7,
+            8
+          ],
+          [
+            1,
+            2,
+            3,
+            9,
+            4,
+            5,
+            7,
+            8
+          ],
+          [
+            5
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V01.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.2,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.2,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V03.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.2,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V04.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V05.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.2,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V06.prefab",
+            "function": "ResourceContainerCluster",
+            "Shard": "S3"
+          },
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V07.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V08.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V09.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V10.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_V11.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1E-06,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_servers_600x400/DataCenter_corridor_wall_servers_600x400_bulk_V01.prefab",
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_corridor_wall_600x400",
+        "BoundingVolume": 0.0
+      },
+      "name": "DataCenter_corridor_wall_servers_600x400",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          [
+            1,
+            8,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V01.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V02.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V03.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V04.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V06.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V05.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V07.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V08.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_200x400/DataCenter_corridor_wall_200x400_V09.prefab",
+            "function": "Terminal",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S4"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_corridor_wall_200x400",
+        "BoundingVolume": 0.0
+      },
+      "name": "DataCenter_corridor_wall_200x400",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            3,
+            4,
+            0,
+            1,
+            6,
+            2,
+            5
+          ],
+          [],
+          [],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            4,
+            6,
+            3,
+            2,
+            5
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            6,
+            2,
+            5
+          ],
+          [],
+          [
+            3,
+            4,
+            0,
+            1,
+            6,
+            2,
+            5
+          ],
+          [
+            0,
+            1,
+            4,
+            6,
+            3,
+            2,
+            5
+          ],
+          [
+            3,
+            4,
+            0,
+            1,
+            6,
+            2,
+            5
+          ],
+          [],
+          [
+            1,
+            3,
+            4,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V01.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V02.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V03.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V05.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V06.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_corridor_wall_400x400x400/DataCenter_corridor_wall_400x400x400_V07.prefab",
+            "function": "None",
+            "Shard": "S5"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_DataCenter_corridor_wall_400x400x400",
+        "BoundingVolume": 64000.0
+      },
+      "name": "DataCenter_corridor_wall_400x400x400",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a1.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a2.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a3.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a4.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a5.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 0.2,
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_server_112x50x34",
+        "BoundingVolume": 190.4
+      },
+      "name": "DataCenter_server_off_112x50x34",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a1_on.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a2_on.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a3_on.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a4_on.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Prop/prop_generic/kit_DataCenter/prop_DataCenter_1x1_ServerContents_a5_on.prefab",
+            "function": "None",
+            "Shard": "S2"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_server_112x50x34",
+        "BoundingVolume": 190.4
+      },
+      "name": "DataCenter_server_on_112x50x34",
+      "internalEnabled": true,
+      "persistentID": 61
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 8.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_114x102x254/DataCenter_server_rack_114x102x254_V01.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_114x102x254/DataCenter_server_rack_114x102x254_V02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_114x102x254/DataCenter_server_rack_114x102x254_V03.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 8.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_114x102x254/DataCenter_server_rack_114x102x254_V04.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 4.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_114x102x254/DataCenter_server_rack_114x102x254_V05.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_on_114x102x254/DataCenter_server_rack_on_114x102x254_V01.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_server_rack_120x102x254",
+        "BoundingVolume": 3108.96
+      },
+      "name": "DataCenter_server_rack_120x102x254",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_server_rack_on_114x102x254/DataCenter_server_rack_on_114x102x254_V01.prefab",
+            "function": "None",
+            "Shard": "S4"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_server_rack_120x102x254",
+        "BoundingVolume": 3108.96
+      },
+      "name": "DataCenter_server_rack_on_120x102x254",
+      "internalEnabled": true,
+      "persistentID": 62
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            8
+          ],
+          [],
+          [],
+          [
+            9
+          ],
+          [
+            0
+          ],
+          [
+            1,
+            0,
+            4,
+            10
+          ],
+          [],
+          [
+            1,
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [],
+          [],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V01.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V02.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V03.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V04_2.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V05.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_HSU_120x120x240_r.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S5"
+          },
+          {
+            "weight": 3.0,
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_generator_120x120x240_u.prefab",
+            "function": "PowerGenerator",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_120x120x280/DataCenter_submarker_120x120x280_V06.prefab",
+            "function": "None",
+            "Shard": "S5"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 90,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/DataCenter_submarker_120x120x280",
+        "BoundingVolume": 4032.0
+      },
+      "name": "DataCenter_submarker_120x120x280",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_120x120x120/DataCenter_submarker_table_120x120x120_V01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_120x120x120/DataCenter_submarker_table_120x120x120_V02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_120x120x120/DataCenter_submarker_table_120x120x120_V03.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_120x120x120/DataCenter_submarker_table_120x120x120_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_120x120x120/DataCenter_submarker_table_120x120x120_V05.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_120x120x120/DataCenter_submarker_table_120x120x120_V06.prefab",
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dig_site_table_120x120x120",
+        "BoundingVolume": 1728.0
+      },
+      "name": "DataCenter_submarker_table_120x120x120",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            8,
+            6,
+            5,
+            4,
+            1,
+            7
+          ],
+          [],
+          [],
+          [
+            4,
+            6,
+            5
+          ],
+          [
+            4,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          [
+            4,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          [],
+          [
+            4,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          [
+            4,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          [
+            4,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          [],
+          [
+            0,
+            5,
+            7,
+            9,
+            6,
+            3,
+            4
+          ],
+          [
+            4,
+            6,
+            5
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V02.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V03.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V04.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V05.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V06.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V07.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V08.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V09.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_600x240x800/DataCenter_submarker_600x240x800_V10.prefab",
+            "function": "None",
+            "Shard": "S2"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Datacenter_600x240x800",
+        "BoundingVolume": 115200.0
+      },
+      "name": "DataCenter_submarker_600x240x800",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_240x120x120/DataCenter_submarker_table_240x120x120_V01.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_240x120x120/DataCenter_submarker_table_240x120x120_V02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 3.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_240x120x120/DataCenter_submarker_table_240x120x120_V03.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 3.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_240x120x120/DataCenter_submarker_table_240x120x120_V04.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 3.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_240x120x120/DataCenter_submarker_table_240x120x120_V05.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 3.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_table_240x120x120/DataCenter_submarker_table_240x120x120_V06.prefab",
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dig_site_table_120x240x120",
+        "BoundingVolume": 3456.0
+      },
+      "name": "DataCenter_submarker_table_240x120x120",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            8,
+            3
+          ],
+          [],
+          [],
+          [
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            8,
+            1
+          ],
+          [
+            3,
+            2,
+            4,
+            8
+          ],
+          [],
+          [
+            3,
+            2,
+            4,
+            8
+          ],
+          [
+            3,
+            2,
+            4,
+            8
+          ],
+          [
+            3,
+            2,
+            4,
+            8
+          ],
+          [],
+          [
+            7
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V01.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 0.1,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V01_terminal.prefab",
+            "function": "Terminal",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V02.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V03.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V04.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V05.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V06.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V07.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 0.6,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x400/DataCenter_submarker_240x240x400_V08.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S4"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_240x240x400",
+        "BoundingVolume": 23040.0
+      },
+      "name": "DataCenter_submarker_240x240x400",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            3
+          ],
+          [
+            0,
+            2,
+            1,
+            5,
+            3,
+            4,
+            7
+          ],
+          [],
+          [
+            0,
+            2,
+            1,
+            5,
+            3
+          ],
+          [
+            0,
+            1,
+            5,
+            3
+          ],
+          [
+            0,
+            2,
+            1,
+            5,
+            3
+          ],
+          [],
+          [
+            6
+          ],
+          [
+            0,
+            10
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V01.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V02.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V03.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V05.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V06.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V07.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V08.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 0.6,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x120x280/DataCenter_submarker_240x120x280_V09.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 3.0,
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_storage_240x120x240/mining_storage_submarker_HSU_240x120x240_V08.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S5"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_240x120x280",
+        "BoundingVolume": 8064.0
+      },
+      "name": "DataCenter_submarker_240x120x280",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            4
+          ],
+          [],
+          [],
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x800/DataCenter_submarker_240x240x800_V01.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x800/DataCenter_submarker_240x240x800_V02.prefab",
+            "function": "None",
+            "Shard": "S3"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x800/DataCenter_submarker_240x240x800_V03.prefab",
+            "function": "None",
+            "Shard": "S4"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x800/DataCenter_submarker_240x240x800_V04.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_submarker_240x240x800/DataCenter_submarker_240x240x800_V05.prefab",
+            "function": "None",
+            "Shard": "S2"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S3"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_240x240x800",
+        "BoundingVolume": 46080.0
+      },
+      "name": "DataCenter_submarker_240x240x800",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V01.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V02.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V03.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V04.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V05.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V06.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V07.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V08.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V09.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Datacenter_submarker_60x50x60/Datacenter_submarker_60x50x60_V10.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 2.0,
+            "function": "None",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_storage_cartonboxes_60x60x60",
+        "BoundingVolume": 180.0
+      },
+      "name": "Datacenter_submarker_60x50x60",
+      "internalEnabled": true,
+      "persistentID": 73
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V01.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V02.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V03.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V04.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V05.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V06.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/DataCenter_wall_and_edge_400x40x400/DataCenter_wall_and_edge_400x40x400_V07.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 2.0,
+            "function": "None",
+            "Shard": "S8"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dig_site_submarker_edge_400x30x400",
+        "BoundingVolume": 6400.0
+      },
+      "name": "DataCenter_wall_and_edge_400x40x400",
+      "internalEnabled": true,
+      "persistentID": 74
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            5
+          ],
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_security_01.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_weak_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Tech_locker_terminal_200x300x50_01.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 50.0,
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Datacenter_container_locker_Pickup_200x300x50_01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Tech_container_locker_Big_Pickup_200x300x50_01.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "Datacenter_container_locker_200x300x50",
+      "internalEnabled": true,
+      "persistentID": 72
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [],
+          [],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_L_2000x2000x800/Destroyed_L_2000x2000x800_V01.prefab",
+            "function": "None",
+            "Shard": "S11"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_L_2000x2000x800/Destroyed_L_2000x2000x800_V02.prefab",
+            "function": "None",
+            "Shard": "S11"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 6.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Destroyed_L_2000x2000x800",
+        "BoundingVolume": 3200000.0
+      },
+      "name": "Destroyed_L_2000x2000x800",
+      "internalEnabled": true,
+      "persistentID": 65
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            2,
+            1
+          ],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_open_1000x600x400/Destroyed_open_1000x600x400_V01.prefab",
+            "function": "None",
+            "Shard": "S12"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_open_1000x600x400/Destroyed_open_1000x600x400_V02.prefab",
+            "function": "None",
+            "Shard": "S12"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_open_1000x600x400/Destroyed_open_1000x600x400_V03.prefab",
+            "function": "None",
+            "Shard": "S12"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 4.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Destroyed_open_1000x600x400",
+        "BoundingVolume": 240000.0
+      },
+      "name": "Destroyed_open_1000x600x400",
+      "internalEnabled": true,
+      "persistentID": 66
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [],
+          [],
+          [
+            2,
+            4
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_170x340x280/Destroyed_170x340x280_V01.prefab",
+            "function": "None",
+            "Shard": "S13"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_170x340x280/Destroyed_170x340x280_V02.prefab",
+            "function": "None",
+            "Shard": "S13"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Destroyed_170x340x280/Destroyed_170x340x280_V03.prefab",
+            "function": "None",
+            "Shard": "S13"
+          },
+          {
+            "weight": 2.0,
+            "function": "None",
+            "Shard": "S13"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_storage_240x120x240/mining_storage_submarker_HSU_240x120x240_V08.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S13"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Destroyed_170x340x280",
+        "BoundingVolume": 16184.0
+      },
+      "name": "Destroyed_170x340x280",
+      "internalEnabled": true,
+      "persistentID": 67
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            4,
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            3,
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            5,
+            6,
+            7,
+            4
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V01.prefab",
+            "function": "ResourceContainerCluster",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V02.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V03.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V04.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V05.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V06.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V07.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_L_2200x2200x800/Lab_large_L_2200x2200x800_V08.prefab",
+            "function": "None",
+            "Shard": "S6"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 5.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Lab_large_L_2200x2200x800",
+        "BoundingVolume": 3872000.0
+      },
+      "name": "Lab_large_L_2200x2200x800",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            2,
+            4,
+            0,
+            1,
+            3,
+            5
+          ],
+          [],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            5,
+            0,
+            4
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            2,
+            5,
+            0,
+            4,
+            3
+          ],
+          [],
+          [
+            1,
+            2,
+            5,
+            0,
+            4,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            5,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            5,
+            0,
+            4,
+            3
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            5,
+            0,
+            4
+          ],
+          [
+            4
+          ],
+          [],
+          [],
+          [
+            5
+          ]
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V01.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V02.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V03.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V04.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V05.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 0.1,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V06.prefab",
+            "function": "GeneratorCluster",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 6.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Lab_large_open_2600x2000x800",
+        "BoundingVolume": 4160000.0
+      },
+      "name": "Lab_large_open_2600x2000x800",
+      "internalEnabled": true,
+      "persistentID": 59
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_wall_1800x1200x800/Lab_medium_wall_1800x1200x800_V01.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_wall_1800x1200x800/Lab_medium_wall_1800x1200x800_V02.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_wall_1800x1200x800/Lab_medium_wall_1800x1200x800_V03.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_wall_1800x1200x800/Lab_medium_wall_1800x1200x800_V04.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_wall_1800x1200x800/Lab_medium_wall_1800x1200x800_V05.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_wall_1800x1200x800/Lab_medium_wall_1800x1200x800_V06.prefab",
+            "function": "None",
+            "Shard": "S8"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 4.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Lab_medium_wall_1800x1200x800",
+        "BoundingVolume": 1728000.0
+      },
+      "name": "Lab_medium_wall_1800x1200x800",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            8
+          ],
+          [
+            0,
+            4,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            5
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            6
+          ],
+          [
+            0,
+            3,
+            4,
+            8,
+            5,
+            6,
+            7,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            6,
+            4,
+            8
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            6,
+            4,
+            8
+          ],
+          [
+            0,
+            3,
+            4,
+            8,
+            5,
+            6,
+            7,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            6,
+            4,
+            8
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            6
+          ],
+          [
+            7
+          ],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V01.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V02.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V03.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V04.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V05.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V06.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V07.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_V08.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1E-06,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_medium_open_1200x1200x800/Lab_medium_open_1200x1200x800_bulk_V01.prefab",
+            "function": "None",
+            "Shard": "S9"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Lab_medium_open_1200x1200x800",
+        "BoundingVolume": 1152000.0
+      },
+      "name": "Lab_medium_open_1200x1200x800",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            9
+          ],
+          [],
+          [],
+          [
+            10
+          ],
+          [],
+          [
+            0,
+            2
+          ],
+          [],
+          [
+            0
+          ],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V01.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V02.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 2.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V03.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V04.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V05.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V06.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_HSU_120x120x240_r.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_120x120x280/Lab_submarker_120x120x280_V07.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_generator_120x120x240_u.prefab",
+            "function": "PowerGenerator",
+            "Shard": "S10"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 90,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/DataCenter_submarker_120x120x280",
+        "BoundingVolume": 4032.0
+      },
+      "name": "Lab_submarker_120x120x280",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            0,
+            1,
+            3
+          ],
+          [],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [],
+          [
+            6,
+            0,
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V01.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 5.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V02.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V03.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V04.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V05.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V06.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V07.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_storage_240x120x240/mining_storage_submarker_HSU_240x120x240_V08.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_240x120x280/Lab_submarker_240x120x280_V08.prefab",
+            "function": "None",
+            "Shard": "S6"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_240x120x280",
+        "BoundingVolume": 8064.0
+      },
+      "name": "Lab_submarker_240x120x280",
+      "internalEnabled": true,
+      "persistentID": 51
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 4.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_120x120x120/Lab_submarker_table_120x120x120_V01.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_120x120x120/Lab_submarker_table_120x120x120_V02.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_120x120x120/Lab_submarker_table_120x120x120_V03.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_120x120x120/Lab_submarker_table_120x120x120_V04.prefab",
+            "function": "None",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_table_100x120x120",
+        "BoundingVolume": 1440.0
+      },
+      "name": "Lab_submarker_table_100x120x120",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V01.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V02.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V03.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V04.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V05.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V06.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_table_240x120x120/Lab_submarker_table_240x120x120_V07.prefab",
+            "function": "None",
+            "Shard": "S8"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_table_200x120x120",
+        "BoundingVolume": 2880.0
+      },
+      "name": "Lab_submarker_table_200x120x120",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_120x120x280/Lab_submarker_specimen_120x120x280_V01.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_120x120x280/Lab_submarker_specimen_120x120x280_V02.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_120x120x280/Lab_submarker_specimen_120x120x280_V03.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_120x120x280/Lab_submarker_specimen_120x120x280_V04.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_120x120x280/Lab_submarker_specimen_120x120x280_V05.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_120x120x280/Lab_submarker_specimen_120x120x280_V06.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 2.0,
+            "function": "None",
+            "Shard": "S9"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 90,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/DataCenter_submarker_120x120x280",
+        "BoundingVolume": 4032.0
+      },
+      "name": "Lab_submarker_specimen_120x120x280",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_300x300x280/Lab_submarker_specimen_300x300x280_V01.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_300x300x280/Lab_submarker_specimen_300x300x280_V02.prefab",
+            "function": "None",
+            "Shard": "S5"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_300x300x280/Lab_submarker_specimen_300x300x280_V03.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_300x300x280/Lab_submarker_specimen_300x300x280_V04.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_300x300x280/Lab_submarker_specimen_300x300x280_V05.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_specimen_300x300x280/Lab_submarker_specimen_300x300x280_V06.prefab",
+            "function": "None",
+            "Shard": "S6"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 0.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_specimen_300x300x280",
+        "BoundingVolume": 25200.0
+      },
+      "name": "Lab_submarker_specimen_300x300x280",
+      "internalEnabled": true,
+      "persistentID": 60
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V04.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V05.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V06.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V07.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 18.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_gen_V01.prefab",
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_60x50x120",
+        "BoundingVolume": 360.0
+      },
+      "name": "Lab_submarker_desk_60x50x120",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            13
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V01.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V02.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V03.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V08.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V09.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V10.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V11.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V12.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V13.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V14.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V15.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V16.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V17.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x50x120/Lab_submarker_60x50x120_V18.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 4.0,
+            "function": "None",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_storage_cartonboxes_60x60x60",
+        "BoundingVolume": 180.0
+      },
+      "name": "Lab_submarker_desk_60x50x60",
+      "internalEnabled": true,
+      "persistentID": 70
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          [],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V01.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V02.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V03.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V04.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V05.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V06.prefab",
+            "function": "None",
+            "Shard": "S8"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_desk_180x50x120/Lab_submarker_desk_180x50x120_V07.prefab",
+            "function": "None",
+            "Shard": "S8"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_desk_200x50x120",
+        "BoundingVolume": 1200.0
+      },
+      "name": "Lab_submarker_desk_200x50x120",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            1,
+            6,
+            7,
+            10,
+            0,
+            2
+          ],
+          [],
+          [],
+          [
+            10,
+            0,
+            2
+          ],
+          [
+            10,
+            8,
+            1,
+            6,
+            7
+          ],
+          [
+            10,
+            0,
+            2,
+            8,
+            1,
+            6,
+            7,
+            9
+          ],
+          [],
+          [
+            10,
+            0,
+            2,
+            8,
+            1,
+            6,
+            7
+          ],
+          [
+            10,
+            8,
+            1,
+            6,
+            7
+          ],
+          [
+            10,
+            0,
+            2,
+            8,
+            1,
+            6,
+            7
+          ],
+          [],
+          [
+            10,
+            0,
+            2,
+            3,
+            4,
+            8
+          ],
+          [
+            10,
+            0,
+            2
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V01.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V02.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V03.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V04.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V05.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 2.0,
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V06.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V07.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V08.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V09.prefab",
+            "function": "None",
+            "Shard": "S9"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_equipment_400x400x800/Lab_submarker_equipment_400x400x800_V10.prefab",
+            "function": "None",
+            "Shard": "S9"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_equipment_400x400x800",
+        "BoundingVolume": 128000.0
+      },
+      "name": "Lab_submarker_equipment_400x400x800",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V01.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V02.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V03.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V04.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V05.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V06.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V07.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V08.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V09.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V10.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V11.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V12.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_60x60x120/Lab_submarker_60x60x120_V13.prefab",
+            "function": "None",
+            "Shard": "S10"
+          },
+          {
+            "weight": 5.0,
+            "function": "None",
+            "Shard": "S10"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_submarker_60x120x60",
+        "BoundingVolume": 432.0
+      },
+      "name": "Lab_submarker_60x60x120",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            10
+          ],
+          [
+            1,
+            9,
+            4,
+            6,
+            7
+          ],
+          [],
+          [],
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            0,
+            2,
+            6,
+            1,
+            9,
+            4
+          ],
+          [
+            4,
+            6,
+            7,
+            0,
+            2,
+            1,
+            9
+          ],
+          [],
+          [
+            4,
+            6,
+            7,
+            0,
+            2,
+            1,
+            9
+          ],
+          [
+            0,
+            2,
+            6,
+            1,
+            9,
+            4
+          ],
+          [
+            4,
+            6,
+            7,
+            0,
+            2,
+            1,
+            9
+          ],
+          [],
+          [
+            0,
+            2,
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V01.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V02.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V03.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V04.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V05.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V06.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V07.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V08.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_V09.prefab",
+            "function": "None",
+            "Shard": "S6"
+          },
+          {
+            "weight": 1E-06,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_600x200x500/Lab_submarker_wall_600x200x500_bulk_V01.prefab",
+            "function": "None",
+            "Shard": "S6"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_wall_600x200x500",
+        "BoundingVolume": 60000.0
+      },
+      "name": "Lab_submarker_wall_600x200x500",
+      "internalEnabled": true,
+      "persistentID": 57
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            2,
+            6,
+            7
+          ],
+          [],
+          [],
+          [],
+          [
+            2,
+            6,
+            7
+          ],
+          [
+            2,
+            6,
+            7
+          ],
+          [],
+          [
+            2,
+            6,
+            7
+          ],
+          [
+            2,
+            6,
+            7
+          ],
+          [
+            2,
+            6,
+            7
+          ],
+          [],
+          [
+            0,
+            2,
+            4,
+            6,
+            7,
+            8
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V01.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V02.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V03.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V04.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V05.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V06.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V07.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V08.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V09.prefab",
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_submarker_wall_400x60x500/Lab_submarker_wall_400x60x500_V10.prefab",
+            "function": "None",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_Lab_wall_400x60x500",
+        "BoundingVolume": 12000.0
+      },
+      "name": "Lab_submarker_wall_400x60x500",
+      "internalEnabled": true,
+      "persistentID": 58
+    }
+  ],
+  "LastPersistentID": 75
+}

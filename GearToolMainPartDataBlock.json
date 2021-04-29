@@ -1,0 +1,193 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Test/Bio_Tracker_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S15"
+      },
+      "Aligns": [],
+      "name": "Bio_Tracker",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Test/Glue_Distance_4.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S16"
+      },
+      "Aligns": [],
+      "name": "Glue_Distance",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Test/Glue_Direct_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S17"
+      },
+      "Aligns": [],
+      "name": "Glue_Direct",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Test/Map_Device_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S18"
+      },
+      "Aligns": [],
+      "name": "Map_Device",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Test/Med_Direct_3.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S19"
+      },
+      "Aligns": [],
+      "name": "Med_Direct",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Test/Med_Distance_4.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
+      "name": "Med_Distance",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Turret_Base_1.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Turret_Base_1_GripAlign.prefab"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Turret_Base_1",
+        "RightHandGripAnim": "Turret_Base_1",
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S8"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "ToolTargeting",
+          "AlignName": "a_targeting"
+        },
+        {
+          "AlignType": "ToolScreen",
+          "AlignName": "a_screen"
+        },
+        {
+          "AlignType": "Receiver",
+          "AlignName": "Turret_Rifle_Align"
+        },
+        {
+          "AlignType": "Front",
+          "AlignName": "Turret_Rifle_Align"
+        },
+        {
+          "AlignType": "ToolScanning",
+          "AlignName": "a_targeting"
+        },
+        {
+          "AlignType": "ToolDetection",
+          "AlignName": "aim_reference"
+        },
+        {
+          "AlignType": "RotationPivot",
+          "AlignName": "aim_reference"
+        },
+        {
+          "AlignType": "GroundPlacement",
+          "AlignName": "Ground_PlacementAlign"
+        }
+      ],
+      "name": "Sentry_RifleClass",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Tracker_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S3"
+      },
+      "Aligns": [],
+      "name": "Main_Tracker_1",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Mine_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S4"
+      },
+      "Aligns": [],
+      "name": "Main_Mine_1",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Glue_Distance_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S2"
+      },
+      "Aligns": [],
+      "name": "Main_Glue_Distance_1",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Geo_Tracker_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "ToolTargeting",
+          "AlignName": "Geo_Tracker_1_Targeting"
+        },
+        {
+          "AlignType": "ToolScreen",
+          "AlignName": "Geo_Tracker_1_Screen"
+        }
+      ],
+      "name": "Main_Geo_Tracker_1",
+      "internalEnabled": true,
+      "persistentID": 16
+    }
+  ],
+  "LastPersistentID": 16
+}

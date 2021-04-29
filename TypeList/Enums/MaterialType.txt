@@ -1,0 +1,13 @@
+Concrete
+Metal
+Glass
+EnemyBody
+EnemyWeakspot
+Plastic
+Mud
+Gravel
+SheetMetal
+Catwalk
+Wood
+PlayerBody
+WeakLockMelee

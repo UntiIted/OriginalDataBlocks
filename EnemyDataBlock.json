@@ -1,0 +1,2011 @@
+{
+  "Headers": [
+    {
+      "AboveBlockID": 13,
+      "LabelText": "Striker",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 26,
+      "LabelText": "Shooter",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 22,
+      "LabelText": "Misc",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 20,
+      "LabelText": "Scout",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 36,
+      "LabelText": "Birther",
+      "FoldoutStatus": true
+    }
+  ],
+  "Blocks": [
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerWave.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 0.9,
+            "y": 1.1
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 13,
+      "MovementDataId": 13,
+      "BalancingDataId": 13,
+      "SFXDataId": 13,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 1.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Wave",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 0.9,
+            "y": 1.1
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 13,
+      "MovementDataId": 29,
+      "BalancingDataId": 13,
+      "SFXDataId": 13,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 1.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Patrol",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerWave.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 0.9,
+            "y": 1.1
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 31,
+      "MovementDataId": 13,
+      "BalancingDataId": 13,
+      "SFXDataId": 13,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 1.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Wave_Fast",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerHibernate.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 0.9,
+            "y": 1.1
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 13,
+      "MovementDataId": 13,
+      "BalancingDataId": 13,
+      "SFXDataId": 13,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 1.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Hibernate",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/StrikerBullrush/StrikerBullrush_CB.prefab",
+          "ModelCustomization": "",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.1,
+            "y": 1.3,
+            "z": 1.1
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.2,
+            "y": 1.25
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 30,
+      "MovementDataId": 28,
+      "BalancingDataId": 28,
+      "SFXDataId": 28,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 0.4
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 8.0
+        }
+      ],
+      "name": "Striker_Bullrush",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerWave.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 28,
+      "MovementDataId": 16,
+      "BalancingDataId": 16,
+      "SFXDataId": 16,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacle.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        }
+      ],
+      "name": "Striker_Big_Wave",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/StrikerBullrush/StrikerBullrush_CB.prefab",
+          "ModelCustomization": "",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.7,
+            "y": 0.7,
+            "z": 0.7
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.9
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 28,
+      "MovementDataId": 28,
+      "BalancingDataId": 16,
+      "SFXDataId": 16,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacle.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 0.8
+        }
+      ],
+      "name": "Striker_Big_Bullrush",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerBig.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 28,
+      "MovementDataId": 16,
+      "BalancingDataId": 16,
+      "SFXDataId": 16,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacle.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        }
+      ],
+      "name": "Striker_Big_Hibernate",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Shadow_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_Shadow.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 0.7,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.2,
+            "y": 1.0,
+            "z": 1.2
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 0.7,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 28,
+      "MovementDataId": 21,
+      "BalancingDataId": 16,
+      "SFXDataId": 16,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ShadowTentacleBig.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        }
+      ],
+      "name": "Striker_Big_Shadow",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerBig.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 2.8,
+            "y": 2.8
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 13,
+      "MovementDataId": 19,
+      "BalancingDataId": 16,
+      "SFXDataId": 19,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Boss",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerChild.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+          },
+          "ChestScale": {
+            "x": 1.3,
+            "y": 1.3,
+            "z": 1.3
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "SizeRange": {
+            "x": 0.55,
+            "y": 0.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 34,
+      "MovementDataId": 33,
+      "BalancingDataId": 32,
+      "SFXDataId": 33,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerChildTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 1.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Child",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterHibernate.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.25,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.05,
+            "y": 1.15
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 11,
+      "MovementDataId": 11,
+      "BalancingDataId": 11,
+      "SFXDataId": 11,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmall.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Shooter_Hibernate",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterWave.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.05,
+            "y": 1.15
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 11,
+      "MovementDataId": 11,
+      "BalancingDataId": 11,
+      "SFXDataId": 11,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmall.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Shooter_Wave",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterBig.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 0.85,
+            "y": 0.85,
+            "z": 0.85
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.9,
+            "y": 1.9
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 11,
+      "MovementDataId": 30,
+      "BalancingDataId": 18,
+      "SFXDataId": 18,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterBig.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 10.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Shooter_Big",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/ShooterRapidFire/ShooterRapidFire_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterWave.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+          "ChestScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "ArmScale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 32,
+      "MovementDataId": 18,
+      "BalancingDataId": 18,
+      "SFXDataId": 30,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterBig_RapidFire.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 5.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 10.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        }
+      ],
+      "name": "Shooter_Big_RapidFire",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterBig.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 0.85,
+            "y": 0.85,
+            "z": 0.85
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.9,
+            "y": 1.9
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 32,
+      "MovementDataId": 18,
+      "BalancingDataId": 18,
+      "SFXDataId": 18,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterBig_Infection.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 10.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Shooter_Big_Infection",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/BirtherBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Birther/Birther_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Birther/Customization_Birther.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 2.2,
+            "y": 2.2
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 33,
+      "MovementDataId": 31,
+      "BalancingDataId": 30,
+      "SFXDataId": 31,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_Birthing.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_FogSphere.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0
+        }
+      ],
+      "name": "Birther",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/BossBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Birther/Birther_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Birther/Customization_BirtherBoss.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 3.3,
+            "y": 3.3
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 33,
+      "MovementDataId": 32,
+      "BalancingDataId": 31,
+      "SFXDataId": 32,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_Birthing_Boss.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_FogSphere.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0
+        }
+      ],
+      "name": "Birther_Boss",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_Scout.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.3,
+            "y": 1.3,
+            "z": 1.3
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.5,
+            "y": 1.5
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 20,
+      "MovementDataId": 20,
+      "BalancingDataId": 20,
+      "SFXDataId": 20,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmallBurst.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Scout",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Shadow_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_Shadow.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.3,
+            "y": 1.3,
+            "z": 1.3
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.25,
+            "y": 1.25,
+            "z": 1.25
+          },
+          "LegScale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+          "SizeRange": {
+            "x": 1.6,
+            "y": 1.8
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 20,
+      "MovementDataId": 20,
+      "BalancingDataId": 20,
+      "SFXDataId": 20,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmallBurst.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Scout_Shadow",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Cocoon/Cocoon_CB.prefab",
+          "ModelCustomization": "",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 22,
+      "MovementDataId": 0,
+      "BalancingDataId": 0,
+      "SFXDataId": 0,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": true,
+      "AI_Abilities": [],
+      "name": "Cocoon",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "EnemyType": "Weakling",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Shadow_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_Shadow.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 0.9,
+            "y": 1.1
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 21,
+      "MovementDataId": 21,
+      "BalancingDataId": 21,
+      "SFXDataId": 21,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ShadowTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Shadow",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Tank/Tank_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Tank/Customization_Tank.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "ArmScale": {
+            "x": 0.7,
+            "y": 0.7,
+            "z": 0.7
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.8,
+            "y": 1.8
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 35,
+      "MovementDataId": 34,
+      "BalancingDataId": 29,
+      "SFXDataId": 34,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacleMultiple.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 0.1
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        }
+      ],
+      "name": "Tank",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [],
+      "DetectionDataId": 8,
+      "BehaviorDataId": 8,
+      "MovementDataId": 0,
+      "BalancingDataId": 0,
+      "SFXDataId": 0,
+      "LinkedSlaveModels": [
+        {
+          "AnimationSet": "Unspecified",
+          "ModelFile": "Assets/AssetPrefabs/Characters/Enemies/Tank/TankHammerhead.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        }
+      ],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ImmortalTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 4.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Immortal",
+      "internalEnabled": false,
+      "persistentID": 8
+    }
+  ],
+  "LastPersistentID": 40
+}

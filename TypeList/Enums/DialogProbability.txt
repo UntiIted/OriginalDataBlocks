@@ -1,0 +1,5 @@
+None
+Low
+Medium
+High
+Always

@@ -1,0 +1,86 @@
+DistributionAmountData: HSUsPerZone
+   Int32: Some
+   Int32: Many
+   Int32: Tons
+DistributionAmountData: DeconsPerZone
+   Int32: Some
+   Int32: Many
+   Int32: Tons
+DistributionAmountData: CorpsesPerZone
+   Int32: Some
+   Int32: Many
+   Int32: Tons
+DistributionAmountData: HibernationGroupsPerZone
+   Int32: Some
+   Int32: Many
+   Int32: Tons
+DistributionAmountData: PatrolsPerZone
+   Int32: Some
+   Int32: Many
+   Int32: Tons
+DistributionAmountData: StaticTrapsPerZone
+   Int32: Some
+   Int32: Many
+   Int32: Tons
+Single: HealthPerZone
+Single: DisinfectionPerZone
+Single: WeaponAmmoPerZone
+Single: ToolAmmoPerZone
+Single: CommodityValuePerZone
+Single: ChanceToPutCommodityInResourceContainer
+Single: ChanceToSpawnCommodityLargePack
+Single: ChanceToSpawnCommodityMediumPack
+Single: ChanceToReUseResourceContainer
+Int32: MaxPacksPerResourceContainer
+Single: EmptyWeakResourceContainersPerZone
+Single: EmptySecureResourceContainersPerZone
+Single: LootPerZone
+Single: AirPerZone
+Single: AirPerZoneInNoAir
+Single: TerminalsPerZone
+StaticEnemyData: TentacleTraps
+   Single: Health
+   Single: AttackDamage
+   Int32: MaxPerZone
+   Int32: MaxSmallArea
+   Int32: MaxMediumArea
+   Int32: MaxLargeArea
+   Int32: MaxHugeArea
+StaticEnemyData: ParasiteNests
+   Single: Health
+   Single: AttackDamage
+   Int32: MaxPerZone
+   Int32: MaxSmallArea
+   Int32: MaxMediumArea
+   Int32: MaxLargeArea
+   Int32: MaxHugeArea
+Int32: EnemyPatrolGroupsPerZone
+Int32: StaticEnemiesMaxPerZone
+Int32: StaticEnemiesMaxSmallArea
+Int32: StaticEnemiesMaxMediumArea
+Int32: StaticEnemiesMaxLargeArea
+Int32: StaticEnemiesMaxHugeArea
+Single: EnemyPopulationPerZone
+Single: VoxelCoverageAreaMultiplier
+Single: VoxelCoverageAreaScoringRandomMultiplier
+Int32: ArtifactsPerSegment
+Single: WeakDoor4x4Health
+Single: WeakDoor8x4Health
+Single: WeakDoorChanceLockWeightNoLock
+Single: WeakDoorChanceLockWeightMeleeLock
+Single: WeakDoorChanceLockWeightHackableLock
+Single: WeakDoorUnlockedChanceForOpen
+Single: WeakDoorOpenChanceForWallRemoverUsed
+Single: WeakDoorLockHealth
+Single: WeakResourceContainerWithPackChanceForLocked
+List<Single>: ResourcePackSizes
+Single: GlueVolumeToDoorHealthConversion
+Single: GlueVolumeForDoorGlueMaxState
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

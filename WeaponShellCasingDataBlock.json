@@ -1,0 +1,36 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "ShellCasingType": "Shell_9mm",
+      "name": "Shell_9mm",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "ShellCasingType": "Shell_45_ACP",
+      "name": "Shell_45_ACP",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "ShellCasingType": "Shell_338",
+      "name": "Shell_338",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "ShellCasingType": "Shell_12_Gauge",
+      "name": "Shell_12_Gauge",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "ShellCasingType": "Shell_338",
+      "name": "Shell_50cal",
+      "internalEnabled": true,
+      "persistentID": 5
+    }
+  ],
+  "LastPersistentID": 5
+}

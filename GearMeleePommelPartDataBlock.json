@@ -1,0 +1,90 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_10.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_10",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S1"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_1",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_3.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S2"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_3",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_5.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S3"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_5",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_6.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S4"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_6",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_7.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S5"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_7",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_9.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S6"
+      },
+      "Aligns": [],
+      "name": "Pommel_Hammer_9",
+      "internalEnabled": true,
+      "persistentID": 8
+    }
+  ],
+  "LastPersistentID": 9
+}

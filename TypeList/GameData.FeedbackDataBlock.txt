@@ -1,0 +1,23 @@
+List<FeedbackAudioCompData>: audioData
+   Boolean: Enabled
+   (enum) NetworkMode: NetMode
+   (enum) MaterialType: Material
+   Single: Delay
+   String: AudioEvent
+List<FeedbackEffectCompData>: effectData
+   Boolean: Enabled
+   (enum) NetworkMode: NetMode
+   (enum) MaterialType: Material
+   Single: Chance
+   Single: Delay
+   String: EffectPrefab
+   Boolean: AttachToRoot
+   Boolean: DoNoKill
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

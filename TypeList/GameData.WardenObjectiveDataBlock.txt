@@ -1,0 +1,115 @@
+(enum) eWardenObjectiveType: Type
+String: Header
+String: MainObjective
+String: FindLocationInfo
+String: FindLocationInfoHelp
+String: GoToZone
+String: GoToZoneHelp
+String: InZoneFindItem
+String: InZoneFindItemHelp
+String: SolveItem
+String: SolveItemHelp
+String: GoToWinCondition_Elevator
+String: GoToWinConditionHelp_Elevator
+String: GoToWinCondition_CustomGeo
+String: GoToWinConditionHelp_CustomGeo
+String: GoToWinCondition_ToMainLayer
+String: GoToWinConditionHelp_ToMainLayer
+Single: ShowHelpDelay
+List<GenericEnemyWaveData>: WavesOnElevatorLand
+   UInt32: WaveSettings
+   UInt32: WavePopulation
+   Single: SpawnDelay
+   Boolean: TriggerAlarm
+   String: IntelMessage
+String: WaveOnElevatorWardenIntel
+UInt32: FogTransitionDataOnElevatorLand
+Single: FogTransitionDurationOnElevatorLand
+List<GenericEnemyWaveData>: WavesOnActivate
+   UInt32: WaveSettings
+   UInt32: WavePopulation
+   Single: SpawnDelay
+   Boolean: TriggerAlarm
+   String: IntelMessage
+Boolean: StopAllWavesBeforeGotoWin
+List<GenericEnemyWaveData>: WavesOnGotoWin
+   UInt32: WaveSettings
+   UInt32: WavePopulation
+   Single: SpawnDelay
+   Boolean: TriggerAlarm
+   String: IntelMessage
+(enum) eRetrieveExitWaveTrigger: WaveOnGotoWinTrigger
+List<WardenObjectiveEventData>: EventsOnGotoWin
+   (enum) eWardenObjectiveEventTrigger: Trigger
+   (enum) eWardenObjectiveEventType: Type
+   (enum) LG_LayerType: Layer
+   (enum) eLocalZoneIndex: LocalIndex
+   Single: Delay
+   String: WardenIntel
+UInt32: FogTransitionDataOnGotoWin
+Single: FogTransitionDurationOnGotoWin
+UInt32: ChainedPuzzleToActive
+UInt32: ChainedPuzzleMidObjective
+UInt32: ChainedPuzzleAtExit
+Single: ChainedPuzzleAtExitScanSpeedMultiplier
+Int32: Gather_RequiredCount
+UInt32: Gather_ItemId
+Int32: Gather_SpawnCount
+Int32: Gather_MaxPerZone
+List<UInt32>: Retrieve_Items
+List<ReactorWaveData>: ReactorWaves
+   Boolean: HasVerificationTerminal
+   String: VerificationTerminalSerial
+   String: VerificationTerminalFileName
+   Single: Warmup
+   Single: WarmupFail
+   Single: Wave
+   Single: Verify
+   Single: VerifyFail
+   Boolean: VerifyInOtherZone
+   (enum) eLocalZoneIndex: ZoneForVerification
+   List<ReactorWaveEnemyData>: EnemyWaves
+      UInt32: WaveSettings
+      UInt32: WavePopulation
+      Single: SpawnTimeRel
+      (enum) eReactorWaveSpawnType: SpawnType
+   List<WardenObjectiveEventData>: Events
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      String: WardenIntel
+Boolean: LightsOnFromBeginning
+Boolean: LightsOnDuringIntro
+Boolean: LightsOnWhenStartupComplete
+String: SpecialTerminalCommand
+String: SpecialTerminalCommandDesc
+List<String>: PostCommandOutput
+Int32: PowerCellsToDistribute
+Int32: Uplink_NumberOfVerificationRounds
+Int32: Uplink_NumberOfTerminals
+Int32: CentralPowerGenClustser_NumberOfGenerators
+Int32: CentralPowerGenClustser_NumberOfPowerCells
+List<GeneralFogDataStep>: CentralPowerGenClustser_FogDataSteps
+   UInt32: m_fogDataId
+   Single: m_transitionToTime
+UInt32: ActivateHSU_ItemFromStart
+UInt32: ActivateHSU_ItemAfterActivation
+Boolean: ActivateHSU_StopEnemyWavesOnActivation
+Boolean: ActivateHSU_ObjectiveCompleteAfterInsertion
+List<WardenObjectiveEventData>: ActivateHSU_Events
+   (enum) eWardenObjectiveEventTrigger: Trigger
+   (enum) eWardenObjectiveEventType: Type
+   (enum) LG_LayerType: Layer
+   (enum) eLocalZoneIndex: LocalIndex
+   Single: Delay
+   String: WardenIntel
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

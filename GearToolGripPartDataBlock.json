@@ -1,0 +1,108 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_1.prefab",
+        "Children": [
+          "Assets/Source/Graphics/Gear/ToolParts/grips/Grip_1_GripAlign.FBX"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Tools_Grip_1",
+        "RightHandGripAnim": "Tools_Grip_1",
+        "AssetBundle": "Gear_Tool_Grip",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "name": "Grip_1",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Tool_Grip_2",
+        "RightHandGripAnim": "Tool_Grip_2",
+        "AssetBundle": "Gear_Tool_Grip",
+        "BundleShard": "S6"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "name": "Grip_2",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_3.prefab",
+        "Children": [
+          "Assets/Source/Graphics/Gear/ToolParts/grips/Grip_3_GripAlign.FBX"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Tool_Grip_3",
+        "RightHandGripAnim": "Tool_Grip_3",
+        "AssetBundle": "Gear_Tool_Grip",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "name": "Grip_3",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_4.prefab",
+        "Children": [
+          "Assets/Source/Graphics/Gear/ToolParts/grips/Grip_4_GripAlign.FBX"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Tools_Grip_3",
+        "RightHandGripAnim": "Tools_Grip_3",
+        "AssetBundle": "Gear_Tool_Grip",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "name": "Grip_4",
+      "internalEnabled": true,
+      "persistentID": 6
+    }
+  ],
+  "LastPersistentID": 6
+}

@@ -1,0 +1,20 @@
+Boolean: On
+Boolean: RegisterForNodeUpdate
+(enum) LG_RandomType: RandomType
+String: Path
+(enum) LG_StaticPlacementType: PlacementType
+Single: RadiusToAvoidMasked
+Single: MaxHeightFromNodes
+Single: PushOutScaleAlongNormal
+Single: SpreadScale
+Single: ClusterChance
+Single: MinScale
+Single: MaxScale
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

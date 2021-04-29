@@ -1,0 +1,20 @@
+GearPartGeneralData: General
+   String: PublicName
+   String: Model
+   List<String>: Children
+   UInt32: GearCategoryFilter
+   String: LeftHandGripAnim
+   String: RightHandGripAnim
+   (enum) AssetBundleName: AssetBundle
+   (enum) AssetBundleShard: BundleShard
+List<GearPartAlignData>: Aligns
+   (enum) eGearPartAlign: AlignType
+   String: AlignName
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,72 @@
+TimingData: m_timing
+   Single: minTimeInState
+   Single: maxTimeInState
+   (enum) MUS_State: stateAfterMaxTime
+List<GameEventSound>: m_gameEventSounds
+   (enum) eGameEvent: GameEvent
+   String: SoundEvent
+   Single: Cooldown
+List<MusicEventData>: m_EventsOnEnter
+   String: eventName
+List<MusicSwitchData>: m_SwitchesOnEnter
+   String: switchGroup
+   String: switchName
+   Int32: randomCount
+List<MusicSwitchDataOnCustomCue>: m_SwitchesOnCustomCue
+   String: customCue
+   List<MusicSwitchData>: switches
+      String: switchGroup
+      String: switchName
+      Int32: randomCount
+List<MusicEventDataTimed>: m_EventsOnTime
+   Single: time
+   Boolean: repeat
+   List<MusicEventData>: events
+      String: eventName
+   Boolean: timeIsClockRelative
+   Boolean: active
+   Single: nextTrigger
+List<MusicSwitchDataTimed>: m_SwitchesOnTime
+   Single: time
+   Boolean: repeat
+   List<MusicSwitchData>: switches
+      String: switchGroup
+      String: switchName
+      Int32: randomCount
+   Boolean: timeIsClockRelative
+   Boolean: active
+   Single: nextTrigger
+List<MusicEventDataTimed>: m_EventsOnTimeInactive
+   Single: time
+   Boolean: repeat
+   List<MusicEventData>: events
+      String: eventName
+   Boolean: timeIsClockRelative
+   Boolean: active
+   Single: nextTrigger
+List<MusicSwitchDataTimed>: m_SwitchesOnTimeInactive
+   Single: time
+   Boolean: repeat
+   List<MusicSwitchData>: switches
+      String: switchGroup
+      String: switchName
+      Int32: randomCount
+   Boolean: timeIsClockRelative
+   Boolean: active
+   Single: nextTrigger
+String: m_RTPC_1
+String: m_RTPC_2
+String: m_RTPC_3
+String: m_EventOnSmallScare
+String: m_EventOnBigScare
+List<MusicEventDataConditional>: m_EventsOnExit
+   (enum) MUS_State: onlyWhenExitingTo
+   String: eventName
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,286 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-SprayedO_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "FireTrail",
+      "internalEnabled": false,
+      "persistentID": 1
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/StandartIcon_16.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Icon 1",
+      "internalEnabled": false,
+      "persistentID": 2
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/StandartIcon_11.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Icon 2",
+      "internalEnabled": false,
+      "persistentID": 3
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/StandartIcon_8.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Icon 3",
+      "internalEnabled": false,
+      "persistentID": 4
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/StandartIcon_24.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Test_Icon_4",
+      "internalEnabled": false,
+      "persistentID": 7
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/StandartIcon_21.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Test_Icon 5",
+      "internalEnabled": false,
+      "persistentID": 8
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/TouchButton_A.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Test_Button A",
+      "internalEnabled": false,
+      "persistentID": 5
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Parts/Decals/TouchButton_B.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Test_Button B",
+      "internalEnabled": false,
+      "persistentID": 6
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_flame_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S9",
+      "name": "Flame A",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_crystal_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S10",
+      "name": "Crystal A",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Hand_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S11",
+      "name": "Hand",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-SmearedSplat_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S13",
+      "name": "Splat",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Sprayedarrow_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S14",
+      "name": "Arrow",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-SprayedLine_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S15",
+      "name": "Sprayed line",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-SprayedO_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S16",
+      "name": "Sprayed O",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S17",
+      "name": "Symbol A",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_line_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S18",
+      "name": "Painted Line",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_c.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S19",
+      "name": "Symbol C",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_b.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S20",
+      "name": "Symbol B",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_Cleaver.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "Cleaver",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_Gecko.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S2",
+      "name": "Gecko",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_Ligtning.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S4",
+      "name": "Lightning",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_d.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S5",
+      "name": "Symbol D",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_e.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S6",
+      "name": "Symbol E",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_Star_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S7",
+      "name": "Star A",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Symbol_Star_b.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S8",
+      "name": "Star B",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-3StrikerKills_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S9",
+      "name": "StrikerKills A",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_EntertainUs_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S10",
+      "name": "Text Entertain Us",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_ExitLight_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S11",
+      "name": "Text ExitLight",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_KillaBeez.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S12",
+      "name": "Text KillaBeez",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_NothingElse_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S13",
+      "name": "Text Nothing Else",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_PoolsOfMaroon_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S14",
+      "name": "Text Pools of Maroon",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_ProtectNeck.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S15",
+      "name": "Text Protect Neck",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_Ruckus_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S16",
+      "name": "Text Ruckus",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "Decal": "Assets/AssetPrefabs/Items/Gear/Decals/Decal-Text_Wasted_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S17",
+      "name": "Text Wasted",
+      "internalEnabled": true,
+      "persistentID": 36
+    }
+  ],
+  "LastPersistentID": 36
+}

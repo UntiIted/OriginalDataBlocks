@@ -1,0 +1,2 @@
+Weight_is_zeroToOne_startToEnd
+Weight_is_exact_node_index

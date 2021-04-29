@@ -1,0 +1,158 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_pixel_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "Checkers",
+      "internalEnabled": false,
+      "persistentID": 1
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/concretePaintedWallPattern_height.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "Concrete A",
+      "internalEnabled": false,
+      "persistentID": 2
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/concreteWallPainted_height.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "Concrete B",
+      "internalEnabled": false,
+      "persistentID": 3
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/FlameRoundParticleSheet.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "FlameParticle",
+      "internalEnabled": false,
+      "persistentID": 4
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/metalBase_Height.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "MetalBase",
+      "internalEnabled": false,
+      "persistentID": 5
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/metalFloorPattern_height.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "MetalFloor",
+      "internalEnabled": false,
+      "persistentID": 6
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_splat_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S1",
+      "name": "Splatter A",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_wispy_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S2",
+      "name": "Wispy A",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_flame_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S3",
+      "name": "Flame A",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_crystal_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S4",
+      "name": "Crystal A",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_pixel_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S5",
+      "name": "Pixel A",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_pixel_b.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S6",
+      "name": "Pixel B",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_stripe_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S7",
+      "name": "Stripe A",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_line_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S8",
+      "name": "Painted Line",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_flame_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S9",
+      "name": "Flame Gradient",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_paint_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S10",
+      "name": "Paint Gradient A",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_paint_b.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S11",
+      "name": "Paint Gradient B",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_spray_a.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S12",
+      "name": "Spray Gradient A",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_spray_b.tga",
+      "AssetBundleName": "Gear_Material",
+      "AssetBundleShard": "S13",
+      "name": "Spray Gradient B",
+      "internalEnabled": true,
+      "persistentID": 19
+    }
+  ],
+  "LastPersistentID": 19
+}

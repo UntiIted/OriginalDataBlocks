@@ -1,0 +1,14 @@
+Single: weaponDetectionDistanceMin
+Single: weaponDetectionDistanceMax
+Single: detectionNodeDistanceMax
+Single: movementDetectionDistance
+Single: detectionBuildupSpeed
+Single: detectionCooldownSpeed
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

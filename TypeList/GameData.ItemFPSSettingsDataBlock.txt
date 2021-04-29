@@ -1,0 +1,49 @@
+Il2CppReferenceArray`1: ItemToolsPerSlot
+Vector3: localPosHip
+Vector3: localRotHip
+Vector3: localPosRelaxed
+Vector3: localRotRelaxed
+Vector3: localPosZoom
+Vector3: localRotZoom
+Vector3: bodyOffsetLocal
+Vector3: bodyRotationOffsetLocal
+Int32: ItemCameraFOVDefault
+Int32: ItemCameraFOVZoom
+Int32: LookCameraFOVZoom
+Boolean: canAim
+Boolean: onlyStartAimOnPressed
+Boolean: canRelax
+Single: customDelayUntilRelax
+Boolean: allowRotToAimPos
+Single: rotToAimPosMinDis
+(enum) eFPISTransitionTime: transitionToAim
+ItemAnimData: idleAnimData
+   String: Anim
+   Single: Speed
+ItemAnimData: walkAnimData
+   String: Anim
+   Single: Speed
+ItemAnimData: runAnimData
+   String: Anim
+   Single: Speed
+DOFSettingsData: DofDefault
+   Boolean: enabled
+   Single: focusDistance
+   Single: aperture
+   Single: focalLength
+DOFSettingsData: DofAim
+   Boolean: enabled
+   Single: focusDistance
+   Single: aperture
+   Single: focalLength
+Boolean: debugForceHip
+Boolean: debugForceRelaxed
+Boolean: debugForceZoom
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

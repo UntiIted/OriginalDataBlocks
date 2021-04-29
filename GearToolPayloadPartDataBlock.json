@@ -1,0 +1,86 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "ModelDataPerType": {
+        "Explosive": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Mine_1.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Payload",
+          "BundleShard": "S1"
+        },
+        "Glue": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Mine_Glue_1.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Payload",
+          "BundleShard": "S7"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "Explosive",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Mine_1.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Payload",
+            "BundleShard": "S1"
+          }
+        },
+        {
+          "Type": "Glue",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Mine_Glue_1.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Payload",
+            "BundleShard": "S7"
+          }
+        }
+      ],
+      "Aligns": [],
+      "name": "Payload_Mine_1",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "ModelDataPerType": {
+        "Glue": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Glue_1.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Payload",
+          "BundleShard": "S1"
+        },
+        "Explosive": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Mine_1.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Payload",
+          "BundleShard": "S1"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "Glue",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Glue_1.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Payload",
+            "BundleShard": "S1"
+          }
+        },
+        {
+          "Type": "Explosive",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Payload/Payload_Mine_1.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Payload",
+            "BundleShard": "S1"
+          }
+        }
+      ],
+      "Aligns": [],
+      "name": "Payload_a",
+      "internalEnabled": true,
+      "persistentID": 2
+    }
+  ],
+  "LastPersistentID": 2
+}

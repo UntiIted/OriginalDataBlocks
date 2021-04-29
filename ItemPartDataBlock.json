@@ -1,0 +1,1032 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "PartPrefab": "Items/Consumables/Prefabs/Stickymine",
+      "name": "Rifle_AKM_Barrel",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperBase_b",
+      "name": "MapperBase_b",
+      "internalEnabled": true,
+      "persistentID": 122
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperBase_a",
+      "name": "MapperBase_a",
+      "internalEnabled": true,
+      "persistentID": 123
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperBattery_a",
+      "name": "MapperBattery_a",
+      "internalEnabled": true,
+      "persistentID": 124
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperBattery_b",
+      "name": "MapperBattery_b",
+      "internalEnabled": true,
+      "persistentID": 125
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperBattery_c",
+      "name": "MapperBattery_c",
+      "internalEnabled": true,
+      "persistentID": 158
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperDisplay_a",
+      "name": "MapperDisplay_a",
+      "internalEnabled": true,
+      "persistentID": 126
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperDisplay_b",
+      "name": "MapperDisplay_b",
+      "internalEnabled": true,
+      "persistentID": 127
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperDisplay_c",
+      "name": "MapperDisplay_c",
+      "internalEnabled": true,
+      "persistentID": 128
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_powerpack_a",
+      "name": "Tool_FlashlightMedium_Powerpack_a",
+      "internalEnabled": true,
+      "persistentID": 129
+    },
+    {
+      "PartPrefab": "Items/Weapons/AKM/AKM_Grip",
+      "name": "Rifle_AKM_Grip",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "PartPrefab": "Items/Weapons/SMGShellingSecurity/SMG_ShellingSecurity",
+      "name": "SMG_ShellingSecurity",
+      "internalEnabled": true,
+      "persistentID": 161
+    },
+    {
+      "PartPrefab": "Items/Weapons/SMGShellingSecurity/SMG_ShellingSecurity_LeftHandGrip",
+      "name": "SMG_ShellingSecurity_LeftHandGrip",
+      "internalEnabled": true,
+      "persistentID": 162
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_powerpack_b",
+      "name": "Tool_FlashlightMedium_Powerpack_b",
+      "internalEnabled": true,
+      "persistentID": 130
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_lightsource_a",
+      "name": "Tool_FlashlightMedium_Lightsource_a",
+      "internalEnabled": true,
+      "persistentID": 131
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_lightsource_b",
+      "name": "Tool_FlashlightMedium_Lightsource_b",
+      "internalEnabled": true,
+      "persistentID": 132
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_lightsource_c",
+      "name": "Tool_FlashlightMedium_Lightsource_c",
+      "internalEnabled": true,
+      "persistentID": 133
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_lightsource_d",
+      "name": "Tool_FlashlightMedium_Lightsource_d",
+      "internalEnabled": true,
+      "persistentID": 134
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightMedium/flashlight_medium_lightsource_e",
+      "name": "Tool_FlashlightMedium_Lightsource_e",
+      "internalEnabled": true,
+      "persistentID": 135
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/flashlight_small_a",
+      "name": "Tool_FlashlightSmall_a",
+      "internalEnabled": true,
+      "persistentID": 136
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/flashlight_small_b",
+      "name": "Tool_FlashlightSmall_b",
+      "internalEnabled": true,
+      "persistentID": 137
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/flashlight_small_c",
+      "name": "Tool_FlashlightSmall_c",
+      "internalEnabled": true,
+      "persistentID": 138
+    },
+    {
+      "PartPrefab": "Items/Tools/ImpactHammer/lock_cutter_barrel_drill",
+      "name": "lock_cutter_barrel_drill",
+      "internalEnabled": true,
+      "persistentID": 147
+    },
+    {
+      "PartPrefab": "Items/Weapons/AR15/Grip_AR15_Left",
+      "name": "Grip_AR15_Left",
+      "internalEnabled": true,
+      "persistentID": 172
+    },
+    {
+      "PartPrefab": "Items/Tools/ImpactHammer/lock_cutter_barrel_plasma",
+      "name": "lock_cutter_barrel_plasma",
+      "internalEnabled": true,
+      "persistentID": 148
+    },
+    {
+      "PartPrefab": "Items/Tools/CuttingTorch/CuttingTorchFrontGrip",
+      "name": "CuttingTorchFrontGrip",
+      "internalEnabled": true,
+      "persistentID": 149
+    },
+    {
+      "PartPrefab": "Items/Tools/CuttingTorch/CuttingTorchMockupModel",
+      "name": "CuttingTorchMockupModel",
+      "internalEnabled": true,
+      "persistentID": 150
+    },
+    {
+      "PartPrefab": "Items/Tools/ImpactHammer/lock_cutter_grip_drill",
+      "name": "lock_cutter_grip_drill",
+      "internalEnabled": true,
+      "persistentID": 151
+    },
+    {
+      "PartPrefab": "Items/Tools/ImpactHammer/lock_cutter_grip_plasma",
+      "name": "lock_cutter_grip_plasma",
+      "internalEnabled": true,
+      "persistentID": 152
+    },
+    {
+      "PartPrefab": "Items/Tools/ImpactHammer/lock_cutter_stock_drill",
+      "name": "lock_cutter_stock_drill",
+      "internalEnabled": true,
+      "persistentID": 153
+    },
+    {
+      "PartPrefab": "Items/Tools/ImpactHammer/lock_cutter_stock_plasma",
+      "name": "lock_cutter_stock_plasma",
+      "internalEnabled": true,
+      "persistentID": 154
+    },
+    {
+      "PartPrefab": "Items/Weapons/AKM/AKM_Receiver",
+      "name": "Rifle_AKM_Receiver",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "PartPrefab": "Items/Weapons/AKM/AKM_Stock",
+      "name": "Rifle_AKM_Stock",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "PartPrefab": "Items/Weapons/AR15/AR15_Barrel",
+      "name": "Rifle_AR15_Barrel",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "PartPrefab": "Items/Weapons/AR15/AR15_Barrel_ModA",
+      "name": "Rifle_AR15_Barrel_ModA",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "PartPrefab": "Items/Weapons/AR15/AR15_Grip",
+      "name": "Rifle_AR15_Grip",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "PartPrefab": "Items/Weapons/AR15/AR15_Receiver",
+      "name": "Rifle_AR15_Receiver",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "PartPrefab": "Items/Weapons/AR15/AR15_Stock",
+      "name": "Rifle_AR15_Stock",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "PartPrefab": "Items/Weapons/BerettaM9/WPN_M9_StructModA",
+      "name": "Pistol_M9_StructModA",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "PartPrefab": "Items/Weapons/Eder22/Eder22_Grip",
+      "name": "Pistol_Eder22_Grip",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "PartPrefab": "Items/Weapons/Eder22/Eder22_Receiver",
+      "name": "Pistol_Eder22_Receiver",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolParts/Pistol_BarrelGrip",
+      "name": "Pistol_BarrelGrip",
+      "internalEnabled": true,
+      "persistentID": 155
+    },
+    {
+      "PartPrefab": "Items/Weapons/P350/P350_Receiver",
+      "name": "P350_Receiver_grip",
+      "internalEnabled": true,
+      "persistentID": 163
+    },
+    {
+      "PartPrefab": "Items/Weapons/Grips/Grip_Angled_a",
+      "name": "Grip_Angled_a",
+      "internalEnabled": true,
+      "persistentID": 113
+    },
+    {
+      "PartPrefab": "Items/Weapons/Grips/Grip_Straight_a",
+      "name": "Grip_Straight_a",
+      "internalEnabled": true,
+      "persistentID": 114
+    },
+    {
+      "PartPrefab": "Items/Weapons/Grips/Grip_Shotgun_Barrel_Shorty",
+      "name": "Grip_Shotgun_Barrel_Shorty",
+      "internalEnabled": true,
+      "persistentID": 117
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunParts/shotgun_grip_for_barrels",
+      "name": "Grip_shotgun_grip_for_barrels",
+      "internalEnabled": true,
+      "persistentID": 118
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_a",
+      "name": "muzzle_a",
+      "internalEnabled": true,
+      "persistentID": 106
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_b",
+      "name": "muzzle_b",
+      "internalEnabled": true,
+      "persistentID": 108
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_c",
+      "name": "muzzle_c",
+      "internalEnabled": true,
+      "persistentID": 107
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_d",
+      "name": "muzzle_d",
+      "internalEnabled": true,
+      "persistentID": 109
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_e",
+      "name": "muzzle_e",
+      "internalEnabled": true,
+      "persistentID": 110
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_f",
+      "name": "muzzle_f",
+      "internalEnabled": true,
+      "persistentID": 111
+    },
+    {
+      "PartPrefab": "Items/Weapons/Muzzles/muzzle_silencer_a",
+      "name": "muzzle_silencer_a",
+      "internalEnabled": true,
+      "persistentID": 112
+    },
+    {
+      "PartPrefab": "Items/Weapons/EmptyPart",
+      "name": "EmptyPart",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/flashlight_small_halogen",
+      "name": "Tool_flashlight_small_halogen",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/flashlight_small_incandescent",
+      "name": "Tool_flashlight_small_incandescent",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/flashlight_small_led",
+      "name": "Tool_flashlight_small_led",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightBig/flashlight_large_LED",
+      "name": "Tool_flashlight_medium_LED",
+      "internalEnabled": true,
+      "persistentID": 119
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightBig/flashlight_large_incandescent",
+      "name": "Tool_flashlight_medium_incandescent",
+      "internalEnabled": true,
+      "persistentID": 120
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightBig/flashlight_medium_halogen",
+      "name": "Tool_flashlight_medium_halogen",
+      "internalEnabled": true,
+      "persistentID": 121
+    },
+    {
+      "PartPrefab": "Items/Weapons/Flashlights/WPN_M9_Flashlight",
+      "name": "Tool_M9_Flashlight",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "PartPrefab": "Items/Weapons/Flashlights/WPN_MP5_FlashlightGrip_Tungsten",
+      "name": "Tool_MP5_FlashlightGrip_Tungsten",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "PartPrefab": "Items/Weapons/Flashlights/WPN_MP5_FlashlightGrip_xenon",
+      "name": "Tool_MP5_FlashlightGrip_xenon",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "PartPrefab": "Items/Weapons/GasParts/GasParts_Receiver_a",
+      "name": "Rifle_GasParts_Receiver_a",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "PartPrefab": "Items/Weapons/CoilParts/CoilParts_PistolReceiver",
+      "name": "Pistol_CoilParts_PistolReceiver",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "PartPrefab": "Items/Weapons/Hunter85/Hunter85_Barrel",
+      "name": "Rifle_Hunter85_Barrel",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "PartPrefab": "Items/Weapons/Hunter85/Hunter85_Grip",
+      "name": "Rifle_Hunter85_Grip",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "PartPrefab": "Items/Weapons/Hunter85/Hunter85_Receiver",
+      "name": "Rifle_Hunter85_Receiver",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "PartPrefab": "Items/Weapons/HydraulicParts/Hydraulic_ShotgunReceiver_a",
+      "name": "Shotgun_Hydraulic_ShotgunReceiver_a",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "PartPrefab": "Items/Weapons/MossbergPump/MossbergPumpStructModA",
+      "name": "Shotgun_MossbergPumpStructModA",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "PartPrefab": "Items/Weapons/MP5/MP5ModelSetup",
+      "name": "SMG_MP5ModelSetup",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "PartPrefab": "Items/Weapons/MP5/WPN_MP5_StructModA",
+      "name": "SMG_MP5_StructModA",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "PartPrefab": "Items/Weapons/P350/P350_Grip",
+      "name": "Pistol_P350_Grip",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "PartPrefab": "Items/Weapons/P350/P350_Receiver",
+      "name": "Pistol_P350_Receiver",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolBarrels/PistolBarrelExtension_a",
+      "name": "Pistol_BarrelExtension_a",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolBarrels/PistolBarrelExtension_b",
+      "name": "Pistol_BarrelExtension_b",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_front_sight_1",
+      "name": "pistol_front_sight_1",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_front_sight_2",
+      "name": "pistol_front_sight_2",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_front_sight_3",
+      "name": "pistol_front_sight_3",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_rear_sight_1",
+      "name": "pistol_rear_sight_1",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_rear_sight_2",
+      "name": "pistol_rear_sight_2",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_rear_sight_3",
+      "name": "pistol_rear_sight_3",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolSights/pistol_rear_sight_4",
+      "name": "pistol_rear_sight_4",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "PartPrefab": "Items/Weapons/Shotgun590A/Shotgun590A_barrel",
+      "name": "Shotgun_590A_barrel",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "PartPrefab": "Items/Weapons/Shotgun590A/Shotgun590A_grip",
+      "name": "Shotgun_590A_grip",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "PartPrefab": "Items/Weapons/Shotgun590A/Shotgun590A_receiver",
+      "name": "Shotgun_590A_receiver",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunBenelli/benelli_barrel",
+      "name": "Shotgun_benelli_barrel",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunBenelli/benelli_grip",
+      "name": "Shotgun_benelli_grip",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunBenelli/benelli_receiver",
+      "name": "Shotgun_benelli_receiver",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/ApertureSightA",
+      "name": "Sight_ApertureSightA",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/FlipUpSight_a_rear",
+      "name": "Sight_FlipUpSight_a_rear",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/FlipUpSight_b_rear",
+      "name": "Sight_FlipUpSight_b_rear",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/FlipUpSight_c_rear",
+      "name": "Sight_FlipUpSight_c_rear",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/WPN_AR15_Folding_Sight",
+      "name": "Sight_AR15_Folding",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/WPN_Hunter_Scope",
+      "name": "Sight_Hunter_Scope",
+      "internalEnabled": true,
+      "persistentID": 51
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/WPN_NavTech_Sight",
+      "name": "Sight_NavTech_Sight",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_a",
+      "name": "Tool_EnemyScanner_a",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_b",
+      "name": "Tool_EnemyScanner_b",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_c",
+      "name": "Tool_EnemyScanner_c",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_display_a",
+      "name": "Tool_EnemyScanner_display_a",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_display_b",
+      "name": "Tool_EnemyScanner_display_b",
+      "internalEnabled": true,
+      "persistentID": 57
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_Antenna_a",
+      "name": "Tool_EnemyScanner_antenna_a",
+      "internalEnabled": true,
+      "persistentID": 58
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_Antenna_b",
+      "name": "Tool_EnemyScanner_antenna_b",
+      "internalEnabled": true,
+      "persistentID": 59
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_Antenna_c",
+      "name": "Tool_EnemyScanner_antenna_c",
+      "internalEnabled": true,
+      "persistentID": 60
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/EnemyScanner_display_c",
+      "name": "Tool_EnemyScanner_display_c",
+      "internalEnabled": true,
+      "persistentID": 61
+    },
+    {
+      "PartPrefab": "Items/Consumables/Prefabs/Detonator",
+      "name": "Detonator",
+      "internalEnabled": true,
+      "persistentID": 62
+    },
+    {
+      "PartPrefab": "Items/Tools/ProximityScanner/ProximityScannerModelSetup",
+      "name": "MotionScanner",
+      "internalEnabled": true,
+      "persistentID": 64
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/FlashlightSmallToolSpotlightWide",
+      "name": "FlashlightSmallToolSpotlightWide",
+      "internalEnabled": true,
+      "persistentID": 66
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightSmall/FlashlightSmallToolSpotlightLong",
+      "name": "FlashlightSmallToolSpotlightLong",
+      "internalEnabled": true,
+      "persistentID": 65
+    },
+    {
+      "PartPrefab": "Items/Tools/FlashlightBig/FlashlightBigToolSpotlightLong",
+      "name": "FlashlightBigToolSpotlightLong",
+      "internalEnabled": false,
+      "persistentID": 63
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunParts/shotgun_barrel_a",
+      "name": "shotgun_barrel_a",
+      "internalEnabled": true,
+      "persistentID": 67
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunSights/shotgun_rear_sight_1",
+      "name": "shotgun_rear_sight_1",
+      "internalEnabled": true,
+      "persistentID": 68
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunParts/shotgun_barrel_shorty",
+      "name": "shotgun_barrel_shorty",
+      "internalEnabled": true,
+      "persistentID": 69
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunParts/shotgun_grip_sawed_off",
+      "name": "shotgun_grip_sawed_off",
+      "internalEnabled": true,
+      "persistentID": 70
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunKoning/ShotgunKoning_righthand_grip",
+      "name": "ShotgunKoning_righthand_grip",
+      "internalEnabled": true,
+      "persistentID": 157
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/FNC_Grip",
+      "name": "Rifle_FNC_Grip",
+      "internalEnabled": true,
+      "persistentID": 72
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/FNC_Stock",
+      "name": "Rifle_FNC_Stock",
+      "internalEnabled": true,
+      "persistentID": 74
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/FNC_Receiver",
+      "name": "Rifle_FNC_Receiver",
+      "internalEnabled": true,
+      "persistentID": 73
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/FNC_barrel",
+      "name": "Rifle_FNC_Barrel",
+      "internalEnabled": true,
+      "persistentID": 71
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/Rifle_Makeshift_barrel",
+      "name": "Rifle_Makeshift_Barrel",
+      "internalEnabled": true,
+      "persistentID": 75
+    },
+    {
+      "PartPrefab": "Items/Weapons/PistolParts/Eder22_Mod_Grip",
+      "name": "Pistol_Eder22_Mod_Grip",
+      "internalEnabled": true,
+      "persistentID": 76
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/Makeshift_OverhandGrip_Barrel",
+      "name": "Rifle_Makeshift_OverhandGrip_Barrel",
+      "internalEnabled": true,
+      "persistentID": 77
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/Sight_Reflex_a",
+      "name": "Sight_Reflex_a",
+      "internalEnabled": true,
+      "persistentID": 78
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/Sight_Reflex_Makeshift_a",
+      "name": "Sight_Reflex_Makeshift_a",
+      "internalEnabled": true,
+      "persistentID": 79
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/Sight_Reflex_Makeshift_b",
+      "name": "Sight_Reflex_Makeshift_b",
+      "internalEnabled": true,
+      "persistentID": 80
+    },
+    {
+      "PartPrefab": "Items/Weapons/Sights/Sight_Rear_Makeshift_a",
+      "name": "Sight_Rear_Makeshift_a",
+      "internalEnabled": true,
+      "persistentID": 81
+    },
+    {
+      "PartPrefab": "Items/Weapons/ShotgunParts/Shotgun_Mod_Barrel_a",
+      "name": "Shotgun_Mod_Barrel_a",
+      "internalEnabled": true,
+      "persistentID": 82
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/AKM_Mod_Receiver",
+      "name": "Rifle_AKM_Mod_Receiver",
+      "internalEnabled": true,
+      "persistentID": 83
+    },
+    {
+      "PartPrefab": "Items/Weapons/RifleParts/AKM_Mod_Barrel",
+      "name": "Rifle_AKM_Mod_Barrel",
+      "internalEnabled": true,
+      "persistentID": 84
+    },
+    {
+      "PartPrefab": "Items/Weapons/UMP/UMP_Barrel",
+      "name": "SMG_UMP_Barrel",
+      "internalEnabled": true,
+      "persistentID": 85
+    },
+    {
+      "PartPrefab": "Items/Weapons/UMP/UMP_Grip",
+      "name": "SMG_UMP_Grip",
+      "internalEnabled": true,
+      "persistentID": 86
+    },
+    {
+      "PartPrefab": "Items/Weapons/UMP/UMP_Receiver",
+      "name": "SMG_UMP_Receiver",
+      "internalEnabled": true,
+      "persistentID": 87
+    },
+    {
+      "PartPrefab": "Items/Weapons/UMP/UMP_Stock",
+      "name": "SMG_UMP_Stock",
+      "internalEnabled": true,
+      "persistentID": 88
+    },
+    {
+      "PartPrefab": "Items/Weapons/MP5/MP5_Barrel",
+      "name": "SMG_MP5_Barrel",
+      "internalEnabled": true,
+      "persistentID": 89
+    },
+    {
+      "PartPrefab": "Items/Weapons/MP5/MP5_Grip",
+      "name": "SMG_MP5_Grip",
+      "internalEnabled": true,
+      "persistentID": 90
+    },
+    {
+      "PartPrefab": "Items/Weapons/MP5/MP5_Receiver",
+      "name": "SMG_MP5_Receiver",
+      "internalEnabled": true,
+      "persistentID": 91
+    },
+    {
+      "PartPrefab": "Items/Weapons/MP5/MP5_Stock",
+      "name": "SMG_MP5_Stock",
+      "internalEnabled": true,
+      "persistentID": 92
+    },
+    {
+      "PartPrefab": "Items/Weapons/CoilParts/CoilParts_SMGReceiver",
+      "name": "CoilParts_SMGReceiver",
+      "internalEnabled": true,
+      "persistentID": 93
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Revolver_Barrel",
+      "name": "Revolver_Barrel",
+      "internalEnabled": true,
+      "persistentID": 94
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Revolver_Mod_Barrel",
+      "name": "Revolver_Mod_Barrel",
+      "internalEnabled": true,
+      "persistentID": 100
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Revolver_Grip",
+      "name": "Revolver_Grip",
+      "internalEnabled": true,
+      "persistentID": 95
+    },
+    {
+      "PartPrefab": "Items/Weapons/SMGVanAukenArms/SMGVanAukenArms_frontGrip",
+      "name": "VanAukenArms_SMG_GripFront",
+      "internalEnabled": true,
+      "persistentID": 160
+    },
+    {
+      "PartPrefab": "Items/Weapons/SMGVanAukenArms/SMGVanAukenArms",
+      "name": "VanAukenArms_SMG_Grip",
+      "internalEnabled": true,
+      "persistentID": 159
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Revolver_Receiver",
+      "name": "Revolver_Receiver",
+      "internalEnabled": true,
+      "persistentID": 96
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Rhino_Barrel",
+      "name": "Revolver_Rhino_Barrel",
+      "internalEnabled": true,
+      "persistentID": 97
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Rhino_Receiver",
+      "name": "Revolver_Rhino_Receiver",
+      "internalEnabled": true,
+      "persistentID": 98
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverParts/Rhino_Grip",
+      "name": "Revolver_Rhino_Grip",
+      "internalEnabled": true,
+      "persistentID": 99
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverSights/Sight_Revolver_Rear_a",
+      "name": "Sight_Revolver_Rear_a",
+      "internalEnabled": true,
+      "persistentID": 101
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverSights/Sight_Revolver_Rear_b",
+      "name": "Sight_Revolver_Rear_b",
+      "internalEnabled": true,
+      "persistentID": 102
+    },
+    {
+      "PartPrefab": "Items/Weapons/RevolverSights/Sight_Revolver_Optical_a",
+      "name": "Sight_Revolver_Optical_a",
+      "internalEnabled": true,
+      "persistentID": 103
+    },
+    {
+      "PartPrefab": "Items/Weapons/HydraulicParts/Hydraulic_Revolver_Grip_a",
+      "name": "Hydraulic_Revolver_Grip_a",
+      "internalEnabled": true,
+      "persistentID": 105
+    },
+    {
+      "PartPrefab": "Items/Utils/Grip_Default_Right",
+      "name": "Grip_Default_Right",
+      "internalEnabled": true,
+      "persistentID": 116
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_angled_medium",
+      "name": "magazine_rifle_angled_medium",
+      "internalEnabled": true,
+      "persistentID": 139
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_bent_medium",
+      "name": "magazine_rifle_bent_medium",
+      "internalEnabled": true,
+      "persistentID": 140
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_bent_medium_quick",
+      "name": "magazine_rifle_bent_medium_quick",
+      "internalEnabled": true,
+      "persistentID": 141
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_curved_large",
+      "name": "magazine_rifle_curved_large",
+      "internalEnabled": true,
+      "persistentID": 142
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_curved_medium",
+      "name": "magazine_rifle_curved_medium",
+      "internalEnabled": true,
+      "persistentID": 143
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_drum_large",
+      "name": "magazine_rifle_drum_large",
+      "internalEnabled": true,
+      "persistentID": 144
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_straight_medium",
+      "name": "magazine_rifle_straight_medium",
+      "internalEnabled": true,
+      "persistentID": 145
+    },
+    {
+      "PartPrefab": "Items/Weapons/Magazines/magazine_rifle_straight_small",
+      "name": "magazine_rifle_straight_small",
+      "internalEnabled": true,
+      "persistentID": 146
+    },
+    {
+      "PartPrefab": "Items/Utils/Grip_Default_Left",
+      "name": "Grip_Default_Left",
+      "internalEnabled": true,
+      "persistentID": 115
+    },
+    {
+      "PartPrefab": "Items/Tools/Mapper/MapperBase_c",
+      "name": "MapperBase_c",
+      "internalEnabled": true,
+      "persistentID": 156
+    },
+    {
+      "PartPrefab": "Items/Tools/SentryGun/SentryGunModel_LeftHand",
+      "name": "SentryGunModel_LeftHand",
+      "internalEnabled": true,
+      "persistentID": 164
+    },
+    {
+      "PartPrefab": "Items/Tools/SentryGun/SentryGunModelFirst",
+      "name": "SentryGunModelFirst",
+      "internalEnabled": true,
+      "persistentID": 165
+    },
+    {
+      "PartPrefab": "Items/Consumables/Prefabs/Stickymine",
+      "name": "tripmine",
+      "internalEnabled": true,
+      "persistentID": 166
+    },
+    {
+      "PartPrefab": "Items/Consumables/Stickymine_LeftHand",
+      "name": "tripmine_LeftHand",
+      "internalEnabled": true,
+      "persistentID": 167
+    },
+    {
+      "PartPrefab": "Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_a",
+      "name": "Sledgehammer_a",
+      "internalEnabled": true,
+      "persistentID": 168
+    },
+    {
+      "PartPrefab": "Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_b",
+      "name": "Sledgehammer_b",
+      "internalEnabled": true,
+      "persistentID": 169
+    },
+    {
+      "PartPrefab": "Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_c",
+      "name": "Sledgehammer_c",
+      "internalEnabled": true,
+      "persistentID": 170
+    },
+    {
+      "PartPrefab": "Items/Weapons/Melee/SledgeHammer_a/SledgeHammer_d",
+      "name": "Sledgehammer_d",
+      "internalEnabled": true,
+      "persistentID": 171
+    }
+  ],
+  "LastPersistentID": 172
+}

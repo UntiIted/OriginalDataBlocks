@@ -1,0 +1,102 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "SpawnsPerZone": 5,
+      "SpawnData": [
+        {
+          "ItemID": 133,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        }
+      ],
+      "name": "BaselineTest",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "SpawnsPerZone": 2,
+      "SpawnData": [
+        {
+          "ItemID": 133,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Defoggers_2",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "SpawnsPerZone": 1,
+      "SpawnData": [
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        }
+      ],
+      "name": "PowerCell_1",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "SpawnsPerZone": 2,
+      "SpawnData": [
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 133,
+          "Weight": 1.0
+        }
+      ],
+      "name": "PowerCell_Defogger",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "SpawnsPerZone": 2,
+      "SpawnData": [
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        }
+      ],
+      "name": "PowerCell_2",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "SpawnsPerZone": 1,
+      "SpawnData": [
+        {
+          "ItemID": 133,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Defoggers_1",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "SpawnsPerZone": 10,
+      "SpawnData": [
+        {
+          "ItemID": 137,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Small_HSUs_10",
+      "internalEnabled": true,
+      "persistentID": 4
+    }
+  ],
+  "LastPersistentID": 7
+}

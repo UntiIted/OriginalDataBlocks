@@ -1,0 +1,1446 @@
+{
+  "Headers": [
+    {
+      "AboveBlockID": 2,
+      "LabelText": "Expedition",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 5,
+      "LabelText": "Floodways",
+      "FoldoutStatus": true
+    }
+  ],
+  "Blocks": [
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_200x50x200",
+        "BoundingVolume": 2000.0
+      },
+      "name": "service_sign_200x50x200",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_400x50x300",
+        "BoundingVolume": 6000.0
+      },
+      "name": "service_sign_300x50x400",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_sign_700x50x300",
+        "BoundingVolume": 10500.0
+      },
+      "name": "service_sign_700x50x300",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            10
+          ],
+          [
+            9
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            8
+          ],
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Floor.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/AirSupply_Floor.prefab",
+            "function": "AirSupply",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+            "function": "SmallPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_weak_box_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_security_box_01.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_HSU_120x120x240_r.prefab",
+            "function": "HydroStatisUnit",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_05.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_generator_120x120x240_u.prefab",
+            "function": "PowerGenerator",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Bulkhead_Door_Controller.prefab",
+            "function": "BulkheadDoorController",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "BoundingVolume": 0.0
+      },
+      "name": "service_function_fallback",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Service/MarkerCompositions/Service_function_submarker_120x120x120/Service_function_submarker_120x120x120_01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mini_120x120x120",
+        "BoundingVolume": 1728.0
+      },
+      "name": "Service_function_submarker_120x120x120",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Service/MarkerCompositions/Service_function_submarker_120x60x60/Service_function_submarker_120x60x60_weakbox_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Service/MarkerCompositions/Service_function_submarker_120x60x60/Service_function_submarker_120x60x60_secbox_02.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+            "function": "SmallPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_submarker_120x60x60",
+        "BoundingVolume": 432.0
+      },
+      "name": "Service_function_submarker_120x60x60",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+            "function": "SmallPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 11.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_submarker_60x30x60",
+        "BoundingVolume": 108.0
+      },
+      "name": "Service_function_pickup_60x60x30",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+            "function": "BigPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 11.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_submarker_120x60x60",
+        "BoundingVolume": 432.0
+      },
+      "name": "Service_function_big_pickup_120x60x60",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [
+            6
+          ],
+          [],
+          [],
+          [
+            7
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_security_01.prefab",
+            "function": "ResourceContainerSecure",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_weak_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Floor.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 50.0,
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_Pickup_200x300x50_01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_Big_Pickup_200x300x50_01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+            "function": "DisinfectionStation",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_generator_120x120x240_u.prefab",
+            "function": "PowerGenerator",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "service_container_locker_200x300x50",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Bulkhead_Door_Controller.prefab",
+            "function": "BulkheadDoorController",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "Service_bulkhead_controller_200x300x50",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_01.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_02.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_03.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_04.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_05.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_06.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_07.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_08.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_09.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_10.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_11.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_12.prefab",
+            "function": "Corpse",
+            "Shard": "S1"
+          },
+          {
+            "weight": 18.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dead_body_floor_85x195x35",
+        "BoundingVolume": 580.125
+      },
+      "name": "Service_corpse_floor_85x195x35",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_01.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_02.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_03.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_04.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 7.5,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dead_body_edge_75x135x90",
+        "BoundingVolume": 911.25
+      },
+      "name": "Service_corpse_edge_75x135x90",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [],
+          [],
+          [
+            4
+          ],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V01.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V02.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V03.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V04.prefab",
+            "function": "Corpse",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V05.prefab",
+            "function": "CorpseCluster",
+            "Shard": "S20"
+          },
+          {
+            "weight": 3.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Service",
+        "Group": 12,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dead_body_floor_400x400x35",
+        "BoundingVolume": 5600.0
+      },
+      "name": "corpse_floor_400x400x35",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 9.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_L_2000x2000x1000",
+        "BoundingVolume": 4000000.0
+      },
+      "name": "Floodways_L_2000x2000x1000",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_wall_1200x700x1000",
+        "BoundingVolume": 840000.0
+      },
+      "name": "Floodways_wall_1200x700x1000",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_alcove_800x200x1000",
+        "BoundingVolume": 160000.0
+      },
+      "name": "Floodways_alcove_800x200x1000",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_alcove_800x200x500",
+        "BoundingVolume": 80000.0
+      },
+      "name": "Floodways_alcove_800x200x500",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_alcove_400x200x500",
+        "BoundingVolume": 40000.0
+      },
+      "name": "Floodways_alcove_400x200x500",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 3.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_elev_500x400x1000",
+        "BoundingVolume": 200000.0
+      },
+      "name": "Floodways_corner_400x500x1000",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_elev_1000x400x1000",
+        "BoundingVolume": 400000.0
+      },
+      "name": "Floodways_elev_1000x400x1000",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 11.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_open_large_3400x1800x1000",
+        "BoundingVolume": 6120000.0
+      },
+      "name": "Floodways_open_large_3400x1800x1000",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_open_1400x1000x1000",
+        "BoundingVolume": 1400000.0
+      },
+      "name": "Floodways_open_1400x1000x1000",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Service/M_Floodways_800x400x500",
+        "BoundingVolume": 160000.0
+      },
+      "name": "Floodways_800x400x500",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dig_site_submarker_120x120x240",
+        "BoundingVolume": 3456.0
+      },
+      "name": "Floodways_120x120x240",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_240x120x280",
+        "BoundingVolume": 6912.0
+      },
+      "name": "Floodways_240x120x240",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dig_site_table_120x240x120",
+        "BoundingVolume": 1728.0
+      },
+      "name": "Floodways_table_120x120x120",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [],
+        "AssetBundleName": "Complex_Service",
+        "Group": 13,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/SM_dig_site_table_120x240x120",
+        "BoundingVolume": 3456.0
+      },
+      "name": "Floodways_table_120x240x120",
+      "internalEnabled": true,
+      "persistentID": 17
+    }
+  ],
+  "LastPersistentID": 28
+}

@@ -1,0 +1,276 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Pistol_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Pistol_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S2",
+      "name": "Handgun",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "SMG",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S3",
+      "name": "GlueGun",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S4",
+      "name": "BurstRifle",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S5",
+      "name": "ImpulseRifle",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S6",
+      "name": "MachineGun",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S7",
+      "name": "GaussRifle",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/SubMachine_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S8",
+      "name": "Revolver",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Shotgun_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Shotgun_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S9",
+      "name": "Shotgun",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Pistol_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Pistol_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": " RevolverCannon",
+      "internalEnabled": false,
+      "persistentID": 31
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "SniperRifle",
+      "internalEnabled": false,
+      "persistentID": 30
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "AKM",
+      "internalEnabled": false,
+      "persistentID": 7
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "Hunter85",
+      "internalEnabled": false,
+      "persistentID": 8
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "M16",
+      "internalEnabled": false,
+      "persistentID": 9
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "SCAR",
+      "internalEnabled": false,
+      "persistentID": 10
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/AssaultRifle_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "Carbine",
+      "internalEnabled": false,
+      "persistentID": 5
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "P90",
+      "internalEnabled": false,
+      "persistentID": 12
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "UMP",
+      "internalEnabled": false,
+      "persistentID": 13
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "BenelliSemi",
+      "internalEnabled": false,
+      "persistentID": 15
+    },
+    {
+      "muzzleFlashFPS": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Shotgun_MuzzleFlash_FPS.prefab",
+      "muzzleFlash3RD": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Shotgun_MuzzleFlash_3RD.prefab",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "DoubleBarreledShotgun",
+      "internalEnabled": false,
+      "persistentID": 16
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "Pistol_OLD",
+      "internalEnabled": false,
+      "persistentID": 17
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "Glock22",
+      "internalEnabled": false,
+      "persistentID": 18
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "M1911",
+      "internalEnabled": false,
+      "persistentID": 19
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "PT8",
+      "internalEnabled": false,
+      "persistentID": 20
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "Sig",
+      "internalEnabled": false,
+      "persistentID": 21
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "MachinePistol",
+      "internalEnabled": false,
+      "persistentID": 23
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S1",
+      "name": "Redhawk",
+      "internalEnabled": false,
+      "persistentID": 25
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S10",
+      "name": "ItemThrower",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S11",
+      "name": "MarkerGun",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "muzzleFlashFPS": "",
+      "muzzleFlash3RD": "",
+      "AssetBundleName": "Startup",
+      "AssetBundleShard": "S12",
+      "name": "FlareGun",
+      "internalEnabled": true,
+      "persistentID": 28
+    }
+  ],
+  "LastPersistentID": 36
+}

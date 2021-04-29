@@ -1,0 +1,118 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "range": 11.0,
+      "angle": 40.0,
+      "intensity": 0.35,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookieSquareLantern.tif",
+      "color": {
+        "a": 1.0,
+        "r": 1.0,
+        "g": 0.963096559,
+        "b": 0.7311321
+      },
+      "startupShard": "S20",
+      "name": "HelmetLight",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "range": 8.0,
+      "angle": 65.0,
+      "intensity": 0.55,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightRegularCookie_03.tga",
+      "color": {
+        "a": 1.0,
+        "r": 1.0,
+        "g": 0.9862123,
+        "b": 0.7311321
+      },
+      "startupShard": "S19",
+      "name": "GunLight_A",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "range": 13.0,
+      "angle": 45.0,
+      "intensity": 0.5,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightRegularCookie_05.tga",
+      "color": {
+        "a": 1.0,
+        "r": 0.86,
+        "g": 1.0,
+        "b": 0.987599432
+      },
+      "startupShard": "S18",
+      "name": "GunLight_E",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "range": 15.0,
+      "angle": 35.0,
+      "intensity": 0.5,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightRegularCookie_01.tga",
+      "color": {
+        "a": 1.0,
+        "r": 0.813501239,
+        "g": 0.9357695,
+        "b": 0.9528302
+      },
+      "startupShard": "S18",
+      "name": "GunLight_B",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "range": 16.0,
+      "angle": 70.0,
+      "intensity": 0.2,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightRegularCookie_06.tga",
+      "color": {
+        "a": 1.0,
+        "r": 1.0,
+        "g": 0.9909915,
+        "b": 0.8726415
+      },
+      "startupShard": "S18",
+      "name": "GunLight_D",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "range": 20.0,
+      "angle": 40.0,
+      "intensity": 0.35,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightRegularCookie_04.tga",
+      "color": {
+        "a": 1.0,
+        "r": 1.0,
+        "g": 0.971209764,
+        "b": 0.937
+      },
+      "startupShard": "S18",
+      "name": "GunLight_C",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "range": 25.0,
+      "angle": 70.0,
+      "intensity": 0.25,
+      "cookie": "Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightRegularCookie_02.tga",
+      "color": {
+        "a": 1.0,
+        "r": 1.0,
+        "g": 0.998,
+        "b": 0.916
+      },
+      "startupShard": "S18",
+      "name": "Consumable_MediumFlashlight",
+      "internalEnabled": true,
+      "persistentID": 4
+    }
+  ],
+  "LastPersistentID": 7
+}

@@ -1,0 +1,6 @@
+Unlimited
+ShortCooldown
+MediumCooldown
+LongCooldown
+OncePerSegment
+OncePerExpedition

@@ -1,0 +1,2713 @@
+{
+  "Headers": [
+    {
+      "AboveBlockID": 23,
+      "LabelText": "Consumables",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 10,
+      "LabelText": "Tools",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 3,
+      "LabelText": "Weapons",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 30,
+      "LabelText": "Pickup Large (carry item)",
+      "FoldoutStatus": true
+    }
+  ],
+  "Blocks": [
+    {
+      "localPosHip": {
+        "x": 0.08,
+        "y": -0.1,
+        "z": 0.31
+      },
+      "localRotHip": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.59
+      },
+      "localPosRelaxed": {
+        "x": 0.048,
+        "y": -0.13,
+        "z": 0.4
+      },
+      "localRotRelaxed": {
+        "x": 8.0,
+        "y": -14.7,
+        "z": -29.3
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.35
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": -0.1
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 18.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 35,
+      "ItemCameraFOVZoom": 15,
+      "LookCameraFOVZoom": 53,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Slow",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "MachineGun",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "localPosHip": {
+        "x": 0.09,
+        "y": -0.1,
+        "z": 0.43
+      },
+      "localRotHip": {
+        "x": -2.36,
+        "y": -0.61,
+        "z": -1.53
+      },
+      "localPosRelaxed": {
+        "x": 0.09,
+        "y": -0.18,
+        "z": 0.32
+      },
+      "localRotRelaxed": {
+        "x": 5.0,
+        "y": -12.0,
+        "z": -25.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.25
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 36,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 53,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Bullpup",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "localPosHip": {
+        "x": 0.07,
+        "y": -0.1,
+        "z": 0.35
+      },
+      "localRotHip": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -3.0
+      },
+      "localPosRelaxed": {
+        "x": 0.05,
+        "y": -0.13,
+        "z": 0.4
+      },
+      "localRotRelaxed": {
+        "x": 10.0,
+        "y": -15.0,
+        "z": -25.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.3
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.15,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 32,
+      "ItemCameraFOVZoom": 15,
+      "LookCameraFOVZoom": 32,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "DMR",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "localPosHip": {
+        "x": 0.076,
+        "y": -0.085,
+        "z": 0.38
+      },
+      "localRotHip": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosRelaxed": {
+        "x": 0.06,
+        "y": -0.1,
+        "z": 0.4
+      },
+      "localRotRelaxed": {
+        "x": 6.8,
+        "y": -11.2,
+        "z": -26.46
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.35
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.05
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 20.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 32,
+      "ItemCameraFOVZoom": 23,
+      "LookCameraFOVZoom": 54,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.16,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 0.96
+      },
+      "name": "Shotgun",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "localPosHip": {
+        "x": 0.07,
+        "y": -0.09,
+        "z": 0.5
+      },
+      "localRotHip": {
+        "x": -0.66,
+        "y": -4.0,
+        "z": -3.64
+      },
+      "localPosRelaxed": {
+        "x": 0.075,
+        "y": -0.1,
+        "z": 0.5
+      },
+      "localRotRelaxed": {
+        "x": 10.22,
+        "y": -8.12,
+        "z": -17.7
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.15,
+        "z": 0.6
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 33,
+      "ItemCameraFOVZoom": 31,
+      "LookCameraFOVZoom": 52,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Revolver",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "localPosHip": {
+        "x": 0.055,
+        "y": -0.08,
+        "z": 0.38
+      },
+      "localRotHip": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.03
+      },
+      "localPosRelaxed": {
+        "x": 0.064,
+        "y": -0.11,
+        "z": 0.4
+      },
+      "localRotRelaxed": {
+        "x": 7.98,
+        "y": -13.55,
+        "z": -20.87
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.4
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.25,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 34,
+      "ItemCameraFOVZoom": 33,
+      "LookCameraFOVZoom": 54,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "SawedOffShotgun",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "localPosHip": {
+        "x": 0.085,
+        "y": -0.1,
+        "z": 0.36
+      },
+      "localRotHip": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.15,
+        "z": 0.25
+      },
+      "localRotRelaxed": {
+        "x": 5.0,
+        "y": -15.0,
+        "z": -16.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.3
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 33,
+      "ItemCameraFOVZoom": 15,
+      "LookCameraFOVZoom": 45,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 2.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Rifle",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "localPosHip": {
+        "x": 0.048,
+        "y": -0.065,
+        "z": 0.53
+      },
+      "localRotHip": {
+        "x": -1.71,
+        "y": -3.6,
+        "z": -0.07
+      },
+      "localPosRelaxed": {
+        "x": 0.064,
+        "y": -0.14,
+        "z": 0.5
+      },
+      "localRotRelaxed": {
+        "x": 7.0,
+        "y": -8.0,
+        "z": -10.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.65
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 36,
+      "ItemCameraFOVZoom": 34,
+      "LookCameraFOVZoom": 50,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.14,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.12,
+        "focalLength": 0.95
+      },
+      "name": "Pistol",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "localPosHip": {
+        "x": 0.05,
+        "y": -0.14,
+        "z": 0.45
+      },
+      "localRotHip": {
+        "x": -29.99,
+        "y": -6.1,
+        "z": 11.98
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Flare",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "localPosHip": {
+        "x": 0.062,
+        "y": -0.1,
+        "z": 0.33
+      },
+      "localRotHip": {
+        "x": -2.15,
+        "y": 0.0,
+        "z": -1.71
+      },
+      "localPosRelaxed": {
+        "x": 0.046,
+        "y": -0.11,
+        "z": 0.32
+      },
+      "localRotRelaxed": {
+        "x": 5.0,
+        "y": -12.0,
+        "z": -25.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.38
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.1
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 36,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 53,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "SMG",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "localPosHip": {
+        "x": 0.088,
+        "y": -0.09,
+        "z": 0.35
+      },
+      "localRotHip": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosRelaxed": {
+        "x": 0.056,
+        "y": -0.12,
+        "z": 0.32
+      },
+      "localRotRelaxed": {
+        "x": 8.0,
+        "y": -15.33,
+        "z": -30.5
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.05,
+        "z": 0.5
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 34,
+      "ItemCameraFOVZoom": 15,
+      "LookCameraFOVZoom": 50,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 2.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Slow",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Sniper",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "localPosHip": {
+        "x": 0.06,
+        "y": -0.08,
+        "z": 0.55
+      },
+      "localRotHip": {
+        "x": -2.0,
+        "y": -3.6,
+        "z": -0.75
+      },
+      "localPosRelaxed": {
+        "x": 0.064,
+        "y": -0.14,
+        "z": 0.5
+      },
+      "localRotRelaxed": {
+        "x": 7.0,
+        "y": -8.0,
+        "z": -10.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.05
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 38,
+      "ItemCameraFOVZoom": 40,
+      "LookCameraFOVZoom": 50,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "MachinePistol",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "localPosHip": {
+        "x": 0.05,
+        "y": -0.38,
+        "z": 0.36
+      },
+      "localRotHip": {
+        "x": 0.55,
+        "y": -0.5,
+        "z": -20.98
+      },
+      "localPosRelaxed": {
+        "x": 0.05,
+        "y": -0.38,
+        "z": 0.36
+      },
+      "localRotRelaxed": {
+        "x": 0.55,
+        "y": -0.5,
+        "z": -20.98
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.06
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 0.5
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 0.98
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "MeleeWeapon",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "localPosHip": {
+        "x": 0.12,
+        "y": -0.13,
+        "z": 0.52
+      },
+      "localRotHip": {
+        "x": -1.01,
+        "y": -4.2,
+        "z": -1.91
+      },
+      "localPosRelaxed": {
+        "x": 0.16,
+        "y": -0.11,
+        "z": 0.53
+      },
+      "localRotRelaxed": {
+        "x": 1.15,
+        "y": 2.2,
+        "z": -10.03
+      },
+      "localPosZoom": {
+        "x": 0.01,
+        "y": -0.065,
+        "z": 0.42
+      },
+      "localRotZoom": {
+        "x": -14.76,
+        "y": 0.19,
+        "z": 1.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 35,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 0.8
+      },
+      "name": "MotionTracker",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "localPosHip": {
+        "x": 0.13,
+        "y": -0.26,
+        "z": 0.6
+      },
+      "localRotHip": {
+        "x": -5.01,
+        "y": -3.62,
+        "z": 8.98
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.05,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 50,
+      "ItemCameraFOVZoom": 25,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "SentryGun",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "localPosHip": {
+        "x": 0.18,
+        "y": -0.18,
+        "z": 0.35
+      },
+      "localRotHip": {
+        "x": 7.19,
+        "y": 0.4,
+        "z": -3.57
+      },
+      "localPosRelaxed": {
+        "x": 0.19,
+        "y": -0.18,
+        "z": 0.35
+      },
+      "localRotRelaxed": {
+        "x": 19.0,
+        "y": -5.11,
+        "z": -10.42
+      },
+      "localPosZoom": {
+        "x": 0.1,
+        "y": -0.18,
+        "z": 0.25
+      },
+      "localRotZoom": {
+        "x": 3.09,
+        "y": 2.72,
+        "z": -4.11
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 40,
+      "ItemCameraFOVZoom": 35,
+      "LookCameraFOVZoom": 55,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "TripMine",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "localPosHip": {
+        "x": 0.18,
+        "y": -0.11,
+        "z": 0.44
+      },
+      "localRotHip": {
+        "x": -0.63,
+        "y": 5.94,
+        "z": 2.46
+      },
+      "localPosRelaxed": {
+        "x": 0.17,
+        "y": -0.23,
+        "z": 0.44
+      },
+      "localRotRelaxed": {
+        "x": 11.11,
+        "y": -0.59,
+        "z": -8.4
+      },
+      "localPosZoom": {
+        "x": 0.13,
+        "y": -0.32,
+        "z": 0.28
+      },
+      "localRotZoom": {
+        "x": 2.84,
+        "y": -0.7,
+        "z": 2.48
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 39,
+      "ItemCameraFOVZoom": 33,
+      "LookCameraFOVZoom": 45,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.18,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.22,
+        "focalLength": 1.0
+      },
+      "name": "GlueGun",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "localPosHip": {
+        "x": 0.11,
+        "y": -0.08,
+        "z": 0.42
+      },
+      "localRotHip": {
+        "x": -2.81,
+        "y": -1.53,
+        "z": -3.32
+      },
+      "localPosRelaxed": {
+        "x": 0.05,
+        "y": -0.3,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 4.24,
+        "z": -13.74
+      },
+      "localPosZoom": {
+        "x": 0.05,
+        "y": -0.08,
+        "z": 0.42
+      },
+      "localRotZoom": {
+        "x": -13.41,
+        "y": 2.23,
+        "z": -1.36
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": -0.05
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 38,
+      "ItemCameraFOVZoom": 32,
+      "LookCameraFOVZoom": 70,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Mapper",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "localPosHip": {
+        "x": 0.08,
+        "y": -0.084,
+        "z": 0.5
+      },
+      "localRotHip": {
+        "x": -51.01,
+        "y": -2.5,
+        "z": 10.18
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.01,
+        "y": -0.075,
+        "z": 0.45
+      },
+      "localRotZoom": {
+        "x": -34.42,
+        "y": -1.4,
+        "z": 5.1
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.25,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 32,
+      "ItemCameraFOVZoom": 30,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "HackingTool",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "localPosHip": {
+        "x": 0.04,
+        "y": -0.36,
+        "z": 0.55
+      },
+      "localRotHip": {
+        "x": 20.07,
+        "y": -2.6,
+        "z": -22.1
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "ResourcePack",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "localPosHip": {
+        "x": 0.0,
+        "y": -1.05,
+        "z": 0.5
+      },
+      "localRotHip": {
+        "x": 16.34,
+        "y": 23.63,
+        "z": -15.72
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": -1.05,
+        "z": 0.5
+      },
+      "localRotRelaxed": {
+        "x": 16.34,
+        "y": 23.63,
+        "z": -15.72
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 40,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "BigCapsuleObject",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "localPosHip": {
+        "x": 0.2,
+        "y": -0.28,
+        "z": 0.4
+      },
+      "localRotHip": {
+        "x": 4.86,
+        "y": -2.0,
+        "z": 6.7
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Consumable",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "localPosHip": {
+        "x": 0.15,
+        "y": -0.08,
+        "z": 0.45
+      },
+      "localRotHip": {
+        "x": 38.2,
+        "y": -33.3,
+        "z": -27.8
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Consumable_Needle",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "localPosHip": {
+        "x": 0.0,
+        "y": -0.18,
+        "z": 0.5
+      },
+      "localRotHip": {
+        "x": 16.44,
+        "y": 25.25,
+        "z": 23.69
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "LockMelter",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "localPosHip": {
+        "x": 0.0,
+        "y": -0.18,
+        "z": 0.5
+      },
+      "localRotHip": {
+        "x": -84.9,
+        "y": 25.2,
+        "z": -20.6
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Consumable_Tripmine",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "localPosHip": {
+        "x": 0.13,
+        "y": -0.1,
+        "z": 0.43
+      },
+      "localRotHip": {
+        "x": -42.5,
+        "y": -21.9,
+        "z": 50.22
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 40,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "GlowStick",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "localPosHip": {
+        "x": 0.048,
+        "y": -0.13,
+        "z": 0.38
+      },
+      "localRotHip": {
+        "x": -2.16,
+        "y": -1.53,
+        "z": 7.52
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 38,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "MediumFlashlight",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "localPosHip": {
+        "x": 0.05,
+        "y": -0.25,
+        "z": 0.65
+      },
+      "localRotHip": {
+        "x": -21.2,
+        "y": -15.91,
+        "z": 5.12
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 38,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "FogRepeller",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "localPosHip": {
+        "x": 0.1,
+        "y": -0.12,
+        "z": 0.46
+      },
+      "localRotHip": {
+        "x": -9.48,
+        "y": -13.5,
+        "z": -19.1
+      },
+      "localPosRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 40,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 45,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "GlueGrenade",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "localPosHip": {
+        "x": -0.1,
+        "y": -0.25,
+        "z": 0.68
+      },
+      "localRotHip": {
+        "x": -12.0,
+        "y": -58.4,
+        "z": 28.4
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.05,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 35,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Carry_Generator_PowerCell",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "localPosHip": {
+        "x": -0.1,
+        "y": -0.3,
+        "z": 0.63
+      },
+      "localRotHip": {
+        "x": 30.71,
+        "y": -12.9,
+        "z": 7.0
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.05,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 25,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Carry_DefoggerBig",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "localPosHip": {
+        "x": 0.0,
+        "y": -0.3,
+        "z": 0.63
+      },
+      "localRotHip": {
+        "x": -7.5,
+        "y": -60.63,
+        "z": 16.7
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.05,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 25,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Carry_GenericCrate",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "localPosHip": {
+        "x": -0.05,
+        "y": -0.28,
+        "z": 0.55
+      },
+      "localRotHip": {
+        "x": -11.9,
+        "y": -75.3,
+        "z": 35.9
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.05,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 55,
+      "ItemCameraFOVZoom": 25,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Carry_HSU_Small",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "localPosHip": {
+        "x": 0.0,
+        "y": -0.5,
+        "z": 0.7
+      },
+      "localRotHip": {
+        "x": -7.5,
+        "y": -60.63,
+        "z": 16.7
+      },
+      "localPosRelaxed": {
+        "x": 0.03,
+        "y": -0.05,
+        "z": 0.45
+      },
+      "localRotRelaxed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 45,
+      "ItemCameraFOVZoom": 25,
+      "LookCameraFOVZoom": 40,
+      "canAim": false,
+      "onlyStartAimOnPressed": false,
+      "canRelax": false,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": false,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "idleAnimData": {
+        "Anim": "idle",
+        "Speed": 1.0
+      },
+      "walkAnimData": {
+        "Anim": "walk",
+        "Speed": 1.0
+      },
+      "runAnimData": {
+        "Anim": "run",
+        "Speed": 1.0
+      },
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 90.0,
+        "aperture": 0.15,
+        "focalLength": 1.0
+      },
+      "name": "Carry_DataSphere",
+      "internalEnabled": true,
+      "persistentID": 37
+    }
+  ],
+  "LastPersistentID": 37
+}

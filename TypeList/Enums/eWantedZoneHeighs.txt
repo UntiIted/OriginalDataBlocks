@@ -1,0 +1,10 @@
+LowMidHigh
+OnlyLow
+OnlyHigh
+OnlyMid
+LowMid
+MidHigh
+LowHigh
+Ascending
+Descending
+Unchanged

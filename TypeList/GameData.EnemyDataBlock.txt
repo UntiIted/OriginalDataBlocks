@@ -1,0 +1,53 @@
+Int32: m_internalMaterialId
+(enum) MaterialType: m_internalMaterial
+(enum) eEnemyType: EnemyType
+(enum) AssetBundleName: AssetBundle
+(enum) AssetBundleShard: BundleShard
+List<String>: BasePrefabs
+List<ModelData>: ModelDatas
+   Int32: m_internalMaterialId
+   String: ModelFile
+   String: ModelCustomization
+   Vector3: PositionOffset
+   Vector3: RotationOffset
+   Vector3: NeckScale
+   Vector3: HeadScale
+   Vector3: ChestScale
+   Vector3: ArmScale
+   Vector3: LegScale
+   String: LinkBone
+   Vector2: SizeRange
+UInt32: DetectionDataId
+UInt32: BehaviorDataId
+UInt32: MovementDataId
+UInt32: BalancingDataId
+UInt32: SFXDataId
+List<LinkedSlaveModelData>: LinkedSlaveModels
+   (enum) AnimatorControllerHandleName: AnimationSet
+   Int32: m_internalMaterialId
+   String: ModelFile
+   String: ModelCustomization
+   Vector3: PositionOffset
+   Vector3: RotationOffset
+   Vector3: NeckScale
+   Vector3: HeadScale
+   Vector3: ChestScale
+   Vector3: ArmScale
+   Vector3: LegScale
+   String: LinkBone
+   Vector2: SizeRange
+(enum) MaterialType: InternalMaterial
+Boolean: isCoccoon
+List<AbilityData>: AI_Abilities
+   Boolean: Enabled
+   String: AbilityPrefab
+   (enum) AgentAbility: AbilityType
+   Single: Cooldown
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

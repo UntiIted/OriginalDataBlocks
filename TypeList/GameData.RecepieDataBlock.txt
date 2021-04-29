@@ -1,0 +1,14 @@
+List<String>: m_objects
+Int32: siffran
+Vector3: vektorn
+Boolean: santellerfalskt
+Vector2: andraVektorn
+List<String>: objects
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

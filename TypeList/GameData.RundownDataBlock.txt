@@ -1,0 +1,516 @@
+RundownTierProgressionData: ReqToReachTierB
+   Int32: MainSectors
+   Int32: SecondarySectors
+   Int32: ThirdSectors
+   Int32: AllClearedSectors
+RundownTierProgressionData: ReqToReachTierC
+   Int32: MainSectors
+   Int32: SecondarySectors
+   Int32: ThirdSectors
+   Int32: AllClearedSectors
+RundownTierProgressionData: ReqToReachTierD
+   Int32: MainSectors
+   Int32: SecondarySectors
+   Int32: ThirdSectors
+   Int32: AllClearedSectors
+RundownTierProgressionData: ReqToReachTierE
+   Int32: MainSectors
+   Int32: SecondarySectors
+   Int32: ThirdSectors
+   Int32: AllClearedSectors
+RundownStorytellingData: StorytellingData
+   String: Title
+   String: TextLog
+   Vector2: TextLogPos
+   RundownStorytellingVisualData: Visuals
+      Color: ColorBackground
+      TierVisualData: TierAVisuals
+         Color: Color
+         Single: Scale
+      TierVisualData: TierBVisuals
+         Color: Color
+         Single: Scale
+      TierVisualData: TierCVisuals
+         Color: Color
+         Single: Scale
+      TierVisualData: TierDVisuals
+         Color: Color
+         Single: Scale
+      TierVisualData: TierEVisuals
+         Color: Color
+         Single: Scale
+   Vector2: SurfaceIconPosition
+   String: SurfaceDescription
+List<ExpeditionInTierData>: TierA
+   Int32: HostIDSeed
+   Int32: SessionSeed
+   Boolean: Enabled
+   (enum) eExpeditionAccessibility: Accessibility
+   RundownTierProgressionData: CustomProgressionLock
+      Int32: MainSectors
+      Int32: SecondarySectors
+      Int32: ThirdSectors
+      Int32: AllClearedSectors
+   DescriptiveData: Descriptive
+      String: Prefix
+      String: PublicName
+      Boolean: IsExtraExpedition
+      Int32: ExpeditionDepth
+      String: EstimatedDuration
+      String: ExpeditionDescription
+      String: RoleplayedWardenIntel
+      String: DevInfo
+   BuildSeedData: Seeds
+      Int32: BuildSeed
+      Int32: FunctionMarkerOffset
+      Int32: StandardMarkerOffset
+      Int32: LightJobSeedOffset
+   ExpeditionData: Expedition
+      UInt32: ComplexResourceData
+      UInt32: LightSettings
+      UInt32: FogSettings
+      UInt32: EnemyPopulation
+      UInt32: ExpeditionBalance
+      UInt32: ScoutWaveSettings
+      UInt32: ScoutWavePopulation
+   UInt32: LevelLayoutData
+   LayerData: MainLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: SecondaryLayerEnabled
+   UInt32: SecondaryLayout
+   BuildLayerFromData: BuildSecondaryFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: SecondaryLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: ThirdLayerEnabled
+   UInt32: ThirdLayout
+   BuildLayerFromData: BuildThirdFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: ThirdLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   SpecialExpeditionOverridesData: SpecialOverrideData
+      Single: WeakResourceContainerWithPackChanceForLocked
+List<ExpeditionInTierData>: TierB
+   Int32: HostIDSeed
+   Int32: SessionSeed
+   Boolean: Enabled
+   (enum) eExpeditionAccessibility: Accessibility
+   RundownTierProgressionData: CustomProgressionLock
+      Int32: MainSectors
+      Int32: SecondarySectors
+      Int32: ThirdSectors
+      Int32: AllClearedSectors
+   DescriptiveData: Descriptive
+      String: Prefix
+      String: PublicName
+      Boolean: IsExtraExpedition
+      Int32: ExpeditionDepth
+      String: EstimatedDuration
+      String: ExpeditionDescription
+      String: RoleplayedWardenIntel
+      String: DevInfo
+   BuildSeedData: Seeds
+      Int32: BuildSeed
+      Int32: FunctionMarkerOffset
+      Int32: StandardMarkerOffset
+      Int32: LightJobSeedOffset
+   ExpeditionData: Expedition
+      UInt32: ComplexResourceData
+      UInt32: LightSettings
+      UInt32: FogSettings
+      UInt32: EnemyPopulation
+      UInt32: ExpeditionBalance
+      UInt32: ScoutWaveSettings
+      UInt32: ScoutWavePopulation
+   UInt32: LevelLayoutData
+   LayerData: MainLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: SecondaryLayerEnabled
+   UInt32: SecondaryLayout
+   BuildLayerFromData: BuildSecondaryFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: SecondaryLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: ThirdLayerEnabled
+   UInt32: ThirdLayout
+   BuildLayerFromData: BuildThirdFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: ThirdLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   SpecialExpeditionOverridesData: SpecialOverrideData
+      Single: WeakResourceContainerWithPackChanceForLocked
+List<ExpeditionInTierData>: TierC
+   Int32: HostIDSeed
+   Int32: SessionSeed
+   Boolean: Enabled
+   (enum) eExpeditionAccessibility: Accessibility
+   RundownTierProgressionData: CustomProgressionLock
+      Int32: MainSectors
+      Int32: SecondarySectors
+      Int32: ThirdSectors
+      Int32: AllClearedSectors
+   DescriptiveData: Descriptive
+      String: Prefix
+      String: PublicName
+      Boolean: IsExtraExpedition
+      Int32: ExpeditionDepth
+      String: EstimatedDuration
+      String: ExpeditionDescription
+      String: RoleplayedWardenIntel
+      String: DevInfo
+   BuildSeedData: Seeds
+      Int32: BuildSeed
+      Int32: FunctionMarkerOffset
+      Int32: StandardMarkerOffset
+      Int32: LightJobSeedOffset
+   ExpeditionData: Expedition
+      UInt32: ComplexResourceData
+      UInt32: LightSettings
+      UInt32: FogSettings
+      UInt32: EnemyPopulation
+      UInt32: ExpeditionBalance
+      UInt32: ScoutWaveSettings
+      UInt32: ScoutWavePopulation
+   UInt32: LevelLayoutData
+   LayerData: MainLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: SecondaryLayerEnabled
+   UInt32: SecondaryLayout
+   BuildLayerFromData: BuildSecondaryFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: SecondaryLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: ThirdLayerEnabled
+   UInt32: ThirdLayout
+   BuildLayerFromData: BuildThirdFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: ThirdLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   SpecialExpeditionOverridesData: SpecialOverrideData
+      Single: WeakResourceContainerWithPackChanceForLocked
+List<ExpeditionInTierData>: TierD
+   Int32: HostIDSeed
+   Int32: SessionSeed
+   Boolean: Enabled
+   (enum) eExpeditionAccessibility: Accessibility
+   RundownTierProgressionData: CustomProgressionLock
+      Int32: MainSectors
+      Int32: SecondarySectors
+      Int32: ThirdSectors
+      Int32: AllClearedSectors
+   DescriptiveData: Descriptive
+      String: Prefix
+      String: PublicName
+      Boolean: IsExtraExpedition
+      Int32: ExpeditionDepth
+      String: EstimatedDuration
+      String: ExpeditionDescription
+      String: RoleplayedWardenIntel
+      String: DevInfo
+   BuildSeedData: Seeds
+      Int32: BuildSeed
+      Int32: FunctionMarkerOffset
+      Int32: StandardMarkerOffset
+      Int32: LightJobSeedOffset
+   ExpeditionData: Expedition
+      UInt32: ComplexResourceData
+      UInt32: LightSettings
+      UInt32: FogSettings
+      UInt32: EnemyPopulation
+      UInt32: ExpeditionBalance
+      UInt32: ScoutWaveSettings
+      UInt32: ScoutWavePopulation
+   UInt32: LevelLayoutData
+   LayerData: MainLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: SecondaryLayerEnabled
+   UInt32: SecondaryLayout
+   BuildLayerFromData: BuildSecondaryFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: SecondaryLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: ThirdLayerEnabled
+   UInt32: ThirdLayout
+   BuildLayerFromData: BuildThirdFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: ThirdLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   SpecialExpeditionOverridesData: SpecialOverrideData
+      Single: WeakResourceContainerWithPackChanceForLocked
+List<ExpeditionInTierData>: TierE
+   Int32: HostIDSeed
+   Int32: SessionSeed
+   Boolean: Enabled
+   (enum) eExpeditionAccessibility: Accessibility
+   RundownTierProgressionData: CustomProgressionLock
+      Int32: MainSectors
+      Int32: SecondarySectors
+      Int32: ThirdSectors
+      Int32: AllClearedSectors
+   DescriptiveData: Descriptive
+      String: Prefix
+      String: PublicName
+      Boolean: IsExtraExpedition
+      Int32: ExpeditionDepth
+      String: EstimatedDuration
+      String: ExpeditionDescription
+      String: RoleplayedWardenIntel
+      String: DevInfo
+   BuildSeedData: Seeds
+      Int32: BuildSeed
+      Int32: FunctionMarkerOffset
+      Int32: StandardMarkerOffset
+      Int32: LightJobSeedOffset
+   ExpeditionData: Expedition
+      UInt32: ComplexResourceData
+      UInt32: LightSettings
+      UInt32: FogSettings
+      UInt32: EnemyPopulation
+      UInt32: ExpeditionBalance
+      UInt32: ScoutWaveSettings
+      UInt32: ScoutWavePopulation
+   UInt32: LevelLayoutData
+   LayerData: MainLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: SecondaryLayerEnabled
+   UInt32: SecondaryLayout
+   BuildLayerFromData: BuildSecondaryFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: SecondaryLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   Boolean: ThirdLayerEnabled
+   UInt32: ThirdLayout
+   BuildLayerFromData: BuildThirdFrom
+      (enum) LG_LayerType: LayerType
+      (enum) eLocalZoneIndex: Zone
+   LayerData: ThirdLayerData
+      Int32: ZoneAliasStart
+      (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
+      List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
+         (enum) eLocalZoneIndex: ZoneIndex
+         ZonePlacementWeights: PlacementWeights
+            Single: Start
+            Single: Middle
+            Single: End
+         Int32: AreaSeedOffset
+         Int32: MarkerSeedOffset
+      List<List`1>: BulkheadKeyPlacements
+      WardenObjectiveLayerData: ObjectiveData
+         UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List`1>: ZonePlacementDatas
+   SpecialExpeditionOverridesData: SpecialOverrideData
+      Single: WeakResourceContainerWithPackChanceForLocked
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,12 @@
+None
+GearStandard
+GearSpecial
+GearClass
+ResourcePack
+Consumable
+ConsumableHeavy
+InPocket
+InLevelCarry
+Pickup
+GearMelee
+HackingTool

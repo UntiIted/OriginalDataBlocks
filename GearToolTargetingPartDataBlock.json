@@ -1,0 +1,106 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "ModelDataPerType": {
+        "Alpha": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_1.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Targeting",
+          "BundleShard": "S6"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "Alpha",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_1.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Targeting",
+            "BundleShard": "S6"
+          }
+        }
+      ],
+      "Aligns": [],
+      "name": "Targeting_1",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "ModelDataPerType": {
+        "Alpha": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_2.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Targeting",
+          "BundleShard": "S6"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "Alpha",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_2.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Targeting",
+            "BundleShard": "S6"
+          }
+        }
+      ],
+      "Aligns": [],
+      "name": "Targeting_2",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "ModelDataPerType": {
+        "Alpha": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_3.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Targeting",
+          "BundleShard": "S6"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "Alpha",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_3.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Targeting",
+            "BundleShard": "S6"
+          }
+        }
+      ],
+      "Aligns": [],
+      "name": "Targeting_3",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "ModelDataPerType": {
+        "EnemiesAndPlayer": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_3.prefab",
+          "GearCategoryFilter": 0,
+          "AssetBundle": "Gear_Tool_Targeting",
+          "BundleShard": "S6"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "EnemiesAndPlayer",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Targeting/Targeting_3.prefab",
+            "GearCategoryFilter": 0,
+            "AssetBundle": "Gear_Tool_Targeting",
+            "BundleShard": "S6"
+          }
+        }
+      ],
+      "Aligns": [],
+      "name": "Targeting_3_SecurityTurret",
+      "internalEnabled": true,
+      "persistentID": 4
+    }
+  ],
+  "LastPersistentID": 4
+}

@@ -1,0 +1,21 @@
+String: PublicName
+String: Description
+UInt32: BaseItem
+String: HUDIcon
+String: FPSArmPoseName
+(enum) eFullbodyPlayerMovementSet: ThirdPersonFullbodyMovement
+UInt32: SemiArchetype
+UInt32: BurstArchetype
+UInt32: AutoArchetype
+UInt32: SemiBurstArchetype
+List<GearPartAlignPriority>: PartAlignPriority
+   (enum) eGearPartAlign: AlignType
+   (enum) List<eGearComponent>: PartPrio
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

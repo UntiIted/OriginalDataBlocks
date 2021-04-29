@@ -1,0 +1,50 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Actions": [
+        {
+          "On": true,
+          "Time": 1.0,
+          "ActionID": 5
+        },
+        {
+          "On": true,
+          "Time": 3.0,
+          "ActionID": 2
+        },
+        {
+          "On": true,
+          "Time": 7.0,
+          "ActionID": 1
+        }
+      ],
+      "name": "Decontamination",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "Actions": [
+        {
+          "On": true,
+          "Time": 0.0,
+          "ActionID": 3
+        },
+        {
+          "On": true,
+          "Time": 2.0,
+          "ActionID": 4
+        },
+        {
+          "On": true,
+          "Time": 4.0,
+          "ActionID": 1
+        }
+      ],
+      "name": "Apex Defend Event",
+      "internalEnabled": true,
+      "persistentID": 2
+    }
+  ],
+  "LastPersistentID": 2
+}

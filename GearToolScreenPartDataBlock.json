@@ -1,0 +1,78 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S8"
+      },
+      "Aligns": [],
+      "name": "Screen_1",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S2"
+      },
+      "Aligns": [],
+      "name": "Screen_2",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_3.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S3"
+      },
+      "Aligns": [],
+      "name": "Screen_3",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_4.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S4"
+      },
+      "Aligns": [],
+      "name": "Screen_4",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_5.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S5"
+      },
+      "Aligns": [],
+      "name": "Screen_5",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_6.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S6"
+      },
+      "Aligns": [],
+      "name": "Screen_6",
+      "internalEnabled": true,
+      "persistentID": 8
+    }
+  ],
+  "LastPersistentID": 8
+}

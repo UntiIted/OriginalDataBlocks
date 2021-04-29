@@ -1,0 +1,446 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 1,
+      "BurstArchetype": 3,
+      "AutoArchetype": 5,
+      "SemiBurstArchetype": 16,
+      "PartAlignPriority": [],
+      "name": "Rifle",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 1,
+      "BurstArchetype": 3,
+      "AutoArchetype": 67,
+      "SemiBurstArchetype": 16,
+      "PartAlignPriority": [],
+      "name": "RifleHeavy",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 17,
+      "BurstArchetype": 18,
+      "AutoArchetype": 19,
+      "SemiBurstArchetype": 20,
+      "PartAlignPriority": [],
+      "name": "SMG",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 51,
+      "BurstArchetype": 50,
+      "AutoArchetype": 49,
+      "SemiBurstArchetype": 53,
+      "PartAlignPriority": [
+        {
+          "AlignType": "LeftHand",
+          "PartPrio": [
+            "ItemFPSSettings",
+            "Category",
+            "BaseItem"
+          ]
+        }
+      ],
+      "name": "Bullpup",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 109,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 21,
+      "BurstArchetype": 22,
+      "AutoArchetype": 23,
+      "SemiBurstArchetype": 24,
+      "PartAlignPriority": [],
+      "name": "MachineGun_LowRPM",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 109,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 21,
+      "BurstArchetype": 22,
+      "AutoArchetype": 59,
+      "SemiBurstArchetype": 24,
+      "PartAlignPriority": [],
+      "name": "MachineGun",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 25,
+      "BurstArchetype": 26,
+      "AutoArchetype": 27,
+      "SemiBurstArchetype": 28,
+      "PartAlignPriority": [],
+      "name": "DMR",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 109,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 29,
+      "BurstArchetype": 30,
+      "AutoArchetype": 31,
+      "SemiBurstArchetype": 32,
+      "PartAlignPriority": [],
+      "name": "Sniper",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 109,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 65,
+      "BurstArchetype": 30,
+      "AutoArchetype": 31,
+      "SemiBurstArchetype": 32,
+      "PartAlignPriority": [],
+      "name": "Gauss_Rifle",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 110,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 33,
+      "BurstArchetype": 34,
+      "AutoArchetype": 35,
+      "SemiBurstArchetype": 36,
+      "PartAlignPriority": [],
+      "name": "Shotgun",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 110,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Pistol",
+      "SemiArchetype": 45,
+      "BurstArchetype": 47,
+      "AutoArchetype": 46,
+      "SemiBurstArchetype": 52,
+      "PartAlignPriority": [
+        {
+          "AlignType": "Flashlight",
+          "PartPrio": [
+            "Category",
+            "ItemFPSSettings"
+          ]
+        }
+      ],
+      "name": "SawedOffShotgun",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 109,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Pistol",
+      "SemiArchetype": 37,
+      "BurstArchetype": 38,
+      "AutoArchetype": 39,
+      "SemiBurstArchetype": 40,
+      "PartAlignPriority": [
+        {
+          "AlignType": "LeftHand",
+          "PartPrio": [
+            "FrontPart"
+          ]
+        },
+        {
+          "AlignType": "RightHand",
+          "PartPrio": [
+            "FrontPart"
+          ]
+        }
+      ],
+      "name": "Revolver",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Pistol",
+      "SemiArchetype": 38,
+      "BurstArchetype": 38,
+      "AutoArchetype": 39,
+      "SemiBurstArchetype": 40,
+      "PartAlignPriority": [
+        {
+          "AlignType": "LeftHand",
+          "PartPrio": [
+            "FrontPart"
+          ]
+        },
+        {
+          "AlignType": "RightHand",
+          "PartPrio": [
+            "FrontPart"
+          ]
+        }
+      ],
+      "name": "RevolverStandard",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Pistol",
+      "SemiArchetype": 41,
+      "BurstArchetype": 42,
+      "AutoArchetype": 43,
+      "SemiBurstArchetype": 44,
+      "PartAlignPriority": [
+        {
+          "AlignType": "Flashlight",
+          "PartPrio": [
+            "Category",
+            "ItemFPSSettings"
+          ]
+        }
+      ],
+      "name": "Pistol",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Pistol",
+      "SemiArchetype": 41,
+      "BurstArchetype": 42,
+      "AutoArchetype": 66,
+      "SemiBurstArchetype": 44,
+      "PartAlignPriority": [
+        {
+          "AlignType": "Flashlight",
+          "PartPrio": [
+            "Category",
+            "ItemFPSSettings"
+          ]
+        }
+      ],
+      "name": "Pistol_Stagger",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "PublicName": "Bio Tracker",
+      "Description": "Enemy detection\nEnemy tagging",
+      "BaseItem": 28,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "Motion Tracker",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "PublicName": "Mapping device",
+      "Description": "",
+      "BaseItem": 74,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "Mapper",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "PublicName": "C-Foam Launcher",
+      "Description": "Enemy slowdown\nDoor reinforcement\nCharge up fire",
+      "BaseItem": 73,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "GlueGun",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "PublicName": "Sentry Gun",
+      "Description": "",
+      "BaseItem": 97,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [
+        {
+          "AlignType": "LeftHand",
+          "PartPrio": [
+            "ToolMainPart"
+          ]
+        },
+        {
+          "AlignType": "RightHand",
+          "PartPrio": [
+            "ToolMainPart"
+          ]
+        }
+      ],
+      "name": "SentryGun",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "PublicName": "Mapper drone",
+      "Description": "",
+      "BaseItem": 111,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "MapperDrone",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "PublicName": "Mine deployer",
+      "Description": "Laser triggered explosion\nShaped charge",
+      "BaseItem": 37,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "TripMine",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "PublicName": "Melee",
+      "Description": "Silent\nClose Range\nCharge up attack",
+      "BaseItem": 100,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Melee",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "MeleeWeapon",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "PublicName": "Hacking tool",
+      "Description": "",
+      "BaseItem": 53,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Pistol",
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "HackingTool",
+      "internalEnabled": true,
+      "persistentID": 15
+    }
+  ],
+  "LastPersistentID": 23
+}

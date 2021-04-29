@@ -1,0 +1,7 @@
+General
+Special
+Emergency
+Independent
+Door
+Sign
+DoorImportant

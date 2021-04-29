@@ -1,0 +1,98 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupGreen",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 1.0,
+          "EffectPrefab": "Effects/Environment/E_Environment_VentSmokeBig",
+          "AttachToRoot": false,
+          "DoNoKill": false
+        }
+      ],
+      "name": "smoke",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Mockup/MockupBlue",
+          "AttachToRoot": false,
+          "DoNoKill": true
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Environment/E_Env_Smoke_Vent_a_4m",
+          "AttachToRoot": false,
+          "DoNoKill": true
+        }
+      ],
+      "name": "Test apan",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Environment/E_Env_Smoke_Vent_a_4m",
+          "AttachToRoot": true,
+          "DoNoKill": true
+        }
+      ],
+      "name": "Vent_smoke_a_4m",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "audioData": [],
+      "effectData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Chance": 1.0,
+          "Delay": 0.0,
+          "EffectPrefab": "Effects/Environment/E_Env_Smoke_Vent_a_3m",
+          "AttachToRoot": true,
+          "DoNoKill": true
+        }
+      ],
+      "name": "Vent_smoke_a_3m",
+      "internalEnabled": true,
+      "persistentID": 4
+    }
+  ],
+  "LastPersistentID": 4
+}

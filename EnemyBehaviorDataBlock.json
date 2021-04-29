@@ -1,0 +1,888 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 4.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.5,
+        "Max": 2.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 3.0,
+        "Max": 4.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 20.0
+      },
+      "RushTargetDistance": 10.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Striker",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 4.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.5,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 0.0,
+        "Max": 1.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 3.0,
+        "Max": 5.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 1.5,
+        "Max": 3.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 4.0,
+        "Max": 13.0
+      },
+      "RushTargetDistance": 10.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Striker_Child",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 4.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 4.0,
+        "Max": 6.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 4.5
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 0.5,
+        "Max": 2.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 50.0,
+        "Max": 60.0
+      },
+      "ScreamStateDelay": {
+        "Min": 50.0,
+        "Max": 60.0
+      },
+      "RushTargetDistance": 20.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Striker_Fast",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 1.6
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 8.5
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 3.0,
+        "Max": 4.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": 3.0,
+        "Max": 18.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 0.2,
+        "Max": 1.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 5.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 0.5,
+        "Max": 4.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 35.0,
+        "Max": 60.0
+      },
+      "RushTargetDistance": 5.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Striker_Bullrush",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 3.0
+      },
+      "RangedAttackDistance": {
+        "Min": 3.0,
+        "Max": 15.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 7.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": 2.0,
+        "Max": 7.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 1.0,
+        "Max": 4.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 2.0,
+        "Max": 6.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 2.0,
+        "Max": 3.3
+      },
+      "StartWalkDuration": {
+        "Min": 1.0,
+        "Max": 1.5
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 15.0,
+        "Max": 20.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 15.0
+      },
+      "RushTargetDistance": 0.1,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "StrikerBig",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 3.0
+      },
+      "RangedAttackDistance": {
+        "Min": 3.0,
+        "Max": 15.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 7.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 15.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 15.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": 10.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 1.0,
+        "Max": 6.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 5.0,
+        "Max": 12.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.0,
+        "Max": 0.1
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 15.0,
+        "Max": 20.0
+      },
+      "ScreamStateDelay": {
+        "Min": 10.0,
+        "Max": 20.0
+      },
+      "RushTargetDistance": 0.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": true,
+      "name": "Tank",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 1.0,
+        "Max": 12.0
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 0.1,
+        "Max": 0.5
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": 5.0,
+        "Max": 15.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 10.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 0.5,
+        "Max": 1.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 2.0,
+        "Max": 3.3
+      },
+      "StartWalkDuration": {
+        "Min": 1.0,
+        "Max": 2.0
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 15.0,
+        "Max": 20.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 20.0
+      },
+      "RushTargetDistance": 0.1,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "StrikerBig_Copy",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 4.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 0.6,
+        "Max": 5.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 0.8,
+        "Max": 1.8
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 2.5
+      },
+      "ClosestTargetDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.5,
+        "Max": 1.0
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 15.0
+      },
+      "RushTargetDistance": 6.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Shadow",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 18.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 18.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 10.0,
+        "Max": 12.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Shooter",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 5.0,
+        "Max": 25.0
+      },
+      "RangedAttackDistance": {
+        "Min": 5.0,
+        "Max": 25.0
+      },
+      "StrafeDistance": {
+        "Min": 1.0,
+        "Max": 30.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 45.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 45.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": 45.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 1.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 12.0,
+        "Max": 20.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ScreamStateDelay": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": true,
+      "name": "Birther",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 3.0
+      },
+      "RangedAttackDistance": {
+        "Min": 3.0,
+        "Max": 22.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 18.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 10.0,
+        "Max": 12.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ScreamStateDelay": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "ShooterBig",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 18.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 18.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 10.0,
+        "Max": 12.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Scout",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 3.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.5,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 12.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 0.5,
+        "Max": 3.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.5,
+        "Max": 3.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 2.0,
+        "Max": 3.3
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 20.0
+      },
+      "RushTargetDistance": 6.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Cocoon",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 3.0,
+        "Max": 17.0
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.0,
+        "Max": 5.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 8.0,
+        "Max": 12.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 15.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "name": "Immortal",
+      "internalEnabled": true,
+      "persistentID": 8
+    }
+  ],
+  "LastPersistentID": 35
+}

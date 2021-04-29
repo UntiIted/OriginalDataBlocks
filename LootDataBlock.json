@@ -1,0 +1,86 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "PublicName": "Medicine supplies",
+      "Category": "MedicSmall",
+      "Weight": 1,
+      "LootCollection": [
+        {
+          "m_amountAbs": 0,
+          "m_type": "Health",
+          "m_amountRel": 0.3
+        },
+        {
+          "m_amountAbs": 0,
+          "m_type": "Battery",
+          "m_amountRel": 0.1
+        }
+      ],
+      "name": "MedicSmall_1",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "PublicName": "Armory supplies",
+      "Category": "ArmorySmall",
+      "Weight": 1,
+      "LootCollection": [
+        {
+          "m_amountAbs": 0,
+          "m_type": "Ammo",
+          "m_amountRel": 0.3
+        },
+        {
+          "m_amountAbs": 0,
+          "m_type": "Battery",
+          "m_amountRel": 0.1
+        }
+      ],
+      "name": "ArmorySmall_1",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "PublicName": "Data Encryption Key",
+      "Category": "ObjectiveItem",
+      "Weight": 1,
+      "LootCollection": [
+        {
+          "m_amountAbs": 0,
+          "m_type": "ObjectiveScavangeItem",
+          "m_amountRel": 0.0
+        }
+      ],
+      "name": "EncryptionKey",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "PublicName": "",
+      "Category": "LootSmall",
+      "Weight": 1,
+      "LootCollection": [
+        {
+          "m_amountAbs": 0,
+          "m_type": "Battery",
+          "m_amountRel": 0.1
+        },
+        {
+          "m_amountAbs": 0,
+          "m_type": "Health",
+          "m_amountRel": 0.1
+        },
+        {
+          "m_amountAbs": 0,
+          "m_type": "Ammo",
+          "m_amountRel": 0.1
+        }
+      ],
+      "name": "LootSmall_1",
+      "internalEnabled": true,
+      "persistentID": 6
+    }
+  ],
+  "LastPersistentID": 6
+}

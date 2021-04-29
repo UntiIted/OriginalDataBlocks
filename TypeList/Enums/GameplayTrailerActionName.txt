@@ -1,0 +1,4 @@
+None
+Move
+Rotate
+Disable

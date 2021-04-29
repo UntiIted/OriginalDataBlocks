@@ -1,0 +1,12 @@
+(enum) AssetBundleName: BundleName
+List<AssetData>: Assets
+   String: AssetPath
+   (enum) AssetBundleShard: Shard
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

@@ -1,0 +1,16 @@
+List<LightCategorySetting>: LightCategorySettings
+   Boolean: On
+   (enum) LightCategory: Category
+   Single: Chance
+   Single: ChanceBroken
+   Color: Color
+   Single: IntensityMul
+   Single: Weight
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

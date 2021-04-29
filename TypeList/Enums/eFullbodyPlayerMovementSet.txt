@@ -1,0 +1,4 @@
+Rifle
+Pistol
+Melee
+CarryHeavy

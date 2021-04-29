@@ -1,0 +1,14 @@
+Single: range
+Single: angle
+Single: intensity
+String: cookie
+Color: color
+(enum) AssetBundleShard: startupShard
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

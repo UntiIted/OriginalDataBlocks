@@ -1,0 +1,12 @@
+String: muzzleFlashFPS
+String: muzzleFlash3RD
+(enum) AssetBundleName: AssetBundleName
+(enum) AssetBundleShard: AssetBundleShard
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

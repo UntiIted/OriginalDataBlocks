@@ -1,0 +1,15 @@
+Il2CppReferenceArray`1: m_commoditiesPerTypeAndSize
+String: PublicName
+(enum) eCommodityType: Type
+(enum) eCommodityPackSize: PackSize
+UInt32: Item
+(enum) ePlayfabCurrency: PlayfabCurrency
+Int32: PlayfabCurrencyValue
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

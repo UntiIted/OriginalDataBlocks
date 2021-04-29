@@ -1,0 +1,37 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "AttachToAlign": "Muzzle",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Flashlights/Flashlight_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "None",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "Spot"
+        }
+      ],
+      "name": "Silencer_1",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "AttachToAlign": "ShellEject",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Grips/Grips_Gun_Grip_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "None",
+        "BundleShard": "S14"
+      },
+      "Aligns": [],
+      "name": "Trinket_1",
+      "internalEnabled": true,
+      "persistentID": 2
+    }
+  ],
+  "LastPersistentID": 2
+}

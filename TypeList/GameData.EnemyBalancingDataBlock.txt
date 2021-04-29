@@ -1,0 +1,28 @@
+HealthData: Health
+   Single: HealthMax
+   Single: DamageUntilHitreact
+   Single: BodypartHealth
+   Single: WeakspotDamageMulti
+   Single: ArmorDamageMulti
+   (enum) ES_HitreactType: HitreactOnLimbDestruction
+   Boolean: TryForceHitreactOnLimbDestruction
+Single: GlueTolerance
+Single: GlueFadeOutTime
+Boolean: CanBePushed
+Boolean: ForbidTwitchHit
+Boolean: AllowDamgeBonusFromBehind
+Boolean: UseTentacleTunnelCheck
+Boolean: UseVisibilityRaycastDuringTentacleAttack
+Single: TentacleAttackDamageRadiusIfNoTunnelCheck
+Single: TentacleAttackDamage
+Single: MeleeAttackDamage
+Single: MeleeAttackDamageCheckRadius
+Single: TagTime
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

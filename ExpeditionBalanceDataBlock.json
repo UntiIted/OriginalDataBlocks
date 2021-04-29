@@ -1,0 +1,195 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "HSUsPerZone": {
+        "Some": 5,
+        "Many": 20,
+        "Tons": 40
+      },
+      "DeconsPerZone": {
+        "Some": 5,
+        "Many": 20,
+        "Tons": 40
+      },
+      "CorpsesPerZone": {
+        "Some": 5,
+        "Many": 30,
+        "Tons": 80
+      },
+      "HibernationGroupsPerZone": {
+        "Some": 2,
+        "Many": 5,
+        "Tons": 9
+      },
+      "PatrolsPerZone": {
+        "Some": 2,
+        "Many": 5,
+        "Tons": 9
+      },
+      "StaticTrapsPerZone": {
+        "Some": 2,
+        "Many": 5,
+        "Tons": 9
+      },
+      "HealthPerZone": 1.0,
+      "DisinfectionPerZone": 1.0,
+      "WeaponAmmoPerZone": 0.8,
+      "ToolAmmoPerZone": 0.7,
+      "CommodityValuePerZone": 0.0,
+      "ChanceToPutCommodityInResourceContainer": 0.7,
+      "ChanceToSpawnCommodityLargePack": 0.3,
+      "ChanceToSpawnCommodityMediumPack": 0.5,
+      "ChanceToReUseResourceContainer": 0.5,
+      "MaxPacksPerResourceContainer": 4,
+      "EmptyWeakResourceContainersPerZone": 0.0,
+      "EmptySecureResourceContainersPerZone": 3.0,
+      "LootPerZone": 3.0,
+      "AirPerZone": 1.0,
+      "AirPerZoneInNoAir": 5.0,
+      "TerminalsPerZone": 1.0,
+      "TentacleTraps": {
+        "Health": 10.0,
+        "AttackDamage": 1.0,
+        "MaxPerZone": 3,
+        "MaxSmallArea": 1,
+        "MaxMediumArea": 1,
+        "MaxLargeArea": 1,
+        "MaxHugeArea": 1
+      },
+      "ParasiteNests": {
+        "Health": 20.0,
+        "AttackDamage": 2.0,
+        "MaxPerZone": 7,
+        "MaxSmallArea": 2,
+        "MaxMediumArea": 3,
+        "MaxLargeArea": 4,
+        "MaxHugeArea": 4
+      },
+      "EnemyPatrolGroupsPerZone": 5,
+      "StaticEnemiesMaxPerZone": 10,
+      "StaticEnemiesMaxSmallArea": 1,
+      "StaticEnemiesMaxMediumArea": 2,
+      "StaticEnemiesMaxLargeArea": 3,
+      "StaticEnemiesMaxHugeArea": 5,
+      "EnemyPopulationPerZone": 25.0,
+      "VoxelCoverageAreaMultiplier": 0.037,
+      "VoxelCoverageAreaScoringRandomMultiplier": 0.25,
+      "ArtifactsPerSegment": 1,
+      "WeakDoor4x4Health": 7.0,
+      "WeakDoor8x4Health": 12.0,
+      "WeakDoorChanceLockWeightNoLock": 3.0,
+      "WeakDoorChanceLockWeightMeleeLock": 1.0,
+      "WeakDoorChanceLockWeightHackableLock": 1.0,
+      "WeakDoorUnlockedChanceForOpen": 0.0,
+      "WeakDoorOpenChanceForWallRemoverUsed": 0.0,
+      "WeakDoorLockHealth": 15.0,
+      "WeakResourceContainerWithPackChanceForLocked": 0.75,
+      "ResourcePackSizes": [
+        0.6,
+        1.0,
+        0.4
+      ],
+      "GlueVolumeToDoorHealthConversion": 0.5,
+      "GlueVolumeForDoorGlueMaxState": 27.0,
+      "name": "Normal",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "HSUsPerZone": {
+        "Some": 0,
+        "Many": 0,
+        "Tons": 0
+      },
+      "DeconsPerZone": {
+        "Some": 0,
+        "Many": 0,
+        "Tons": 0
+      },
+      "CorpsesPerZone": {
+        "Some": 0,
+        "Many": 0,
+        "Tons": 0
+      },
+      "HibernationGroupsPerZone": {
+        "Some": 5,
+        "Many": 20,
+        "Tons": 40
+      },
+      "PatrolsPerZone": {
+        "Some": 5,
+        "Many": 20,
+        "Tons": 40
+      },
+      "StaticTrapsPerZone": {
+        "Some": 5,
+        "Many": 20,
+        "Tons": 40
+      },
+      "HealthPerZone": 1.0,
+      "DisinfectionPerZone": 0.0,
+      "WeaponAmmoPerZone": 1.0,
+      "ToolAmmoPerZone": 1.0,
+      "CommodityValuePerZone": 1.0,
+      "ChanceToPutCommodityInResourceContainer": 0.0,
+      "ChanceToSpawnCommodityLargePack": 0.0,
+      "ChanceToSpawnCommodityMediumPack": 0.0,
+      "ChanceToReUseResourceContainer": 0.0,
+      "MaxPacksPerResourceContainer": 0,
+      "EmptyWeakResourceContainersPerZone": 0.0,
+      "EmptySecureResourceContainersPerZone": 0.0,
+      "LootPerZone": 1.0,
+      "AirPerZone": 0.5,
+      "AirPerZoneInNoAir": 1.0,
+      "TerminalsPerZone": 1.0,
+      "TentacleTraps": {
+        "Health": 0.0,
+        "AttackDamage": 0.0,
+        "MaxPerZone": 0,
+        "MaxSmallArea": 0,
+        "MaxMediumArea": 0,
+        "MaxLargeArea": 0,
+        "MaxHugeArea": 0
+      },
+      "ParasiteNests": {
+        "Health": 0.0,
+        "AttackDamage": 0.0,
+        "MaxPerZone": 0,
+        "MaxSmallArea": 0,
+        "MaxMediumArea": 0,
+        "MaxLargeArea": 0,
+        "MaxHugeArea": 0
+      },
+      "EnemyPatrolGroupsPerZone": 8,
+      "StaticEnemiesMaxPerZone": 0,
+      "StaticEnemiesMaxSmallArea": 0,
+      "StaticEnemiesMaxMediumArea": 0,
+      "StaticEnemiesMaxLargeArea": 0,
+      "StaticEnemiesMaxHugeArea": 0,
+      "EnemyPopulationPerZone": 25.0,
+      "VoxelCoverageAreaMultiplier": 0.0,
+      "VoxelCoverageAreaScoringRandomMultiplier": 0.0,
+      "ArtifactsPerSegment": 1,
+      "WeakDoor4x4Health": 7.0,
+      "WeakDoor8x4Health": 12.0,
+      "WeakDoorChanceLockWeightNoLock": 0.0,
+      "WeakDoorChanceLockWeightMeleeLock": 0.0,
+      "WeakDoorChanceLockWeightHackableLock": 0.0,
+      "WeakDoorUnlockedChanceForOpen": 0.0,
+      "WeakDoorOpenChanceForWallRemoverUsed": 0.0,
+      "WeakDoorLockHealth": 0.0,
+      "WeakResourceContainerWithPackChanceForLocked": 0.0,
+      "ResourcePackSizes": [
+        0.6,
+        1.0
+      ],
+      "GlueVolumeToDoorHealthConversion": 1.2,
+      "GlueVolumeForDoorGlueMaxState": 0.0,
+      "name": "Hard",
+      "internalEnabled": false,
+      "persistentID": 2
+    }
+  ],
+  "LastPersistentID": 2
+}

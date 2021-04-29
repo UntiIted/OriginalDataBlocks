@@ -1,0 +1,83 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "PublicName": "",
+      "ZoneMinSize": 20.0,
+      "ZoneMaxSize": 50.0,
+      "StartZoneSize": 25.0,
+      "SegmentZoneCount": 80,
+      "PublicEstimatedAreaCoverage": 30000.0,
+      "name": "Short",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "PublicName": "",
+      "ZoneMinSize": 20.0,
+      "ZoneMaxSize": 50.0,
+      "StartZoneSize": 25.0,
+      "SegmentZoneCount": 160,
+      "PublicEstimatedAreaCoverage": 50000.0,
+      "name": "Medium",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "PublicName": "",
+      "ZoneMinSize": 20.0,
+      "ZoneMaxSize": 50.0,
+      "StartZoneSize": 25.0,
+      "SegmentZoneCount": 240,
+      "PublicEstimatedAreaCoverage": 90000.0,
+      "name": "Long",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "PublicName": "",
+      "ZoneMinSize": 10.0,
+      "ZoneMaxSize": 25.0,
+      "StartZoneSize": 5.0,
+      "SegmentZoneCount": 30,
+      "PublicEstimatedAreaCoverage": 20000.0,
+      "name": "Very short",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "PublicName": "",
+      "ZoneMinSize": 10.0,
+      "ZoneMaxSize": 60.0,
+      "StartZoneSize": 60.0,
+      "SegmentZoneCount": 80,
+      "PublicEstimatedAreaCoverage": 5000.0,
+      "name": "Very short v2",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "PublicName": "",
+      "ZoneMinSize": 5.0,
+      "ZoneMaxSize": 32.0,
+      "StartZoneSize": 10.0,
+      "SegmentZoneCount": 100,
+      "PublicEstimatedAreaCoverage": 20000.0,
+      "name": "TGATrailer2018",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "PublicName": "",
+      "ZoneMinSize": 10.0,
+      "ZoneMaxSize": 20.0,
+      "StartZoneSize": 10.0,
+      "SegmentZoneCount": 1,
+      "PublicEstimatedAreaCoverage": 0.0,
+      "name": "GPTrailerShort",
+      "internalEnabled": false,
+      "persistentID": 4
+    }
+  ],
+  "LastPersistentID": 7
+}
