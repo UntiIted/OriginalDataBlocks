@@ -2,42 +2,13 @@
   "Headers": [],
   "Blocks": [
     {
-      "HSUsPerZone": {
-        "Some": 5,
-        "Many": 20,
-        "Tons": 40
-      },
-      "DeconsPerZone": {
-        "Some": 5,
-        "Many": 20,
-        "Tons": 40
-      },
-      "CorpsesPerZone": {
-        "Some": 5,
-        "Many": 30,
-        "Tons": 80
-      },
-      "HibernationGroupsPerZone": {
-        "Some": 2,
-        "Many": 5,
-        "Tons": 9
-      },
-      "PatrolsPerZone": {
-        "Some": 2,
-        "Many": 5,
-        "Tons": 9
-      },
-      "StaticTrapsPerZone": {
-        "Some": 2,
-        "Many": 5,
-        "Tons": 9
-      },
       "HealthPerZone": 1.0,
       "DisinfectionPerZone": 1.0,
       "WeaponAmmoPerZone": 0.8,
       "ToolAmmoPerZone": 0.7,
       "CommodityValuePerZone": 0.0,
       "ChanceToPutCommodityInResourceContainer": 0.7,
+      "ChanceToPutArtifactInResourceContainer": 0.15,
       "ChanceToSpawnCommodityLargePack": 0.3,
       "ChanceToSpawnCommodityMediumPack": 0.5,
       "ChanceToReUseResourceContainer": 0.5,
@@ -76,6 +47,7 @@
       "VoxelCoverageAreaMultiplier": 0.037,
       "VoxelCoverageAreaScoringRandomMultiplier": 0.25,
       "ArtifactsPerSegment": 1,
+      "ArtifactsPerLayer": 30,
       "WeakDoor4x4Health": 7.0,
       "WeakDoor8x4Health": 12.0,
       "WeakDoorChanceLockWeightNoLock": 3.0,
@@ -97,42 +69,13 @@
       "persistentID": 1
     },
     {
-      "HSUsPerZone": {
-        "Some": 0,
-        "Many": 0,
-        "Tons": 0
-      },
-      "DeconsPerZone": {
-        "Some": 0,
-        "Many": 0,
-        "Tons": 0
-      },
-      "CorpsesPerZone": {
-        "Some": 0,
-        "Many": 0,
-        "Tons": 0
-      },
-      "HibernationGroupsPerZone": {
-        "Some": 5,
-        "Many": 20,
-        "Tons": 40
-      },
-      "PatrolsPerZone": {
-        "Some": 5,
-        "Many": 20,
-        "Tons": 40
-      },
-      "StaticTrapsPerZone": {
-        "Some": 5,
-        "Many": 20,
-        "Tons": 40
-      },
       "HealthPerZone": 1.0,
       "DisinfectionPerZone": 0.0,
       "WeaponAmmoPerZone": 1.0,
       "ToolAmmoPerZone": 1.0,
       "CommodityValuePerZone": 1.0,
       "ChanceToPutCommodityInResourceContainer": 0.0,
+      "ChanceToPutArtifactInResourceContainer": 0.0,
       "ChanceToSpawnCommodityLargePack": 0.0,
       "ChanceToSpawnCommodityMediumPack": 0.0,
       "ChanceToReUseResourceContainer": 0.0,
@@ -171,6 +114,7 @@
       "VoxelCoverageAreaMultiplier": 0.0,
       "VoxelCoverageAreaScoringRandomMultiplier": 0.0,
       "ArtifactsPerSegment": 1,
+      "ArtifactsPerLayer": 100,
       "WeakDoor4x4Health": 7.0,
       "WeakDoor8x4Health": 12.0,
       "WeakDoorChanceLockWeightNoLock": 0.0,

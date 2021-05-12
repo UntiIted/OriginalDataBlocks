@@ -103,6 +103,56 @@
     },
     {
       "power": {
+        "Min": 0.325,
+        "Max": 0.425
+      },
+      "spring": 3.8,
+      "dampening": 14.0,
+      "hipFireCrosshairSizeDefault": 60.0,
+      "hipFireCrosshairRecoilPop": 20.0,
+      "hipFireCrosshairSizeMax": 120.0,
+      "horizontalScale": {
+        "Min": -0.15,
+        "Max": 0.45
+      },
+      "verticalScale": {
+        "Min": 0.4,
+        "Max": 0.55
+      },
+      "directionalSimilarity": 0.0,
+      "worldToViewSpaceBlendHorizontal": 0.4,
+      "worldToViewSpaceBlendVertical": 0.4,
+      "recoilPosImpulse": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.15
+      },
+      "recoilPosShift": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.02
+      },
+      "recoilPosShiftWeight": 1.0,
+      "recoilPosStiffness": 350.0,
+      "recoilPosDamping": 30.0,
+      "recoilPosImpulseWeight": 1.0,
+      "recoilCameraPosWeight": 1.0,
+      "recoilAimingWeight": 2.2,
+      "recoilRotImpulse": {
+        "x": 0.0,
+        "y": 2.0,
+        "z": 5.0
+      },
+      "recoilRotStiffness": 80.0,
+      "recoilRotDamping": 8.0,
+      "recoilRotImpulseWeight": 200.0,
+      "recoilCameraRotWeight": 1.0,
+      "name": "SMGHeavyAuto",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "power": {
         "Min": 0.2,
         "Max": 0.35
       },
@@ -258,7 +308,7 @@
       },
       "spring": 2.0,
       "dampening": 20.0,
-      "hipFireCrosshairSizeDefault": 35.0,
+      "hipFireCrosshairSizeDefault": 60.0,
       "hipFireCrosshairRecoilPop": 25.0,
       "hipFireCrosshairSizeMax": 90.0,
       "horizontalScale": {
@@ -903,11 +953,11 @@
     },
     {
       "power": {
-        "Min": 0.65,
-        "Max": 0.825
+        "Min": 0.625,
+        "Max": 0.75
       },
       "spring": 3.5,
-      "dampening": 12.5,
+      "dampening": 15.0,
       "hipFireCrosshairSizeDefault": 65.0,
       "hipFireCrosshairRecoilPop": 40.0,
       "hipFireCrosshairSizeMax": 120.0,
@@ -1258,9 +1308,9 @@
       },
       "spring": 2.0,
       "dampening": 18.0,
-      "hipFireCrosshairSizeDefault": 15.0,
-      "hipFireCrosshairRecoilPop": 0.0,
-      "hipFireCrosshairSizeMax": 14.0,
+      "hipFireCrosshairSizeDefault": 90.0,
+      "hipFireCrosshairRecoilPop": 110.0,
+      "hipFireCrosshairSizeMax": 110.0,
       "horizontalScale": {
         "Min": -0.4,
         "Max": 0.4
@@ -1354,40 +1404,40 @@
     {
       "power": {
         "Min": 0.3,
-        "Max": 0.5
+        "Max": 0.35
       },
-      "spring": 1.2,
-      "dampening": 12.0,
-      "hipFireCrosshairSizeDefault": 15.0,
-      "hipFireCrosshairRecoilPop": 0.0,
-      "hipFireCrosshairSizeMax": 14.0,
+      "spring": 3.5,
+      "dampening": 15.0,
+      "hipFireCrosshairSizeDefault": 120.0,
+      "hipFireCrosshairRecoilPop": 50.0,
+      "hipFireCrosshairSizeMax": 170.0,
       "horizontalScale": {
-        "Min": -0.3,
-        "Max": 0.3
+        "Min": -0.07,
+        "Max": 0.15
       },
       "verticalScale": {
         "Min": 0.3,
-        "Max": 0.6
+        "Max": 0.35
       },
       "directionalSimilarity": 0.0,
-      "worldToViewSpaceBlendHorizontal": 0.3,
-      "worldToViewSpaceBlendVertical": 0.3,
+      "worldToViewSpaceBlendHorizontal": 0.07,
+      "worldToViewSpaceBlendVertical": 0.07,
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.1,
-        "z": -4.0
+        "z": -3.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.1,
-        "z": -0.05
+        "z": -0.04
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 300.0,
       "recoilPosDamping": 20.0,
       "recoilPosImpulseWeight": 0.2,
       "recoilCameraPosWeight": 0.1,
-      "recoilAimingWeight": 0.6,
+      "recoilAimingWeight": 1.2,
       "recoilRotImpulse": {
         "x": -80.0,
         "y": 0.0,
@@ -1458,9 +1508,9 @@
       },
       "spring": 2.0,
       "dampening": 20.0,
-      "hipFireCrosshairSizeDefault": 15.0,
-      "hipFireCrosshairRecoilPop": 0.0,
-      "hipFireCrosshairSizeMax": 30.0,
+      "hipFireCrosshairSizeDefault": 100.0,
+      "hipFireCrosshairRecoilPop": 180.0,
+      "hipFireCrosshairSizeMax": 180.0,
       "horizontalScale": {
         "Min": 0.13,
         "Max": 0.23
@@ -1508,9 +1558,9 @@
       },
       "spring": 2.0,
       "dampening": 20.0,
-      "hipFireCrosshairSizeDefault": 30.0,
-      "hipFireCrosshairRecoilPop": 0.0,
-      "hipFireCrosshairSizeMax": 50.0,
+      "hipFireCrosshairSizeDefault": 75.0,
+      "hipFireCrosshairRecoilPop": 25.0,
+      "hipFireCrosshairSizeMax": 100.0,
       "horizontalScale": {
         "Min": 0.13,
         "Max": 0.23
@@ -2052,5 +2102,5 @@
       "persistentID": 11
     }
   ],
-  "LastPersistentID": 42
+  "LastPersistentID": 43
 }

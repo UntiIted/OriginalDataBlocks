@@ -12,6 +12,16 @@
       "persistentID": 1
     },
     {
+      "WaveRoleWeakling": 16,
+      "WaveRoleStandard": 33,
+      "WaveRoleSpecial": 39,
+      "WaveRoleMiniBoss": 29,
+      "WaveRoleBoss": 36,
+      "name": "BigsAndBosses",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
       "WaveRoleWeakling": 29,
       "WaveRoleStandard": 29,
       "WaveRoleSpecial": 29,
@@ -50,6 +60,16 @@
       "name": "Baseline_Bullrush_mix",
       "internalEnabled": true,
       "persistentID": 17
+    },
+    {
+      "WaveRoleWeakling": 30,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 30,
+      "WaveRoleMiniBoss": 39,
+      "WaveRoleBoss": 33,
+      "name": "Baseline_Bullrush_mix_V2",
+      "internalEnabled": true,
+      "persistentID": 19
     },
     {
       "WaveRoleWeakling": 39,
@@ -96,7 +116,7 @@
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 33,
       "WaveRoleMiniBoss": 16,
-      "WaveRoleBoss": 11,
+      "WaveRoleBoss": 39,
       "name": "Modified_rapid_shooter",
       "internalEnabled": true,
       "persistentID": 9
@@ -172,5 +192,5 @@
       "persistentID": 18
     }
   ],
-  "LastPersistentID": 18
+  "LastPersistentID": 20
 }

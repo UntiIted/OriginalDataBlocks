@@ -1,0 +1,13 @@
+(enum) BoosterCondition: Condition
+String: PublicShortName
+String: PublicName
+String: Description
+String: IconPath
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

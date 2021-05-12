@@ -1,4 +1,3 @@
-Il2CppReferenceArray`1: m_commoditiesPerTypeAndSize
 String: PublicName
 (enum) eCommodityType: Type
 (enum) eCommodityPackSize: PackSize

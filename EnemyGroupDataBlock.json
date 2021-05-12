@@ -378,6 +378,22 @@
       "persistentID": 40
     },
     {
+      "Type": "PureSneak",
+      "Difficulty": "Buss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "BirtherChild",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Puresneak_buss_Birther_child",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
       "Type": "Hibernate",
       "Difficulty": "MegaBoss",
       "SpawnPlacementType": "Align_0",
@@ -538,6 +554,22 @@
       "persistentID": 45
     },
     {
+      "Type": "PureDetect",
+      "Difficulty": "MiniBoss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 4.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Scout",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Pure_Detect_MiniBoss_bullrush",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
       "Type": "Detect",
       "Difficulty": "Easy",
       "SpawnPlacementType": "Default",
@@ -552,6 +584,22 @@
       "name": "detect_lurker",
       "internalEnabled": true,
       "persistentID": 23
+    },
+    {
+      "Type": "Detect",
+      "Difficulty": "MiniBoss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 4.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Lurker",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "detect_lurker_miniboss",
+      "internalEnabled": true,
+      "persistentID": 53
     },
     {
       "Type": "Detect",
@@ -715,6 +763,30 @@
     },
     {
       "Type": "Hunter",
+      "Difficulty": "Easy",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 8.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Hunter",
+          "Distribution": "Force_One"
+        },
+        {
+          "Role": "Melee",
+          "Distribution": "Rel_75"
+        },
+        {
+          "Role": "Ranged",
+          "Distribution": "Rel_10"
+        }
+      ],
+      "name": "Hunter_easy_inback_melee",
+      "internalEnabled": true,
+      "persistentID": 51
+    },
+    {
+      "Type": "Hunter",
       "Difficulty": "Medium",
       "SpawnPlacementType": "Default",
       "MaxScore": 14.0,
@@ -838,5 +910,5 @@
       "persistentID": 38
     }
   ],
-  "LastPersistentID": 50
+  "LastPersistentID": 54
 }

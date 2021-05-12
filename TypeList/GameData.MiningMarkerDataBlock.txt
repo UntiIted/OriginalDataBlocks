@@ -1,8 +1,3 @@
-String: m_funcLinksAssetPath
-String: m_funcLinksResourcePath
-Dictionary`2: m_blocksPerGroup
-Dictionary`2: m_prefabSpawnerCounter
-Transform: m_root
 MarkerDataCommon: CommonData
    Il2CppReferenceArray`1: FunctionComponentLinks
    List<MarkerComposition>: m_compositions

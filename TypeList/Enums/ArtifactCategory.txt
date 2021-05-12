@@ -1,0 +1,4 @@
+Common
+Uncommon
+Rare
+_COUNT

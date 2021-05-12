@@ -1,0 +1,5 @@
+InitialState
+Damage
+Health
+ProcessingSpeed
+Tool

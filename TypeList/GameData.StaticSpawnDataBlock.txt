@@ -2,14 +2,26 @@ Boolean: On
 Boolean: RegisterForNodeUpdate
 (enum) LG_RandomType: RandomType
 String: Path
+String: Path_OnNode
 (enum) LG_StaticPlacementType: PlacementType
 Single: RadiusToAvoidMasked
 Single: MaxHeightFromNodes
+Single: MinHeightFromNodes
 Single: PushOutScaleAlongNormal
 Single: SpreadScale
 Single: ClusterChance
 Single: MinScale
 Single: MaxScale
+Single: OnNodeSpawnChance
+Single: OnNodeNormalDotLimit
+Boolean: OnNodeRotateWithSurface
+(enum) LG_StaticSpawnConstraints: SpawnConstraints
+Boolean: UsePrefabsBasedOnDistane
+List<StaticSpawnPrefabDistancePair>: PrefabDistancePairs
+   String: DistancePrefabPath
+   String: DistancePrefabOnNodePath
+   Single: DistanceMin
+   Single: DistanceMax
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

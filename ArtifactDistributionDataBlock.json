@@ -1,0 +1,22 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "BasicWeight": 1.0,
+      "AdvancedWeight": 0.5,
+      "SpecializedWeight": 0.15,
+      "name": "Default_DO_NOT_RENAME",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "BasicWeight": 0.0,
+      "AdvancedWeight": 0.0,
+      "SpecializedWeight": 0.0,
+      "name": "New Block_1",
+      "internalEnabled": true,
+      "persistentID": 2
+    }
+  ],
+  "LastPersistentID": 2
+}

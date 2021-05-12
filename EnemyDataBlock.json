@@ -1618,6 +1618,97 @@
       "BundleShard": "S1",
       "BasePrefabs": [
         "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/StrikerBullrush/StrikerBullrush_CB.prefab",
+          "ModelCustomization": "",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.3,
+            "y": 1.3,
+            "z": 1.3
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.5,
+            "y": 1.5
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 30,
+      "MovementDataId": 28,
+      "BalancingDataId": 33,
+      "SFXDataId": 20,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "AI_Abilities": [
+        {
+          "Enabled": false,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmallBurst.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 0.8
+        }
+      ],
+      "name": "Scout_Bullrush",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
         "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
       ],
       "ModelDatas": [
@@ -2007,5 +2098,5 @@
       "persistentID": 8
     }
   ],
-  "LastPersistentID": 40
+  "LastPersistentID": 41
 }

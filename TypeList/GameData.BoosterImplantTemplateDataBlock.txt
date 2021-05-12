@@ -1,0 +1,22 @@
+Boolean: Deprecated
+String: PublicName
+String: Description
+Vector2: DurationRange
+Single: DropWeight
+List<UInt32>: Conditions
+List<UInt32>: RandomConditions
+List<BoosterImplantEffectInstance>: Effects
+   UInt32: BoosterImplantEffect
+   Single: MinValue
+   Single: MaxValue
+List<List`1>: RandomEffects
+(enum) BoosterImplantCategory: ImplantCategory
+(enum) BoosterEffectCategory: MainEffectType
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

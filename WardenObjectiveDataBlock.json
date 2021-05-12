@@ -71,6 +71,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -110,6 +111,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "HSU_DNA_Core_1",
       "internalEnabled": true,
@@ -139,6 +141,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -156,7 +159,8 @@
           "Layer": "ThirdLayer",
           "LocalIndex": "Zone_3",
           "Delay": 5.0,
-          "WardenIntel": "Security door to [ZONE_3] unlocked"
+          "WardenIntel": "Security door to [ZONE_3] unlocked",
+          "SoundID": 0
         }
       ],
       "FogTransitionDataOnGotoWin": 0,
@@ -187,6 +191,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "HSU_DNA_C3L3",
       "internalEnabled": true,
@@ -223,6 +228,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -262,10 +268,163 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "HSU_DNA_R4",
       "internalEnabled": true,
       "persistentID": 46
+    },
+    {
+      "Type": "HSU_FindTakeSample",
+      "Header": "Essential DNA Core",
+      "MainObjective": "Find Hydrostasis Unit [ITEM_SERIAL] and retrieve a DNA core sample",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to collect the DNA sample from [ITEM_SERIAL]",
+      "SolveItemHelp": "Close proximity access to Hydrostasis Unit is required to be able to acquire the sample",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 8,
+          "WavePopulation": 15,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": false
+        }
+      ],
+      "WaveOnGotoWinTrigger": "WhenExitScanMakesProgress",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnEnd",
+          "Type": "None",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 5.0,
+          "WardenIntel": "WARNING: Air filtration system damaged. Evacuate or re-route power from bordering Sector",
+          "SoundID": 3655606696
+        },
+        {
+          "Trigger": "OnEnd",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_7",
+          "Delay": 10.0,
+          "WardenIntel": "LOCKDOWN DISENGAGED - Security door to [ZONE 7] unlocked.",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 45,
+      "FogTransitionDurationOnGotoWin": 300.0,
+      "ChainedPuzzleToActive": 45,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.25,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "HSU_DNA_R5",
+      "internalEnabled": true,
+      "persistentID": 71
+    },
+    {
+      "Type": "HSU_FindTakeSample",
+      "Header": "Essential DNA Core",
+      "MainObjective": "Find Hydrostasis Unit [ITEM_SERIAL] and retrieve a DNA core sample",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to collect the DNA sample from [ITEM_SERIAL]",
+      "SolveItemHelp": "Close proximity access to Hydrostasis Unit is required to be able to acquire the sample",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "WhenExitScanMakesProgress",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 45,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.25,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "HSU_DNA_R5_Copy",
+      "internalEnabled": true,
+      "persistentID": 82
     },
     {
       "Type": "ActivateSmallHSU",
@@ -304,6 +463,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -343,6 +503,7 @@
       "ActivateHSU_ItemAfterActivation": 141,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Activate_Small_HSU_Stage_1-2",
       "internalEnabled": true,
@@ -385,6 +546,7 @@
           "TriggerAlarm": false
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -424,10 +586,84 @@
       "ActivateHSU_ItemAfterActivation": 143,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Activate_Small_HSU_Stage_2-3",
       "internalEnabled": true,
       "persistentID": 31
+    },
+    {
+      "Type": "ActivateSmallHSU",
+      "Header": "Force open Hisec crate",
+      "MainObjective": "Find Unsealer [ITEM_SERIAL] and use it to open the Hisec crate",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Insert Hisec crate into Unsealer [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return the Hisec crate to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Put the Hisec crate in the extraction scan [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "WhenExitScanMakesProgress",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.25,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 154,
+      "ActivateHSU_ItemAfterActivation": 155,
+      "ActivateHSU_StopEnemyWavesOnActivation": true,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": true,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": true,
+      "ActivateHSU_Events": [
+        {
+          "Trigger": "OnEnd",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_6",
+          "Delay": 10.0,
+          "WardenIntel": "Unlocking Security door to [ZONE 51]",
+          "SoundID": 0
+        }
+      ],
+      "name": "Activate_Hisec_crate_R5",
+      "internalEnabled": true,
+      "persistentID": 80
     },
     {
       "Type": "ActivateSmallHSU",
@@ -473,6 +709,7 @@
           "TriggerAlarm": false
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "WhenExitScanMakesProgress",
@@ -505,6 +742,7 @@
       "ActivateHSU_ItemAfterActivation": 145,
       "ActivateHSU_StopEnemyWavesOnActivation": true,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": true,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [
         {
           "Trigger": "OnEnd",
@@ -512,7 +750,8 @@
           "Layer": "MainLayer",
           "LocalIndex": "Zone_0",
           "Delay": 13.0,
-          "WardenIntel": "Door to <color=orange>Zone 392</color> unlocked"
+          "WardenIntel": "Door to <color=orange>Zone 392</color> unlocked",
+          "SoundID": 0
         }
       ],
       "name": "Activate_Small_HSU_Stage_3-4",
@@ -557,6 +796,7 @@
           "IntelMessage": "Mass of bioreadings approaching, escape through the forward exit."
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -589,6 +829,7 @@
       "ActivateHSU_ItemAfterActivation": 151,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [
         {
           "Trigger": "OnEnd",
@@ -596,7 +837,8 @@
           "Layer": "MainLayer",
           "LocalIndex": "Zone_7",
           "Delay": 0.0,
-          "WardenIntel": "Door to forward exit unlocked"
+          "WardenIntel": "Door to forward exit unlocked",
+          "SoundID": 0
         }
       ],
       "name": "Activate_DataSphere",
@@ -627,6 +869,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -889,10 +1132,433 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_8",
       "internalEnabled": true,
       "persistentID": 7
+    },
+    {
+      "Type": "Reactor_Startup",
+      "Header": "Reactor Startup",
+      "MainObjective": "Find the reactor for the floor and make sure it is back online.",
+      "FindLocationInfo": "Gather information about the location of the Reactor",
+      "FindLocationInfoHelp": "",
+      "GoToZone": "Navigate to [ITEM_ZONE] and start the Reactor",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "Find the reactor control panel and initiate the startup",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Make sure the Reactor is fully started before leaving",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnMid",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_4",
+          "Delay": 5.0,
+          "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 78,
+      "FogTransitionDurationOnGotoWin": 20.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [
+        {
+          "Warmup": 20.0,
+          "WarmupFail": 20.0,
+          "Wave": 70.0,
+          "Verify": 30.0,
+          "VerifyFail": 30.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 1,
+              "SpawnTimeRel": 0.2,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.4,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 70.0,
+          "Verify": 30.0,
+          "VerifyFail": 30.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 12,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 8,
+              "SpawnTimeRel": 0.25,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.45,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 70.0,
+          "Verify": 30.0,
+          "VerifyFail": 30.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.2,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.25,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.35,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.4,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 80.0,
+          "Verify": 30.0,
+          "VerifyFail": 30.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 8,
+              "SpawnTimeRel": 0.2,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 8,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.4,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 80.0,
+          "Verify": 30.0,
+          "VerifyFail": 30.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 1,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.2,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.4,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 80.0,
+          "Verify": 30.0,
+          "VerifyFail": 30.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.15,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.15,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.4,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 80.0,
+          "Verify": 45.0,
+          "VerifyFail": 45.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.15,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.4,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.5,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 5,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        }
+      ],
+      "LightsOnFromBeginning": true,
+      "LightsOnDuringIntro": true,
+      "LightsOnWhenStartupComplete": true,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Reactor_Startup_Waves_7_only_defend",
+      "internalEnabled": true,
+      "persistentID": 93
     },
     {
       "Type": "Reactor_Startup",
@@ -918,6 +1584,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -987,7 +1654,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_2",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_2] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_2] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -995,7 +1663,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_2]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_2]",
+              "SoundID": 0
             }
           ]
         },
@@ -1034,7 +1703,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_3",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_3] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_3] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1042,7 +1712,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_3]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_3]",
+              "SoundID": 0
             }
           ]
         },
@@ -1081,7 +1752,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_5",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1089,7 +1761,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_5]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_5]",
+              "SoundID": 0
             }
           ]
         },
@@ -1134,14 +1807,16 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_4",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_4] and [ZONE_6] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_4] and [ZONE_6] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
               "Type": "UnlockSecurityDoor",
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_6",
-              "Delay": 5.0
+              "Delay": 5.0,
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1149,7 +1824,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]",
+              "SoundID": 0
             }
           ]
         }
@@ -1170,6 +1846,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_5_L2",
       "internalEnabled": true,
@@ -1199,6 +1876,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -1268,7 +1946,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_2",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_2] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_2] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1276,7 +1955,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_2]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_2]",
+              "SoundID": 0
             }
           ]
         },
@@ -1309,7 +1989,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_4",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1317,7 +1998,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_4]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_4]",
+              "SoundID": 0
             }
           ]
         },
@@ -1350,7 +2032,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_5",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1358,7 +2041,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_5]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_5]",
+              "SoundID": 0
             }
           ]
         },
@@ -1391,7 +2075,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]",
+              "SoundID": 0
             }
           ]
         },
@@ -1430,7 +2115,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_6]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_6]",
+              "SoundID": 0
             },
             {
               "Trigger": "OnStart",
@@ -1438,7 +2124,8 @@
               "Layer": "SecondaryLayer",
               "LocalIndex": "Zone_6",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_6] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_6] unlocked by startup sequence",
+              "SoundID": 0
             }
           ]
         }
@@ -1459,6 +2146,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_6_L2_FAST",
       "internalEnabled": true,
@@ -1488,6 +2176,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -1551,7 +2240,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_3",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_3] opened by startup sequence"
+              "WardenIntel": "Door to [ZONE_3] opened by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1559,7 +2249,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_4]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_4]",
+              "SoundID": 0
             }
           ]
         },
@@ -1622,7 +2313,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_5",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1630,7 +2322,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_6]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_6]",
+              "SoundID": 0
             }
           ]
         },
@@ -1693,7 +2386,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_8",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_8] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_8] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1701,7 +2395,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_9]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_9]",
+              "SoundID": 0
             }
           ]
         },
@@ -1770,7 +2465,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_7",
               "Delay": 5.0,
-              "WardenIntel": "Door to [ZONE_7] unlocked by startup sequence"
+              "WardenIntel": "Door to [ZONE_7] unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1778,7 +2474,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]"
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]",
+              "SoundID": 0
             }
           ]
         }
@@ -1799,6 +2496,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_4_L2_HARD",
       "internalEnabled": true,
@@ -1828,6 +2526,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -1880,7 +2579,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 429"
+              "WardenIntel": "Auxiliary Terminal located in Zone 429",
+              "SoundID": 0
             }
           ]
         },
@@ -1913,7 +2613,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 431 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 431 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1921,7 +2622,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 431"
+              "WardenIntel": "Auxiliary Terminal located in Zone 431",
+              "SoundID": 0
             }
           ]
         },
@@ -1960,7 +2662,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 433 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 433 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -1968,7 +2671,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 433"
+              "WardenIntel": "Auxiliary Terminal located in Zone 433",
+              "SoundID": 0
             }
           ]
         },
@@ -2007,7 +2711,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 434 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 434 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -2015,7 +2720,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 434"
+              "WardenIntel": "Auxiliary Terminal located in Zone 434",
+              "SoundID": 0
             }
           ]
         },
@@ -2060,7 +2766,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 432 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 432 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -2068,7 +2775,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 432"
+              "WardenIntel": "Auxiliary Terminal located in Zone 432",
+              "SoundID": 0
             }
           ]
         },
@@ -2125,6 +2833,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_6_EASY_Copy",
       "internalEnabled": true,
@@ -2154,6 +2863,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -2206,7 +2916,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 429"
+              "WardenIntel": "Auxiliary Terminal located in Zone 429",
+              "SoundID": 0
             }
           ]
         },
@@ -2239,7 +2950,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 431 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 431 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -2247,7 +2959,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 431"
+              "WardenIntel": "Auxiliary Terminal located in Zone 431",
+              "SoundID": 0
             }
           ]
         },
@@ -2286,7 +2999,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 433 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 433 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -2294,7 +3008,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 433"
+              "WardenIntel": "Auxiliary Terminal located in Zone 433",
+              "SoundID": 0
             }
           ]
         },
@@ -2333,7 +3048,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 434 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 434 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -2341,7 +3057,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 434"
+              "WardenIntel": "Auxiliary Terminal located in Zone 434",
+              "SoundID": 0
             }
           ]
         },
@@ -2386,7 +3103,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 432 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 432 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnMid",
@@ -2394,7 +3112,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 15.0,
-              "WardenIntel": "Auxiliary Terminal located in Zone 432"
+              "WardenIntel": "Auxiliary Terminal located in Zone 432",
+              "SoundID": 0
             }
           ]
         },
@@ -2451,10 +3170,410 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_6_EASY_L2",
       "internalEnabled": true,
       "persistentID": 37
+    },
+    {
+      "Type": "Reactor_Startup",
+      "Header": "Reactor Startup",
+      "MainObjective": "Find the reactor and make sure it is back online.",
+      "FindLocationInfo": "Find the Reactor in [ITEM_ZONE]",
+      "FindLocationInfoHelp": "",
+      "GoToZone": "Navigate to [ITEM_ZONE] and start the Reactor",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "Find the reactor control panel and initiate the startup",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Make sure the Reactor is fully started before leaving",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 90.0,
+          "Verify": 40.0,
+          "VerifyFail": 40.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": []
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 90.0,
+          "Verify": 210.0,
+          "VerifyFail": 180.0,
+          "VerifyInOtherZone": true,
+          "ZoneForVerification": "Zone_2",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 8,
+              "SpawnTimeRel": 0.45,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": [
+            {
+              "Trigger": "OnMid",
+              "Type": "UnlockSecurityDoor",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_2",
+              "Delay": 5.0,
+              "WardenIntel": "Door to [ZONE_2] unlocked by startup sequence",
+              "SoundID": 0
+            },
+            {
+              "Trigger": "OnMid",
+              "Type": "None",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_0",
+              "Delay": 15.0,
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_2]",
+              "SoundID": 0
+            }
+          ]
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 120.0,
+          "Verify": 270.0,
+          "VerifyFail": 180.0,
+          "VerifyInOtherZone": true,
+          "ZoneForVerification": "Zone_3",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.45,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 30,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.55,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": [
+            {
+              "Trigger": "OnMid",
+              "Type": "UnlockSecurityDoor",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_3",
+              "Delay": 5.0,
+              "WardenIntel": "Door to Zone [ZONE_3] unlocked by startup sequence",
+              "SoundID": 0
+            },
+            {
+              "Trigger": "OnMid",
+              "Type": "None",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_3",
+              "Delay": 15.0,
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_3]",
+              "SoundID": 0
+            }
+          ]
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 120.0,
+          "Verify": 450.0,
+          "VerifyFail": 180.0,
+          "VerifyInOtherZone": true,
+          "ZoneForVerification": "Zone_4",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 7,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 13,
+              "SpawnTimeRel": 0.45,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.55,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 13,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": [
+            {
+              "Trigger": "OnMid",
+              "Type": "UnlockSecurityDoor",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_4",
+              "Delay": 5.0,
+              "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence",
+              "SoundID": 0
+            },
+            {
+              "Trigger": "OnMid",
+              "Type": "None",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_4",
+              "Delay": 15.0,
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_4]",
+              "SoundID": 0
+            }
+          ]
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 120.0,
+          "Verify": 300.0,
+          "VerifyFail": 180.0,
+          "VerifyInOtherZone": true,
+          "ZoneForVerification": "Zone_5",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 7,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.15,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 22,
+              "WavePopulation": 9,
+              "SpawnTimeRel": 0.45,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 23,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            }
+          ],
+          "Events": [
+            {
+              "Trigger": "OnMid",
+              "Type": "None",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_5",
+              "Delay": 15.0,
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_5]",
+              "SoundID": 0
+            },
+            {
+              "Trigger": "OnMid",
+              "Type": "UnlockSecurityDoor",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_6",
+              "Delay": 5.0,
+              "WardenIntel": "Door to [ZONE_6] opened by startup sequence",
+              "SoundID": 0
+            }
+          ]
+        },
+        {
+          "Warmup": 30.0,
+          "WarmupFail": 20.0,
+          "Wave": 150.0,
+          "Verify": 300.0,
+          "VerifyFail": 180.0,
+          "VerifyInOtherZone": true,
+          "ZoneForVerification": "Zone_7",
+          "EnemyWaves": [
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.0,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 7,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.15,
+              "SpawnType": "InElevatorZone"
+            },
+            {
+              "WaveSettings": 9,
+              "WavePopulation": 10,
+              "SpawnTimeRel": 0.3,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 7,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.45,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 40,
+              "WavePopulation": 6,
+              "SpawnTimeRel": 0.6,
+              "SpawnType": "ClosestToReactorNoPlayerBetween"
+            },
+            {
+              "WaveSettings": 30,
+              "WavePopulation": 12,
+              "SpawnTimeRel": 0.7,
+              "SpawnType": "InElevatorZone"
+            }
+          ],
+          "Events": [
+            {
+              "Trigger": "OnMid",
+              "Type": "None",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_0",
+              "Delay": 15.0,
+              "WardenIntel": "Auxiliary Terminal located in [ZONE_7]",
+              "SoundID": 0
+            },
+            {
+              "Trigger": "OnMid",
+              "Type": "UnlockSecurityDoor",
+              "Layer": "SecondaryLayer",
+              "LocalIndex": "Zone_7",
+              "Delay": 5.0,
+              "WardenIntel": "Door to [ZONE_7] unlocked by startup sequence",
+              "SoundID": 0
+            }
+          ]
+        }
+      ],
+      "LightsOnFromBeginning": true,
+      "LightsOnDuringIntro": true,
+      "LightsOnWhenStartupComplete": true,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Reactor_Startup_Waves_6_CL2",
+      "internalEnabled": true,
+      "persistentID": 90
     },
     {
       "Type": "Reactor_Startup",
@@ -2480,6 +3599,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -2574,7 +3694,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 193 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 193 unlocked by startup sequence",
+              "SoundID": 0
             }
           ]
         },
@@ -2655,7 +3776,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 194 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 194 unlocked by startup sequence",
+              "SoundID": 0
             }
           ]
         },
@@ -2700,7 +3822,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 197 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 197 unlocked by startup sequence",
+              "SoundID": 0
             }
           ]
         },
@@ -2745,7 +3868,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 195 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 195 unlocked by startup sequence",
+              "SoundID": 0
             }
           ]
         },
@@ -2832,7 +3956,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": "Door to Zone 199 and 200 unlocked by startup sequence"
+              "WardenIntel": "Door to Zone 199 and 200 unlocked by startup sequence",
+              "SoundID": 0
             },
             {
               "Trigger": "OnStart",
@@ -2840,7 +3965,8 @@
               "Layer": "MainLayer",
               "LocalIndex": "Zone_0",
               "Delay": 5.0,
-              "WardenIntel": ""
+              "WardenIntel": "",
+              "SoundID": 0
             }
           ]
         },
@@ -2939,6 +4065,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_10_HARD",
       "internalEnabled": true,
@@ -2968,6 +4095,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -2982,7 +4110,7 @@
       "FogTransitionDataOnGotoWin": 0,
       "FogTransitionDurationOnGotoWin": 0.0,
       "ChainedPuzzleToActive": 10,
-      "ChainedPuzzleMidObjective": 26,
+      "ChainedPuzzleMidObjective": 104,
       "ChainedPuzzleAtExit": 11,
       "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
       "Gather_RequiredCount": -1,
@@ -3041,10 +4169,138 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Reactor_Shutdown",
       "internalEnabled": true,
       "persistentID": 9
+    },
+    {
+      "Type": "Reactor_Shutdown",
+      "Header": "Reactor Shutdown",
+      "MainObjective": "Find the main reactor and shut it down",
+      "FindLocationInfo": "Gather information about the location of the Reactor",
+      "FindLocationInfoHelp": "",
+      "GoToZone": "Navigate to [ITEM_ZONE] and initiate the shutdown process",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "Find the terminal for the main reactor and shut it down",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Make sure the Reactor is fully shut down before leaving",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 14,
+          "WavePopulation": 7,
+          "SpawnDelay": 5.0,
+          "TriggerAlarm": true
+        },
+        {
+          "WaveSettings": 26,
+          "WavePopulation": 7,
+          "SpawnDelay": 10.0,
+          "TriggerAlarm": false
+        }
+      ],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnStart",
+          "Type": "AllLightsOff",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 0.0,
+          "SoundID": 3206896761
+        },
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_5",
+          "Delay": 5.0,
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 104,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [
+        {
+          "Warmup": 90.0,
+          "WarmupFail": 20.0,
+          "Wave": 60.0,
+          "Verify": 0.0,
+          "VerifyFail": 45.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [],
+          "Events": []
+        },
+        {
+          "Warmup": 90.0,
+          "WarmupFail": 20.0,
+          "Wave": 60.0,
+          "Verify": 0.0,
+          "VerifyFail": 45.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [],
+          "Events": []
+        },
+        {
+          "Warmup": 90.0,
+          "WarmupFail": 20.0,
+          "Wave": 60.0,
+          "Verify": 0.0,
+          "VerifyFail": 45.0,
+          "VerifyInOtherZone": false,
+          "ZoneForVerification": "Zone_0",
+          "EnemyWaves": [],
+          "Events": []
+        }
+      ],
+      "LightsOnFromBeginning": true,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Reactor_Shutdown_More_Shadow",
+      "internalEnabled": true,
+      "persistentID": 87
     },
     {
       "Type": "GatherSmallItems",
@@ -3070,6 +4326,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3102,6 +4359,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Personnel_IDs",
       "internalEnabled": true,
@@ -3131,6 +4389,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3163,6 +4422,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Personnel_IDs_1_Copy_1",
       "internalEnabled": true,
@@ -3192,6 +4452,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3224,6 +4485,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Personnel_IDs_1_Copy",
       "internalEnabled": true,
@@ -3253,6 +4515,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -3292,6 +4555,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Personnel_IDs_1_with_3-52_trickle",
       "internalEnabled": true,
@@ -3321,6 +4585,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3353,10 +4618,74 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_OSIPs_5",
       "internalEnabled": true,
       "persistentID": 50
+    },
+    {
+      "Type": "GatherSmallItems",
+      "Header": "Gather plant samples",
+      "MainObjective": "Gather [COUNT_REQUIRED] plant samples and make your way to the extraction point",
+      "FindLocationInfo": "Look for plant samples in the complex",
+      "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+      "Gather_RequiredCount": 6,
+      "Gather_ItemId": 153,
+      "Gather_SpawnCount": 7,
+      "Gather_MaxPerZone": 3,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Gather_plant",
+      "internalEnabled": true,
+      "persistentID": 74
     },
     {
       "Type": "GatherSmallItems",
@@ -3382,6 +4711,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3414,10 +4744,137 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Harddrives_6",
       "internalEnabled": true,
       "persistentID": 34
+    },
+    {
+      "Type": "GatherSmallItems",
+      "Header": "Find the backup Hard Drive",
+      "MainObjective": "Find the backup Hard Drive and return the data to be processed.",
+      "FindLocationInfo": "Look for the backup Hard Drive",
+      "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+      "Gather_RequiredCount": 1,
+      "Gather_ItemId": 147,
+      "Gather_SpawnCount": 1,
+      "Gather_MaxPerZone": 1,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Gather_Harddrive",
+      "internalEnabled": true,
+      "persistentID": 78
+    },
+    {
+      "Type": "GatherSmallItems",
+      "Header": "Find the backup Hard Drive",
+      "MainObjective": "Find the backup Hard Drive and return the data to be processed.",
+      "FindLocationInfo": "Look for the backup Hard Drive",
+      "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+      "Gather_RequiredCount": 1,
+      "Gather_ItemId": 147,
+      "Gather_SpawnCount": 1,
+      "Gather_MaxPerZone": 1,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Gather_Harddrive_Copy",
+      "internalEnabled": true,
+      "persistentID": 84
     },
     {
       "Type": "GatherSmallItems",
@@ -3443,6 +4900,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3475,6 +4933,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_OSIPs_6",
       "internalEnabled": true,
@@ -3504,6 +4963,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3536,6 +4996,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Personnel_IDs_12",
       "internalEnabled": true,
@@ -3572,6 +5033,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -3611,6 +5073,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Personnel_IDs_7_with_trickle",
       "internalEnabled": true,
@@ -3640,6 +5103,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3672,6 +5136,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Partial_Decoders_10",
       "internalEnabled": true,
@@ -3701,6 +5166,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -3733,6 +5199,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_Partial_Decoders_15",
       "internalEnabled": true,
@@ -3762,6 +5229,70 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": 9,
+      "Gather_ItemId": 149,
+      "Gather_SpawnCount": 13,
+      "Gather_MaxPerZone": 3,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Gather_GLP_9",
+      "internalEnabled": true,
+      "persistentID": 86
+    },
+    {
+      "Type": "GatherSmallItems",
+      "Header": "Gather GLP-1 canisters",
+      "MainObjective": "Gather [COUNT_REQUIRED] GLP-1 canisters and return the point of entrance.",
+      "FindLocationInfo": "Look for GLP-1 canisters in the complex",
+      "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -3801,6 +5332,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Gather_GLP_15",
       "internalEnabled": true,
@@ -3830,6 +5362,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -3869,10 +5402,81 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "ClearAPath_Default",
       "internalEnabled": true,
       "persistentID": 12
+    },
+    {
+      "Type": "ClearAPath",
+      "Header": "Survive",
+      "MainObjective": "Survive and make your way to the exit point in [EXTRACTION_ZONE]",
+      "FindLocationInfo": "",
+      "FindLocationInfoHelp": "",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 16,
+          "WavePopulation": 1,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.18,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "ClearAPath_Boss",
+      "internalEnabled": true,
+      "persistentID": 76
     },
     {
       "Type": "ClearAPath",
@@ -3898,6 +5502,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -3937,6 +5542,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "ClearAPath_Easy",
       "internalEnabled": true,
@@ -3957,7 +5563,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "con and the information in the surroundings to find the exit points to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -3966,6 +5572,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4005,10 +5612,634 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_DisableLifeSupport",
       "internalEnabled": true,
       "persistentID": 13
+    },
+    {
+      "Type": "SpecialTerminalCommand",
+      "Header": "Facility accessibility",
+      "MainObjective": "Make the lab facility accessible to adjacent sectors from computer terminal [ITEM_SERIAL]",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "con and the information in the surroundings to find the exit points to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": true
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 30.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 60.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 90.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 120.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 150.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 180.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 210.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 240.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 270.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 10.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 40.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 80.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 120.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 160.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 200.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 55,
+          "WavePopulation": 1,
+          "SpawnDelay": 240.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 20.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 50.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 80.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 110.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 140.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 170.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 200.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 230.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 260.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 290.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 30.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 70.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 110.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 150.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 190.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 230.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 270.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 56,
+          "WavePopulation": 16,
+          "SpawnDelay": 60.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 56,
+          "WavePopulation": 16,
+          "SpawnDelay": 120.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 56,
+          "WavePopulation": 16,
+          "SpawnDelay": 180.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 56,
+          "WavePopulation": 16,
+          "SpawnDelay": 240.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 56,
+          "WavePopulation": 16,
+          "SpawnDelay": 300.0,
+          "TriggerAlarm": false
+        }
+      ],
+      "EventsOnActivate": [
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_1",
+          "Delay": 0.0,
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_2",
+          "Delay": 0.0,
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_3",
+          "Delay": 0.0,
+          "WardenIntel": "SECURITY DOORS OPENING --- WARNING: BIOMASS DETECTED!",
+          "SoundID": 0
+        }
+      ],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 4,
+      "ChainedPuzzleMidObjective": 100,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "OPEN_SECURITY_DOORS",
+      "SpecialTerminalCommandDesc": "Opens all security doors to zone 100",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "SpecialTerminalCommand_ZoneScan",
+      "internalEnabled": true,
+      "persistentID": 92
+    },
+    {
+      "Type": "SpecialTerminalCommand",
+      "Header": "Facility accessibility",
+      "MainObjective": "Make the lab facility accessible to adjacent sectors from computer terminal [ITEM_SERIAL]",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "con and the information in the surroundings to find the exit points to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [
+        {
+          "WaveSettings": 49,
+          "WavePopulation": 13,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": true
+        },
+        {
+          "WaveSettings": 51,
+          "WavePopulation": 17,
+          "SpawnDelay": 30.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 51,
+          "WavePopulation": 8,
+          "SpawnDelay": 10.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 52,
+          "WavePopulation": 1,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 50,
+          "WavePopulation": 16,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": false
+        }
+      ],
+      "EventsOnActivate": [
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_1",
+          "Delay": 0.0,
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_2",
+          "Delay": 0.0,
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnMid",
+          "Type": "OpenSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_3",
+          "Delay": 0.0,
+          "WardenIntel": "SECURITY DOORS OPENING --- WARNING: BIOMASS DETECTED!",
+          "SoundID": 0
+        }
+      ],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 4,
+      "ChainedPuzzleMidObjective": 100,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "OPEN_SECURITY_DOORS",
+      "SpecialTerminalCommandDesc": "Opens all security doors to zone 100",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "SpecialTerminalCommand_ZoneScan_OLD",
+      "internalEnabled": true,
+      "persistentID": 94
+    },
+    {
+      "Type": "SpecialTerminalCommand",
+      "Header": "Emergency lockdown in effect.",
+      "MainObjective": "Find Computer terminal [ITEM_SERIAL] and find a way to lift the lockdown.",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnEnd",
+          "Type": "OpenSecurityDoor",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_3",
+          "Delay": 5.0,
+          "WardenIntel": "Emergency lockdown lifted. Door to [ZONE_3] unlocked.",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "OVERRIDE_LOCKDOWN",
+      "SpecialTerminalCommandDesc": "Overrides lockdown protocol",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "SpecialTerminalCommand_Override",
+      "internalEnabled": true,
+      "persistentID": 70
+    },
+    {
+      "Type": "SpecialTerminalCommand",
+      "Header": "Biomass containment override.",
+      "MainObjective": "Find Computer terminal [ITEM_SERIAL] and find a way to destroy contained biomass readings.",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [
+        {
+          "Trigger": "OnEnd",
+          "Type": "OpenSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_4",
+          "Delay": 0.0,
+          "WardenIntel": "",
+          "SoundID": 2470359306
+        },
+        {
+          "Trigger": "OnEnd",
+          "Type": "OpenSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_2",
+          "Delay": 0.0,
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnEnd",
+          "Type": "OpenSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_3",
+          "Delay": 0.0,
+          "SoundID": 0
+        },
+        {
+          "Trigger": "None",
+          "Type": "None",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 5.0,
+          "WardenIntel": "WARNING: CONTAINMENT LIFTED. BIOMASS READINGS APPROACHING",
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnEnd",
+          "Type": "OpenSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 0.0,
+          "SoundID": 0
+        }
+      ],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 4,
+      "ChainedPuzzleMidObjective": 102,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "RELEASE_CONTAINMENT",
+      "SpecialTerminalCommandDesc": "Opens containment chambers",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "SpecialTerminalCommand_Containment",
+      "internalEnabled": true,
+      "persistentID": 89
     },
     {
       "Type": "SpecialTerminalCommand",
@@ -4025,7 +6256,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4034,6 +6265,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4079,6 +6311,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_A3_rapids_at_end",
       "internalEnabled": true,
@@ -4099,7 +6332,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4108,6 +6341,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4153,6 +6387,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_B3",
       "internalEnabled": true,
@@ -4173,7 +6408,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4182,6 +6417,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -4216,6 +6452,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_B2",
       "internalEnabled": true,
@@ -4236,7 +6473,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4245,6 +6482,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -4279,6 +6517,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_D1",
       "internalEnabled": true,
@@ -4299,7 +6538,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4308,6 +6547,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4347,6 +6587,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_DisableLifeSupport_A2",
       "internalEnabled": true,
@@ -4367,7 +6608,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4376,6 +6617,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4415,6 +6657,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_DisableLifeSupport_D1",
       "internalEnabled": true,
@@ -4435,7 +6678,7 @@
       "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
       "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundingfs to find the exit point",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
       "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
       "GoToWinConditionHelp_ToMainLayer": "",
       "ShowHelpDelay": 180.0,
@@ -4444,6 +6687,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4485,10 +6729,179 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_Blackout",
       "internalEnabled": true,
       "persistentID": 48
+    },
+    {
+      "Type": "SpecialTerminalCommand",
+      "Header": "Backdoor Command",
+      "MainObjective": "Find Computer terminal [ITEM_SERIAL] and input the backdoor command [SPECIAL_COMMAND]",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnEnd",
+          "Type": "OpenSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_1",
+          "Delay": 5.0,
+          "WardenIntel": "Lockdown Dissengaged. Opening Security door to [ZONE 21]",
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnEnd",
+          "Type": "AllLightsOff",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 10.0,
+          "WardenIntel": "",
+          "SoundID": 0
+        },
+        {
+          "Trigger": "OnEnd",
+          "Type": "PlaySound",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 9.0,
+          "WardenIntel": ":://CRITICAL FAILURE - SUPPORT SYSTEMS OFFLINE",
+          "SoundID": 1479064690
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "REROUTE_POWER",
+      "SpecialTerminalCommandDesc": "Reroute power coupling to sector that has been powered down.",
+      "PostCommandOutput": [
+        ""
+      ],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "SpecialTerminalCommand_Blackout_A2",
+      "internalEnabled": true,
+      "persistentID": 73
+    },
+    {
+      "Type": "SpecialTerminalCommand",
+      "Header": "Filtration system deactivation",
+      "MainObjective": "Turn off the air filtration systems in the quadrant. Manipulate the climate system on terminal [ITEM_SERIAL].",
+      "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+      "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnMid",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_5",
+          "Delay": 5.0,
+          "WardenIntel": "Lockdown to [ZONE_5] is lifted",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 77,
+      "FogTransitionDurationOnGotoWin": 60.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "DEACTIVATE_AIR_FILTRATION",
+      "SpecialTerminalCommandDesc": "Air purification systems in quadrant h93 are deactivated",
+      "PostCommandOutput": [
+        "SCCS Interface ...  PURIFICATION PLANT 5H83 ... DEACTIVATED"
+      ],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "SpecialTerminalCommand_Infection",
+      "internalEnabled": true,
+      "persistentID": 88
     },
     {
       "Type": "RetrieveBigItems",
@@ -4514,6 +6927,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4557,6 +6971,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_CellDefogger",
       "internalEnabled": true,
@@ -4586,6 +7001,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4627,6 +7043,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_1_Defoggers",
       "internalEnabled": true,
@@ -4656,6 +7073,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4697,6 +7115,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_1_Defoggers_no_trickle",
       "internalEnabled": true,
@@ -4726,6 +7145,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4767,6 +7187,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_1_Neonate",
       "internalEnabled": true,
@@ -4796,6 +7217,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4837,10 +7259,93 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_1_Cargo",
       "internalEnabled": true,
       "persistentID": 56
+    },
+    {
+      "Type": "RetrieveBigItems",
+      "Header": "Retrieve Essential Items",
+      "MainObjective": "Find [ALL_ITEMS] and bring it to the extraction scan in [EXTRACTION_ZONE]",
+      "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "Navigate to [ALL_ITEM_ZONE] and find [ALL_ITEMS]",
+      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+      "InZoneFindItem": "Find [ALL_ITEMS] somewhere inside [ITEM_ZONE]",
+      "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ALL_ITEMS]",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return the <b>hisec crate</b> to the extraction point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Return the <b>hisec crate</b> to the extraction point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 11,
+          "WavePopulation": 18,
+          "SpawnDelay": 10.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnStart",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "ThirdLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 10.0,
+          "WardenIntel": "LOCKDOWN DISENGAGED - Bulkhead door to [ZONE 302] unlocked.",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 137,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [
+        154
+      ],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Retrieve Essential Items_1_Cargo_R5",
+      "internalEnabled": true,
+      "persistentID": 75
     },
     {
       "Type": "RetrieveBigItems",
@@ -4873,6 +7378,7 @@
           "TriggerAlarm": false
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4914,6 +7420,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_1_Neonate_A1",
       "internalEnabled": true,
@@ -4943,6 +7450,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -4984,6 +7492,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_1_Neonate_B2",
       "internalEnabled": true,
@@ -5013,6 +7522,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5055,6 +7565,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_2_Cargo_Crates",
       "internalEnabled": true,
@@ -5084,6 +7595,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -5119,6 +7631,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_2_Cryo_cases_B3",
       "internalEnabled": true,
@@ -5148,6 +7661,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5189,6 +7703,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_2_DataSphere",
       "internalEnabled": true,
@@ -5218,6 +7733,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5260,6 +7776,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Retrieve Essential Items_2_Medical_cooling_case",
       "internalEnabled": true,
@@ -5289,6 +7806,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -5321,6 +7839,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Distribute_PowerCells_4",
       "internalEnabled": true,
@@ -5350,6 +7869,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -5382,10 +7902,74 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Distribute_PowerCells_3",
       "internalEnabled": true,
       "persistentID": 40
+    },
+    {
+      "Type": "PowerCellDistribution",
+      "Header": "Distribute Power Cells",
+      "MainObjective": "Air filtration system offline. Find Power Cells in the zone and bring them to [ALL_ITEMS] to re-route power.",
+      "FindLocationInfo": "Locate the Generators and bring the Power Cells to them to re-route power to air filtration system.",
+      "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 3,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 4,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Distribute_PowerCells_3_R5",
+      "internalEnabled": true,
+      "persistentID": 77
     },
     {
       "Type": "PowerCellDistribution",
@@ -5411,6 +7995,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -5443,10 +8028,74 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Distribute_PowerCells_2",
       "internalEnabled": true,
       "persistentID": 53
+    },
+    {
+      "Type": "PowerCellDistribution",
+      "Header": "Distribute Power Cells",
+      "MainObjective": "Find and distribute Power Cells to [ALL_ITEMS]",
+      "FindLocationInfo": "Locate the Generators and bring the Power Cells to them",
+      "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 2,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 4,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Distribute_PowerCells_2_R5_B1",
+      "internalEnabled": true,
+      "persistentID": 72
     },
     {
       "Type": "PowerCellDistribution",
@@ -5479,6 +8128,7 @@
       "FogTransitionDataOnElevatorLand": 64,
       "FogTransitionDurationOnElevatorLand": 1800.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": true,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -5489,7 +8139,8 @@
           "Layer": "MainLayer",
           "LocalIndex": "Zone_4",
           "Delay": 6.0,
-          "WardenIntel": "Emergency lockdown lifted. Door to [ZONE_4] unlocked."
+          "WardenIntel": "Emergency lockdown lifted. Door to [ZONE_4] unlocked.",
+          "SoundID": 0
         }
       ],
       "FogTransitionDataOnGotoWin": 66,
@@ -5520,6 +8171,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "Distribute_PowerCells_2_E1",
       "internalEnabled": true,
@@ -5549,6 +8201,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5588,6 +8241,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "CentralPowerGeneratorCluster_4",
       "internalEnabled": true,
@@ -5617,6 +8271,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5656,6 +8311,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "CentralPowerGeneratorCluster_4_R3",
       "internalEnabled": true,
@@ -5685,6 +8341,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5741,6 +8398,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "CentralPowerGeneratorCluster_4_R4",
       "internalEnabled": true,
@@ -5770,6 +8428,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5786,7 +8445,8 @@
           "Type": "UnlockSecurityDoor",
           "Layer": "SecondaryLayer",
           "LocalIndex": "Zone_5",
-          "Delay": 0.0
+          "Delay": 0.0,
+          "SoundID": 0
         }
       ],
       "FogTransitionDataOnGotoWin": 0,
@@ -5830,6 +8490,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "CentralPowerGeneratorCluster_4_R4_D2",
       "internalEnabled": true,
@@ -5859,6 +8520,7 @@
       "FogTransitionDataOnElevatorLand": 0,
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -5869,7 +8531,8 @@
           "Layer": "SecondaryLayer",
           "LocalIndex": "Zone_3",
           "Delay": 5.0,
-          "WardenIntel": "Door to Zone 3 unlocked"
+          "WardenIntel": "Door to Zone 3 unlocked",
+          "SoundID": 0
         }
       ],
       "FogTransitionDataOnGotoWin": 0,
@@ -5913,10 +8576,109 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "CentralPowerGeneratorCluster_2",
       "internalEnabled": true,
       "persistentID": 63
+    },
+    {
+      "Type": "CentralGeneratorCluster",
+      "Header": "Central Powergenerator Cluster",
+      "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Central Generator Cluster in [ITEM_ZONE]",
+      "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
+      "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnMid",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_8",
+          "Delay": 5.0,
+          "WardenIntel": "Door to [ZONE_8] unlocked.",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 92,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 4,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 5,
+      "CentralPowerGenClustser_NumberOfPowerCells": 7,
+      "CentralPowerGenClustser_FogDataSteps": [
+        {
+          "m_fogDataId": 70,
+          "m_transitionToTime": 4.0
+        },
+        {
+          "m_fogDataId": 71,
+          "m_transitionToTime": 4.0
+        },
+        {
+          "m_fogDataId": 72,
+          "m_transitionToTime": 4.0
+        },
+        {
+          "m_fogDataId": 73,
+          "m_transitionToTime": 4.0
+        },
+        {
+          "m_fogDataId": 74,
+          "m_transitionToTime": 4.0
+        },
+        {
+          "m_fogDataId": 75,
+          "m_transitionToTime": 10.0
+        }
+      ],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "CentralPowerGeneratorCluster_5_C2",
+      "internalEnabled": true,
+      "persistentID": 91
     },
     {
       "Type": "TerminalUplink",
@@ -5949,6 +8711,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -5988,6 +8751,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "TerminalUplink_One_Terminal",
       "internalEnabled": true,
@@ -6024,6 +8788,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -6063,10 +8828,98 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "TerminalUplink_Two_Terminals",
       "internalEnabled": true,
       "persistentID": 27
+    },
+    {
+      "Type": "TerminalUplink",
+      "Header": "Terminal Uplink",
+      "MainObjective": "Find the <u>Uplink Terminals</u> [ALL_ITEMS] and establish an external uplink from each terminal",
+      "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Use [ITEM_SERIAL] to create an uplink to [UPLINK_ADDRESS]",
+      "SolveItemHelp": "Use the UPLINK_CONNECT command to establish the connection",
+      "GoToWinCondition_Elevator": "Neural Imprinting Protocols retrieved. Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [
+        {
+          "WaveSettings": 44,
+          "WavePopulation": 14,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 15,
+          "WavePopulation": 14,
+          "SpawnDelay": 1.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnEnd",
+          "Type": "UnlockSecurityDoor",
+          "Layer": "SecondaryLayer",
+          "LocalIndex": "Zone_0",
+          "Delay": 10.0,
+          "WardenIntel": "LOCKDOWN DISENGAGED - Bulkhead door to [ZONE 110] unlocked.",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 82,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 7,
+      "Uplink_NumberOfTerminals": 2,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "TerminalUplink_Two_Terminals_R5",
+      "internalEnabled": true,
+      "persistentID": 79
     },
     {
       "Type": "TerminalUplink",
@@ -6099,6 +8952,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -6138,6 +8992,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "TerminalUplink_Three_Terminals_Four_Verifications",
       "internalEnabled": true,
@@ -6174,6 +9029,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -6206,10 +9062,89 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "TerminalUplink_One_Terminal_10_L2",
       "internalEnabled": true,
       "persistentID": 38
+    },
+    {
+      "Type": "TerminalUplink",
+      "Header": "Terminal Uplink",
+      "MainObjective": "Find the <u>Uplink Terminal</u> [ALL_ITEMS] and establish an external uplink from each terminal",
+      "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Use [ITEM_SERIAL] to create an uplink to [UPLINK_ADDRESS]",
+      "SolveItemHelp": "Use the UPLINK_CONNECT command to establish the connection",
+      "GoToWinCondition_Elevator": "Neural Imprinting Protocols retrieved. Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [
+        {
+          "WaveSettings": 44,
+          "WavePopulation": 7,
+          "SpawnDelay": 2.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 26,
+          "WavePopulation": 7,
+          "SpawnDelay": 5.0,
+          "TriggerAlarm": true,
+          "IntelMessage": "WARNING WARNING"
+        }
+      ],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 4,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 10,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "TerminalUplink_One_Terminal_10_R5",
+      "internalEnabled": true,
+      "persistentID": 81
     },
     {
       "Type": "TerminalUplink",
@@ -6242,6 +9177,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -6281,6 +9217,7 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "TerminalUplink_Two_Terminals_Hardrive",
       "internalEnabled": true,
@@ -6317,6 +9254,7 @@
           "TriggerAlarm": true
         }
       ],
+      "EventsOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
       "WavesOnGotoWin": [
         {
@@ -6356,11 +9294,99 @@
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
       "name": "TerminalUplink_Three_Terminals",
       "internalEnabled": true,
       "persistentID": 21
+    },
+    {
+      "Type": "TerminalUplink",
+      "Header": "Terminal Uplink",
+      "MainObjective": "Find the <u>Uplink Terminals</u> [ALL_ITEMS] and establish an external uplink from each terminal",
+      "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+      "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "Use [ITEM_SERIAL] to create an uplink to [UPLINK_ADDRESS]",
+      "SolveItemHelp": "Use the UPLINK_CONNECT command to establish the connection",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [
+        {
+          "WaveSettings": 5,
+          "WavePopulation": 1,
+          "SpawnDelay": 0.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [
+        {
+          "WaveSettings": 32,
+          "WavePopulation": 1,
+          "SpawnDelay": 1.0,
+          "TriggerAlarm": true
+        }
+      ],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
+        {
+          "Trigger": "OnStart",
+          "Type": "OpenSecurityDoor",
+          "Layer": "MainLayer",
+          "LocalIndex": "Zone_6",
+          "Delay": 5.0,
+          "WardenIntel": "Security door to [ZONE_6] unlocked",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 10,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
+      "Gather_RequiredCount": -1,
+      "Gather_ItemId": 0,
+      "Gather_SpawnCount": 0,
+      "Gather_MaxPerZone": 0,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 6,
+      "Uplink_NumberOfTerminals": 2,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "TerminalUplink_Two_Terminals_Open_Door",
+      "internalEnabled": true,
+      "persistentID": 85
     }
   ],
-  "LastPersistentID": 69
+  "LastPersistentID": 94
 }

@@ -1,7 +1,7 @@
 {
   "Headers": [
     {
-      "AboveBlockID": 98,
+      "AboveBlockID": 99,
       "LabelText": "player health",
       "FoldoutStatus": true
     },
@@ -169,48 +169,14 @@
       "AboveBlockID": 193,
       "LabelText": "bio scans",
       "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 221,
+      "LabelText": "New Header",
+      "FoldoutStatus": true
     }
   ],
   "Blocks": [
-    {
-      "priority": "IdleTalk",
-      "probabilityToTrigger": "Always",
-      "triggerInterval": "ShortCooldown",
-      "randomDelay": {
-        "x": 0.0,
-        "y": 0.0
-      },
-      "tensionLimit": "Low",
-      "dramaFilter": {
-        "Exploration": true,
-        "Alert": false,
-        "Sneaking": false,
-        "Encounter": false,
-        "Combat": false
-      },
-      "dialogAlternatives": [
-        {
-          "structure": {
-            "enabled": true,
-            "weight": 1.0,
-            "lines": [
-              {
-                "lineEvent": 4198877308,
-                "A": true,
-                "B": false,
-                "C": false,
-                "D": false,
-                "UNI": false,
-                "exit": 0.0
-              }
-            ]
-          }
-        }
-      ],
-      "name": "low_health_talk",
-      "internalEnabled": true,
-      "persistentID": 98
-    },
     {
       "priority": "IdleTalk",
       "probabilityToTrigger": "Always",
@@ -258,6 +224,45 @@
       "name": "low_health_limit",
       "internalEnabled": true,
       "persistentID": 99
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "ShortCooldown",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": false,
+        "Sneaking": false,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4198877308,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "low_health_talk",
+      "internalEnabled": true,
+      "persistentID": 98
     },
     {
       "priority": "IdleTalk",
@@ -9960,6 +9965,333 @@
     {
       "priority": "IdleTalk",
       "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2375965121,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              },
+              {
+                "lineEvent": 0,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "None, Char_G, Char_T, Char_F, Char_O",
+            "conditions": [
+              "IsClose"
+            ]
+          }
+        }
+      ],
+      "name": "react_to_woods_log_1",
+      "internalEnabled": true,
+      "persistentID": 221
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2375965122,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_woods_log_2",
+      "internalEnabled": true,
+      "persistentID": 222
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3827694904,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_dauda_log_1",
+      "internalEnabled": true,
+      "persistentID": 223
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3827694907,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_dauda_log_2",
+      "internalEnabled": true,
+      "persistentID": 224
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2772848967,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_hackett_log_1",
+      "internalEnabled": true,
+      "persistentID": 225
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2772848964,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_hackett_log_2",
+      "internalEnabled": true,
+      "persistentID": 226
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 34289636,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_bishop_log_1",
+      "internalEnabled": true,
+      "persistentID": 227
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": false,
+        "Combat": false
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 34289639,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "react_to_bishop_log_2",
+      "internalEnabled": true,
+      "persistentID": 228
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
@@ -10435,5 +10767,5 @@
       "persistentID": 158
     }
   ],
-  "LastPersistentID": 220
+  "LastPersistentID": 228
 }

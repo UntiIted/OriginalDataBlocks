@@ -263,6 +263,32 @@
     },
     {
       "Health": {
+        "HealthMax": 60.0,
+        "DamageUntilHitreact": 5.0,
+        "BodypartHealth": 25.0,
+        "WeakspotDamageMulti": 1.0,
+        "ArmorDamageMulti": 0.3,
+        "HitreactOnLimbDestruction": "Heavy",
+        "TryForceHitreactOnLimbDestruction": true
+      },
+      "GlueTolerance": 10.0,
+      "GlueFadeOutTime": 8.0,
+      "CanBePushed": true,
+      "ForbidTwitchHit": false,
+      "AllowDamgeBonusFromBehind": true,
+      "UseTentacleTunnelCheck": true,
+      "UseVisibilityRaycastDuringTentacleAttack": false,
+      "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+      "TentacleAttackDamage": 3.0,
+      "MeleeAttackDamage": 3.0,
+      "MeleeAttackDamageCheckRadius": 1.0,
+      "TagTime": 60.0,
+      "name": "Scout_Bullrush",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "Health": {
         "HealthMax": 150.0,
         "DamageUntilHitreact": 40.0,
         "BodypartHealth": 15.0,
@@ -314,5 +340,5 @@
       "persistentID": 29
     }
   ],
-  "LastPersistentID": 32
+  "LastPersistentID": 33
 }

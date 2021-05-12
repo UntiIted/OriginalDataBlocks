@@ -1,4 +1,8 @@
-None
-Some
-Many
-Tons
+None_0
+Pair_2
+Few_5
+Some_10
+SomeMore_15
+Many_20
+Alot_30
+Tons_50

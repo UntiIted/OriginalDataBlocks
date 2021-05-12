@@ -1,5 +1,4 @@
 List<ExpeditionZoneData>: Zones
-   Int32: NameCounter
    Int32: Alias
    Int32: BuildFromZoneAlias
    String: BulkyListElementName
@@ -52,11 +51,18 @@ List<ExpeditionZoneData>: Zones
       (enum) eEnemyRoleDifficulty: Difficulty
       (enum) eEnemyZoneDistribution: Distribution
       Single: DistributionValue
+   Boolean: EnemyRespawning
+   Boolean: EnemyRespawnRequireOtherZone
+   Int32: EnemyRespawnRoomDistance
+   Single: EnemyRespawnTimeInterval
+   Single: EnemyRespawnCountMultiplier
+   List<UInt32>: EnemyRespawnExcludeList
    Int32: HSUClustersInZone
    Int32: CorpseClustersInZone
    Int32: ResourceContainerClustersInZone
    Int32: GeneratorClustersInZone
    (enum) eZoneDistributionAmount: CorpsesInZone
+   (enum) eZoneDistributionAmount: GroundSpawnersInZone
    (enum) eZoneDistributionAmount: HSUsInZone
    (enum) eZoneDistributionAmount: DeconUnitsInZone
    Boolean: AllowSmallPickupsAllocation
@@ -77,6 +83,7 @@ List<ExpeditionZoneData>: Zones
          String: FileContent
          UInt32: AttachedAudioFile
          Int32: AttachedAudioByteSize
+         UInt32: PlayerDialogToTriggerAfterAudio
       TerminalStartStateData: StartingStateData
          (enum) TERM_State: StartingState
          UInt32: AudioEventEnter

@@ -1,0 +1,23 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Tags": [
+        "DataCenter",
+        "Shelf"
+      ],
+      "name": "TestTags",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "Tags": [
+        "Any"
+      ],
+      "name": "Anywhere",
+      "internalEnabled": true,
+      "persistentID": 2
+    }
+  ],
+  "LastPersistentID": 2
+}

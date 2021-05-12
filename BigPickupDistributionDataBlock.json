@@ -74,6 +74,26 @@
       "persistentID": 6
     },
     {
+      "SpawnsPerZone": 3,
+      "SpawnData": [
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 131,
+          "Weight": 1.0
+        }
+      ],
+      "name": "PowerCell_3",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
       "SpawnsPerZone": 1,
       "SpawnData": [
         {
@@ -98,5 +118,5 @@
       "persistentID": 4
     }
   ],
-  "LastPersistentID": 7
+  "LastPersistentID": 8
 }

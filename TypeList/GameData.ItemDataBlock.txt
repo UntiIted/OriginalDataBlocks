@@ -17,6 +17,7 @@ Boolean: GUIShowAmmoPack
 Boolean: GUIShowAmmoTotalRel
 Boolean: GUIShowAmmoInfinite
 Boolean: canMoveQuick
+Boolean: BlockToolAmmoRefill
 Single: ClassAmmoCostFactor
 Int32: ConsumableAmmoMin
 Int32: ConsumableAmmoMax

@@ -33,8 +33,13 @@ Il2CppReferenceArray`1: m_elevatorShafts_1x1
 Il2CppReferenceArray`1: m_customGeomorphs_Exit_1x1
 Il2CppReferenceArray`1: m_customGeomorphs_Objective_1x1
 Il2CppReferenceArray`1: m_customGeomorphs_Challenge_1x1
+Il2CppReferenceArray`1: m_ladders_4m
+Il2CppReferenceArray`1: m_ladders_2m
+Il2CppReferenceArray`1: m_ladders_1m
+Il2CppReferenceArray`1: m_ladders_05m
+Il2CppReferenceArray`1: m_ladders_bottom
+Il2CppReferenceArray`1: m_ladders_top
 Double: m_lastSaveVerification
-Transform: m_root
 Dictionary`2: m_prefabSpawnerCounter
 Dictionary`2: m_allCustomGeomorphsPerPath
 Il2CppStructArray`1: m_geomorphPickerIndex
@@ -185,6 +190,30 @@ List<ResourceData>: CustomGeomorphs_Objective_1x1
    (enum) SubComplex: SubComplex
    (enum) AssetBundleShard: Shard
 List<ResourceData>: CustomGeomorphs_Challenge_1x1
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: Ladders_4m
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: Ladders_2m
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: Ladders_1m
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: Ladders_05m
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: Ladders_Bottom
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: Ladders_Top
    String: Prefab
    (enum) SubComplex: SubComplex
    (enum) AssetBundleShard: Shard

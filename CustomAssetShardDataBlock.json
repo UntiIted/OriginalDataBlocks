@@ -219,6 +219,42 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_04.prefab",
           "Shard": "S6"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_bottom_01.prefab",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_1m_01.prefab",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_2m_01.prefab",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_4m_01.prefab",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_05m_01.prefab",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_top_01.prefab",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/generic_ground_marker_01.prefab",
+          "Shard": "S4"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_01.prefab",
+          "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_02.prefab",
+          "Shard": "S6"
         }
       ],
       "name": "Shared Markers",
@@ -283,6 +319,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjInfectionBomb.prefab",
           "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingSmallFast.prefab",
+          "Shard": "S5"
         }
       ],
       "name": "Projectiles",
@@ -303,6 +343,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Sentrygun_MuzzleFlash_3RD.prefab",
           "Shard": "S12"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/FX_Effects/FX_TripmineGlue.prefab",
+          "Shard": "S7"
         }
       ],
       "name": "Effects_Weapons",
@@ -318,6 +362,14 @@
         },
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+          "Shard": "S17"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item_corpse.prefab",
+          "Shard": "S17"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item_ground.prefab",
           "Shard": "S17"
         }
       ],
@@ -423,6 +475,14 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Sustained_Cluster_Big_RequireAll.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_MegaHuge_RequireAll.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_Huge_RequireAll .prefab",
+          "Shard": "S1"
         }
       ],
       "name": "ChainedPuzzles",
@@ -491,6 +551,18 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Infestation/World_EggSack_Small_Collision.prefab",
           "Shard": "S11"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_01.prefab",
+          "Shard": "S11"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_small_01.prefab",
+          "Shard": "S11"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_womb_litter_01.prefab",
+          "Shard": "S11"
         }
       ],
       "name": "Infestation",
@@ -508,7 +580,47 @@
       "name": "CarryItemGlobalStates",
       "internalEnabled": true,
       "persistentID": 18
+    },
+    {
+      "BundleName": "Startup",
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Artifacts/General/ArtifactPickup_Core.prefab",
+          "Shard": "S14"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Artifacts/General/ArtifactPickup_Test.prefab",
+          "Shard": "S16"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_a.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_b Variant.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_c Variant.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_d Variant.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_f Variant.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_skull Variant.prefab",
+          "Shard": "S1"
+        }
+      ],
+      "name": "Artifacts",
+      "internalEnabled": true,
+      "persistentID": 19
     }
   ],
-  "LastPersistentID": 18
+  "LastPersistentID": 19
 }

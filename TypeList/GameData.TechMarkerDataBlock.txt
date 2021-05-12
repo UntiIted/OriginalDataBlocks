@@ -1,6 +1,3 @@
-String: m_funcLinksAssetPath
-String: m_funcLinksResourcePath
-Dictionary`2: m_blocksPerGroup
 MarkerDataCommon: CommonData
    Il2CppReferenceArray`1: FunctionComponentLinks
    List<MarkerComposition>: m_compositions

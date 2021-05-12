@@ -1,0 +1,42 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "PublicName": "Warden Artifact: Muted",
+      "ArtifactCategory": "Common",
+      "PrefabPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_Medium_Artifact_a.prefab",
+      "PrefabPaths": [
+        "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_a.prefab"
+      ],
+      "TagsID": 2,
+      "name": "Common_Anywhere",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "PublicName": "Warden Artifact: Bold",
+      "ArtifactCategory": "Uncommon",
+      "PrefabPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_Medium_Artifact_a.prefab",
+      "PrefabPaths": [
+        "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_c Variant.prefab"
+      ],
+      "TagsID": 2,
+      "name": "Uncommon_Anywhere",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "PublicName": "Warden Artifact: Aggressive",
+      "ArtifactCategory": "Rare",
+      "PrefabPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_Medium_Artifact_a.prefab",
+      "PrefabPaths": [
+        "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_b Variant.prefab"
+      ],
+      "TagsID": 2,
+      "name": "Rare_Anywhere",
+      "internalEnabled": true,
+      "persistentID": 13
+    }
+  ],
+  "LastPersistentID": 17
+}

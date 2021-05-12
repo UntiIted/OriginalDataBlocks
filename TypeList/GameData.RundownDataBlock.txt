@@ -90,6 +90,14 @@ List<ExpeditionInTierData>: TierA
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
    UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
@@ -111,6 +119,14 @@ List<ExpeditionInTierData>: TierA
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
    UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
@@ -132,6 +148,14 @@ List<ExpeditionInTierData>: TierA
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
 List<ExpeditionInTierData>: TierB
@@ -183,6 +207,14 @@ List<ExpeditionInTierData>: TierB
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
    UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
@@ -204,6 +236,14 @@ List<ExpeditionInTierData>: TierB
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
    UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
@@ -225,6 +265,14 @@ List<ExpeditionInTierData>: TierB
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
 List<ExpeditionInTierData>: TierC
@@ -276,6 +324,14 @@ List<ExpeditionInTierData>: TierC
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
    UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
@@ -297,6 +353,14 @@ List<ExpeditionInTierData>: TierC
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
    UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
@@ -318,6 +382,14 @@ List<ExpeditionInTierData>: TierC
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
 List<ExpeditionInTierData>: TierD
@@ -369,6 +441,14 @@ List<ExpeditionInTierData>: TierD
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
    UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
@@ -390,6 +470,14 @@ List<ExpeditionInTierData>: TierD
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
    UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
@@ -411,6 +499,14 @@ List<ExpeditionInTierData>: TierD
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
 List<ExpeditionInTierData>: TierE
@@ -462,6 +558,14 @@ List<ExpeditionInTierData>: TierE
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
    UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
@@ -483,6 +587,14 @@ List<ExpeditionInTierData>: TierE
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
    UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
@@ -504,6 +616,14 @@ List<ExpeditionInTierData>: TierE
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List`1>: ZonePlacementDatas
+      ArtifactLayerData: ArtifactData
+         Single: ArtifactAmountMulti
+         UInt32: ArtifactLayerDistributionDataID
+         List<ArtifactZoneDistribution>: ArtifactZoneDistributions
+            (enum) eLocalZoneIndex: Zone
+            Single: BasicArtifactWeight
+            Single: AdvancedArtifactWeight
+            Single: SpecializedArtifactWeight
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
 String: name

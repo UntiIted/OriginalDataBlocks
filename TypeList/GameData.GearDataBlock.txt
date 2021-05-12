@@ -1,4 +1,3 @@
-Color: s_officialColor
 String: m_publicName
 Boolean: m_baseItemSet
 UInt32: m_baseItemID

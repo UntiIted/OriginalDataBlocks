@@ -338,7 +338,7 @@
       },
       "m_gameEventSounds": [
         {
-          "GameEvent": "player_take_damage",
+          "GameEvent": "player_enter_terminal",
           "SoundEvent": "combat_orch_hit_level_3",
           "Cooldown": 1.0
         },
@@ -561,37 +561,37 @@
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "security_door_opening",
+          "GameEvent": "bioscan_start",
           "SoundEvent": "scary_swell_130_level_002",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "hibernating_enemy_wakeup",
+          "GameEvent": "hibernating_enemy_dead",
           "SoundEvent": "exploration_eerie_roll",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "scout_enemy_found_player",
+          "GameEvent": "scout_enemy_dead",
           "SoundEvent": "exploration_eerie_roll",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "scout_enemy_spotted",
+          "GameEvent": "scout_enemy_use_detect_ability",
           "SoundEvent": "stinger_low_boom",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "hibernating_enemy_spotted",
+          "GameEvent": "hibernating_enemy_heartbeat",
           "SoundEvent": "stinger_low_rumble",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "player_take_damage",
+          "GameEvent": "player_enter_terminal",
           "SoundEvent": "combat_cooldown_up_20",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "enemy_scout_dead_from_melee",
+          "GameEvent": "player_place_tripmine",
           "Cooldown": 0.0
         }
       ],

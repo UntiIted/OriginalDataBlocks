@@ -56,6 +56,22 @@
       "HUDIcon": "",
       "FPSArmPoseName": "",
       "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 17,
+      "BurstArchetype": 18,
+      "AutoArchetype": 69,
+      "SemiBurstArchetype": 20,
+      "PartAlignPriority": [],
+      "name": "SMGHeavy",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
       "SemiArchetype": 51,
       "BurstArchetype": 50,
       "AutoArchetype": 49,
@@ -121,6 +137,22 @@
       "name": "DMR",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 109,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": "Rifle",
+      "SemiArchetype": 68,
+      "BurstArchetype": 26,
+      "AutoArchetype": 27,
+      "SemiBurstArchetype": 28,
+      "PartAlignPriority": [],
+      "name": "DMR_Special",
+      "internalEnabled": true,
+      "persistentID": 24
     },
     {
       "PublicName": "",
@@ -442,5 +474,5 @@
       "persistentID": 15
     }
   ],
-  "LastPersistentID": 23
+  "LastPersistentID": 25
 }

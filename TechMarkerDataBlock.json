@@ -44,6 +44,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -74,6 +75,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -142,6 +144,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -166,6 +169,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -212,45 +216,61 @@
           [],
           [],
           [
-            10
+            10,
+            7
           ],
           [
-            9
+            9,
+            7
           ],
           [],
           [
             1
           ],
           [
-            8
+            8,
+            7
           ],
           [
-            0
+            0,
+            7
           ],
           [
-            2
+            2,
+            7
           ],
           [],
           [
-            3
+            3,
+            7
           ],
           [
-            4
+            4,
+            7
           ],
           [
-            5
+            5,
+            7
           ],
-          [],
           [
             7
           ],
           [
-            6
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7
           ],
           [],
           [],
           [],
-          []
+          [
+            7
+          ]
         ],
         "Compositions": [
           {
@@ -369,6 +389,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -438,6 +459,7 @@
           [
             4
           ],
+          [],
           [],
           [],
           [],
@@ -523,6 +545,7 @@
           [
             10
           ],
+          [],
           [],
           [],
           [],
@@ -634,6 +657,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -670,6 +694,7 @@
           [
             0
           ],
+          [],
           [],
           [],
           [],
@@ -731,6 +756,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -786,6 +812,7 @@
           [
             6
           ],
+          [],
           [],
           [],
           [],
@@ -873,6 +900,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -903,6 +931,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -996,7 +1025,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            12
+          ]
         ],
         "Compositions": [
           {
@@ -1073,8 +1105,14 @@
           },
           {
             "weight": 18.0,
-            "function": "None",
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/generic_ground_marker_01.prefab",
+            "function": "GroundSpawn",
             "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
           }
         ],
         "AssetBundleName": "Complex_Tech",
@@ -1116,7 +1154,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            4
+          ]
         ],
         "Compositions": [
           {
@@ -1145,8 +1186,14 @@
           },
           {
             "weight": 7.0,
-            "function": "None",
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/generic_ground_marker_01.prefab",
+            "function": "GroundSpawn",
             "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
           }
         ],
         "AssetBundleName": "Complex_Tech",
@@ -1179,6 +1226,9 @@
           [],
           [],
           [
+            0,
+            1,
+            2,
             3
           ],
           [],
@@ -1187,25 +1237,28 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            5
+          ]
         ],
         "Compositions": [
           {
             "weight": 1.0,
             "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V01.prefab",
-            "function": "None",
+            "function": "Corpse",
             "Shard": "S20"
           },
           {
             "weight": 1.0,
             "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V02.prefab",
-            "function": "None",
+            "function": "Corpse",
             "Shard": "S20"
           },
           {
             "weight": 1.0,
             "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V03.prefab",
-            "function": "None",
+            "function": "Corpse",
             "Shard": "S20"
           },
           {
@@ -1222,8 +1275,14 @@
           },
           {
             "weight": 3.0,
-            "function": "None",
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/generic_ground_marker_01.prefab",
+            "function": "GroundSpawn",
             "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
           }
         ],
         "AssetBundleName": "Complex_Tech",
@@ -1402,7 +1461,22 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
         ],
         "Compositions": [
           {
@@ -1585,7 +1659,16 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
         ],
         "Compositions": [
           {
@@ -1771,7 +1854,17 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            3,
+            4,
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ]
         ],
         "Compositions": [
           {
@@ -1938,7 +2031,15 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+          ]
         ],
         "Compositions": [
           {
@@ -2093,7 +2194,14 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            2,
+            3,
+            4,
+            5
+          ]
         ],
         "Compositions": [
           {
@@ -2246,7 +2354,16 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            2,
+            6,
+            4,
+            1,
+            3,
+            5
+          ]
         ],
         "Compositions": [
           {
@@ -2363,7 +2480,11 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            1,
+            0
+          ]
         ],
         "Compositions": [
           {
@@ -2471,6 +2592,7 @@
           [
             5
           ],
+          [],
           [],
           [],
           [],
@@ -2598,6 +2720,7 @@
             1,
             2
           ],
+          [],
           [],
           [],
           [],
@@ -2760,7 +2883,13 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            1,
+            3,
+            4,
+            6
+          ]
         ],
         "Compositions": [
           {
@@ -2840,6 +2969,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -2894,6 +3024,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -2992,6 +3123,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -3052,6 +3184,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -3133,6 +3266,7 @@
           [
             6
           ],
+          [],
           [],
           [],
           [],
@@ -3220,6 +3354,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -3386,7 +3521,16 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            5,
+            7,
+            9,
+            6,
+            3,
+            4
+          ]
         ],
         "Compositions": [
           {
@@ -3465,6 +3609,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -3593,7 +3738,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            7
+          ]
         ],
         "Compositions": [
           {
@@ -3729,7 +3877,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            6
+          ]
         ],
         "Compositions": [
           {
@@ -3862,7 +4013,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0
+          ]
         ],
         "Compositions": [
           {
@@ -3927,6 +4081,7 @@
           [
             4
           ],
+          [],
           [],
           [],
           [],
@@ -4088,6 +4243,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -4179,6 +4335,7 @@
           [
             6
           ],
+          [],
           [],
           [],
           [],
@@ -4296,7 +4453,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            1
+          ]
         ],
         "Compositions": [
           {
@@ -4377,7 +4537,12 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            2,
+            1,
+            0
+          ]
         ],
         "Compositions": [
           {
@@ -4457,6 +4622,7 @@
             2,
             4
           ],
+          [],
           [],
           [],
           [],
@@ -4620,7 +4786,17 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
         ],
         "Compositions": [
           {
@@ -4774,6 +4950,14 @@
           [],
           [
             5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
           ]
         ],
         "Compositions": [
@@ -4916,7 +5100,15 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0
+          ]
         ],
         "Compositions": [
           {
@@ -5078,7 +5270,18 @@
           ],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
         ],
         "Compositions": [
           {
@@ -5180,6 +5383,7 @@
           [
             6
           ],
+          [],
           [],
           [],
           [],
@@ -5314,7 +5518,12 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            6,
+            0,
+            1
+          ]
         ],
         "Compositions": [
           {
@@ -5411,6 +5620,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -5477,7 +5687,10 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            6
+          ]
         ],
         "Compositions": [
           {
@@ -5538,6 +5751,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -5636,6 +5850,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -5712,6 +5927,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -5772,6 +5988,7 @@
           [
             13
           ],
+          [],
           [],
           [],
           [],
@@ -5925,6 +6142,7 @@
           [],
           [],
           [],
+          [],
           []
         ],
         "Compositions": [
@@ -6064,7 +6282,15 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            10,
+            0,
+            2,
+            3,
+            4,
+            8
+          ]
         ],
         "Compositions": [
           {
@@ -6148,6 +6374,7 @@
     {
       "CommonData": {
         "FunctionComponentLinks": [
+          [],
           [],
           [],
           [],
@@ -6348,7 +6575,14 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            2,
+            4,
+            5,
+            6
+          ]
         ],
         "Compositions": [
           {
@@ -6482,7 +6716,15 @@
           [],
           [],
           [],
-          []
+          [],
+          [
+            0,
+            2,
+            4,
+            6,
+            7,
+            8
+          ]
         ],
         "Compositions": [
           {

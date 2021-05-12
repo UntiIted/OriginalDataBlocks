@@ -1,5 +1,11 @@
 GameData.ArchetypeDataBlock
+GameData.ArtifactDataBlock
+GameData.ArtifactDistributionDataBlock
+GameData.ArtifactTagDataBlock
 GameData.BigPickupDistributionDataBlock
+GameData.BoosterImplantConditionDataBlock
+GameData.BoosterImplantEffectDataBlock
+GameData.BoosterImplantTemplateDataBlock
 GameData.ChainedPuzzleDataBlock
 GameData.ChainedPuzzleTypeDataBlock
 GameData.CommodityDataBlock

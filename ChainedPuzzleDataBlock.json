@@ -29,6 +29,11 @@
       "AboveBlockID": 69,
       "LabelText": "Sustained",
       "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 67,
+      "LabelText": "Trickle",
+      "FoldoutStatus": true
     }
   ],
   "Blocks": [
@@ -294,6 +299,123 @@
       "persistentID": 83
     },
     {
+      "PublicAlarmName": "Alarm Class III",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 1,
+      "SurvivalWavePopulation": 8,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 20.0,
+      "WantedDistanceBetweenPuzzleComponents": 7.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 8
+        },
+        {
+          "PuzzleType": 8
+        },
+        {
+          "PuzzleType": 8
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single bigger x3 Far - Alarm",
+      "internalEnabled": true,
+      "persistentID": 95
+    },
+    {
+      "PublicAlarmName": "Alarm Class III",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 36,
+      "SurvivalWavePopulation": 5,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 20.0,
+      "WantedDistanceBetweenPuzzleComponents": 7.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 8
+        },
+        {
+          "PuzzleType": 8
+        },
+        {
+          "PuzzleType": 8
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single bigger x3 Far - Alarm halved Bullrush",
+      "internalEnabled": true,
+      "persistentID": 94
+    },
+    {
+      "PublicAlarmName": "Alarm Class V",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 12,
+      "SurvivalWavePopulation": 17,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 10.0,
+      "WantedDistanceBetweenPuzzleComponents": 8.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 9
+        },
+        {
+          "PuzzleType": 8
+        },
+        {
+          "PuzzleType": 9
+        },
+        {
+          "PuzzleType": 6
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single bigger to mixed x5 Far - Alarm Bullrush mix",
+      "internalEnabled": true,
+      "persistentID": 96
+    },
+    {
+      "PublicAlarmName": "Alarm Class IV",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 36,
+      "SurvivalWavePopulation": 5,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 7.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 2
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mixed x4 - Alarm Bullrush halved",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
       "PublicAlarmName": "Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
@@ -310,9 +432,9 @@
       "OnlyShowHUDWhenPlayerIsClose": false,
       "AlarmSoundStart": 3339129407,
       "AlarmSoundStop": 42633153,
-      "name": "Single x1 - Alarm Bullrush",
+      "name": "Single x1 - Alarm Bullrush_Copy",
       "internalEnabled": true,
-      "persistentID": 20
+      "persistentID": 93
     },
     {
       "PublicAlarmName": "Alarm",
@@ -384,36 +506,6 @@
       "PublicAlarmName": "Class IV Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
-      "SurvivalWavePopulation": 1,
-      "DisableSurvivalWaveOnComplete": true,
-      "UseRandomPositions": true,
-      "WantedDistanceFromStartPos": 0.0,
-      "WantedDistanceBetweenPuzzleComponents": 15.0,
-      "ChainedPuzzle": [
-        {
-          "PuzzleType": 6
-        },
-        {
-          "PuzzleType": 5
-        },
-        {
-          "PuzzleType": 4
-        },
-        {
-          "PuzzleType": 2
-        }
-      ],
-      "OnlyShowHUDWhenPlayerIsClose": false,
-      "AlarmSoundStart": 3339129407,
-      "AlarmSoundStop": 42633153,
-      "name": "Single to mix x4 Hard - Alarm",
-      "internalEnabled": true,
-      "persistentID": 1
-    },
-    {
-      "PublicAlarmName": "Class IV Alarm",
-      "TriggerAlarmOnActivate": true,
-      "SurvivalWaveSettings": 1,
       "SurvivalWavePopulation": 3,
       "DisableSurvivalWaveOnComplete": true,
       "UseRandomPositions": true,
@@ -439,6 +531,36 @@
       "name": "Single to mix x4 Hard- Alarm Shooters",
       "internalEnabled": true,
       "persistentID": 15
+    },
+    {
+      "PublicAlarmName": "Class IV Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 1,
+      "SurvivalWavePopulation": 1,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 15.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 2
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix x4 Hard - Alarm",
+      "internalEnabled": true,
+      "persistentID": 1
     },
     {
       "PublicAlarmName": "Class V Alarm",
@@ -546,6 +668,36 @@
       "persistentID": 49
     },
     {
+      "PublicAlarmName": "Class VI Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 19,
+      "SurvivalWavePopulation": 8,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 14.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 5
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix Hard x4 - Hard Alarm Rapids",
+      "internalEnabled": true,
+      "persistentID": 92
+    },
+    {
       "PublicAlarmName": "Class III Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
@@ -571,6 +723,75 @@
       "name": "Single to mix Hard x3 - Alarm Shadows",
       "internalEnabled": true,
       "persistentID": 30
+    },
+    {
+      "PublicAlarmName": "Class M V Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 1,
+      "SurvivalWavePopulation": 7,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 10.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 14
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix Hard x5 - Alarm Shadows M type",
+      "internalEnabled": true,
+      "persistentID": 91
+    },
+    {
+      "PublicAlarmName": "Class M VI Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 1,
+      "SurvivalWavePopulation": 7,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 10.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 14
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix Hard x6 - Alarm Shadows M type",
+      "internalEnabled": true,
+      "persistentID": 99
     },
     {
       "PublicAlarmName": "Class V Alarm",
@@ -601,7 +822,7 @@
       "OnlyShowHUDWhenPlayerIsClose": false,
       "AlarmSoundStart": 3339129407,
       "AlarmSoundStop": 42633153,
-      "name": "Single to mix Hard x5 - Alarm Shadows",
+      "name": "Single to mix Hard x5 - Alarm Shadows Far",
       "internalEnabled": true,
       "persistentID": 43
     },
@@ -864,6 +1085,69 @@
       "persistentID": 67
     },
     {
+      "PublicAlarmName": "Class ://ERROR! Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 41,
+      "SurvivalWavePopulation": 15,
+      "DisableSurvivalWaveOnComplete": false,
+      "UseRandomPositions": false,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 2200133294,
+      "AlarmSoundStop": 2200133294,
+      "name": "Single x1_Trickle_Bullrush_big",
+      "internalEnabled": true,
+      "persistentID": 86
+    },
+    {
+      "PublicAlarmName": "Class ://ERROR! Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 43,
+      "SurvivalWavePopulation": 15,
+      "DisableSurvivalWaveOnComplete": false,
+      "UseRandomPositions": false,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 0,
+      "AlarmSoundStop": 0,
+      "name": "Single x1_Trickle_Bullrush_big_Copy",
+      "internalEnabled": true,
+      "persistentID": 87
+    },
+    {
+      "PublicAlarmName": "Class ://ERROR! Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 46,
+      "SurvivalWavePopulation": 13,
+      "DisableSurvivalWaveOnComplete": false,
+      "UseRandomPositions": false,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 2200133294,
+      "AlarmSoundStop": 2200133294,
+      "name": "Single x1_Easy_Trickle_bullrush",
+      "internalEnabled": true,
+      "persistentID": 84
+    },
+    {
       "PublicAlarmName": "Class S1 Alarm ",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 38,
@@ -887,6 +1171,48 @@
     {
       "PublicAlarmName": "Class S1 Alarm ",
       "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 42,
+      "SurvivalWavePopulation": 1,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": false,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 13
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single sustained defend x1 - R5",
+      "internalEnabled": true,
+      "persistentID": 85
+    },
+    {
+      "PublicAlarmName": "Class S1 Alarm ",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 31,
+      "SurvivalWavePopulation": 9,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": false,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 13
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single sustained defend x1 MOD",
+      "internalEnabled": true,
+      "persistentID": 80
+    },
+    {
+      "PublicAlarmName": "Class S1 Alarm ",
+      "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 31,
       "SurvivalWavePopulation": 9,
       "DisableSurvivalWaveOnComplete": true,
@@ -901,9 +1227,9 @@
       "OnlyShowHUDWhenPlayerIsClose": false,
       "AlarmSoundStart": 3339129407,
       "AlarmSoundStop": 42633153,
-      "name": "Single sustained defend x1 MOD",
+      "name": "Single sustained defend x1 MOD_Copy",
       "internalEnabled": true,
-      "persistentID": 80
+      "persistentID": 88
     },
     {
       "PublicAlarmName": "Class III S1 Alarm ",
@@ -933,6 +1259,36 @@
       "persistentID": 76
     },
     {
+      "PublicAlarmName": "Class IV S1 Alarm ",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 1,
+      "SurvivalWavePopulation": 1,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 5.0,
+      "WantedDistanceBetweenPuzzleComponents": 10.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single sustained defend x4 - Alarm",
+      "internalEnabled": true,
+      "persistentID": 90
+    },
+    {
       "PublicAlarmName": "Class VI S1 Alarm ",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 38,
@@ -940,7 +1296,7 @@
       "DisableSurvivalWaveOnComplete": true,
       "UseRandomPositions": true,
       "WantedDistanceFromStartPos": 5.0,
-      "WantedDistanceBetweenPuzzleComponents": 5.0,
+      "WantedDistanceBetweenPuzzleComponents": 8.0,
       "ChainedPuzzle": [
         {
           "PuzzleType": 14
@@ -969,6 +1325,39 @@
       "persistentID": 82
     },
     {
+      "PublicAlarmName": "Class V S1 Alarm ",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 31,
+      "SurvivalWavePopulation": 9,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 5.0,
+      "WantedDistanceBetweenPuzzleComponents": 5.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single sustained defend x5 - Rapids",
+      "internalEnabled": true,
+      "persistentID": 89
+    },
+    {
       "PublicAlarmName": "Class S1 BC Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
@@ -990,6 +1379,33 @@
       "persistentID": 75
     },
     {
+      "PublicAlarmName": "Class III S1 BC Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 12,
+      "SurvivalWavePopulation": 17,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 20.0,
+      "WantedDistanceBetweenPuzzleComponents": 10.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 16
+        },
+        {
+          "PuzzleType": 16
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single sustained to cluster defend x3 - Alarm far",
+      "internalEnabled": true,
+      "persistentID": 98
+    },
+    {
       "PublicAlarmName": "Class S1 Surge Alarm ",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 21,
@@ -1009,6 +1425,48 @@
       "name": "Single sustained defend x1 - Alarm_Surge",
       "internalEnabled": true,
       "persistentID": 74
+    },
+    {
+      "PublicAlarmName": "Class S1 Z Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 0,
+      "SurvivalWavePopulation": 0,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 17
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single sustained defend x1 MegaHuge - Alarm no wave",
+      "internalEnabled": true,
+      "persistentID": 100
+    },
+    {
+      "PublicAlarmName": "Class S1 Z Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 48,
+      "SurvivalWavePopulation": 16,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 1.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 18
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 2200133294,
+      "AlarmSoundStop": 2200133294,
+      "name": "Single sustained defend x1 Huge",
+      "internalEnabled": true,
+      "persistentID": 102
     },
     {
       "PublicAlarmName": "Class II Cluster Alarm",
@@ -1704,6 +2162,42 @@
       "persistentID": 66
     },
     {
+      "PublicAlarmName": "Class VI Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 12,
+      "SurvivalWavePopulation": 17,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 20.0,
+      "WantedDistanceBetweenPuzzleComponents": 10.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 2
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix Hard Far x6 - Alarm Bullrush mix",
+      "internalEnabled": true,
+      "persistentID": 97
+    },
+    {
       "PublicAlarmName": "Class V Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
@@ -1884,7 +2378,7 @@
       "persistentID": 47
     },
     {
-      "PublicAlarmName": "Alarm Class III",
+      "PublicAlarmName": "Alarm Class M III",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 12,
       "SurvivalWavePopulation": 13,
@@ -1900,7 +2394,7 @@
           "PuzzleType": 4
         },
         {
-          "PuzzleType": 2
+          "PuzzleType": 14
         }
       ],
       "OnlyShowHUDWhenPlayerIsClose": false,
@@ -1911,7 +2405,7 @@
       "persistentID": 71
     },
     {
-      "PublicAlarmName": "Alarm Class V",
+      "PublicAlarmName": "Alarm Class M IV",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 12,
       "SurvivalWavePopulation": 13,
@@ -1924,24 +2418,51 @@
           "PuzzleType": 6
         },
         {
-          "PuzzleType": 2
-        },
-        {
           "PuzzleType": 4
         },
         {
-          "PuzzleType": 2
+          "PuzzleType": 5
         },
         {
-          "PuzzleType": 4
+          "PuzzleType": 14
         }
       ],
       "OnlyShowHUDWhenPlayerIsClose": false,
       "AlarmSoundStart": 3339129407,
       "AlarmSoundStop": 42633153,
-      "name": "Single to mix x5 - Alarm Bullrush",
+      "name": "Single to mix x4 - Alarm Bullrush",
       "internalEnabled": true,
       "persistentID": 72
+    },
+    {
+      "PublicAlarmName": "Alarm Class M IV",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 12,
+      "SurvivalWavePopulation": 13,
+      "DisableSurvivalWaveOnComplete": false,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 11.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 5
+        },
+        {
+          "PuzzleType": 14
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix x4 - Alarm Bullrush_trickle",
+      "internalEnabled": true,
+      "persistentID": 101
     },
     {
       "PublicAlarmName": "Class IV Alarm",
@@ -1974,7 +2495,40 @@
       "persistentID": 26
     },
     {
-      "PublicAlarmName": "Surge Alarm",
+      "PublicAlarmName": "Class V M Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 12,
+      "SurvivalWavePopulation": 7,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 5.0,
+      "WantedDistanceBetweenPuzzleComponents": 5.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 14
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to mix Shadows x5 - Alarm No Require All",
+      "internalEnabled": true,
+      "persistentID": 104
+    },
+    {
+      "PublicAlarmName": "Class III Surge Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 21,
       "SurvivalWavePopulation": 11,
@@ -1999,6 +2553,36 @@
       "name": "Single to Big to Require all E1",
       "internalEnabled": true,
       "persistentID": 37
+    },
+    {
+      "PublicAlarmName": "Class IV Surge Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 21,
+      "SurvivalWavePopulation": 11,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 15.0,
+      "WantedDistanceBetweenPuzzleComponents": 20.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 6
+        },
+        {
+          "PuzzleType": 8
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single to Big to Require all Surge x4",
+      "internalEnabled": true,
+      "persistentID": 103
     },
     {
       "PublicAlarmName": "Surge Alarm",
@@ -2208,5 +2792,5 @@
       "persistentID": 61
     }
   ],
-  "LastPersistentID": 83
+  "LastPersistentID": 104
 }

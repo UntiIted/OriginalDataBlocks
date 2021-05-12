@@ -1,0 +1,306 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Condition": "IsInBioscan",
+      "PublicShortName": "RQ/11",
+      "PublicName": "In bioscan",
+      "Description": "Subject must be in Bioscan for booster to be active.",
+      "IconPath": "",
+      "name": "Is In Bioscan",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "Condition": "IsOutsideBioscan",
+      "PublicShortName": "RQ/12",
+      "PublicName": "Is Outside Bioscan",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is Outside Bioscan",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "Condition": "HasFullHealth",
+      "PublicShortName": "RQ/13",
+      "PublicName": "Has Full Health",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has Full Health",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "Condition": "IsInFogRepellerRadius",
+      "PublicShortName": "RQ/14",
+      "PublicName": "Is In Fog Repeller Radius",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is In Fog Repeller Radius",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "Condition": "IsLastManStanding",
+      "PublicShortName": "RQ/15",
+      "PublicName": "Is Last Man Standing",
+      "Description": "Is last man standing with at least one other team member.",
+      "IconPath": "",
+      "name": "Is Last Man Standing",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "Condition": "IsNextToTeammate",
+      "PublicShortName": "RQ/16",
+      "PublicName": "Human proximity",
+      "Description": "Subject must 7 meters or closer to another human for booster to be active.",
+      "IconPath": "",
+      "name": "Is Next To Teammate",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "Condition": "IsNextToGlowstick",
+      "PublicShortName": "RQ/17",
+      "PublicName": "Glowstick proximity",
+      "Description": "Subject must be within the light radius of a glowstick for booster to be active.",
+      "IconPath": "",
+      "name": "Is Next To Glowstick",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "Condition": "HasFlashlightOff",
+      "PublicShortName": "RQ/18",
+      "PublicName": "Has Flashlight Off",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has Flashlight Off",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "Condition": "HasFlashlightOn",
+      "PublicShortName": "RQ/19",
+      "PublicName": "Has Flashlight On",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has Flashlight On",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "Condition": "IsCloseToEnemy",
+      "PublicShortName": "RQ/20",
+      "PublicName": "Is Close To Enemy",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is Close To Enemy",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "Condition": "IsFarAwayFromEnemy",
+      "PublicShortName": "RQ/21",
+      "PublicName": "Is Not Close To Enemy",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is Far Away from Enemy",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "Condition": "HasLessThanAmmoSmall",
+      "PublicShortName": "",
+      "PublicName": "Has Less Than 10% Ammo In Clip",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has Less Than Ammo Small",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "Condition": 121,
+      "PublicShortName": "",
+      "PublicName": "Has Less Than 20% Ammo In Clip",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has Less Than Ammo Medium",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "Condition": 122,
+      "PublicShortName": "",
+      "PublicName": "Has Less Than 30% Ammo In Clip",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has Less Than Ammo Large",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "Condition": 130,
+      "PublicShortName": "",
+      "PublicName": "Has More Than 90% Ammo In Clip",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has More Than Ammo Small",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "Condition": 131,
+      "PublicShortName": "",
+      "PublicName": "Has More Than 80% Ammo In Clip",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has More Than Ammo Medium",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "Condition": "HasMoreThanAmmoLarge",
+      "PublicShortName": "",
+      "PublicName": "Has More Than 70% Ammo In Clip",
+      "Description": "",
+      "IconPath": "",
+      "name": "Has More Than Ammo Large",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "Condition": "IsTeamAliveTwo",
+      "PublicShortName": "",
+      "PublicName": "Two Team Members Alive",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is Team Alive Two",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "Condition": "IsTeamAliveThree",
+      "PublicShortName": "",
+      "PublicName": "Three Team Members Alive",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is Team Alive Three",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "Condition": "IsWieldingSpecialWeapon",
+      "PublicShortName": "RQ/42",
+      "PublicName": "Is wielding Special Weapon",
+      "Description": "",
+      "IconPath": "",
+      "name": "IsWieldingSpecialWeapon",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "Condition": "IsTeamAliveFour",
+      "PublicShortName": "",
+      "PublicName": "Four Team Members Alive",
+      "Description": "",
+      "IconPath": "",
+      "name": "Is Team Alive Four",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "Condition": "IsWieldingStandardWeapon",
+      "PublicShortName": "RQ/41",
+      "PublicName": "Is wielding Standard Weapon",
+      "Description": "",
+      "IconPath": "",
+      "name": "IsWieldingStandardWeapon",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "Condition": "IsWieldingTool",
+      "PublicShortName": "RQ/43",
+      "PublicName": "Is wielding a Tool",
+      "Description": "",
+      "IconPath": "",
+      "name": "IsWieldingTool",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "Condition": "IsWieldingMelee",
+      "PublicShortName": "RQ/44",
+      "PublicName": "Is wielding a melee weapon",
+      "Description": "The prisoner is wielding a melee weapon",
+      "IconPath": "",
+      "name": "IsWieldingMelee",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
+      "Condition": "IsWieldingConsumable",
+      "PublicShortName": "RQ/45",
+      "PublicName": "Is wielding a consumable",
+      "Description": "",
+      "IconPath": "",
+      "name": "IsWieldingConsumable",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "Condition": "IsWieldingResourcePack",
+      "PublicShortName": "RQ/46",
+      "PublicName": "Resource eq.",
+      "Description": "Subject must have a resource pack equipped for booster to be active.",
+      "IconPath": "",
+      "name": "IsWieldingResourcePack",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "Condition": "IsWieldingHackingTool",
+      "PublicShortName": "RQ/47",
+      "PublicName": "Hacking tool eq.",
+      "Description": "Subject must have their hacking tool equipped for booster to be active.",
+      "IconPath": "",
+      "name": "IsWieldingHackingTool",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "Condition": "IsWieldingCarryItem",
+      "PublicShortName": "RQ/48",
+      "PublicName": "Carry",
+      "Description": "The prisoner is carrying a heavy item",
+      "IconPath": "",
+      "name": "IsWieldingCarryItem",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "Condition": "HasLowHealth",
+      "PublicShortName": "RQ/71",
+      "PublicName": "Health < 40%",
+      "Description": "Subject must have 40% health or less for booster to be active.",
+      "IconPath": "",
+      "name": "HasLowHealth",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "Condition": "HasHighHealth",
+      "PublicShortName": "RQ/72",
+      "PublicName": "Health > 80%",
+      "Description": "Subject must have 80% health or more for booster to be active.",
+      "IconPath": "",
+      "name": "HasHighHealth",
+      "internalEnabled": true,
+      "persistentID": 30
+    }
+  ],
+  "LastPersistentID": 30
+}

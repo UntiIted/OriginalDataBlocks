@@ -546,7 +546,7 @@
           "Shard": "S17"
         },
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_transition_01.prefab",
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02.prefab",
           "SubComplex": "Plug_SubComplex_Transition",
           "Shard": "S17"
         }
@@ -921,6 +921,48 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_4m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_2m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_2m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_1m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_1m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_05m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_05m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Bottom": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_bottom_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Top": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_top_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
       "name": "Complex_Mining",
       "internalEnabled": true,
       "persistentID": 1
@@ -1421,6 +1463,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Subcomplex_Storage",
       "internalEnabled": true,
       "persistentID": 15
@@ -1866,6 +1914,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Subcomplex_Dig_Site",
       "internalEnabled": true,
       "persistentID": 23
@@ -2371,6 +2425,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Subcomplex_Refinery",
       "internalEnabled": true,
       "persistentID": 17
@@ -2941,9 +3001,66 @@
           "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_destroyed_HA_02.prefab",
           "SubComplex": "All",
           "Shard": "S10"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_data_center_dead_end_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S7"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_dead_end_HA_03.prefab",
+          "SubComplex": "All",
+          "Shard": "S8"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_hub_HA_01_V2.prefab",
+          "SubComplex": "All",
+          "Shard": "S8"
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_4m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_2m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_2m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_1m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_1m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_05m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_05m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Bottom": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_bottom_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Top": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_top_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
       "name": "Complex_Tech",
       "internalEnabled": true,
       "persistentID": 3
@@ -3247,6 +3364,12 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Subcomplex_Datacenter",
       "internalEnabled": true,
       "persistentID": 14
@@ -3570,6 +3693,12 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Subcomplex_Lab",
       "internalEnabled": true,
       "persistentID": 10
@@ -3848,6 +3977,12 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Subcomplex_Destroyed",
       "internalEnabled": true,
       "persistentID": 26
@@ -3859,7 +3994,7 @@
       "LevelGenConfig": {
         "GridSize": 40,
         "CellDimension": 64.0,
-        "AltitudeOffset": 0.0,
+        "AltitudeOffset": 2.5,
         "TransitionDirection": "FloorUp",
         "LevelProgression": "StartLevel"
       },
@@ -3867,7 +4002,47 @@
         {
           "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_01.prefab",
           "SubComplex": "Floodways",
-          "Shard": "S19"
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_03.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_04.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_05.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_06.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_07.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_08.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_09.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
         }
       ],
       "GeomorphTiles_2x1": [],
@@ -3875,7 +4050,7 @@
       "RandomizeGeomorphOrder": true,
       "SmallWeakGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_weak_door.prefab",
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_weak_door_service.prefab",
           "SubComplex": "All",
           "Shard": "S16"
         }
@@ -3894,31 +4069,37 @@
           "Shard": "S16"
         }
       ],
-      "SmallBulkheadGates": [],
+      "SmallBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
       "SmallWallCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_03.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
       "SmallDestroyedCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_03.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_destroyed_01.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
       "SmallWallAndDestroyedCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_03.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_destroyed_wall_01.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
       "MediumWeakGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_weak_door.prefab",
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_weak_door_service.prefab",
           "SubComplex": "All",
           "Shard": "S16"
         }
@@ -3937,25 +4118,31 @@
           "Shard": "S16"
         }
       ],
-      "MediumBulkheadGates": [],
+      "MediumBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
       "MediumWallCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_maintenance_cap_wall_01.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
       "MediumDestroyedCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_maintenance_cap_wall_01.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_destroyed_01.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
       "MediumWallAndDestroyedCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_maintenance_cap_wall_01.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_destroyed_wall_01.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
@@ -3980,87 +4167,192 @@
           "Shard": "S16"
         }
       ],
-      "LargeBulkheadGates": [],
+      "LargeBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S1"
+        }
+      ],
       "LargeWallCaps": [
         {
           "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "LargeDestroyedCaps": [
         {
           "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "LargeWallAndDestroyedCaps": [
         {
           "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "StraightPlugsNoGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_maintenance_01.prefab",
-          "SubComplex": "All",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_floodways_02.prefab",
+          "SubComplex": "Floodways",
           "Shard": "S17"
         }
       ],
       "StraightPlugsWithGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_maintenance_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "SingleDropPlugsNoGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_maintenance_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev25dm_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "SingleDropPlugsWithGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_maintenance_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev25dm_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "DoubleDropPlugsNoGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_maintenance_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev5m_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "DoubleDropPlugsWithGates": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_maintenance_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev5m_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
         }
       ],
       "PlugCaps": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_cap_maintenance_01.prefab",
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_cap_floodways_01.prefab",
           "SubComplex": "Floodways",
           "Shard": "S16"
         }
       ],
       "ElevatorShafts_1x1": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_service_01.prefab",
-          "SubComplex": "All",
-          "Shard": "S1"
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
         }
       ],
-      "CustomGeomorphs_Exit_1x1": [],
-      "CustomGeomorphs_Objective_1x1": [],
+      "CustomGeomorphs_Exit_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_floodways_exit_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        }
+      ],
+      "CustomGeomorphs_Objective_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_05.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_I_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_I_HA_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_HA_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_HA_03.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_dead_end_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        }
+      ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_4m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_2m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_2m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_1m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_1m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_05m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_05m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Bottom": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_bottom_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Top": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_top_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
       "name": "Complex_Service",
       "internalEnabled": true,
       "persistentID": 27
@@ -4444,6 +4736,12 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Storage_Test",
       "internalEnabled": false,
       "persistentID": 22
@@ -4732,6 +5030,12 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Datacenter_Test",
       "internalEnabled": false,
       "persistentID": 24
@@ -5000,6 +5304,12 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Lab_Test",
       "internalEnabled": false,
       "persistentID": 25
@@ -5393,9 +5703,1225 @@
       "CustomGeomorphs_Exit_1x1": [],
       "CustomGeomorphs_Objective_1x1": [],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Dig_Site_Test",
       "internalEnabled": false,
       "persistentID": 16
+    },
+    {
+      "ComplexType": "Mining",
+      "PrimareSubComplexUsed": "Refinery",
+      "BundleName": "Complex_Mining",
+      "LevelGenConfig": {
+        "GridSize": 40,
+        "CellDimension": 64.0,
+        "AltitudeOffset": 6.0,
+        "TransitionDirection": "FloorUp",
+        "LevelProgression": "StartLevel"
+      },
+      "GeomorphTiles_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_07.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S15"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_03.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S11"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S15"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_04.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S12"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S14"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_06.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S14"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_HA_05.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S13"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_HA_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_HA_06.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_HA_05.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S10"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_HA_07.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S7"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_AS_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_HA_06.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S7"
+        }
+      ],
+      "GeomorphTiles_2x1": [],
+      "GeomorphTiles_2x2": [],
+      "RandomizeGeomorphOrder": false,
+      "SmallWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_weak_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_apex_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_storage_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_storage_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_storage_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_storage_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_refinery_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_refinery_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        }
+      ],
+      "SmallDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_destroyed_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_destroyed_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_destroyed_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        }
+      ],
+      "SmallWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_Z_forward_destroyed_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_Z_forward_destroyed_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_storage_Z_forward_destroyed_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_storage_Z_forward_destroyed_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_refinery_Z_forward_destroyed_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_cap_wall_refinery_Z_forward_destroyed_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_weak_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_apex_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_wall_storage_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_wall_refinery_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_wall_storage_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        }
+      ],
+      "MediumDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_destroyed_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_destroyed_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_destroyed_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_wall_storage_Z_forward_destroyed_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_wall_storage_Z_forward_destroyed_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_cap_wall_refinery_Z_forward_destroyed_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S16"
+        }
+      ],
+      "LargeWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_weak_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        }
+      ],
+      "LargeDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_destroyed_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        }
+      ],
+      "LargeWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_destroyed_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S16"
+        }
+      ],
+      "StraightPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_04.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_05.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_03.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_04.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_03.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_09.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_07.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_08.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_03.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_06.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_02.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        }
+      ],
+      "StraightPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_02_with_gate.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_04_with_gate.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_03_with_gate.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_with_gate_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_with_gate_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_flat_mining_with_gate_03.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_flat_03_transition_with_gate.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        }
+      ],
+      "SingleDropPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        }
+      ],
+      "SingleDropPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01_with_gate.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_with_gate_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_03_with_gate.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02_with_gate.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_with_gate_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_with_gate_03.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_with_gate_04.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_with_gate_05.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_03_with_gate.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02_with_gate.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01_with_gate.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        }
+      ],
+      "DoubleDropPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_01.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        }
+      ],
+      "DoubleDropPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_with_gate_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_with_gate_01.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_with_gate_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev12m_mining_with_gate_01.prefab",
+          "SubComplex": "Plug_SubComplex_Transition",
+          "Shard": "S17"
+        }
+      ],
+      "PlugCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_06.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_07.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_08.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_09.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_03.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_04.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_05.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_12.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_10.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_11.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_cap_mining_reactor_01.prefab",
+          "SubComplex": "Mining_Reactor",
+          "Shard": "S17"
+        }
+      ],
+      "ElevatorShafts_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_mining_02.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_mining_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_mining_03.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_storage_01.prefab",
+          "SubComplex": "Storage",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_01.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_02.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_03.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_05.prefab",
+          "SubComplex": "DigSite",
+          "Shard": "S18"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_refinery_03.prefab",
+          "SubComplex": "Refinery",
+          "Shard": "S18"
+        }
+      ],
+      "CustomGeomorphs_Exit_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_exit_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        }
+      ],
+      "CustomGeomorphs_Objective_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_reactor_open_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_reactor_HA_02.prefab",
+          "SubComplex": "All",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_02.prefab",
+          "SubComplex": "All",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_03.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_04.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_05.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_vault_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_I_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_02.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_03.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_04.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_05.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_06.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_02.prefab",
+          "SubComplex": "All",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_03.prefab",
+          "SubComplex": "All",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_04.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_05.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_dead_end_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_02.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_03.prefab",
+          "SubComplex": "All",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_I_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_reactor_tunnel_I_HA_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_04.prefab",
+          "SubComplex": "All",
+          "Shard": "S2"
+        }
+      ],
+      "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_4m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_2m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_2m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_1m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_1m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_05m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_05m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Bottom": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_bottom_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Top": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_top_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "name": "Refinery_R5D1",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "ComplexType": "Service",
+      "PrimareSubComplexUsed": "Floodways",
+      "BundleName": "Complex_Service",
+      "LevelGenConfig": {
+        "GridSize": 40,
+        "CellDimension": 64.0,
+        "AltitudeOffset": 2.5,
+        "TransitionDirection": "FloorUp",
+        "LevelProgression": "StartLevel"
+      },
+      "GeomorphTiles_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S2"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_03.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_04.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_05.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_06.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_07.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_08.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        }
+      ],
+      "GeomorphTiles_2x1": [],
+      "GeomorphTiles_2x2": [],
+      "RandomizeGeomorphOrder": true,
+      "SmallWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_weak_door_service.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_apex_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "SmallDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_destroyed_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "SmallWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_destroyed_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_weak_door_service.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_apex_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "MediumDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_destroyed_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_destroyed_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "LargeWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_weak_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S1"
+        }
+      ],
+      "LargeWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "LargeDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "LargeWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "StraightPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "StraightPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "SingleDropPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev25dm_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "SingleDropPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev25dm_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "DoubleDropPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev5m_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "DoubleDropPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev5m_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "PlugCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_cap_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "ElevatorShafts_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        }
+      ],
+      "CustomGeomorphs_Exit_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_floodways_exit_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        }
+      ],
+      "CustomGeomorphs_Objective_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_05.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
+        }
+      ],
+      "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_4m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_2m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_2m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_1m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_1m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_05m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_05m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Bottom": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_bottom_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Top": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_top_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "name": "Complex_Service_R5A1",
+      "internalEnabled": true,
+      "persistentID": 36
     },
     {
       "ComplexType": "Mining",
@@ -5828,6 +7354,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Storage_alpha_1",
       "internalEnabled": true,
       "persistentID": 28
@@ -6268,6 +7800,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Refinery_A2_EA",
       "internalEnabled": true,
       "persistentID": 29
@@ -6738,6 +8276,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Storage_A1_EA",
       "internalEnabled": true,
       "persistentID": 30
@@ -7203,6 +8747,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Refinery_B1_EA",
       "internalEnabled": true,
       "persistentID": 31
@@ -7648,6 +9198,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Dig_site_R2B3",
       "internalEnabled": true,
       "persistentID": 32
@@ -8093,6 +9649,12 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Dig_site_R2E1",
       "internalEnabled": true,
       "persistentID": 33
@@ -8588,10 +10150,16 @@
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [],
+      "Ladders_2m": [],
+      "Ladders_1m": [],
+      "Ladders_05m": [],
+      "Ladders_Bottom": [],
+      "Ladders_Top": [],
       "name": "Refinery_R2D2",
       "internalEnabled": true,
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 34
+  "LastPersistentID": 37
 }

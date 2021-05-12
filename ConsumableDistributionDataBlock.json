@@ -18,19 +18,19 @@
       "SpawnData": [
         {
           "ItemID": 30,
-          "Weight": 4.0
-        },
-        {
-          "ItemID": 114,
           "Weight": 5.0
         },
         {
+          "ItemID": 114,
+          "Weight": 10.0
+        },
+        {
           "ItemID": 115,
-          "Weight": 4.0
+          "Weight": 2.0
         },
         {
           "ItemID": 117,
-          "Weight": 13.0
+          "Weight": 8.0
         },
         {
           "ItemID": 116,
@@ -38,11 +38,7 @@
         },
         {
           "ItemID": 139,
-          "Weight": 4.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 5.0
+          "Weight": 2.0
         }
       ],
       "name": "Baseline_c1_r3",
@@ -59,7 +55,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 5.0
+          "Weight": 10.0
         },
         {
           "ItemID": 115,
@@ -72,10 +68,6 @@
         {
           "ItemID": 139,
           "Weight": 4.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 5.0
         }
       ],
       "name": "Baseline_a2_r3",
@@ -100,10 +92,6 @@
         },
         {
           "ItemID": 114,
-          "Weight": 0.25
-        },
-        {
-          "ItemID": 130,
           "Weight": 0.25
         }
       ],
@@ -147,10 +135,6 @@
         {
           "ItemID": 139,
           "Weight": 0.5
-        },
-        {
-          "ItemID": 130,
-          "Weight": 1.0
         }
       ],
       "name": "ExplorationDark",
@@ -167,7 +151,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 5.0
+          "Weight": 10.0
         },
         {
           "ItemID": 115,
@@ -184,10 +168,6 @@
         {
           "ItemID": 139,
           "Weight": 6.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 5.0
         }
       ],
       "name": "Baseline_small",
@@ -263,7 +243,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 5.0
+          "Weight": 10.0
         },
         {
           "ItemID": 115,
@@ -280,10 +260,6 @@
         {
           "ItemID": 139,
           "Weight": 4.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 5.0
         }
       ],
       "name": "Baseline",
@@ -300,7 +276,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 4.0
+          "Weight": 8.0
         },
         {
           "ItemID": 115,
@@ -321,10 +297,6 @@
         {
           "ItemID": 142,
           "Weight": 11.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 4.0
         }
       ],
       "name": "Baseline_Tech",
@@ -341,7 +313,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 4.0
+          "Weight": 8.0
         },
         {
           "ItemID": 115,
@@ -362,10 +334,6 @@
         {
           "ItemID": 142,
           "Weight": 11.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 4.0
         }
       ],
       "name": "Baseline_small_Tech",
@@ -382,7 +350,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 4.0
+          "Weight": 8.0
         },
         {
           "ItemID": 115,
@@ -395,14 +363,6 @@
         {
           "ItemID": 116,
           "Weight": 7.0
-        },
-        {
-          "ItemID": 144,
-          "Weight": 4.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 4.0
         }
       ],
       "name": "Baseline_small_Tech_R4",
@@ -436,10 +396,6 @@
         {
           "ItemID": 144,
           "Weight": 2.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 1.5
         }
       ],
       "name": "Baseline_small_Tech_R4_fog",
@@ -464,7 +420,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 0.25
+          "Weight": 0.5
         },
         {
           "ItemID": 140,
@@ -473,10 +429,6 @@
         {
           "ItemID": 142,
           "Weight": 0.5
-        },
-        {
-          "ItemID": 130,
-          "Weight": 0.25
         }
       ],
       "name": "ExplorationFog_Tech",
@@ -489,7 +441,7 @@
       "SpawnData": [
         {
           "ItemID": 114,
-          "Weight": 1.0
+          "Weight": 2.0
         },
         {
           "ItemID": 30,
@@ -510,10 +462,6 @@
         {
           "ItemID": 142,
           "Weight": 2.0
-        },
-        {
-          "ItemID": 130,
-          "Weight": 1.0
         }
       ],
       "name": "ExplorationDark_Tech",
@@ -554,10 +502,6 @@
         },
         {
           "ItemID": 117,
-          "Weight": 1.0
-        },
-        {
-          "ItemID": 130,
           "Weight": 1.0
         }
       ],
@@ -614,7 +558,122 @@
       "name": "Small_fog_Tech",
       "internalEnabled": true,
       "persistentID": 14
+    },
+    {
+      "SpawnsPerZone": 15,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Foam_Tech",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "SpawnsPerZone": 15,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 7.0
+        }
+      ],
+      "name": "Explosives_Tech",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "SpawnsPerZone": 15,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 7.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 7.0
+        }
+      ],
+      "name": "Syringes_disinfect_Tech",
+      "internalEnabled": true,
+      "persistentID": 23
     }
   ],
-  "LastPersistentID": 20
+  "LastPersistentID": 23
 }

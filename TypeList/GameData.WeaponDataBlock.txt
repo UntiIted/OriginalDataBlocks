@@ -1,5 +1,3 @@
-Single: DPS_LIGHT
-Single: DPS_MEDIUM
 String: muzzleFlashFPS
 String: muzzleFlash3RD
 String: muzzleFlashFPSSpecial

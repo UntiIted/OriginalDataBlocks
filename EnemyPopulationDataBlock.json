@@ -12,13 +12,6 @@
         },
         {
           "Role": "Melee",
-          "Difficulty": "Easy",
-          "Enemy": 28,
-          "Cost": 6.0,
-          "Weight": 0.08
-        },
-        {
-          "Role": "Melee",
           "Difficulty": "Medium",
           "Enemy": 24,
           "Cost": 1.0,
@@ -68,13 +61,6 @@
         },
         {
           "Role": "Ranged",
-          "Difficulty": "Easy",
-          "Enemy": 18,
-          "Cost": 4.0,
-          "Weight": 0.08
-        },
-        {
-          "Role": "Ranged",
           "Difficulty": "Medium",
           "Enemy": 26,
           "Cost": 1.0,
@@ -120,6 +106,13 @@
           "Difficulty": "Hard",
           "Enemy": 20,
           "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "MiniBoss",
+          "Enemy": 41,
+          "Cost": 4.0,
           "Weight": 1.0
         },
         {
@@ -274,6 +267,13 @@
           "Difficulty": "MegaBoss",
           "Enemy": 29,
           "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "BirtherChild",
+          "Difficulty": "Buss",
+          "Enemy": 38,
+          "Cost": 1.0,
           "Weight": 1.0
         }
       ],

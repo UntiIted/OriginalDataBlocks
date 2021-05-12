@@ -1,33 +1,10 @@
-DistributionAmountData: HSUsPerZone
-   Int32: Some
-   Int32: Many
-   Int32: Tons
-DistributionAmountData: DeconsPerZone
-   Int32: Some
-   Int32: Many
-   Int32: Tons
-DistributionAmountData: CorpsesPerZone
-   Int32: Some
-   Int32: Many
-   Int32: Tons
-DistributionAmountData: HibernationGroupsPerZone
-   Int32: Some
-   Int32: Many
-   Int32: Tons
-DistributionAmountData: PatrolsPerZone
-   Int32: Some
-   Int32: Many
-   Int32: Tons
-DistributionAmountData: StaticTrapsPerZone
-   Int32: Some
-   Int32: Many
-   Int32: Tons
 Single: HealthPerZone
 Single: DisinfectionPerZone
 Single: WeaponAmmoPerZone
 Single: ToolAmmoPerZone
 Single: CommodityValuePerZone
 Single: ChanceToPutCommodityInResourceContainer
+Single: ChanceToPutArtifactInResourceContainer
 Single: ChanceToSpawnCommodityLargePack
 Single: ChanceToSpawnCommodityMediumPack
 Single: ChanceToReUseResourceContainer
@@ -64,6 +41,7 @@ Single: EnemyPopulationPerZone
 Single: VoxelCoverageAreaMultiplier
 Single: VoxelCoverageAreaScoringRandomMultiplier
 Int32: ArtifactsPerSegment
+Int32: ArtifactsPerLayer
 Single: WeakDoor4x4Health
 Single: WeakDoor8x4Health
 Single: WeakDoorChanceLockWeightNoLock

@@ -1,0 +1,14 @@
+(enum) BoosterEffect: Effect
+String: PublicShortName
+String: PublicName
+String: Description
+String: DescriptionNegative
+(enum) BoosterEffectCategory: BoosterEffectCategory
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

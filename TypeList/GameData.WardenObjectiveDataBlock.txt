@@ -31,6 +31,14 @@ List<GenericEnemyWaveData>: WavesOnActivate
    Single: SpawnDelay
    Boolean: TriggerAlarm
    String: IntelMessage
+List<WardenObjectiveEventData>: EventsOnActivate
+   (enum) eWardenObjectiveEventTrigger: Trigger
+   (enum) eWardenObjectiveEventType: Type
+   (enum) LG_LayerType: Layer
+   (enum) eLocalZoneIndex: LocalIndex
+   Single: Delay
+   String: WardenIntel
+   UInt32: SoundID
 Boolean: StopAllWavesBeforeGotoWin
 List<GenericEnemyWaveData>: WavesOnGotoWin
    UInt32: WaveSettings
@@ -46,6 +54,7 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
    (enum) eLocalZoneIndex: LocalIndex
    Single: Delay
    String: WardenIntel
+   UInt32: SoundID
 UInt32: FogTransitionDataOnGotoWin
 Single: FogTransitionDurationOnGotoWin
 UInt32: ChainedPuzzleToActive
@@ -80,6 +89,7 @@ List<ReactorWaveData>: ReactorWaves
       (enum) eLocalZoneIndex: LocalIndex
       Single: Delay
       String: WardenIntel
+      UInt32: SoundID
 Boolean: LightsOnFromBeginning
 Boolean: LightsOnDuringIntro
 Boolean: LightsOnWhenStartupComplete
@@ -98,6 +108,7 @@ UInt32: ActivateHSU_ItemFromStart
 UInt32: ActivateHSU_ItemAfterActivation
 Boolean: ActivateHSU_StopEnemyWavesOnActivation
 Boolean: ActivateHSU_ObjectiveCompleteAfterInsertion
+Boolean: ActivateHSU_RequireItemAfterActivationInExitScan
 List<WardenObjectiveEventData>: ActivateHSU_Events
    (enum) eWardenObjectiveEventTrigger: Trigger
    (enum) eWardenObjectiveEventType: Type
@@ -105,6 +116,7 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
    (enum) eLocalZoneIndex: LocalIndex
    Single: Delay
    String: WardenIntel
+   UInt32: SoundID
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

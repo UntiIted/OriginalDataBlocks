@@ -99,8 +99,8 @@
         }
       ],
       "SightProperties": {
-        "GearFovZoom": 21,
-        "WorldFovZoom": 45
+        "GearFovZoom": 18,
+        "WorldFovZoom": 46
       },
       "name": "Sight_2",
       "internalEnabled": true,
@@ -226,7 +226,7 @@
       ],
       "SightProperties": {
         "GearFovZoom": 15,
-        "WorldFovZoom": 35
+        "WorldFovZoom": 40
       },
       "name": "Sight_10",
       "internalEnabled": true,
@@ -288,8 +288,8 @@
         }
       ],
       "SightProperties": {
-        "GearFovZoom": 25,
-        "WorldFovZoom": 45
+        "GearFovZoom": 20,
+        "WorldFovZoom": 41
       },
       "name": "Sight_7",
       "internalEnabled": true,
@@ -309,8 +309,8 @@
         }
       ],
       "SightProperties": {
-        "GearFovZoom": 28,
-        "WorldFovZoom": 30
+        "GearFovZoom": 20,
+        "WorldFovZoom": 41
       },
       "name": "Sight_17",
       "internalEnabled": true,
@@ -415,7 +415,7 @@
       ],
       "SightProperties": {
         "GearFovZoom": 16,
-        "WorldFovZoom": 40
+        "WorldFovZoom": 44
       },
       "name": "Sight_4",
       "internalEnabled": true,

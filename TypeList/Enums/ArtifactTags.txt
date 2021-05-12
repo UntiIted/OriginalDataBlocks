@@ -1,0 +1,12 @@
+None
+Corpse
+Ground
+Shelf
+DigSite
+Refinery
+Storage
+DataCenter
+Lab
+Floodways
+AllComplex
+Any

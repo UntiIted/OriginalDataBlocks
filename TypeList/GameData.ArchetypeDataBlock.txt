@@ -2,6 +2,7 @@ String: PublicName
 String: Description
 (enum) eWeaponFireMode: FireMode
 UInt32: RecoilDataID
+(enum) BoosterEffect: DamageBoosterEffect
 Single: Damage
 Vector2: DamageFalloff
 Single: StaggerDamageMulti
@@ -37,6 +38,17 @@ Single: Sentry_RotationSpeed
 Single: Sentry_DetectionMaxRange
 Single: Sentry_DetectionMaxAngle
 Boolean: Sentry_FireTowardsTargetInsteadOfForward
+Single: Sentry_LongRangeThreshold
+Single: Sentry_ShortRangeThreshold
+Boolean: Sentry_LegacyEnemyDetection
+Boolean: Sentry_FireTagOnly
+Boolean: Sentry_PrioTag
+Single: Sentry_StartFireDelayTagMulti
+Single: Sentry_RotationSpeedTagMulti
+Single: Sentry_DamageTagMulti
+Single: Sentry_StaggerDamageTagMulti
+Single: Sentry_CostOfBulletTagMulti
+Single: Sentry_ShotDelayTagMulti
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild
