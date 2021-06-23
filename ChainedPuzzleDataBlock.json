@@ -1431,7 +1431,7 @@
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 0,
       "SurvivalWavePopulation": 0,
-      "DisableSurvivalWaveOnComplete": true,
+      "DisableSurvivalWaveOnComplete": false,
       "UseRandomPositions": true,
       "WantedDistanceFromStartPos": 0.0,
       "WantedDistanceBetweenPuzzleComponents": 1.0,

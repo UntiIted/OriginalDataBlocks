@@ -38,6 +38,7 @@ List<LinkedSlaveModelData>: LinkedSlaveModels
    Vector2: SizeRange
 (enum) MaterialType: InternalMaterial
 Boolean: isCoccoon
+UInt32: EnemySpottedDialogId
 List<AbilityData>: AI_Abilities
    Boolean: Enabled
    String: AbilityPrefab

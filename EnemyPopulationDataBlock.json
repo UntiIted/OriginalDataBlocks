@@ -141,7 +141,7 @@
           "Difficulty": "Easy",
           "Enemy": 24,
           "Cost": 1.0,
-          "Weight": 0.15
+          "Weight": 0.1
         },
         {
           "Role": "PureSneak",

@@ -23,7 +23,7 @@
     {
       "AboveBlockID": 45,
       "LabelText": "Rundown 003",
-      "FoldoutStatus": true
+      "FoldoutStatus": false
     },
     {
       "AboveBlockID": 64,
@@ -38,11 +38,16 @@
     {
       "AboveBlockID": 102,
       "LabelText": "Rundown 4.5",
-      "FoldoutStatus": false
+      "FoldoutStatus": true
     },
     {
       "AboveBlockID": 116,
       "LabelText": "Rundown 5",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 143,
+      "LabelText": "Rundown 5.5",
       "FoldoutStatus": true
     }
   ],
@@ -54586,7 +54591,7 @@
               "DistributionValue": 1.0
             }
           ],
-          "EnemyRespawning": true,
+          "EnemyRespawning": false,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
           "EnemyRespawnTimeInterval": 30.0,
@@ -54919,8 +54924,8 @@
           "EnemyRespawning": true,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
-          "EnemyRespawnTimeInterval": 30.0,
-          "EnemyRespawnCountMultiplier": 0.8,
+          "EnemyRespawnTimeInterval": 60.0,
+          "EnemyRespawnCountMultiplier": 0.5,
           "HSUClustersInZone": 0,
           "CorpseClustersInZone": 0,
           "ResourceContainerClustersInZone": 0,
@@ -55124,11 +55129,11 @@
               "DistributionValue": 1.0
             }
           ],
-          "EnemyRespawning": true,
+          "EnemyRespawning": false,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
-          "EnemyRespawnTimeInterval": 30.0,
-          "EnemyRespawnCountMultiplier": 0.8,
+          "EnemyRespawnTimeInterval": 60.0,
+          "EnemyRespawnCountMultiplier": 0.5,
           "EnemyRespawnExcludeList": [
             20
           ],
@@ -55242,7 +55247,7 @@
             },
             {
               "GroupType": "PureDetect",
-              "Difficulty": "Hard",
+              "Difficulty": "Easy",
               "Distribution": "Force_One",
               "DistributionValue": 1.0
             }
@@ -55362,7 +55367,7 @@
             },
             {
               "GroupType": "PureDetect",
-              "Difficulty": "Hard",
+              "Difficulty": "Easy",
               "Distribution": "Force_One",
               "DistributionValue": 1.0
             }
@@ -55695,19 +55700,13 @@
               "Difficulty": "Easy",
               "Distribution": "Rel_Value",
               "DistributionValue": 0.75
-            },
-            {
-              "GroupType": "PureDetect",
-              "Difficulty": "Easy",
-              "Distribution": "Force_One",
-              "DistributionValue": 1.0
             }
           ],
           "EnemyRespawning": true,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
-          "EnemyRespawnTimeInterval": 30.0,
-          "EnemyRespawnCountMultiplier": 0.8,
+          "EnemyRespawnTimeInterval": 60.0,
+          "EnemyRespawnCountMultiplier": 0.5,
           "EnemyRespawnExcludeList": [
             20
           ],
@@ -56037,7 +56036,13 @@
               "GroupType": "Hibernate",
               "Difficulty": "Easy",
               "Distribution": "Rel_Value",
-              "DistributionValue": 0.2
+              "DistributionValue": 0.25
+            },
+            {
+              "GroupType": "PureDetect",
+              "Difficulty": "Easy",
+              "Distribution": "Force_One",
+              "DistributionValue": 1.0
             }
           ],
           "EnemyRespawning": false,
@@ -56207,7 +56212,7 @@
                   "FileContent": "Checksum verified. Any potential quality loss attributed to data decay.",
                   "AttachedAudioFile": 3295001657,
                   "AttachedAudioByteSize": 48155000,
-                  "PlayerDialogToTriggerAfterAudio": 0
+                  "PlayerDialogToTriggerAfterAudio": 221
                 },
                 {
                   "FileName": "679_UT-747.LOG",
@@ -56242,7 +56247,7 @@
                   "FileContent": "Severe checksum error: Audio content is irreversibly corrupted.",
                   "AttachedAudioFile": 3707315383,
                   "AttachedAudioByteSize": 16784000,
-                  "PlayerDialogToTriggerAfterAudio": 221
+                  "PlayerDialogToTriggerAfterAudio": 0
                 },
                 {
                   "FileName": "943_JD-279.LOG",
@@ -56477,8 +56482,8 @@
                 },
                 {
                   "FileName": "463_OR-172.LOG",
-                  "FileContent": "Checksum verified. Any potential quality loss attributed to data decay.",
-                  "AttachedAudioFile": 3707315381,
+                  "FileContent": "Severe checksum error: Audio content is irreversibly corrupted.",
+                  "AttachedAudioFile": 418804038,
                   "AttachedAudioByteSize": 18612000,
                   "PlayerDialogToTriggerAfterAudio": 0
                 },
@@ -56596,7 +56601,7 @@
                 },
                 {
                   "FileName": "435_IR-172.LOG",
-                  "FileContent": "Severe checksum error: Audio content is irreversibly corrupted.",
+                  "FileContent": "Checksum verified. Any potential quality loss attributed to data decay.",
                   "AttachedAudioFile": 418804038,
                   "AttachedAudioByteSize": 43893000,
                   "PlayerDialogToTriggerAfterAudio": 227
@@ -56652,6 +56657,7 @@
                 },
                 {
                   "FileName": "763_VG-145.LOG",
+                  "FileContent": "Severe checksum error: Audio content is irreversibly corrupted.",
                   "AttachedAudioFile": 3707315382,
                   "AttachedAudioByteSize": 11992000,
                   "PlayerDialogToTriggerAfterAudio": 0
@@ -58350,22 +58356,22 @@
           },
           "EnemySpawningInZone": [
             {
-              "GroupType": "Detect",
-              "Difficulty": "Medium",
-              "Distribution": "Rel_Value",
-              "DistributionValue": 1.2
-            },
-            {
-              "GroupType": "PureDetect",
+              "GroupType": "PureSneak",
               "Difficulty": "Easy",
-              "Distribution": "Force_One",
-              "DistributionValue": 1.0
+              "Distribution": "Rel_Value",
+              "DistributionValue": 0.5
             },
             {
               "GroupType": "Detect",
-              "Difficulty": "Hard",
+              "Difficulty": "Easy",
               "Distribution": "Rel_Value",
-              "DistributionValue": 0.4
+              "DistributionValue": 0.3
+            },
+            {
+              "GroupType": "PureSneak",
+              "Difficulty": "Easy",
+              "Distribution": "Rel_Value",
+              "DistributionValue": 0.5
             }
           ],
           "EnemyRespawning": false,
@@ -58595,22 +58601,22 @@
           },
           "EnemySpawningInZone": [
             {
-              "GroupType": "Detect",
+              "GroupType": "PureSneak",
               "Difficulty": "Easy",
               "Distribution": "Rel_Value",
-              "DistributionValue": 1.2
+              "DistributionValue": 0.5
             },
             {
               "GroupType": "Detect",
-              "Difficulty": "Hard",
+              "Difficulty": "Easy",
               "Distribution": "Rel_Value",
-              "DistributionValue": 0.4
+              "DistributionValue": 0.3
             },
             {
-              "GroupType": "PureDetect",
+              "GroupType": "PureSneak",
               "Difficulty": "Easy",
-              "Distribution": "Force_One",
-              "DistributionValue": 1.0
+              "Distribution": "Rel_Value",
+              "DistributionValue": 0.5
             }
           ],
           "EnemyRespawning": false,
@@ -61967,10 +61973,10 @@
               "DistributionValue": 1.0
             }
           ],
-          "EnemyRespawning": true,
+          "EnemyRespawning": false,
           "EnemyRespawnRequireOtherZone": true,
-          "EnemyRespawnRoomDistance": 2,
-          "EnemyRespawnTimeInterval": 30.0,
+          "EnemyRespawnRoomDistance": 3,
+          "EnemyRespawnTimeInterval": 60.0,
           "EnemyRespawnCountMultiplier": 0.8,
           "EnemyRespawnExcludeList": [
             20
@@ -62071,7 +62077,7 @@
           "SecurityGateToEnter": "Security",
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
-            "EnemyGroupInfrontOfDoor": 33,
+            "EnemyGroupInfrontOfDoor": 31,
             "EnemyGroupInArea": 32,
             "EnemyGroupsInArea": 1
           },
@@ -62182,7 +62188,7 @@
           "SecurityGateToEnter": "Security",
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
-            "EnemyGroupInfrontOfDoor": 33,
+            "EnemyGroupInfrontOfDoor": 31,
             "EnemyGroupInArea": 32,
             "EnemyGroupsInArea": 0
           },
@@ -62998,7 +63004,7 @@
               "DistributionValue": 1.0
             }
           ],
-          "EnemyRespawning": false,
+          "EnemyRespawning": true,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
           "EnemyRespawnTimeInterval": 10.0,
@@ -63205,7 +63211,7 @@
           "EnemySpawningInZone": [
             {
               "GroupType": "PureSneak",
-              "Difficulty": "Medium",
+              "Difficulty": "Easy",
               "Distribution": "Rel_Value",
               "DistributionValue": 1.0
             },
@@ -63232,7 +63238,7 @@
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
           "EnemyRespawnTimeInterval": 30.0,
-          "EnemyRespawnCountMultiplier": 0.8,
+          "EnemyRespawnCountMultiplier": 0.6,
           "EnemyRespawnExcludeList": [
             20
           ],
@@ -63661,7 +63667,7 @@
           "EnemySpawningInZone": [
             {
               "GroupType": "PureSneak",
-              "Difficulty": "Medium",
+              "Difficulty": "Easy",
               "Distribution": "Rel_Value",
               "DistributionValue": 1.0
             },
@@ -63694,7 +63700,7 @@
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
           "EnemyRespawnTimeInterval": 30.0,
-          "EnemyRespawnCountMultiplier": 0.8,
+          "EnemyRespawnCountMultiplier": 0.6,
           "EnemyRespawnExcludeList": [
             20
           ],
@@ -64445,7 +64451,7 @@
               "DistributionValue": 1.0
             }
           ],
-          "EnemyRespawning": true,
+          "EnemyRespawning": false,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
           "EnemyRespawnTimeInterval": 10.0,
@@ -68710,19 +68716,13 @@
               "GroupType": "Hibernate",
               "Difficulty": "Biss",
               "Distribution": "Rel_Value",
-              "DistributionValue": 0.6
+              "DistributionValue": 0.9
             },
             {
               "GroupType": "Hibernate",
               "Difficulty": "Buss",
               "Distribution": "Rel_Value",
-              "DistributionValue": 2.5
-            },
-            {
-              "GroupType": "PureDetect",
-              "Difficulty": "Boss",
-              "Distribution": "Rel_Value",
-              "DistributionValue": 0.26
+              "DistributionValue": 3.0
             }
           ],
           "EnemyRespawning": true,
@@ -68730,6 +68730,9 @@
           "EnemyRespawnRoomDistance": 2,
           "EnemyRespawnTimeInterval": 10.0,
           "EnemyRespawnCountMultiplier": 1.0,
+          "EnemyRespawnExcludeList": [
+            40
+          ],
           "HSUClustersInZone": 0,
           "CorpseClustersInZone": 0,
           "ResourceContainerClustersInZone": 0,
@@ -68844,6 +68847,12 @@
               "Difficulty": "Easy",
               "Distribution": "Rel_Value",
               "DistributionValue": 0.5
+            },
+            {
+              "GroupType": "PureDetect",
+              "Difficulty": "MiniBoss",
+              "Distribution": "Force_One",
+              "DistributionValue": 1.0
             }
           ],
           "EnemyRespawning": false,
@@ -69213,7 +69222,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 0,
+          "ChainedPuzzleToEnter": 4,
           "SecurityGateToEnter": "Security",
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -88063,5 +88072,5 @@
       "persistentID": 101
     }
   ],
-  "LastPersistentID": 142
+  "LastPersistentID": 153
 }

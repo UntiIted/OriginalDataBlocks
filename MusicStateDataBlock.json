@@ -571,12 +571,12 @@
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "scout_enemy_dead",
+          "GameEvent": "scout_enemy_found_player",
           "SoundEvent": "exploration_eerie_roll",
           "Cooldown": 0.0
         },
         {
-          "GameEvent": "scout_enemy_use_detect_ability",
+          "GameEvent": "scout_enemy_spotted",
           "SoundEvent": "stinger_low_boom",
           "Cooldown": 0.0
         },

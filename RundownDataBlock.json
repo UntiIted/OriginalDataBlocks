@@ -1340,7 +1340,7 @@
           },
           "LevelLayoutData": 125,
           "MainLayerData": {
-            "ZoneAliasStart": 0,
+            "ZoneAliasStart": 110,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [],
@@ -1399,7 +1399,7 @@
             "Zone": "Zone_5"
           },
           "SecondaryLayerData": {
-            "ZoneAliasStart": 110,
+            "ZoneAliasStart": 433,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [
@@ -1674,7 +1674,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 92,
+              "DataBlockId": 95,
               "WinCondition": "GoToExitGeo",
               "ZonePlacementDatas": [
                 [

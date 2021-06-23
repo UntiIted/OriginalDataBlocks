@@ -325,7 +325,7 @@
           "Layer": "MainLayer",
           "LocalIndex": "Zone_7",
           "Delay": 10.0,
-          "WardenIntel": "LOCKDOWN DISENGAGED - Security door to [ZONE 7] unlocked.",
+          "WardenIntel": "LOCKDOWN DISENGAGED - Security door to [ZONE 99] unlocked.",
           "SoundID": 0
         }
       ],
@@ -4662,7 +4662,7 @@
       "Gather_RequiredCount": 6,
       "Gather_ItemId": 153,
       "Gather_SpawnCount": 7,
-      "Gather_MaxPerZone": 3,
+      "Gather_MaxPerZone": 4,
       "Retrieve_Items": [],
       "ReactorWaves": [],
       "LightsOnFromBeginning": false,
@@ -5967,33 +5967,208 @@
       "FogTransitionDurationOnElevatorLand": 0.0,
       "WavesOnActivate": [
         {
-          "WaveSettings": 49,
+          "WaveSettings": 53,
           "WavePopulation": 13,
           "SpawnDelay": 0.0,
           "TriggerAlarm": true
         },
         {
-          "WaveSettings": 51,
-          "WavePopulation": 17,
-          "SpawnDelay": 30.0,
-          "TriggerAlarm": false
-        },
-        {
-          "WaveSettings": 51,
+          "WaveSettings": 54,
           "WavePopulation": 8,
           "SpawnDelay": 10.0,
           "TriggerAlarm": false
         },
         {
-          "WaveSettings": 52,
-          "WavePopulation": 1,
-          "SpawnDelay": 0.0,
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 20.0,
           "TriggerAlarm": false
         },
         {
-          "WaveSettings": 50,
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 30.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 40.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 50.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 60.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 70.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 80.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 90.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 100.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 100.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 110.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 56,
           "WavePopulation": 16,
-          "SpawnDelay": 0.0,
+          "SpawnDelay": 120.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 140.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 140.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 150.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 150.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 160.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 170.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 180.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 180.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 190.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 190.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 220.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 230.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 8,
+          "SpawnDelay": 240.0,
+          "TriggerAlarm": false,
+          "IntelMessage": ""
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 1,
+          "SpawnDelay": 250.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 250.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 260.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 260.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 53,
+          "WavePopulation": 13,
+          "SpawnDelay": 270.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 12,
+          "SpawnDelay": 280.0,
+          "TriggerAlarm": false
+        },
+        {
+          "WaveSettings": 54,
+          "WavePopulation": 17,
+          "SpawnDelay": 280.0,
           "TriggerAlarm": false
         }
       ],
@@ -6021,7 +6196,7 @@
           "LocalIndex": "Zone_3",
           "Delay": 0.0,
           "WardenIntel": "SECURITY DOORS OPENING --- WARNING: BIOMASS DETECTED!",
-          "SoundID": 0
+          "SoundID": 3979151246
         }
       ],
       "StopAllWavesBeforeGotoWin": true,
@@ -6058,9 +6233,9 @@
       "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "ActivateHSU_Events": [],
-      "name": "SpecialTerminalCommand_ZoneScan_OLD",
+      "name": "SpecialTerminalCommand_ZoneScan_V2",
       "internalEnabled": true,
-      "persistentID": 94
+      "persistentID": 95
     },
     {
       "Type": "SpecialTerminalCommand",
@@ -7271,11 +7446,11 @@
       "MainObjective": "Find [ALL_ITEMS] and bring it to the extraction scan in [EXTRACTION_ZONE]",
       "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
       "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
-      "GoToZone": "Navigate to [ALL_ITEM_ZONE] and find [ALL_ITEMS]",
-      "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
-      "InZoneFindItem": "Find [ALL_ITEMS] somewhere inside [ITEM_ZONE]",
+      "GoToZone": "Navigate to <color=orange>ZONE 20</color> and find [ALL_ITEMS]",
+      "GoToZoneHelp": "Use information in the environment to find <color=orange>ZONE 20</color> ",
+      "InZoneFindItem": "Find [ALL_ITEMS] somewhere inside <color=orange>ZONE 20</color>",
       "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ALL_ITEMS]",
-      "SolveItem": "",
+      "SolveItem": "WARNING - Hisec Cargo misplaced - ENGAGING SECURITY PROTOCOLS",
       "SolveItemHelp": "",
       "GoToWinCondition_Elevator": "Return the <b>hisec crate</b> to the extraction point in [EXTRACTION_ZONE]",
       "GoToWinConditionHelp_Elevator": "",
@@ -7295,8 +7470,9 @@
         {
           "WaveSettings": 11,
           "WavePopulation": 18,
-          "SpawnDelay": 10.0,
-          "TriggerAlarm": true
+          "SpawnDelay": 7.0,
+          "TriggerAlarm": true,
+          "IntelMessage": "WARNING - Hisec Cargo misplaced - ENGAGING SECURITY PROTOCOLS"
         }
       ],
       "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
@@ -7306,8 +7482,8 @@
           "Type": "UnlockSecurityDoor",
           "Layer": "ThirdLayer",
           "LocalIndex": "Zone_0",
-          "Delay": 10.0,
-          "WardenIntel": "LOCKDOWN DISENGAGED - Bulkhead door to [ZONE 302] unlocked.",
+          "Delay": 15.0,
+          "WardenIntel": "LOCKDOWN DISENGAGED - Bulkhead door to <color=orange>[ZONE 302]</color> unlocked.",
           "SoundID": 0
         }
       ],
@@ -8871,7 +9047,7 @@
         {
           "WaveSettings": 15,
           "WavePopulation": 14,
-          "SpawnDelay": 1.0,
+          "SpawnDelay": 87.0,
           "TriggerAlarm": true
         }
       ],
@@ -8889,7 +9065,7 @@
       ],
       "FogTransitionDataOnGotoWin": 0,
       "FogTransitionDurationOnGotoWin": 0.0,
-      "ChainedPuzzleToActive": 82,
+      "ChainedPuzzleToActive": 4,
       "ChainedPuzzleMidObjective": 0,
       "ChainedPuzzleAtExit": 11,
       "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
@@ -9388,5 +9564,5 @@
       "persistentID": 85
     }
   ],
-  "LastPersistentID": 94
+  "LastPersistentID": 95
 }

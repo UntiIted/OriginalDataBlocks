@@ -39,6 +39,7 @@ hibernating_enemy_spotted
 hibernating_enemy_heartbeat
 hibernating_enemy_wakeup
 hibernating_enemy_dead
+enemy_spotted
 scout_enemy_spotted
 scout_enemy_use_detect_ability
 scout_enemy_found_player
@@ -78,6 +79,7 @@ gs_AfterLevel
 gs_CaptureRecall
 gs_ExpeditionFail
 gs_ExpeditionSuccess
+gs_ExpeditionAbort
 game_quit
 term_Help
 term_Commands

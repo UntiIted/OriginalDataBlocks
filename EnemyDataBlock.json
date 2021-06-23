@@ -88,6 +88,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -167,6 +168,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -246,6 +248,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -325,6 +328,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -404,6 +408,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -489,6 +494,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -574,6 +580,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -659,6 +666,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -744,6 +752,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -829,6 +838,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -908,6 +918,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -987,6 +998,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1072,6 +1084,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1157,6 +1170,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1242,6 +1256,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1333,6 +1348,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1418,6 +1434,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1503,6 +1520,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1588,6 +1606,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 51,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1673,6 +1692,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 51,
       "AI_Abilities": [
         {
           "Enabled": false,
@@ -1764,6 +1784,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 51,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1849,6 +1870,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": true,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [],
       "name": "Cocoon",
       "internalEnabled": true,
@@ -1915,6 +1937,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -1994,6 +2017,7 @@
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,
@@ -2079,6 +2103,7 @@
       ],
       "InternalMaterial": 131072,
       "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
       "AI_Abilities": [
         {
           "Enabled": true,

@@ -3342,7 +3342,7 @@
         "AssetBundleName": "Complex_Tech",
         "Group": 9,
         "FunctionPotential": 1.0,
-        "RotationSnap": 90,
+        "RotationSnap": 0,
         "RotationNoise": 0.0,
         "EditorMesh": "Markerproducers/Tech/DataCenter_submarker_120x120x280",
         "BoundingVolume": 4032.0
@@ -5459,7 +5459,7 @@
         "AssetBundleName": "Complex_Tech",
         "Group": 11,
         "FunctionPotential": 1.0,
-        "RotationSnap": 90,
+        "RotationSnap": 0,
         "RotationNoise": 0.0,
         "EditorMesh": "Markerproducers/Tech/DataCenter_submarker_120x120x280",
         "BoundingVolume": 4032.0
