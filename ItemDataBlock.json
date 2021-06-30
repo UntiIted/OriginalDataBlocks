@@ -193,6 +193,51 @@
       "persistentID": 110
     },
     {
+      "publicName": "Gear shotgun",
+      "terminalItemShortName": "",
+      "terminalItemLongName": "",
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "Shard": "S18",
+      "inventorySlot": "GearStandard",
+      "FPSSettings": 0,
+      "crosshair": "Neutral",
+      "HUDIcon": "GUI/Player/silouette_köning",
+      "ShowCrosshairWhenAiming": false,
+      "GUIShowAmmoClip": true,
+      "GUIShowAmmoPack": true,
+      "GUIShowAmmoTotalRel": true,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": true,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/Weapons/GearSetup/ShotgunWeaponFirstPerson.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/Weapons/GearSetup/ShotgunWeaponThirdPerson.prefab"
+      ],
+      "PickupPrefabs": [],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 1.0,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "",
+      "LeftHandGripAnim": "",
+      "RightHandGripAlign": "",
+      "RightHandGripAnim": "",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "GEAR_ShotgunWeapon_Standard",
+      "internalEnabled": true,
+      "persistentID": 156
+    },
+    {
       "publicName": "Mapper",
       "terminalItemShortName": "",
       "terminalItemLongName": "",
@@ -3048,5 +3093,5 @@
       "persistentID": 155
     }
   ],
-  "LastPersistentID": 155
+  "LastPersistentID": 156
 }

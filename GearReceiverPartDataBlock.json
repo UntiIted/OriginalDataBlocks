@@ -15,6 +15,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_MachineGun_1",
       "internalEnabled": true,
       "persistentID": 1
@@ -33,6 +34,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_MachineGun_3",
       "internalEnabled": true,
       "persistentID": 3
@@ -51,6 +53,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_SMG_3",
       "internalEnabled": true,
       "persistentID": 2
@@ -68,6 +71,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_MotionTracker_1",
       "internalEnabled": true,
       "persistentID": 4
@@ -85,6 +89,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Mapper_1",
       "internalEnabled": true,
       "persistentID": 5
@@ -102,6 +107,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_SMG_2",
       "internalEnabled": true,
       "persistentID": 6
@@ -119,6 +125,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_SMG_4",
       "internalEnabled": true,
       "persistentID": 7
@@ -136,6 +143,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Rifle_1",
       "internalEnabled": true,
       "persistentID": 8
@@ -153,6 +161,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Rifle_2",
       "internalEnabled": true,
       "persistentID": 9
@@ -170,6 +179,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Machinegun_2",
       "internalEnabled": true,
       "persistentID": 10
@@ -187,6 +197,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Machinegun_1",
       "internalEnabled": true,
       "persistentID": 11
@@ -204,6 +215,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_SMG_1",
       "internalEnabled": true,
       "persistentID": 12
@@ -221,6 +233,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Rifle_3",
       "internalEnabled": true,
       "persistentID": 13
@@ -238,30 +251,59 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Machinegun_3",
       "internalEnabled": true,
       "persistentID": 14
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Short_Shotgun_1.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Short_Shotgun_2.prefab",
         "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
         "AssetBundle": "Gear_Weapon_Receiver",
         "BundleShard": "S4"
       },
       "Aligns": [
         {
-          "AlignType": "Sight",
-          "AlignName": "Receiver_Sight"
+          "AlignType": "Flashlight",
+          "AlignName": "Receiver_Flash"
         },
         {
-          "AlignType": "Flashlight",
-          "AlignName": "Front_Flash"
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Short_Shotgun_1",
       "internalEnabled": true,
       "persistentID": 15
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Short_Shotgun_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "AssetBundle": "Gear_Weapon_Receiver",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Receiver_Flash"
+        },
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_Short_Shotgun_2",
+      "internalEnabled": true,
+      "persistentID": 22
     },
     {
       "General": {
@@ -284,6 +326,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Revolver_1",
       "internalEnabled": true,
       "persistentID": 16
@@ -309,6 +352,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Revolver_2",
       "internalEnabled": true,
       "persistentID": 17
@@ -326,6 +370,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_UZI_1",
       "internalEnabled": true,
       "persistentID": 18
@@ -343,6 +388,7 @@
           "AlignName": "Receiver_Sight"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_UZI_2",
       "internalEnabled": true,
       "persistentID": 19
@@ -368,6 +414,7 @@
           "AlignName": "LeftHand"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Bullpop_1",
       "internalEnabled": true,
       "persistentID": 20
@@ -389,10 +436,11 @@
           "AlignName": "Front_Flash"
         }
       ],
+      "FireSequence": [],
       "name": "Receiver_Pistol_1",
       "internalEnabled": true,
       "persistentID": 21
     }
   ],
-  "LastPersistentID": 21
+  "LastPersistentID": 22
 }

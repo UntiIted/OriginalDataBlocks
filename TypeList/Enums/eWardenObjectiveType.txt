@@ -9,3 +9,6 @@ PowerCellDistribution
 TerminalUplink
 CentralGeneratorCluster
 ActivateSmallHSU
+Survival
+GatherTerminal
+CorruptedTerminalUplink

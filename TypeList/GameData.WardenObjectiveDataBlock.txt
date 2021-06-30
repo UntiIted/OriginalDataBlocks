@@ -1,6 +1,7 @@
 (enum) eWardenObjectiveType: Type
 String: Header
 String: MainObjective
+(enum) eWardenObjectiveSpecialUpdateType: WardenObjectiveSpecialUpdateType
 String: FindLocationInfo
 String: FindLocationInfoHelp
 String: GoToZone
@@ -39,6 +40,8 @@ List<WardenObjectiveEventData>: EventsOnActivate
    Single: Delay
    String: WardenIntel
    UInt32: SoundID
+   UInt32: FogSetting
+   Single: FogTransitionDuration
 Boolean: StopAllWavesBeforeGotoWin
 List<GenericEnemyWaveData>: WavesOnGotoWin
    UInt32: WaveSettings
@@ -55,6 +58,8 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
    Single: Delay
    String: WardenIntel
    UInt32: SoundID
+   UInt32: FogSetting
+   Single: FogTransitionDuration
 UInt32: FogTransitionDataOnGotoWin
 Single: FogTransitionDurationOnGotoWin
 UInt32: ChainedPuzzleToActive
@@ -90,15 +95,19 @@ List<ReactorWaveData>: ReactorWaves
       Single: Delay
       String: WardenIntel
       UInt32: SoundID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
 Boolean: LightsOnFromBeginning
 Boolean: LightsOnDuringIntro
 Boolean: LightsOnWhenStartupComplete
 String: SpecialTerminalCommand
 String: SpecialTerminalCommandDesc
 List<String>: PostCommandOutput
+(enum) TERM_CommandRule: SpecialCommandRule
 Int32: PowerCellsToDistribute
 Int32: Uplink_NumberOfVerificationRounds
 Int32: Uplink_NumberOfTerminals
+(enum) SurvivalWaveSpawnType: Uplink_WaveSpawnType
 Int32: CentralPowerGenClustser_NumberOfGenerators
 Int32: CentralPowerGenClustser_NumberOfPowerCells
 List<GeneralFogDataStep>: CentralPowerGenClustser_FogDataSteps
@@ -117,6 +126,19 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
    Single: Delay
    String: WardenIntel
    UInt32: SoundID
+   UInt32: FogSetting
+   Single: FogTransitionDuration
+Single: Survival_TimeToActivate
+Single: Survival_TimeToSurvive
+String: Survival_TimerTitle
+String: Survival_TimerToActivateTitle
+Int32: GatherTerminal_SpawnCount
+Int32: GatherTerminal_RequiredCount
+String: GatherTerminal_Command
+String: GatherTerminal_CommandHelp
+String: GatherTerminal_DownloadingText
+String: GatherTerminal_DownloadCompleteText
+Single: GatherTerminal_DownloadTime
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

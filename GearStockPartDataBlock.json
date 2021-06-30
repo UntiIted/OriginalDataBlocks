@@ -343,13 +343,13 @@
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Short_Shotgun_1.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Short_Shotgun_2.prefab",
         "Children": [
           "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Revolver_1_GripAlign.prefab"
         ],
         "GearCategoryFilter": 0,
-        "LeftHandGripAnim": "Stock_Revolver_1",
-        "RightHandGripAnim": "Stock_Revolver_1",
+        "LeftHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
         "AssetBundle": "Gear_Weapon_Stock",
         "BundleShard": "S5"
       },
@@ -368,6 +368,32 @@
       "name": "Stock_Short_Shotgun_1",
       "internalEnabled": true,
       "persistentID": 16
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Short_Shotgun_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S6"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_Short_Shotgun_2",
+      "internalEnabled": true,
+      "persistentID": 21
     },
     {
       "General": {
@@ -633,5 +659,5 @@
       "persistentID": 20
     }
   ],
-  "LastPersistentID": 20
+  "LastPersistentID": 21
 }

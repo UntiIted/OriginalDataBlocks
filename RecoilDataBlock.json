@@ -1753,27 +1753,27 @@
     },
     {
       "power": {
-        "Min": 10.0,
-        "Max": 12.0
+        "Min": 13.0,
+        "Max": 14.0
       },
-      "spring": 1.6,
+      "spring": 2.5,
       "dampening": 20.0,
-      "hipFireCrosshairSizeDefault": 300.0,
+      "hipFireCrosshairSizeDefault": 145.0,
       "hipFireCrosshairRecoilPop": 50.0,
       "hipFireCrosshairSizeMax": 350.0,
       "horizontalScale": {
-        "Min": 0.3,
-        "Max": 0.2
+        "Min": -0.3,
+        "Max": 0.0
       },
       "verticalScale": {
         "Min": 0.8,
         "Max": 1.0
       },
       "directionalSimilarity": 0.0,
-      "worldToViewSpaceBlendHorizontal": 0.6,
-      "worldToViewSpaceBlendVertical": 0.6,
+      "worldToViewSpaceBlendHorizontal": 0.5,
+      "worldToViewSpaceBlendVertical": 0.7,
       "recoilPosImpulse": {
-        "x": 0.0,
+        "x": 2.0,
         "y": -0.7,
         "z": -2.5
       },
@@ -1783,18 +1783,18 @@
         "z": -0.4
       },
       "recoilPosShiftWeight": 0.15,
-      "recoilPosStiffness": 85.0,
-      "recoilPosDamping": 10.0,
+      "recoilPosStiffness": 150.0,
+      "recoilPosDamping": 20.0,
       "recoilPosImpulseWeight": 1.25,
       "recoilCameraPosWeight": 1.0,
-      "recoilAimingWeight": 0.2,
+      "recoilAimingWeight": 0.75,
       "recoilRotImpulse": {
-        "x": 1.2,
+        "x": 1.5,
         "y": 1.0,
         "z": 1.0
       },
-      "recoilRotStiffness": 185.0,
-      "recoilRotDamping": 13.0,
+      "recoilRotStiffness": 200.0,
+      "recoilRotDamping": 16.0,
       "recoilRotImpulseWeight": 400.0,
       "recoilCameraRotWeight": 2.0,
       "name": "SawedOffShotgunSemi",

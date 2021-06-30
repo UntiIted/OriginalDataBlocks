@@ -41,6 +41,13 @@ List<ExpeditionZoneData>: Zones
             Single: End
    UInt32: ChainedPuzzleToEnter
    (enum) eSecurityGateType: SecurityGateToEnter
+   Boolean: UseStaticBioscanPointsInZone
+   Boolean: TurnOffAlarmOnTerminal
+   TerminalZoneSelectionData: TerminalPuzzleZone
+      (enum) eLocalZoneIndex: LocalIndex
+      (enum) eSeedType: SeedType
+      Int32: TerminalIndex
+      Int32: StaticSeed
    ActiveEnemyWaveData: ActiveEnemyWave
       Boolean: HasActiveEnemyWave
       UInt32: EnemyGroupInfrontOfDoor
@@ -88,6 +95,14 @@ List<ExpeditionZoneData>: Zones
          (enum) TERM_State: StartingState
          UInt32: AudioEventEnter
          UInt32: AudioEventExit
+         Boolean: PasswordProtected
+         String: Password
+         String: PasswordHintText
+         Boolean: GeneratePassword
+         Int32: PasswordPartCount
+         Boolean: ShowPasswordLength
+         Boolean: ShowPasswordPartPositions
+         List<List`1>: TerminalZoneSelectionDatas
    Boolean: ForbidTerminalsInZone
    List<FunctionPlacementData>: PowerGeneratorPlacements
       ZonePlacementWeights: PlacementWeights

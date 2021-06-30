@@ -1470,10 +1470,11 @@
     },
     {
       "eventOnSemiFire2D": [
-        "ShotgunBodyC",
-        "ShotgunMechC",
-        "ShotgunNoiseC",
-        "ShotgunReverb"
+        "ShotgunBodyB",
+        "ShotgunMechB",
+        "ShotgunNoiseB",
+        "ShotgunReverb",
+        "shotgun_kick_a_2D"
       ],
       "eventOnBurstFire2D": [
         "ShotgunBodyC",

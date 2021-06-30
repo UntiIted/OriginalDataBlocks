@@ -12,14 +12,44 @@
       "persistentID": 1
     },
     {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 30,
+      "WaveRoleBoss": 18,
+      "name": "Baseline_minibossbull",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
       "WaveRoleWeakling": 16,
-      "WaveRoleStandard": 33,
-      "WaveRoleSpecial": 39,
-      "WaveRoleMiniBoss": 29,
-      "WaveRoleBoss": 36,
+      "WaveRoleStandard": 16,
+      "WaveRoleSpecial": 33,
+      "WaveRoleMiniBoss": 18,
+      "WaveRoleBoss": 29,
       "name": "BigsAndBosses",
       "internalEnabled": true,
       "persistentID": 20
+    },
+    {
+      "WaveRoleWeakling": 16,
+      "WaveRoleStandard": 16,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 18,
+      "WaveRoleBoss": 29,
+      "name": "BigsAndBosses_normalshooters",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "WaveRoleWeakling": 16,
+      "WaveRoleStandard": 16,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 29,
+      "name": "BigsAndBosses_rapids",
+      "internalEnabled": true,
+      "persistentID": 25
     },
     {
       "WaveRoleWeakling": 29,
@@ -72,6 +102,16 @@
       "persistentID": 19
     },
     {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 30,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 39,
+      "name": "Baseline_Bullrush_mix_V3",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
       "WaveRoleWeakling": 39,
       "WaveRoleStandard": 39,
       "WaveRoleSpecial": 39,
@@ -120,6 +160,16 @@
       "name": "Modified_rapid_shooter",
       "internalEnabled": true,
       "persistentID": 9
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 39,
+      "name": "Modified_striker_big",
+      "internalEnabled": true,
+      "persistentID": 21
     },
     {
       "WaveRoleWeakling": 21,
@@ -192,5 +242,5 @@
       "persistentID": 18
     }
   ],
-  "LastPersistentID": 20
+  "LastPersistentID": 25
 }

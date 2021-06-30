@@ -4,3 +4,4 @@ UnlockSecurityDoor
 AllLightsOff
 AllLightsOn
 PlaySound
+SetFogSetting

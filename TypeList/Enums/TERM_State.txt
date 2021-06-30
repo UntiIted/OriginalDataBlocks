@@ -10,3 +10,5 @@ AskToPlayLogAudio
 DoPlayAudioFile
 AudioLoopError
 Ping
+PasswordProtected
+EnterPassword

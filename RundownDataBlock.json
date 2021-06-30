@@ -42,14 +42,14 @@
         "AllClearedSectors": 0
       },
       "ReqToReachTierE": {
-        "MainSectors": 0,
-        "SecondarySectors": 0,
-        "ThirdSectors": 0,
-        "AllClearedSectors": 0
+        "MainSectors": 11,
+        "SecondarySectors": 9,
+        "ThirdSectors": 4,
+        "AllClearedSectors": 1
       },
       "StorytellingData": {
-        "Title": "Rundown 005",
-        "TextLog": "test",
+        "Title": "RUNDOWN PROTOCOL #005 TITLE:REBIRTH<color=orange><size=80%>://EXTENDED</size></color>",
+        "TextLog": "The Fifth Early Access rundown",
         "TextLogPos": {
           "x": 0.0,
           "y": 0.0
@@ -68,7 +68,7 @@
               "g": 0.858823538,
               "b": 0.684125662
             },
-            "Scale": 0.5
+            "Scale": 0.6
           },
           "TierBVisuals": {
             "Color": {
@@ -95,7 +95,7 @@
               "g": 0.858823538,
               "b": 0.4509804
             },
-            "Scale": 0.1
+            "Scale": 0.4
           },
           "TierEVisuals": {
             "Color": {
@@ -104,7 +104,7 @@
               "g": 0.85708046,
               "b": 0.4509804
             },
-            "Scale": 0.5
+            "Scale": 0.1
           }
         },
         "SurfaceIconPosition": {
@@ -443,6 +443,193 @@
             },
             "ArtifactData": {
               "ArtifactAmountMulti": 0.2,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
+        },
+        {
+          "Enabled": true,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "A",
+            "PublicName": "Mining",
+            "IsExtraExpedition": true,
+            "ExpeditionDepth": 761,
+            "EstimatedDuration": "Unknown",
+            "ExpeditionDescription": "Prisoners sent to extract vital datacores from terminals in digsite.\nUnknown ceiling dwelling biomass present. Prisoners failing to exercise caution will not be considered a loss.\nAir filtration system unstable. ",
+            "RoleplayedWardenIntel": ">...Good news: The only thing between us and our way forward is that door.\n>...And the bad news?\n>...It's protected by a multilevel security system.\n<size=200%><color=red>>...Less talk, more digging...</color></size>\n"
+          },
+          "Seeds": {
+            "BuildSeed": 132,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 5431
+          },
+          "Expedition": {
+            "ComplexResourceData": 1,
+            "LightSettings": 61,
+            "FogSettings": 80,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 143,
+          "MainLayerData": {
+            "ZoneAliasStart": 38,
+            "ZonesWithBulkheadEntrance": [
+              "Zone_5"
+            ],
+            "BulkheadDoorControllerPlacements": [
+              {
+                "ZoneIndex": "Zone_3",
+                "PlacementWeights": {
+                  "Start": 0.0,
+                  "Middle": 0.0,
+                  "End": 0.0
+                },
+                "AreaSeedOffset": 0,
+                "MarkerSeedOffset": 0
+              },
+              {
+                "ZoneIndex": "Zone_1",
+                "PlacementWeights": {
+                  "Start": 0.0,
+                  "Middle": 0.0,
+                  "End": 0.0
+                },
+                "AreaSeedOffset": 0,
+                "MarkerSeedOffset": 0
+              }
+            ],
+            "BulkheadKeyPlacements": [
+              [
+                {
+                  "LocalIndex": "Zone_2",
+                  "Weights": {
+                    "Start": 0.0,
+                    "Middle": 0.0,
+                    "End": 0.0
+                  }
+                }
+              ]
+            ],
+            "ObjectiveData": {
+              "DataBlockId": 99,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_1",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": true,
+          "SecondaryLayout": 144,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_3"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 122,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [
+              [
+                {
+                  "LocalIndex": "Zone_2",
+                  "Weights": {
+                    "Start": 0.0,
+                    "Middle": 0.0,
+                    "End": 0.0
+                  }
+                }
+              ]
+            ],
+            "ObjectiveData": {
+              "DataBlockId": 97,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_2",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": true,
+          "ThirdLayout": 145,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_1"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 231,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [
+              [
+                {
+                  "LocalIndex": "Zone_2",
+                  "Weights": {
+                    "Start": 0.0,
+                    "Middle": 0.0,
+                    "End": 0.0
+                  }
+                }
+              ]
+            ],
+            "ObjectiveData": {
+              "DataBlockId": 96,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_4",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
               "ArtifactLayerDistributionDataID": 0,
               "ArtifactZoneDistributions": []
             }
@@ -1302,6 +1489,104 @@
           "SpecialOverrideData": {
             "WeakResourceContainerWithPackChanceForLocked": -1.0
           }
+        },
+        {
+          "Enabled": true,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "B",
+            "PublicName": "Diversion ",
+            "IsExtraExpedition": true,
+            "ExpeditionDepth": 798,
+            "EstimatedDuration": "Unknown",
+            "ExpeditionDescription": "Prisoners expended for diversion to clear adjacent sectors.\nLocal power grid unstable.\nDiversion party survival probability: Low.",
+            "RoleplayedWardenIntel": "\">...I'm almost out... and they won't stop coming!\n<size=200%><color=red>>...The door is finally unlocked!</color></size>\n>...[coughing] Stock up and keep moving!"
+          },
+          "Seeds": {
+            "BuildSeed": 0,
+            "FunctionMarkerOffset": 513,
+            "StandardMarkerOffset": 613,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 38,
+            "LightSettings": 65,
+            "FogSettings": 84,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 146,
+          "MainLayerData": {
+            "ZoneAliasStart": 178,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 98,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
         }
       ],
       "TierC": [
@@ -1698,6 +1983,134 @@
           "SpecialOverrideData": {
             "WeakResourceContainerWithPackChanceForLocked": -1.0
           }
+        },
+        {
+          "Enabled": true,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "C",
+            "PublicName": "Starvation",
+            "IsExtraExpedition": true,
+            "ExpeditionDepth": 1109,
+            "EstimatedDuration": "Unknown",
+            "ExpeditionDescription": "Local network disconnected due to powergrid instabilities. Prisoners sent to reestablish terminal uplink.",
+            "RoleplayedWardenIntel": ">...I got no ammo.\n>...Me neither.\n<size=200%><color=red>>...We gotta rely on our tools,</color></size> it's our only chance!\""
+          },
+          "Seeds": {
+            "BuildSeed": 765,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 654
+          },
+          "Expedition": {
+            "ComplexResourceData": 3,
+            "LightSettings": 56,
+            "FogSettings": 60,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 149,
+          "MainLayerData": {
+            "ZoneAliasStart": 371,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 102,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_6",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  },
+                  {
+                    "LocalIndex": "Zone_6",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 1,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": true,
+          "SecondaryLayout": 150,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_4"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 415,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 105,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_4",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 0.8,
+              "ArtifactLayerDistributionDataID": 1,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
         }
       ],
       "TierD": [
@@ -1831,9 +2244,231 @@
           "SpecialOverrideData": {
             "WeakResourceContainerWithPackChanceForLocked": -1.0
           }
+        },
+        {
+          "Enabled": true,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "D",
+            "PublicName": "Error",
+            "IsExtraExpedition": true,
+            "ExpeditionDepth": 1051,
+            "EstimatedDuration": "Unknown",
+            "ExpeditionDescription": "Warden objective: Additional power needed for Influx Protocol.\nPrisoners sent to <size=200%><color=red>:: ERR ###</color></size>",
+            "RoleplayedWardenIntel": " >...Fuck it's dark and creepy here.\n<size=200%><color=red>>...Something tells me it can only get worse from here...</color></size>\n>...Yeah, enjoy the darkness.",
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 446655,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 3,
+            "LightSettings": 73,
+            "FogSettings": 81,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 47,
+            "ScoutWavePopulation": 21
+          },
+          "LevelLayoutData": 151,
+          "MainLayerData": {
+            "ZoneAliasStart": 280,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 100,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 2.0,
+              "ArtifactLayerDistributionDataID": 1,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
         }
       ],
-      "TierE": [],
+      "TierE": [
+        {
+          "Enabled": true,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "E",
+            "PublicName": "KDS Deep",
+            "IsExtraExpedition": true,
+            "ExpeditionDepth": 984,
+            "EstimatedDuration": "Unknown",
+            "ExpeditionDescription": "Reach KDS Deep and initiate Influx Protocol.",
+            "RoleplayedWardenIntel": ">...Another endless fucking alarm?!\n<size=200%><color=red>>...There's gotta be another terminal to turn it off!</color></size>\n>...Just keep moving, keep looking for the terminal!"
+          },
+          "Seeds": {
+            "BuildSeed": 299292,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 39,
+            "LightSettings": 12,
+            "FogSettings": 82,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 78,
+            "ScoutWavePopulation": 20
+          },
+          "LevelLayoutData": 152,
+          "MainLayerData": {
+            "ZoneAliasStart": 528,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 104,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_17",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 3.0,
+              "ArtifactLayerDistributionDataID": 1,
+              "ArtifactZoneDistributions": [
+                {
+                  "Zone": "Zone_16",
+                  "BasicArtifactWeight": 0.0,
+                  "AdvancedArtifactWeight": 0.0,
+                  "SpecializedArtifactWeight": 0.0
+                },
+                {
+                  "Zone": "Zone_17",
+                  "BasicArtifactWeight": 0.0,
+                  "AdvancedArtifactWeight": 0.0,
+                  "SpecializedArtifactWeight": 0.0
+                }
+              ]
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
+        }
+      ],
       "name": "Rundown 005 - EA",
       "internalEnabled": true,
       "persistentID": 26
@@ -9578,13 +10213,13 @@
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 115,
+          "LevelLayoutData": 154,
           "MainLayerData": {
             "ZoneAliasStart": 0,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [
               {
-                "ZoneIndex": "Zone_1",
+                "ZoneIndex": "Zone_0",
                 "PlacementWeights": {
                   "Start": 0.0,
                   "Middle": 0.0,
@@ -9597,7 +10232,7 @@
             "BulkheadKeyPlacements": [
               [
                 {
-                  "LocalIndex": "Zone_1",
+                  "LocalIndex": "Zone_0",
                   "Weights": {
                     "Start": 0.0,
                     "Middle": 0.0,
@@ -9612,7 +10247,7 @@
               "ZonePlacementDatas": [
                 [
                   {
-                    "LocalIndex": "Zone_3",
+                    "LocalIndex": "Zone_0",
                     "Weights": {
                       "Start": 0.0,
                       "Middle": 0.0,
@@ -9622,7 +10257,7 @@
                 ],
                 [
                   {
-                    "LocalIndex": "Zone_4",
+                    "LocalIndex": "Zone_0",
                     "Weights": {
                       "Start": 0.0,
                       "Middle": 0.0,
@@ -9632,7 +10267,7 @@
                 ],
                 [
                   {
-                    "LocalIndex": "Zone_5",
+                    "LocalIndex": "Zone_0",
                     "Weights": {
                       "Start": 0.0,
                       "Middle": 0.0,
@@ -9648,7 +10283,7 @@
               "ArtifactZoneDistributions": []
             }
           },
-          "SecondaryLayerEnabled": true,
+          "SecondaryLayerEnabled": false,
           "SecondaryLayout": 139,
           "BuildSecondaryFrom": {
             "LayerType": "MainLayer",

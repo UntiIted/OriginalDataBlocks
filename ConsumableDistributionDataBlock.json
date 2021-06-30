@@ -212,9 +212,22 @@
           "Weight": 1.0
         }
       ],
-      "name": "Small_fog",
+      "name": "Small_foam",
       "internalEnabled": true,
       "persistentID": 7
+    },
+    {
+      "SpawnsPerZone": 3,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Small_fog",
+      "internalEnabled": true,
+      "persistentID": 27
     },
     {
       "SpawnsPerZone": 3,
@@ -239,32 +252,65 @@
       "SpawnData": [
         {
           "ItemID": 30,
-          "Weight": 4.0
-        },
-        {
-          "ItemID": 114,
-          "Weight": 10.0
-        },
-        {
-          "ItemID": 115,
-          "Weight": 4.0
-        },
-        {
-          "ItemID": 117,
-          "Weight": 10.0
-        },
-        {
-          "ItemID": 116,
           "Weight": 6.0
         },
         {
+          "ItemID": 114,
+          "Weight": 14.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 8.0
+        },
+        {
           "ItemID": 139,
-          "Weight": 4.0
+          "Weight": 1.0
         }
       ],
       "name": "Baseline",
       "internalEnabled": true,
       "persistentID": 1
+    },
+    {
+      "SpawnsPerZone": 50,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 14.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Baseline_lots_in_containers",
+      "internalEnabled": true,
+      "persistentID": 26
     },
     {
       "SpawnsPerZone": 9,
@@ -560,6 +606,44 @@
       "persistentID": 14
     },
     {
+      "SpawnsPerZone": 9,
+      "ChanceToSpawnInResourceContainer": 0.5,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 3.0
+        }
+      ],
+      "name": "ExplorationFog_Tech_v02",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "SpawnsPerZone": 10,
+      "ChanceToSpawnInResourceContainer": 0.35,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Freps_IIX_glows_Tech",
+      "internalEnabled": true,
+      "persistentID": 24
+    },
+    {
       "SpawnsPerZone": 15,
       "ChanceToSpawnInResourceContainer": 0.7,
       "SpawnData": [
@@ -675,5 +759,5 @@
       "persistentID": 23
     }
   ],
-  "LastPersistentID": 23
+  "LastPersistentID": 27
 }

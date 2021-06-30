@@ -2,14 +2,10 @@
   "Headers": [],
   "Blocks": [
     {
-      "SpawnsPerZone": 5,
+      "SpawnsPerZone": 1,
       "SpawnData": [
         {
-          "ItemID": 133,
-          "Weight": 3.0
-        },
-        {
-          "ItemID": 131,
+          "ItemID": 151,
           "Weight": 1.0
         }
       ],
@@ -116,7 +112,19 @@
       "name": "Small_HSUs_10",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "SpawnsPerZone": 1,
+      "SpawnData": [
+        {
+          "ItemID": 151,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Datasphere",
+      "internalEnabled": true,
+      "persistentID": 9
     }
   ],
-  "LastPersistentID": 8
+  "LastPersistentID": 9
 }
