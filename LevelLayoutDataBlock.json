@@ -84733,19 +84733,11 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [
-                {
-                  "FileName": "EBDT-SOT-ALA.LOG",
-                  "FileContent": ">>SOT-ALA RECORDING START\r",
-                  "AttachedAudioFile": 1157041253,
-                  "AttachedAudioByteSize": 5023000,
-                  "PlayerDialogToTriggerAfterAudio": 0
-                }
-              ],
+              "LocalLogFiles": [],
               "StartingStateData": {
-                "StartingState": "AudioLoopError",
-                "AudioEventEnter": 2322593598,
-                "AudioEventExit": 3945188996,
+                "StartingState": "Sleeping",
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0,
                 "PasswordProtected": false,
                 "PasswordHintText": "Password Required.",
                 "GeneratePassword": false,
@@ -87812,11 +87804,19 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [],
+              "LocalLogFiles": [
+                {
+                  "FileName": "EBDT-SOT-ALA.LOG",
+                  "FileContent": ">>SOT-ALA RECORDING START\r",
+                  "AttachedAudioFile": 1157041253,
+                  "AttachedAudioByteSize": 5023000,
+                  "PlayerDialogToTriggerAfterAudio": 0
+                }
+              ],
               "StartingStateData": {
-                "StartingState": "Sleeping",
-                "AudioEventEnter": 0,
-                "AudioEventExit": 0,
+                "StartingState": "AudioLoopError",
+                "AudioEventEnter": 2322593598,
+                "AudioEventExit": 2967694414,
                 "PasswordProtected": false,
                 "PasswordHintText": "Password Required.",
                 "GeneratePassword": false,

@@ -1501,12 +1501,12 @@
           },
           "Descriptive": {
             "Prefix": "B",
-            "PublicName": "Diversion ",
+            "PublicName": "Diversion",
             "IsExtraExpedition": true,
             "ExpeditionDepth": 798,
             "EstimatedDuration": "Unknown",
             "ExpeditionDescription": "Prisoners expended for diversion to clear adjacent sectors.\nLocal power grid unstable.\nDiversion party survival probability: Low.",
-            "RoleplayedWardenIntel": "\">...I'm almost out... and they won't stop coming!\n<size=200%><color=red>>...The door is finally unlocked!</color></size>\n>...[coughing] Stock up and keep moving!"
+            "RoleplayedWardenIntel": ">...I'm almost out... and they won't stop coming!\n<size=200%><color=red>>...The door is finally unlocked!</color></size>\n>...[coughing] Stock up and keep moving!"
           },
           "Seeds": {
             "BuildSeed": 0,
