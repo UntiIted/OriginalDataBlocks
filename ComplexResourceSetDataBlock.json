@@ -7976,6 +7976,351 @@
       },
       "GeomorphTiles_1x1": [
         {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_SF_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S2"
+        }
+      ],
+      "GeomorphTiles_2x1": [],
+      "GeomorphTiles_2x2": [],
+      "RandomizeGeomorphOrder": true,
+      "SmallWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_weak_door_service.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_apex_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "SmallWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "SmallDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_destroyed_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "SmallWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/4x4/gate_4x4_floodways_cap_destroyed_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_weak_door_service.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_apex_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "MediumDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_destroyed_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "MediumWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Gates/8x4/gate_8x4_floodways_cap_destroyed_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "LargeWeakGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_weak_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeSecurityGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeApexGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "LargeBulkheadGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "SubComplex": "All",
+          "Shard": "S1"
+        }
+      ],
+      "LargeWallCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "LargeDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "LargeWallAndDestroyedCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "StraightPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "StraightPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_flat_with_gate_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "SingleDropPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev25dm_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "SingleDropPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev25dm_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "DoubleDropPlugsNoGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev5m_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "DoubleDropPlugsWithGates": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_elev5m_with_gate_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S17"
+        }
+      ],
+      "PlugCaps": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_cap_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_cap_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Plugs/env_plug_8mheight_cap_floodways_03.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S16"
+        }
+      ],
+      "ElevatorShafts_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_floodways_03.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_floodways_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_elevator_shaft_floodways_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
+        }
+      ],
+      "CustomGeomorphs_Exit_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/geo_32x32_floodways_exit_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        }
+      ],
+      "CustomGeomorphs_Objective_1x1": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_05.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_I_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_I_HA_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_HA_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_HA_03.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S3"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_dead_end_HA_01.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S5"
+        }
+      ],
+      "CustomGeomorphs_Challenge_1x1": [],
+      "Ladders_4m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_4m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_2m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_2m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_1m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_1m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_05m": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_tile_05m_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Bottom": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_bottom_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "Ladders_Top": [
+        {
+          "Prefab": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_top_01.prefab",
+          "SubComplex": "All",
+          "Shard": "S16"
+        }
+      ],
+      "name": "Complex_Service_Geo_test",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "ComplexType": "Service",
+      "PrimareSubComplexUsed": "Floodways",
+      "BundleName": "Complex_Service",
+      "LevelGenConfig": {
+        "GridSize": 40,
+        "CellDimension": 64.0,
+        "AltitudeOffset": 2.5,
+        "TransitionDirection": "FloorUp",
+        "LevelProgression": "StartLevel"
+      },
+      "GeomorphTiles_1x1": [
+        {
           "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_HA_01.prefab",
           "SubComplex": "Floodways",
           "Shard": "S2"
@@ -11531,5 +11876,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 39
+  "LastPersistentID": 40
 }

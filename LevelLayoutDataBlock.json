@@ -89186,6 +89186,127 @@
       "Zones": [
         {
           "LocalIndex": "Zone_0",
+          "SubSeed": 0,
+          "BulkheadDCScanSeed": 0,
+          "SubComplex": "Floodways",
+          "CoverageMinMax": {
+            "x": 150.0,
+            "y": 300.0
+          },
+          "BuildFromLocalIndex": "Zone_0",
+          "StartPosition": "From_Furthest",
+          "StartPosition_IndexWeight": 0.0,
+          "StartExpansion": "Towards_Forward",
+          "ZoneExpansion": "Directional_Forward",
+          "LightSettings": 22,
+          "AltitudeData": {
+            "AllowedZoneAltitude": "OnlyMid",
+            "ChanceToChange": 0.5
+          },
+          "EventsOnEnter": [],
+          "ProgressionPuzzleToEnter": {
+            "PuzzleType": "None",
+            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "PlacementCount": 1,
+            "ZonePlacementData": []
+          },
+          "ChainedPuzzleToEnter": 0,
+          "SecurityGateToEnter": "Security",
+          "UseStaticBioscanPointsInZone": false,
+          "TurnOffAlarmOnTerminal": false,
+          "TerminalPuzzleZone": {
+            "LocalIndex": "Zone_0",
+            "SeedType": "SessionSeed",
+            "TerminalIndex": 0,
+            "StaticSeed": 0
+          },
+          "ActiveEnemyWave": {
+            "HasActiveEnemyWave": false,
+            "EnemyGroupInfrontOfDoor": 0,
+            "EnemyGroupInArea": 0,
+            "EnemyGroupsInArea": 0
+          },
+          "EnemySpawningInZone": [],
+          "EnemyRespawning": false,
+          "EnemyRespawnRequireOtherZone": true,
+          "EnemyRespawnRoomDistance": 2,
+          "EnemyRespawnTimeInterval": 10.0,
+          "EnemyRespawnCountMultiplier": 1.0,
+          "HSUClustersInZone": 0,
+          "CorpseClustersInZone": 0,
+          "ResourceContainerClustersInZone": 0,
+          "GeneratorClustersInZone": 0,
+          "CorpsesInZone": "None_0",
+          "GroundSpawnersInZone": "Many_20",
+          "HSUsInZone": "None_0",
+          "DeconUnitsInZone": "None_0",
+          "AllowSmallPickupsAllocation": true,
+          "AllowResourceContainerAllocation": true,
+          "ForceBigPickupsAllocation": false,
+          "ConsumableDistributionInZone": 1,
+          "BigPickupDistributionInZone": 0,
+          "TerminalPlacements": [
+            {
+              "PlacementWeights": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 0.0
+              },
+              "AreaSeedOffset": 0,
+              "MarkerSeedOffset": 0,
+              "LocalLogFiles": [],
+              "StartingStateData": {
+                "StartingState": "Sleeping",
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0,
+                "PasswordProtected": false,
+                "PasswordHintText": "Password Required.",
+                "GeneratePassword": false,
+                "PasswordPartCount": 1,
+                "ShowPasswordLength": true,
+                "ShowPasswordPartPositions": false,
+                "TerminalZoneSelectionDatas": []
+              }
+            }
+          ],
+          "ForbidTerminalsInZone": false,
+          "PowerGeneratorPlacements": [],
+          "DisinfectionStationPlacements": [],
+          "HealthMulti": 1.0,
+          "HealthPlacement": {
+            "Start": 0.0,
+            "Middle": 1.0,
+            "End": 2.0
+          },
+          "WeaponAmmoMulti": 1.0,
+          "WeaponAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 1.0,
+            "End": 2.0
+          },
+          "ToolAmmoMulti": 1.0,
+          "ToolAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 1.0,
+            "End": 2.0
+          },
+          "DisinfectionMulti": 0.0,
+          "DisinfectionPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "StaticSpawnDataContainers": []
+        }
+      ],
+      "name": "Geomorph test layout",
+      "internalEnabled": true,
+      "persistentID": 155
+    },
+    {
+      "Zones": [
+        {
+          "LocalIndex": "Zone_0",
           "SubSeed": 132,
           "BulkheadDCScanSeed": 22,
           "SubComplex": "Lab",
@@ -110612,5 +110733,5 @@
       "persistentID": 101
     }
   ],
-  "LastPersistentID": 154
+  "LastPersistentID": 155
 }

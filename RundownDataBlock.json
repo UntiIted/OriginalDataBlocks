@@ -10462,6 +10462,618 @@
         "AllClearedSectors": 0
       },
       "StorytellingData": {
+        "Title": "For Geomoorph testing",
+        "TextLog": "A rundown to test geomorphs",
+        "TextLogPos": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "Visuals": {
+          "ColorBackground": {
+            "a": 1.0,
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "TierAVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.4509804,
+              "g": 0.7490196,
+              "b": 0.858823538
+            },
+            "Scale": 0.5
+          },
+          "TierBVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.4509804,
+              "g": 0.7490196,
+              "b": 0.858823538
+            },
+            "Scale": 0.5
+          },
+          "TierCVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.4509804,
+              "g": 0.7490196,
+              "b": 0.858823538
+            },
+            "Scale": 0.5
+          },
+          "TierDVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.4509804,
+              "g": 0.7490196,
+              "b": 0.858823538
+            },
+            "Scale": 0.5
+          },
+          "TierEVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.4509804,
+              "g": 0.7490196,
+              "b": 0.858823538
+            },
+            "Scale": 0.5
+          }
+        },
+        "SurfaceIconPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "SurfaceDescription": "Surface intel"
+      },
+      "TierA": [
+        {
+          "Enabled": true,
+          "Accessibility": "AlwaysAllow",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "A",
+            "PublicName": "Geo tester",
+            "IsExtraExpedition": false,
+            "ExpeditionDepth": 0,
+            "EstimatedDuration": "",
+            "RoleplayedWardenIntel": ""
+          },
+          "Seeds": {
+            "BuildSeed": 43,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 40,
+            "LightSettings": 55,
+            "FogSettings": 19,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 155,
+          "MainLayerData": {
+            "ZoneAliasStart": 100,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 54,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 0.25,
+              "ArtifactLayerDistributionDataID": 1,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
+        }
+      ],
+      "TierB": [
+        {
+          "Enabled": false,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "B",
+            "PublicName": "Datacenter",
+            "IsExtraExpedition": false,
+            "ExpeditionDepth": 567,
+            "EstimatedDuration": "Unknown"
+          },
+          "Seeds": {
+            "BuildSeed": 23442,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 3,
+            "LightSettings": 19,
+            "FogSettings": 18,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 58,
+          "MainLayerData": {
+            "ZoneAliasStart": 28,
+            "ZonesWithBulkheadEntrance": [
+              "Zone_3"
+            ],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 27,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_5",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 10000.0
+                    }
+                  },
+                  {
+                    "LocalIndex": "Zone_6",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 10000.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 10000.0,
+                      "End": 10000.0
+                    }
+                  },
+                  {
+                    "LocalIndex": "Zone_1",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 10000.0,
+                      "End": 10000.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": true,
+          "SecondaryLayout": 20,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_1"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 51,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 8,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  },
+                  {
+                    "LocalIndex": "Zone_1",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": true,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
+        }
+      ],
+      "TierC": [
+        {
+          "Enabled": false,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "C",
+            "PublicName": "Subcomplex VI",
+            "IsExtraExpedition": false,
+            "ExpeditionDepth": 751,
+            "EstimatedDuration": "Unknown"
+          },
+          "Seeds": {
+            "BuildSeed": 321565,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 27,
+            "LightSettings": 12,
+            "FogSettings": 18,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 154,
+          "MainLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [
+              {
+                "ZoneIndex": "Zone_0",
+                "PlacementWeights": {
+                  "Start": 0.0,
+                  "Middle": 0.0,
+                  "End": 0.0
+                },
+                "AreaSeedOffset": 0,
+                "MarkerSeedOffset": 0
+              }
+            ],
+            "BulkheadKeyPlacements": [
+              [
+                {
+                  "LocalIndex": "Zone_0",
+                  "Weights": {
+                    "Start": 0.0,
+                    "Middle": 0.0,
+                    "End": 0.0
+                  }
+                }
+              ]
+            ],
+            "ObjectiveData": {
+              "DataBlockId": 62,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 1,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 139,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_1"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 10,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 92,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
+        }
+      ],
+      "TierD": [],
+      "TierE": [
+        {
+          "Enabled": false,
+          "Accessibility": "Normal",
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "C",
+            "PublicName": "Network Alpha",
+            "IsExtraExpedition": false,
+            "ExpeditionDepth": 427,
+            "EstimatedDuration": "One hour+",
+            "RoleplayedWardenIntel": ">..Ssssh [unintelligible]\n<size=200%><color=red>>Don't move when their hearts beat!</color></size>\n>..Careful, quiet! [scream, gunfire, unintelligible]."
+          },
+          "Seeds": {
+            "BuildSeed": 123,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 28,
+            "LightSettings": 33,
+            "FogSettings": 18,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1
+          },
+          "LevelLayoutData": 2,
+          "MainLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 6,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": true,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": true,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZoneAliasStart": 0,
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0
+          }
+        }
+      ],
+      "name": "Geomorph test",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "ReqToReachTierB": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "ReqToReachTierC": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "ReqToReachTierD": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "ReqToReachTierE": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "StorytellingData": {
         "Title": "THE VESSEL",
         "TextLog": "The Third Early Access rundown\n-WIP-\n",
         "TextLogPos": {
@@ -17454,5 +18066,5 @@
       "persistentID": 15
     }
   ],
-  "LastPersistentID": 26
+  "LastPersistentID": 27
 }

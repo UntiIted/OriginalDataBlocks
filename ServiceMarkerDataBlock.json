@@ -1077,7 +1077,7 @@
         "EditorMesh": "Markerproducers/Mining/SM_dead_body_floor_400x400x35",
         "BoundingVolume": 5600.0
       },
-      "name": "corpse_floor_400x400x35",
+      "name": "Service_corpse_floor_400x400x35",
       "internalEnabled": true,
       "persistentID": 27
     },
