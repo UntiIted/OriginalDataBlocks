@@ -9,7 +9,10 @@ List<BoosterImplantEffectInstance>: Effects
    UInt32: BoosterImplantEffect
    Single: MinValue
    Single: MaxValue
-List<List`1>: RandomEffects
+List<List<BoosterImplantEffectInstance>>: RandomEffects
+   UInt32: BoosterImplantEffect
+   Single: MinValue
+   Single: MaxValue
 (enum) BoosterImplantCategory: ImplantCategory
 (enum) BoosterEffectCategory: MainEffectType
 String: name

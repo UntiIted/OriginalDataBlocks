@@ -102,7 +102,11 @@ List<ExpeditionZoneData>: Zones
          Int32: PasswordPartCount
          Boolean: ShowPasswordLength
          Boolean: ShowPasswordPartPositions
-         List<List`1>: TerminalZoneSelectionDatas
+         List<List<TerminalZoneSelectionData>>: TerminalZoneSelectionDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            (enum) eSeedType: SeedType
+            Int32: TerminalIndex
+            Int32: StaticSeed
    Boolean: ForbidTerminalsInZone
    List<FunctionPlacementData>: PowerGeneratorPlacements
       ZonePlacementWeights: PlacementWeights

@@ -85,11 +85,21 @@ List<ExpeditionInTierData>: TierA
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -114,11 +124,21 @@ List<ExpeditionInTierData>: TierA
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -143,11 +163,21 @@ List<ExpeditionInTierData>: TierA
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -202,11 +232,21 @@ List<ExpeditionInTierData>: TierB
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -231,11 +271,21 @@ List<ExpeditionInTierData>: TierB
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -260,11 +310,21 @@ List<ExpeditionInTierData>: TierB
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -319,11 +379,21 @@ List<ExpeditionInTierData>: TierC
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -348,11 +418,21 @@ List<ExpeditionInTierData>: TierC
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -377,11 +457,21 @@ List<ExpeditionInTierData>: TierC
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -436,11 +526,21 @@ List<ExpeditionInTierData>: TierD
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -465,11 +565,21 @@ List<ExpeditionInTierData>: TierD
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -494,11 +604,21 @@ List<ExpeditionInTierData>: TierD
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -553,11 +673,21 @@ List<ExpeditionInTierData>: TierE
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -582,11 +712,21 @@ List<ExpeditionInTierData>: TierE
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
@@ -611,11 +751,21 @@ List<ExpeditionInTierData>: TierE
             Single: End
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
-      List<List`1>: BulkheadKeyPlacements
+      List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eLocalZoneIndex: LocalIndex
+         ZonePlacementWeights: Weights
+            Single: Start
+            Single: Middle
+            Single: End
       WardenObjectiveLayerData: ObjectiveData
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
-         List<List`1>: ZonePlacementDatas
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          UInt32: ArtifactLayerDistributionDataID
