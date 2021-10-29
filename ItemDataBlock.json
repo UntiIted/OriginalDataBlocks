@@ -1378,6 +1378,57 @@
       "persistentID": 114
     },
     {
+      "publicName": "Glow Stick Orange",
+      "terminalItemShortName": "",
+      "terminalItemLongName": "",
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "Shard": "S4",
+      "inventorySlot": "Consumable",
+      "FPSSettings": 24,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": true,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": true,
+      "GUIShowAmmoTotalRel": true,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": true,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 12,
+      "ConsumableAmmoMax": 12,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Halloween.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_third_Halloween.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Pickup_Halloween.prefab"
+      ],
+      "InstancePrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Instance_Halloween.prefab",
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_lit_Halloween.prefab"
+      ],
+      "EquipTransitionTime": 1.0,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "GlowStick",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "GlowStick",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "CONSUMABLE_GlowStick_Halloween",
+      "internalEnabled": true,
+      "persistentID": 167
+    },
+    {
       "publicName": "I2-LP Syringe",
       "terminalItemShortName": "",
       "terminalItemLongName": "",
@@ -3093,5 +3144,5 @@
       "persistentID": 155
     }
   ],
-  "LastPersistentID": 156
+  "LastPersistentID": 167
 }

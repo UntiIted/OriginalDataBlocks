@@ -22,7 +22,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 10.0
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 167,
+          "Weight": 7.0
         },
         {
           "ItemID": 115,
@@ -55,7 +59,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 10.0
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 167,
+          "Weight": 7.0
         },
         {
           "ItemID": 115,
@@ -92,7 +100,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 0.25
+          "Weight": 0.075
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.175
         }
       ],
       "name": "ExplorationFog",
@@ -118,7 +130,11 @@
       "SpawnData": [
         {
           "ItemID": 114,
-          "Weight": 1.0
+          "Weight": 0.3
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.7
         },
         {
           "ItemID": 30,
@@ -151,7 +167,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 10.0
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 167,
+          "Weight": 7.0
         },
         {
           "ItemID": 115,
@@ -256,7 +276,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 14.0
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 167,
+          "Weight": 10.0
         },
         {
           "ItemID": 115,
@@ -289,7 +313,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 14.0
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 167,
+          "Weight": 10.0
         },
         {
           "ItemID": 115,
@@ -322,7 +350,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 8.0
+          "Weight": 2.4
+        },
+        {
+          "ItemID": 167,
+          "Weight": 5.6
         },
         {
           "ItemID": 115,
@@ -359,7 +391,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 8.0
+          "Weight": 2.4
+        },
+        {
+          "ItemID": 167,
+          "Weight": 5.6
         },
         {
           "ItemID": 115,
@@ -396,7 +432,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 8.0
+          "Weight": 2.4
+        },
+        {
+          "ItemID": 167,
+          "Weight": 5.6
         },
         {
           "ItemID": 115,
@@ -425,7 +465,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 1.5
+          "Weight": 0.45
+        },
+        {
+          "ItemID": 167,
+          "Weight": 1.05
         },
         {
           "ItemID": 115,
@@ -466,7 +510,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 0.5
+          "Weight": 0.15
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.35
         },
         {
           "ItemID": 140,
@@ -487,7 +535,11 @@
       "SpawnData": [
         {
           "ItemID": 114,
-          "Weight": 2.0
+          "Weight": 0.6
+        },
+        {
+          "ItemID": 167,
+          "Weight": 1.4
         },
         {
           "ItemID": 30,
@@ -520,7 +572,11 @@
       "SpawnData": [
         {
           "ItemID": 114,
-          "Weight": 1.0
+          "Weight": 0.3
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.7
         },
         {
           "ItemID": 30,
@@ -636,7 +692,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 2.0
+          "Weight": 0.6
+        },
+        {
+          "ItemID": 167,
+          "Weight": 1.4
         }
       ],
       "name": "Freps_IIX_glows_Tech",
@@ -653,7 +713,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 1.0
+          "Weight": 0.3
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.7
         },
         {
           "ItemID": 115,
@@ -694,7 +758,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 1.0
+          "Weight": 0.3
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.7
         },
         {
           "ItemID": 117,
@@ -731,7 +799,11 @@
         },
         {
           "ItemID": 114,
-          "Weight": 1.0
+          "Weight": 0.3
+        },
+        {
+          "ItemID": 167,
+          "Weight": 0.7
         },
         {
           "ItemID": 115,
