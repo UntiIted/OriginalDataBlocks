@@ -5,6 +5,7 @@ Il2CppReferenceArray`1: m_smallWeakGates
 Il2CppReferenceArray`1: m_smallSecurityGates
 Il2CppReferenceArray`1: m_smallApexGates
 Il2CppReferenceArray`1: m_smallBulkheadGates
+Il2CppReferenceArray`1: m_smallMainPathBulkheadGates
 Il2CppReferenceArray`1: m_smallWallCaps
 Il2CppReferenceArray`1: m_smallDestroyedCaps
 Il2CppReferenceArray`1: m_smallWallAndDestroyedCaps
@@ -12,6 +13,7 @@ Il2CppReferenceArray`1: m_mediumWeakGates
 Il2CppReferenceArray`1: m_mediumSecurityGates
 Il2CppReferenceArray`1: m_mediumApexGates
 Il2CppReferenceArray`1: m_mediumBulkheadGates
+Il2CppReferenceArray`1: m_mediumMainPathBulkheadGates
 Il2CppReferenceArray`1: m_mediumWallCaps
 Il2CppReferenceArray`1: m_mediumDestroyedCaps
 Il2CppReferenceArray`1: m_mediumWallAndDestroyedCaps
@@ -19,6 +21,7 @@ Il2CppReferenceArray`1: m_largeWeakGates
 Il2CppReferenceArray`1: m_largeSecurityGates
 Il2CppReferenceArray`1: m_largeApexGates
 Il2CppReferenceArray`1: m_largeBulkheadGates
+Il2CppReferenceArray`1: m_largeMainPathBulkheadGates
 Il2CppReferenceArray`1: m_largeWallCaps
 Il2CppReferenceArray`1: m_largeDestroyedCaps
 Il2CppReferenceArray`1: m_largeWallAndDestroyedCaps
@@ -42,7 +45,7 @@ Il2CppReferenceArray`1: m_ladders_top
 Double: m_lastSaveVerification
 Dictionary`2: m_prefabSpawnerCounter
 Dictionary`2: m_allCustomGeomorphsPerPath
-Il2CppStructArray`1: m_geomorphPickerIndex
+Il2CppObjectBase: m_geomorphPickerIndex
 (enum) Complex: ComplexType
 (enum) SubComplex: PrimareSubComplexUsed
 (enum) AssetBundleName: BundleName
@@ -81,6 +84,10 @@ List<ResourceData>: SmallBulkheadGates
    String: Prefab
    (enum) SubComplex: SubComplex
    (enum) AssetBundleShard: Shard
+List<ResourceData>: SmallMainPathBulkheadGates
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
 List<ResourceData>: SmallWallCaps
    String: Prefab
    (enum) SubComplex: SubComplex
@@ -109,6 +116,10 @@ List<ResourceData>: MediumBulkheadGates
    String: Prefab
    (enum) SubComplex: SubComplex
    (enum) AssetBundleShard: Shard
+List<ResourceData>: MediumMainPathBulkheadGates
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
 List<ResourceData>: MediumWallCaps
    String: Prefab
    (enum) SubComplex: SubComplex
@@ -134,6 +145,10 @@ List<ResourceData>: LargeApexGates
    (enum) SubComplex: SubComplex
    (enum) AssetBundleShard: Shard
 List<ResourceData>: LargeBulkheadGates
+   String: Prefab
+   (enum) SubComplex: SubComplex
+   (enum) AssetBundleShard: Shard
+List<ResourceData>: LargeMainPathBulkheadGates
    String: Prefab
    (enum) SubComplex: SubComplex
    (enum) AssetBundleShard: Shard

@@ -1,3 +1,4 @@
+Boolean: ForceDisableAnimator
 (enum) AnimatorControllerHandleName: AnimationControllers
 Boolean: MoveSlowerWhenInPlayerRoom
 Single: MoveSlowerWithinTargetDistance
@@ -5,12 +6,15 @@ Single: GlobalAnimSpeedMulti
 Single: PathMoveAnimSpeedMulti
 Single: RotationLerp
 Single: RotationLerpWhenNotMoving
-(enum) ES_StateEnum: DefaultMoveState
 Single: BlendIntoAttackAnim
 Single: BlendIntoScreamAnim
 Boolean: AllowMovmentBlendOutOfPathMove
 Single: PathMoveAnimDampTime
 Boolean: AllowClimbDownLadders
+(enum) ES_StateEnum: LocomotionPathMove
+(enum) ES_StateEnum: LocomotionHitReact
+(enum) ES_StateEnum: LocomotionDead
+(enum) ES_StateEnum: LocomotionShooterAttack
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

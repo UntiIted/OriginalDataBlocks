@@ -1,0 +1,187 @@
+DimensionData: DimensionData
+   UInt32: LevelLayoutData
+   String: DimensionGeomorph
+   Single: VerticalExtentsUp
+   Single: VerticalExtentsDown
+   UInt32: DimensionResourceSetID
+   UInt32: DimensionFogData
+   Single: EnvironmentWetness
+   Color: DustColor
+   Single: DustAlphaBoost
+   Single: DustTurbulence
+   UInt32: SoundEventOnWarpTo
+   Boolean: UseLocalDimensionSeeds
+   Boolean: IsStaticDimension
+   Int32: StaticZoneSeed
+   Int32: StaticMarkerSeed
+   Int32: StaticLightSeed
+   UInt32: StaticLightSettings
+   Int32: StaticAliasOverride
+   String: StaticAliasPrefixOverride
+   String: StaticAliasPrefixShortOverride
+   List<EnemySpawningData>: StaticEnemySpawningInZone
+      (enum) eEnemyGroupType: GroupType
+      (enum) eEnemyRoleDifficulty: Difficulty
+      (enum) eEnemyZoneDistribution: Distribution
+      Single: DistributionValue
+   Boolean: StaticAllowResourceContainerAllocation
+   Boolean: StaticAllowSmallPickupsAllocation
+   Boolean: StaticForceBigPickupsAllocation
+   UInt32: StaticConsumableDistributionInZone
+   UInt32: StaticBigPickupDistributionInZone
+   (enum) eZoneDistributionAmount: StaticGroundSpawnersInZone
+   Single: StaticHealthMulti
+   Single: StaticToolAmmoMulti
+   Single: StaticWeaponAmmoMulti
+   Single: StaticDisinfectionMulti
+   List<TerminalPlacementData>: StaticTerminalPlacements
+      ZonePlacementWeights: PlacementWeights
+         Single: Start
+         Single: Middle
+         Single: End
+      Int32: AreaSeedOffset
+      Int32: MarkerSeedOffset
+      List<TerminalLogFileData>: LocalLogFiles
+         List<String>: ParsedLog
+         String: FileName
+         String: FileContent
+         UInt32: AttachedAudioFile
+         Int32: AttachedAudioByteSize
+         UInt32: PlayerDialogToTriggerAfterAudio
+      List<CustomTerminalCommand>: UniqueCommands
+         String: Command
+         String: CommandDesc
+         List<TerminalOutput>: PostCommandOutputs
+            (enum) TerminalLineType: LineType
+            LocalizedText: Output
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            Single: Time
+         List<WardenObjectiveEventData>: CommandEvents
+            (enum) eWardenObjectiveEventTrigger: Trigger
+            UInt32: ChainPuzzle
+            Boolean: UseStaticBioscanPoints
+            (enum) eWardenObjectiveEventType: Type
+            (enum) LG_LayerType: Layer
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            Single: Delay
+            Single: Duration
+            Boolean: ClearDimension
+            LocalizedText: WardenIntel
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            LocalizedText: CustomSubObjectiveHeader
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            LocalizedText: CustomSubObjective
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            UInt32: SoundID
+            UInt32: DialogueID
+            UInt32: FogSetting
+            Single: FogTransitionDuration
+            GenericEnemyWaveData: EnemyWaveData
+               UInt32: WaveSettings
+               UInt32: WavePopulation
+               Single: SpawnDelay
+               Boolean: TriggerAlarm
+               LocalizedText: IntelMessage
+                  String: UntranslatedText
+                  UInt32: Id
+                  Boolean: HasTranslation
+         (enum) TERM_CommandRule: SpecialCommandRule
+      TerminalStartStateData: StartingStateData
+         (enum) TERM_State: StartingState
+         UInt32: AudioEventEnter
+         UInt32: AudioEventExit
+         Boolean: PasswordProtected
+         String: Password
+         String: PasswordHintText
+         Boolean: GeneratePassword
+         Int32: PasswordPartCount
+         Boolean: ShowPasswordLength
+         Boolean: ShowPasswordPartPositions
+         List<List<TerminalZoneSelectionData>>: TerminalZoneSelectionDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            (enum) eSeedType: SeedType
+            Int32: TerminalIndex
+            Int32: StaticSeed
+   Boolean: ForbidTerminalsInDimension
+   List<WardenObjectiveEventData>: EventsOnBossDeath
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   Boolean: IsOutside
+   Single: LightAzimuth
+   Single: LightElevation
+   Single: LightIntensity
+   Single: AmbientIntensity
+   Single: ReflectionsIntensity
+   Single: GodrayRange
+   Single: GodrayExponent
+   UInt32: AtmosphereData
+   Single: AtmosphereDensity
+   Single: Exposure
+   Single: AerialScale
+   Single: MieScattering
+   Single: MieG
+   Single: MultipleScattering
+   UInt32: CloudsData
+   Single: CloudsCoverage
+   Single: CloudsDensity
+   Single: CloudsSharpness
+   Single: CloudsShadowOpacity
+   Single: CloudsTimescale
+   Single: CloudsCrawling
+   Single: CloudsFade
+   Boolean: Sandstorm
+   Single: SandstormEdgeA
+   Single: SandstormEdgeB
+   Single: SandstormMinFog
+   (enum) DimensionObjectiveType: ObjectiveType
+   (enum) LG_LayerType: LinkedToLayer
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

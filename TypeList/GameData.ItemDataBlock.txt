@@ -2,10 +2,15 @@ Int32: listIndex
 UInt32: syncID
 Il2CppReferenceArray`1: ItemToolsPerSlot
 String: publicName
+LocalizedText: LocalizedName
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 String: terminalItemShortName
 String: terminalItemLongName
 Boolean: addSerialNumberToName
 Boolean: registerInTerminalSystem
+(enum) ItemWarpType: DimensionWarpType
 (enum) AssetBundleShard: Shard
 (enum) InventorySlot: inventorySlot
 UInt32: FPSSettings

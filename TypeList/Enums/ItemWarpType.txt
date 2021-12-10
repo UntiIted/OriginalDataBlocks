@@ -1,0 +1,4 @@
+Never
+Always
+OnlyWarpToSpawnDimension
+OnlyWarpToOtherDimension

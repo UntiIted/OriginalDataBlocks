@@ -3,3 +3,5 @@ InSuppliedCourseNodeZone
 InSuppliedCourseNode
 InSuppliedCourseNode_OnPosition
 ClosestToSuppliedNodeButNoBetweenPlayers
+OnSpawnPoints
+FromElevatorDirection

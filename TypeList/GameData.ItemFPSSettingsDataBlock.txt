@@ -1,6 +1,8 @@
 Il2CppReferenceArray`1: ItemToolsPerSlot
 Vector3: localPosHip
 Vector3: localRotHip
+Single: SwayAmount
+Single: crouchTiltAngle
 Vector3: localPosRelaxed
 Vector3: localRotRelaxed
 Vector3: localPosZoom
@@ -17,15 +19,13 @@ Single: customDelayUntilRelax
 Boolean: allowRotToAimPos
 Single: rotToAimPosMinDis
 (enum) eFPISTransitionTime: transitionToAim
-ItemAnimData: idleAnimData
-   String: Anim
-   Single: Speed
-ItemAnimData: walkAnimData
-   String: Anim
-   Single: Speed
-ItemAnimData: runAnimData
-   String: Anim
-   Single: Speed
+UInt32: RecoilAnimation
+UInt32: IdleAnimation
+UInt32: WalkAnimation
+UInt32: RunAnimation
+UInt32: JumpAnimation
+UInt32: LandAnimation
+UInt32: ChargeCancelAnimation
 DOFSettingsData: DofDefault
    Boolean: enabled
    Single: focusDistance

@@ -712,6 +712,20 @@
           "Material": "PlayerBody",
           "Delay": 0.0,
           "AudioEvent": "BulletHitPlayerLocal"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitSandSync"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "BulletHitSandLocal"
         }
       ],
       "effectData": [
@@ -1523,6 +1537,20 @@
           "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerWalkWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerWalkSand_3rd"
         }
       ],
       "effectData": [],
@@ -1671,6 +1699,20 @@
           "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerSneakWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSand_3rd"
         }
       ],
       "effectData": [],
@@ -1819,6 +1861,20 @@
           "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerJumpWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerJumpSand_3rd"
         }
       ],
       "effectData": [],
@@ -1967,6 +2023,20 @@
           "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerLandWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerLandSand_3rd"
         }
       ],
       "effectData": [],
@@ -2105,16 +2175,30 @@
         {
           "Enabled": true,
           "NetMode": "Local",
-          "Material": 0,
+          "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerSneakWood"
         },
         {
           "Enabled": true,
           "NetMode": "Sync",
-          "Material": 0,
+          "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerSneakWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSneakSand_3rd"
         }
       ],
       "effectData": [],
@@ -2263,6 +2347,20 @@
           "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerSlideWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerSlideSand_3rd"
         }
       ],
       "effectData": [],
@@ -2411,6 +2509,20 @@
           "Material": "Wood",
           "Delay": 0.0,
           "AudioEvent": "PlayerRunWood_3rd"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Local",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunSand"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Sync",
+          "Material": "Sand",
+          "Delay": 0.0,
+          "AudioEvent": "PlayerRunSand_3rd"
         }
       ],
       "effectData": [],
@@ -2833,7 +2945,7 @@
           "NetMode": "Both",
           "Material": -2848,
           "Delay": 0.0,
-          "AudioEvent": "melee_hit_dirt_regular"
+          "AudioEvent": "melee_hit_dirt_ regular"
         },
         {
           "Enabled": true,
@@ -2925,7 +3037,352 @@
       "name": "wpn_melee_hit_hard",
       "internalEnabled": true,
       "persistentID": 51
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_dirt_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_flesh_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_metal_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_lock_small_regular"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_knife_hit_normal",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_dirt_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_flesh_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_metal_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_knife_hit_lock_small_hard"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_knife_hit_hard",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_dirt_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_flesh_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_metal_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_lock_small_regular"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_spear_hit_normal",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_dirt_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_flesh_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_metal_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_spear_hit_lock_small_hard"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_spear_hit_hard",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_dirt_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_flesh_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_metal_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_stone_regular"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_lock_small_regular"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_bat_hit_normal",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": -2848,
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_dirt_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "EnemyBody, EnemyWeakspot, PlayerBody",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_flesh_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Metal, SheetMetal, Catwalk",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_metal_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "Concrete, Glass",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_stone_hard"
+        },
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": "WeakLockMelee",
+          "Delay": 0.0,
+          "AudioEvent": "melee_bat_hit_lock_small_hard"
+        }
+      ],
+      "effectData": [],
+      "name": "wpn_bat_hit_hard",
+      "internalEnabled": true,
+      "persistentID": 57
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "DESERT_BOSS_ARTILLERY_PROJECTILE_HIT"
+        }
+      ],
+      "effectData": [],
+      "name": "desert_boss_artillery_hit",
+      "internalEnabled": true,
+      "persistentID": 58
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "DESERT_BOSS_ARTILLERY_FIRE"
+        }
+      ],
+      "effectData": [],
+      "name": "desert_boss_artillery_fire",
+      "internalEnabled": true,
+      "persistentID": 59
+    },
+    {
+      "audioData": [
+        {
+          "Enabled": true,
+          "NetMode": "Both",
+          "Material": 0,
+          "Delay": 0.0,
+          "AudioEvent": "DESERT_BOSS_SHOOT"
+        }
+      ],
+      "effectData": [],
+      "name": "desert_boss_shoot",
+      "internalEnabled": true,
+      "persistentID": 60
     }
   ],
-  "LastPersistentID": 51
+  "LastPersistentID": 60
 }

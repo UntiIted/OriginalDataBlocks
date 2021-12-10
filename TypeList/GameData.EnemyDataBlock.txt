@@ -44,6 +44,7 @@ List<AbilityData>: AI_Abilities
    String: AbilityPrefab
    (enum) AgentAbility: AbilityType
    Single: Cooldown
+   (enum) List<AbilityCondition>: AbilityConditions
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

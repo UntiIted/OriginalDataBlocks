@@ -1,6 +1,12 @@
 Boolean: Deprecated
-String: PublicName
-String: Description
+LocalizedText: PublicName
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: Description
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 Vector2: DurationRange
 Single: DropWeight
 List<UInt32>: Conditions

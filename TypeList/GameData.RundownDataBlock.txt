@@ -1,3 +1,4 @@
+Boolean: UseTierUnlockRequirements
 RundownTierProgressionData: ReqToReachTierB
    Int32: MainSectors
    Int32: SecondarySectors
@@ -19,33 +20,51 @@ RundownTierProgressionData: ReqToReachTierE
    Int32: ThirdSectors
    Int32: AllClearedSectors
 RundownStorytellingData: StorytellingData
-   String: Title
-   String: TextLog
+   LocalizedText: Title
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: TextLog
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
    Vector2: TextLogPos
    RundownStorytellingVisualData: Visuals
       Color: ColorBackground
       TierVisualData: TierAVisuals
          Color: Color
          Single: Scale
+         Single: ScaleYModifier
       TierVisualData: TierBVisuals
          Color: Color
          Single: Scale
+         Single: ScaleYModifier
       TierVisualData: TierCVisuals
          Color: Color
          Single: Scale
+         Single: ScaleYModifier
       TierVisualData: TierDVisuals
          Color: Color
          Single: Scale
+         Single: ScaleYModifier
       TierVisualData: TierEVisuals
          Color: Color
          Single: Scale
+         Single: ScaleYModifier
    Vector2: SurfaceIconPosition
-   String: SurfaceDescription
+   LocalizedText: SurfaceDescription
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
    Int32: HostIDSeed
    Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
+   ExpeditionIndex: UnlockedByExpedition
+      (enum) eRundownTier: Tier
+      (enum) eBuildAutoExpeditionNumber: Exp
    RundownTierProgressionData: CustomProgressionLock
       Int32: MainSectors
       Int32: SecondarySectors
@@ -55,10 +74,20 @@ List<ExpeditionInTierData>: TierA
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
-      String: EstimatedDuration
-      String: ExpeditionDescription
-      String: RoleplayedWardenIntel
+      LocalizedText: EstimatedDuration
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: ExpeditionDescription
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: RoleplayedWardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -73,9 +102,13 @@ List<ExpeditionInTierData>: TierA
       UInt32: ExpeditionBalance
       UInt32: ScoutWaveSettings
       UInt32: ScoutWavePopulation
+      Single: EnvironmentWetness
+      Color: DustColor
+      Single: DustTurbulence
+   VanityItemsDropData: VanityItemsDropData
+      List<UInt32>: Groups
    UInt32: LevelLayoutData
    LayerData: MainLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -86,6 +119,7 @@ List<ExpeditionInTierData>: TierA
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -95,6 +129,7 @@ List<ExpeditionInTierData>: TierA
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -114,7 +149,6 @@ List<ExpeditionInTierData>: TierA
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: SecondaryLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -125,6 +159,7 @@ List<ExpeditionInTierData>: TierA
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -134,6 +169,7 @@ List<ExpeditionInTierData>: TierA
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -153,7 +189,6 @@ List<ExpeditionInTierData>: TierA
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: ThirdLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -164,6 +199,7 @@ List<ExpeditionInTierData>: TierA
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -173,6 +209,7 @@ List<ExpeditionInTierData>: TierA
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -186,13 +223,23 @@ List<ExpeditionInTierData>: TierA
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
+   List<DimensionInExpeditionData>: DimensionDatas
+      (enum) eDimensionIndex: DimensionIndex
+      UInt32: DimensionData
+      Boolean: Enabled
+   UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
+      Single: InfectionLevelAtExpeditionStart
+      Single: HealthLevelAtExpeditionStart
 List<ExpeditionInTierData>: TierB
    Int32: HostIDSeed
    Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
+   ExpeditionIndex: UnlockedByExpedition
+      (enum) eRundownTier: Tier
+      (enum) eBuildAutoExpeditionNumber: Exp
    RundownTierProgressionData: CustomProgressionLock
       Int32: MainSectors
       Int32: SecondarySectors
@@ -202,10 +249,20 @@ List<ExpeditionInTierData>: TierB
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
-      String: EstimatedDuration
-      String: ExpeditionDescription
-      String: RoleplayedWardenIntel
+      LocalizedText: EstimatedDuration
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: ExpeditionDescription
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: RoleplayedWardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -220,9 +277,13 @@ List<ExpeditionInTierData>: TierB
       UInt32: ExpeditionBalance
       UInt32: ScoutWaveSettings
       UInt32: ScoutWavePopulation
+      Single: EnvironmentWetness
+      Color: DustColor
+      Single: DustTurbulence
+   VanityItemsDropData: VanityItemsDropData
+      List<UInt32>: Groups
    UInt32: LevelLayoutData
    LayerData: MainLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -233,6 +294,7 @@ List<ExpeditionInTierData>: TierB
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -242,6 +304,7 @@ List<ExpeditionInTierData>: TierB
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -261,7 +324,6 @@ List<ExpeditionInTierData>: TierB
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: SecondaryLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -272,6 +334,7 @@ List<ExpeditionInTierData>: TierB
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -281,6 +344,7 @@ List<ExpeditionInTierData>: TierB
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -300,7 +364,6 @@ List<ExpeditionInTierData>: TierB
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: ThirdLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -311,6 +374,7 @@ List<ExpeditionInTierData>: TierB
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -320,6 +384,7 @@ List<ExpeditionInTierData>: TierB
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -333,13 +398,23 @@ List<ExpeditionInTierData>: TierB
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
+   List<DimensionInExpeditionData>: DimensionDatas
+      (enum) eDimensionIndex: DimensionIndex
+      UInt32: DimensionData
+      Boolean: Enabled
+   UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
+      Single: InfectionLevelAtExpeditionStart
+      Single: HealthLevelAtExpeditionStart
 List<ExpeditionInTierData>: TierC
    Int32: HostIDSeed
    Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
+   ExpeditionIndex: UnlockedByExpedition
+      (enum) eRundownTier: Tier
+      (enum) eBuildAutoExpeditionNumber: Exp
    RundownTierProgressionData: CustomProgressionLock
       Int32: MainSectors
       Int32: SecondarySectors
@@ -349,10 +424,20 @@ List<ExpeditionInTierData>: TierC
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
-      String: EstimatedDuration
-      String: ExpeditionDescription
-      String: RoleplayedWardenIntel
+      LocalizedText: EstimatedDuration
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: ExpeditionDescription
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: RoleplayedWardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -367,9 +452,13 @@ List<ExpeditionInTierData>: TierC
       UInt32: ExpeditionBalance
       UInt32: ScoutWaveSettings
       UInt32: ScoutWavePopulation
+      Single: EnvironmentWetness
+      Color: DustColor
+      Single: DustTurbulence
+   VanityItemsDropData: VanityItemsDropData
+      List<UInt32>: Groups
    UInt32: LevelLayoutData
    LayerData: MainLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -380,6 +469,7 @@ List<ExpeditionInTierData>: TierC
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -389,6 +479,7 @@ List<ExpeditionInTierData>: TierC
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -408,7 +499,6 @@ List<ExpeditionInTierData>: TierC
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: SecondaryLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -419,6 +509,7 @@ List<ExpeditionInTierData>: TierC
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -428,6 +519,7 @@ List<ExpeditionInTierData>: TierC
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -447,7 +539,6 @@ List<ExpeditionInTierData>: TierC
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: ThirdLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -458,6 +549,7 @@ List<ExpeditionInTierData>: TierC
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -467,6 +559,7 @@ List<ExpeditionInTierData>: TierC
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -480,13 +573,23 @@ List<ExpeditionInTierData>: TierC
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
+   List<DimensionInExpeditionData>: DimensionDatas
+      (enum) eDimensionIndex: DimensionIndex
+      UInt32: DimensionData
+      Boolean: Enabled
+   UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
+      Single: InfectionLevelAtExpeditionStart
+      Single: HealthLevelAtExpeditionStart
 List<ExpeditionInTierData>: TierD
    Int32: HostIDSeed
    Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
+   ExpeditionIndex: UnlockedByExpedition
+      (enum) eRundownTier: Tier
+      (enum) eBuildAutoExpeditionNumber: Exp
    RundownTierProgressionData: CustomProgressionLock
       Int32: MainSectors
       Int32: SecondarySectors
@@ -496,10 +599,20 @@ List<ExpeditionInTierData>: TierD
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
-      String: EstimatedDuration
-      String: ExpeditionDescription
-      String: RoleplayedWardenIntel
+      LocalizedText: EstimatedDuration
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: ExpeditionDescription
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: RoleplayedWardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -514,9 +627,13 @@ List<ExpeditionInTierData>: TierD
       UInt32: ExpeditionBalance
       UInt32: ScoutWaveSettings
       UInt32: ScoutWavePopulation
+      Single: EnvironmentWetness
+      Color: DustColor
+      Single: DustTurbulence
+   VanityItemsDropData: VanityItemsDropData
+      List<UInt32>: Groups
    UInt32: LevelLayoutData
    LayerData: MainLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -527,6 +644,7 @@ List<ExpeditionInTierData>: TierD
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -536,6 +654,7 @@ List<ExpeditionInTierData>: TierD
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -555,7 +674,6 @@ List<ExpeditionInTierData>: TierD
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: SecondaryLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -566,6 +684,7 @@ List<ExpeditionInTierData>: TierD
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -575,6 +694,7 @@ List<ExpeditionInTierData>: TierD
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -594,7 +714,6 @@ List<ExpeditionInTierData>: TierD
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: ThirdLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -605,6 +724,7 @@ List<ExpeditionInTierData>: TierD
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -614,6 +734,7 @@ List<ExpeditionInTierData>: TierD
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -627,13 +748,23 @@ List<ExpeditionInTierData>: TierD
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
+   List<DimensionInExpeditionData>: DimensionDatas
+      (enum) eDimensionIndex: DimensionIndex
+      UInt32: DimensionData
+      Boolean: Enabled
+   UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
+      Single: InfectionLevelAtExpeditionStart
+      Single: HealthLevelAtExpeditionStart
 List<ExpeditionInTierData>: TierE
    Int32: HostIDSeed
    Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
+   ExpeditionIndex: UnlockedByExpedition
+      (enum) eRundownTier: Tier
+      (enum) eBuildAutoExpeditionNumber: Exp
    RundownTierProgressionData: CustomProgressionLock
       Int32: MainSectors
       Int32: SecondarySectors
@@ -643,10 +774,20 @@ List<ExpeditionInTierData>: TierE
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
-      String: EstimatedDuration
-      String: ExpeditionDescription
-      String: RoleplayedWardenIntel
+      LocalizedText: EstimatedDuration
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: ExpeditionDescription
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: RoleplayedWardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -661,9 +802,13 @@ List<ExpeditionInTierData>: TierE
       UInt32: ExpeditionBalance
       UInt32: ScoutWaveSettings
       UInt32: ScoutWavePopulation
+      Single: EnvironmentWetness
+      Color: DustColor
+      Single: DustTurbulence
+   VanityItemsDropData: VanityItemsDropData
+      List<UInt32>: Groups
    UInt32: LevelLayoutData
    LayerData: MainLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -674,6 +819,7 @@ List<ExpeditionInTierData>: TierE
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -683,6 +829,7 @@ List<ExpeditionInTierData>: TierE
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -702,7 +849,6 @@ List<ExpeditionInTierData>: TierE
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: SecondaryLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -713,6 +859,7 @@ List<ExpeditionInTierData>: TierE
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -722,6 +869,7 @@ List<ExpeditionInTierData>: TierE
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -741,7 +889,6 @@ List<ExpeditionInTierData>: TierE
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
    LayerData: ThirdLayerData
-      Int32: ZoneAliasStart
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
          (enum) eLocalZoneIndex: ZoneIndex
@@ -752,6 +899,7 @@ List<ExpeditionInTierData>: TierE
          Int32: AreaSeedOffset
          Int32: MarkerSeedOffset
       List<List<ZonePlacementData>>: BulkheadKeyPlacements
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
@@ -761,6 +909,7 @@ List<ExpeditionInTierData>: TierE
          UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
             ZonePlacementWeights: Weights
                Single: Start
@@ -774,8 +923,15 @@ List<ExpeditionInTierData>: TierE
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
+   List<DimensionInExpeditionData>: DimensionDatas
+      (enum) eDimensionIndex: DimensionIndex
+      UInt32: DimensionData
+      Boolean: Enabled
+   UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
       Single: WeakResourceContainerWithPackChanceForLocked
+      Single: InfectionLevelAtExpeditionStart
+      Single: HealthLevelAtExpeditionStart
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

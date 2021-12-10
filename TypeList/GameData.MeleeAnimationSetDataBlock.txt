@@ -1,0 +1,351 @@
+Single: HoldToChargeTime
+Single: MaxDamageChargeTime
+Single: AutoAttackTime
+Single: AutoAttackWarningTime
+AnimHash: FPIdleAnim
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPSettleAnim
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPWalkAnim
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPRunAnim
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPJumpAnim
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPLandAnim
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPChargeCancelAnimRight
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: FPChargeCancelAnimLeft
+   String: m_anim
+   Int32: m_hash
+   String: Name
+MeleeAttackData: FPAttackMissRight
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackMissLeft
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackHitRight
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackHitLeft
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackPush
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackChargeUpRight
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackChargeUpLeft
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackChargeUpReleaseRight
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackChargeUpReleaseLeft
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackChargeUpHitRight
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+MeleeAttackData: FPAttackChargeUpHitLeft
+   Single: AttackLengthTime
+   Single: AttackHitTime
+   Single: DamageStartTime
+   Single: DamageEndTime
+   Single: AttackCamFwdHitTime
+   Single: ComboEarlyTime
+   Single: m_attackLengthFrameTime
+   Single: m_attackHitFrameTime
+   Single: m_damageStartFrameTime
+   Single: m_damageEndFrameTime
+   Single: m_attackCamFwdHitFrameTime
+   Single: m_comboEarlyFrameTime
+   (enum) eMeleeAttackSide: Side
+   AnimHash: Anim
+      String: m_anim
+      Int32: m_hash
+      String: Name
+   Single: AnimBlendIn
+   Single: AttackLengthFrameTime
+   Single: AttackHitFrameTime
+   Single: DamageStartFrameTime
+   Single: DamageEndFrameTime
+   Single: AttackCamFwdHitFrameTime
+   Single: ComboEarlyFrameTime
+AnimHash: TPAnimHashIdle
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashIdleCrouch
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashAttackLeft
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashAttackLeftCrouch
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashAttackLeftCharge
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashAttackLeftChargeCrouch
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashAttackLeftRelease
+   String: m_anim
+   Int32: m_hash
+   String: Name
+AnimHash: TPAnimHashAttackLeftReleaseCrouch
+   String: m_anim
+   Int32: m_hash
+   String: Name
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

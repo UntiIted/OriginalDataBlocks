@@ -4,12 +4,26 @@
     {
       "SFX_ID_walk": 1201976284,
       "SFX_ID_run": 1727064594,
-      "SFX_ID_climbLadder": 0,
+      "SFX_ID_climbLadder": 1923878719,
       "SFX_ID_heartbeatPulse": 2209321909,
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0
+        "y": 120.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 134.164078,
+        "sqrMagnitude": 18000.0
       },
       "SFX_ID_hibernateWakeUp": 3084824106,
       "SFX_ID_hibernateDie": 3186730326,
@@ -41,7 +55,21 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0
+        "y": 120.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 134.164078,
+        "sqrMagnitude": 18000.0
       },
       "SFX_ID_hibernateWakeUp": 2551787008,
       "SFX_ID_hibernateDie": 3186730326,
@@ -73,7 +101,21 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0
+        "y": 120.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 134.164078,
+        "sqrMagnitude": 18000.0
       },
       "SFX_ID_hibernateWakeUp": 3084824106,
       "SFX_ID_hibernateDie": 3186730326,
@@ -98,6 +140,52 @@
       "persistentID": 21
     },
     {
+      "SFX_ID_walk": 4100652819,
+      "SFX_ID_run": 0,
+      "SFX_ID_climbLadder": 0,
+      "SFX_ID_heartbeatPulse": 0,
+      "SFX_ID_hibernateIdle": 2209321909,
+      "hibernateIdleInterval": {
+        "x": 60.0,
+        "y": 120.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 134.164078,
+        "sqrMagnitude": 18000.0
+      },
+      "SFX_ID_hibernateWakeUp": 0,
+      "SFX_ID_hibernateDie": 242958158,
+      "SFX_ID_hibernateDetectionStart": 1777084894,
+      "SFX_ID_scream": 1082079783,
+      "SFX_ID_stuckInGlue": 2715055823,
+      "SFX_ID_releaseFromGlue": 1082079783,
+      "SFX_ID_attackWindUp": 1664829928,
+      "SFX_ID_attackWindUp_NotLocalTarget": 0,
+      "SFX_ID_attackFire": 3016321729,
+      "SFX_ID_hurtSmall": 2715055823,
+      "SFX_ID_hurtBig": 2652400352,
+      "SFX_ID_die": 242958158,
+      "SFX_ID_JumpStart": 0,
+      "SFX_ID_JumpInAir": 0,
+      "SFX_ID_JumpLand": 0,
+      "SFX_ID_BigTentacleStart": 0,
+      "SFX_ID_BigTentacleTipLoop": 0,
+      "SFX_ID_BigTentacleEnd": 0,
+      "name": "Flyer",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
       "SFX_ID_walk": 1368628755,
       "SFX_ID_run": 327950447,
       "SFX_ID_climbLadder": 0,
@@ -105,7 +193,21 @@
       "SFX_ID_hibernateIdle": 3926204953,
       "hibernateIdleInterval": {
         "x": 30.0,
-        "y": 60.0
+        "y": 60.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 67.08204,
+        "sqrMagnitude": 4500.0
       },
       "SFX_ID_hibernateWakeUp": 1279753767,
       "SFX_ID_hibernateDie": 1876616065,
@@ -137,7 +239,21 @@
       "SFX_ID_hibernateIdle": 2748640458,
       "hibernateIdleInterval": {
         "x": 30.0,
-        "y": 60.0
+        "y": 60.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 67.08204,
+        "sqrMagnitude": 4500.0
       },
       "SFX_ID_hibernateWakeUp": 1674708380,
       "SFX_ID_hibernateDie": 1431152350,
@@ -169,7 +285,9 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "SFX_ID_hibernateWakeUp": 1690228896,
       "SFX_ID_hibernateDie": 0,
@@ -201,7 +319,9 @@
       "SFX_ID_hibernateIdle": 0,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "SFX_ID_hibernateWakeUp": 431483632,
       "SFX_ID_hibernateDie": 493397974,
@@ -233,7 +353,9 @@
       "SFX_ID_hibernateIdle": 3676707439,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "SFX_ID_hibernateWakeUp": 3805227207,
       "SFX_ID_hibernateDie": 1242392806,
@@ -265,7 +387,9 @@
       "SFX_ID_hibernateIdle": 3863401504,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "SFX_ID_hibernateWakeUp": 331334693,
       "SFX_ID_hibernateDie": 521334375,
@@ -293,11 +417,13 @@
       "SFX_ID_walk": 1201976284,
       "SFX_ID_run": 1727064594,
       "SFX_ID_climbLadder": 1923878719,
-      "SFX_ID_heartbeatPulse": 2209321909,
+      "SFX_ID_heartbeatPulse": 3978814126,
       "SFX_ID_hibernateIdle": 3926204953,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "SFX_ID_hibernateWakeUp": 3580112372,
       "SFX_ID_hibernateDie": 0,
@@ -329,7 +455,9 @@
       "SFX_ID_hibernateIdle": 3926204953,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "SFX_ID_hibernateWakeUp": 3580112372,
       "SFX_ID_hibernateDie": 0,
@@ -361,7 +489,21 @@
       "SFX_ID_hibernateIdle": 3676707439,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0
+        "y": 120.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 134.164078,
+        "sqrMagnitude": 18000.0
       },
       "SFX_ID_hibernateWakeUp": 2597495015,
       "SFX_ID_hibernateDie": 3186730326,
@@ -384,7 +526,41 @@
       "name": "Striker_Bullrush",
       "internalEnabled": true,
       "persistentID": 28
+    },
+    {
+      "SFX_ID_walk": 0,
+      "SFX_ID_run": 0,
+      "SFX_ID_climbLadder": 0,
+      "SFX_ID_heartbeatPulse": 0,
+      "SFX_ID_hibernateIdle": 0,
+      "hibernateIdleInterval": {
+        "x": 0.0,
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "SFX_ID_hibernateWakeUp": 0,
+      "SFX_ID_hibernateDie": 0,
+      "SFX_ID_hibernateDetectionStart": 0,
+      "SFX_ID_scream": 0,
+      "SFX_ID_stuckInGlue": 0,
+      "SFX_ID_releaseFromGlue": 0,
+      "SFX_ID_attackWindUp": 0,
+      "SFX_ID_attackWindUp_NotLocalTarget": 0,
+      "SFX_ID_attackFire": 0,
+      "SFX_ID_hurtSmall": 0,
+      "SFX_ID_hurtBig": 0,
+      "SFX_ID_die": 755451385,
+      "SFX_ID_JumpStart": 0,
+      "SFX_ID_JumpInAir": 0,
+      "SFX_ID_JumpLand": 0,
+      "SFX_ID_BigTentacleStart": 0,
+      "SFX_ID_BigTentacleTipLoop": 0,
+      "SFX_ID_BigTentacleEnd": 0,
+      "name": "Squid_Boss",
+      "internalEnabled": true,
+      "persistentID": 36
     }
   ],
-  "LastPersistentID": 34
+  "LastPersistentID": 36
 }

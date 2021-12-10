@@ -10942,7 +10942,7 @@
             "Shard": "S14"
           },
           {
-            "weight": 1.0,
+            "weight": 1.5,
             "prefab": "Assets/AssetPrefabs/Complex/Mining/Props/refinery/refinery_room_huge_elev_4400x2800x2000/mining_refinery_room_huge_elev_4400x2800x2000_v03.prefab",
             "function": "None",
             "Shard": "S14"
@@ -15025,7 +15025,59 @@
       "name": "mining_HSU_100x200x75",
       "internalEnabled": true,
       "persistentID": 136
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Mini.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Mining",
+        "Group": 6,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/SM_DataCenter_120x50x120",
+        "BoundingVolume": 720.0
+      },
+      "name": "mining_function_submarker_120x50x120",
+      "internalEnabled": true,
+      "persistentID": 153
     }
   ],
-  "LastPersistentID": 152
+  "LastPersistentID": 153
 }

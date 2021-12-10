@@ -1,0 +1,49 @@
+Boolean: SkipLocalization
+String: English
+Int32: MaxCharacterLength
+String: Description
+UInt32: CharacterMetaData
+(enum) Mood: Mood
+LanguageData: French
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Italian
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: German
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Spanish
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Russian
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Portuguese_Brazil
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Polish
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Japanese
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Korean
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Chinese_Traditional
+   String: Translation
+   Boolean: ShouldTranslate
+LanguageData: Chinese_Simplified
+   String: Translation
+   Boolean: ShouldTranslate
+Int32: ExportVersion
+Int32: ImportVersion
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

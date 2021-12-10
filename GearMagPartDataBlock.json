@@ -273,7 +273,22 @@
       "name": "Mag_12G_20rnds",
       "internalEnabled": true,
       "persistentID": 18
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_12G_04rnds_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S7"
+      },
+      "Aligns": [],
+      "name": "Mag_12G_04rnds",
+      "internalEnabled": true,
+      "persistentID": 19
     }
   ],
-  "LastPersistentID": 18
+  "LastPersistentID": 19
 }

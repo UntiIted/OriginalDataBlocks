@@ -294,11 +294,10 @@
     {
       "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_3.prefab",
-        "Children": [
-          "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_3_GripAlign.fbx"
-        ],
+        "Children": [],
         "GearCategoryFilter": 0,
-        "LeftHandGripAnim": "Front_AutoShootgun_3",
+        "LeftHandGripAnim": "Front_AutoShotgun_3_idle",
+        "RightHandGripAnim": "Front_AutoShotgun_3_idle",
         "AssetBundle": "Gear_Weapon_Front",
         "BundleShard": "S1"
       },
@@ -313,7 +312,7 @@
         },
         {
           "AlignType": "Magazine",
-          "AlignName": "Front_Mag"
+          "AlignName": "a_mag"
         },
         {
           "AlignType": "Flashlight",
@@ -322,6 +321,10 @@
         {
           "AlignType": "LeftHand",
           "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
         }
       ],
       "FireSequence": [],
@@ -329,29 +332,54 @@
         {
           "TriggerTime": 0.0,
           "Type": "WeaponMovementAnim",
-          "StringData": "RifleReload_bump"
+          "StringData": "Front_AutoShotgun_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "FrontPartAnim",
+          "StringData": "Front_AutoShotgun_3_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Front_AutoShotgun_3_reload"
         },
         {
           "TriggerTime": 0.0,
           "Type": "Sound",
-          "StringData": "CARBINE_RELOAD_3_FOLEY"
+          "StringData": "generic_reload_foley_quick"
         },
         {
-          "TriggerTime": 0.1,
+          "TriggerTime": 0.5,
           "Type": "Sound",
-          "StringData": "CARBINE_RELOAD_1_MAG_OUT"
+          "StringData": "generic_reload_pat_soft"
         },
         {
-          "TriggerTime": 0.8,
+          "TriggerTime": 0.6,
           "Type": "Sound",
-          "StringData": "CARBINE_RELOAD_2_MAG_IN"
+          "StringData": "cannon_reload_mag_out"
         },
         {
-          "TriggerTime": 0.85,
-          "Type": "DoUpdateAmmo"
+          "TriggerTime": 1.5,
+          "Type": "Sound",
+          "StringData": "cannon_reload_foley_move"
         },
         {
           "TriggerTime": 2.0,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 2.5,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.7,
           "Type": "Empty"
         }
       ],
@@ -1291,7 +1319,7 @@
         {
           "TriggerTime": 0.0,
           "Type": "WeaponMovementAnim",
-          "StringData": "PrecisionReload_Front_Precision_1_reload"
+          "StringData": "Front_Precision_1_reload"
         },
         {
           "TriggerTime": 0.0,
@@ -1314,7 +1342,7 @@
           "StringData": "cannon_reload_foley_move"
         },
         {
-          "TriggerTime": 0.5,
+          "TriggerTime": 0.6,
           "Type": "Sound",
           "StringData": "cannon_reload_mag_out"
         },
@@ -1329,31 +1357,31 @@
           "StringData": "generic_reload_foley_quick"
         },
         {
-          "TriggerTime": 1.1,
+          "TriggerTime": 1.7,
+          "Type": "Sound",
+          "StringData": "carbine_mag_bump"
+        },
+        {
+          "TriggerTime": 2.0,
           "Type": "Sound",
           "StringData": "cannon_reload_mag_in"
         },
         {
-          "TriggerTime": 1.15,
+          "TriggerTime": 2.0,
           "Type": "DoUpdateAmmo"
         },
         {
-          "TriggerTime": 1.4,
-          "Type": "Sound",
-          "StringData": "generic_reload_pat_soft"
-        },
-        {
-          "TriggerTime": 1.45,
+          "TriggerTime": 2.2,
           "Type": "Sound",
           "StringData": "cannon_reload_foley_move"
         },
         {
-          "TriggerTime": 1.55,
+          "TriggerTime": 2.6,
           "Type": "Sound",
           "StringData": "generic_reload_grab_heavy_weapon"
         },
         {
-          "TriggerTime": 2.0,
+          "TriggerTime": 2.9,
           "Type": "Empty"
         }
       ],
@@ -1395,17 +1423,32 @@
       ],
       "FireSequence": [
         {
-          "TriggerTime": 0.0,
+          "TriggerTime": 0.28,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_1_fire"
+        },
+        {
+          "TriggerTime": 0.28,
           "Type": "FrontPartAnim",
           "StringData": "Front_Shotgun_1_pump"
         },
         {
-          "TriggerTime": 0.0,
+          "TriggerTime": 0.28,
           "Type": "LeftHandAnim",
           "StringData": "Front_Shotgun_1_pump"
         },
         {
-          "TriggerTime": 0.8,
+          "TriggerTime": 0.38,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_cock_back"
+        },
+        {
+          "TriggerTime": 0.58,
+          "Type": "Sound",
+          "StringData": "shotgun_reload_cock_forward"
+        },
+        {
+          "TriggerTime": 1.08,
           "Type": "Empty",
           "StringData": ""
         }
@@ -1437,17 +1480,12 @@
           "StringData": "generic_reload_foley_subtle"
         },
         {
-          "TriggerTime": 0.3,
-          "Type": "Sound",
-          "StringData": "shotgun_reload_1_shell_in"
-        },
-        {
-          "TriggerTime": 0.5,
+          "TriggerTime": 0.4,
           "Type": "Sound",
           "StringData": "generic_reload_foley_quick_soft"
         },
         {
-          "TriggerTime": 0.9,
+          "TriggerTime": 0.7,
           "Type": "Sound",
           "StringData": "shotgun_reload_1_shell_in"
         },
@@ -1476,7 +1514,7 @@
           "StringData": "shotgun_reload_cock_back"
         },
         {
-          "TriggerTime": 1.76,
+          "TriggerTime": 1.88,
           "Type": "Sound",
           "StringData": "shotgun_reload_cock_forward"
         },

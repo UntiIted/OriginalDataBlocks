@@ -15,6 +15,42 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Bat_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
+      "name": "Pommel_Bat_1",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Spear_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
+      "name": "Pommel_Spear_1",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Knife_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
+      "name": "Pommel_Knife_1",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Hammer_1.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Melee_Pommel",
@@ -86,5 +122,5 @@
       "persistentID": 8
     }
   ],
-  "LastPersistentID": 9
+  "LastPersistentID": 12
 }

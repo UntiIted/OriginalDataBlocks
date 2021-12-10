@@ -790,6 +790,68 @@
           [],
           [],
           [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_04.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_06.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 0.5,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_05.prefab",
+            "function": "None",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.25,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "",
+        "BoundingVolume": 0.0
+      },
+      "name": "Tech_light_submarker_door_4x4",
+      "internalEnabled": true,
+      "persistentID": 25
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
           [
             5
           ],
@@ -881,6 +943,110 @@
         "FunctionComponentLinks": [
           [],
           [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_weak_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          },
+          {
+            "weight": 50.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 15.0
+      },
+      "name": "Tech_container_locker_Weak_only200x300x50",
+      "internalEnabled": true,
+      "persistentID": 76
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_container_locker_200x300x50/Tech_locker_terminal_200x300x50_01.prefab",
+            "function": "Terminal",
+            "Shard": "S20"
+          },
+          {
+            "weight": 50.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 10,
+        "FunctionPotential": 2.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "Tech_Terminal_Only_200x300x50",
+      "internalEnabled": true,
+      "persistentID": 77
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
           [
             0
           ],
@@ -927,68 +1093,6 @@
       "name": "Tech_bulkhead_controller_200x300x50",
       "internalEnabled": true,
       "persistentID": 75
-    },
-    {
-      "CommonData": {
-        "FunctionComponentLinks": [
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          []
-        ],
-        "Compositions": [
-          {
-            "weight": 1.0,
-            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_04.prefab",
-            "function": "None",
-            "Shard": "S20"
-          },
-          {
-            "weight": 1.0,
-            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_06.prefab",
-            "function": "None",
-            "Shard": "S20"
-          },
-          {
-            "weight": 0.5,
-            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_05.prefab",
-            "function": "None",
-            "Shard": "S20"
-          },
-          {
-            "weight": 1.25,
-            "function": "None",
-            "Shard": "S20"
-          }
-        ],
-        "AssetBundleName": "Complex_Tech",
-        "Group": 10,
-        "FunctionPotential": 1.0,
-        "RotationSnap": 0,
-        "RotationNoise": 0.0,
-        "EditorMesh": "",
-        "BoundingVolume": 0.0
-      },
-      "name": "Tech_light_submarker_door_4x4",
-      "internalEnabled": true,
-      "persistentID": 25
     },
     {
       "CommonData": {
@@ -6806,5 +6910,5 @@
       "persistentID": 58
     }
   ],
-  "LastPersistentID": 75
+  "LastPersistentID": 77
 }

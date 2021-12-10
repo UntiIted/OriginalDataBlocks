@@ -1,0 +1,178 @@
+{
+  "Headers": [
+    {
+      "AboveBlockID": 3,
+      "LabelText": "DO NOT DELETE",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 8,
+      "LabelText": "R6 Intro Drops",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 14,
+      "LabelText": "R6 Drops",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 17,
+      "LabelText": "R6 Completed Drops",
+      "FoldoutStatus": true
+    }
+  ],
+  "Blocks": [
+    {
+      "Items": [
+        21,
+        5,
+        18,
+        19
+      ],
+      "name": "Initial Helmet DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "Items": [
+        17,
+        2
+      ],
+      "name": "Initial Torso DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "Items": [
+        16,
+        4
+      ],
+      "name": "Initial Legs DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "Items": [
+        15
+      ],
+      "name": "Initial Backpack DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "Items": [
+        55
+      ],
+      "name": "Initial Palette DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "Items": [
+        59
+      ],
+      "name": "EarlyAccessDrops DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "Items": [
+        5,
+        18,
+        19,
+        20,
+        21,
+        33,
+        34,
+        35,
+        2,
+        17,
+        41,
+        9,
+        24,
+        12,
+        4,
+        10,
+        16,
+        23,
+        13,
+        3,
+        15,
+        11,
+        22,
+        14,
+        7,
+        25,
+        26,
+        30,
+        31,
+        32
+      ],
+      "name": "MainStoryDrops",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "Items": [
+        45,
+        46,
+        47,
+        48,
+        40,
+        49,
+        43,
+        36,
+        37,
+        54,
+        56
+      ],
+      "name": "SecondaryDrops",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "Items": [
+        42,
+        38,
+        51,
+        52
+      ],
+      "name": "OverloadDrops",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "Items": [
+        57
+      ],
+      "name": "MainCompletedDrops",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "Items": [
+        58
+      ],
+      "name": "StoryCompletedDrops",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "Items": [
+        53
+      ],
+      "name": "SecondaryCompletedDrops",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "Items": [
+        50
+      ],
+      "name": "OverloadCompletedDrops",
+      "internalEnabled": true,
+      "persistentID": 20
+    }
+  ],
+  "LastPersistentID": 20
+}

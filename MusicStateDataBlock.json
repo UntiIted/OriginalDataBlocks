@@ -363,6 +363,9 @@
         },
         {
           "eventName": "music_combat"
+        },
+        {
+          "eventName": "stop_voice_logs"
         }
       ],
       "m_SwitchesOnEnter": [],

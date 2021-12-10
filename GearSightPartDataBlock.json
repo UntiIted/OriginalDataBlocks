@@ -318,6 +318,27 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_23.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S5"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 20,
+        "WorldFovZoom": 41
+      },
+      "name": "Sight_23",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_13.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Sight",
@@ -402,6 +423,27 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_22.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Sight",
+        "BundleShard": "S9"
+      },
+      "Aligns": [
+        {
+          "AlignType": "SightLook",
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 4,
+        "WorldFovZoom": 17
+      },
+      "name": "Sight_22",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_4.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Sight",
@@ -456,8 +498,8 @@
         }
       ],
       "SightProperties": {
-        "GearFovZoom": 35,
-        "WorldFovZoom": 55
+        "GearFovZoom": 32,
+        "WorldFovZoom": 54
       },
       "name": "Sight_Empty",
       "internalEnabled": true,
@@ -863,5 +905,5 @@
       "persistentID": 44
     }
   ],
-  "LastPersistentID": 44
+  "LastPersistentID": 46
 }

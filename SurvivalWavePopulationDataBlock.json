@@ -1,5 +1,36 @@
 {
-  "Headers": [],
+  "Headers": [
+    {
+      "AboveBlockID": 1,
+      "LabelText": "Baseline",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 22,
+      "LabelText": "Bigs",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 5,
+      "LabelText": "Bullrush",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 6,
+      "LabelText": "Reactor",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 3,
+      "LabelText": "Other",
+      "FoldoutStatus": true
+    },
+    {
+      "AboveBlockID": 21,
+      "LabelText": "Modified Baseline",
+      "FoldoutStatus": true
+    }
+  ],
   "Blocks": [
     {
       "WaveRoleWeakling": 21,
@@ -15,11 +46,101 @@
       "WaveRoleWeakling": 21,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 36,
+      "WaveRoleBoss": 36,
+      "name": "Baseline MB-Birther",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 33,
+      "name": "Baseline MB-Hybrid",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 13,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 39,
+      "name": "Baseline M-Hybrid No Shooter",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 11,
       "WaveRoleMiniBoss": 30,
       "WaveRoleBoss": 18,
-      "name": "Baseline_minibossbull",
+      "name": "Baseline M-Bullrush",
       "internalEnabled": true,
       "persistentID": 23
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 21,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 18,
+      "name": "Baseline Sp-Shadows",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 39,
+      "name": "Modified Sp-StrikerBig",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 13,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 11,
+      "name": "Modified S-Flyer",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 11,
+      "name": "Modified S-Flyer_V2",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "WaveRoleWeakling": 11,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 33,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 39,
+      "name": "Modified Sp-Hybrid",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "WaveRoleWeakling": 16,
+      "WaveRoleStandard": 16,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 18,
+      "WaveRoleBoss": 29,
+      "name": "BigsAndBosses",
+      "internalEnabled": true,
+      "persistentID": 22
     },
     {
       "WaveRoleWeakling": 16,
@@ -27,7 +148,17 @@
       "WaveRoleSpecial": 33,
       "WaveRoleMiniBoss": 18,
       "WaveRoleBoss": 29,
-      "name": "BigsAndBosses",
+      "name": "BigsAndBosses_v2",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "WaveRoleWeakling": 16,
+      "WaveRoleStandard": 33,
+      "WaveRoleSpecial": 33,
+      "WaveRoleMiniBoss": 18,
+      "WaveRoleBoss": 29,
+      "name": "BigsAndBosses S-Hybrid",
       "internalEnabled": true,
       "persistentID": 20
     },
@@ -35,21 +166,21 @@
       "WaveRoleWeakling": 16,
       "WaveRoleStandard": 16,
       "WaveRoleSpecial": 16,
-      "WaveRoleMiniBoss": 18,
-      "WaveRoleBoss": 29,
-      "name": "BigsAndBosses_normalshooters",
-      "internalEnabled": true,
-      "persistentID": 22
-    },
-    {
-      "WaveRoleWeakling": 16,
-      "WaveRoleStandard": 16,
-      "WaveRoleSpecial": 16,
       "WaveRoleMiniBoss": 33,
       "WaveRoleBoss": 29,
-      "name": "BigsAndBosses_rapids",
+      "name": "BigsAndBosses M-Hybrid",
       "internalEnabled": true,
       "persistentID": 25
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 16,
+      "WaveRoleSpecial": 13,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 16,
+      "name": "StrikerBigs",
+      "internalEnabled": true,
+      "persistentID": 4
     },
     {
       "WaveRoleWeakling": 29,
@@ -62,24 +193,34 @@
       "persistentID": 16
     },
     {
-      "WaveRoleWeakling": 21,
-      "WaveRoleStandard": 13,
-      "WaveRoleSpecial": 30,
-      "WaveRoleMiniBoss": 30,
-      "WaveRoleBoss": 16,
-      "name": "Baseline_smol_bullrush",
+      "WaveRoleWeakling": 36,
+      "WaveRoleStandard": 36,
+      "WaveRoleSpecial": 36,
+      "WaveRoleMiniBoss": 36,
+      "WaveRoleBoss": 36,
+      "name": "Birther",
       "internalEnabled": true,
-      "persistentID": 14
+      "persistentID": 31
     },
     {
-      "WaveRoleWeakling": 13,
+      "WaveRoleWeakling": 30,
       "WaveRoleStandard": 30,
-      "WaveRoleSpecial": 11,
-      "WaveRoleMiniBoss": 30,
+      "WaveRoleSpecial": 30,
+      "WaveRoleMiniBoss": 39,
       "WaveRoleBoss": 39,
-      "name": "Baseline_Bullrush",
+      "name": "Bullrush",
       "internalEnabled": true,
-      "persistentID": 13
+      "persistentID": 5
+    },
+    {
+      "WaveRoleWeakling": 39,
+      "WaveRoleStandard": 39,
+      "WaveRoleSpecial": 39,
+      "WaveRoleMiniBoss": 39,
+      "WaveRoleBoss": 39,
+      "name": "BullrushBigs",
+      "internalEnabled": true,
+      "persistentID": 15
     },
     {
       "WaveRoleWeakling": 30,
@@ -87,9 +228,19 @@
       "WaveRoleSpecial": 11,
       "WaveRoleMiniBoss": 39,
       "WaveRoleBoss": 16,
-      "name": "Baseline_Bullrush_mix",
+      "name": "Bullrush_mix",
       "internalEnabled": true,
       "persistentID": 17
+    },
+    {
+      "WaveRoleWeakling": 30,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 30,
+      "WaveRoleMiniBoss": 42,
+      "WaveRoleBoss": 16,
+      "name": "Bullrush_mix6",
+      "internalEnabled": true,
+      "persistentID": 36
     },
     {
       "WaveRoleWeakling": 30,
@@ -97,7 +248,7 @@
       "WaveRoleSpecial": 30,
       "WaveRoleMiniBoss": 39,
       "WaveRoleBoss": 33,
-      "name": "Baseline_Bullrush_mix_V2",
+      "name": "Bullrush_mix2",
       "internalEnabled": true,
       "persistentID": 19
     },
@@ -107,79 +258,39 @@
       "WaveRoleSpecial": 30,
       "WaveRoleMiniBoss": 33,
       "WaveRoleBoss": 39,
-      "name": "Baseline_Bullrush_mix_V3",
+      "name": "Bullrush_mix3",
       "internalEnabled": true,
       "persistentID": 24
     },
     {
-      "WaveRoleWeakling": 39,
-      "WaveRoleStandard": 39,
-      "WaveRoleSpecial": 39,
-      "WaveRoleMiniBoss": 39,
-      "WaveRoleBoss": 39,
-      "name": "Baseline_Bullrush_boss",
-      "internalEnabled": true,
-      "persistentID": 15
-    },
-    {
-      "WaveRoleWeakling": 21,
-      "WaveRoleStandard": 13,
-      "WaveRoleSpecial": 11,
-      "WaveRoleMiniBoss": 33,
-      "WaveRoleBoss": 33,
-      "name": "Baseline_rapid_shooter",
-      "internalEnabled": true,
-      "persistentID": 8
-    },
-    {
-      "WaveRoleWeakling": 21,
-      "WaveRoleStandard": 13,
-      "WaveRoleSpecial": 11,
-      "WaveRoleMiniBoss": 36,
-      "WaveRoleBoss": 36,
-      "name": "Baseline_birther",
-      "internalEnabled": true,
-      "persistentID": 12
-    },
-    {
-      "WaveRoleWeakling": 21,
-      "WaveRoleStandard": 13,
-      "WaveRoleSpecial": 13,
-      "WaveRoleMiniBoss": 33,
-      "WaveRoleBoss": 39,
-      "name": "Baseline_rapid_e1",
-      "internalEnabled": true,
-      "persistentID": 11
-    },
-    {
       "WaveRoleWeakling": 13,
-      "WaveRoleStandard": 13,
-      "WaveRoleSpecial": 33,
-      "WaveRoleMiniBoss": 16,
+      "WaveRoleStandard": 30,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 30,
       "WaveRoleBoss": 39,
-      "name": "Modified_rapid_shooter",
+      "name": "Bullrush_mix4",
       "internalEnabled": true,
-      "persistentID": 9
+      "persistentID": 13
     },
     {
-      "WaveRoleWeakling": 13,
+      "WaveRoleWeakling": 21,
       "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 30,
+      "WaveRoleMiniBoss": 30,
+      "WaveRoleBoss": 16,
+      "name": "Bullrush_mix5",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "WaveRoleWeakling": 30,
+      "WaveRoleStandard": 16,
       "WaveRoleSpecial": 16,
-      "WaveRoleMiniBoss": 16,
-      "WaveRoleBoss": 39,
-      "name": "Modified_striker_big",
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 16,
+      "name": "BigsAndHybrid",
       "internalEnabled": true,
-      "persistentID": 21
-    },
-    {
-      "WaveRoleWeakling": 21,
-      "WaveRoleStandard": 21,
-      "WaveRoleSpecial": 21,
-      "WaveRoleMiniBoss": 35,
-      "WaveRoleBoss": 35,
-      "name": "Shadows_only",
-      "internalEnabled": true,
-      "persistentID": 7
+      "persistentID": 28
     },
     {
       "WaveRoleWeakling": 21,
@@ -187,7 +298,7 @@
       "WaveRoleSpecial": 11,
       "WaveRoleMiniBoss": 16,
       "WaveRoleBoss": 39,
-      "name": "Baseline_Reactor",
+      "name": "Baseline Reactor",
       "internalEnabled": true,
       "persistentID": 6
     },
@@ -197,19 +308,9 @@
       "WaveRoleSpecial": 11,
       "WaveRoleMiniBoss": 33,
       "WaveRoleBoss": 16,
-      "name": "Baseline_Reactor_Rapid_shooter",
+      "name": "Baseline Reactor M-Hybrid",
       "internalEnabled": true,
       "persistentID": 10
-    },
-    {
-      "WaveRoleWeakling": 30,
-      "WaveRoleStandard": 30,
-      "WaveRoleSpecial": 30,
-      "WaveRoleMiniBoss": 39,
-      "WaveRoleBoss": 39,
-      "name": "Bullrush_Only",
-      "internalEnabled": true,
-      "persistentID": 5
     },
     {
       "WaveRoleWeakling": 11,
@@ -217,19 +318,39 @@
       "WaveRoleSpecial": 33,
       "WaveRoleMiniBoss": 33,
       "WaveRoleBoss": 18,
-      "name": "Shooters_Only",
+      "name": "Shooters",
       "internalEnabled": true,
       "persistentID": 3
     },
     {
       "WaveRoleWeakling": 21,
-      "WaveRoleStandard": 16,
-      "WaveRoleSpecial": 13,
-      "WaveRoleMiniBoss": 16,
-      "WaveRoleBoss": 16,
-      "name": "Baseline_big",
+      "WaveRoleStandard": 21,
+      "WaveRoleSpecial": 21,
+      "WaveRoleMiniBoss": 35,
+      "WaveRoleBoss": 35,
+      "name": "Shadows",
       "internalEnabled": true,
-      "persistentID": 4
+      "persistentID": 7
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 21,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 35,
+      "WaveRoleBoss": 35,
+      "name": "Shadows_Sp-Flyer",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "WaveRoleWeakling": 42,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 42,
+      "WaveRoleBoss": 42,
+      "name": "Flyers",
+      "internalEnabled": true,
+      "persistentID": 35
     },
     {
       "WaveRoleWeakling": 13,
@@ -237,10 +358,30 @@
       "WaveRoleSpecial": 13,
       "WaveRoleMiniBoss": 16,
       "WaveRoleBoss": 16,
-      "name": "Strikers_only",
+      "name": "Strikers",
       "internalEnabled": true,
       "persistentID": 18
+    },
+    {
+      "WaveRoleWeakling": 42,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 42,
+      "WaveRoleBoss": 42,
+      "name": "Boss_FlyerSpawn",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "WaveRoleWeakling": 44,
+      "WaveRoleStandard": 44,
+      "WaveRoleSpecial": 44,
+      "WaveRoleMiniBoss": 44,
+      "WaveRoleBoss": 44,
+      "name": "Boss_Squid",
+      "internalEnabled": true,
+      "persistentID": 34
     }
   ],
-  "LastPersistentID": 25
+  "LastPersistentID": 36
 }

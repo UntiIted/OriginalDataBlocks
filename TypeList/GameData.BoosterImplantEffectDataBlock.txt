@@ -1,8 +1,20 @@
-(enum) BoosterEffect: Effect
-String: PublicShortName
-String: PublicName
-String: Description
-String: DescriptionNegative
+(enum) AgentModifier: Effect
+LocalizedText: PublicShortName
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: PublicName
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: Description
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: DescriptionNegative
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 (enum) BoosterEffectCategory: BoosterEffectCategory
 String: name
 Boolean: internalEnabled

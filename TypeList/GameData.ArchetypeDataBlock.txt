@@ -1,8 +1,14 @@
-String: PublicName
-String: Description
+LocalizedText: PublicName
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: Description
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 (enum) eWeaponFireMode: FireMode
 UInt32: RecoilDataID
-(enum) BoosterEffect: DamageBoosterEffect
+(enum) AgentModifier: DamageBoosterEffect
 Single: Damage
 Vector2: DamageFalloff
 Single: StaggerDamageMulti

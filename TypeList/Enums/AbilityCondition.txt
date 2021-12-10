@@ -1,0 +1,11 @@
+None
+BossPhase0
+BossPhase1
+BossPhase2
+BossPhase3
+BossPhase4
+BossPhase5
+BossStateCombat
+BossStateSpawn
+BossStateRage
+BossStateIntro

@@ -60,9 +60,291 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Striker",
       "internalEnabled": true,
       "persistentID": 13
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 4.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 1.5,
+        "Max": 2.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 3.0,
+        "Max": 4.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 10.0,
+        "Max": 15.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 20.0
+      },
+      "RushTargetDistance": 10.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "IsFlyer": true,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 2.0,
+        "Max": 5.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "name": "Striker_Flyer",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 18.0
+      },
+      "StrafeDistance": {
+        "Min": 3.0,
+        "Max": 15.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 18.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": 15.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 12.0,
+        "Max": 15.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "IsFlyer": true,
+      "Flyer_HibernateRemap": "Agressive",
+      "PathingTargetOffsetY": {
+        "Min": 2.0,
+        "Max": 4.0
+      },
+      "PathingTargetDistance": {
+        "Min": 8.0,
+        "Max": 12.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": -3.0,
+        "Max": 7.0
+      },
+      "Flyer_Acceleration": 25.0,
+      "Flyer_Deceleration": 5.0,
+      "Flyer_SpeedMultipler": 1.2,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.8,
+        "Max": 0.95
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.4,
+        "Max": 0.45
+      },
+      "Flyer_LightDamageForce": 5.0,
+      "Flyer_HeavyDamageForce": 7.0,
+      "Flyer_RecoilForce": {
+        "Min": 4.0,
+        "Max": 7.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.4,
+        "Max": 0.8
+      },
+      "Flyer_RollThreshold": 20.0,
+      "Flyer_YawThreshold": 20.0,
+      "Flyer_PitchThreshold": 20.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 26,
+      "Flyer_BossEnemyID": 44,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 7.0,
+        "Max": 11.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 20.0,
+        "Max": 30.0
+      },
+      "name": "Flyer",
+      "internalEnabled": true,
+      "persistentID": 36
     },
     {
       "MeleeAttackDistance": {
@@ -123,6 +405,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Striker_Child",
       "internalEnabled": true,
       "persistentID": 34
@@ -186,6 +520,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Striker_Fast",
       "internalEnabled": true,
       "persistentID": 31
@@ -249,6 +635,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Striker_Bullrush",
       "internalEnabled": true,
       "persistentID": 30
@@ -312,6 +750,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "StrikerBig",
       "internalEnabled": true,
       "persistentID": 28
@@ -375,6 +865,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": true,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Tank",
       "internalEnabled": true,
       "persistentID": 35
@@ -438,6 +980,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "StrikerBig_Copy",
       "internalEnabled": true,
       "persistentID": 29
@@ -501,6 +1095,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Shadow",
       "internalEnabled": true,
       "persistentID": 21
@@ -564,6 +1210,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Shooter",
       "internalEnabled": true,
       "persistentID": 11
@@ -627,6 +1325,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": true,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Birther",
       "internalEnabled": true,
       "persistentID": 33
@@ -690,6 +1440,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "ShooterBig",
       "internalEnabled": true,
       "persistentID": 32
@@ -753,6 +1555,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Scout",
       "internalEnabled": true,
       "persistentID": 20
@@ -816,6 +1670,58 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Cocoon",
       "internalEnabled": true,
       "persistentID": 22
@@ -879,10 +1785,177 @@
       "ChanceToPropagateToMastermind": 0.1,
       "PropagationDistance": 20.0,
       "DisableTargetPreferenceWeight": false,
+      "IsFlyer": false,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "PathingTargetDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_Acceleration": 10.0,
+      "Flyer_Deceleration": 0.0,
+      "Flyer_SpeedMultipler": 0.0,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
       "name": "Immortal",
       "internalEnabled": true,
       "persistentID": 8
+    },
+    {
+      "MeleeAttackDistance": {
+        "Min": 0.0,
+        "Max": 4.5
+      },
+      "RangedAttackDistance": {
+        "Min": 0.0,
+        "Max": 18.0
+      },
+      "StrafeDistance": {
+        "Min": 2.0,
+        "Max": 8.0
+      },
+      "HowOftenToStrafe": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "DistanceToStrafeWithoutLOS": {
+        "Min": -1.0,
+        "Max": 18.0
+      },
+      "DistanceToStrafeInTargetsLOS": {
+        "Min": -1.0,
+        "Max": 25.0
+      },
+      "DistanceToStrafeWithoutTargetsLOS": {
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "MoveCloserDelayAfterAttack": {
+        "Min": 3.0,
+        "Max": 8.0
+      },
+      "MoveTowardsTargetDuration": {
+        "Min": 1.0,
+        "Max": 3.0
+      },
+      "ClosestTargetDistance": {
+        "Min": 10.0,
+        "Max": 12.0
+      },
+      "StartWalkDuration": {
+        "Min": 0.3,
+        "Max": 0.7
+      },
+      "StartWalkTimeoutUntilNext": {
+        "Min": 5.0,
+        "Max": 10.0
+      },
+      "ScreamStateDelay": {
+        "Min": 5.0,
+        "Max": 20.0
+      },
+      "RushTargetDistance": -1.0,
+      "ChanceToPropagateOnDetection": 0.25,
+      "ChanceToPropagateOnDeath": 0.25,
+      "ChanceToPropagateToMastermind": 0.1,
+      "PropagationDistance": 20.0,
+      "DisableTargetPreferenceWeight": false,
+      "IsFlyer": true,
+      "Flyer_HibernateRemap": "Off",
+      "PathingTargetOffsetY": {
+        "Min": 1.0,
+        "Max": 2.0
+      },
+      "PathingTargetDistance": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "StrafeVerticalDistance": {
+        "Min": -1.0,
+        "Max": 1.0
+      },
+      "Flyer_Acceleration": 1.0,
+      "Flyer_Deceleration": 0.4,
+      "Flyer_SpeedMultipler": 0.3,
+      "Flyer_AttackChargeDuration": {
+        "Min": 0.5,
+        "Max": 0.5
+      },
+      "Flyer_BackToMovementAfterAttack": {
+        "Min": 0.5,
+        "Max": 0.5
+      },
+      "Flyer_LightDamageForce": 0.0,
+      "Flyer_HeavyDamageForce": 0.0,
+      "Flyer_RecoilForce": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RecoilTorque": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_RollThreshold": 0.0,
+      "Flyer_YawThreshold": 0.0,
+      "Flyer_PitchThreshold": 0.0,
+      "Flyer_DeathDealy": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_BossSpawnWaveID": 0,
+      "Flyer_BossEnemyID": 0,
+      "Flyer_SpawnOutOfBossStateDuration": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "Flyer_EstimatedDistanceFromBoss": {
+        "Min": 0.0,
+        "Max": 0.0
+      },
+      "name": "SquidBoss",
+      "internalEnabled": true,
+      "persistentID": 38
     }
   ],
-  "LastPersistentID": 35
+  "LastPersistentID": 38
 }

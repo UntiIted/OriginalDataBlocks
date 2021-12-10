@@ -1,0 +1,5 @@
+Off
+Agressive
+Patrolling
+Scout
+Hibernate

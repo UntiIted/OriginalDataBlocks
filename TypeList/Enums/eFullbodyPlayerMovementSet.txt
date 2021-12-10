@@ -2,3 +2,5 @@ Rifle
 Pistol
 Melee
 CarryHeavy
+Knife
+Spear

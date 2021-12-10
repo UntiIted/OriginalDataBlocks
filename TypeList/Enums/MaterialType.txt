@@ -11,3 +11,4 @@ Catwalk
 Wood
 PlayerBody
 WeakLockMelee
+Sand

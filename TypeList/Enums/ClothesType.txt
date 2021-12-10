@@ -1,0 +1,6 @@
+Helmet
+Torso
+Legs
+Backpack
+Palette
+Face

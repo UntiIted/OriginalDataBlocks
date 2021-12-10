@@ -23,6 +23,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.45,
+      "EnemyCollisionPlayerMovementReduction": 0.4,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Striker",
       "internalEnabled": true,
       "persistentID": 13
@@ -49,6 +52,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.2,
+      "EnemyCollisionPlayerMovementReduction": 0.35,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Striker_Child",
       "internalEnabled": true,
       "persistentID": 32
@@ -75,6 +81,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.5,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Birther",
       "internalEnabled": true,
       "persistentID": 30
@@ -101,6 +110,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.5,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Birther_Boss",
       "internalEnabled": true,
       "persistentID": 31
@@ -127,6 +139,9 @@
       "MeleeAttackDamage": 1.0,
       "MeleeAttackDamageCheckRadius": 2.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.4,
+      "EnemyCollisionPlayerMovementReduction": 0.4,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Striker_Bullrush",
       "internalEnabled": true,
       "persistentID": 28
@@ -153,6 +168,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 7.0,
+      "EnemyCollisionRadius": 0.5,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Shadow",
       "internalEnabled": true,
       "persistentID": 21
@@ -179,6 +197,9 @@
       "MeleeAttackDamage": 10.0,
       "MeleeAttackDamageCheckRadius": 1.3,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.8,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.3,
       "name": "StrikerBig",
       "internalEnabled": true,
       "persistentID": 16
@@ -205,9 +226,41 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.4,
+      "EnemyCollisionPlayerMovementReduction": 0.4,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
       "name": "Shooter",
       "internalEnabled": true,
       "persistentID": 11
+    },
+    {
+      "Health": {
+        "HealthMax": 16.2,
+        "DamageUntilHitreact": 4.0,
+        "BodypartHealth": 16.2,
+        "WeakspotDamageMulti": 3.0,
+        "ArmorDamageMulti": 0.3,
+        "HitreactOnLimbDestruction": "Heavy",
+        "TryForceHitreactOnLimbDestruction": true
+      },
+      "GlueTolerance": 4.0,
+      "GlueFadeOutTime": 8.0,
+      "CanBePushed": true,
+      "ForbidTwitchHit": false,
+      "AllowDamgeBonusFromBehind": true,
+      "UseTentacleTunnelCheck": true,
+      "UseVisibilityRaycastDuringTentacleAttack": false,
+      "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+      "TentacleAttackDamage": 3.0,
+      "MeleeAttackDamage": 3.0,
+      "MeleeAttackDamageCheckRadius": 1.0,
+      "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.2,
+      "EnemyCollisionPlayerMovementReduction": 0.2,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.3,
+      "name": "Flyer",
+      "internalEnabled": true,
+      "persistentID": 34
     },
     {
       "Health": {
@@ -231,6 +284,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.45,
+      "EnemyCollisionPlayerMovementReduction": 0.4,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.3,
       "name": "ShooterWave",
       "internalEnabled": true,
       "persistentID": 27
@@ -257,6 +313,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.0,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.5,
       "name": "Scout",
       "internalEnabled": true,
       "persistentID": 20
@@ -283,6 +342,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.0,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.5,
       "name": "Scout_Bullrush",
       "internalEnabled": true,
       "persistentID": 33
@@ -309,6 +371,9 @@
       "MeleeAttackDamage": 3.0,
       "MeleeAttackDamageCheckRadius": 1.0,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.75,
+      "EnemyCollisionPlayerMovementReduction": 0.5,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.3,
       "name": "ShooterBig",
       "internalEnabled": true,
       "persistentID": 18
@@ -335,10 +400,42 @@
       "MeleeAttackDamage": 8.0,
       "MeleeAttackDamageCheckRadius": 1.3,
       "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.5,
+      "EnemyCollisionPlayerMovementReduction": 0.3,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.5,
       "name": "Tank",
       "internalEnabled": true,
       "persistentID": 29
+    },
+    {
+      "Health": {
+        "HealthMax": 6000.0,
+        "DamageUntilHitreact": 1500.0,
+        "BodypartHealth": 1200.0,
+        "WeakspotDamageMulti": 1.5,
+        "ArmorDamageMulti": 0.001,
+        "HitreactOnLimbDestruction": "None",
+        "TryForceHitreactOnLimbDestruction": false
+      },
+      "GlueTolerance": 1000.0,
+      "GlueFadeOutTime": 5.0,
+      "CanBePushed": false,
+      "ForbidTwitchHit": false,
+      "AllowDamgeBonusFromBehind": false,
+      "UseTentacleTunnelCheck": true,
+      "UseVisibilityRaycastDuringTentacleAttack": false,
+      "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+      "TentacleAttackDamage": 3.0,
+      "MeleeAttackDamage": 3.0,
+      "MeleeAttackDamageCheckRadius": 1.0,
+      "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.5,
+      "EnemyCollisionPlayerMovementReduction": 0.1,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.5,
+      "name": "Squid_Boss",
+      "internalEnabled": true,
+      "persistentID": 35
     }
   ],
-  "LastPersistentID": 33
+  "LastPersistentID": 35
 }

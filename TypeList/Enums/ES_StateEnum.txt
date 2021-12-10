@@ -26,3 +26,8 @@ ClimbLadder
 Jump
 BirtherGiveBirth
 TriggerFogSphere
+PathMoveFlyer
+HitReactFlyer
+ShooterAttackFlyer
+DeadFlyer
+DeadSquidBoss

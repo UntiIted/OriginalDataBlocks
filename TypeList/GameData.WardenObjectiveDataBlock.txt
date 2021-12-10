@@ -1,65 +1,216 @@
 (enum) eWardenObjectiveType: Type
-String: Header
-String: MainObjective
+LocalizedText: Header
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: MainObjective
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 (enum) eWardenObjectiveSpecialUpdateType: WardenObjectiveSpecialUpdateType
-String: FindLocationInfo
-String: FindLocationInfoHelp
-String: GoToZone
-String: GoToZoneHelp
-String: InZoneFindItem
-String: InZoneFindItemHelp
-String: SolveItem
-String: SolveItemHelp
-String: GoToWinCondition_Elevator
-String: GoToWinConditionHelp_Elevator
-String: GoToWinCondition_CustomGeo
-String: GoToWinConditionHelp_CustomGeo
-String: GoToWinCondition_ToMainLayer
-String: GoToWinConditionHelp_ToMainLayer
+UInt32: GenericItemFromStart
+LocalizedText: FindLocationInfo
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: FindLocationInfoHelp
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToZone
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToZoneHelp
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: InZoneFindItem
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: InZoneFindItemHelp
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: SolveItem
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: SolveItemHelp
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToWinCondition_Elevator
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToWinConditionHelp_Elevator
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToWinCondition_CustomGeo
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToWinConditionHelp_CustomGeo
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToWinCondition_ToMainLayer
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: GoToWinConditionHelp_ToMainLayer
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 Single: ShowHelpDelay
 List<GenericEnemyWaveData>: WavesOnElevatorLand
    UInt32: WaveSettings
    UInt32: WavePopulation
    Single: SpawnDelay
    Boolean: TriggerAlarm
-   String: IntelMessage
-String: WaveOnElevatorWardenIntel
+   LocalizedText: IntelMessage
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+List<WardenObjectiveEventData>: EventsOnElevatorLand
+   (enum) eWardenObjectiveEventTrigger: Trigger
+   UInt32: ChainPuzzle
+   Boolean: UseStaticBioscanPoints
+   (enum) eWardenObjectiveEventType: Type
+   (enum) LG_LayerType: Layer
+   (enum) eDimensionIndex: DimensionIndex
+   (enum) eLocalZoneIndex: LocalIndex
+   Single: Delay
+   Single: Duration
+   Boolean: ClearDimension
+   LocalizedText: WardenIntel
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjectiveHeader
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjective
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   UInt32: SoundID
+   UInt32: DialogueID
+   UInt32: FogSetting
+   Single: FogTransitionDuration
+   GenericEnemyWaveData: EnemyWaveData
+      UInt32: WaveSettings
+      UInt32: WavePopulation
+      Single: SpawnDelay
+      Boolean: TriggerAlarm
+      LocalizedText: IntelMessage
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+LocalizedText: WaveOnElevatorWardenIntel
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 UInt32: FogTransitionDataOnElevatorLand
 Single: FogTransitionDurationOnElevatorLand
+Boolean: OnActivateOnSolveItem
 List<GenericEnemyWaveData>: WavesOnActivate
    UInt32: WaveSettings
    UInt32: WavePopulation
    Single: SpawnDelay
    Boolean: TriggerAlarm
-   String: IntelMessage
+   LocalizedText: IntelMessage
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
 List<WardenObjectiveEventData>: EventsOnActivate
    (enum) eWardenObjectiveEventTrigger: Trigger
+   UInt32: ChainPuzzle
+   Boolean: UseStaticBioscanPoints
    (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
+   (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
    Single: Delay
-   String: WardenIntel
+   Single: Duration
+   Boolean: ClearDimension
+   LocalizedText: WardenIntel
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjectiveHeader
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjective
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
    UInt32: SoundID
+   UInt32: DialogueID
    UInt32: FogSetting
    Single: FogTransitionDuration
+   GenericEnemyWaveData: EnemyWaveData
+      UInt32: WaveSettings
+      UInt32: WavePopulation
+      Single: SpawnDelay
+      Boolean: TriggerAlarm
+      LocalizedText: IntelMessage
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
 Boolean: StopAllWavesBeforeGotoWin
 List<GenericEnemyWaveData>: WavesOnGotoWin
    UInt32: WaveSettings
    UInt32: WavePopulation
    Single: SpawnDelay
    Boolean: TriggerAlarm
-   String: IntelMessage
+   LocalizedText: IntelMessage
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
 (enum) eRetrieveExitWaveTrigger: WaveOnGotoWinTrigger
 List<WardenObjectiveEventData>: EventsOnGotoWin
    (enum) eWardenObjectiveEventTrigger: Trigger
+   UInt32: ChainPuzzle
+   Boolean: UseStaticBioscanPoints
    (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
+   (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
    Single: Delay
-   String: WardenIntel
+   Single: Duration
+   Boolean: ClearDimension
+   LocalizedText: WardenIntel
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjectiveHeader
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjective
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
    UInt32: SoundID
+   UInt32: DialogueID
    UInt32: FogSetting
    Single: FogTransitionDuration
+   GenericEnemyWaveData: EnemyWaveData
+      UInt32: WaveSettings
+      UInt32: WavePopulation
+      Single: SpawnDelay
+      Boolean: TriggerAlarm
+      LocalizedText: IntelMessage
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+(enum) eRetrieveExitWaveTrigger: EventsOnGotoWinTrigger
 UInt32: FogTransitionDataOnGotoWin
 Single: FogTransitionDurationOnGotoWin
 UInt32: ChainedPuzzleToActive
@@ -89,17 +240,44 @@ List<ReactorWaveData>: ReactorWaves
       (enum) eReactorWaveSpawnType: SpawnType
    List<WardenObjectiveEventData>: Events
       (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
       (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
       Single: Delay
-      String: WardenIntel
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       UInt32: SoundID
+      UInt32: DialogueID
       UInt32: FogSetting
       Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
 Boolean: LightsOnFromBeginning
 Boolean: LightsOnDuringIntro
 Boolean: LightsOnWhenStartupComplete
+Boolean: DoNotSolveObjectiveOnReactorComplete
 String: SpecialTerminalCommand
 String: SpecialTerminalCommandDesc
 List<String>: PostCommandOutput
@@ -120,18 +298,50 @@ Boolean: ActivateHSU_ObjectiveCompleteAfterInsertion
 Boolean: ActivateHSU_RequireItemAfterActivationInExitScan
 List<WardenObjectiveEventData>: ActivateHSU_Events
    (enum) eWardenObjectiveEventTrigger: Trigger
+   UInt32: ChainPuzzle
+   Boolean: UseStaticBioscanPoints
    (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
+   (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
    Single: Delay
-   String: WardenIntel
+   Single: Duration
+   Boolean: ClearDimension
+   LocalizedText: WardenIntel
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjectiveHeader
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
+   LocalizedText: CustomSubObjective
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
    UInt32: SoundID
+   UInt32: DialogueID
    UInt32: FogSetting
    Single: FogTransitionDuration
+   GenericEnemyWaveData: EnemyWaveData
+      UInt32: WaveSettings
+      UInt32: WavePopulation
+      Single: SpawnDelay
+      Boolean: TriggerAlarm
+      LocalizedText: IntelMessage
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
 Single: Survival_TimeToActivate
 Single: Survival_TimeToSurvive
-String: Survival_TimerTitle
-String: Survival_TimerToActivateTitle
+LocalizedText: Survival_TimerTitle
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
+LocalizedText: Survival_TimerToActivateTitle
+   String: UntranslatedText
+   UInt32: Id
+   Boolean: HasTranslation
 Int32: GatherTerminal_SpawnCount
 Int32: GatherTerminal_RequiredCount
 String: GatherTerminal_Command

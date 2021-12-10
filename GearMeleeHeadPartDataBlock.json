@@ -15,6 +15,42 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Spear_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Head",
+        "BundleShard": "S11"
+      },
+      "Aligns": [],
+      "name": "Head_Spear_1",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Bat_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Head",
+        "BundleShard": "S11"
+      },
+      "Aligns": [],
+      "name": "Head_Bat_1",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Knife_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Head",
+        "BundleShard": "S11"
+      },
+      "Aligns": [],
+      "name": "Head_Knife_1",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Hammer_7.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Melee_Head",
@@ -110,5 +146,5 @@
       "persistentID": 11
     }
   ],
-  "LastPersistentID": 11
+  "LastPersistentID": 14
 }

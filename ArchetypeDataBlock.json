@@ -63,15 +63,29 @@
   ],
   "Blocks": [
     {
-      "PublicName": "Rifle",
-      "Description": "Semi automatic\nMid to long range\nBlunthead rounds\nStaggering effect",
+      "PublicName": 719,
+      "Description": 720,
       "FireMode": "Semi",
       "RecoilDataID": 12,
       "DamageBoosterEffect": "AssaultRifleDamage",
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.242535621,
+          "y": 0.9701425,
+          "normalized": {
+            "x": 0.242535636,
+            "y": 0.970142543,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 103.077644,
+        "sqrMagnitude": 10625.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 1.0,
@@ -126,15 +140,29 @@
       "persistentID": 70
     },
     {
-      "PublicName": "Rifle",
-      "Description": "Semi automatic\nMid to long range\nWell balanced",
+      "PublicName": 721,
+      "Description": 722,
       "FireMode": "Semi",
       "RecoilDataID": 12,
       "DamageBoosterEffect": "RifleDamage",
       "Damage": 4.41,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.242535621,
+          "y": 0.9701425,
+          "normalized": {
+            "x": 0.242535636,
+            "y": 0.970142543,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 103.077644,
+        "sqrMagnitude": 10625.0
       },
       "StaggerDamageMulti": 1.75,
       "PrecisionDamageMulti": 1.0,
@@ -189,21 +217,29 @@
       "persistentID": 1
     },
     {
-      "PublicName": "Burst Rifle",
-      "Description": "Three round burst\nMedium range\nBalanced recoil",
+      "PublicName": 723,
+      "Description": 724,
       "FireMode": "Burst",
       "RecoilDataID": 8,
       "DamageBoosterEffect": "BurstRifleDamage",
-      "Damage": 2.21,
+      "Damage": 2.35,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 85.0
+        "y": 85.0,
+        "normalized": {
+          "x": 0.229039341,
+          "y": 0.9734172,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 87.32124,
+        "sqrMagnitude": 7625.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 2.0,
-      "CostOfBullet": 1.9,
+      "CostOfBullet": 1.75,
       "ShotDelay": 0.04,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
@@ -252,22 +288,36 @@
       "persistentID": 3
     },
     {
-      "PublicName": "Assault Rifle",
-      "Description": "Fully automatic\nMedium range\nBalanced recoil",
+      "PublicName": 725,
+      "Description": 726,
       "FireMode": "Auto",
       "RecoilDataID": 13,
       "DamageBoosterEffect": "AssaultRifleDamage",
       "Damage": 2.1875,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 70.0
+        "y": 70.0,
+        "normalized": {
+          "x": 0.141421363,
+          "y": 0.989949465,
+          "normalized": {
+            "x": 0.141421378,
+            "y": 0.9899495,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 70.71068,
+        "sqrMagnitude": 5000.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 1.6,
-      "ShotDelay": 0.09,
+      "CostOfBullet": 1.47,
+      "ShotDelay": 0.086,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 2.0,
@@ -315,15 +365,29 @@
       "persistentID": 5
     },
     {
-      "PublicName": "Heavy Assault Rifle",
-      "Description": "Fully automatic\nMedium to long range\nLow firerate\n",
+      "PublicName": 727,
+      "Description": 728,
       "FireMode": "Auto",
       "RecoilDataID": 42,
       "DamageBoosterEffect": "AssaultRifleDamage",
       "Damage": 2.76,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 80.895,
+        "sqrMagnitude": 6544.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -378,15 +442,100 @@
       "persistentID": 67
     },
     {
+      "PublicName": 727,
+      "Description": 728,
+      "FireMode": "Auto",
+      "RecoilDataID": 42,
+      "DamageBoosterEffect": "AssaultRifleDamage",
+      "Damage": 5.01,
+      "DamageFalloff": {
+        "x": 12.0,
+        "y": 80.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 80.895,
+        "sqrMagnitude": 6544.0
+      },
+      "StaggerDamageMulti": 1.0,
+      "PrecisionDamageMulti": 0.8,
+      "DefaultClipSize": 30,
+      "DefaultReloadTime": 2.3,
+      "CostOfBullet": 1.92,
+      "ShotDelay": 0.114,
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 5,
+      "HipFireSpread": 2.375,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.5,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.4,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Rifle_Heavy_Auto_Special",
+      "internalEnabled": true,
+      "persistentID": 73
+    },
+    {
       "PublicName": "Semi Burst Rifle",
-      "Description": "",
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "AssaultRifleDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -441,15 +590,23 @@
       "persistentID": 16
     },
     {
-      "PublicName": "Short Rifle",
-      "Description": "",
+      "PublicName": 730,
+      "Description": 0,
       "FireMode": "Semi",
       "RecoilDataID": 15,
       "DamageBoosterEffect": "SMGDamage",
       "Damage": 2.3,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 90.0
+        "y": 90.0,
+        "normalized": {
+          "x": 0.216930464,
+          "y": 0.9761871,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 92.19544,
+        "sqrMagnitude": 8500.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -504,15 +661,29 @@
       "persistentID": 17
     },
     {
-      "PublicName": "Carbine",
-      "Description": "Four round burst\nShort to mid range",
+      "PublicName": 731,
+      "Description": 732,
       "FireMode": "Burst",
       "RecoilDataID": 14,
       "DamageBoosterEffect": "CarbineDamage",
-      "Damage": 1.61,
+      "Damage": 1.76,
       "DamageFalloff": {
         "x": 7.0,
-        "y": 55.0
+        "y": 55.0,
+        "normalized": {
+          "x": 0.126254275,
+          "y": 0.9919979,
+          "normalized": {
+            "x": 0.12625429,
+            "y": 0.991997957,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 55.4436646,
+        "sqrMagnitude": 3074.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -567,15 +738,23 @@
       "persistentID": 18
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "SMGDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -630,15 +809,23 @@
       "persistentID": 20
     },
     {
-      "PublicName": "Heavy SMG",
-      "Description": "Fully automatic\nShort to mid range\nHigh ammo capacity",
+      "PublicName": 733,
+      "Description": 734,
       "FireMode": "Auto",
       "RecoilDataID": 43,
       "DamageBoosterEffect": "SMGDamage",
       "Damage": 2.01,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 55.0
+        "y": 55.0,
+        "normalized": {
+          "x": 0.108447507,
+          "y": 0.9941022,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 55.3263054,
+        "sqrMagnitude": 3061.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -693,18 +880,26 @@
       "persistentID": 69
     },
     {
-      "PublicName": "SMG",
-      "Description": "Fully automatic\nHigh rate of fire\nShort range\nHigh ammo capacity",
+      "PublicName": 735,
+      "Description": 736,
       "FireMode": "Auto",
       "RecoilDataID": 2,
       "DamageBoosterEffect": "SMGDamage",
-      "Damage": 1.45,
+      "Damage": 1.76,
       "DamageFalloff": {
         "x": 5.0,
-        "y": 50.0
+        "y": 50.0,
+        "normalized": {
+          "x": 0.09950372,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 50.24938,
+        "sqrMagnitude": 2525.0
       },
       "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.0,
+      "PrecisionDamageMulti": 0.91,
       "DefaultClipSize": 40,
       "DefaultReloadTime": 1.5,
       "CostOfBullet": 1.3,
@@ -756,20 +951,28 @@
       "persistentID": 19
     },
     {
-      "PublicName": "HEL Gun",
-      "Description": "Hybrid Electrothermal\nLight-gas gun\nOverpenetrating rounds\nMedium range\nShort charge-up\n\n",
+      "PublicName": 737,
+      "Description": 738,
       "FireMode": "Semi",
       "RecoilDataID": 4,
       "DamageBoosterEffect": "HELDamage",
       "Damage": 16.25,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 90.0
+        "y": 90.0,
+        "normalized": {
+          "x": 0.164398983,
+          "y": 0.9863939,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 91.24144,
+        "sqrMagnitude": 8325.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 9,
-      "DefaultReloadTime": 3.7,
+      "DefaultReloadTime": 3.3,
       "CostOfBullet": 6.5,
       "ShotDelay": 0.1,
       "PiercingBullets": true,
@@ -819,15 +1022,23 @@
       "persistentID": 21
     },
     {
-      "PublicName": "Burst Cannon",
-      "Description": "Five round burst\nCharge up firemode\nMedium range\nHigh power",
+      "PublicName": 739,
+      "Description": 740,
       "FireMode": "Burst",
       "RecoilDataID": 24,
       "DamageBoosterEffect": "BurstCannonDamage",
       "Damage": 20.1,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.734,
@@ -883,69 +1094,6 @@
     },
     {
       "PublicName": "Machinegun",
-      "Description": "Fully automatic\nCharge up firemode\nMedium range",
-      "FireMode": "Auto",
-      "RecoilDataID": 25,
-      "DamageBoosterEffect": "MachineGunDamage",
-      "Damage": 3.91,
-      "DamageFalloff": {
-        "x": 15.0,
-        "y": 80.0
-      },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.7413,
-      "DefaultClipSize": 40,
-      "DefaultReloadTime": 3.5,
-      "CostOfBullet": 2.0,
-      "ShotDelay": 0.095,
-      "PiercingBullets": false,
-      "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
-      "EquipTransitionTime": 0.6,
-      "EquipSequence": [
-        {
-          "TriggerTime": 0.0,
-          "Type": "WeaponMovementAnim",
-          "StringData": "Front_Machinegun_1_equip_weaponmovement"
-        },
-        {
-          "TriggerTime": 2.0,
-          "Type": "Empty"
-        }
-      ],
-      "AimTransitionTime": 0.35,
-      "AimSequence": [],
-      "BurstDelay": 0.0,
-      "BurstShotCount": 0,
-      "ShotgunBulletCount": 0,
-      "ShotgunConeSize": 0,
-      "ShotgunBulletSpread": 0,
-      "SpecialChargetupTime": 0.45,
-      "SpecialCooldownTime": 0.0,
-      "SpecialSemiBurstCountTimeout": 0.0,
-      "Sentry_StartFireDelay": 1.0,
-      "Sentry_RotationSpeed": 4.0,
-      "Sentry_DetectionMaxRange": 25.0,
-      "Sentry_DetectionMaxAngle": 30.0,
-      "Sentry_FireTowardsTargetInsteadOfForward": false,
-      "Sentry_LongRangeThreshold": 999.0,
-      "Sentry_ShortRangeThreshold": 0.0,
-      "Sentry_LegacyEnemyDetection": true,
-      "Sentry_FireTagOnly": false,
-      "Sentry_PrioTag": false,
-      "Sentry_StartFireDelayTagMulti": 1.0,
-      "Sentry_RotationSpeedTagMulti": 1.0,
-      "Sentry_DamageTagMulti": 1.0,
-      "Sentry_StaggerDamageTagMulti": 1.0,
-      "Sentry_CostOfBulletTagMulti": 1.0,
-      "Sentry_ShotDelayTagMulti": 1.0,
-      "name": "GEAR_MachineGun_Auto_LowRPM",
-      "internalEnabled": true,
-      "persistentID": 23
-    },
-    {
-      "PublicName": "Machinegun",
       "Description": "Fully automatic\nCharge up firemode\nLow firerate\nMedium range",
       "FireMode": "Auto",
       "RecoilDataID": 25,
@@ -953,7 +1101,15 @@
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.3,
@@ -1008,21 +1164,100 @@
       "persistentID": 71
     },
     {
-      "PublicName": "Machinegun",
-      "Description": "Fully automatic\nCharge up firemode\nMedium range\nHigh rate of fire",
+      "PublicName": 741,
+      "Description": 742,
+      "FireMode": "Auto",
+      "RecoilDataID": 25,
+      "DamageBoosterEffect": "MachineGunDamage",
+      "Damage": 3.91,
+      "DamageFalloff": {
+        "x": 15.0,
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
+      },
+      "StaggerDamageMulti": 1.0,
+      "PrecisionDamageMulti": 0.7413,
+      "DefaultClipSize": 40,
+      "DefaultReloadTime": 3.5,
+      "CostOfBullet": 2.0,
+      "ShotDelay": 0.095,
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 5,
+      "HipFireSpread": 2.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.6,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Machinegun_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.35,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.45,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_MachineGun_Auto_LowRPM",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "PublicName": 743,
+      "Description": 744,
       "FireMode": "Auto",
       "RecoilDataID": 34,
       "DamageBoosterEffect": "MachineGunDamage",
-      "Damage": 3.01,
+      "Damage": 3.21,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 50,
-      "DefaultReloadTime": 3.7,
-      "CostOfBullet": 1.5,
+      "DefaultReloadTime": 4.0,
+      "CostOfBullet": 1.15,
       "ShotDelay": 0.08,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
@@ -1071,15 +1306,23 @@
       "persistentID": 59
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "MachineGunDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1134,22 +1377,36 @@
       "persistentID": 24
     },
     {
-      "PublicName": "DMR",
-      "Description": "Semi automatic\nLong range\nHigh damage\nLimited ammo capacity",
+      "PublicName": 745,
+      "Description": 746,
       "FireMode": "Semi",
       "RecoilDataID": 7,
       "DamageBoosterEffect": "DMRDamage",
       "Damage": 7.51,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 111.8034,
+        "sqrMagnitude": 12500.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.87,
       "DefaultClipSize": 12,
       "DefaultReloadTime": 2.3,
-      "CostOfBullet": 5.5,
-      "ShotDelay": 0.22,
+      "CostOfBullet": 5.9,
+      "ShotDelay": 0.25,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 2.5,
@@ -1197,15 +1454,29 @@
       "persistentID": 25
     },
     {
-      "PublicName": "DMR",
-      "Description": "Semi automatic\nLong range\nHigh damage\nLimited ammo capacity",
+      "PublicName": 747,
+      "Description": 748,
       "FireMode": "Semi",
       "RecoilDataID": 7,
       "DamageBoosterEffect": "DMRDamage",
       "Damage": 6.6,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 111.8034,
+        "sqrMagnitude": 12500.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1268,7 +1539,21 @@
       "Damage": 6.0,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 111.8034,
+        "sqrMagnitude": 12500.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.5,
@@ -1313,21 +1598,29 @@
       "persistentID": 60
     },
     {
-      "PublicName": "Double tap rifle",
-      "Description": "Two shot burst\nLong range\nHigh damage",
+      "PublicName": 749,
+      "Description": 750,
       "FireMode": "Burst",
       "RecoilDataID": 16,
       "DamageBoosterEffect": "DoubleTapRifle",
       "Damage": 5.51,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 90.0
+        "y": 90.0,
+        "normalized": {
+          "x": 0.40613845,
+          "y": 0.913811564,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 98.48858,
+        "sqrMagnitude": 9700.0
       },
       "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.88,
+      "PrecisionDamageMulti": 0.9,
       "DefaultClipSize": 14,
       "DefaultReloadTime": 2.15,
-      "CostOfBullet": 4.7,
+      "CostOfBullet": 3.95,
       "ShotDelay": 0.08,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
@@ -1377,14 +1670,28 @@
     },
     {
       "PublicName": "Long gun",
-      "Description": "",
+      "Description": 0,
       "FireMode": "Auto",
       "RecoilDataID": 17,
       "DamageBoosterEffect": "DMRDamage",
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.351123422,
+          "y": 0.9363291,
+          "normalized": {
+            "x": 0.351123452,
+            "y": 0.9363292,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 85.44004,
+        "sqrMagnitude": 7300.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1439,15 +1746,23 @@
       "persistentID": 27
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "DMRDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1502,21 +1817,29 @@
       "persistentID": 28
     },
     {
-      "PublicName": "Sniper",
-      "Description": "Semi automatic\nLong range\nHollow point rounds\nVery high precision damage",
+      "PublicName": 751,
+      "Description": 752,
       "FireMode": "Semi",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "SniperDamage",
-      "Damage": 30.01,
+      "Damage": 40.01,
       "DamageFalloff": {
         "x": 60.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.51449573,
+          "y": 0.8574929,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 116.619041,
+        "sqrMagnitude": 13600.0
       },
       "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 2.67,
+      "PrecisionDamageMulti": 2.0025,
       "DefaultClipSize": 3,
       "DefaultReloadTime": 3.5,
-      "CostOfBullet": 25.0,
+      "CostOfBullet": 15.0,
       "ShotDelay": 0.5,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
@@ -1573,7 +1896,15 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 60.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.51449573,
+          "y": 0.8574929,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 116.619041,
+        "sqrMagnitude": 13600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1619,14 +1950,22 @@
     },
     {
       "PublicName": "Railgun",
-      "Description": "",
+      "Description": 0,
       "FireMode": "Burst",
       "RecoilDataID": 26,
       "DamageBoosterEffect": "SniperDamage",
       "Damage": 15.0,
       "DamageFalloff": {
         "x": 55.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.481918752,
+          "y": 0.876215935,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 114.127121,
+        "sqrMagnitude": 13025.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1682,14 +2021,28 @@
     },
     {
       "PublicName": "Coilgun",
-      "Description": "",
+      "Description": 0,
       "FireMode": "Auto",
       "RecoilDataID": 27,
       "DamageBoosterEffect": "SniperDamage",
       "Damage": 12.0,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 111.8034,
+        "sqrMagnitude": 12500.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1744,15 +2097,23 @@
       "persistentID": 31
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "SniperDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1807,15 +2168,23 @@
       "persistentID": 32
     },
     {
-      "PublicName": "Shotgun",
-      "Description": "Semi automatic\nHigh damage\nShort range\nLow ammo capacity",
+      "PublicName": 753,
+      "Description": 754,
       "FireMode": "Semi",
       "RecoilDataID": 6,
       "DamageBoosterEffect": "ShotgunDamage",
       "Damage": 3.01,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1870,6 +2239,219 @@
       "persistentID": 33
     },
     {
+      "PublicName": 1399,
+      "Description": 1400,
+      "FireMode": "Burst",
+      "RecoilDataID": 44,
+      "DamageBoosterEffect": "ShotgunDamage",
+      "Damage": 6.01,
+      "DamageFalloff": {
+        "x": 4.0,
+        "y": 30.0,
+        "normalized": {
+          "x": 0.132163718,
+          "y": 0.9912279,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 30.2654915,
+        "sqrMagnitude": 916.0
+      },
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 0.7333,
+      "DefaultClipSize": 2,
+      "DefaultReloadTime": 2.66,
+      "CostOfBullet": 16.3,
+      "ShotDelay": 0.65,
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 2,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.6,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_3_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.3,
+      "AimSequence": [],
+      "BurstDelay": 0.4,
+      "BurstShotCount": 1,
+      "ShotgunBulletCount": 32,
+      "ShotgunConeSize": 5,
+      "ShotgunBulletSpread": 4,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Scattergun_Semi",
+      "internalEnabled": true,
+      "persistentID": 72
+    },
+    {
+      "PublicName": 1399,
+      "Description": 1400,
+      "FireMode": "Burst",
+      "RecoilDataID": 44,
+      "DamageBoosterEffect": "ShotgunDamage",
+      "Damage": 6.01,
+      "DamageFalloff": {
+        "x": 4.0,
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
+      },
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 0.7333,
+      "DefaultClipSize": 6,
+      "DefaultReloadTime": 2.66,
+      "CostOfBullet": 12.75,
+      "ShotDelay": 0.06,
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 2,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.6,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_3_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.3,
+      "AimSequence": [],
+      "BurstDelay": 0.4,
+      "BurstShotCount": 2,
+      "ShotgunBulletCount": 16,
+      "ShotgunConeSize": 5,
+      "ShotgunBulletSpread": 4,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Scattergun_Burst",
+      "internalEnabled": true,
+      "persistentID": 75
+    },
+    {
+      "PublicName": 1399,
+      "Description": 1400,
+      "FireMode": "Burst",
+      "RecoilDataID": 44,
+      "DamageBoosterEffect": "ShotgunDamage",
+      "Damage": 4.13,
+      "DamageFalloff": {
+        "x": 4.0,
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
+      },
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 0.7333,
+      "DefaultClipSize": 12,
+      "DefaultReloadTime": 3.5,
+      "CostOfBullet": 12.0,
+      "ShotDelay": 0.06,
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 2,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.4,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_3_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.3,
+      "AimSequence": [],
+      "BurstDelay": 0.6,
+      "BurstShotCount": 3,
+      "ShotgunBulletCount": 10,
+      "ShotgunConeSize": 5,
+      "ShotgunBulletSpread": 4,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Scattergun_Burst_old",
+      "internalEnabled": false,
+      "persistentID": 74
+    },
+    {
       "PublicName": "Shotgun",
       "Description": "Semi automatic\nHigh damage\nShort range\nLow ammo capacity",
       "FireMode": "Semi",
@@ -1878,7 +2460,21 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 60.0
+        "y": 60.0,
+        "normalized": {
+          "x": 0.09950372,
+          "y": 0.995037138,
+          "normalized": {
+            "x": 0.0995037258,
+            "y": 0.9950372,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 60.2992554,
+        "sqrMagnitude": 3636.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1923,21 +2519,29 @@
       "persistentID": 61
     },
     {
-      "PublicName": "Choke Mod Shotgun",
-      "Description": "Medium range\nConcentrated blast cone\nHigh damage\nFew shells in magazine",
+      "PublicName": 755,
+      "Description": 756,
       "FireMode": "Burst",
       "RecoilDataID": 20,
       "DamageBoosterEffect": "ChokeModShotgunDamage",
       "Damage": 3.76,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
-      "StaggerDamageMulti": 1.0,
+      "StaggerDamageMulti": 1.35,
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 4,
-      "DefaultReloadTime": 2.83,
-      "CostOfBullet": 12.5,
+      "DefaultReloadTime": 2.72,
+      "CostOfBullet": 11.5,
       "ShotDelay": 0.05,
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 1,
@@ -1981,20 +2585,28 @@
       "Sentry_StaggerDamageTagMulti": 1.0,
       "Sentry_CostOfBulletTagMulti": 1.0,
       "Sentry_ShotDelayTagMulti": 1.0,
-      "name": "GEAR_Shotgun_Ranged",
+      "name": "GEAR_Shotgun_Choke_Mod",
       "internalEnabled": true,
       "persistentID": 34
     },
     {
-      "PublicName": "Combat Shotgun",
-      "Description": "Fully automatic\nHigh damage\nShort range",
+      "PublicName": 757,
+      "Description": 758,
       "FireMode": "Auto",
       "RecoilDataID": 21,
       "DamageBoosterEffect": "CombatShotgunDamage",
       "Damage": 2.51,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.875,
@@ -2049,15 +2661,23 @@
       "persistentID": 35
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "ShotgunDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2112,15 +2732,29 @@
       "persistentID": 36
     },
     {
-      "PublicName": "Revolver",
-      "Description": "Semi automatic\nHigh damage\nMedium range\nHeavy recoil",
+      "PublicName": 759,
+      "Description": 760,
       "FireMode": "Semi",
       "RecoilDataID": 5,
       "DamageBoosterEffect": "RevolverDamage",
       "Damage": 12.21,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 80.895,
+        "sqrMagnitude": 6544.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
@@ -2183,7 +2817,21 @@
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 80.895,
+        "sqrMagnitude": 6544.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2228,28 +2876,46 @@
       "persistentID": 64
     },
     {
-      "PublicName": "HEL Revolver",
-      "Description": "Semi automatic\nShort to mid range\nOverpenetrating rounds",
+      "PublicName": 761,
+      "Description": 762,
       "FireMode": "Burst",
       "RecoilDataID": 22,
       "DamageBoosterEffect": "HELDamage",
       "Damage": 8.01,
       "DamageFalloff": {
-        "x": 12.0,
-        "y": 80.0
+        "x": 10.0,
+        "y": 80.0,
+        "normalized": {
+          "x": 0.12403474,
+          "y": 0.9922779,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 80.6225739,
+        "sqrMagnitude": 6500.0
       },
-      "StaggerDamageMulti": 2.2,
+      "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 8,
       "DefaultReloadTime": 2.3,
       "CostOfBullet": 5.0,
       "ShotDelay": 0.2,
       "PiercingBullets": true,
-      "PiercingDamageCountLimit": 5,
+      "PiercingDamageCountLimit": 2,
       "HipFireSpread": 2.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.4,
-      "EquipSequence": [],
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Pistol_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
       "AimTransitionTime": 0.25,
       "AimSequence": [],
       "BurstDelay": 0.0,
@@ -2282,14 +2948,22 @@
     },
     {
       "PublicName": "Autorevolver",
-      "Description": "",
+      "Description": 0,
       "FireMode": "Auto",
       "RecoilDataID": 23,
       "DamageBoosterEffect": "RevolverDamage",
       "Damage": 7.0,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 60.0
+        "y": 60.0,
+        "normalized": {
+          "x": 0.164398983,
+          "y": 0.9863939,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 60.8276253,
+        "sqrMagnitude": 3700.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2334,15 +3008,23 @@
       "persistentID": 39
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "RevolverDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2387,15 +3069,29 @@
       "persistentID": 40
     },
     {
-      "PublicName": "HEL Rifle",
-      "Description": "Hybrid Electrothermal\nLight-gas rifle\nOverpenetrating rounds\nLong range\nShort charge-up\n",
+      "PublicName": 763,
+      "Description": 764,
       "FireMode": "Semi",
       "RecoilDataID": 41,
       "DamageBoosterEffect": "HELDamage",
       "Damage": 30.01,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.4472136,
+          "y": 0.8944272,
+          "normalized": {
+            "x": 0.44721362,
+            "y": 0.89442724,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 89.44272,
+        "sqrMagnitude": 8000.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.730897,
@@ -2450,15 +3146,29 @@
       "persistentID": 65
     },
     {
-      "PublicName": "Pistol",
-      "Description": "Semi automatic\nShort to mid range\nBalanced recoil\nHigh ammo capacity",
+      "PublicName": 765,
+      "Description": 766,
       "FireMode": "Semi",
       "RecoilDataID": 3,
       "DamageBoosterEffect": "PistolDamage",
       "Damage": 4.39,
       "DamageFalloff": {
-        "x": 8.0,
-        "y": 50.0
+        "x": 6.0,
+        "y": 45.0,
+        "normalized": {
+          "x": 0.132163718,
+          "y": 0.991227865,
+          "normalized": {
+            "x": 0.132163733,
+            "y": 0.9912279,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 45.39824,
+        "sqrMagnitude": 2061.0
       },
       "StaggerDamageMulti": 1.5,
       "PrecisionDamageMulti": 0.8667,
@@ -2521,7 +3231,15 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2567,14 +3285,22 @@
     },
     {
       "PublicName": "Burst Pistol",
-      "Description": "",
+      "Description": 0,
       "FireMode": "Burst",
       "RecoilDataID": 18,
       "DamageBoosterEffect": "PistolDamage",
       "Damage": 2.0,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 60.0
+        "y": 60.0,
+        "normalized": {
+          "x": 0.164398983,
+          "y": 0.9863939,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 60.8276253,
+        "sqrMagnitude": 3700.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2629,21 +3355,29 @@
       "persistentID": 42
     },
     {
-      "PublicName": "Machinepistol",
-      "Description": "Fully automatic\nHigh rate of fire\nVery Short range\nHigh ammo capacity",
+      "PublicName": 767,
+      "Description": 768,
       "FireMode": "Auto",
       "RecoilDataID": 19,
       "DamageBoosterEffect": "MachinePistolDamage",
-      "Damage": 1.38,
+      "Damage": 1.45,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.867,
       "DefaultClipSize": 50,
       "DefaultReloadTime": 1.25,
-      "CostOfBullet": 1.1,
+      "CostOfBullet": 0.95,
       "ShotDelay": 0.05,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
@@ -2692,15 +3426,23 @@
       "persistentID": 43
     },
     {
-      "PublicName": "Autopistol",
-      "Description": "Fully automatic\nLow damage\nShort range\nBlunthead rounds\nStaggering effect",
+      "PublicName": 769,
+      "Description": 770,
       "FireMode": "Auto",
       "RecoilDataID": 19,
       "DamageBoosterEffect": "AutoPistolDamage",
       "Damage": 1.11,
       "DamageFalloff": {
         "x": 5.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.12403474,
+          "y": 0.9922779,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 40.3112869,
+        "sqrMagnitude": 1625.0
       },
       "StaggerDamageMulti": 5.0,
       "PrecisionDamageMulti": 0.867,
@@ -2755,15 +3497,23 @@
       "persistentID": 66
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 9,
       "DamageBoosterEffect": "PistolDamage",
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.3713907,
+          "y": 0.9284767,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 107.703293,
+        "sqrMagnitude": 11600.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2818,28 +3568,46 @@
       "persistentID": 44
     },
     {
-      "PublicName": "Sawed-Off Shotgun",
-      "Description": "High damage\nVery Short range\nFew shells in magazine",
+      "PublicName": 771,
+      "Description": 772,
       "FireMode": "Semi",
       "RecoilDataID": 28,
       "DamageBoosterEffect": "ShotgunDamage",
       "Damage": 2.95,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 3,
-      "DefaultReloadTime": 1.9,
-      "CostOfBullet": 12.0,
+      "DefaultReloadTime": 1.8,
+      "CostOfBullet": 9.4,
       "ShotDelay": 0.3,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 0.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.33,
-      "EquipSequence": [],
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Pistol_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
       "AimTransitionTime": 0.23,
       "AimSequence": [],
       "BurstDelay": 0.0,
@@ -2871,15 +3639,29 @@
       "persistentID": 45
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Burst",
       "RecoilDataID": 29,
       "DamageBoosterEffect": "ShotgunDamage",
       "Damage": 2.6,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 40.4475,
+        "sqrMagnitude": 1636.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2924,15 +3706,29 @@
       "persistentID": 47
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Auto",
       "RecoilDataID": 30,
       "DamageBoosterEffect": "ShotgunDamage",
       "Damage": 2.4,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 40.4475,
+        "sqrMagnitude": 1636.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2977,15 +3773,29 @@
       "persistentID": 46
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 30,
       "DamageBoosterEffect": "ShotgunDamage",
       "Damage": 2.4,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 40.4475,
+        "sqrMagnitude": 1636.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3030,25 +3840,33 @@
       "persistentID": 52
     },
     {
-      "PublicName": "Bullpup Rifle",
-      "Description": "Fully automatic\nHigh firerate\nBalanced recoil\nMedium range\nLong Reload",
+      "PublicName": 773,
+      "Description": 774,
       "FireMode": "Auto",
       "RecoilDataID": 31,
       "DamageBoosterEffect": "BullpupRifleDamage",
-      "Damage": 1.71,
+      "Damage": 1.91,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 70.0
+        "y": 70.0,
+        "normalized": {
+          "x": 0.209529087,
+          "y": 0.977802455,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 71.5891,
+        "sqrMagnitude": 5125.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 40,
       "DefaultReloadTime": 2.4,
-      "CostOfBullet": 1.7,
+      "CostOfBullet": 1.5,
       "ShotDelay": 0.055,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
+      "HipFireSpread": 2.5,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.5,
       "EquipSequence": [
@@ -3093,15 +3911,29 @@
       "persistentID": 49
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Burst",
       "RecoilDataID": 32,
       "DamageBoosterEffect": "None",
       "Damage": 1.8,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.242535621,
+          "y": 0.9701425,
+          "normalized": {
+            "x": 0.242535636,
+            "y": 0.970142543,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 82.46211,
+        "sqrMagnitude": 6800.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3156,15 +3988,23 @@
       "persistentID": 50
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Semi",
       "RecoilDataID": 33,
       "DamageBoosterEffect": "None",
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 90.0
+        "y": 90.0,
+        "normalized": {
+          "x": 0.267643869,
+          "y": 0.9635179,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 93.40771,
+        "sqrMagnitude": 8725.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3219,15 +4059,29 @@
       "persistentID": 51
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 31,
       "DamageBoosterEffect": "None",
       "Damage": 1.5,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 70.0
+        "y": 70.0,
+        "normalized": {
+          "x": 0.141421363,
+          "y": 0.989949465,
+          "normalized": {
+            "x": 0.141421378,
+            "y": 0.9899495,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 70.71068,
+        "sqrMagnitude": 5000.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3282,15 +4136,29 @@
       "persistentID": 53
     },
     {
-      "PublicName": "Sniper Sentry",
-      "Description": "Deployable\nAutomatic enemy detection\nLong range\nHigh damage",
+      "PublicName": 775,
+      "Description": 776,
       "FireMode": "Semi",
       "RecoilDataID": 12,
       "DamageBoosterEffect": "SentryGunDamage",
-      "Damage": 40.1,
+      "Damage": 48.1,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.196116135,
+          "y": 0.9805806,
+          "normalized": {
+            "x": 0.196116149,
+            "y": 0.9805807,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 101.980392,
+        "sqrMagnitude": 10400.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3303,7 +4171,17 @@
       "HipFireSpread": 0.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.45,
-      "EquipSequence": [],
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
       "AimTransitionTime": 0.35,
       "AimSequence": [],
       "BurstDelay": 0.0,
@@ -3335,31 +4213,49 @@
       "persistentID": 54
     },
     {
-      "PublicName": "Burst Sentry",
-      "Description": "Deployable\nAutomatic enemy detection\nMedium range burst fire",
+      "PublicName": 777,
+      "Description": 778,
       "FireMode": "Burst",
       "RecoilDataID": 8,
       "DamageBoosterEffect": "SentryGunDamage",
       "Damage": 2.01,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0
+        "y": 80.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 24,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 1.9,
+      "CostOfBullet": 1.5,
       "ShotDelay": 0.045,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 0.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.45,
-      "EquipSequence": [],
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
       "AimTransitionTime": 0.35,
       "AimSequence": [],
-      "BurstDelay": 0.5,
+      "BurstDelay": 0.65,
       "BurstShotCount": 3,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
@@ -3371,7 +4267,7 @@
       "Sentry_RotationSpeed": 4.0,
       "Sentry_DetectionMaxRange": 25.0,
       "Sentry_DetectionMaxAngle": 30.0,
-      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_FireTowardsTargetInsteadOfForward": true,
       "Sentry_LongRangeThreshold": 999.0,
       "Sentry_ShortRangeThreshold": 0.0,
       "Sentry_LegacyEnemyDetection": true,
@@ -3388,28 +4284,52 @@
       "persistentID": 55
     },
     {
-      "PublicName": "Auto Sentry",
-      "Description": "Deployable\nAutomatic enemy detection\nLow damage\nTungsten rounds\nStaggering effect",
+      "PublicName": 779,
+      "Description": 780,
       "FireMode": "Auto",
       "RecoilDataID": 13,
       "DamageBoosterEffect": "SentryGunDamage",
-      "Damage": 0.61,
+      "Damage": 0.71,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 70.0
+        "y": 70.0,
+        "normalized": {
+          "x": 0.141421363,
+          "y": 0.989949465,
+          "normalized": {
+            "x": 0.141421378,
+            "y": 0.9899495,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 70.71068,
+        "sqrMagnitude": 5000.0
       },
-      "StaggerDamageMulti": 6.0,
+      "StaggerDamageMulti": 8.0,
       "PrecisionDamageMulti": 0.834,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 0.66,
+      "CostOfBullet": 0.6,
       "ShotDelay": 0.08,
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 2.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.45,
-      "EquipSequence": [],
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
       "AimTransitionTime": 0.35,
       "AimSequence": [],
       "BurstDelay": 0.0,
@@ -3441,15 +4361,23 @@
       "persistentID": 57
     },
     {
-      "PublicName": "Shotgun Sentry",
-      "Description": "Deployable\nAutomatic enemy detection\nShort range",
+      "PublicName": 781,
+      "Description": 782,
       "FireMode": "Semi",
       "RecoilDataID": 6,
       "DamageBoosterEffect": "SentryGunDamage",
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.0995037258,
+          "y": 0.9950372,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.1995,
+        "sqrMagnitude": 1616.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3462,7 +4390,18 @@
       "HipFireSpread": 1.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.35,
-      "EquipSequence": [],
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Rifle_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Empty",
+          "StringData": "2"
+        }
+      ],
       "AimTransitionTime": 0.32,
       "AimSequence": [],
       "BurstDelay": 0.0,
@@ -3494,15 +4433,29 @@
       "persistentID": 58
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Semi",
       "RecoilDataID": 0,
       "DamageBoosterEffect": "None",
       "Damage": 6.0,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.287347883,
+          "y": 0.957826257,
+          "normalized": {
+            "x": 0.2873479,
+            "y": 0.9578263,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 104.403069,
+        "sqrMagnitude": 10900.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3547,15 +4500,29 @@
       "persistentID": 15
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Semi",
       "RecoilDataID": 0,
       "DamageBoosterEffect": "None",
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.119145215,
+          "y": 0.9928768,
+          "normalized": {
+            "x": 0.119145222,
+            "y": 0.9928769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 100.71743,
+        "sqrMagnitude": 10144.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3600,15 +4567,29 @@
       "persistentID": 6
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "SemiBurst",
       "RecoilDataID": 8,
       "DamageBoosterEffect": "None",
       "Damage": 15.0,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.287347883,
+          "y": 0.957826257,
+          "normalized": {
+            "x": 0.2873479,
+            "y": 0.9578263,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 104.403069,
+        "sqrMagnitude": 10900.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3653,15 +4634,23 @@
       "persistentID": 7
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Auto",
       "RecoilDataID": 2,
       "DamageBoosterEffect": "None",
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 100.0
+        "y": 100.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.988936365,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 101.118744,
+        "sqrMagnitude": 10225.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3706,15 +4695,29 @@
       "persistentID": 8
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Semi",
       "RecoilDataID": 0,
       "DamageBoosterEffect": "None",
       "Damage": 2.0,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 60.0
+        "y": 60.0,
+        "normalized": {
+          "x": 0.09950372,
+          "y": 0.995037138,
+          "normalized": {
+            "x": 0.0995037258,
+            "y": 0.9950372,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 60.2992554,
+        "sqrMagnitude": 3636.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3759,15 +4762,29 @@
       "persistentID": 9
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Semi",
       "RecoilDataID": 3,
       "DamageBoosterEffect": "None",
       "Damage": 1.5,
       "DamageFalloff": {
         "x": 3.0,
-        "y": 50.0
+        "y": 50.0,
+        "normalized": {
+          "x": 0.05989229,
+          "y": 0.9982048,
+          "normalized": {
+            "x": 0.0598922931,
+            "y": 0.9982049,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 50.08992,
+        "sqrMagnitude": 2509.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3812,15 +4829,17 @@
       "persistentID": 2
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Burst",
       "RecoilDataID": 8,
       "DamageBoosterEffect": "None",
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3865,15 +4884,17 @@
       "persistentID": 11
     },
     {
-      "PublicName": "",
-      "Description": "",
+      "PublicName": 0,
+      "Description": 0,
       "FireMode": "Burst",
       "RecoilDataID": 8,
       "DamageBoosterEffect": "None",
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 0.0,
-        "y": 0.0
+        "y": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3918,5 +4939,5 @@
       "persistentID": 13
     }
   ],
-  "LastPersistentID": 71
+  "LastPersistentID": 75
 }

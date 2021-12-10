@@ -8,6 +8,8 @@ Single: m_wavePauseMax
 (enum) eEnemyFilterType: m_filterType
 Single: m_chanceToRandomizeSpawnDirectionPerWave
 Single: m_chanceToRandomizeSpawnDirectionPerGroup
+Boolean: m_overrideWaveSpawnType
+(enum) SurvivalWaveSpawnType: m_survivalWaveSpawnType
 Single: m_populationPointsTotal
 Single: m_populationPointsPerWaveStart
 Single: m_populationPointsPerWaveEnd

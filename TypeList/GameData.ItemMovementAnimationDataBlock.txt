@@ -1,0 +1,41 @@
+Single: m_cachedDuration
+Vector3AnimationCurve: ItemPosition
+   Single: m_varianceDelta
+   AnimationCurve: X
+   AnimationCurve: Y
+   AnimationCurve: Z
+   Vector2: VarianceX
+   Vector2: VarianceY
+   Vector2: VarianceZ
+Vector3AnimationCurve: ItemRotation
+   Single: m_varianceDelta
+   AnimationCurve: X
+   AnimationCurve: Y
+   AnimationCurve: Z
+   Vector2: VarianceX
+   Vector2: VarianceY
+   Vector2: VarianceZ
+Vector3AnimationCurve: CameraPosition
+   Single: m_varianceDelta
+   AnimationCurve: X
+   AnimationCurve: Y
+   AnimationCurve: Z
+   Vector2: VarianceX
+   Vector2: VarianceY
+   Vector2: VarianceZ
+Vector3AnimationCurve: CameraRotation
+   Single: m_varianceDelta
+   AnimationCurve: X
+   AnimationCurve: Y
+   AnimationCurve: Z
+   Vector2: VarianceX
+   Vector2: VarianceY
+   Vector2: VarianceZ
+String: name
+Boolean: internalEnabled
+Boolean: internalForceRebuild
+String: internalBlockListPrefix
+String: internalBlockListSuffix
+Color: internalBlockListColor
+String: generalBlockInfo
+UInt32: persistentID

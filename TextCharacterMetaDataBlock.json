@@ -1,0 +1,30 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Description": "Common game-related text found in options menus, etc.",
+      "name": "Generic",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "Description": "Concise and to-the-point phrasing, almost mechanical. Cold, dispassionate choice of words.",
+      "name": "Warden",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "Description": "Text meant to feel like programming code or a data system reporting on its progress/activity.",
+      "name": "Code",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "Description": "Undefined human being. Probably one of the player characters, i.e. a prisoner. Unlike Warden, they speak with emotion.",
+      "name": "Human",
+      "internalEnabled": true,
+      "persistentID": 4
+    }
+  ],
+  "LastPersistentID": 4
+}

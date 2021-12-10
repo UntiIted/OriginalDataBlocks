@@ -2,6 +2,7 @@
 (enum) eEnemyRoleDifficulty: Difficulty
 (enum) eSpawnPlacementType: SpawnPlacementType
 Single: MaxScore
+Single: ScoreInAreaPaddingMulti
 Single: RelativeWeight
 List<EnemyGroupCompositionData>: Roles
    (enum) eEnemyRole: Role

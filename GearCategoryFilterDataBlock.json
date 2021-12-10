@@ -122,7 +122,17 @@
       "name": "HackingTools",
       "internalEnabled": true,
       "persistentID": 15
+    },
+    {
+      "AllowedCategories": [
+        {
+          "CategoryID": 26
+        }
+      ],
+      "name": "NanoSwarms",
+      "internalEnabled": true,
+      "persistentID": 16
     }
   ],
-  "LastPersistentID": 15
+  "LastPersistentID": 16
 }

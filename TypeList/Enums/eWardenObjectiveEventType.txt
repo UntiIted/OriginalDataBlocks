@@ -5,3 +5,10 @@ AllLightsOff
 AllLightsOn
 PlaySound
 SetFogSetting
+DimensionFlashTeam
+DimensionWarpTeam
+SpawnEnemyWave
+StopEnemyWaves
+UpdateCustomSubObjective
+ForceCompleteObjective
+EventBreak

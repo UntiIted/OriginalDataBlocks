@@ -1,9 +1,16 @@
+Int32: ZoneAliasStart
 List<ExpeditionZoneData>: Zones
    Int32: Alias
    Int32: BuildFromZoneAlias
    String: BulkyListElementName
    (enum) eLocalZoneIndex: LocalIndex
+   Int32: AliasOverride
+   Boolean: OverrideAliasPrefix
+   String: AliasPrefixOverride
+   String: AliasPrefixShortOverride
    Int32: SubSeed
+   Int32: MarkerSubSeed
+   Int32: LightsSubSeed
    Int32: BulkheadDCScanSeed
    (enum) SubComplex: SubComplex
    String: CustomGeomorph
@@ -29,17 +36,275 @@ List<ExpeditionZoneData>: Zones
       LevelEventSoundData: Sound
          Boolean: Enabled
          UInt32: SoundEvent
+   List<WardenObjectiveEventData>: EventsOnPortalWarp
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   List<WardenObjectiveEventData>: EventsOnApproachDoor
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   List<WardenObjectiveEventData>: EventsOnUnlockDoor
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   List<WardenObjectiveEventData>: EventsOnOpenDoor
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   List<WardenObjectiveEventData>: EventsOnDoorScanStart
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   List<WardenObjectiveEventData>: EventsOnDoorScanDone
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+   List<WardenObjectiveEventData>: EventsOnBossDeath
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
    ProgressionPuzzleData: ProgressionPuzzleToEnter
       (enum) eProgressionPuzzleType: PuzzleType
-      String: CustomText
+      LocalizedText: CustomText
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
       Int32: PlacementCount
       List<ZonePlacementData>: ZonePlacementData
+         (enum) eDimensionIndex: DimensionIndex
          (enum) eLocalZoneIndex: LocalIndex
          ZonePlacementWeights: Weights
             Single: Start
             Single: Middle
             Single: End
    UInt32: ChainedPuzzleToEnter
+   Boolean: IsCheckpointDoor
+   Boolean: PlayScannerVoiceAudio
    (enum) eSecurityGateType: SecurityGateToEnter
    Boolean: UseStaticBioscanPointsInZone
    Boolean: TurnOffAlarmOnTerminal
@@ -48,6 +313,42 @@ List<ExpeditionZoneData>: Zones
       (enum) eSeedType: SeedType
       Int32: TerminalIndex
       Int32: StaticSeed
+   List<WardenObjectiveEventData>: EventsOnTerminalDeactivateAlarm
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) eWardenObjectiveEventType: Type
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
    ActiveEnemyWaveData: ActiveEnemyWave
       Boolean: HasActiveEnemyWave
       UInt32: EnemyGroupInfrontOfDoor
@@ -91,6 +392,53 @@ List<ExpeditionZoneData>: Zones
          UInt32: AttachedAudioFile
          Int32: AttachedAudioByteSize
          UInt32: PlayerDialogToTriggerAfterAudio
+      List<CustomTerminalCommand>: UniqueCommands
+         String: Command
+         String: CommandDesc
+         List<TerminalOutput>: PostCommandOutputs
+            (enum) TerminalLineType: LineType
+            LocalizedText: Output
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            Single: Time
+         List<WardenObjectiveEventData>: CommandEvents
+            (enum) eWardenObjectiveEventTrigger: Trigger
+            UInt32: ChainPuzzle
+            Boolean: UseStaticBioscanPoints
+            (enum) eWardenObjectiveEventType: Type
+            (enum) LG_LayerType: Layer
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            Single: Delay
+            Single: Duration
+            Boolean: ClearDimension
+            LocalizedText: WardenIntel
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            LocalizedText: CustomSubObjectiveHeader
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            LocalizedText: CustomSubObjective
+               String: UntranslatedText
+               UInt32: Id
+               Boolean: HasTranslation
+            UInt32: SoundID
+            UInt32: DialogueID
+            UInt32: FogSetting
+            Single: FogTransitionDuration
+            GenericEnemyWaveData: EnemyWaveData
+               UInt32: WaveSettings
+               UInt32: WavePopulation
+               Single: SpawnDelay
+               Boolean: TriggerAlarm
+               LocalizedText: IntelMessage
+                  String: UntranslatedText
+                  UInt32: Id
+                  Boolean: HasTranslation
+         (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData
          (enum) TERM_State: StartingState
          UInt32: AudioEventEnter

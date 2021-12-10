@@ -3,3 +3,4 @@ AlwayBlock
 AlwaysAllow
 BlockedAndScrambled
 UseCustomProgressionLock
+UnlockedByExpedition

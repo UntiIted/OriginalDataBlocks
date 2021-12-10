@@ -100,7 +100,7 @@
       "persistentID": 5
     },
     {
-      "SpawnsPerZone": 10,
+      "SpawnsPerZone": 7,
       "ChanceToSpawnInResourceContainer": 0.9,
       "SpawnData": [
         {
@@ -200,6 +200,31 @@
       "persistentID": 6
     },
     {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "CombatFog_BiggerMedium",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
       "SpawnsPerZone": 3,
       "ChanceToSpawnInResourceContainer": 0.9,
       "SpawnData": [
@@ -217,6 +242,40 @@
       "persistentID": 7
     },
     {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 3.0
+        }
+      ],
+      "name": "Small_Foam",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 3.0
+        }
+      ],
+      "name": "Small_explosives_Tripmine",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
       "SpawnsPerZone": 3,
       "ChanceToSpawnInResourceContainer": 1.0,
       "SpawnData": [
@@ -228,6 +287,19 @@
       "name": "Small_fog",
       "internalEnabled": true,
       "persistentID": 27
+    },
+    {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Tiny_fog",
+      "internalEnabled": true,
+      "persistentID": 34
     },
     {
       "SpawnsPerZone": 3,
@@ -247,6 +319,23 @@
       "persistentID": 19
     },
     {
+      "SpawnsPerZone": 8,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Abundant C-foam",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
       "SpawnsPerZone": 5,
       "ChanceToSpawnInResourceContainer": 0.9,
       "SpawnData": [
@@ -263,10 +352,6 @@
           "Weight": 1.0
         },
         {
-          "ItemID": 117,
-          "Weight": 1.0
-        },
-        {
           "ItemID": 116,
           "Weight": 8.0
         },
@@ -278,6 +363,35 @@
       "name": "Baseline",
       "internalEnabled": true,
       "persistentID": 1
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 14.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Baseline_c2_r6",
+      "internalEnabled": true,
+      "persistentID": 31
     },
     {
       "SpawnsPerZone": 50,
@@ -450,7 +564,7 @@
     },
     {
       "SpawnsPerZone": 8,
-      "ChanceToSpawnInResourceContainer": 0.2,
+      "ChanceToSpawnInResourceContainer": 0.8,
       "SpawnData": [
         {
           "ItemID": 117,
@@ -648,41 +762,46 @@
       "ChanceToSpawnInResourceContainer": 0.7,
       "SpawnData": [
         {
-          "ItemID": 30,
-          "Weight": 1.0
-        },
-        {
           "ItemID": 114,
           "Weight": 1.0
         },
         {
           "ItemID": 115,
-          "Weight": 6.0
-        },
-        {
-          "ItemID": 144,
-          "Weight": 6.0
-        },
-        {
-          "ItemID": 117,
-          "Weight": 1.0
+          "Weight": 3.0
         },
         {
           "ItemID": 116,
           "Weight": 1.0
         },
         {
-          "ItemID": 140,
-          "Weight": 1.0
-        },
-        {
           "ItemID": 142,
-          "Weight": 1.0
+          "Weight": 3.0
         }
       ],
       "name": "Foam_Tech",
       "internalEnabled": true,
       "persistentID": 21
+    },
+    {
+      "SpawnsPerZone": 10,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 114,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Stealth_Tech",
+      "internalEnabled": true,
+      "persistentID": 29
     },
     {
       "SpawnsPerZone": 15,
@@ -759,5 +878,5 @@
       "persistentID": 23
     }
   ],
-  "LastPersistentID": 27
+  "LastPersistentID": 34
 }

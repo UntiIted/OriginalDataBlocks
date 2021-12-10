@@ -1,0 +1,6 @@
+Normal
+Fail
+SpinningWaitDone
+SpinningWaitNoDone
+ProgressWait
+Warning

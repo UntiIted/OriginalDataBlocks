@@ -292,8 +292,8 @@
           "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Revolver_1_GripAlign.prefab"
         ],
         "GearCategoryFilter": 0,
-        "LeftHandGripAnim": "Stock_Revolver_1",
-        "RightHandGripAnim": "Stock_Revolver_1",
+        "LeftHandGripAnim": "Front_Revolver_1",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
         "AssetBundle": "Gear_Weapon_Stock",
         "BundleShard": "S3"
       },
@@ -320,8 +320,8 @@
           "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Revolver_1_GripAlign.prefab"
         ],
         "GearCategoryFilter": 0,
-        "LeftHandGripAnim": "Stock_Revolver_1",
-        "RightHandGripAnim": "Stock_Revolver_1",
+        "LeftHandGripAnim": "Front_Revolver_2_Idle",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
         "AssetBundle": "Gear_Weapon_Stock",
         "BundleShard": "S4"
       },

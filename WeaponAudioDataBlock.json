@@ -709,7 +709,8 @@
         "BurstRifleBodyA2D",
         "BurstRifleMechA2D",
         "BurstRifleNoiseA2D",
-        "BurstRifleWet2D"
+        "BurstRifleWet2D",
+        "rifle_kick_auto_a"
       ],
       "eventOnAutoFireEnd2D": [
         "BurstRifleEnd2D"
@@ -800,10 +801,12 @@
         "BurstRifleBodyA2D",
         "BurstRifleMechB2D",
         "BurstRifleNoiseB2D",
-        "BurstRifleWet2D"
+        "BurstRifleWet2D",
+        "gasrifle_kick_auto_a"
       ],
       "eventOnAutoFireEnd2D": [
-        "BurstRifleEnd2D"
+        "BurstRifleEnd2D",
+        "GasRifleEnd2D"
       ],
       "eventOnBurstFireOneShot2D": [
         "BurstRifle1shotBodyB2D",
@@ -1395,7 +1398,8 @@
         "ShotgunBodyB",
         "ShotgunMechB",
         "ShotgunNoiseB",
-        "ShotgunReverb"
+        "ShotgunReverb",
+        "shotgun_kick_a_2D"
       ],
       "eventOnAutoFireStart2D": [
         "ShotgunBodyC",

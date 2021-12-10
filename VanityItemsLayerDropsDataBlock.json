@@ -1,0 +1,93 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "LayerDrops": [
+        {
+          "Layer": "Main",
+          "Count": 3,
+          "IsAll": false,
+          "Groups": [
+            14
+          ]
+        },
+        {
+          "Layer": "Main",
+          "Count": 6,
+          "IsAll": false,
+          "Groups": [
+            14
+          ]
+        },
+        {
+          "Layer": "Main",
+          "Count": 9,
+          "IsAll": false,
+          "Groups": [
+            14
+          ]
+        },
+        {
+          "Layer": "Main",
+          "Count": 10,
+          "IsAll": true,
+          "Groups": [
+            17
+          ]
+        },
+        {
+          "Layer": "Secondary",
+          "Count": 2,
+          "IsAll": false,
+          "Groups": [
+            15
+          ]
+        },
+        {
+          "Layer": "Secondary",
+          "Count": 4,
+          "IsAll": false,
+          "Groups": [
+            15
+          ]
+        },
+        {
+          "Layer": "Secondary",
+          "Count": 5,
+          "IsAll": true,
+          "Groups": [
+            19
+          ]
+        },
+        {
+          "Layer": "Third",
+          "Count": 1,
+          "IsAll": false,
+          "Groups": [
+            16
+          ]
+        },
+        {
+          "Layer": "Third",
+          "Count": 2,
+          "IsAll": false,
+          "Groups": [
+            16
+          ]
+        },
+        {
+          "Layer": "Third",
+          "Count": 2,
+          "IsAll": true,
+          "Groups": [
+            20
+          ]
+        }
+      ],
+      "name": "Rundown_6_Drops",
+      "internalEnabled": true,
+      "persistentID": 1
+    }
+  ],
+  "LastPersistentID": 2
+}

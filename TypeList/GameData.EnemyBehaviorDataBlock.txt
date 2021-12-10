@@ -43,6 +43,48 @@ Single: ChanceToPropagateOnDeath
 Single: ChanceToPropagateToMastermind
 Single: PropagationDistance
 Boolean: DisableTargetPreferenceWeight
+Boolean: IsFlyer
+(enum) AgentMode: Flyer_HibernateRemap
+MinMaxValue: PathingTargetOffsetY
+   Single: Min
+   Single: Max
+MinMaxValue: PathingTargetDistance
+   Single: Min
+   Single: Max
+MinMaxValue: StrafeVerticalDistance
+   Single: Min
+   Single: Max
+Single: Flyer_Acceleration
+Single: Flyer_Deceleration
+Single: Flyer_SpeedMultipler
+MinMaxValue: Flyer_AttackChargeDuration
+   Single: Min
+   Single: Max
+MinMaxValue: Flyer_BackToMovementAfterAttack
+   Single: Min
+   Single: Max
+Single: Flyer_LightDamageForce
+Single: Flyer_HeavyDamageForce
+MinMaxValue: Flyer_RecoilForce
+   Single: Min
+   Single: Max
+MinMaxValue: Flyer_RecoilTorque
+   Single: Min
+   Single: Max
+Single: Flyer_RollThreshold
+Single: Flyer_YawThreshold
+Single: Flyer_PitchThreshold
+MinMaxValue: Flyer_DeathDealy
+   Single: Min
+   Single: Max
+UInt32: Flyer_BossSpawnWaveID
+UInt32: Flyer_BossEnemyID
+MinMaxValue: Flyer_SpawnOutOfBossStateDuration
+   Single: Min
+   Single: Max
+MinMaxValue: Flyer_EstimatedDistanceFromBoss
+   Single: Min
+   Single: Max
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

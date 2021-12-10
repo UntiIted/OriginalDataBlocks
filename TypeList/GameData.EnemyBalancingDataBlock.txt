@@ -18,6 +18,9 @@ Single: TentacleAttackDamage
 Single: MeleeAttackDamage
 Single: MeleeAttackDamageCheckRadius
 Single: TagTime
+Single: EnemyCollisionRadius
+Single: EnemyCollisionPlayerMovementReduction
+Single: EnemyCollisionMinimumMoveSpeedModifier
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

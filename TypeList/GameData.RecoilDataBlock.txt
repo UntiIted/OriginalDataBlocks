@@ -28,6 +28,9 @@ Single: recoilRotStiffness
 Single: recoilRotDamping
 Single: recoilRotImpulseWeight
 Single: recoilCameraRotWeight
+Single: concussionIntensity
+Single: concussionFrequency
+Single: concussionDuration
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

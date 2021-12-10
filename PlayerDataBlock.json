@@ -36,60 +36,150 @@
       "camPosDefault": {
         "x": 0.0,
         "y": 1.8,
-        "z": 0.0
+        "z": 0.0,
+        "normalized": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1.8,
+        "sqrMagnitude": 3.23999977
       },
       "camPosCrouch": {
         "x": 0.0,
         "y": 1.0,
-        "z": 0.0
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
       },
       "camFovRunDif": 0.0,
       "DofDefault": {
         "enabled": true,
-        "focusDistance": 90.0,
+        "focusDistance": 1.0,
         "aperture": 0.15,
         "focalLength": 1.0
       },
       "DofInElevator": {
         "enabled": true,
-        "focusDistance": 90.0,
+        "focusDistance": 1.0,
         "aperture": 0.15,
         "focalLength": 1.0
       },
       "DofInTerminal": {
         "enabled": true,
-        "focusDistance": 90.0,
+        "focusDistance": 1.0,
         "aperture": 0.15,
         "focalLength": 1.0
       },
       "ChromaticAbberationIntensityMax": 0.204,
       "mouselookAimScaleMinMax": {
         "x": 0.1,
-        "y": 0.5
+        "y": 0.5,
+        "normalized": {
+          "x": 0.196116149,
+          "y": 0.9805807,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.509901941,
+        "sqrMagnitude": 0.26
       },
       "mouselookAimScaleFovRef": {
         "x": 10.0,
-        "y": 40.0
+        "y": 40.0,
+        "normalized": {
+          "x": 0.242535621,
+          "y": 0.9701425,
+          "normalized": {
+            "x": 0.242535636,
+            "y": 0.970142543,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 41.2310562,
+        "sqrMagnitude": 1700.0
       },
       "FPSArmsOffset": {
         "x": 0.0,
         "y": -0.08,
-        "z": 0.0
+        "z": 0.0,
+        "normalized": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.08,
+        "sqrMagnitude": 0.0064
       },
       "FPSBodyOffset": {
-        "x": -0.2,
-        "y": -0.1,
-        "z": -0.5
+        "x": -0.1,
+        "y": -0.07,
+        "z": -0.6,
+        "normalized": {
+          "x": -0.1633211,
+          "y": -0.114324763,
+          "z": -0.9799266,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.6122908,
+        "sqrMagnitude": 0.3749
+      },
+      "AdditionalFPSBodyOffsetWhenRunning": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.35,
+        "normalized": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.35,
+        "sqrMagnitude": 0.122499995
       },
       "FPSBodyOffsetWhenNotFollowingCamera": {
         "x": 0.0,
         "y": -1.8,
-        "z": -0.4
+        "z": -0.4,
+        "normalized": {
+          "x": 0.0,
+          "y": -0.97618705,
+          "z": -0.216930464,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1.84390891,
+        "sqrMagnitude": 3.39999986
       },
       "FPSBodyScale": {
         "x": 1.2,
         "y": 1.2,
-        "z": 1.2
+        "z": 1.2,
+        "normalized": {
+          "x": 0.5773503,
+          "y": 0.5773503,
+          "z": 0.5773503,
+          "normalized": {
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000024
+        },
+        "magnitude": 2.078461,
+        "sqrMagnitude": 4.32
       },
       "FPSBodyMoveNeckToFollowCamera": true,
       "FPSBodyWantedDisToNeck": 1.45,
@@ -112,67 +202,197 @@
       "itemAnimAxisWeight": {
         "x": 0.5,
         "y": 0.5,
-        "z": 1.0
+        "z": 1.0,
+        "normalized": {
+          "x": 0.408248276,
+          "y": 0.408248276,
+          "z": 0.816496551,
+          "normalized": {
+            "x": 0.4082483,
+            "y": 0.4082483,
+            "z": 0.8164966,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.22474492,
+        "sqrMagnitude": 1.5
       },
       "itemLookatAimWeight": 0.8,
       "itemLookSwayWeight": 1.0,
       "itemLookSwayPosImpulseScale": {
         "x": -0.015,
         "y": -0.015,
-        "z": 0.0
+        "z": 0.0,
+        "normalized": {
+          "x": -0.707106769,
+          "y": -0.707106769,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.7071068,
+            "y": -0.7071068,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 0.0212132037,
+        "sqrMagnitude": 0.00045
       },
       "itemLookSwayPosStiffness": 300.0,
       "itemLookSwayPosDamping": 20.0,
       "itemLookSwayRotImpulseScale": {
         "x": 2.0,
         "y": -1.5,
-        "z": -3.0
+        "z": -3.0,
+        "normalized": {
+          "x": 0.5121475,
+          "y": -0.38411063,
+          "z": -0.768221259,
+          "normalized": {
+            "x": 0.512147546,
+            "y": -0.384110659,
+            "z": -0.7682213,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 3.905125,
+        "sqrMagnitude": 15.25
       },
       "itemLookSwayRotXMulti": {
         "x": 0.8,
-        "y": 1.0
+        "y": 1.0,
+        "normalized": {
+          "x": 0.624695063,
+          "y": 0.780868769,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1.28062487,
+        "sqrMagnitude": 1.6400001
       },
       "itemLookSwayRotStiffness": 140.0,
       "itemLookSwayRotDamping": 15.0,
-      "itemLookSwayWeightAiming": 0.15,
+      "itemLookSwayWeightAiming": 0.01,
       "itemLookSwayPosImpulseScaleAiming": {
         "x": -0.0075,
         "y": -0.0075,
-        "z": 0.0
+        "z": 0.0,
+        "normalized": {
+          "x": -0.707106769,
+          "y": -0.707106769,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.7071068,
+            "y": -0.7071068,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 0.0106066018,
+        "sqrMagnitude": 0.0001125
       },
       "itemLookSwayRotImpulseScaleAiming": {
         "x": 2.0,
         "y": -1.5,
-        "z": -1.0
+        "z": -1.0,
+        "normalized": {
+          "x": 0.742781341,
+          "y": -0.557086051,
+          "z": -0.371390671,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.69258237,
+        "sqrMagnitude": 7.25
       },
       "itemAnimWeightAiming": 0.03,
       "itemRecoilWeight": 1.0,
-      "itemFootstepWeight": 0.6,
+      "itemFootstepWeight": 0.0,
       "itemFootstepWeightAiming": 0.0,
       "itemFootstepDelay": 0.12,
       "itemFootstepImpulseScale": {
         "x": 0.13,
         "y": -0.09,
-        "z": 0.05
+        "z": 0.05,
+        "normalized": {
+          "x": 0.783929467,
+          "y": -0.542720437,
+          "z": 0.301511347,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.165831238,
+        "sqrMagnitude": 0.027499998
       },
       "itemFootstepStiffness": 40.0,
       "itemFootstepDamping": 5.0,
       "breathingEnabled": true,
-      "breathingFatigueEnabled": false,
+      "breathingStaminaEnabled": true,
       "breathingScaredEnabled": false,
       "breathingDebugEnabled": false,
       "breathingVolume": 15.0,
-      "fatigueMax": 100.0,
-      "FatigueLimitNormalBreathing": 0.0,
-      "FatigueLimitPanting": 20.0,
-      "FatigueLimitGasping": 85.0,
-      "fatigueRunIncreasePerSecond": 3.0,
-      "fatigueWalkIncreasePerSecond": 1.2,
-      "fatigueWalkCeiling": 15.0,
-      "fatigueRecoverPerSecond": 1.0,
-      "fatigueHealthFactorMin": 1.0,
-      "fatigueHealthFactorMax": 2.0,
       "breathingHealthLowLimit": 0.1,
+      "StaminaTimeBeforeResting": 2.5,
+      "StaminaRegenRestingInCombat": 0.15,
+      "StaminaRegenNotRestingInCombat": 0.0,
+      "StaminaRegenRestingOutOfCombat": 0.25,
+      "StaminaRegenNotRestingOutOfCombat": 0.0,
+      "StaminaEnableAffectMoveSpeed": true,
+      "StaminaHighMovespeedModifier": 1.0,
+      "StaminaLowMovespeedModifier": 0.667,
+      "StaminaMoveSpeedCurveExponent": 2.0,
+      "StaminaEnableAffectMeleeSpeed": true,
+      "StaminaHighMeleeSpeedModifier": 1.0,
+      "StaminaLowMeleeSpeedModifier": 0.67,
+      "StaminaMeleeSpeedCurveExponent": 2.0,
+      "StaminaExhaustedAudioThreshold": 0.2,
+      "StaminaWasTiredAudioThreshold": 0.2,
+      "StaminaRestedAudioThreshold": 1.0,
+      "StaminaUsageAffectedByDrama": true,
+      "StaminaMinimumCapWhenNotInCombat": 0.4,
+      "StaminaMaximumCapWhenInCombat": 0.75,
+      "StaminaMaximumCapWhenInCombatFallRate": 0.0,
+      "StaminaJumpCost": {
+        "baseStaminaCostInCombat": 0.05,
+        "baseStaminaCostOutOfCombat": 0.05,
+        "resetRestingTimerInCombat": true,
+        "resetRestingTimerOutOfCombat": true
+      },
+      "StaminaSneakCost": {
+        "baseStaminaCostInCombat": 0.0,
+        "baseStaminaCostOutOfCombat": 0.0,
+        "resetRestingTimerInCombat": false,
+        "resetRestingTimerOutOfCombat": false
+      },
+      "StaminaWalkCost": {
+        "baseStaminaCostInCombat": 0.0,
+        "baseStaminaCostOutOfCombat": 0.0,
+        "resetRestingTimerInCombat": false,
+        "resetRestingTimerOutOfCombat": false
+      },
+      "StaminaRunCost": {
+        "baseStaminaCostInCombat": 0.01666,
+        "baseStaminaCostOutOfCombat": 0.00666,
+        "resetRestingTimerInCombat": true,
+        "resetRestingTimerOutOfCombat": true
+      },
+      "StaminaCrouchEnterCost": {
+        "baseStaminaCostInCombat": 0.0,
+        "baseStaminaCostOutOfCombat": 0.0,
+        "resetRestingTimerInCombat": false,
+        "resetRestingTimerOutOfCombat": false
+      },
       "defaultDialogLineDelay": 0.5,
       "shortDialogCooldown": 60.0,
       "mediumDialogCooldown": 300.0,
