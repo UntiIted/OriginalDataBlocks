@@ -71,21 +71,7 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.242535621,
-          "y": 0.9701425,
-          "normalized": {
-            "x": 0.242535636,
-            "y": 0.970142543,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 103.077644,
-        "sqrMagnitude": 10625.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 1.0,
@@ -148,21 +134,7 @@
       "Damage": 4.41,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.242535621,
-          "y": 0.9701425,
-          "normalized": {
-            "x": 0.242535636,
-            "y": 0.970142543,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 103.077644,
-        "sqrMagnitude": 10625.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.75,
       "PrecisionDamageMulti": 1.0,
@@ -225,15 +197,7 @@
       "Damage": 2.35,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 85.0,
-        "normalized": {
-          "x": 0.229039341,
-          "y": 0.9734172,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 87.32124,
-        "sqrMagnitude": 7625.0
+        "y": 85.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -296,21 +260,7 @@
       "Damage": 2.1875,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 70.0,
-        "normalized": {
-          "x": 0.141421363,
-          "y": 0.989949465,
-          "normalized": {
-            "x": 0.141421378,
-            "y": 0.9899495,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 70.71068,
-        "sqrMagnitude": 5000.0
+        "y": 70.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -373,21 +323,7 @@
       "Damage": 2.76,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 80.895,
-        "sqrMagnitude": 6544.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -450,21 +386,7 @@
       "Damage": 5.01,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 80.895,
-        "sqrMagnitude": 6544.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -527,15 +449,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -598,15 +512,7 @@
       "Damage": 2.3,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 90.0,
-        "normalized": {
-          "x": 0.216930464,
-          "y": 0.9761871,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 92.19544,
-        "sqrMagnitude": 8500.0
+        "y": 90.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -669,21 +575,7 @@
       "Damage": 1.76,
       "DamageFalloff": {
         "x": 7.0,
-        "y": 55.0,
-        "normalized": {
-          "x": 0.126254275,
-          "y": 0.9919979,
-          "normalized": {
-            "x": 0.12625429,
-            "y": 0.991997957,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 55.4436646,
-        "sqrMagnitude": 3074.0
+        "y": 55.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -746,15 +638,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -817,15 +701,7 @@
       "Damage": 2.01,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 55.0,
-        "normalized": {
-          "x": 0.108447507,
-          "y": 0.9941022,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 55.3263054,
-        "sqrMagnitude": 3061.0
+        "y": 55.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -888,15 +764,7 @@
       "Damage": 1.76,
       "DamageFalloff": {
         "x": 5.0,
-        "y": 50.0,
-        "normalized": {
-          "x": 0.09950372,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 50.24938,
-        "sqrMagnitude": 2525.0
+        "y": 50.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.91,
@@ -959,15 +827,7 @@
       "Damage": 16.25,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 90.0,
-        "normalized": {
-          "x": 0.164398983,
-          "y": 0.9863939,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 91.24144,
-        "sqrMagnitude": 8325.0
+        "y": 90.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.8,
@@ -1030,15 +890,7 @@
       "Damage": 20.1,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.734,
@@ -1101,15 +953,7 @@
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.3,
@@ -1172,15 +1016,7 @@
       "Damage": 3.91,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
@@ -1243,15 +1079,7 @@
       "Damage": 3.21,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
@@ -1314,15 +1142,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1385,21 +1205,7 @@
       "Damage": 7.51,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 111.8034,
-        "sqrMagnitude": 12500.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.87,
@@ -1462,21 +1268,7 @@
       "Damage": 6.6,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 111.8034,
-        "sqrMagnitude": 12500.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1539,21 +1331,7 @@
       "Damage": 6.0,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 111.8034,
-        "sqrMagnitude": 12500.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.5,
@@ -1606,15 +1384,7 @@
       "Damage": 5.51,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 90.0,
-        "normalized": {
-          "x": 0.40613845,
-          "y": 0.913811564,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 98.48858,
-        "sqrMagnitude": 9700.0
+        "y": 90.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.9,
@@ -1677,21 +1447,7 @@
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.351123422,
-          "y": 0.9363291,
-          "normalized": {
-            "x": 0.351123452,
-            "y": 0.9363292,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 85.44004,
-        "sqrMagnitude": 7300.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1754,15 +1510,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1825,15 +1573,7 @@
       "Damage": 40.01,
       "DamageFalloff": {
         "x": 60.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.51449573,
-          "y": 0.8574929,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 116.619041,
-        "sqrMagnitude": 13600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 2.0025,
@@ -1896,15 +1636,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 60.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.51449573,
-          "y": 0.8574929,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 116.619041,
-        "sqrMagnitude": 13600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -1957,15 +1689,7 @@
       "Damage": 15.0,
       "DamageFalloff": {
         "x": 55.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.481918752,
-          "y": 0.876215935,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 114.127121,
-        "sqrMagnitude": 13025.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2028,21 +1752,7 @@
       "Damage": 12.0,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 111.8034,
-        "sqrMagnitude": 12500.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2105,15 +1815,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2176,15 +1878,7 @@
       "Damage": 3.01,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2247,15 +1941,7 @@
       "Damage": 6.01,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 30.0,
-        "normalized": {
-          "x": 0.132163718,
-          "y": 0.9912279,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 30.2654915,
-        "sqrMagnitude": 916.0
+        "y": 30.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.7333,
@@ -2318,15 +2004,7 @@
       "Damage": 6.01,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.7333,
@@ -2389,15 +2067,7 @@
       "Damage": 4.13,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.7333,
@@ -2460,21 +2130,7 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 60.0,
-        "normalized": {
-          "x": 0.09950372,
-          "y": 0.995037138,
-          "normalized": {
-            "x": 0.0995037258,
-            "y": 0.9950372,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 60.2992554,
-        "sqrMagnitude": 3636.0
+        "y": 60.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2527,15 +2183,7 @@
       "Damage": 3.76,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.35,
       "PrecisionDamageMulti": 1.0,
@@ -2598,15 +2246,7 @@
       "Damage": 2.51,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.875,
@@ -2669,15 +2309,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2740,21 +2372,7 @@
       "Damage": 12.21,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 80.895,
-        "sqrMagnitude": 6544.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
@@ -2817,21 +2435,7 @@
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 80.895,
-        "sqrMagnitude": 6544.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -2884,15 +2488,7 @@
       "Damage": 8.01,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.12403474,
-          "y": 0.9922779,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 80.6225739,
-        "sqrMagnitude": 6500.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
@@ -2955,15 +2551,7 @@
       "Damage": 7.0,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 60.0,
-        "normalized": {
-          "x": 0.164398983,
-          "y": 0.9863939,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 60.8276253,
-        "sqrMagnitude": 3700.0
+        "y": 60.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3016,15 +2604,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3077,21 +2657,7 @@
       "Damage": 30.01,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 89.44272,
-        "sqrMagnitude": 8000.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.730897,
@@ -3154,21 +2720,7 @@
       "Damage": 4.39,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 45.0,
-        "normalized": {
-          "x": 0.132163718,
-          "y": 0.991227865,
-          "normalized": {
-            "x": 0.132163733,
-            "y": 0.9912279,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 45.39824,
-        "sqrMagnitude": 2061.0
+        "y": 45.0
       },
       "StaggerDamageMulti": 1.5,
       "PrecisionDamageMulti": 0.8667,
@@ -3231,15 +2783,7 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3292,15 +2836,7 @@
       "Damage": 2.0,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 60.0,
-        "normalized": {
-          "x": 0.164398983,
-          "y": 0.9863939,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 60.8276253,
-        "sqrMagnitude": 3700.0
+        "y": 60.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3363,15 +2899,7 @@
       "Damage": 1.45,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.867,
@@ -3434,15 +2962,7 @@
       "Damage": 1.11,
       "DamageFalloff": {
         "x": 5.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.12403474,
-          "y": 0.9922779,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 40.3112869,
-        "sqrMagnitude": 1625.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 5.0,
       "PrecisionDamageMulti": 0.867,
@@ -3505,15 +3025,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.3713907,
-          "y": 0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 107.703293,
-        "sqrMagnitude": 11600.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3576,15 +3088,7 @@
       "Damage": 2.95,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.7413,
@@ -3647,21 +3151,7 @@
       "Damage": 2.6,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 40.4475,
-        "sqrMagnitude": 1636.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3714,21 +3204,7 @@
       "Damage": 2.4,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 40.4475,
-        "sqrMagnitude": 1636.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3781,21 +3257,7 @@
       "Damage": 2.4,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.9889363,
-          "normalized": {
-            "x": 0.148340464,
-            "y": 0.988936365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 40.4475,
-        "sqrMagnitude": 1636.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3848,15 +3310,7 @@
       "Damage": 1.91,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 70.0,
-        "normalized": {
-          "x": 0.209529087,
-          "y": 0.977802455,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 71.5891,
-        "sqrMagnitude": 5125.0
+        "y": 70.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3919,21 +3373,7 @@
       "Damage": 1.8,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.242535621,
-          "y": 0.9701425,
-          "normalized": {
-            "x": 0.242535636,
-            "y": 0.970142543,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 82.46211,
-        "sqrMagnitude": 6800.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -3996,15 +3436,7 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 90.0,
-        "normalized": {
-          "x": 0.267643869,
-          "y": 0.9635179,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 93.40771,
-        "sqrMagnitude": 8725.0
+        "y": 90.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4067,21 +3499,7 @@
       "Damage": 1.5,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 70.0,
-        "normalized": {
-          "x": 0.141421363,
-          "y": 0.989949465,
-          "normalized": {
-            "x": 0.141421378,
-            "y": 0.9899495,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 70.71068,
-        "sqrMagnitude": 5000.0
+        "y": 70.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4144,21 +3562,7 @@
       "Damage": 48.1,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.196116135,
-          "y": 0.9805806,
-          "normalized": {
-            "x": 0.196116149,
-            "y": 0.9805807,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 101.980392,
-        "sqrMagnitude": 10400.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4221,15 +3625,7 @@
       "Damage": 2.01,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 80.0,
-        "normalized": {
-          "x": 0.184288532,
-          "y": 0.9828722,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 81.394104,
-        "sqrMagnitude": 6625.0
+        "y": 80.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4292,21 +3688,7 @@
       "Damage": 0.71,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 70.0,
-        "normalized": {
-          "x": 0.141421363,
-          "y": 0.989949465,
-          "normalized": {
-            "x": 0.141421378,
-            "y": 0.9899495,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 70.71068,
-        "sqrMagnitude": 5000.0
+        "y": 70.0
       },
       "StaggerDamageMulti": 8.0,
       "PrecisionDamageMulti": 0.834,
@@ -4369,15 +3751,7 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 4.0,
-        "y": 40.0,
-        "normalized": {
-          "x": 0.0995037258,
-          "y": 0.9950372,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 40.1995,
-        "sqrMagnitude": 1616.0
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4441,21 +3815,7 @@
       "Damage": 6.0,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.287347883,
-          "y": 0.957826257,
-          "normalized": {
-            "x": 0.2873479,
-            "y": 0.9578263,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 104.403069,
-        "sqrMagnitude": 10900.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4508,21 +3868,7 @@
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.119145215,
-          "y": 0.9928768,
-          "normalized": {
-            "x": 0.119145222,
-            "y": 0.9928769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 100.71743,
-        "sqrMagnitude": 10144.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4575,21 +3921,7 @@
       "Damage": 15.0,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.287347883,
-          "y": 0.957826257,
-          "normalized": {
-            "x": 0.2873479,
-            "y": 0.9578263,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 104.403069,
-        "sqrMagnitude": 10900.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4642,15 +3974,7 @@
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 100.0,
-        "normalized": {
-          "x": 0.148340449,
-          "y": 0.988936365,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 101.118744,
-        "sqrMagnitude": 10225.0
+        "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4703,21 +4027,7 @@
       "Damage": 2.0,
       "DamageFalloff": {
         "x": 6.0,
-        "y": 60.0,
-        "normalized": {
-          "x": 0.09950372,
-          "y": 0.995037138,
-          "normalized": {
-            "x": 0.0995037258,
-            "y": 0.9950372,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 60.2992554,
-        "sqrMagnitude": 3636.0
+        "y": 60.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4770,21 +4080,7 @@
       "Damage": 1.5,
       "DamageFalloff": {
         "x": 3.0,
-        "y": 50.0,
-        "normalized": {
-          "x": 0.05989229,
-          "y": 0.9982048,
-          "normalized": {
-            "x": 0.0598922931,
-            "y": 0.9982049,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 50.08992,
-        "sqrMagnitude": 2509.0
+        "y": 50.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4837,9 +4133,7 @@
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
@@ -4892,9 +4186,7 @@
       "Damage": 3.0,
       "DamageFalloff": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,

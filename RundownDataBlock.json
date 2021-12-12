@@ -53,9 +53,7 @@
         "TextLog": 1268,
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -117,9 +115,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": 1267
       },
@@ -2885,9 +2881,7 @@
         "TextLog": "The first Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -2949,9 +2943,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -3707,9 +3699,7 @@
         "TextLog": "The second Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -3771,9 +3761,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -4942,9 +4930,7 @@
         "TextLog": "The Third Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -5006,9 +4992,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -5955,9 +5939,7 @@
         "TextLog": "The Fourth Early Access rundown",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -6019,9 +6001,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": 0
       },
@@ -8911,9 +8891,7 @@
         "TextLog": 928,
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -8975,9 +8953,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": 929
       },
@@ -11629,9 +11605,7 @@
         "TextLog": "Prisoner, we need to test the stability of the interconnected vitality systems. Go down into the complex and try to stay alive for as long as possible. ",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -11693,15 +11667,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": -50.0,
-          "normalized": {
-            "x": 0.0,
-            "y": -1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 50.0,
-          "sqrMagnitude": 2500.0
+          "y": -50.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -11858,9 +11824,7 @@
         "TextLog": 0,
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -11922,9 +11886,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -13405,9 +13367,7 @@
         "TextLog": "A rundown tests all environments\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -13469,9 +13429,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -14559,9 +14517,7 @@
         "TextLog": "A rundown to test geomorphs",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -14623,9 +14579,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -15489,9 +15443,7 @@
         "TextLog": "The Third Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -15553,9 +15505,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -15830,9 +15780,7 @@
         "TextLog": "A rundown to test geomorphs",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -15894,9 +15842,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -16748,9 +16694,7 @@
         "TextLog": 0,
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -16812,9 +16756,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": 0
       },
@@ -17085,9 +17027,7 @@
         "TextLog": "An example rundown with some test missions with different objectives and layouts. \nThese missions are for in house testing only.",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -17149,9 +17089,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -18321,9 +18259,7 @@
         "TextLog": "The second Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -18385,9 +18321,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -19556,9 +19490,7 @@
         "TextLog": "The second Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -19620,9 +19552,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -21015,9 +20945,7 @@
         "TextLog": "1-2-3",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -21079,9 +21007,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": 0
       },
@@ -21461,9 +21387,7 @@
         "TextLog": "Prisoner, we need to test the stability of the interconnected vitality systems. Go down into the complex and try to stay alive for as long as possible. ",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -21525,15 +21449,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": -50.0,
-          "normalized": {
-            "x": 0.0,
-            "y": -1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 50.0,
-          "sqrMagnitude": 2500.0
+          "y": -50.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -21690,15 +21606,7 @@
         "TextLog": "The first rundown of GTFO is here, be prepared!",
         "TextLogPos": {
           "x": -686.8999,
-          "y": 438.1,
-          "normalized": {
-            "x": -0.8431152,
-            "y": 0.537733,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 814.716553,
-          "sqrMagnitude": 663763.063
+          "y": 438.1
         },
         "Visuals": {
           "ColorBackground": {
@@ -21760,9 +21668,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": 0
       },
@@ -22698,9 +22604,7 @@
         "TextLog": "The first Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -22762,9 +22666,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -23371,9 +23273,7 @@
         "TextLog": "The first Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -23435,9 +23335,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },
@@ -24266,9 +24164,7 @@
         "TextLog": "The first Early Access rundown\n-WIP-\n",
         "TextLogPos": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "Visuals": {
           "ColorBackground": {
@@ -24330,9 +24226,7 @@
         },
         "SurfaceIconPosition": {
           "x": 0.0,
-          "y": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
+          "y": 0.0
         },
         "SurfaceDescription": "Surface intel"
       },

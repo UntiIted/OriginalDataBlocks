@@ -193,9 +193,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -245,9 +243,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -287,9 +283,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -329,9 +323,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -371,9 +363,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -413,9 +403,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -455,9 +443,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -497,9 +483,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -539,9 +523,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -709,9 +691,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -751,9 +731,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -793,9 +771,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -835,9 +811,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -877,9 +851,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -919,9 +891,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -961,9 +931,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1003,9 +971,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1045,9 +1011,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1087,9 +1051,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1129,9 +1091,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1171,9 +1131,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1213,9 +1171,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1255,9 +1211,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1297,9 +1251,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1339,9 +1291,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1381,9 +1331,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1423,9 +1371,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1465,9 +1411,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1507,9 +1451,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1549,9 +1491,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1591,9 +1531,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1633,9 +1571,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1675,9 +1611,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1717,9 +1651,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -1759,9 +1691,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1811,9 +1741,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -1853,9 +1781,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1895,9 +1821,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1937,9 +1861,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -1979,9 +1901,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2021,9 +1941,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2063,9 +1981,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2105,9 +2021,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2147,9 +2061,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2189,9 +2101,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2231,15 +2141,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.1,
-        "y": 0.5,
-        "normalized": {
-          "x": 0.196116149,
-          "y": 0.9805807,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.509901941,
-        "sqrMagnitude": 0.26
+        "y": 0.5
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2279,9 +2181,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2321,9 +2221,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2401,9 +2299,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2443,21 +2339,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.5,
-        "y": 1.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.118034,
-        "sqrMagnitude": 1.25
+        "y": 1.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2497,21 +2379,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.5,
-        "y": 1.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.118034,
-        "sqrMagnitude": 1.25
+        "y": 1.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2551,21 +2419,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.5,
-        "y": 1.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.118034,
-        "sqrMagnitude": 1.25
+        "y": 1.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2605,9 +2459,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2647,9 +2499,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2689,9 +2539,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2731,9 +2579,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2773,9 +2619,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2815,9 +2659,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2857,9 +2699,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -2899,9 +2739,7 @@
       "triggerInterval": "OncePerSegment",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2941,9 +2779,7 @@
       "triggerInterval": "OncePerSegment",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -2983,9 +2819,7 @@
       "triggerInterval": "OncePerSegment",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3025,9 +2859,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3067,9 +2899,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3109,9 +2939,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3151,9 +2979,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3193,9 +3019,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3235,9 +3059,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3277,9 +3099,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3319,9 +3139,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3361,9 +3179,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3403,9 +3219,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3445,9 +3259,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3487,9 +3299,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -3607,15 +3417,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.2,
-        "y": 0.3,
-        "normalized": {
-          "x": 0.5547002,
-          "y": 0.832050264,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.360555142,
-        "sqrMagnitude": 0.13000001
+        "y": 0.3
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -3655,9 +3457,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3707,9 +3507,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3759,9 +3557,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3811,9 +3607,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3863,9 +3657,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3915,9 +3707,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -3967,9 +3757,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4019,9 +3807,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4071,9 +3857,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4123,9 +3907,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4175,9 +3957,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4227,9 +4007,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4279,9 +4057,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4331,9 +4107,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4383,9 +4157,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4435,9 +4207,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4487,9 +4257,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4539,9 +4307,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4591,9 +4357,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4643,9 +4407,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4695,9 +4457,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -4737,9 +4497,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4779,9 +4537,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4821,9 +4577,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4873,9 +4627,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4925,9 +4677,7 @@
       "triggerInterval": "OncePerSegment",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -4967,9 +4717,7 @@
       "triggerInterval": "OncePerSegment",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5009,9 +4757,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5051,9 +4797,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5093,9 +4837,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5135,9 +4877,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5177,9 +4917,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5219,9 +4957,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5271,9 +5007,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5439,9 +5173,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5519,9 +5251,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5687,9 +5417,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5767,9 +5495,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -5935,9 +5661,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6015,9 +5739,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6183,9 +5905,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6263,9 +5983,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6305,9 +6023,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6347,9 +6063,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -6389,9 +6103,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6431,9 +6143,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6473,21 +6183,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 2.0,
-        "y": 4.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 4.472136,
-        "sqrMagnitude": 20.0
+        "y": 4.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -6537,21 +6233,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 1.0,
-        "y": 2.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 2.236068,
-        "sqrMagnitude": 5.0
+        "y": 2.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6591,21 +6273,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 1.0,
-        "y": 2.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 2.236068,
-        "sqrMagnitude": 5.0
+        "y": 2.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -6645,9 +6313,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6687,9 +6353,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6729,9 +6393,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6771,9 +6433,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6827,9 +6487,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6869,9 +6527,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -6911,9 +6567,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7011,9 +6665,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7139,9 +6791,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7239,21 +6889,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.5,
-        "y": 1.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.118034,
-        "sqrMagnitude": 1.25
+        "y": 1.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7293,21 +6929,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 1.0,
-        "y": 2.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 2.236068,
-        "sqrMagnitude": 5.0
+        "y": 2.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7357,15 +6979,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.8,
-        "y": 1.2,
-        "normalized": {
-          "x": 0.5547002,
-          "y": 0.832050264,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.44222057,
-        "sqrMagnitude": 2.08000016
+        "y": 1.2
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -7405,15 +7019,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 3.0,
-        "y": 5.0,
-        "normalized": {
-          "x": 0.5144958,
-          "y": 0.857493,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 5.83095169,
-        "sqrMagnitude": 34.0
+        "y": 5.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7463,15 +7069,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.8,
-        "y": 1.2,
-        "normalized": {
-          "x": 0.5547002,
-          "y": 0.832050264,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.44222057,
-        "sqrMagnitude": 2.08000016
+        "y": 1.2
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -7511,15 +7109,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.5,
-        "y": 2.0,
-        "normalized": {
-          "x": 0.242535636,
-          "y": 0.970142543,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 2.06155276,
-        "sqrMagnitude": 4.25
+        "y": 2.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7559,9 +7149,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7601,9 +7189,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7643,9 +7229,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7685,9 +7269,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7731,9 +7313,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7777,9 +7357,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7823,9 +7401,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7869,9 +7445,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7911,9 +7485,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -7953,21 +7525,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.5,
-        "y": 1.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.118034,
-        "sqrMagnitude": 1.25
+        "y": 1.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8007,9 +7565,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8049,21 +7605,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.5,
-        "y": 1.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.118034,
-        "sqrMagnitude": 1.25
+        "y": 1.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8103,9 +7645,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8145,21 +7685,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 3.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.708204,
-        "sqrMagnitude": 45.0
+        "y": 6.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8199,21 +7725,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 3.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.708204,
-        "sqrMagnitude": 45.0
+        "y": 6.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8253,21 +7765,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 3.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.708204,
-        "sqrMagnitude": 45.0
+        "y": 6.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8307,21 +7805,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 3.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.708204,
-        "sqrMagnitude": 45.0
+        "y": 6.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8361,9 +7845,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8403,9 +7885,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8445,9 +7925,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8487,9 +7965,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -8529,9 +8005,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "High",
       "dramaFilter": {
@@ -8571,21 +8045,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 2.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.316227764,
-          "y": 0.948683262,
-          "normalized": {
-            "x": 0.3162278,
-            "y": 0.9486833,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.3245554,
-        "sqrMagnitude": 40.0
+        "y": 6.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -8625,21 +8085,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 2.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.316227764,
-          "y": 0.948683262,
-          "normalized": {
-            "x": 0.3162278,
-            "y": 0.9486833,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.3245554,
-        "sqrMagnitude": 40.0
+        "y": 6.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -8679,21 +8125,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 2.0,
-        "y": 6.0,
-        "normalized": {
-          "x": 0.316227764,
-          "y": 0.948683262,
-          "normalized": {
-            "x": 0.3162278,
-            "y": 0.9486833,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 6.3245554,
-        "sqrMagnitude": 40.0
+        "y": 6.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -8733,9 +8165,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -8833,9 +8263,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -8933,9 +8361,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9033,9 +8459,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9133,9 +8557,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9185,9 +8607,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9227,9 +8647,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9327,9 +8745,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9427,9 +8843,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9527,9 +8941,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9627,9 +9039,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9679,9 +9089,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9771,9 +9179,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9823,9 +9229,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9885,9 +9289,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9937,9 +9339,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -9979,9 +9379,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10021,9 +9419,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10063,9 +9459,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10105,9 +9499,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10147,9 +9539,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -10189,9 +9579,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -10231,9 +9619,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -10273,9 +9659,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10315,9 +9699,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10357,9 +9739,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10399,9 +9779,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10441,9 +9819,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10493,9 +9869,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10548,9 +9922,7 @@
       "triggerInterval": "LongCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10600,9 +9972,7 @@
       "triggerInterval": "OncePerExpedition",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10692,9 +10062,7 @@
       "triggerInterval": "MediumCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -10963,9 +10331,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11005,9 +10371,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11063,9 +10427,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11105,9 +10467,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11147,9 +10507,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11189,9 +10547,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11231,9 +10587,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11273,9 +10627,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11315,9 +10667,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11357,9 +10707,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11399,9 +10747,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11441,9 +10787,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11483,9 +10827,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11525,9 +10867,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11567,9 +10907,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11609,9 +10947,7 @@
       "triggerInterval": "ShortCooldown",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11651,21 +10987,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 2.0,
-        "y": 4.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 4.472136,
-        "sqrMagnitude": 20.0
+        "y": 4.0
       },
       "tensionLimit": "Medium",
       "dramaFilter": {
@@ -11705,9 +11027,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11757,9 +11077,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11799,9 +11117,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11841,9 +11157,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11883,9 +11197,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11925,9 +11237,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -11967,9 +11277,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12009,9 +11317,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12051,9 +11357,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12093,9 +11397,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12135,9 +11437,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12177,9 +11477,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12219,9 +11517,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12261,9 +11557,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12303,9 +11597,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12345,9 +11637,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12387,9 +11677,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12429,9 +11717,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12471,9 +11757,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12513,9 +11797,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12555,9 +11837,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12597,9 +11877,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12639,9 +11917,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12681,9 +11957,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12723,9 +11997,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12765,9 +12037,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12807,9 +12077,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12849,9 +12117,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12891,9 +12157,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12933,9 +12197,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -12975,9 +12237,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13017,9 +12277,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13059,9 +12317,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13101,9 +12357,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13143,9 +12397,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13185,9 +12437,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13227,9 +12477,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13269,9 +12517,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13311,9 +12557,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13353,9 +12597,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13395,9 +12637,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13437,9 +12677,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13479,9 +12717,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13521,9 +12757,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13563,9 +12797,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13605,9 +12837,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13647,9 +12877,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13689,9 +12917,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13731,9 +12957,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13773,9 +12997,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13815,9 +13037,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13857,9 +13077,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13899,9 +13117,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13941,9 +13157,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -13983,9 +13197,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14025,9 +13237,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14067,9 +13277,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14109,9 +13317,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14151,9 +13357,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14193,9 +13397,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14235,9 +13437,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14277,9 +13477,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14319,9 +13517,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14361,9 +13557,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14403,9 +13597,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14445,9 +13637,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14487,9 +13677,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14529,9 +13717,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14571,9 +13757,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14613,9 +13797,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14655,9 +13837,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14697,9 +13877,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14739,9 +13917,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14781,9 +13957,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14823,9 +13997,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14865,9 +14037,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14907,9 +14077,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14949,9 +14117,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -14991,9 +14157,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15033,9 +14197,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15075,9 +14237,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15117,9 +14277,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15159,9 +14317,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15201,9 +14357,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15243,9 +14397,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15285,9 +14437,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15327,9 +14477,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15369,9 +14517,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15411,9 +14557,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15453,9 +14597,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15495,9 +14637,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15537,9 +14677,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15579,9 +14717,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15621,9 +14757,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15663,9 +14797,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15705,9 +14837,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15747,9 +14877,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15789,9 +14917,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15831,9 +14957,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15873,9 +14997,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15915,9 +15037,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15957,9 +15077,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -15999,9 +15117,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16041,9 +15157,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16083,9 +15197,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16125,9 +15237,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16167,9 +15277,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16209,9 +15317,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16251,9 +15357,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16293,9 +15397,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16335,9 +15437,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16377,9 +15477,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16419,9 +15517,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16461,9 +15557,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16503,9 +15597,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16545,9 +15637,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16587,9 +15677,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16629,9 +15717,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16671,9 +15757,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16713,9 +15797,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16755,9 +15837,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16797,9 +15877,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16839,9 +15917,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16881,9 +15957,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16923,9 +15997,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -16965,9 +16037,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -17007,9 +16077,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -17049,9 +16117,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -17091,9 +16157,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -17133,9 +16197,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {
@@ -17175,9 +16237,7 @@
       "triggerInterval": "Unlimited",
       "randomDelay": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "tensionLimit": "Low",
       "dramaFilter": {

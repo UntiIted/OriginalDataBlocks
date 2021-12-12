@@ -31,123 +31,44 @@
       "localPosHip": {
         "x": 0.08,
         "y": -0.1,
-        "z": 0.31,
-        "normalized": {
-          "x": 0.2385139,
-          "y": -0.2981424,
-          "z": 0.9242414,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.3354102,
-        "sqrMagnitude": 0.112500004
+        "z": 0.31
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": -2.59,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.59,
-        "sqrMagnitude": 6.70809937
+        "z": -2.59
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -5.0,
       "localPosRelaxed": {
         "x": 0.048,
         "y": -0.13,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.113388076,
-          "y": -0.3070927,
-          "z": 0.944900632,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.423324943,
-        "sqrMagnitude": 0.179204017
+        "z": 0.4
       },
       "localRotRelaxed": {
         "x": 8.0,
         "y": -14.7,
-        "z": -29.3,
-        "normalized": {
-          "x": 0.23708725,
-          "y": -0.435647815,
-          "z": -0.868332,
-          "normalized": {
-            "x": 0.237087265,
-            "y": -0.435647845,
-            "z": -0.8683321,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 33.74285,
-        "sqrMagnitude": 1138.58
+        "z": -29.3
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.4027386,
-          "z": 0.915315032,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.382382,
-        "sqrMagnitude": 0.14621599
+        "z": 0.35
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": -0.1,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.707106769,
-          "z": -0.707106769,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.7071068,
-            "z": -0.7071068,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.141421363,
-        "sqrMagnitude": 0.0200000014
+        "z": -0.1
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 18.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 18.0,
-        "sqrMagnitude": 324.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 35,
       "ItemCameraFOVZoom": 15,
@@ -186,102 +107,44 @@
       "localPosHip": {
         "x": 0.09,
         "y": -0.1,
-        "z": 0.43,
-        "normalized": {
-          "x": 0.199753538,
-          "y": -0.22194837,
-          "z": 0.954378,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.450555235,
-        "sqrMagnitude": 0.203000009
+        "z": 0.43
       },
       "localRotHip": {
         "x": -2.36,
         "y": -0.61,
-        "z": -1.53,
-        "normalized": {
-          "x": -0.820027947,
-          "y": -0.211956382,
-          "z": -0.5316283,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.87795067,
-        "sqrMagnitude": 8.282599
+        "z": -1.53
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 10.0,
       "localPosRelaxed": {
         "x": 0.09,
         "y": -0.18,
-        "z": 0.32,
-        "normalized": {
-          "x": 0.238081932,
-          "y": -0.476163864,
-          "z": 0.84651345,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.378021151,
-        "sqrMagnitude": 0.14289999
+        "z": 0.32
       },
       "localRotRelaxed": {
         "x": 5.0,
         "y": -12.0,
-        "z": -25.0,
-        "normalized": {
-          "x": 0.177443355,
-          "y": -0.425864071,
-          "z": -0.8872168,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 28.1780052,
-        "sqrMagnitude": 794.0
+        "z": -25.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.25,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.524477363,
-          "z": 0.851424336,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.5244774,
-            "z": 0.8514244,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.293625623,
-        "sqrMagnitude": 0.086216
+        "z": 0.25
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 36,
       "ItemCameraFOVZoom": 20,
@@ -320,109 +183,44 @@
       "localPosHip": {
         "x": 0.07,
         "y": -0.1,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.188844651,
-          "y": -0.269778073,
-          "z": 0.9442232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.370675057,
-        "sqrMagnitude": 0.1374
+        "z": 0.35
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": -3.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 3.0,
-        "sqrMagnitude": 9.0
+        "z": -3.0
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -5.0,
       "localPosRelaxed": {
         "x": 0.05,
         "y": -0.13,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.118048042,
-          "y": -0.30692488,
-          "z": 0.944384336,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.4235564,
-        "sqrMagnitude": 0.179400012
+        "z": 0.4
       },
       "localRotRelaxed": {
         "x": 10.0,
         "y": -15.0,
-        "z": -25.0,
-        "normalized": {
-          "x": 0.324442863,
-          "y": -0.486664265,
-          "z": -0.8111071,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 30.82207,
-        "sqrMagnitude": 950.0
+        "z": -25.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.3,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.456677824,
-          "z": 0.889632165,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.337218046,
-        "sqrMagnitude": 0.113716006
+        "z": 0.3
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.15,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.15,
-        "sqrMagnitude": 0.0225
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 10.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 10.0,
-        "sqrMagnitude": 100.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 32,
       "ItemCameraFOVZoom": 15,
@@ -461,109 +259,44 @@
       "localPosHip": {
         "x": 0.076,
         "y": -0.085,
-        "z": 0.38,
-        "normalized": {
-          "x": 0.19156222,
-          "y": -0.214247227,
-          "z": 0.9578111,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.396737933,
-        "sqrMagnitude": 0.157401
+        "z": 0.38
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -8.0,
       "localPosRelaxed": {
         "x": 0.06,
         "y": -0.1,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.1440046,
-          "y": -0.240007669,
-          "z": 0.9600307,
-          "normalized": {
-            "x": 0.144004613,
-            "y": -0.240007684,
-            "z": 0.960030735,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.416653365,
-        "sqrMagnitude": 0.173600018
+        "z": 0.4
       },
       "localRotRelaxed": {
         "x": 6.8,
         "y": -11.2,
-        "z": -26.0,
-        "normalized": {
-          "x": 0.233557045,
-          "y": -0.384682149,
-          "z": -0.893012166,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 29.1149445,
-        "sqrMagnitude": 847.68
+        "z": -26.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.4027386,
-          "z": 0.915315032,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.382382,
-        "sqrMagnitude": 0.14621599
+        "z": 0.35
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.05,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.05,
-        "sqrMagnitude": 0.00250000018
+        "z": 0.05
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 20.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 20.0,
-        "sqrMagnitude": 400.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 32,
       "ItemCameraFOVZoom": 23,
@@ -602,109 +335,44 @@
       "localPosHip": {
         "x": 0.076,
         "y": -0.085,
-        "z": 0.38,
-        "normalized": {
-          "x": 0.19156222,
-          "y": -0.214247227,
-          "z": 0.9578111,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.396737933,
-        "sqrMagnitude": 0.157401
+        "z": 0.38
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -8.0,
       "localPosRelaxed": {
         "x": 0.06,
         "y": -0.1,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.1440046,
-          "y": -0.240007669,
-          "z": 0.9600307,
-          "normalized": {
-            "x": 0.144004613,
-            "y": -0.240007684,
-            "z": 0.960030735,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.416653365,
-        "sqrMagnitude": 0.173600018
+        "z": 0.4
       },
       "localRotRelaxed": {
         "x": 6.8,
         "y": -11.2,
-        "z": -26.0,
-        "normalized": {
-          "x": 0.233557045,
-          "y": -0.384682149,
-          "z": -0.893012166,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 29.1149445,
-        "sqrMagnitude": 847.68
+        "z": -26.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.4027386,
-          "z": 0.915315032,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.382382,
-        "sqrMagnitude": 0.14621599
+        "z": 0.35
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.05,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.05,
-        "sqrMagnitude": 0.00250000018
+        "z": 0.05
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 20.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 20.0,
-        "sqrMagnitude": 400.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 32,
       "ItemCameraFOVZoom": 23,
@@ -743,137 +411,44 @@
       "localPosHip": {
         "x": 0.07,
         "y": -0.09,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.136496067,
-          "y": -0.175494954,
-          "z": 0.97497195,
-          "normalized": {
-            "x": 0.136496082,
-            "y": -0.175494969,
-            "z": 0.974972,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.512835264,
-        "sqrMagnitude": 0.263
+        "z": 0.5
       },
       "localRotHip": {
         "x": -0.66,
         "y": -4.0,
-        "z": -3.64,
-        "normalized": {
-          "x": -0.121136211,
-          "y": -0.7341588,
-          "z": -0.668084562,
-          "normalized": {
-            "x": -0.121136196,
-            "y": -0.734158754,
-            "z": -0.6680845,
-            "normalized": {
-              "x": -0.1211362,
-              "y": -0.7341588,
-              "z": -0.668084562,
-              "normalized": {
-                "x": -0.121136189,
-                "y": -0.734158754,
-                "z": -0.6680845,
-                "normalized": {
-                  "x": -0.121136196,
-                  "y": -0.7341588,
-                  "z": -0.668084562,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.00000012
-                },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.9999999
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 1.00000012,
-          "sqrMagnitude": 1.00000024
-        },
-        "magnitude": 5.44841242,
-        "sqrMagnitude": 29.6852
+        "z": -3.64
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 15.0,
       "localPosRelaxed": {
         "x": 0.075,
         "y": -0.1,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.145521387,
-          "y": -0.194028512,
-          "z": 0.970142543,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5153882,
-        "sqrMagnitude": 0.265625
+        "z": 0.5
       },
       "localRotRelaxed": {
         "x": 10.22,
         "y": -8.12,
-        "z": -17.7,
-        "normalized": {
-          "x": 0.464702547,
-          "y": -0.3692157,
-          "z": -0.804817557,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 21.9925632,
-        "sqrMagnitude": 483.672852
+        "z": -17.7
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.15,
-        "z": 0.6,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.242535636,
-          "z": 0.970142543,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.618465841,
-        "sqrMagnitude": 0.382500023
+        "z": 0.6
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": -0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": -1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 33,
       "ItemCameraFOVZoom": 31,
@@ -912,137 +487,44 @@
       "localPosHip": {
         "x": 0.07,
         "y": -0.09,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.136496067,
-          "y": -0.175494954,
-          "z": 0.97497195,
-          "normalized": {
-            "x": 0.136496082,
-            "y": -0.175494969,
-            "z": 0.974972,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.512835264,
-        "sqrMagnitude": 0.263
+        "z": 0.5
       },
       "localRotHip": {
         "x": -0.66,
         "y": -4.0,
-        "z": -3.64,
-        "normalized": {
-          "x": -0.121136211,
-          "y": -0.7341588,
-          "z": -0.668084562,
-          "normalized": {
-            "x": -0.121136196,
-            "y": -0.734158754,
-            "z": -0.6680845,
-            "normalized": {
-              "x": -0.1211362,
-              "y": -0.7341588,
-              "z": -0.668084562,
-              "normalized": {
-                "x": -0.121136189,
-                "y": -0.734158754,
-                "z": -0.6680845,
-                "normalized": {
-                  "x": -0.121136196,
-                  "y": -0.7341588,
-                  "z": -0.668084562,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.00000012
-                },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.9999999
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 1.00000012,
-          "sqrMagnitude": 1.00000024
-        },
-        "magnitude": 5.44841242,
-        "sqrMagnitude": 29.6852
+        "z": -3.64
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 15.0,
       "localPosRelaxed": {
         "x": 0.075,
         "y": -0.1,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.145521387,
-          "y": -0.194028512,
-          "z": 0.970142543,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5153882,
-        "sqrMagnitude": 0.265625
+        "z": 0.5
       },
       "localRotRelaxed": {
         "x": 10.22,
         "y": -8.12,
-        "z": -17.7,
-        "normalized": {
-          "x": 0.464702547,
-          "y": -0.3692157,
-          "z": -0.804817557,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 21.9925632,
-        "sqrMagnitude": 483.672852
+        "z": -17.7
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.15,
-        "z": 0.6,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.242535636,
-          "z": 0.970142543,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.618465841,
-        "sqrMagnitude": 0.382500023
+        "z": 0.6
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": -0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": -1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 33,
       "ItemCameraFOVZoom": 31,
@@ -1081,116 +563,44 @@
       "localPosHip": {
         "x": 0.055,
         "y": -0.08,
-        "z": 0.38,
-        "normalized": {
-          "x": 0.140232682,
-          "y": -0.2039748,
-          "z": 0.9688803,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.3922053,
-        "sqrMagnitude": 0.153825
+        "z": 0.38
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": 3.03,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 3.03,
-        "sqrMagnitude": 9.1809
+        "z": 3.03
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 10.0,
       "localPosRelaxed": {
         "x": 0.064,
         "y": -0.11,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.152469143,
-          "y": -0.262056321,
-          "z": 0.95293206,
-          "normalized": {
-            "x": 0.152469158,
-            "y": -0.262056351,
-            "z": 0.9529321,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.4197571,
-        "sqrMagnitude": 0.176196009
+        "z": 0.4
       },
       "localRotRelaxed": {
         "x": 7.98,
         "y": -13.55,
-        "z": -20.87,
-        "normalized": {
-          "x": 0.305382,
-          "y": -0.518537164,
-          "z": -0.798662,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 26.1312046,
-        "sqrMagnitude": 682.839844
+        "z": -20.87
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.359291732,
-          "z": 0.9332253,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.359291762,
-            "z": 0.933225334,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.428621054,
-        "sqrMagnitude": 0.183716014
+        "z": 0.4
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": -0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": -1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 34,
       "ItemCameraFOVZoom": 33,
@@ -1229,95 +639,44 @@
       "localPosHip": {
         "x": 0.085,
         "y": -0.1,
-        "z": 0.36,
-        "normalized": {
-          "x": 0.2218293,
-          "y": -0.260975659,
-          "z": 0.9395124,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.383177519,
-        "sqrMagnitude": 0.146825
+        "z": 0.36
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 8.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.15,
-        "z": 0.25,
-        "normalized": {
-          "x": 0.102358684,
-          "y": -0.511793435,
-          "z": 0.852989,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.293087,
-        "sqrMagnitude": 0.0859
+        "z": 0.25
       },
       "localRotRelaxed": {
         "x": 5.0,
         "y": -15.0,
-        "z": -16.0,
-        "normalized": {
-          "x": 0.2222771,
-          "y": -0.6668313,
-          "z": -0.7112868,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 22.4944439,
-        "sqrMagnitude": 506.0
+        "z": -16.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.3,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.456677824,
-          "z": 0.889632165,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.337218046,
-        "sqrMagnitude": 0.113716006
+        "z": 0.3
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 10.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 10.0,
-        "sqrMagnitude": 100.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 33,
       "ItemCameraFOVZoom": 15,
@@ -1356,109 +715,44 @@
       "localPosHip": {
         "x": 0.048,
         "y": -0.065,
-        "z": 0.53,
-        "normalized": {
-          "x": 0.08953152,
-          "y": -0.121240593,
-          "z": 0.9885771,
-          "normalized": {
-            "x": 0.089531526,
-            "y": -0.1212406,
-            "z": 0.9885772,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.536124051,
-        "sqrMagnitude": 0.287428975
+        "z": 0.53
       },
       "localRotHip": {
         "x": -1.71,
         "y": -3.6,
-        "z": -0.07,
-        "normalized": {
-          "x": -0.4289907,
-          "y": -0.9031382,
-          "z": -0.0175610222,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 3.98610067,
-        "sqrMagnitude": 15.888999
+        "z": -0.07
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 10.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": -0.14,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.269629925,
-          "z": 0.962964058,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5192302,
-        "sqrMagnitude": 0.2696
+        "z": 0.5
       },
       "localRotRelaxed": {
         "x": 7.0,
         "y": -8.0,
-        "z": 14.0,
-        "normalized": {
-          "x": 0.3982161,
-          "y": -0.4551041,
-          "z": 0.7964322,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 17.5783958,
-        "sqrMagnitude": 309.0
+        "z": 14.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.65,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.65,
-        "sqrMagnitude": 0.422499955
+        "z": 0.65
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": -0.1,
-        "z": 0.075,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.8,
-          "z": 0.6,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.125,
-        "sqrMagnitude": 0.015625
+        "z": 0.075
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 36,
       "ItemCameraFOVZoom": 34,
@@ -1497,81 +791,44 @@
       "localPosHip": {
         "x": 0.05,
         "y": -0.14,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.105503082,
-          "y": -0.295408636,
-          "z": 0.9495277,
-          "normalized": {
-            "x": 0.10550309,
-            "y": -0.295408666,
-            "z": 0.94952774,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.4739198,
-        "sqrMagnitude": 0.224599987
+        "z": 0.45
       },
       "localRotHip": {
         "x": -29.99,
         "y": -6.1,
-        "z": 11.98,
-        "normalized": {
-          "x": -0.9125115,
-          "y": -0.185605884,
-          "z": 0.364517778,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 32.8653374,
-        "sqrMagnitude": 1080.13049
+        "z": 11.98
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 0.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -1610,116 +867,44 @@
       "localPosHip": {
         "x": 0.062,
         "y": -0.1,
-        "z": 0.33,
-        "normalized": {
-          "x": 0.1769667,
-          "y": -0.285430163,
-          "z": 0.9419195,
-          "normalized": {
-            "x": 0.176966712,
-            "y": -0.2854302,
-            "z": 0.941919565,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.3503484,
-        "sqrMagnitude": 0.122744009
+        "z": 0.33
       },
       "localRotHip": {
         "x": -2.15,
         "y": 0.0,
-        "z": -1.71,
-        "normalized": {
-          "x": -0.782641351,
-          "y": 0.0,
-          "z": -0.6224729,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.74710774,
-        "sqrMagnitude": 7.54660034
+        "z": -1.71
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 10.0,
       "localPosRelaxed": {
         "x": 0.046,
         "y": -0.11,
-        "z": 0.32,
-        "normalized": {
-          "x": 0.134703472,
-          "y": -0.322117,
-          "z": 0.937067568,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.341490835,
-        "sqrMagnitude": 0.116615996
+        "z": 0.32
       },
       "localRotRelaxed": {
         "x": 5.0,
         "y": -12.0,
-        "z": -25.0,
-        "normalized": {
-          "x": 0.177443355,
-          "y": -0.425864071,
-          "z": -0.8872168,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 28.1780052,
-        "sqrMagnitude": 794.0
+        "z": -25.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.154,
-        "z": 0.38,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.375591874,
-          "z": 0.9267851,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.3755919,
-            "z": 0.9267852,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.410019517,
-        "sqrMagnitude": 0.168116
+        "z": 0.38
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.1,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": -0.1
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 36,
       "ItemCameraFOVZoom": 20,
@@ -1758,102 +943,44 @@
       "localPosHip": {
         "x": 0.088,
         "y": -0.09,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.236593351,
-          "y": -0.241970479,
-          "z": 0.9409962,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.371946216,
-        "sqrMagnitude": 0.13834399
+        "z": 0.35
       },
       "localRotHip": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -5.0,
       "localPosRelaxed": {
         "x": 0.056,
         "y": -0.12,
-        "z": 0.32,
-        "normalized": {
-          "x": 0.1617012,
-          "y": -0.346502572,
-          "z": 0.9240069,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.346317768,
-        "sqrMagnitude": 0.119936
+        "z": 0.32
       },
       "localRotRelaxed": {
         "x": 8.0,
         "y": -15.33,
-        "z": -30.5,
-        "normalized": {
-          "x": 0.228175133,
-          "y": -0.4372406,
-          "z": -0.8699177,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 35.0607872,
-        "sqrMagnitude": 1229.25891
+        "z": -30.5
       },
       "localPosZoom": {
         "x": 0.0,
         "y": -0.05,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.09950372,
-          "z": 0.995037138,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.0995037258,
-            "z": 0.9950372,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.5024938,
-        "sqrMagnitude": 0.2525
+        "z": 0.5
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 10.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 10.0,
-        "sqrMagnitude": 100.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 34,
       "ItemCameraFOVZoom": 15,
@@ -1892,109 +1019,44 @@
       "localPosHip": {
         "x": 0.06,
         "y": -0.08,
-        "z": 0.55,
-        "normalized": {
-          "x": 0.107331261,
-          "y": -0.143108338,
-          "z": 0.9838699,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.559017,
-        "sqrMagnitude": 0.3125
+        "z": 0.55
       },
       "localRotHip": {
         "x": -2.0,
         "y": -3.6,
-        "z": -0.75,
-        "normalized": {
-          "x": -0.4777844,
-          "y": -0.860011935,
-          "z": -0.179169148,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 4.18598843,
-        "sqrMagnitude": 17.5225
+        "z": -0.75
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 10.0,
       "localPosRelaxed": {
         "x": 0.064,
         "y": -0.14,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.122333609,
-          "y": -0.267604738,
-          "z": 0.9557313,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5231596,
-        "sqrMagnitude": 0.273696
+        "z": 0.5
       },
       "localRotRelaxed": {
         "x": 7.0,
         "y": -8.0,
-        "z": -10.0,
-        "normalized": {
-          "x": 0.47963208,
-          "y": -0.548150957,
-          "z": -0.6851887,
-          "normalized": {
-            "x": 0.4796321,
-            "y": -0.548151,
-            "z": -0.6851888,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 14.59452,
-        "sqrMagnitude": 213.0
+        "z": -10.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.5,
-        "sqrMagnitude": 0.25
+        "z": 0.5
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.05,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.05,
-        "sqrMagnitude": 0.00250000018
+        "z": 0.05
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 38,
       "ItemCameraFOVZoom": 40,
@@ -2033,95 +1095,44 @@
       "localPosHip": {
         "x": 0.05,
         "y": -0.38,
-        "z": 0.36,
-        "normalized": {
-          "x": 0.09508729,
-          "y": -0.722663343,
-          "z": 0.6846285,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.525832653,
-        "sqrMagnitude": 0.2765
+        "z": 0.36
       },
       "localRotHip": {
         "x": 0.55,
         "y": -0.5,
-        "z": -20.98,
-        "normalized": {
-          "x": 0.0261990074,
-          "y": -0.0238172784,
-          "z": -0.999373,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 20.9931622,
-        "sqrMagnitude": 440.71286
+        "z": -20.98
       },
       "SwayAmount": 0.2,
       "crouchTiltAngle": 0.0,
       "localPosRelaxed": {
         "x": 0.05,
         "y": -0.38,
-        "z": 0.36,
-        "normalized": {
-          "x": 0.09508729,
-          "y": -0.722663343,
-          "z": 0.6846285,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.525832653,
-        "sqrMagnitude": 0.2765
+        "z": 0.36
       },
       "localRotRelaxed": {
         "x": 0.55,
         "y": -0.5,
-        "z": -20.98,
-        "normalized": {
-          "x": 0.0261990074,
-          "y": -0.0238172784,
-          "z": -0.999373,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 20.9931622,
-        "sqrMagnitude": 440.71286
+        "z": -20.98
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.06,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.06,
-        "sqrMagnitude": 0.0036
+        "z": -0.06
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -2160,102 +1171,44 @@
       "localPosHip": {
         "x": 0.2,
         "y": -0.25,
-        "z": 0.32,
-        "normalized": {
-          "x": 0.441833884,
-          "y": -0.552292347,
-          "z": 0.7069342,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.4526588,
-        "sqrMagnitude": 0.2049
+        "z": 0.32
       },
       "localRotHip": {
         "x": 40.0,
         "y": 74.0,
-        "z": 78.0,
-        "normalized": {
-          "x": 0.348684043,
-          "y": 0.6450654,
-          "z": 0.679933846,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 114.717041,
-        "sqrMagnitude": 13160.0
+        "z": 78.0
       },
       "SwayAmount": 0.1,
       "crouchTiltAngle": 0.0,
       "localPosRelaxed": {
         "x": 0.05,
         "y": -0.38,
-        "z": 0.36,
-        "normalized": {
-          "x": 0.09508729,
-          "y": -0.722663343,
-          "z": 0.6846285,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.525832653,
-        "sqrMagnitude": 0.2765
+        "z": 0.36
       },
       "localRotRelaxed": {
         "x": 0.55,
         "y": -0.5,
-        "z": -20.98,
-        "normalized": {
-          "x": 0.0261990074,
-          "y": -0.0238172784,
-          "z": -0.999373,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 20.9931622,
-        "sqrMagnitude": 440.71286
+        "z": -20.98
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.1,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.1
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 60.0,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 60.0,
-        "sqrMagnitude": 3600.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -2294,102 +1247,44 @@
       "localPosHip": {
         "x": 0.26,
         "y": -0.2,
-        "z": 0.52,
-        "normalized": {
-          "x": 0.422890037,
-          "y": -0.325300038,
-          "z": 0.8457801,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.614817,
-        "sqrMagnitude": 0.378
+        "z": 0.52
       },
       "localRotHip": {
         "x": 15.0,
         "y": 15.0,
-        "z": 26.0,
-        "normalized": {
-          "x": 0.447014958,
-          "y": 0.447014958,
-          "z": 0.774825931,
-          "normalized": {
-            "x": 0.447015,
-            "y": 0.447015,
-            "z": 0.774826,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 33.5559235,
-        "sqrMagnitude": 1126.0
+        "z": 26.0
       },
       "SwayAmount": 0.1,
       "crouchTiltAngle": 0.0,
       "localPosRelaxed": {
         "x": 0.05,
         "y": -0.38,
-        "z": 0.36,
-        "normalized": {
-          "x": 0.09508729,
-          "y": -0.722663343,
-          "z": 0.6846285,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.525832653,
-        "sqrMagnitude": 0.2765
+        "z": 0.36
       },
       "localRotRelaxed": {
         "x": 0.55,
         "y": -0.5,
-        "z": -20.98,
-        "normalized": {
-          "x": 0.0261990074,
-          "y": -0.0238172784,
-          "z": -0.999373,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 20.9931622,
-        "sqrMagnitude": 440.71286
+        "z": -20.98
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": -0.05,
         "y": 0.12,
-        "z": -0.1,
-        "normalized": {
-          "x": -0.304855376,
-          "y": 0.7316529,
-          "z": -0.609710753,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1640122,
-        "sqrMagnitude": 0.0269
+        "z": -0.1
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -2428,102 +1323,44 @@
       "localPosHip": {
         "x": 0.24,
         "y": -0.23,
-        "z": 0.67,
-        "normalized": {
-          "x": 0.32088545,
-          "y": -0.307515234,
-          "z": 0.89580524,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.747930467,
-        "sqrMagnitude": 0.5594
+        "z": 0.67
       },
       "localRotHip": {
         "x": -20.0,
         "y": 34.0,
-        "z": 72.0,
-        "normalized": {
-          "x": -0.243612766,
-          "y": 0.4141417,
-          "z": 0.877005935,
-          "normalized": {
-            "x": -0.243612781,
-            "y": 0.414141744,
-            "z": 0.877006,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 82.0975,
-        "sqrMagnitude": 6740.0
+        "z": 72.0
       },
       "SwayAmount": 0.1,
       "crouchTiltAngle": 0.0,
       "localPosRelaxed": {
         "x": 0.05,
         "y": -0.38,
-        "z": 0.36,
-        "normalized": {
-          "x": 0.09508729,
-          "y": -0.722663343,
-          "z": 0.6846285,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.525832653,
-        "sqrMagnitude": 0.2765
+        "z": 0.36
       },
       "localRotRelaxed": {
         "x": 0.55,
         "y": -0.5,
-        "z": -20.98,
-        "normalized": {
-          "x": 0.0261990074,
-          "y": -0.0238172784,
-          "z": -0.999373,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 20.9931622,
-        "sqrMagnitude": 440.71286
+        "z": -20.98
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 5.0,
-        "z": 0.05,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.999950051,
-          "z": 0.009999501,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 5.00025,
-        "sqrMagnitude": 25.0025
+        "z": 0.05
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -2562,123 +1399,44 @@
       "localPosHip": {
         "x": 0.12,
         "y": -0.13,
-        "z": 0.52,
-        "normalized": {
-          "x": 0.2184709,
-          "y": -0.2366768,
-          "z": 0.9467072,
-          "normalized": {
-            "x": 0.218470916,
-            "y": -0.236676812,
-            "z": 0.946707249,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.549272239,
-        "sqrMagnitude": 0.3017
+        "z": 0.52
       },
       "localRotHip": {
         "x": -1.01,
         "y": -4.2,
-        "z": -1.91,
-        "normalized": {
-          "x": -0.213840082,
-          "y": -0.889236,
-          "z": -0.404390663,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 4.7231555,
-        "sqrMagnitude": 22.308197
+        "z": -1.91
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.16,
         "y": -0.11,
-        "z": 0.53,
-        "normalized": {
-          "x": 0.283463478,
-          "y": -0.194881141,
-          "z": 0.9389727,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.5644466,
-        "sqrMagnitude": 0.318599969
+        "z": 0.53
       },
       "localRotRelaxed": {
         "x": 1.15,
         "y": 2.2,
-        "z": -10.03,
-        "normalized": {
-          "x": 0.111297823,
-          "y": 0.212917581,
-          "z": -0.9707106,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 10.3326368,
-        "sqrMagnitude": 106.76339
+        "z": -10.03
       },
       "localPosZoom": {
         "x": 0.07,
         "y": -0.11,
-        "z": 0.52,
-        "normalized": {
-          "x": 0.130573392,
-          "y": -0.205186754,
-          "z": 0.9699737,
-          "normalized": {
-            "x": 0.1305734,
-            "y": -0.205186769,
-            "z": 0.969973743,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.536097,
-        "sqrMagnitude": 0.287399977
+        "z": 0.52
       },
       "localRotZoom": {
         "x": -1.01,
         "y": -4.2,
-        "z": -1.91,
-        "normalized": {
-          "x": -0.213840082,
-          "y": -0.889236,
-          "z": -0.404390663,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 4.7231555,
-        "sqrMagnitude": 22.308197
+        "z": -1.91
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 35,
       "ItemCameraFOVZoom": 20,
@@ -2717,95 +1475,44 @@
       "localPosHip": {
         "x": 0.2,
         "y": -0.26,
-        "z": 0.6,
-        "normalized": {
-          "x": 0.2924777,
-          "y": -0.380220979,
-          "z": 0.877433062,
-          "normalized": {
-            "x": 0.292477727,
-            "y": -0.380221,
-            "z": 0.8774331,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.683812857,
-        "sqrMagnitude": 0.467600018
+        "z": 0.6
       },
       "localRotHip": {
         "x": -5.01,
         "y": -3.62,
-        "z": 8.98,
-        "normalized": {
-          "x": -0.45956558,
-          "y": -0.33206135,
-          "z": 0.823732257,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 10.9016,
-        "sqrMagnitude": 118.844887
+        "z": 8.98
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.05,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.06611395,
-          "y": -0.110189922,
-          "z": 0.991709232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.453762025,
-        "sqrMagnitude": 0.205899984
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.15,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.15,
-        "sqrMagnitude": 0.0225
+        "z": 0.15
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 50,
       "ItemCameraFOVZoom": 25,
@@ -2844,109 +1551,44 @@
       "localPosHip": {
         "x": 0.18,
         "y": -0.18,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.4159141,
-          "y": -0.4159141,
-          "z": 0.8087218,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.4327817,
-        "sqrMagnitude": 0.1873
+        "z": 0.35
       },
       "localRotHip": {
         "x": 7.19,
         "y": 0.4,
-        "z": -3.57,
-        "normalized": {
-          "x": 0.8945596,
-          "y": 0.0497668758,
-          "z": -0.444169343,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 8.037475,
-        "sqrMagnitude": 64.601
+        "z": -3.57
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -5.0,
       "localPosRelaxed": {
         "x": 0.19,
         "y": -0.18,
-        "z": 0.35,
-        "normalized": {
-          "x": 0.434747338,
-          "y": -0.41186592,
-          "z": 0.8008504,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.437035441,
-        "sqrMagnitude": 0.190999985
+        "z": 0.35
       },
       "localRotRelaxed": {
         "x": 19.0,
         "y": -5.11,
-        "z": -10.42,
-        "normalized": {
-          "x": 0.8533932,
-          "y": -0.229517862,
-          "z": -0.4680188,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 22.2640629,
-        "sqrMagnitude": 495.688477
+        "z": -10.42
       },
       "localPosZoom": {
         "x": 0.1,
         "y": -0.18,
-        "z": 0.25,
-        "normalized": {
-          "x": 0.308753759,
-          "y": -0.5557568,
-          "z": 0.7718844,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.3238827,
-        "sqrMagnitude": 0.1049
+        "z": 0.25
       },
       "localRotZoom": {
         "x": 3.09,
         "y": 2.72,
-        "z": -4.11,
-        "normalized": {
-          "x": 0.531192958,
-          "y": 0.467587322,
-          "z": -0.7065382,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 5.81709528,
-        "sqrMagnitude": 33.8386
+        "z": -4.11
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 40,
       "ItemCameraFOVZoom": 35,
@@ -2985,109 +1627,44 @@
       "localPosHip": {
         "x": 0.18,
         "y": -0.11,
-        "z": 0.44,
-        "normalized": {
-          "x": 0.36888656,
-          "y": -0.225430667,
-          "z": 0.90172267,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.4879549,
-        "sqrMagnitude": 0.238099992
+        "z": 0.44
       },
       "localRotHip": {
         "x": -0.63,
         "y": 5.94,
-        "z": 2.46,
-        "normalized": {
-          "x": -0.09752264,
-          "y": 0.919499159,
-          "z": 0.3808027,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 6.46003866,
-        "sqrMagnitude": 41.7321
+        "z": 2.46
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.17,
         "y": -0.23,
-        "z": 0.44,
-        "normalized": {
-          "x": 0.3239418,
-          "y": -0.4382742,
-          "z": 0.838437557,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.524785638,
-        "sqrMagnitude": 0.275399983
+        "z": 0.44
       },
       "localRotRelaxed": {
         "x": 11.11,
         "y": -0.59,
-        "z": -8.4,
-        "normalized": {
-          "x": 0.7969531,
-          "y": -0.04232244,
-          "z": -0.602556765,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 13.9405947,
-        "sqrMagnitude": 194.340179
+        "z": -8.4
       },
       "localPosZoom": {
         "x": 0.13,
         "y": -0.32,
-        "z": 0.28,
-        "normalized": {
-          "x": 0.292374849,
-          "y": -0.719691932,
-          "z": 0.629730463,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.444634676,
-        "sqrMagnitude": 0.1977
+        "z": 0.28
       },
       "localRotZoom": {
         "x": 2.84,
         "y": -0.7,
-        "z": 2.48,
-        "normalized": {
-          "x": 0.7405784,
-          "y": -0.18253693,
-          "z": 0.6467023,
-          "normalized": {
-            "x": 0.7405785,
-            "y": -0.182536945,
-            "z": 0.646702349,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 3.8348403,
-        "sqrMagnitude": 14.7059994
+        "z": 2.48
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 39,
       "ItemCameraFOVZoom": 33,
@@ -3126,144 +1703,44 @@
       "localPosHip": {
         "x": 0.11,
         "y": -0.08,
-        "z": 0.42,
-        "normalized": {
-          "x": 0.24916485,
-          "y": -0.1812108,
-          "z": 0.951356649,
-          "normalized": {
-            "x": 0.249164864,
-            "y": -0.181210816,
-            "z": 0.9513567,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.4414748,
-        "sqrMagnitude": 0.194899991
+        "z": 0.42
       },
       "localRotHip": {
         "x": -2.81,
         "y": -1.53,
-        "z": -3.32,
-        "normalized": {
-          "x": -0.6094398,
-          "y": -0.3318302,
-          "z": -0.720049858,
-          "normalized": {
-            "x": -0.60943985,
-            "y": -0.331830233,
-            "z": -0.7200499,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 4.61079168,
-        "sqrMagnitude": 21.2594
+        "z": -3.32
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.05,
         "y": -0.3,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.09205746,
-          "y": -0.5523448,
-          "z": 0.828517139,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.54313904,
-        "sqrMagnitude": 0.295
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 4.24,
-        "z": -13.74,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.294867635,
-          "z": -0.9555381,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.294867665,
-            "z": -0.955538154,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 14.3793325,
-        "sqrMagnitude": 206.7652
+        "z": -13.74
       },
       "localPosZoom": {
         "x": 0.05,
         "y": -0.08,
-        "z": 0.42,
-        "normalized": {
-          "x": 0.1161535,
-          "y": -0.1858456,
-          "z": 0.975689352,
-          "normalized": {
-            "x": 0.116153508,
-            "y": -0.185845613,
-            "z": 0.9756894,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.430464864,
-        "sqrMagnitude": 0.1853
+        "z": 0.42
       },
       "localRotZoom": {
         "x": -13.41,
         "y": 2.23,
-        "z": -1.36,
-        "normalized": {
-          "x": -0.981553733,
-          "y": 0.1632263,
-          "z": -0.09954609,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 13.6620131,
-        "sqrMagnitude": 186.650589
+        "z": -1.36
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": -0.05,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.8944272,
-          "z": -0.4472136,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.89442724,
-            "z": -0.44721362,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.111803405,
-        "sqrMagnitude": 0.0125000011
+        "z": -0.05
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 38,
       "ItemCameraFOVZoom": 32,
@@ -3302,102 +1779,44 @@
       "localPosHip": {
         "x": 0.08,
         "y": -0.084,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.155860469,
-          "y": -0.1636535,
-          "z": 0.9741279,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5132796,
-        "sqrMagnitude": 0.263456
+        "z": 0.5
       },
       "localRotHip": {
         "x": -51.01,
         "y": -2.5,
-        "z": 10.18,
-        "normalized": {
-          "x": -0.9795312,
-          "y": -0.0480068251,
-          "z": 0.1954838,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 52.0759277,
-        "sqrMagnitude": 2711.90234
+        "z": 10.18
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.01,
         "y": -0.075,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.0219146013,
-          "y": -0.16435951,
-          "z": 0.986157,
-          "normalized": {
-            "x": 0.0219146032,
-            "y": -0.164359525,
-            "z": 0.98615706,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.456316769,
-        "sqrMagnitude": 0.208224982
+        "z": 0.45
       },
       "localRotZoom": {
         "x": -34.42,
         "y": -1.4,
-        "z": 5.1,
-        "normalized": {
-          "x": -0.988400638,
-          "y": -0.0402022377,
-          "z": 0.146451011,
-          "normalized": {
-            "x": -0.9884007,
-            "y": -0.04020224,
-            "z": 0.146451026,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 34.8239326,
-        "sqrMagnitude": 1212.7063
+        "z": 5.1
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 32,
       "ItemCameraFOVZoom": 30,
@@ -3436,74 +1855,44 @@
       "localPosHip": {
         "x": 0.04,
         "y": -0.36,
-        "z": 0.55,
-        "normalized": {
-          "x": 0.06073867,
-          "y": -0.5466481,
-          "z": 0.835156739,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.658559,
-        "sqrMagnitude": 0.433700025
+        "z": 0.55
       },
       "localRotHip": {
         "x": 20.07,
         "y": -2.6,
-        "z": -22.1,
-        "normalized": {
-          "x": 0.6697539,
-          "y": -0.08676433,
-          "z": -0.737496853,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 29.96623,
-        "sqrMagnitude": 897.9749
+        "z": -22.1
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": -10.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -3542,95 +1931,44 @@
       "localPosHip": {
         "x": 0.0,
         "y": -1.05,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.9028605,
-          "z": 0.429933578,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.1629703,
-        "sqrMagnitude": 1.35249984
+        "z": 0.5
       },
       "localRotHip": {
         "x": 16.34,
         "y": 23.63,
-        "z": -15.72,
-        "normalized": {
-          "x": 0.498947978,
-          "y": 0.7215508,
-          "z": -0.480016053,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 32.7489052,
-        "sqrMagnitude": 1072.49084
+        "z": -15.72
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": -1.05,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.9028605,
-          "z": 0.429933578,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.1629703,
-        "sqrMagnitude": 1.35249984
+        "z": 0.5
       },
       "localRotRelaxed": {
         "x": 16.34,
         "y": 23.63,
-        "z": -15.72,
-        "normalized": {
-          "x": 0.498947978,
-          "y": 0.7215508,
-          "z": -0.480016053,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 32.7489052,
-        "sqrMagnitude": 1072.49084
+        "z": -15.72
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 40,
       "ItemCameraFOVZoom": 20,
@@ -3669,81 +2007,44 @@
       "localPosHip": {
         "x": 0.2,
         "y": -0.28,
-        "z": 0.4,
-        "normalized": {
-          "x": 0.379049033,
-          "y": -0.5306686,
-          "z": 0.758098066,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.52763623,
-        "sqrMagnitude": 0.2784
+        "z": 0.4
       },
       "localRotHip": {
         "x": 4.86,
         "y": -2.0,
-        "z": 6.7,
-        "normalized": {
-          "x": 0.5707403,
-          "y": -0.234872535,
-          "z": 0.786823,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 8.515257,
-        "sqrMagnitude": 72.5096
+        "z": 6.7
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -3782,81 +2083,44 @@
       "localPosHip": {
         "x": 0.15,
         "y": -0.08,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.311824054,
-          "y": -0.166306153,
-          "z": 0.935472131,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.4810405,
-        "sqrMagnitude": 0.231399983
+        "z": 0.45
       },
       "localRotHip": {
         "x": 38.2,
         "y": -33.3,
-        "z": -27.8,
-        "normalized": {
-          "x": 0.6608868,
-          "y": -0.5761134,
-          "z": -0.4809595,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 57.80112,
-        "sqrMagnitude": 3340.96973
+        "z": -27.8
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -3895,81 +2159,44 @@
       "localPosHip": {
         "x": 0.0,
         "y": -0.18,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.3387195,
-          "z": 0.940887451,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5314132,
-        "sqrMagnitude": 0.2824
+        "z": 0.5
       },
       "localRotHip": {
         "x": 16.44,
         "y": 25.25,
-        "z": 23.69,
-        "normalized": {
-          "x": 0.428926826,
-          "y": 0.6587836,
-          "z": 0.6180825,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 38.3282166,
-        "sqrMagnitude": 1469.05225
+        "z": 23.69
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -4008,81 +2235,44 @@
       "localPosHip": {
         "x": 0.0,
         "y": -0.18,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.3387195,
-          "z": 0.940887451,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.5314132,
-        "sqrMagnitude": 0.2824
+        "z": 0.5
       },
       "localRotHip": {
         "x": -84.9,
         "y": 25.2,
-        "z": -20.6,
-        "normalized": {
-          "x": -0.9337335,
-          "y": 0.2771506,
-          "z": -0.226559609,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 90.9253,
-        "sqrMagnitude": 8267.41
+        "z": -20.6
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 20,
@@ -4121,88 +2311,44 @@
       "localPosHip": {
         "x": 0.13,
         "y": -0.1,
-        "z": 0.43,
-        "normalized": {
-          "x": 0.2824752,
-          "y": -0.217288628,
-          "z": 0.934341133,
-          "normalized": {
-            "x": 0.282475233,
-            "y": -0.217288643,
-            "z": 0.9343412,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.460217357,
-        "sqrMagnitude": 0.211800009
+        "z": 0.43
       },
       "localRotHip": {
         "x": -42.5,
         "y": -21.9,
-        "z": 50.22,
-        "normalized": {
-          "x": -0.61292994,
-          "y": -0.3158392,
-          "z": 0.7242669,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 69.33908,
-        "sqrMagnitude": 4807.908
+        "z": 50.22
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 40,
       "ItemCameraFOVZoom": 20,
@@ -4241,88 +2387,44 @@
       "localPosHip": {
         "x": 0.048,
         "y": -0.13,
-        "z": 0.38,
-        "normalized": {
-          "x": 0.118670911,
-          "y": -0.321400374,
-          "z": 0.93947804,
-          "normalized": {
-            "x": 0.118670918,
-            "y": -0.3214004,
-            "z": 0.9394781,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.404479921,
-        "sqrMagnitude": 0.163604
+        "z": 0.38
       },
       "localRotHip": {
         "x": -2.16,
         "y": -1.53,
-        "z": 7.52,
-        "normalized": {
-          "x": -0.270939559,
-          "y": -0.191915512,
-          "z": 0.943271041,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 7.972258,
-        "sqrMagnitude": 63.5569
+        "z": 7.52
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.1,
-        "z": 0.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 1.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 38,
       "ItemCameraFOVZoom": 20,
@@ -4361,74 +2463,44 @@
       "localPosHip": {
         "x": 0.05,
         "y": -0.25,
-        "z": 0.65,
-        "normalized": {
-          "x": 0.0716114938,
-          "y": -0.358057469,
-          "z": 0.93094933,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.698211968,
-        "sqrMagnitude": 0.487499952
+        "z": 0.65
       },
       "localRotHip": {
         "x": -21.2,
         "y": -15.91,
-        "z": 5.12,
-        "normalized": {
-          "x": -0.7853024,
-          "y": -0.5893472,
-          "z": 0.189657927,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 26.9959717,
-        "sqrMagnitude": 728.782532
+        "z": 5.12
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 38,
       "ItemCameraFOVZoom": 20,
@@ -4467,74 +2539,44 @@
       "localPosHip": {
         "x": 0.1,
         "y": -0.12,
-        "z": 0.46,
-        "normalized": {
-          "x": 0.205846757,
-          "y": -0.247016087,
-          "z": 0.946895063,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.4857983,
-        "sqrMagnitude": 0.236
+        "z": 0.46
       },
       "localRotHip": {
         "x": -9.48,
         "y": -13.5,
-        "z": -19.1,
-        "normalized": {
-          "x": -0.375631779,
-          "y": -0.5349187,
-          "z": -0.7568109,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 25.23748,
-        "sqrMagnitude": 636.9304
+        "z": -19.1
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 40,
       "ItemCameraFOVZoom": 20,
@@ -4573,88 +2615,44 @@
       "localPosHip": {
         "x": -0.1,
         "y": -0.25,
-        "z": 0.68,
-        "normalized": {
-          "x": -0.136729956,
-          "y": -0.3418249,
-          "z": 0.929763734,
-          "normalized": {
-            "x": -0.136729971,
-            "y": -0.341824919,
-            "z": 0.9297638,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.7313686,
-        "sqrMagnitude": 0.5349
+        "z": 0.68
       },
       "localRotHip": {
         "x": -12.0,
         "y": -58.4,
-        "z": 28.4,
-        "normalized": {
-          "x": -0.1817114,
-          "y": -0.8843289,
-          "z": 0.430050343,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 66.03878,
-        "sqrMagnitude": 4361.12
+        "z": 28.4
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.05,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.06611395,
-          "y": -0.110189922,
-          "z": 0.991709232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.453762025,
-        "sqrMagnitude": 0.205899984
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 35,
@@ -4693,88 +2691,44 @@
       "localPosHip": {
         "x": -0.1,
         "y": -0.3,
-        "z": 0.63,
-        "normalized": {
-          "x": -0.141861811,
-          "y": -0.425585449,
-          "z": 0.8937294,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.704911351,
-        "sqrMagnitude": 0.4969
+        "z": 0.63
       },
       "localRotHip": {
         "x": 30.71,
         "y": -12.9,
-        "z": 7.0,
-        "normalized": {
-          "x": 0.902254641,
-          "y": -0.378999829,
-          "z": 0.205658838,
-          "normalized": {
-            "x": 0.9022547,
-            "y": -0.378999859,
-            "z": 0.205658853,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 34.036953,
-        "sqrMagnitude": 1158.514
+        "z": 7.0
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.05,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.06611395,
-          "y": -0.110189922,
-          "z": 0.991709232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.453762025,
-        "sqrMagnitude": 0.205899984
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 25,
@@ -4813,88 +2767,44 @@
       "localPosHip": {
         "x": 0.0,
         "y": -0.3,
-        "z": 0.63,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.429933578,
-          "z": 0.902860463,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.4299336,
-            "z": 0.9028605,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.6977822,
-        "sqrMagnitude": 0.4869
+        "z": 0.63
       },
       "localRotHip": {
         "x": -7.5,
         "y": -60.63,
-        "z": 16.7,
-        "normalized": {
-          "x": -0.118420668,
-          "y": -0.9573127,
-          "z": 0.263683379,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 63.3335381,
-        "sqrMagnitude": 4011.13721
+        "z": 16.7
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.05,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.06611395,
-          "y": -0.110189922,
-          "z": 0.991709232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.453762025,
-        "sqrMagnitude": 0.205899984
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 25,
@@ -4933,81 +2843,44 @@
       "localPosHip": {
         "x": -0.05,
         "y": -0.28,
-        "z": 0.55,
-        "normalized": {
-          "x": -0.0807502642,
-          "y": -0.4522015,
-          "z": 0.8882529,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.619193,
-        "sqrMagnitude": 0.383400023
+        "z": 0.55
       },
       "localRotHip": {
         "x": -11.9,
         "y": -75.3,
-        "z": 35.9,
-        "normalized": {
-          "x": -0.141221941,
-          "y": -0.893614531,
-          "z": 0.4260393,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 84.26453,
-        "sqrMagnitude": 7100.51025
+        "z": 35.9
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.05,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.06611395,
-          "y": -0.110189922,
-          "z": 0.991709232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.453762025,
-        "sqrMagnitude": 0.205899984
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 55,
       "ItemCameraFOVZoom": 25,
@@ -5046,81 +2919,44 @@
       "localPosHip": {
         "x": 0.0,
         "y": -0.5,
-        "z": 0.7,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.5812382,
-          "z": 0.813733459,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.860232532,
-        "sqrMagnitude": 0.74
+        "z": 0.7
       },
       "localRotHip": {
         "x": -7.5,
         "y": -60.63,
-        "z": 16.7,
-        "normalized": {
-          "x": -0.118420668,
-          "y": -0.9573127,
-          "z": 0.263683379,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 63.3335381,
-        "sqrMagnitude": 4011.13721
+        "z": 16.7
       },
       "SwayAmount": 1.0,
       "crouchTiltAngle": 5.0,
       "localPosRelaxed": {
         "x": 0.03,
         "y": -0.05,
-        "z": 0.45,
-        "normalized": {
-          "x": 0.06611395,
-          "y": -0.110189922,
-          "z": 0.991709232,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.453762025,
-        "sqrMagnitude": 0.205899984
+        "z": 0.45
       },
       "localRotRelaxed": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localPosZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "localRotZoom": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "ItemCameraFOVDefault": 45,
       "ItemCameraFOVZoom": 25,

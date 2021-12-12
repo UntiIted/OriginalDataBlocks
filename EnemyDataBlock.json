@@ -42,133 +42,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.9,
-            "y": 1.1,
-            "normalized": {
-              "x": 0.6332378,
-              "y": 0.7739573,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.421267,
-            "sqrMagnitude": 2.02
+            "y": 1.1
           }
         }
       ],
@@ -214,133 +122,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.9,
-            "y": 1.1,
-            "normalized": {
-              "x": 0.6332378,
-              "y": 0.7739573,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.421267,
-            "sqrMagnitude": 2.02
+            "y": 1.1
           }
         }
       ],
@@ -386,133 +202,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.9,
-            "y": 1.1,
-            "normalized": {
-              "x": 0.6332378,
-              "y": 0.7739573,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.421267,
-            "sqrMagnitude": 2.02
+            "y": 1.1
           }
         }
       ],
@@ -558,133 +282,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.9,
-            "y": 1.1,
-            "normalized": {
-              "x": 0.6332378,
-              "y": 0.7739573,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.421267,
-            "sqrMagnitude": 2.02
+            "y": 1.1
           }
         }
       ],
@@ -730,126 +362,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.1,
             "y": 1.3,
-            "z": 1.1,
-            "normalized": {
-              "x": 0.54259,
-              "y": 0.6412427,
-              "z": 0.54259,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 2.02731347,
-            "sqrMagnitude": 4.10999966
+            "z": 1.1
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.2,
-            "y": 1.25,
-            "normalized": {
-              "x": 0.6925318,
-              "y": 0.7213873,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.73277235,
-            "sqrMagnitude": 3.0025
+            "y": 1.25
           }
         }
       ],
@@ -901,139 +448,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.65,
             "y": 0.65,
-            "z": 0.65,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.125833,
-            "sqrMagnitude": 1.26749992
+            "z": 0.65
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.2,
             "y": 1.2,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 2.078461,
-            "sqrMagnitude": 4.32
+            "z": 1.2
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.7,
-            "y": 1.7,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.40416312,
-            "sqrMagnitude": 5.78
+            "y": 1.7
           }
         }
       ],
@@ -1085,133 +534,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.7,
             "y": 0.7,
-            "z": 0.7,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 1.21243548,
-            "sqrMagnitude": 1.46999991
+            "z": 0.7
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.2,
             "y": 1.2,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 2.078461,
-            "sqrMagnitude": 4.32
+            "z": 1.2
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.7,
-            "y": 1.9,
-            "normalized": {
-              "x": 0.6667949,
-              "y": 0.7452413,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 2.54950976,
-            "sqrMagnitude": 6.5
+            "y": 1.9
           }
         }
       ],
@@ -1263,139 +620,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.65,
             "y": 0.65,
-            "z": 0.65,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.125833,
-            "sqrMagnitude": 1.26749992
+            "z": 0.65
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.2,
             "y": 1.2,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 2.078461,
-            "sqrMagnitude": 4.32
+            "z": 1.2
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.7,
-            "y": 1.7,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.40416312,
-            "sqrMagnitude": 5.78
+            "y": 1.7
           }
         }
       ],
@@ -1447,118 +706,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.65,
             "y": 0.65,
-            "z": 0.65,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.125833,
-            "sqrMagnitude": 1.26749992
+            "z": 0.65
           },
           "ChestScale": {
             "x": 1.0,
             "y": 0.7,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.6337243,
-              "y": 0.443606973,
-              "z": 0.6337243,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.57797337,
-            "sqrMagnitude": 2.49
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.2,
             "y": 1.0,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.6092077,
-              "y": 0.5076731,
-              "z": 0.6092077,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.96977162,
-            "sqrMagnitude": 3.88
+            "z": 1.2
           },
           "LegScale": {
             "x": 1.0,
             "y": 0.7,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.6337243,
-              "y": 0.443606973,
-              "z": 0.6337243,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.57797337,
-            "sqrMagnitude": 2.49
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.7,
-            "y": 1.7,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.40416312,
-            "sqrMagnitude": 5.78
+            "y": 1.7
           }
         }
       ],
@@ -1610,139 +792,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.65,
             "y": 0.65,
-            "z": 0.65,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.125833,
-            "sqrMagnitude": 1.26749992
+            "z": 0.65
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 2.8,
-            "y": 2.8,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 3.95979786,
-            "sqrMagnitude": 15.6799994
+            "y": 2.8
           }
         }
       ],
@@ -1788,139 +872,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 2.0,
             "y": 2.0,
-            "z": 2.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 3.46410155,
-            "sqrMagnitude": 12.0
+            "z": 2.0
           },
           "ChestScale": {
             "x": 1.3,
             "y": 1.3,
-            "z": 1.3,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.251666,
-            "sqrMagnitude": 5.06999969
+            "z": 1.3
           },
           "ArmScale": {
             "x": 1.0,
             "y": 0.8,
-            "z": 0.8,
-            "normalized": {
-              "x": 0.662266135,
-              "y": 0.529812932,
-              "z": 0.529812932,
-              "normalized": {
-                "x": 0.6622662,
-                "y": 0.529813,
-                "z": 0.529813,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.509967,
-            "sqrMagnitude": 2.28000021
+            "z": 0.8
           },
           "LegScale": {
             "x": 1.0,
             "y": 0.8,
-            "z": 0.8,
-            "normalized": {
-              "x": 0.662266135,
-              "y": 0.529812932,
-              "z": 0.529812932,
-              "normalized": {
-                "x": 0.6622662,
-                "y": 0.529813,
-                "z": 0.529813,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.509967,
-            "sqrMagnitude": 2.28000021
+            "z": 0.8
           },
           "SizeRange": {
             "x": 0.55,
-            "y": 0.7,
-            "normalized": {
-              "x": 0.6178216,
-              "y": 0.7863183,
-              "normalized": {
-                "x": 0.617821634,
-                "y": 0.786318362,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 0.8902247,
-            "sqrMagnitude": 0.7925
+            "y": 0.7
           }
         }
       ],
@@ -1966,126 +952,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.25,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.6622662,
-              "y": 0.529812932,
-              "z": 0.529812932,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.88745856,
-            "sqrMagnitude": 3.5625
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.05,
-            "y": 1.15,
-            "normalized": {
-              "x": 0.6742694,
-              "y": 0.7384855,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.55724108,
-            "sqrMagnitude": 2.42499971
+            "y": 1.15
           }
         }
       ],
@@ -2137,133 +1038,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.05,
-            "y": 1.15,
-            "normalized": {
-              "x": 0.6742694,
-              "y": 0.7384855,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.55724108,
-            "sqrMagnitude": 2.42499971
+            "y": 1.15
           }
         }
       ],
@@ -2315,139 +1124,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.8,
             "y": 0.8,
-            "z": 0.8,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.38564062,
-            "sqrMagnitude": 1.92000008
+            "z": 0.8
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 0.85,
             "y": 0.85,
-            "z": 0.85,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.47224319,
-            "sqrMagnitude": 2.1675
+            "z": 0.85
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.9,
-            "y": 1.9,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.68700576,
-            "sqrMagnitude": 7.22
+            "y": 1.9
           }
         }
       ],
@@ -2499,139 +1210,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.1,
             "y": 1.1,
-            "z": 1.1,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.90525591,
-            "sqrMagnitude": 3.63
+            "z": 1.1
           },
           "ChestScale": {
             "x": 1.2,
             "y": 1.2,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 2.078461,
-            "sqrMagnitude": 4.32
+            "z": 1.2
           },
           "ArmScale": {
             "x": 1.1,
             "y": 1.1,
-            "z": 1.1,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.90525591,
-            "sqrMagnitude": 3.63
+            "z": 1.1
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.7,
-            "y": 1.7,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.40416312,
-            "sqrMagnitude": 5.78
+            "y": 1.7
           }
         }
       ],
@@ -2689,139 +1302,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.8,
             "y": 0.8,
-            "z": 0.8,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.38564062,
-            "sqrMagnitude": 1.92000008
+            "z": 0.8
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 0.85,
             "y": 0.85,
-            "z": 0.85,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.47224319,
-            "sqrMagnitude": 2.1675
+            "z": 0.85
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.9,
-            "y": 1.9,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.68700576,
-            "sqrMagnitude": 7.22
+            "y": 1.9
           }
         }
       ],
@@ -2873,146 +1388,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 180.0,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.0,
-              "y": 1.0,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 180.0,
-            "sqrMagnitude": 32400.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 2.2,
-            "y": 2.2,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 3.11127,
-            "sqrMagnitude": 9.68
+            "y": 2.2
           }
         }
       ],
@@ -3064,140 +1474,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 180.0,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.0,
-              "y": 1.0,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 180.0,
-            "sqrMagnitude": 32400.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 0.65,
             "y": 0.65,
-            "z": 0.65,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.125833,
-            "sqrMagnitude": 1.26749992
+            "z": 0.65
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 3.3,
-            "y": 3.3,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 4.66690445,
-            "sqrMagnitude": 21.7799988
+            "y": 3.3
           }
         }
       ],
@@ -3249,133 +1560,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.3,
             "y": 1.3,
-            "z": 1.3,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.251666,
-            "sqrMagnitude": 5.06999969
+            "z": 1.3
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.1,
             "y": 1.1,
-            "z": 1.1,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.90525591,
-            "sqrMagnitude": 3.63
+            "z": 1.1
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.5,
-            "y": 1.5,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 2.12132025,
-            "sqrMagnitude": 4.5
+            "y": 1.5
           }
         }
       ],
@@ -3427,133 +1646,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.3,
             "y": 1.3,
-            "z": 1.3,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.251666,
-            "sqrMagnitude": 5.06999969
+            "z": 1.3
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.2,
             "y": 1.2,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 2.078461,
-            "sqrMagnitude": 4.32
+            "z": 1.2
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.5,
-            "y": 1.5,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 2.12132025,
-            "sqrMagnitude": 4.5
+            "y": 1.5
           }
         }
       ],
@@ -3611,139 +1738,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.3,
             "y": 1.3,
-            "z": 1.3,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.251666,
-            "sqrMagnitude": 5.06999969
+            "z": 1.3
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.25,
             "y": 1.25,
-            "z": 1.25,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.16506362,
-            "sqrMagnitude": 4.6875
+            "z": 1.25
           },
           "LegScale": {
             "x": 1.1,
             "y": 1.1,
-            "z": 1.1,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.90525591,
-            "sqrMagnitude": 3.63
+            "z": 1.1
           },
           "SizeRange": {
             "x": 1.6,
-            "y": 1.8,
-            "normalized": {
-              "x": 0.6643638,
-              "y": 0.7474093,
-              "normalized": {
-                "x": 0.664363861,
-                "y": 0.747409344,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.9999999
-            },
-            "magnitude": 2.408319,
-            "sqrMagnitude": 5.8
+            "y": 1.8
           }
         }
       ],
@@ -3795,139 +1824,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.0,
-            "y": 1.0,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.41421354,
-            "sqrMagnitude": 2.0
+            "y": 1.0
           }
         }
       ],
@@ -3960,133 +1891,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.9,
-            "y": 1.1,
-            "normalized": {
-              "x": 0.6332378,
-              "y": 0.7739573,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.421267,
-            "sqrMagnitude": 2.02
+            "y": 1.1
           }
         }
       ],
@@ -4132,139 +1971,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.2,
             "y": 1.2,
-            "z": 1.2,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 2.078461,
-            "sqrMagnitude": 4.32
+            "z": 1.2
           },
           "ArmScale": {
             "x": 0.7,
             "y": 0.7,
-            "z": 0.7,
-            "normalized": {
-              "x": 0.5773503,
-              "y": 0.5773503,
-              "z": 0.5773503,
-              "normalized": {
-                "x": 0.577350259,
-                "y": 0.577350259,
-                "z": 0.577350259,
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
-              "magnitude": 1.00000012,
-              "sqrMagnitude": 1.00000024
-            },
-            "magnitude": 1.21243548,
-            "sqrMagnitude": 1.46999991
+            "z": 0.7
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.8,
-            "y": 1.8,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 2.54558444,
-            "sqrMagnitude": 6.47999954
+            "y": 1.8
           }
         }
       ],
@@ -4322,139 +2063,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": -0.5,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.5,
-            "sqrMagnitude": 0.25
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 180.0,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.0,
-              "y": 1.0,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 180.0,
-            "sqrMagnitude": 32400.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.0,
-            "y": 1.0,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.41421354,
-            "sqrMagnitude": 2.0
+            "y": 1.0
           }
         }
       ],
@@ -4494,127 +2137,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.6,
-            "y": 0.8,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "y": 0.8
           }
         }
       ],
@@ -4666,133 +2223,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 0.9,
-            "y": 1.1,
-            "normalized": {
-              "x": 0.6332378,
-              "y": 0.7739573,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 1.421267,
-            "sqrMagnitude": 2.02
+            "y": 1.1
           }
         }
       ],
@@ -4876,139 +2341,41 @@
           "PositionOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "RotationOffset": {
             "x": 0.0,
             "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "z": 0.0
           },
           "NeckScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "HeadScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ChestScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "ArmScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "LegScale": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0,
-            "normalized": {
-              "x": 0.577350259,
-              "y": 0.577350259,
-              "z": 0.577350259,
-              "normalized": {
-                "x": 0.5773503,
-                "y": 0.5773503,
-                "z": 0.5773503,
-                "magnitude": 1.00000012,
-                "sqrMagnitude": 1.00000024
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.73205078,
-            "sqrMagnitude": 3.0
+            "z": 1.0
           },
           "SizeRange": {
             "x": 1.0,
-            "y": 1.0,
-            "normalized": {
-              "x": 0.707106769,
-              "y": 0.707106769,
-              "normalized": {
-                "x": 0.7071068,
-                "y": 0.7071068,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.41421354,
-            "sqrMagnitude": 2.0
+            "y": 1.0
           }
         }
       ],

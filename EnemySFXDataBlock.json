@@ -9,21 +9,7 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 134.164078,
-        "sqrMagnitude": 18000.0
+        "y": 120.0
       },
       "SFX_ID_hibernateWakeUp": 3084824106,
       "SFX_ID_hibernateDie": 3186730326,
@@ -55,21 +41,7 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 134.164078,
-        "sqrMagnitude": 18000.0
+        "y": 120.0
       },
       "SFX_ID_hibernateWakeUp": 2551787008,
       "SFX_ID_hibernateDie": 3186730326,
@@ -101,21 +73,7 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 134.164078,
-        "sqrMagnitude": 18000.0
+        "y": 120.0
       },
       "SFX_ID_hibernateWakeUp": 3084824106,
       "SFX_ID_hibernateDie": 3186730326,
@@ -147,21 +105,7 @@
       "SFX_ID_hibernateIdle": 2209321909,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 134.164078,
-        "sqrMagnitude": 18000.0
+        "y": 120.0
       },
       "SFX_ID_hibernateWakeUp": 0,
       "SFX_ID_hibernateDie": 242958158,
@@ -193,21 +137,7 @@
       "SFX_ID_hibernateIdle": 3926204953,
       "hibernateIdleInterval": {
         "x": 30.0,
-        "y": 60.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 67.08204,
-        "sqrMagnitude": 4500.0
+        "y": 60.0
       },
       "SFX_ID_hibernateWakeUp": 1279753767,
       "SFX_ID_hibernateDie": 1876616065,
@@ -239,21 +169,7 @@
       "SFX_ID_hibernateIdle": 2748640458,
       "hibernateIdleInterval": {
         "x": 30.0,
-        "y": 60.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 67.08204,
-        "sqrMagnitude": 4500.0
+        "y": 60.0
       },
       "SFX_ID_hibernateWakeUp": 1674708380,
       "SFX_ID_hibernateDie": 1431152350,
@@ -285,9 +201,7 @@
       "SFX_ID_hibernateIdle": 2339686680,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 1690228896,
       "SFX_ID_hibernateDie": 0,
@@ -319,9 +233,7 @@
       "SFX_ID_hibernateIdle": 0,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 431483632,
       "SFX_ID_hibernateDie": 493397974,
@@ -353,9 +265,7 @@
       "SFX_ID_hibernateIdle": 3676707439,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 3805227207,
       "SFX_ID_hibernateDie": 1242392806,
@@ -387,9 +297,7 @@
       "SFX_ID_hibernateIdle": 3863401504,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 331334693,
       "SFX_ID_hibernateDie": 521334375,
@@ -421,9 +329,7 @@
       "SFX_ID_hibernateIdle": 3926204953,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 3580112372,
       "SFX_ID_hibernateDie": 0,
@@ -455,9 +361,7 @@
       "SFX_ID_hibernateIdle": 3926204953,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 3580112372,
       "SFX_ID_hibernateDie": 0,
@@ -489,21 +393,7 @@
       "SFX_ID_hibernateIdle": 3676707439,
       "hibernateIdleInterval": {
         "x": 60.0,
-        "y": 120.0,
-        "normalized": {
-          "x": 0.4472136,
-          "y": 0.8944272,
-          "normalized": {
-            "x": 0.44721362,
-            "y": 0.89442724,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 134.164078,
-        "sqrMagnitude": 18000.0
+        "y": 120.0
       },
       "SFX_ID_hibernateWakeUp": 2597495015,
       "SFX_ID_hibernateDie": 3186730326,
@@ -535,9 +425,7 @@
       "SFX_ID_hibernateIdle": 0,
       "hibernateIdleInterval": {
         "x": 0.0,
-        "y": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "y": 0.0
       },
       "SFX_ID_hibernateWakeUp": 0,
       "SFX_ID_hibernateDie": 0,

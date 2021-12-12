@@ -16,23 +16,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -1.0,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.0
+        "z": -1.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.03,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.03,
-        "sqrMagnitude": 0.0009
+        "z": -0.03
       },
       "recoilPosShiftWeight": 2.0,
       "recoilPosStiffness": 140.0,
@@ -42,23 +31,7 @@
       "recoilRotImpulse": {
         "x": -1.0,
         "y": 0.5,
-        "z": 0.5,
-        "normalized": {
-          "x": -0.816496551,
-          "y": 0.408248276,
-          "z": 0.408248276,
-          "normalized": {
-            "x": -0.8164966,
-            "y": 0.4082483,
-            "z": 0.4082483,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 1.22474492,
-        "sqrMagnitude": 1.5
+        "z": 0.5
       },
       "recoilRotStiffness": 50.0,
       "recoilRotDamping": 8.0,
@@ -163,30 +136,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.8,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.8,
-        "sqrMagnitude": 0.640000045
+        "z": -0.8
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.001,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.001,
-        "sqrMagnitude": 1.00000011E-06
+        "z": -0.001
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 250.0,
@@ -196,16 +151,7 @@
       "recoilRotImpulse": {
         "x": -1.0,
         "y": 0.6,
-        "z": 0.6,
-        "normalized": {
-          "x": -0.7624929,
-          "y": 0.457495749,
-          "z": 0.457495749,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 1.31148767,
-        "sqrMagnitude": 1.72
+        "z": 0.6
       },
       "recoilRotStiffness": 50.0,
       "recoilRotDamping": 8.0,
@@ -300,23 +246,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -2.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.0,
-        "sqrMagnitude": 4.0
+        "z": -2.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": -1.0,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.0
+        "z": -1.0
       },
       "recoilPosShiftWeight": 0.001,
       "recoilPosStiffness": 150.0,
@@ -326,16 +261,7 @@
       "recoilRotImpulse": {
         "x": -80.0,
         "y": 0.0,
-        "z": -10.0,
-        "normalized": {
-          "x": -0.9922779,
-          "y": 0.0,
-          "z": -0.12403474,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 80.6225739,
-        "sqrMagnitude": 6500.0
+        "z": -10.0
       },
       "recoilRotStiffness": 50.0,
       "recoilRotDamping": 8.0,
@@ -430,37 +356,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.1,
-        "z": -2.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.04993762,
-          "z": -0.998752356,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.00249839,
-        "sqrMagnitude": 4.01
+        "z": -2.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.1,
-        "z": -1.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.09950372,
-          "z": -0.995037138,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.0995037258,
-            "z": -0.9950372,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 1.0049876,
-        "sqrMagnitude": 1.01
+        "z": -1.0
       },
       "recoilPosShiftWeight": 0.03,
       "recoilPosStiffness": 100.0,
@@ -470,16 +371,7 @@
       "recoilRotImpulse": {
         "x": -80.0,
         "y": 0.0,
-        "z": -10.0,
-        "normalized": {
-          "x": -0.9922779,
-          "y": 0.0,
-          "z": -0.12403474,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 80.6225739,
-        "sqrMagnitude": 6500.0
+        "z": -10.0
       },
       "recoilRotStiffness": 350.0,
       "recoilRotDamping": 15.0,
@@ -608,37 +500,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.1,
-        "z": -2.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.04993762,
-          "z": -0.998752356,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.00249839,
-        "sqrMagnitude": 4.01
+        "z": -2.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.1,
-        "z": -1.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.09950372,
-          "z": -0.995037138,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.0995037258,
-            "z": -0.9950372,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 1.0049876,
-        "sqrMagnitude": 1.01
+        "z": -1.0
       },
       "recoilPosShiftWeight": 0.03,
       "recoilPosStiffness": 150.0,
@@ -648,16 +515,7 @@
       "recoilRotImpulse": {
         "x": -80.0,
         "y": 0.0,
-        "z": -10.0,
-        "normalized": {
-          "x": -0.9922779,
-          "y": 0.0,
-          "z": -0.12403474,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 80.6225739,
-        "sqrMagnitude": 6500.0
+        "z": -10.0
       },
       "recoilRotStiffness": 350.0,
       "recoilRotDamping": 15.0,
@@ -786,37 +644,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.5,
-        "sqrMagnitude": 0.25
+        "z": -0.5
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": -0.1,
-        "z": -0.02,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.9805806,
-          "z": -0.19611612,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.9805807,
-            "z": -0.196116135,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.101980396,
-        "sqrMagnitude": 0.010400001
+        "z": -0.02
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 150.0,
@@ -826,23 +659,7 @@
       "recoilRotImpulse": {
         "x": -1.0,
         "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": -0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": -0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "z": 1.0
       },
       "recoilRotStiffness": 50.0,
       "recoilRotDamping": 8.0,
@@ -971,37 +788,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.5,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.5,
-        "sqrMagnitude": 0.25
+        "z": -0.5
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": -0.1,
-        "z": -0.02,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.9805806,
-          "z": -0.19611612,
-          "normalized": {
-            "x": 0.0,
-            "y": -0.9805807,
-            "z": -0.196116135,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 0.101980396,
-        "sqrMagnitude": 0.010400001
+        "z": -0.02
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 150.0,
@@ -1011,23 +803,7 @@
       "recoilRotImpulse": {
         "x": -1.0,
         "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": -0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": -0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "z": 1.0
       },
       "recoilRotStiffness": 50.0,
       "recoilRotDamping": 8.0,
@@ -1156,30 +932,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -5.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 5.0,
-        "sqrMagnitude": 25.0
+        "z": -5.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.2,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.2,
-        "sqrMagnitude": 0.0400000028
+        "z": -0.2
       },
       "recoilPosShiftWeight": 0.15,
       "recoilPosStiffness": 150.0,
@@ -1189,23 +947,7 @@
       "recoilRotImpulse": {
         "x": -1.0,
         "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": -0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": -0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "z": 1.0
       },
       "recoilRotStiffness": 150.0,
       "recoilRotDamping": 8.0,
@@ -1276,30 +1018,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": -2.0,
-        "z": -3.0,
-        "normalized": {
-          "x": 0.0,
-          "y": -0.5547002,
-          "z": -0.8320503,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 3.60555124,
-        "sqrMagnitude": 13.0
+        "z": -3.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.1,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.1,
-        "sqrMagnitude": 0.0100000007
+        "z": -0.1
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 150.0,
@@ -1309,23 +1033,7 @@
       "recoilRotImpulse": {
         "x": -2.0,
         "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": -0.816496551,
-          "y": 0.408248276,
-          "z": 0.408248276,
-          "normalized": {
-            "x": -0.8164966,
-            "y": 0.4082483,
-            "z": 0.4082483,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.9999999
-        },
-        "magnitude": 2.44948983,
-        "sqrMagnitude": 6.0
+        "z": 1.0
       },
       "recoilRotStiffness": 50.0,
       "recoilRotDamping": 8.0,
@@ -1396,30 +1104,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 1.0,
-        "z": -2.5,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.371390671,
-          "z": -0.9284767,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 2.69258237,
-        "sqrMagnitude": 7.25
+        "z": -2.5
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.2,
-        "z": -1.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.196116149,
-          "z": -0.9805807,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.01980388,
-        "sqrMagnitude": 1.04
+        "z": -1.0
       },
       "recoilPosShiftWeight": 0.06,
       "recoilPosStiffness": 150.0,
@@ -1429,16 +1119,7 @@
       "recoilRotImpulse": {
         "x": -80.0,
         "y": 0.0,
-        "z": -10.0,
-        "normalized": {
-          "x": -0.9922779,
-          "y": 0.0,
-          "z": -0.12403474,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 80.6225739,
-        "sqrMagnitude": 6500.0
+        "z": -10.0
       },
       "recoilRotStiffness": 250.0,
       "recoilRotDamping": 15.0,
@@ -1509,37 +1190,12 @@
       "recoilPosImpulse": {
         "x": 0.2,
         "y": 0.05,
-        "z": -0.7,
-        "normalized": {
-          "x": 0.2740755,
-          "y": 0.06851888,
-          "z": -0.9592642,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.729725957,
-        "sqrMagnitude": 0.532499969
+        "z": -0.7
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.01,
-        "z": -0.01,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.707106769,
-          "z": -0.707106769,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.7071068,
-            "z": -0.7071068,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.0141421352,
-        "sqrMagnitude": 0.0002
+        "z": -0.01
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 150.0,
@@ -1549,16 +1205,7 @@
       "recoilRotImpulse": {
         "x": -30.0,
         "y": 0.0,
-        "z": 0.0,
-        "normalized": {
-          "x": -1.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 30.0,
-        "sqrMagnitude": 900.0
+        "z": 0.0
       },
       "recoilRotStiffness": 200.0,
       "recoilRotDamping": 15.0,
@@ -1653,16 +1300,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -1672,9 +1315,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -1751,16 +1392,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -1770,9 +1407,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -1849,16 +1484,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -1868,9 +1499,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -1947,16 +1576,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -1966,9 +1591,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2045,23 +1668,12 @@
       "recoilPosImpulse": {
         "x": 0.2,
         "y": 0.5,
-        "z": -1.0,
-        "normalized": {
-          "x": 0.176090181,
-          "y": 0.440225452,
-          "z": -0.8804509,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.13578165,
-        "sqrMagnitude": 1.29
+        "z": -1.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 120.0,
@@ -2071,9 +1683,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2150,16 +1760,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2169,9 +1775,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2242,16 +1846,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2261,9 +1861,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2334,16 +1932,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2353,9 +1947,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2422,16 +2014,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2441,9 +2029,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2510,16 +2096,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2529,9 +2111,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2598,16 +2178,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2617,9 +2193,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2686,16 +2260,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2705,9 +2275,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2774,16 +2342,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2793,9 +2357,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2862,16 +2424,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2881,9 +2439,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -2950,16 +2506,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -2969,9 +2521,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -3043,16 +2593,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -3062,9 +2608,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -3131,16 +2675,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 0.0,
       "recoilPosStiffness": 0.0,
@@ -3150,9 +2690,7 @@
       "recoilRotImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilRotStiffness": 0.0,
       "recoilRotDamping": 0.0,
@@ -3209,23 +2747,12 @@
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -3.0,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 3.0,
-        "sqrMagnitude": 9.0
+        "z": -3.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0,
-        "magnitude": 0.0,
-        "sqrMagnitude": 0.0
+        "z": 0.0
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 300.0,
@@ -3235,16 +2762,7 @@
       "recoilRotImpulse": {
         "x": -190.0,
         "y": 0.0,
-        "z": 0.0,
-        "normalized": {
-          "x": -1.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 190.0,
-        "sqrMagnitude": 36100.0
+        "z": 0.0
       },
       "recoilRotStiffness": 500.0,
       "recoilRotDamping": 15.0,
@@ -3301,37 +2819,12 @@
       "recoilPosImpulse": {
         "x": 0.2,
         "y": 0.25,
-        "z": -1.0,
-        "normalized": {
-          "x": 0.190476209,
-          "y": 0.238095254,
-          "z": -0.952381,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 1.05,
-        "sqrMagnitude": 1.1025
+        "z": -1.0
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.01,
-        "z": -0.01,
-        "normalized": {
-          "x": 0.0,
-          "y": 0.707106769,
-          "z": -0.707106769,
-          "normalized": {
-            "x": 0.0,
-            "y": 0.7071068,
-            "z": -0.7071068,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.0141421352,
-        "sqrMagnitude": 0.0002
+        "z": -0.01
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 500.0,
@@ -3341,16 +2834,7 @@
       "recoilRotImpulse": {
         "x": -190.0,
         "y": 0.0,
-        "z": 0.0,
-        "normalized": {
-          "x": -1.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 190.0,
-        "sqrMagnitude": 36100.0
+        "z": 0.0
       },
       "recoilRotStiffness": 100.0,
       "recoilRotDamping": 15.0,

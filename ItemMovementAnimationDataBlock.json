@@ -114,57 +114,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -268,57 +226,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -336,57 +252,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -404,57 +278,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Pistol_Recoil",
@@ -558,57 +390,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -712,57 +502,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -780,57 +528,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -848,57 +554,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Revolver_Small_Recoil",
@@ -983,57 +647,15 @@
         },
         "VarianceX": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -1119,57 +741,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -1187,57 +767,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -1255,57 +793,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Revolver_Recoil",
@@ -1415,57 +911,15 @@
         },
         "VarianceX": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -1570,57 +1024,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -1638,57 +1050,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -1706,57 +1076,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Shotgun_Recoil",
@@ -1872,57 +1200,15 @@
         },
         "VarianceX": {
           "x": -1.0,
-          "y": -1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": -0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": -0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": -1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -2008,45 +1294,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 0.0,
-          "y": -1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
+          "y": -1.0
         }
       },
       "CameraPosition": {
@@ -2064,57 +1320,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -2132,57 +1346,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Shotgun_Recoil_Big",
@@ -2286,51 +1458,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceY": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6726728,
-            "y": 0.7399401,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.48660684,
-          "sqrMagnitude": 2.21
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -2435,51 +1571,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.624695063,
-            "y": 0.780868769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.28062487,
-          "sqrMagnitude": 1.6400001
+          "y": 1.0
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.6689647,
-            "y": 0.7432941,
-            "normalized": {
-              "x": 0.668964744,
-              "y": 0.7432942,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 1.34536242,
-          "sqrMagnitude": 1.81
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -2497,57 +1597,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -2565,57 +1623,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "SMG_Recoil",
@@ -2719,51 +1735,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceY": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6726728,
-            "y": 0.7399401,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.48660684,
-          "sqrMagnitude": 2.21
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -2868,51 +1848,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.624695063,
-            "y": 0.780868769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.28062487,
-          "sqrMagnitude": 1.6400001
+          "y": 1.0
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.6689647,
-            "y": 0.7432941,
-            "normalized": {
-              "x": 0.668964744,
-              "y": 0.7432942,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 1.34536242,
-          "sqrMagnitude": 1.81
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -2930,57 +1874,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -2998,57 +1900,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Pistol_Auto_Recoil",
@@ -3152,51 +2012,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceY": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6726728,
-            "y": 0.7399401,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.48660684,
-          "sqrMagnitude": 2.21
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -3301,51 +2125,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.624695063,
-            "y": 0.780868769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.28062487,
-          "sqrMagnitude": 1.6400001
+          "y": 1.0
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.6689647,
-            "y": 0.7432941,
-            "normalized": {
-              "x": 0.668964744,
-              "y": 0.7432942,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 1.34536242,
-          "sqrMagnitude": 1.81
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -3363,57 +2151,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -3431,57 +2177,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Rifle_Recoil",
@@ -3579,51 +2283,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -3734,51 +2402,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.624695063,
-            "y": 0.780868769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.28062487,
-          "sqrMagnitude": 1.6400001
+          "y": 1.0
         },
         "VarianceY": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -3796,57 +2428,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -3864,57 +2454,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Sniper_Recoil",
@@ -4012,51 +2560,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -4167,51 +2679,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.624695063,
-            "y": 0.780868769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.28062487,
-          "sqrMagnitude": 1.6400001
+          "y": 1.0
         },
         "VarianceY": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -4229,57 +2705,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -4297,57 +2731,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "DMR_Recoil",
@@ -4457,51 +2849,15 @@
         },
         "VarianceX": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 0.8,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.588171661,
-            "y": 0.8087361,
-            "normalized": {
-              "x": 0.5881717,
-              "y": 0.808736145,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.36014712,
-          "sqrMagnitude": 1.85000014
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6726728,
-            "y": 0.7399401,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.48660684,
-          "sqrMagnitude": 2.21
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -4606,51 +2962,15 @@
         },
         "VarianceX": {
           "x": 0.8,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.624695063,
-            "y": 0.780868769,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.28062487,
-          "sqrMagnitude": 1.6400001
+          "y": 1.0
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.6689647,
-            "y": 0.7432941,
-            "normalized": {
-              "x": 0.668964744,
-              "y": 0.7432942,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 1.34536242,
-          "sqrMagnitude": 1.81
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -4668,57 +2988,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -4736,57 +3014,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Bullpup_Recoil",
@@ -4865,57 +3101,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -5020,57 +3214,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -5114,57 +3266,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -5195,57 +3305,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Handgun Walk",
@@ -5349,57 +3417,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -5486,57 +3512,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -5580,57 +3564,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -5661,57 +3603,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Tool_Walk",
@@ -5790,57 +3690,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -5939,57 +3797,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -6007,57 +3823,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -6075,57 +3849,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Handgun Run",
@@ -6198,57 +3930,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -6323,57 +4013,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -6391,57 +4039,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -6459,57 +4065,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "SMG_Run",
@@ -6613,57 +4177,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -6732,57 +4254,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -6800,57 +4280,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -6868,57 +4306,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Tool_Run",
@@ -7022,57 +4418,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -7153,57 +4507,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -7221,57 +4533,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -7289,57 +4559,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Tool_Screen_Run",
@@ -7387,57 +4615,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -7499,57 +4685,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -7567,57 +4711,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -7660,57 +4762,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Handgun Jump",
@@ -7752,57 +4812,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -7864,57 +4882,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": -1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": -0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": -0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -7932,57 +4908,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -8019,57 +4953,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Handgun Land",
@@ -8173,57 +5065,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -8322,57 +5172,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -8390,57 +5198,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -8458,57 +5224,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Melee Run",
@@ -8612,57 +5336,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -8761,57 +5443,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -8829,57 +5469,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -8897,57 +5495,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Spear Run",
@@ -9057,57 +5613,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -9206,57 +5720,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -9274,57 +5746,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -9342,57 +5772,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Pistol Walk",
@@ -9496,57 +5884,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -9645,57 +5991,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -9713,57 +6017,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -9781,57 +6043,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Pistol Run",
@@ -9935,57 +6155,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -10072,57 +6250,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -10140,57 +6276,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -10208,57 +6302,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Sniper Run",
@@ -10362,57 +6414,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "ItemRotation": {
@@ -10499,57 +6509,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -10567,57 +6535,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -10635,57 +6561,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Rifle Run",
@@ -10813,39 +6697,15 @@
         },
         "VarianceX": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -10956,57 +6816,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -11024,57 +6842,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -11092,57 +6868,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Handgun Idle",
@@ -11270,39 +7004,15 @@
         },
         "VarianceX": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -11413,57 +7123,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -11481,57 +7149,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -11549,57 +7175,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "LargeItem_Idle",
@@ -11727,39 +7311,15 @@
         },
         "VarianceX": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         },
         "VarianceY": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         },
         "VarianceZ": {
           "x": 0.9,
-          "y": 1.1,
-          "normalized": {
-            "x": 0.6332378,
-            "y": 0.7739573,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.421267,
-          "sqrMagnitude": 2.02
+          "y": 1.1
         }
       },
       "ItemRotation": {
@@ -11870,57 +7430,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraPosition": {
@@ -11938,57 +7456,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "CameraRotation": {
@@ -12006,57 +7482,15 @@
         },
         "VarianceX": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceY": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         },
         "VarianceZ": {
           "x": 1.0,
-          "y": 1.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.41421354,
-          "sqrMagnitude": 2.0
+          "y": 1.0
         }
       },
       "name": "Rifle_Idle",
