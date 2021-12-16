@@ -33747,6 +33747,63 @@
     },
     {
       "SkipLocalization": false,
+      "English": "APPAREL",
+      "MaxCharacterLength": 0,
+      "Description": "Refers to the player's apparel",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Italian": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "German": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Spanish": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Russian": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Portuguese_Brazil": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Polish": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Japanese": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Korean": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Chinese_Traditional": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Chinese_Simplified": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 0,
+      "name": "MainMenu.Lobby.PlayerBar.Apparel",
+      "internalEnabled": true,
+      "persistentID": 2795554064
+    },
+    {
+      "SkipLocalization": false,
       "English": "SPECIAL:",
       "MaxCharacterLength": 0,
       "Description": "Refers to the players \"special\" (secondary) weapon. The \"special\" weapon is often more powerful but it's difficult to find ammunition for it so you can't always rely on it.",
@@ -64527,56 +64584,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Locate the terminal at the bottom of <color=orange>ZONE 148</color> and input the terminal command <color=orange>RESET_SECURITY_PROTOCOL</color>",
+      "English": "Locate the terminal at the bottom of <color=orange>ZONE 152</color> and input the terminal command <color=orange>RESET_SECURITY_PROTOCOL</color>",
       "MaxCharacterLength": 0,
-      "Description": "Don't localize ZONE 148 and RESET_SECURITY_PROTOCOL.",
+      "Description": "Don't localize ZONE 152 and RESET_SECURITY_PROTOCOL.",
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "Localisez le terminal tout en bas de la <color=orange>ZONE 148</color> et entrez la commande du terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": false
+        "Translation": "Localisez le terminal tout en bas de la <color=orange>ZONE 152</color> et entrez la commande du terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
+        "ShouldTranslate": true
       },
       "Italian": {
-        "Translation": "Trovare il terminale in fondo alla <color=orange>ZONE 148</color> e inserire il comando <color=orange>RESET_SECURITY_PROTOCOL</color>",
-        "ShouldTranslate": false
+        "Translation": "Trovare il terminale in fondo alla <color=orange>ZONE 152</color> e inserire il comando <color=orange>RESET_SECURITY_PROTOCOL</color>",
+        "ShouldTranslate": true
       },
       "German": {
-        "Translation": "Lokalisieren Sie das Terminal am unteren Rand von <color=orange>ZONE 148</color> und geben Sie den Befehl <color=orange>RESET_SECURITY_PROTOCOL</color> am Terminal ein.",
-        "ShouldTranslate": false
+        "Translation": "Lokalisieren Sie das Terminal am unteren Rand von <color=orange>ZONE 152</color> und geben Sie den Befehl <color=orange>RESET_SECURITY_PROTOCOL</color> am Terminal ein.",
+        "ShouldTranslate": true
       },
       "Spanish": {
-        "Translation": "Encuentra la terminal al final de la <color=orange>ZONE 148</color> e introduce el comando de la terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": false
+        "Translation": "Encuentra la terminal al final de la <color=orange>ZONE 152</color> e introduce el comando de la terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
+        "ShouldTranslate": true
       },
       "Russian": {
-        "Translation": "Найдите терминал в нижней части <color=orange>ZONE 148</color> и введите команду <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": false
+        "Translation": "Найдите терминал в нижней части <color=orange>ZONE 152</color> и введите команду <color=orange>RESET_SECURITY_PROTOCOL</color>.",
+        "ShouldTranslate": true
       },
       "Portuguese_Brazil": {
-        "Translation": "Localize o terminal na parte inferior da <color=orange>ZONE 148</color> e insira o comando de terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": false
+        "Translation": "Localize o terminal na parte inferior da <color=orange>ZONE 152</color> e insira o comando de terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
+        "ShouldTranslate": true
       },
       "Polish": {
-        "Translation": "Zlokalizuj terminal u dołu <color=orange>strefy 148 [ZONE_148]</color> i wprowadź polecenie <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": false
+        "Translation": "Zlokalizuj terminal u dołu <color=orange>strefy 152 [ZONE_152]</color> i wprowadź polecenie <color=orange>RESET_SECURITY_PROTOCOL</color>.",
+        "ShouldTranslate": true
       },
       "Japanese": {
-        "Translation": "<color=orange>ZONE 148</color> の底にある端末を見つけ、コマンド <color=orange>RESET_SECURITY_PROTOCOL</color>を入力しろ",
-        "ShouldTranslate": false
+        "Translation": "<color=orange>ZONE 152</color> の底にある端末を見つけ、コマンド <color=orange>RESET_SECURITY_PROTOCOL</color>を入力しろ",
+        "ShouldTranslate": true
       },
       "Korean": {
-        "Translation": "<color=orange>ZONE 148</color> 하부에서 터미널을 찾아 <color=orange>RESET_SECURITY_PROTOCOL</color> 명령 사용",
-        "ShouldTranslate": false
+        "Translation": "<color=orange>ZONE 152</color> 하부에서 터미널을 찾아 <color=orange>RESET_SECURITY_PROTOCOL</color> 명령 사용",
+        "ShouldTranslate": true
       },
       "Chinese_Traditional": {
-        "Translation": "定位<color=orange>ZONE 148</color>底部的終端，輸入終端指令<color=orange>RESET_SECURITY_PROTOCOL</color>",
-        "ShouldTranslate": false
+        "Translation": "定位<color=orange>ZONE 152</color>底部的終端，輸入終端指令<color=orange>RESET_SECURITY_PROTOCOL</color>",
+        "ShouldTranslate": true
       },
       "Chinese_Simplified": {
-        "Translation": "找到<color=orange>ZONE 148</color>底部的终端，并输入终端命令<color=orange>RESET_SECURITY_PROTOCOL</color>",
-        "ShouldTranslate": false
+        "Translation": "找到<color=orange>ZONE 152</color>底部的终端，并输入终端命令<color=orange>RESET_SECURITY_PROTOCOL</color>",
+        "ShouldTranslate": true
       },
-      "ExportVersion": 1,
+      "ExportVersion": 2,
       "ImportVersion": 1,
       "name": "WardenObjectiveData.Gather_3_Data_Cubes_Override.Custom.SubObjective",
       "internalEnabled": true,

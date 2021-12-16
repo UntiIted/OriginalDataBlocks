@@ -1483,7 +1483,7 @@
       "persistentID": 32
     },
     {
-      "PublicAlarmName": "Class V M Alarm ",
+      "PublicAlarmName": "Class IV M Alarm ",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 93,
       "SurvivalWavePopulation": 35,

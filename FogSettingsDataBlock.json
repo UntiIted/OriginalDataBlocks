@@ -891,11 +891,11 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.0,
-        "r": 0.847058833,
-        "g": 1.0,
-        "b": 0.956862748
+        "r": 0.6677643,
+        "g": 0.7735849,
+        "b": 0.743738055
       },
-      "FogDensity": 0.0003,
+      "FogDensity": 0.00015,
       "FogAmbience": 0.0,
       "DensityNoiseDirection": {
         "x": 0.65,
@@ -1081,7 +1081,7 @@
       "DensityNoiseScale": 0.131,
       "DensityHeightAltitude": -5.2,
       "DensityHeightRange": 1.5,
-      "DensityHeightMaxBoost": 0.1,
+      "DensityHeightMaxBoost": 0.022,
       "Infection": 0.0,
       "name": "Fog_light_white_low4",
       "internalEnabled": true,
@@ -1106,7 +1106,7 @@
       "DensityNoiseScale": 0.131,
       "DensityHeightAltitude": 3.2,
       "DensityHeightRange": 1.5,
-      "DensityHeightMaxBoost": 0.1,
+      "DensityHeightMaxBoost": 0.022,
       "Infection": 0.0,
       "name": "Fog_light_white_high_4",
       "internalEnabled": true,
