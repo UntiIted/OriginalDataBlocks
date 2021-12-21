@@ -20553,7 +20553,7 @@
       "PostCommandOutput": [],
       "SpecialCommandRule": "Normal",
       "PowerCellsToDistribute": 0,
-      "Uplink_NumberOfVerificationRounds": 3,
+      "Uplink_NumberOfVerificationRounds": 5,
       "Uplink_NumberOfTerminals": 1,
       "Uplink_WaveSpawnType": "InRelationToClosestAlivePlayer",
       "CentralPowerGenClustser_NumberOfGenerators": 2,

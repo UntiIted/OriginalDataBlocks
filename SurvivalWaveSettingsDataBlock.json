@@ -300,7 +300,7 @@
     {
       "m_pauseBeforeStart": 3.0,
       "m_pauseBetweenGroups": 12.0,
-      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMin_atCost": 3.0,
       "m_wavePauseMax_atCost": 10.0,
       "m_wavePauseMin": 3.0,
       "m_wavePauseMax": 25.0,
@@ -316,12 +316,12 @@
       "m_overrideWaveSpawnType": true,
       "m_survivalWaveSpawnType": "OnSpawnPoints",
       "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 5.0,
-      "m_populationPointsPerWaveEnd": 8.0,
-      "m_populationPointsMinPerGroup": 1.0,
-      "m_populationPointsPerGroupStart": 1.0,
-      "m_populationPointsPerGroupEnd": 2.0,
-      "m_populationRampOverTime": 20.0,
+      "m_populationPointsPerWaveStart": 6.0,
+      "m_populationPointsPerWaveEnd": 10.0,
+      "m_populationPointsMinPerGroup": 4.0,
+      "m_populationPointsPerGroupStart": 5.0,
+      "m_populationPointsPerGroupEnd": 7.0,
+      "m_populationRampOverTime": 40.0,
       "name": "Apex Halved Standard Only SpawnPoints",
       "internalEnabled": true,
       "persistentID": 93
@@ -814,7 +814,7 @@
       "m_wavePauseMin": 1.0,
       "m_wavePauseMax": 20.0,
       "m_populationFilter": [
-        "Boss"
+        "Standard"
       ],
       "m_filterType": "Exclude",
       "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
@@ -831,6 +831,32 @@
       "name": "Scout Halved WSSpM",
       "internalEnabled": true,
       "persistentID": 78
+    },
+    {
+      "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 3.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Standard"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": 7.0,
+      "m_populationPointsPerWaveStart": 7.0,
+      "m_populationPointsPerWaveEnd": 7.0,
+      "m_populationPointsMinPerGroup": 7.0,
+      "m_populationPointsPerGroupStart": 7.0,
+      "m_populationPointsPerGroupEnd": 7.0,
+      "m_populationRampOverTime": 120.0,
+      "name": "Scout Halved and Reduced S",
+      "internalEnabled": true,
+      "persistentID": 131
     },
     {
       "m_pauseBeforeStart": 1.0,
@@ -3477,5 +3503,5 @@
       "persistentID": 119
     }
   ],
-  "LastPersistentID": 130
+  "LastPersistentID": 131
 }

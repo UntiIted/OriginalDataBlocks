@@ -139,7 +139,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ПОДКЛЮЧИТЕСЬ ДЛЯ НАЧАЛА КАМПАНИИ",
+        "Translation": "ПОДКЛЮЧИТЬСЯ К КАМПАНИИ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -295,50 +295,50 @@
       "Mood": "None",
       "French": {
         "Translation": "RECHERCHE DE MATCH",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Italian": {
         "Translation": "ABBINA",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "German": {
         "Translation": "SPIELERSUCHE",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "EMPAREJAMIENTO",
-        "ShouldTranslate": true
+        "Translation": "EMPAREJAR",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ПОДБОР ИГРОКОВ",
-        "ShouldTranslate": true
+        "Translation": "ПОДБОР КОМАНДЫ",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
         "Translation": "BUSCA-PARTIDA",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "MATCHMAKING",
-        "ShouldTranslate": true
+        "Translation": "WYSZUKAJ GRĘ",
+        "ShouldTranslate": false
       },
       "Japanese": {
         "Translation": "マッチメイク",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Korean": {
         "Translation": "매치메이크",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
         "Translation": "配對",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
         "Translation": "匹配",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "MainMenu.RundownPage.MatchmakeAllButton",
       "internalEnabled": true,
       "persistentID": 5
@@ -1450,7 +1450,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "СМЕНИТЬ ВЫЛАЗКУ",
+        "Translation": "СМЕНИТЬ ЭКСПЕДИЦИЮ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -1792,7 +1792,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ЗАВЕРШИТЬ ВЫЛАЗКУ",
+        "Translation": "ЗАВЕРШИТЬ ЭКСПЕДИЦИЮ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -1963,7 +1963,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вы завершите вылазку, покинете напарников и вернетесь в меню кампании.\n\n<size=90%><color=orange>ВНИМАНИЕ! Все собранные артефакты ИСЧЕЗНУТ. Вы <u>НЕ</u> получите усилители.</color></size>",
+        "Translation": "Вы завершите экспедицию, покинете напарников и вернетесь в меню кампании.\n\n<size=90%><color=orange>ВНИМАНИЕ! Все собранные артефакты ИСЧЕЗНУТ. Вы <u>НЕ</u> получите усилители.</color></size>",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -1975,19 +1975,19 @@
         "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "エクスペディションとチームメイトから離脱し、ランダウンインターフェースに戻ります。\n\n<size=90%><color=orange>注:収集したアーティファクトは全て失われ、ブースターは <u>入手できません</u>。</color></size>",
+        "Translation": "エクスペディションとチームメイトから離脱し、ランダウンインターフェースに戻ります。\n\n<size=90%><color=orange>注:収集したアーティファクトは全て失われ、ブースターは <b>入手できません</b>。</color></size>",
         "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "탐사를 종료하고 팀원들을 떠나 런다운 인터페이스로 돌아갑니다.\n\n<size=90%><color=orange>참고: 수집한 아티팩트는 모두 손실되며 부스터를 얻을 수 <u>없습니다</u>.</color></size>",
+        "Translation": "탐사를 종료하고 팀원들을 떠나 런다운 인터페이스로 돌아갑니다.\n\n<size=90%><color=orange>참고: 수집한 아티팩트는 모두 손실되며 부스터를 얻을 수 <b>없습니다</b>.</color></size>",
         "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "退出遠征，離開隊友，回到遠征綱要介面。\n\n<size=90%><color=orange>注意：所有收集的寶物都會遺失，你將<u>不會</u>獲得任何強化劑。</color></size>",
+        "Translation": "退出遠征，離開隊友，回到遠征綱要介面。\n\n<size=90%><color=orange>注意：所有收集的寶物都會遺失，你將<b>不會</b>獲得任何強化劑。</color></size>",
         "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "退出任务，离开队友，返回行动界面。\n\n<size=90%><color=orange>注：你将失去收集的所有红晶，<u>无法</u>获得任何强化剂。</color></size>",
+        "Translation": "退出任务，离开队友，返回行动界面。\n\n<size=90%><color=orange>注：你将失去收集的所有红晶，<b>无法</b>获得任何强化剂。</color></size>",
         "ShouldTranslate": false
       },
       "ExportVersion": 1,
@@ -2020,7 +2020,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вы завершите вылазку. Все заключенные окажутся в лобби.\n\n<size=90%>Все собранные артефакты сохранятся.</size>",
+        "Translation": "Вы завершите экспедицию. Все заключенные окажутся в лобби.\n\n<size=90%>Все собранные артефакты сохранятся.</size>",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -3030,51 +3030,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "<b><size=150%>Erreur réseau : Aucune connexion.</b>\n\n<size=100%>GTFO nécessite une connexion à Internet.\n\nNouvel essai...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Erreur réseau : aucune connexion.</b>\n\n<size=100%>GTFO nécessite une connexion à Internet.\n\nVeuillez vous reconnecter à Internet et redémarrer le jeu.</size>",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "<b><size=150%>Errore di rete: Connessione assente</b>\n\n<size=100%>È necessaria una connessione a Internet per giocare a GTFO.\n\nNuovo tentativo...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Errore di rete: connessione assente</b>\n\n<size=100%>È necessaria una connessione a Internet per giocare a GTFO.\n\nConnettiti a Internet e riavvia il gioco.</size>",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "<b><size=150%>Netzwerkfehler: Keine Verbindung</b>\n\n<size=100%>Sie benötigen eine Online-Verbindung zum Spielen.\n\nErneuter Versuch ...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Netzwerkfehler: Keine Verbindung</b>\n\n<size=100%>Sie benötigen eine Online-Verbindung zum Spielen von GTFO.\n\nBitte stellen Sie eine Internetverbindung her und starten Sie das Spiel neu.</size>",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "<b><size=150%>Error de red: Sin conexión</b>\n\n<size=100%>Necesitas una conexión a internet para jugar a GTFO.\n\nReintentando...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Error de red: Sin conexión</b>\n\n<size=100%>Necesitas una conexión a internet para jugar a GTFO.\n\nConéctate a internet y reinicia el juego.</size>",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "<b><size=150%>Ошибка сети: отсутствует подключение.</b>\n\n<size=100%>Для игры в GTFO требуется подключение к Интернету.</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Ошибка сети: отсутствует подключение.</b>\n\n<size=100%>Для игры в GTFO требуется подключение к Интернету.\n\nПопытка подключения...</size>",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "<b><size=150%>Erro de rede: Sem conexão</b>\n\n<size=100%>Você precisa de uma conexão online para poder jogar GTFO.\n\nTentando de novo...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Erro de rede: Sem conexão</b>\n\n<size=100%>Você precisa de uma conexão online para poder jogar GTFO.\n\nConecte-se à internet e reinicie o jogo.</size>",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "<b><size=150%>Błąd sieci: Brak połączenia</b>\n\n<size=100%>Musisz mieć połączenie sieciowe, aby zagrać w GTFO.\n\nPonawianie próby...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>Błąd sieci: Brak połączenia</b>\n\n<size=100%>Musisz mieć połączenie sieciowe, aby zagrać w GTFO.\n\nPołącz się z internetem i uruchom grę ponownie.</size>",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "<b><size=150%>ネットワークエラー:接続なし</b>\n\n<size=100%>GTFOをプレイするにはオンライン接続が必要です。\n\n再試行中...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>ネットワークエラー：接続なし</b>\n\n<size=100%>GTFOをプレイするにはオンライン接続が必要です。\n\nインターネットに接続し、ゲームを再起動してください。</size>",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "<b><size=150%>네트워크 오류: 연결 없음</b>\n\n<size=100%>GTFO를 플레이하려면 온라인에 연결해야 합니다.\n\n다시 시도 중...</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>네트워크 오류: 연결 없음</b>\n\n<size=100%>GTFO를 플레이하려면 온라인에 연결해야 합니다.\n\n인터넷에 연결하고 게임을 다시 시작하십시오.</size>",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "<b><size=150%>網路錯誤：沒有連線</b>\n\n<size=100%>需要連到網路才能玩《GTFO》。\n\n重試中……</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>網路錯誤：沒有連線</b>\n\n<size=100%>需要連到網路才能玩《GTFO》。\n\n請連到網路並重新啟動遊戲。</size>",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "<b><size=150%>网络错误：无连接</b>\n\n<size=100%>需要在线连接才能玩《GTFO》。\n\n正在重试……</size>",
-        "ShouldTranslate": true
+        "Translation": "<b><size=150%>网络错误：无连接</b>\n\n<size=100%>需要在线连接才能玩《GTFO》。\n\n请接入互联网后重启游戏。</size>",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "IntroPage.NetworkError",
       "internalEnabled": true,
       "persistentID": 52
@@ -3217,7 +3217,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "СТАРТ",
+        "Translation": "НАЧАТЬ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -4528,7 +4528,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Включение скрытности",
+        "Translation": "Удержание скрытности",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -4585,7 +4585,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Включение бега",
+        "Translation": "Удержание бега",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -4642,7 +4642,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Включение прицела",
+        "Translation": "Удержание прицела",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -6295,7 +6295,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Качество рассеивания дыма",
+        "Translation": "Качество распыления дыма",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -7020,51 +7020,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Volume principal",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Volume principale",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Gesamtlautstärke",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Volumen general",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Общая громкость",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Volume geral",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Głośność ogólna",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "マスター音量",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "마스터 볼륨",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "主音量",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "主音量",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.Settings.MasterVolume",
       "internalEnabled": true,
       "persistentID": 1832121066
@@ -10212,51 +10212,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Sélectionner une option du menu de communication",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Seleziona opzione Menu comunicazione",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Kommunikationsmenü-Option wählen",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Seleccionar opción del menú de comunicación",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Выбор параметра в меню связи",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Selecione a opção de menu de comunicação",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Wybór opcji w menu komunikacji",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "通信メニューオプション選択",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "통신 메뉴 옵션 선택",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "選擇通訊選單選項",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "选择通讯菜单选项",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.Settings.SelectCommmunicationMenu",
       "internalEnabled": true,
       "persistentID": 277221633
@@ -19234,7 +19234,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
+        "Translation": "English",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -19291,7 +19291,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
+        "Translation": "Français",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -19348,7 +19348,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
+        "Translation": "Italiano",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -19405,7 +19405,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
+        "Translation": "Deutsch",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -19462,7 +19462,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
+        "Translation": "Español",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -19519,7 +19519,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
+        "Translation": "Русский",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -20203,7 +20203,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "НАЧАТЬ ПОДБОР ИГРОКОВ",
+        "Translation": "НАЧАТЬ ПОДБОР КОМАНДЫ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -20260,7 +20260,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "НАСТРОЙКА ПОДБОРА ИГРОКОВ",
+        "Translation": "НАСТРОЙКА ПОДБОРА КОМАНДЫ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -20317,7 +20317,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ИДЕТ ПОДБОР ИГРОКОВ",
+        "Translation": "ИДЕТ ПОДБОР КОМАНДЫ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -20545,7 +20545,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ПОДБОР ИГРОКОВ",
+        "Translation": "ПОДБОР КОМАНДЫ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -20887,7 +20887,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ВЫЛАЗКИ",
+        "Translation": "ЭКСПЕДИЦИИ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -21328,50 +21328,50 @@
       "Mood": "None",
       "French": {
         "Translation": "RECHERCHE DE MATCH",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "AVVIA ABBINAM.",
-        "ShouldTranslate": true
+        "Translation": "ABBINA",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "SPIELERSUCHE starten",
-        "ShouldTranslate": true
+        "Translation": "SPIELERSUCHE",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "COMENZAR EMPAREJAMIENTO",
-        "ShouldTranslate": true
+        "Translation": "EMPAREJAR",
+        "ShouldTranslate": false
       },
       "Russian": {
         "Translation": "НАЧАТЬ ПОДБОР",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "INICIAR BUSCA-PARTIDA",
-        "ShouldTranslate": true
+        "Translation": "BUSCA-PARTIDA",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "ROZPOCZNIJ MATCHMAKING",
-        "ShouldTranslate": true
+        "Translation": "WYSZUKAJ GRĘ",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "マッチメイクを開始",
-        "ShouldTranslate": true
+        "Translation": "マッチメイク",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "매치메이크 시작",
-        "ShouldTranslate": true
+        "Translation": "매치메이크",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "開始配對",
-        "ShouldTranslate": true
+        "Translation": "配對",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "开始匹配",
-        "ShouldTranslate": true
+        "Translation": "匹配",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "MainMenu.Matchmaking.StartMatchmake",
       "internalEnabled": true,
       "persistentID": 265
@@ -31701,51 +31701,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "RECHERCHE DE MATCH",
-        "ShouldTranslate": true
+        "Translation": "RECHERCHE DE MATCH...",
+        "ShouldTranslate": false
       },
       "Italian": {
         "Translation": "ABBINAMENTO",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "German": {
         "Translation": "SPIELERSUCHE",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Spanish": {
         "Translation": "EMPAREJAMIENTO",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ПОДБОР ИГРОКОВ",
-        "ShouldTranslate": true
+        "Translation": "ПОДБОР КОМАНДЫ <color=orange>[АЛЬФА]</color>",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
         "Translation": "BUSCAR PARTIDA",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Polish": {
         "Translation": "MATCHMAKING",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Japanese": {
         "Translation": "マッチメイク中",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Korean": {
         "Translation": "매치메이킹",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
         "Translation": "配對",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "匹配",
-        "ShouldTranslate": true
+        "Translation": "匹配中",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "MainMenu.Matchmaking.MatchmakingHeader",
       "internalEnabled": true,
       "persistentID": 451
@@ -32857,7 +32857,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ИДЕТ\nПОИСК\nИГРОКА",
+        "Translation": "ИДЕТ\nПОИСК\nКОМАНДЫ",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -33610,11 +33610,11 @@
         "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "<b><size=150%>ロビーIDを共有</size></b>\nあなたのロビーIDを <u>クリップボードに</u> コピーした囚人は、フレンドであるかを問わず、ランダウンで出現するボタンによって参加することができる。",
+        "Translation": "<b><size=150%>ロビーIDを共有</size></b>\nあなたのロビーIDを <b>クリップボードに</b> コピーした囚人は、フレンドであるかを問わず、ランダウンで出現するボタンによって参加することができる。",
         "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "<b><size=150%>로비 ID 공유</size></b>\n친구 여부에 관계 없이, <u>클립보드</u>에 당신의 로비 ID를 기재한 모든 죄수는 자신의 런다운에 나타나는 버튼을 눌러 참가할 수 있습니다.",
+        "Translation": "<b><size=150%>로비 ID 공유</size></b>\n친구 여부에 관계 없이, <b>클립보드</b>에 당신의 로비 ID를 기재한 모든 죄수는 자신의 런다운에 나타나는 버튼을 눌러 참가할 수 있습니다.",
         "ShouldTranslate": false
       },
       "Chinese_Traditional": {
@@ -33622,7 +33622,7 @@
         "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "<b><size=150%>共享大厅ID</size></b>\n任何囚犯（无论是否好友）只要<u>剪贴板上</u>有你的大厅ID，都可以通过其行动界面上的一个按钮加入。",
+        "Translation": "<b><size=150%>共享大厅ID</size></b>\n任何囚犯（无论是否好友）只要<b>剪贴板上</b>有你的大厅ID，都可以通过其行动界面上的一个按钮加入。",
         "ShouldTranslate": false
       },
       "ExportVersion": 1,
@@ -33997,7 +33997,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ВЫБЕРИТЕ ЭКИПИРОВКУ",
+        "Translation": "ЭКИПИРОВКА",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -36676,7 +36676,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Аптечки [MEDIPACKS] восстанавливают здоровье более эффективно.",
+        "Translation": "Аптечки восстанавливают здоровье более эффективно.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -36733,7 +36733,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Аптечки [MEDIPACKS] восстанавливают здоровье менее эффективно.",
+        "Translation": "Аптечки восстанавливают здоровье менее эффективно.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -39469,7 +39469,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Урон (автомат)",
+        "Translation": "Урон (автоматический пистолет)",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -39697,7 +39697,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Урон (винтовка серийного огня)",
+        "Translation": "Урон (винтовка с тройным выстрелом)",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -39811,7 +39811,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Урон (скорострельная винтовка)",
+        "Translation": "Урон (винтовка с двойным выстрелом)",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -40039,7 +40039,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Урон (дробовик с чоком)",
+        "Translation": "Урон (дробовик с дульным сужением)",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -43288,7 +43288,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "На начало вылазки количество боеприпасов для основного оружия больше.",
+        "Translation": "На начало экспедиции количество боеприпасов для основного оружия больше.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -43345,7 +43345,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "На начало вылазки количество боеприпасов для основного оружия меньше.",
+        "Translation": "На начало экспедиции количество боеприпасов для основного оружия меньше.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -43516,7 +43516,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "На начало вылазки количество боеприпасов для особого оружия больше.",
+        "Translation": "На начало экспедиции количество боеприпасов для особого оружия больше.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -43573,7 +43573,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "На начало вылазки количество боеприпасов для особого оружия меньше.",
+        "Translation": "На начало экспедиции количество боеприпасов для особого оружия меньше.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -43744,7 +43744,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "На начало вылазки количество зарядов для устройства больше.",
+        "Translation": "На начало экспедиции количество зарядов для устройства больше.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -43801,7 +43801,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "На начало вылазки количество зарядов для устройства меньше.",
+        "Translation": "На начало экспедиции количество зарядов для устройства меньше.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -44143,7 +44143,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Яркость ХИС",
+        "Translation": "Яркость светящейся палочки",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -44200,7 +44200,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Химический источник света (ХИС) горит ярко и долго.",
+        "Translation": "Светящаяся палочка горит ярко и долго.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -44242,50 +44242,50 @@
       "Mood": "None",
       "French": {
         "Translation": "Les bâtons lumineux placés par le sujet brillent moins et durent moins longtemps.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Italian": {
         "Translation": "Gli starlight utilizzati dal soggetto saranno meno luminosi e dureranno di meno.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "German": {
         "Translation": "Von der Versuchsperson verteilte Knicklichter leuchten weniger hell und lange.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Spanish": {
         "Translation": "Las barras luminosas que lance el sujeto brillarán con menos intensidad y durarán menos.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Химический источник света (ХИС) горит слабо и недолго.",
+        "Translation": "Светящаяся палочка горит слабо и недолго.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Bastões fluorescentes distribuídos pelo indivíduo brilham menos forte e duram menos tempo.",
-        "ShouldTranslate": true
+        "Translation": "Bastões fluorescentes distribuídos pelo indivíduo brilham e duram menos.",
+        "ShouldTranslate": false
       },
       "Polish": {
         "Translation": "Rozmieszczane przez biorcę światło chemiczne będzie świecić słabiej i krócej.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Japanese": {
         "Translation": "対象が使用したグロースティックの明るさと持続時間が低下する。",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Korean": {
         "Translation": "대상이 배치한 글로우 스틱의 밝기와 지속 시간이 떨어집니다.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
         "Translation": "實驗對象發射的螢光棒會較暗，持續時間較短。",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
         "Translation": "使用者投掷的发光棒的照明度降低，持续时间缩短。",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "BoosterImplants.Effects.GlowstickEffectDescriptionNegative",
       "internalEnabled": true,
       "persistentID": 651
@@ -45340,7 +45340,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Усилитель нужно активировать, находясь в радиусе действия ХИС.",
+        "Translation": "Усилитель нужно активировать, находясь в радиусе действия светящейся палочки.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -45552,51 +45552,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Le sujet doit être à moins de 5 mètres d'un ennemi pour que le booster prenne effet.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Il soggetto deve trovarsi a un massimo di 5 metri da un nemico per attivare il potenziamento.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Versuchsperson muss sich im Umkreis von 5 Metern um einen Feind befinden, damit der Booster aktiv wird.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "El sujeto debe estar a 5 metros de un enemigo para activar el potenciador.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Усилитель нужно активировать, находясь в радиусе <nobr>5 м</nobr> от врага.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "O indivíduo deve estar dentro de cinco metros de um inimigo para o impulso ficar ativo.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Biorca musi się znajdować w odległości do 5 metrów od przeciwnika, aby wzmacniacz działał.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "対象は5メートル以内に敵がいる時のみブースターを使用できる。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "부스터가 활성화되려면 대상이 적으로부터 5미터 이내에 있어야 합니다.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "實驗對象必須在敵人的5公尺範圍內才能啟用強化劑。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "使用者必须位于敌人5米范围内，强化剂才会生效。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "BoosterImplants.Conditions.IsCloseToEnemyDescription",
       "internalEnabled": true,
       "persistentID": 2505919857
@@ -45609,51 +45609,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "Éloigné d'un ennemi",
-        "ShouldTranslate": true
+        "Translation": "Distance de l'ennemi",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Non in prossimità di nemici",
-        "ShouldTranslate": true
+        "Translation": "Distanza dal nemico",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Ist nicht nahe beim Feind",
-        "ShouldTranslate": true
+        "Translation": "Distanz zum Feind",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Lejos del enemigo",
-        "ShouldTranslate": true
+        "Translation": "Distancia del enemigo",
+        "ShouldTranslate": false
       },
       "Russian": {
         "Translation": "Вдали от врага",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Não está perto do inimigo",
-        "ShouldTranslate": true
+        "Translation": "Distância do inimigo",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Nie w pobliżu przeciwnika",
-        "ShouldTranslate": true
+        "Translation": "Odległość od przeciwnika",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "敵が近くにいない",
-        "ShouldTranslate": true
+        "Translation": "敵との距離",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "적과 가깝지 않음",
-        "ShouldTranslate": true
+        "Translation": "적 거리",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "不靠近敵人",
-        "ShouldTranslate": true
+        "Translation": "敵人距離",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "不靠近敌人",
-        "ShouldTranslate": true
+        "Translation": "敌人距离",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "BoosterImplants.Conditions.IsFarAwayFromEnemyName",
       "internalEnabled": true,
       "persistentID": 683
@@ -45666,51 +45666,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Le sujet doit être à au moins 20 mètres d'un ennemi pour que le booster prenne effet.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Il soggetto deve trovarsi ad almeno 20 metri da un nemico per attivare il potenziamento.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Versuchsperson muss mindestens 20 Metern von einem Feind entfernt sein, damit der Booster aktiv wird.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "El sujeto debe estar al menos a 20 metros de un enemigo para activar el potenciador.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Усилитель нужно активировать, находясь на расстоянии не менее <nobr>20 м</nobr> от врага.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "O indivíduo deve estar pelo menos a 20 metros de um inimigo para o impulso ficar ativo.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Biorca musi się znajdować w odległości co najmniej 20 metrów od przeciwnika, aby wzmacniacz działał.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "対象は敵から20メートル以上離れている時のみブースターを使用できる。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "부스터가 활성화되려면 대상이 적으로부터 최소 20m 떨어져 있어야 합니다.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "實驗對象必須在敵人的20公尺範圍外才能啟用強化劑。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "使用者必须在敌人至少20米开外，强化剂才会生效。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "BoosterImplants.Conditions.IsFarAwayFromEnemyDescription",
       "internalEnabled": true,
       "persistentID": 3952044459
@@ -46806,51 +46806,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "Santé >80 %",
-        "ShouldTranslate": true
+        "Translation": "Santé >50 %",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Ha salute > 80%",
-        "ShouldTranslate": true
+        "Translation": "Ha salute > 50%",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Gesundheit > 80 %",
-        "ShouldTranslate": true
+        "Translation": "Gesundheit > 50 %",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Salud < 80 %",
-        "ShouldTranslate": true
+        "Translation": "Salud < 50 %",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Больше 50% здоровья",
+        "Translation": "Больше 80% здоровья",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Vida >80%",
-        "ShouldTranslate": true
+        "Translation": "Vida > 50%",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Zdrowie >80%",
-        "ShouldTranslate": true
+        "Translation": "Zdrowie >50%",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "体力 > 80%",
-        "ShouldTranslate": true
+        "Translation": "体力 > 50%",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "체력 > 80%",
-        "ShouldTranslate": true
+        "Translation": "체력 > 50%",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "生命值>80%",
-        "ShouldTranslate": true
+        "Translation": "生命值>50%",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "生命值>80%",
-        "ShouldTranslate": true
+        "Translation": "生命值>50%",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "BoosterImplants.Conditions.HasHighHealthName",
       "internalEnabled": true,
       "persistentID": 703
@@ -46863,51 +46863,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "Le sujet doit avoir 80 % de santé ou plus pour que le booster prenne effet.",
-        "ShouldTranslate": true
+        "Translation": "Le sujet doit avoir 50 % de santé ou plus pour que le booster prenne effet.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Il soggetto deve avere la salute superiore all'80% per attivare il potenziamento.",
-        "ShouldTranslate": true
+        "Translation": "Il soggetto deve avere la salute pari o superiore al 50% per attivare il potenziamento.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Versuchsperson muss mindestens 80 % Gesundheit haben, damit der Booster aktiv wird.",
-        "ShouldTranslate": true
+        "Translation": "Versuchsperson muss mindestens 50 % Gesundheit haben, damit der Booster aktiv wird.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "El sujeto debe tener un 80 % de salud o más para activar el potenciador.",
-        "ShouldTranslate": true
+        "Translation": "El sujeto debe tener un 50 % de salud o más para activar el potenciador.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Усилитель нужно активировать, имея не менее 50% здоровья.",
+        "Translation": "Усилитель нужно активировать, имея не менее 80% здоровья.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "O indivíduo deve ter 80% de vida ou mais para o impulso ser ativado.",
-        "ShouldTranslate": true
+        "Translation": "O indivíduo deve ter 50% de vida ou mais para o impulso ficar ativo.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Biorca musi mieć więcej niż 80% poziomu zdrowia, aby wzmacniacz działał.",
-        "ShouldTranslate": true
+        "Translation": "Biorca musi mieć więcej niż 50% poziomu zdrowia, aby wzmacniacz działał.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "対象は体力が80%以上の時のみブースターを使用できる。",
-        "ShouldTranslate": true
+        "Translation": "対象は体力が50%以上の時のみブースターを使用できる。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "부스터를 활성화하려면 대상의 체력이 80% 이하여야 합니다.",
-        "ShouldTranslate": true
+        "Translation": "부스터를 활성화하려면 대상의 체력이 50% 이상이어야 합니다.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "實驗對象必須具有80%以上的生命值才能啟用強化劑。",
-        "ShouldTranslate": true
+        "Translation": "實驗對象必須具有50%以上的生命值才能啟用強化劑。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "使用者的生命值不得低于80%，强化剂才会生效。",
-        "ShouldTranslate": true
+        "Translation": "使用者的生命值不得低于50%，强化剂才会生效。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "BoosterImplants.Conditions.HasHighHealthDescription",
       "internalEnabled": true,
       "persistentID": 704
@@ -47962,7 +47962,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Винтовка серийного огня",
+        "Translation": "Винтовка с тройным выстрелом",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -48475,7 +48475,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Крупнокалиберный пулемет",
+        "Translation": "Крупнокалиберный пистолет-пулемет",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -49387,7 +49387,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Скорострельная винтовка",
+        "Translation": "Винтовка с двойным выстрелом",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -49729,7 +49729,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Дробовик с чоком",
+        "Translation": "Дробовик с дульным сужением",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -51097,7 +51097,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Самозарядная турель",
+        "Translation": "Автоматическая турель",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -53092,7 +53092,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Ранг <nobr>артефакта — {0}.</nobr> Потенциал <nobr>усилителя — {1}</nobr>",
+        "Translation": "Качество <nobr>артефактов — {0}.</nobr> Потенциал <nobr>усилителя — {1}</nobr>",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -53662,7 +53662,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "<color=orange>Сбалансированное оружие</color>\nСредняя дальность\nВысокий урон",
+        "Translation": "Бесшумность\nБлижняя дистанция\nЕсть усиленный удар",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -54745,7 +54745,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Возрождение: {0}",
+        "Translation": "ВОЗРОЖДЕНИЕ...",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -56406,7 +56406,7 @@
         "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Weź próbkę rdzenia DNA",
+        "Translation": "Weź próbkę z rdzeniem DNA",
         "ShouldTranslate": false
       },
       "Japanese": {
@@ -57066,51 +57066,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "Désactiver l'alarme de {0}",
-        "ShouldTranslate": true
+        "Translation": " Désactiver l'alarme de <color=orange>{0}</color>",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": " Disattivare l'allarme su {0}",
-        "ShouldTranslate": true
+        "Translation": " Disattivare l'allarme su <color=orange>{0}</color>",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Den Alarm bei {0} deaktivieren.",
-        "ShouldTranslate": true
+        "Translation": "Den Alarm bei <color=orange>{0}</color> deaktivieren.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Desactivar alarma de {0}",
-        "ShouldTranslate": true
+        "Translation": "Desactivar alarma de <color=orange>{0}</color>",
+        "ShouldTranslate": false
       },
       "Russian": {
         "Translation": "Отключите тревогу на терминале {0}",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": " Desative o alarme em {0}",
-        "ShouldTranslate": true
+        "Translation": " Desative o alarme em <color=orange>{0}</color>",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": " Dezaktywuj alarm: {0}",
-        "ShouldTranslate": true
+        "Translation": " Dezaktywuj alarm: <color=orange>{0}</color>",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "{0}の警報を解除しろ",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>{0}</color>の警報を解除しろ",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": " {0}에서 경보 끄기",
-        "ShouldTranslate": true
+        "Translation": " <color=orange>{0}</color>에서 경보 끄기",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "解除{0}的警報",
-        "ShouldTranslate": true
+        "Translation": "解除<color=orange>{0}</color>的警報",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": " 在{0}上关闭警报",
-        "ShouldTranslate": true
+        "Translation": " 在<color=orange>{0}</color>上关闭警报",
+        "ShouldTranslate": false
       },
       "ExportVersion": 9,
-      "ImportVersion": 2,
+      "ImportVersion": 9,
       "name": "InGame.InteractionPrompt.SecurityDoor.DeactivateAlarm_X",
       "internalEnabled": true,
       "persistentID": 839
@@ -57351,20 +57351,20 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "Activer le scanner de point de contrôle et ouvrir {0}",
-        "ShouldTranslate": true
+        "Translation": "Activer l'analyse de point de contrôle et ouvrir {0}",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Attiva scanner checkpoint e apri {0}",
-        "ShouldTranslate": true
+        "Translation": "Attivare scansione checkpoint e aprire {0}",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Checkpoint-Scanner aktivieren und {0} öffnen",
-        "ShouldTranslate": true
+        "Translation": "Checkpoint-Scan aktivieren und {0} öffnen",
+        "ShouldTranslate": false
       },
       "Spanish": {
         "Translation": "Activar el escáner del punto de control y abrir {0}.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Russian": {
         "Translation": "Активируйте сканер чекпойнта и откройте: {0}",
@@ -57372,30 +57372,30 @@
       },
       "Portuguese_Brazil": {
         "Translation": "Ative o escâner de ponto de controle e abra {0}",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Polish": {
         "Translation": "Aktywuj skaner punktu kontrolnego i otwórz {0}",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "チェックポイントスキャナを起動して {0}を開け",
-        "ShouldTranslate": true
+        "Translation": "チェックポイントスキャンを起動して {0}を開け",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "체크포인트 스캐너를 활성화하고 {0} 열기",
-        "ShouldTranslate": true
+        "Translation": "체크포인트 스캔을 활성화하고 {0} 열기",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "啟用重生點掃描器並開啟{0}",
-        "ShouldTranslate": true
+        "Translation": "啟用重生點掃描並開啟{0}",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "激活重生点扫描仪并打开{0}",
-        "ShouldTranslate": true
+        "Translation": "激活重生点扫描并打开{0}",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "InGame.InteractionPrompt.SecurityDoor.ActivateCheckpointAndOpen_X",
       "internalEnabled": true,
       "persistentID": 844
@@ -57766,7 +57766,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ВЫЛАЗКА ЗАВЕРШЕНА",
+        "Translation": "ЭКСПЕДИЦИЯ ЗАВЕРШЕНА",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -58507,7 +58507,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Отсутств.",
+        "Translation": "средний",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -59761,7 +59761,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ВЫЛАЗКА ПРОВАЛЕНА",
+        "Translation": "ЭКСПЕДИЦИЯ ПРОВАЛЕНА",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -61528,7 +61528,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вернитесь к месту начала вылазки в зоне [EXTRACTION_ZONE].",
+        "Translation": "Вернитесь к месту начала экспедиции в зоне [EXTRACTION_ZONE].",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -61642,7 +61642,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вернитесь к основной цели и завершите вылазку.",
+        "Translation": "Вернитесь к основной цели и завершите экспедицию.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -61756,7 +61756,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Соберите образцы растений [PLANT].",
+        "Translation": "Соберите образцы растений.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -61813,7 +61813,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Соберите образцы растений [PLANT] ([COUNT_REQUIRED]) и доберитесь до точки выхода.",
+        "Translation": "Соберите образцы растений ([COUNT_REQUIRED]) и доберитесь до точки выхода.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -61870,7 +61870,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Найдите образцы растений [PLANT] в комплексе.",
+        "Translation": "Найдите образцы растений в комплексе.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -61984,7 +61984,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вернитесь к месту начала вылазки в зоне [EXTRACTION_ZONE].",
+        "Translation": "Вернитесь к месту начала экспедиции в зоне [EXTRACTION_ZONE].",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -62098,7 +62098,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вернитесь к основной цели и завершите вылазку.",
+        "Translation": "Вернитесь к основной цели и завершите экспедицию.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -63735,51 +63735,51 @@
       "CharacterMetaData": 3,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Station de désinfection détectée dans <color=orange>ZONE 127</color>. Passez par la zone pour décontaminer.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Rilevata stazione di disinfezione nella <color=orange>ZONE 127</color>. Procedere attraverso la zona da decontaminare.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Desinfektionsstation in <color=orange>ZONE 127</color> entdeckt. Durchqueren Sie zum Dekontaminieren die Zone.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Puesto de desinfección <color=orange>ZONE 127</color> detectado. Avanza por la zona para eliminar la polución.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "В <color=orange>ZONE 127</color> обнаружена станция дезинфекции. Проследуйте в зону, чтобы пройти процедуру обеззараживания.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Estação de desinfecção detectada na <color=orange>ZONE 127</color>. Continue pela zona para descontaminar.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Wykryto stację odkażania w <color=orange>strefie 127 [ZONE_127]</color>. Przejdź do strefy w celu poddania się dekontaminacji.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>ZONE 127</color> に浄化ステーションを検出。ゾーンを進み浄化しろ。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>ZONE 127</color>의 오염 제거 스테이션이 탐지됐습니다. 해당 구역으로 이동해 오염을 제거하십시오.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>ZONE 127</color>偵測到消毒站。繼續通過該區進行淨化。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>ZONE 127</color>检测到消毒站。穿过区域进行净化。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 3,
-      "ImportVersion": 0,
+      "ImportVersion": 3,
       "name": "LevelLayoutData.ProgressionPuzzle.CustomText13_C2",
       "internalEnabled": true,
       "persistentID": 141343057
@@ -64077,51 +64077,51 @@
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "Effectuez des bioscans pour désactiver la porte d'<color=orange>ALARME</color>.",
-        "ShouldTranslate": true
+        "Translation": "Terminez la séquence de bioscan pour désactiver la porte d'<color=orange>ALARME</color>.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Eseguire bio-scansioni per disattivare l'<color=orange>ALLARME</color> della porta",
-        "ShouldTranslate": true
+        "Translation": "Completare la sequenza di bio-scansione per disattivare <color=orange>ALARM</color> porta",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Führen Sie Bioscans durch, um den <color=orange>ALARM</color> der Tür zu deaktivieren.",
-        "ShouldTranslate": true
+        "Translation": "Führen Sie die Bioscan-Sequenz durch, um den <color=orange>ALARM</color> der Tür zu deaktivieren.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Realiza bioescáneres para desactivar la <color=orange>ALARMA</color> de la puerta.",
-        "ShouldTranslate": true
+        "Translation": "Completa la secuencia de bioescáner para desactivar la <color=orange>ALARMA</color> de la puerta.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Используйте биосканеры, чтобы отключить <color=orange>СИГНАЛ ТРЕВОГИ</color> на двери.",
-        "ShouldTranslate": true
+        "Translation": "Завершите биосканирование, чтобы отключить <color=orange>СИГНАЛ ТРЕВОГИ</color> на двери.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Faça usos do bioescâner para desativar o <color=orange>ALARME</color> da porta.",
-        "ShouldTranslate": true
+        "Translation": "Conclua a sequência de bioescâner para desativar o <color=orange>ALARM</color> da porta",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Przeprowadź bioskanowanie, aby dezaktywować <color=orange>ALARM</color>.",
-        "ShouldTranslate": true
+        "Translation": "Przeprowadź sekwencję bioskanowania, aby dezaktywować <color=orange>ALARM</color> drzwi.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "バイオスキャンを行ってドアの <color=orange>警報</color>を解除しろ",
-        "ShouldTranslate": true
+        "Translation": "バイオスキャンシークエンスを完了してドアの <color=orange>警報</color>を解除しろ",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "바이오스캔을 실시해 문 <color=orange>경보</color> 해제",
-        "ShouldTranslate": true
+        "Translation": "바이오스캔 절차를 실시해 문 <color=orange>경보</color> 해제",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "執行生物掃描以停用門<color=orange>警報</color>",
-        "ShouldTranslate": true
+        "Translation": "完成生物掃描序列以停用門<color=orange>警報</color>",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "执行生物扫描以关闭门禁<color=orange>警报</color>",
-        "ShouldTranslate": true
+        "Translation": "完成生物扫描序列以关闭门禁<color=orange>警报</color>",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "WardenObjectiveData.RetrieveEssentialItemsMWP_Override.Custom.SubObjective3",
       "internalEnabled": true,
       "persistentID": 1406
@@ -64591,49 +64591,49 @@
       "Mood": "None",
       "French": {
         "Translation": "Localisez le terminal tout en bas de la <color=orange>ZONE 152</color> et entrez la commande du terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Italian": {
         "Translation": "Trovare il terminale in fondo alla <color=orange>ZONE 152</color> e inserire il comando <color=orange>RESET_SECURITY_PROTOCOL</color>",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "German": {
         "Translation": "Lokalisieren Sie das Terminal am unteren Rand von <color=orange>ZONE 152</color> und geben Sie den Befehl <color=orange>RESET_SECURITY_PROTOCOL</color> am Terminal ein.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Spanish": {
         "Translation": "Encuentra la terminal al final de la <color=orange>ZONE 152</color> e introduce el comando de la terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Russian": {
         "Translation": "Найдите терминал в нижней части <color=orange>ZONE 152</color> и введите команду <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
         "Translation": "Localize o terminal na parte inferior da <color=orange>ZONE 152</color> e insira o comando de terminal <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Polish": {
         "Translation": "Zlokalizuj terminal u dołu <color=orange>strefy 152 [ZONE_152]</color> i wprowadź polecenie <color=orange>RESET_SECURITY_PROTOCOL</color>.",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Japanese": {
         "Translation": "<color=orange>ZONE 152</color> の底にある端末を見つけ、コマンド <color=orange>RESET_SECURITY_PROTOCOL</color>を入力しろ",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Korean": {
         "Translation": "<color=orange>ZONE 152</color> 하부에서 터미널을 찾아 <color=orange>RESET_SECURITY_PROTOCOL</color> 명령 사용",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
         "Translation": "定位<color=orange>ZONE 152</color>底部的終端，輸入終端指令<color=orange>RESET_SECURITY_PROTOCOL</color>",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
         "Translation": "找到<color=orange>ZONE 152</color>底部的终端，并输入终端命令<color=orange>RESET_SECURITY_PROTOCOL</color>",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
-      "ExportVersion": 2,
+      "ExportVersion": 1,
       "ImportVersion": 1,
       "name": "WardenObjectiveData.Gather_3_Data_Cubes_Override.Custom.SubObjective",
       "internalEnabled": true,
@@ -65062,7 +65062,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Идите к передней точке выхода в [EXTRACTION_ZONE].",
+        "Translation": "Идите к точке выхода в [EXTRACTION_ZONE].",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -80489,55 +80489,55 @@
       "SkipLocalization": false,
       "English": "Find a <color=orange>BULKHEAD_KEY</color>. Found IDs: [DYNAMIC_ZONES]. Use the <color=orange>LIST</color> and <color=orange>QUERY</color> commands on a terminal to access more information.",
       "MaxCharacterLength": 0,
-      "Description": "Don't localize QUERY and Bulkhead Key.",
+      "Description": "Don't localize QUERY, LIST, [DYNAMIC_ZONES] and BULKHEAD_KEY.",
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "Utilisez la commande <color=orange>QUERY</color> sur un terminal pour obtenir des informations sur une clé de cloison [BULKHEAD_KEY] spécifique, puis cherchez-la dans la zone spécifiée.",
-        "ShouldTranslate": true
+        "Translation": "Trouvez une clé de cloison [<color=orange>BULKHEAD_KEY</color>]. IDs trouvés : [DYNAMIC_ZONES]. Utilisez les commandes <color=orange>LIST</color> et <color=orange>QUERY</color> sur un terminal pour plus d'informations.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Usare il comando <color=orange>QUERY</color> su un terminale per accedere alle informazioni su una chiave stagna [BULKHEAD_KEY] particolare. Poi cercarla nella zona indicata.",
-        "ShouldTranslate": true
+        "Translation": "Trovare una <color=orange>BULKHEAD_KEY</color>. ID trovati: [DYNAMIC_ZONES]. Usare i comandi <color=orange>LIST</color> e <color=orange>QUERY</color> su un terminale per accedere a ulteriori informazioni.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Nutzen Sie den Befehl <color=orange>QUERY</color> an einem Terminal, um Informationen über einen bestimmten Bulkhead Key abzurufen. Suchen Sie dann in der angegebenen Zone nach ihm.",
-        "ShouldTranslate": true
+        "Translation": "Finden Sie einen <color=orange>BULKHEAD_KEY</color>. Gefundene IDs: [DYNAMIC_ZONES]. Nutzen Sie die Befehle <color=orange>LIST</color> und <color=orange>QUERY</color> an einem Terminal, um mehr Informationen abzurufen.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Usa el comando <color=orange>QUERY</color> en una terminal para obtener información sobre una llave de contención [BULKHEAD_KEY] en particular. Después, búscalo en la zona en particular.",
-        "ShouldTranslate": true
+        "Translation": "Busca una <color=orange>llave de contención [BULKHEAD_KEY]</color>. ID. encontrados: [DYNAMIC_ZONES]. Usa los comandos <color=orange>LIST</color> y <color=orange>QUERY</color> en una terminal para acceder a más información.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Используйте команду <color=orange>QUERY</color> на терминале, чтобы получить сведения о конкретном ключе от ворот. Затем найдите его в указанной зоне.",
-        "ShouldTranslate": true
+        "Translation": "Найдите <color=orange>BULKHEAD_KEY</color>. Найденные идентификаторы: [DYNAMIC_ZONES]. Используйте команды <color=orange>LIST</color> и <color=orange>QUERY</color> на терминале, чтобы получить сведения.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Use o comando <color=orange>QUERY</color> em um terminal para acessar as informações sobre uma chave de segurança [BULKHEAD_KEY] específica. Depois, procure-a em uma ZONE específica.",
-        "ShouldTranslate": true
+        "Translation": "Encontre uma <color=orange>BULKHEAD_KEY</color>. IDs encontradas: [DYNAMIC_ZONES]. Use os comandos <color=orange>LIST</color> e <color=orange>QUERY</color> em um terminal para acessar mais informações.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Użyj polecenia <color=orange>QUERY</color> w terminalu, aby uzyskać informacje o określonym kluczu do grodzi [BULKHEAD_KEY], a następnie znajdź je we właściwej strefie.",
-        "ShouldTranslate": true
+        "Translation": "Znajdź <color=orange>klucz grodzi [BULKHEAD_KEY]</color>. Znalezione identyfikatory: [DYNAMIC_ZONES]. Użyj poleceń <color=orange>LIST</color> i <color=orange>QUERY</color> w terminalu, aby uzyskać więcej informacji.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "端末で <color=orange>QUERY</color> コマンドを使用し、特定のBulkhead Keyに関する情報にアクセスしろ。その後、指定されたゾーンでそれを探せ。",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>BULKHEAD_KEY</color>を見つけろ。発見したID：[DYNAMIC_ZONES]。端末に<color=orange>LIST</color>コマンドと<color=orange>QUERY</color>コマンドを使用して更なる情報にアクセスしろ。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "터미널에서 <color=orange>QUERY</color> 명령을 사용해 특정 [BULKHEAD_KEY] 격벽 키 정보에 접근 후, 지정된 구역에서 찾기.",
-        "ShouldTranslate": true
+        "Translation": "[BULKHEAD_KEY] <color=orange>격벽 키</color>를 찾으십시오. 발견 ID: [DYNAMIC_ZONES]. 터미널에서 <color=orange>LIST</color> 및 <color=orange>QUERY</color> 명령을 사용해 더 많은 정보를 확인하십시오.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "在終端使用<color=orange>QUERY</color>指令來存取關於特定艙門鑰匙[BULKHEAD_KEY]的資訊。然後在指定的區域中尋找。",
-        "ShouldTranslate": true
+        "Translation": "尋找<color=orange>BULKHEAD_KEY</color>。已找到ID：[DYNAMIC_ZONES]。在終端使用<color=orange>LIST</color>與<color=orange>QUERY</color>指令來存取更多資訊。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "在终端上使用<color=orange>QUERY</color>命令访问关于特定舱壁钥匙[BULKHEAD_KEY]的信息，然后去指定区域寻找。",
-        "ShouldTranslate": true
+        "Translation": "找到一个<color=orange>BULKHEAD_KEY</color>。找到ID：[DYNAMIC_ZONES]。在终端上使用<color=orange>LIST</color>和<color=orange>QUERY</color>命令访问更多信息。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "ProgressionPuzzle.BulkheadKey.OnList",
       "internalEnabled": true,
       "persistentID": 1360
@@ -80607,51 +80607,51 @@
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "Choisir une voie",
-        "ShouldTranslate": true
+        "Translation": "Choisissez le secteur suivant à déverrouiller en entrant l'analyse de sécurité correspondante.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Scegliere un percorso",
-        "ShouldTranslate": true
+        "Translation": "Scegliere il settore successivo da sbloccare entrando nella relativa scansione di sicurezza.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Wählen Sie einen Pfad",
-        "ShouldTranslate": true
+        "Translation": "Wählen Sie den nächsten Sektor, den Sie entriegeln möchten, indem Sie den entsprechenden Sicherheitsscan eingeben.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Elige una ruta",
-        "ShouldTranslate": true
+        "Translation": "Escoge el siguiente sector que desbloquear introduciendo el escaneo de seguridad correspondiente.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Выбрать путь",
-        "ShouldTranslate": true
+        "Translation": "Чтобы разблокировать следующий сектор, запустите соответствующую проверку безопасности.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Escolha um caminho",
-        "ShouldTranslate": true
+        "Translation": "Escolha o próximo setor para desbloquear ao entrar no escaneamento de segurança correspondente.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Wybierz ścieżkę",
-        "ShouldTranslate": true
+        "Translation": "Wybierz kolejny sektor do odblokowania, przechodząc przez skanowanie.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "進路を選ぶ",
-        "ShouldTranslate": true
+        "Translation": "次にアンロックするセクターを選び、対応するセキュリティスキャンに入れ。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "경로 선택",
-        "ShouldTranslate": true
+        "Translation": "해당하는 보안 스캔 장소에 들어가 개방할 다음 섹터를 선택하십시오.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "選擇路徑",
-        "ShouldTranslate": true
+        "Translation": "輸入相應的安全掃描以選擇下一個要解鎖的分區。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "选择路线",
-        "ShouldTranslate": true
+        "Translation": "进入相应安全扫描以选择下一个要解锁的分区。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "ProgressionPuzzle.BulkheadKey.OnChoosePath",
       "internalEnabled": true,
       "persistentID": 1363
@@ -82197,56 +82197,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Very Short range\nThree shell burst\nVery high damage\nLarge blast Cone",
+      "English": "Short range\nVery high damage\nLarge blast Cone",
       "MaxCharacterLength": 0,
-      "Description": "",
+      "Description": "Removed the \"three round Burst\" line since it was only relevant for an earlier version of the gun.\nAlso removed the word \"very\" before short range singe it is actually not the case",
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
         "Translation": "Très courte portée\nRafale de trois balles\nDégâts très élevés\nGrande explosion en cône",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Italian": {
         "Translation": "Gittata brevissima\nRaffica da tre colpi\nDanni elevatissimi\nRosa ampia",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "German": {
         "Translation": "Sehr kurze Reichweite\nDrei Feuerstöße\nSehr hoher Schaden\nGroßer Sprengkegel",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Spanish": {
         "Translation": "Muy corto alcance\nDisparo de tres proyectiles\nDaño extremo\nGran cono de disparo",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Russian": {
         "Translation": "Очень малая дальность\nОчередь по три выстрела\nОчень высокий урон\nБольшое рассеивание дроби",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Portuguese_Brazil": {
         "Translation": "Muito curto alcance\nDisparo triplo\nDano muito alto\nCone explosivo amplo",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Polish": {
         "Translation": "Bardzo krótki dystans\nSeria trzech pocisków\nBardzo duże obrażenia\nSzeroki stożek ostrzału",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Japanese": {
         "Translation": "超近距離\n3シェルバースト\n超高ダメージ\n拡散率大",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Korean": {
         "Translation": "초단거리\n3점사\n매우 높은 대미지\n확산 범위 큼",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Traditional": {
         "Translation": "極短射程\n三連發砲彈\n極高傷害\n大型爆炸錐",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Simplified": {
         "Translation": "超近程\n三筒连发\n超高伤害\n大范围锥形弹幕",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
-      "ExportVersion": 1,
+      "ExportVersion": 2,
       "ImportVersion": 1,
       "name": "GearArchetype.Scattergun.BurstDescription",
       "internalEnabled": true,
@@ -83514,51 +83514,51 @@
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "Arrêt de tous les systèmes de survie et de ventilation...",
-        "ShouldTranslate": true
+        "Translation": "ALERTE ! Arrêt de tous les systèmes de survie et de ventilation...",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Spegnimento sistemi supporto vitale e ventilazione aerea...",
-        "ShouldTranslate": true
+        "Translation": "ATTENZIONE! Spegnimento sistemi supporto vitale e ventilazione aerea...",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Alle Lebenserhaltungs- und Belüftungssysteme werden abgeschaltet …",
-        "ShouldTranslate": true
+        "Translation": "WARNUNG! – Alle Lebenserhaltungs- und Belüftungssysteme werden abgeschaltet …",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Desactivando todos los sistemas de soporte vital y ventilación...",
-        "ShouldTranslate": true
+        "Translation": "ADVERTENCIA: Desactivando todos los sistemas de soporte vital y ventilación...",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Системы вентиляции и жизнеобеспечения отключаются...",
-        "ShouldTranslate": true
+        "Translation": "ВНИМАНИЕ! Системы вентиляции и жизнеобеспечения отключаются...",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Todos os sistemas de suporte de vida e ventilação aéreo sendo encerrados...",
-        "ShouldTranslate": true
+        "Translation": "AVISO! - Todos os sistemas de suporte de vida e ventilação aéreo sendo encerrados...",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Wyłączanie systemów podtrzymywania życia i wentylacji powietrza...",
-        "ShouldTranslate": true
+        "Translation": "OSTRZEŻENIE – wyłączanie systemów podtrzymywania życia i wentylacji powietrza...",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "全ての生命維持システムと換気システムを停止中...",
-        "ShouldTranslate": true
+        "Translation": "警告！ - 全ての生命維持システムと換気システムが停止中...",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "전 생명 유지 및 환기 시스템 정지 중...",
-        "ShouldTranslate": true
+        "Translation": "경고! - 전 생명 유지 및 환기 시스템 정지 중...",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "所有生命支持與通風系統正在關閉……",
-        "ShouldTranslate": true
+        "Translation": "警告！- 所有生命支持與通風系統正在關閉……",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "所有生命支持和空气通风系统即将关闭……",
-        "ShouldTranslate": true
+        "Translation": "警告！- 所有生命支持和空气通风系统即将关闭……",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "WardenObjectiveData.Reactor_Startup_Waves_4_R6D3_Override.Custom.SubObjective_On_Complete_Overload",
       "internalEnabled": true,
       "persistentID": 1456
@@ -88929,51 +88929,51 @@
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "Récupérez l'échantillon d'ADN sur [ITEM_SERIAL] et rendez-vous au point d'évacuation dans la Zone 67.",
-        "ShouldTranslate": true
+        "Translation": "Récupérez l'échantillon d'ADN sur [ITEM_SERIAL] et rendez-vous au point d'évacuation dans la <color=orange>Zone 67</color>.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Procedere con raccolta del campione di DNA da [ITEM_SERIAL], e raggiungere il punto di estrazione nella ZONE 67",
-        "ShouldTranslate": true
+        "Translation": "Procedere con raccolta del campione di DNA da [ITEM_SERIAL] e raggiungere il punto di estrazione anteriore nella <color=orange>ZONE 67</color>",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Sammeln Sie die DNA-Probe von [ITEM_SERIAL] und gehen Sie zum Extraktionspunkt in ZONE 67",
-        "ShouldTranslate": true
+        "Translation": "Sammeln Sie die DNA-Probe von [ITEM_SERIAL] und begeben Sie sich zum vorderen Extraktionspunkt in <color=orange>ZONE 67</color>.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Avanza para recoger la muestra de ADN del [ITEM_SERIAL] y dirígete al punto de extracción de la ZONE 67.",
-        "ShouldTranslate": true
+        "Translation": "Avanza para recoger la muestra de ADN del [ITEM_SERIAL] y avanza hasta el punto de extracción de la <color=orange>ZONE 67</color>.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Извлеките образец ДНК из предмета ([ITEM_SERIAL]) и пройдите к точке выхода в ZONE 67.",
-        "ShouldTranslate": true
+        "Translation": "Извлеките образец ДНК из предмета ([ITEM_SERIAL]) и пройдите к точке выхода в <color=orange>Zone 67</color>.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Continue a coleta da amostra de DNA do [ITEM_SERIAL] e vá até o ponto de extração da ZONE 67",
-        "ShouldTranslate": true
+        "Translation": "Continue a coleta da amostra de DNA do [ITEM_SERIAL] e vá até o ponto de extração na <color=orange>Zone 67</color>.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Zbierz próbkę DNA z [ITEM_SERIAL] i przejdź do punktu ewakuacyjnego w strefie 67 [ZONE_67].",
-        "ShouldTranslate": true
+        "Translation": "Zbierz próbkę DNA z [ITEM_SERIAL] i przejdź do punktu ewakuacyjnego w <color=orange>strefie 67 [ZONE_67]</color>",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "先へ進んで [ITEM_SERIAL] からDNAサンプルを回収し、Zone 67の脱出地点へ行け",
-        "ShouldTranslate": true
+        "Translation": "先へ進んで [ITEM_SERIAL]からDNAサンプルを回収し、前方の<color=orange>Zone 67</color>脱出地点へ行け",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "[ITEM_SERIAL]에서 DNA 샘플을 확보해 ZONE 67의 탈출 지점으로 이동",
-        "ShouldTranslate": true
+        "Translation": "[ITEM_SERIAL]에서 DNA 샘플을 확보해 <color=orange>ZONE 67</color>의 탈출 지점으로 이동",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "繼續從[ITEM_SERIAL]收集DNA樣本並前往ZONE 67的撤離點",
-        "ShouldTranslate": true
+        "Translation": "繼續從[ITEM_SERIAL]收集DNA樣本並前往<color=orange>Zone 67</color>的前進撤離點",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "继续从[ITEM_SERIAL]收集DNA样本并前往ZONE 67撤离点",
-        "ShouldTranslate": true
+        "Translation": "继续从[ITEM_SERIAL]收集DNA样本并前往<color=orange>ZONE 67</color>前撤离点",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "WardenObjectiveData.HSU_DNA_R6.Override.SolveItem",
       "internalEnabled": true,
       "persistentID": 1561
@@ -89157,51 +89157,51 @@
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Entrez dans la <color=orange>ZONE 364</color> et exécutez la commande <color=orange>AIR_FILTRATION_STARTUP</color> dans le terminal pour purifier le brouillard toxique.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Entrare nella <color=orange>ZONE 364</color> ed eseguire il comando <color=orange>AIR_FILTRATION_STARTUP</color> nel terminale per purificare la nebbia infettiva",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Betreten Sie <color=orange>ZONE 364</color> und führen Sie den Befehl <color=orange>AIR_FILTRATION_STARTUP</color> am Terminal aus, um den infektiösen Nebel zu beseitigen.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Entra en la <color=orange>ZONE 364</color> y ejecuta el comando <color=orange>AIR_FILTRATION_STARTUP</color> en la terminal para purificar la niebla infecciosa.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Пройдите в <color=orange>ZONE 364</color> и запустите команду <color=orange>AIR_FILTRATION_STARTUP</color> на терминале, чтобы очистить патогенный дым.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Entre na <color=orange>ZONE 364</color> e execute o comando <color=orange>AIR_FILTRATION_STARTUP</color> no terminal para purificar a névoa infecciosa.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Przejdź do <color=orange>strefy 364 [ZONE_364]</color> i wprowadź w terminalu polecenie <color=orange>AIR_FILTRATION_STARTUP</color>, aby oczyścić zakaźną mgłę",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>ZONE 364</color>に進入し、端末で<color=orange>AIR_FILTRATION_STARTUP</color>コマンドを実行して感染性の霧を浄化しろ",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "<color=orange>ZONE 364</color>에 들어가 터미널에서 <color=orange>AIR_FILTRATION_STARTUP</color> 명령을 사용해 유독성 안개 제거",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "進入<color=orange>ZONE 364</color>並在終端執行<color=orange>AIR_FILTRATION_STARTUP</color>指令以淨化受感染煙霧",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "进入<color=orange>ZONE 364</color>并在终端上执行命令<color=orange>AIR_FILTRATION_STARTUP</color>以净化感染雾",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "WardenObjectiveData.Corrupted_Uplink_D2_L2.Override.InZoneFindItem",
       "internalEnabled": true,
       "persistentID": 1573575382
@@ -89698,11 +89698,11 @@
         "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "<u>アップリンク端末</u> [ALL_ITEMS] を見つけ、各端末からの外部アップリンクを確立しろ",
+        "Translation": "<b>アップリンク端末</b> [ALL_ITEMS] を見つけ、各端末からの外部アップリンクを確立しろ",
         "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "[ALL_ITEMS] <u>업링크 터미널</u>을 찾아 각 터미널의 외부 업링크 형성",
+        "Translation": "[ALL_ITEMS] <b>업링크 터미널</b>을 찾아 각 터미널의 외부 업링크 형성",
         "ShouldTranslate": false
       },
       "Chinese_Traditional": {
@@ -89710,7 +89710,7 @@
         "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "找到<u>上行链路终端</u>[ALL_ITEMS]并从每个终端建立一条外部上行链路",
+        "Translation": "找到<b>上行链路终端</b>[ALL_ITEMS]并从每个终端建立一条外部上行链路",
         "ShouldTranslate": false
       },
       "ExportVersion": 1,
@@ -93603,51 +93603,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Contrôle le volume global.",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Controlla il volume di tutto l'audio.",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Steuert die Gesamtlautstärke.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Controla el volumen de todo el sonido.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Регулирует общую громкость.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Controla o volume de todo o áudio.",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Odpowiada za poziom głośności wszystkich dźwięków.",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "オーディオの音量を決める。",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "모든 오디오의 볼륨을 조절합니다.",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "控制所有音訊的音量。",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "控制所有音频的音量。",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.Settings.Tooltip.MasterVolume",
       "internalEnabled": true,
       "persistentID": 1287670958
@@ -96168,51 +96168,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ALERTE : CHAT VOCAL DÉSACTIVÉ ! \n<color=orange><size=70%>ACTIVEZ LE CHAT VOCAL DANS LES PARAMÈTRES POUR AUGMENTER VOS CHANCES DE RÉUSSITE.</size></color>",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ATTENZIONE: LA CHAT VOCALE È DISATTIVATA! \n<color=orange><size=70%>ABILITA LA CHAT VOCALE NELLE IMPOSTAZIONI PER MAGGIORI POSSIBILITÀ DI SUCCESSO</size></color>",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "WARNUNG: SPRACHCHAT IST DEAKTIVIERT!\n<color=orange><size=70%>AKTIVIEREN SIE DEN SPRACHCHAT IN DEN EINSTELLUNGEN FÜR EINE HÖHERE ERFOLGSCHANCE.</size></color>",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ADVERTENCIA: ¡CHAT DE VOZ DESACTIVADO! \n<color=orange><size=70%>ACTIVA EL CHAT DE VOZ EN LOS AJUSTES PARA AUMENTAR LAS PROBABILIDADES DE ÉXITO.</size></color>",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ВНИМАНИЕ: ГОЛОСОВОЙ ЧАТ ВЫКЛЮЧЕН! \n<color=orange><size=70%>ДЛЯ УДОБСТВА ВКЛЮЧИТЕ ГОЛОСОВОЙ ЧАТ В НАСТРОЙКАХ</size></color>",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "AVISO: CHAT DE VOZ DESATIVADO! \n<color=orange><size=70%>ATIVE O CHAT DE VOZ NAS CONFIGURAÇÕES PARA TER MAIS CHANCE DE SUCESSO</size></color>",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "OSTRZEŻENIE: CZAT GŁOSOWY WYŁĄCZONY! \n<color=orange><size=70%>WŁĄCZ W USTAWIENIACH CZAT GŁOSOWY, ABY ZAPEWNIĆ SOBIE WIĘKSZE SZANSE POWODZENIA</size></color>",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "警告：ボイスチャット無効！ \n<color=orange><size=70%>設定でボイスチャットを有効にして成功率を高めよう</size></color>",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "경고: 음성 채팅이 꺼져 있습니다! \n<color=orange><size=70%>설정에서 음성 채팅을 켜면 성공 확률이 높아집니다</size></color>",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "警告：已停用語音聊天！\n<color=orange><size=70%>到設定啟用語音聊天可獲得較高的成功率</size></color>",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "警告：语音聊天已关闭！\n<color=orange><size=70%>在设置中开启语音聊天可提高成功几率</size></color>",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "MainMenu.Matchmaking.WarningVoiceChatDisabled",
       "internalEnabled": true,
       "persistentID": 3918754235
@@ -96225,51 +96225,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Trouver l'unité d'hydrostase [ITEM_SERIAL] et récupérer un échantillon de noyau d'ADN",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Trovare Unità idrostatica [ITEM_SERIAL] e recuperare un campione di nucleo di DNA",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Finden Sie die Hydrostasis-Einheit [ITEM_SERIAL] und besorgen Sie eine DNA-Kernprobe.",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Encuentra la unidad de hidroletargo [ITEM_SERIAL] y recupera una muestra de núcleo de ADN.",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Найдите стазис-модуль ([ITEM_SERIAL]) и извлеките образец стержня ДНК.",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Encontre o [ITEM_SERIAL] da unidade de hidroestase e recupere uma amostra de núcleo de DNA",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Znajdź jednostkę hydrostazy [ITEM_SERIAL] i zdobądź próbkę z rdzeniem DNA",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ハイドロスタシスユニット[ITEM_SERIAL]を見つけ、DNA核サンプルを回収しろ",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "[ITEM_SERIAL] 수분식 생체 정지 유닛을 찾아 DNA 코어 샘플 회수",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "尋找靜液裝置[ITEM_SERIAL]並取回DNA核心樣本",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "找到流体静力舱[ITEM_SERIAL]并取回DNA核心样本",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "WardenObjectiveData.HSU_DNA_R6.Override.MainObjective_MainObjective",
       "internalEnabled": true,
       "persistentID": 1583298404
@@ -96282,51 +96282,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Noyau d'ADN essentiel",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Nucleo di DNA essenziale",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Essentieller DNA-Kern",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Núcleo de ADN esencial",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Необходимый стержень ДНК",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Núcleo de DNA essencial",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Niezbędny rdzeń DNA",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "必須DNA核",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "필수 DNA 코어",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "基本DNA核心",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "关键DNA核心",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "WardenObjectiveData.HSU_DNA_R6.Override.MainObjective_Header",
       "internalEnabled": true,
       "persistentID": 1335529214
@@ -96339,51 +96339,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "réquisition de vêtements pour prisonniers",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "requisizione abbigliamento prigioniero",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Requisition von Gefangenenkleidung",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "Entrega de artículos de prisionero",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "запрос на экипировку для заключенных",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "requisição de traje de prisioneiro",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "aprowizacja więźniów w sprzęt",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "囚人外装要求",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "수감자 의복 조건",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "囚犯服裝徵用",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "囚犯服装申领",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.RundownPage.VanityItemDrops.Header",
       "internalEnabled": true,
       "persistentID": 2270082014
@@ -96396,51 +96396,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "TOUS",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "TUTTI",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ALLE",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "TODOS",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ВСЕ",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "TUDO",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "WSZYSTKIE",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "全て",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "전체",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "全部",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "所有",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "MainMenu.RundownPage.VanityItemDrops.All",
       "internalEnabled": true,
       "persistentID": 1206498859
@@ -96453,51 +96453,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "EXPÉDITIONS PRIORITAIRES :",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SPEDIZIONI PRIORITARIE:",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "VORRANGIGE EXPEDITIONEN:",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "PRIORIDAD DE LAS EXPEDICIONES:",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ПРИОРИТЕТНЫЕ ЭКСПЕДИЦИИ:",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "EXPEDIÇÕES PRIORITÁRIAS:",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "EKSPEDYCJE PRIORYTETOWE:",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "優先エクスペディション：",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "우선 탐사:",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "遠征優先等級：",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "优先任务：",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "MainMenu.RundownPage.VanityItemDrops.PriorityHeader",
       "internalEnabled": true,
       "persistentID": 97814321
@@ -96510,51 +96510,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SECTEURS PRINCIPAUX :",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SETTORI PRINCIPALI:",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "PRIMÄRSEKTOREN:",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SECTORES PRINCIPALES:",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ГЛАВНЫЕ СЕКТОРЫ:",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SETORES PRINCIPAIS:",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SEKTORY GŁÓWNE:",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "主セクター：",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "메인 섹터:",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "主要分區：",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "主要分区：",
+        "ShouldTranslate": false
       },
       "ExportVersion": 1,
-      "ImportVersion": 0,
+      "ImportVersion": 1,
       "name": "MainMenu.RundownPage.VanityItemDrops.MainSectors",
       "internalEnabled": true,
       "persistentID": 615262857
@@ -96567,51 +96567,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SECTEURS SECONDAIRES :",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SETTORI SECONDARI:",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SEKUNDÄRSEKTOREN:",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SECTORES SECUNDARIOS:",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ВТОРОСТЕПЕННЫЕ СЕКТОРЫ:",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SETORES SECUNDÁRIOS:",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SEKTORY POBOCZNE:",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "副セクター：",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "보조 섹터:",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "次級分區：",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "次要分区：",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.RundownPage.VanityItemDrops.SecondarySectors",
       "internalEnabled": true,
       "persistentID": 3928479961
@@ -96624,51 +96624,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SECTEURS DE SURCHARGE :",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SETTORI SOVRACCARICO:",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "HERAUSFORDERUNGSSEKTOREN:",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SOBRECARGA DE SECTORES:",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "СПЕЦИАЛЬНЫЕ СЕКТОРЫ",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SETORES DE SOBRECARGA:",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "SEKTORY NADMIAROWE:",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "オーバーロードセクター：",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "고위험 섹터:",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "超載分區：",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "附加分区：",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.RundownPage.VanityItemDrops.OverloadSectors",
       "internalEnabled": true,
       "persistentID": 3687558045

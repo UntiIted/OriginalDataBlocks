@@ -2109,8 +2109,8 @@
             "FogSettings": 100,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
-            "ScoutWaveSettings": 3,
-            "ScoutWavePopulation": 1,
+            "ScoutWaveSettings": 131,
+            "ScoutWavePopulation": 5,
             "EnvironmentWetness": 0.0,
             "DustColor": {
               "a": 1.0,
@@ -14869,7 +14869,7 @@
             "LightJobSeedOffset": 0
           },
           "Expedition": {
-            "ComplexResourceData": 49,
+            "ComplexResourceData": 48,
             "LightSettings": 48,
             "FogSettings": 0,
             "EnemyPopulation": 1,

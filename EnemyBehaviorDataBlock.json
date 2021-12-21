@@ -1914,8 +1914,8 @@
         "Min": -1.0,
         "Max": 1.0
       },
-      "Flyer_Acceleration": 1.0,
-      "Flyer_Deceleration": 0.4,
+      "Flyer_Acceleration": 0.8,
+      "Flyer_Deceleration": 0.5,
       "Flyer_SpeedMultipler": 0.3,
       "Flyer_AttackChargeDuration": {
         "Min": 0.5,
