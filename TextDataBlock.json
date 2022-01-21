@@ -5247,6 +5247,63 @@
     },
     {
       "SkipLocalization": false,
+      "English": "Restart Expedition to get full localization",
+      "MaxCharacterLength": 0,
+      "Description": "A subtitle for the language settings that shows when the player is in an expedition.\nYou are allowed to change language but certain in-game texts won't be localized until you restart the expedition.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Redémarrez l'expédition pour afficher la traduction complète",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Riavvia la spedizione per ottenere la localizzazione completa",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Starte die Expedition neu, um die vollständige Lokalisierung zu erhalten",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Reiniciar expedición para disfrutar de todo el texto traducido",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Для полной локализации перезапустите экспедицию",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Reiniciar a expedição para obter a localização completa",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Zrestartuj ekspedycję, aby uzyskać pełną wersję językową",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "エクスペディションをリスタートしてローカリゼーションを完了",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "모든 텍스트를 현지화하려면 탐사를 다시 시작하세요",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "重新啟動遠征以獲得完整的當地語言版",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "重启任务以显示完整汉化版本",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "MainMenu.Settings.Language_Subtitle_InExpedition_Restart",
+      "internalEnabled": true,
+      "persistentID": 2170283352
+    },
+    {
+      "SkipLocalization": false,
       "English": "Hold to show Coms list",
       "MaxCharacterLength": 0,
       "Description": "A gameplay setting for players",
@@ -12312,6 +12369,177 @@
       "name": "MainMenu.Settings.Extreme",
       "internalEnabled": true,
       "persistentID": 191
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Voice Commands In Chat",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Commandes vocales dans le chat",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Comandi vocali in chat",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Sprachbefehle im Chat",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Comandos de voz en chat",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Голосовые команды в чате",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Comandos de voz no chat",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Komendy głosowe w czacie",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "チャットのボイスコマンド",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "채팅 중 음성 명령",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "聊天中的語音指令",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "聊天中语音命令",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "MainMenu.Settings.VoiceCommandsInChat",
+      "internalEnabled": true,
+      "persistentID": 2632015828
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Mute In Background",
+      "MaxCharacterLength": 0,
+      "Description": "A setting to toggle if all sounds should be muted when the game is in the background aka when you alt-tab out.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Muet en arrière-plan",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Muto in background",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Im Hintergrund stummschalten",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Silenciar en segundo plano",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Отключить звуки в фоновом режиме",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Silenciar em plano de fundo",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Wycisz, gdy gra jest w tle",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "バックグラウンドでミュート",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "백그라운드에서 음소거",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "在背景時靜音",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "后台运行时静音",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "MainMenu.Settings.MuteInBackground",
+      "internalEnabled": true,
+      "persistentID": 72773195
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Mute Voice Communication Lines",
+      "MaxCharacterLength": 0,
+      "Description": "A setting to mute the sounds of voice communication lines.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Mettre en sourdine les lignes de communication vocale",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Disattiva linee di comunicazione vocale",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Sprachkommunikation stummschalten",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Silenciar líneas de comunicación por voz",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Отключить голосовую связь",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Silenciar linhas de comunicação de voz",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Wycisz komunikację głosową",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "ボイス定型文をミュート",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "음성 통신 라인 음소거",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "語音通訊靜音",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "静音语音通讯行",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "MainMenu.Settings.MuteVoiceComLines",
+      "internalEnabled": true,
+      "persistentID": 2447349730
     },
     {
       "SkipLocalization": false,
@@ -33753,51 +33981,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "VÊTEMENTS",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ABBIGLIAMENTO",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "KLEIDUNG",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "INDUMENTARIA",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "ЭКИПИРОВКА",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "TRAJE",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "UBIÓR",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "外装",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "복장",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "服裝",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "",
-        "ShouldTranslate": true
+        "Translation": "服装",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 0,
+      "ImportVersion": 2,
       "name": "MainMenu.Lobby.PlayerBar.Apparel",
       "internalEnabled": true,
       "persistentID": 2795554064
@@ -66850,7 +67078,7 @@
       },
       "Chinese_Traditional": {
         "Translation": "",
-        "ShouldTranslate": true
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
         "Translation": "数值",
@@ -82203,51 +82431,51 @@
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
-        "Translation": "Très courte portée\nRafale de trois balles\nDégâts très élevés\nGrande explosion en cône",
-        "ShouldTranslate": true
+        "Translation": "Courte portée\nDégâts très élevés\nGrande explosion en cône",
+        "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "Gittata brevissima\nRaffica da tre colpi\nDanni elevatissimi\nRosa ampia",
-        "ShouldTranslate": true
+        "Translation": "Gittata breve\nDanni elevatissimi\nRosa ampia",
+        "ShouldTranslate": false
       },
       "German": {
-        "Translation": "Sehr kurze Reichweite\nDrei Feuerstöße\nSehr hoher Schaden\nGroßer Sprengkegel",
-        "ShouldTranslate": true
+        "Translation": "Kurze Reichweite\nSehr hoher Schaden\nGroßer Sprengkegel",
+        "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "Muy corto alcance\nDisparo de tres proyectiles\nDaño extremo\nGran cono de disparo",
-        "ShouldTranslate": true
+        "Translation": "Corto alcance\nDaño extremo\nGran cono de disparo",
+        "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Очень малая дальность\nОчередь по три выстрела\nОчень высокий урон\nБольшое рассеивание дроби",
-        "ShouldTranslate": true
+        "Translation": "Малая дальность\nОчень высокий урон\nБольшое рассеивание дроби",
+        "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "Muito curto alcance\nDisparo triplo\nDano muito alto\nCone explosivo amplo",
-        "ShouldTranslate": true
+        "Translation": "Curto alcance\nDano muito alto\nCone explosivo amplo",
+        "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "Bardzo krótki dystans\nSeria trzech pocisków\nBardzo duże obrażenia\nSzeroki stożek ostrzału",
-        "ShouldTranslate": true
+        "Translation": "Krótki zasięg\nBardzo duże obrażenia\nSzeroki stożek ostrzału",
+        "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "超近距離\n3シェルバースト\n超高ダメージ\n拡散率大",
-        "ShouldTranslate": true
+        "Translation": "近距離\n超高ダメージ\n拡散率大",
+        "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "초단거리\n3점사\n매우 높은 대미지\n확산 범위 큼",
-        "ShouldTranslate": true
+        "Translation": "단거리\n매우 높은 대미지\n확산 범위 큼",
+        "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "極短射程\n三連發砲彈\n極高傷害\n大型爆炸錐",
-        "ShouldTranslate": true
+        "Translation": "短程\n極高傷害\n大型爆炸錐",
+        "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "超近程\n三筒连发\n超高伤害\n大范围锥形弹幕",
-        "ShouldTranslate": true
+        "Translation": "近程\n超高伤害\n大范围锥形弹幕",
+        "ShouldTranslate": false
       },
       "ExportVersion": 2,
-      "ImportVersion": 1,
+      "ImportVersion": 2,
       "name": "GearArchetype.Scattergun.BurstDescription",
       "internalEnabled": true,
       "persistentID": 1400
@@ -89436,56 +89664,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Navigate to [ITEM_ZONE] and find [ALL_ITEMS]",
+      "English": "Navigate to [ZONE_1] and [ZONE_2] to find [ALL_ITEMS]",
       "MaxCharacterLength": 0,
-      "Description": "Don't localize [ITEM_ZONE] and [ALL_ITEMS]",
+      "Description": "Don't localize [ZONE_1] and [ZONE_2] to find [ALL_ITEMS]",
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
         "Translation": "Rendez-vous à [ITEM_ZONE] et trouvez [ALL_ITEMS].",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Italian": {
         "Translation": "Raggiungere [ITEM_ZONE] e trovare [ALL_ITEMS]",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "German": {
         "Translation": "Begeben Sie sich zu [ITEM_ZONE] und finden Sie [ALL_ITEMS].",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Spanish": {
         "Translation": "Explora la [ITEM_ZONE] y encuentra [ALL_ITEMS].",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Russian": {
         "Translation": "Отправляйтесь в [ITEM_ZONE] и найдите предмет ([ALL_ITEMS]).",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Portuguese_Brazil": {
         "Translation": "Navegue até a [ITEM_ZONE] e encontre [ALL_ITEMS].",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Polish": {
         "Translation": "Przejdź do strefy [ITEM_ZONE] i znajdź [ALL_ITEMS].",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Japanese": {
         "Translation": "[ITEM_ZONE] で [ALL_ITEMS]を見つけろ",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Korean": {
         "Translation": "[ITEM_ZONE](으)로 이동해 [ALL_ITEMS] 찾기",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Traditional": {
         "Translation": "前往[ITEM_ZONE]並尋找[ALL_ITEMS]",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Simplified": {
         "Translation": "前往[ITEM_ZONE]并找到[ALL_ITEMS]",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
-      "ExportVersion": 1,
+      "ExportVersion": 2,
       "ImportVersion": 1,
       "name": "WardenObjectiveData.CorruptedUplink_D2_L2.Override.GoToZone",
       "internalEnabled": true,
@@ -95535,6 +95763,177 @@
     },
     {
       "SkipLocalization": false,
+      "English": "Toggles if the voice commands should show in the chat",
+      "MaxCharacterLength": 0,
+      "Description": "Extra information about the setting.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Permet d'afficher les commandes dans le chat",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Determina se i comandi vocali devono essere visualizzati nella chat",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Schaltet um, ob Sprachbefehle im Chat angezeigt werden sollen",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Cambiar si los comandos de voz aparecen en el chat",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Включает/выключает отображение голосовых команд в чате.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Alterna a opção de os comandos de voz aparecerem no chat",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Włącza/wyłącza wyświetlanie komend głosowych w czacie",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "ボイスコマンドをチャットに表示するかどうかを切り替える",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "채팅에 음성 명령을 표시할지 지정합니다",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "切換語音指令是否應在聊天中顯示",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "开启后，在聊天中显示语音命令",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 3,
+      "ImportVersion": 3,
+      "name": "MainMenu.Settings.Tooltip.VoiceCommandsInChat",
+      "internalEnabled": true,
+      "persistentID": 3549487698
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Toggles if all sounds should be muted when the game is in the background",
+      "MaxCharacterLength": 0,
+      "Description": "Extra information about the setting.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Permet de mettre en sourdine tous les sons lorsque le jeu est en arrière-plan",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Determina se tutti i suoni devono essere disattivati quando il gioco è in background",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Schaltet um, ob alle Geräusche stummgeschaltet werden sollen, wenn das Spiel im Hintergrund läuft",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Cambiar si se silencian todos los sonidos cuando el juego esté en segundo plano",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Включает/выключает все звуки, если игра запущена в фоновом режиме.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Alterna a opção de todos os sons serem silenciados quando o jogo está em plano de fundo",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Włącza/wyłącza wyciszenie wszystkich dźwięków, gdy gra jest w tle",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "ゲームがバックグラウンドにある時に全てのサウンドをミュートするかどうかを切り替える",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "게임이 백그라운드에서 실행될 때 모든 사운드를 음소거할지 지정합니다",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "切換遊戲在背景時是否應將所有音效靜音",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "开启后，当游戏在后台运行时关闭所有声音",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "MainMenu.Settings.Tooltip.MuteInBackground",
+      "internalEnabled": true,
+      "persistentID": 2125837202
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Toggles if the audio for voice communication lines should be muted",
+      "MaxCharacterLength": 0,
+      "Description": "Extra information about the setting.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "Permet de mettre en sourdine les lignes de communication vocales",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Determina se l'audio per le linee di comunicazione vocale deve essere disattivato",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Schaltet um, ob der Ton für die Sprachkommunikation stummgeschaltet werden soll",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Cambiar si se silencia el sonido de las líneas de comunicación por voz",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "Включает/выключает звуки на линиях голосовой связи.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Alterna a opção de o áudio das linhas de comunicação por voz dever ser silenciada",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Włącza/wyłącza wyciszenie komunikacji głosowej",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "ボイス定型文の音声をミュートするかどうかを切り替える",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "음성 통신 라인의 오디오를 음소거할지 지정합니다",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "切換語音通訊的音訊是否應靜音",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "开启后，关闭语音通讯行的音频",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "MainMenu.Settings.Tooltip.MuteVoiceComLines",
+      "internalEnabled": true,
+      "persistentID": 4077926974
+    },
+    {
+      "SkipLocalization": false,
       "English": "BULKHEAD LOCKDOWN initiated\nKEY REQUIRED",
       "MaxCharacterLength": 0,
       "Description": "",
@@ -96672,6 +97071,918 @@
       "name": "MainMenu.RundownPage.VanityItemDrops.OverloadSectors",
       "internalEnabled": true,
       "persistentID": 3687558045
+    },
+    {
+      "SkipLocalization": false,
+      "English": "DEPLOYED",
+      "MaxCharacterLength": 0,
+      "Description": "This is a prefix on inventory items like the sentry, when it is deployed on the ground.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "DÉPLOYÉ",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "SCHIERATO",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "EINGESETZT",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "DESPLEGADO(S)",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "УСТАНОВЛЕНО",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "ENVIOU",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "– ROZSTAWIONO",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "展開済み",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "배치된",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "已部署",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "已部署",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "InGame.Inventory.Deployed",
+      "internalEnabled": true,
+      "persistentID": 2505980868
+    },
+    {
+      "SkipLocalization": false,
+      "English": "INFECTION : {0}",
+      "MaxCharacterLength": 0,
+      "Description": "Info on you HUD when you have infection above 10%. \n{0} represents a percentage value between 10% - 100%",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "INFECTION : {0}",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "INFEZIONE: {0}",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "INFEKTION: {0}",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "INFECCIÓN: {0}",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "ИНФИЦИРОВАНИЕ: {0}",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "INFECÇÃO: {0}",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "ZAKAŻENIE: {0}",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "感染： {0}",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "감염: {0}",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "感染：{0}",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "感染：{0}",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "InGame.PlayerStatus.InfectionLevel_X",
+      "internalEnabled": true,
+      "persistentID": 3229812851
+    },
+    {
+      "SkipLocalization": false,
+      "English": "PULSE:{0}",
+      "MaxCharacterLength": 0,
+      "Description": "Information on the HUD that shows the current pulse of the player. \n{0} is a number representing the heartbeats per minute the player character has, togheter with a heartbeat icon.",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "POULS : {0}",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "PULSAZIONI:{0}",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "PULS: {0}",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "PULSO: {0}",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "ПУЛЬС: {0}",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "BATIMENTOS:{0}",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "PULS: {0}",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "脈拍：{0}",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "펄스: {0}",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "脈搏：{0}",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "脉搏：{0}",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 2,
+      "name": "InGame.PlayerStatus.Pulse_X",
+      "internalEnabled": true,
+      "persistentID": 457619842
+    },
+    {
+      "SkipLocalization": false,
+      "English": "<color=red>://ERROR:Access DENIED. <color=orange>SECONDARY</color> lockdown override required.</color>",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "<color=red>://ERROR:Accès REFUSÉ. Déverrouillage <color=orange>SECONDAIRE</color> requis.</color>",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "<color=red>://ERRORE:Accesso NEGATO. È richiesto l'override del blocco <color=orange>SECONDARIO</color>.</color>",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "<color=red>://FEHLER: Zugriff VERWEIGERT. <color=orange>SEKUNDÄRER</color> Override der Verriegelung erforderlich.</color>",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "<color=red>://ERROR:Acceso DENEGADO. Es necesario anular el cierre de emergencia <color=orange>SECUNDARIO</color>.</color>",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "<color=red>://ОШИБКА. В доступе ОТКАЗАНО. Запустите <color=orange>ДОПОЛНИТЕЛЬНУЮ</color> изоляцию принудительно.</color>",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "<color=red>://ERRO: Acesso NEGADO. Substituição de confinamento <color=orange>SECUNDÁRIO</color> necessária.</color>",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "<color=red>://BŁĄD: odmowa DOSTĘPU. Wymagane obejście <color=orange>POBOCZNE.</color></color>",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "<color=red>://エラー：アクセス拒否。 <color=orange>第2</color> 封鎖オーバーライドが必要。</color>",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "<color=red>://오류:접근 거부. <color=orange>보조</color> 폐쇄 중단 필요.</color>",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "<color=red>://錯誤：拒絕存取。需要覆蓋<color=orange>次級</color>封鎖。</color>",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "<color=red>://错误：拒绝访问。需要覆盖<color=orange>二级</color>封锁。</color>",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "LevelLayoutData.PuzzleProgression.AccessDeniedSecondary",
+      "internalEnabled": true,
+      "persistentID": 902288817
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Time until allowed extraction:",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "Durée avant l'autorisation de l'évacuation :",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Tempo all'estrazione consentita:",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Zeit bis zur zugelassenen Extraktion:",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Tiempo hasta la extracción permitida:",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "До авторизованного выхода:",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Tempo até extração permitida:",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Czas do dozwolonej ewakuacji:",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "脱出許可まで：",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "탈출 허용까지 시간:",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "允許撤離時間：",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "撤离开放剩余时间：",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.SurvivalTimerTitle",
+      "internalEnabled": true,
+      "persistentID": 647325299
+    },
+    {
+      "SkipLocalization": false,
+      "English": "<color=red>WARNING!</color> Warden Protocol <color=orange>[sys_purge]</color> will commence in: ",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize [sys_purge].",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "<color=red>ALERTE !</color> Le protocole <color=orange>[sys_purge]</color> du gardien commencera dans :",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "<color=red>ATTENZIONE!</color> Il protocollo Guardiano <color=orange>[sys_purge]</color> inizierà tra:",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "<color=red>WARNUNG!</color> Aufseher-Protokoll <color=orange>[sys_purge]</color> beginnt in: ",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "<color=red>¡ADVERTENCIA!</color> El protocolo del guardián <color=orange>[sys_purge]</color> comenzará en: ",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "<color=red>ВНИМАНИЕ!</color> Протокол смотрителя <color=orange>[sys_purge]</color> будет запущен через: ",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "<color=red>AVISO!</color> Protocolo de guarda <color=orange>[sys_purge]</color> começando em: ",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "<color=red>OSTRZEŻENIE!</color> Protokół strażnika <color=orange>[sys_purge]</color> rozpocznie się za: ",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "<color=red>警告！</color> ウォーデンプロトコル <color=orange>[sys_purge]</color> 開始まで：",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "<color=red>경고!</color> 교도관 프로토콜 <color=orange>[sys_purge]</color> 발동까지: ",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "<color=red>警告！</color>典獄長協定<color=orange>[sys_purge]</color>開始時間：",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "<color=red>警告！</color>督察协议<color=orange>[sys_purge]</color>开始倒计时：",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.SurvivalTimerToActivate",
+      "internalEnabled": true,
+      "persistentID": 573438790
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Releasing phase lock to [Zone 179] - Extraction allowed. ",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize [Zone 179].",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "Ouverture du verrou de la [Zone 179] - Évacuation autorisée.",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "Rilascio blocco fase a [Zone 179] - Estrazione consentita.",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "Freigabe der Phasensperre für [Zone 179] – Extraktion zugelassen.",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "Desbloqueando cierre de fase a [ZONE 179]. Extracción permitida. ",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "[Zone 179] разблокирована. Выход авторизован.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "Liberando trava da fase para [Zone 179] — Extração permitida. ",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "Zwalnianie blokady strefy 179 [Zone 179] – ewakuacja umożliwiona.",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "[Zone 179]へのフェーズロックを解除中 - 脱出を許可。",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "[Zone 179] 페이즈 록 개방 - 탈출 허용. ",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "解除[Zone 179]的階段封鎖 - 允許撤離。",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "正在解除ZONE 179阶段锁定 - 撤离已开放。",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.C3.GoToWinWardenIntel",
+      "internalEnabled": true,
+      "persistentID": 2207614960
+    },
+    {
+      "SkipLocalization": false,
+      "English": "WARNING: Large biomass detected",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "ALERTE : biomasse importante détectée",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "ATTENZIONE: Rilevata grande biomassa",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "WARNUNG: Große Biomasse entdeckt",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "ADVERTENCIA: Biomasa grande detectada",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "ВНИМАНИЕ! Обнаружена большая биосигнатура.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "AVISO: grande biomassa detectada",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "OSTRZEŻENIE: wykryto znaczną biomasę",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "警告：多量の生体反応を検知",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "경고: 대형 바이오매스 탐지",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "警告：偵測到大量生物質",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "警告：探测到大型生物质",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.WavesOnActivate.IntelMessage.LargeBiomass",
+      "internalEnabled": true,
+      "persistentID": 2736927834
+    },
+    {
+      "SkipLocalization": false,
+      "English": "<color=orange>[sys_purge]</color> - Initializing phase 1 of 3",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize [sys_purge].",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "<color=orange>[sys_purge]</color> - Initialisation de la phase 1 sur 3",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "<color=orange>[sys_purge]</color> - inizializzazione fase 1 di 3",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "<color=orange>[sys_purge]</color> – Phase 1 von 3 wird initialisiert",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "<color=orange>[sys_purge]</color>: Inicializando fase 1 de 3",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "<color=orange>[sys_purge]</color> — активация фазы 1/3.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "<color=orange>[sys_purge]</color> — Inicializando fase 1 de 3",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "<color=orange>[sys_purge]</color> – inicjowanie fazy 1 z 3",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "<color=orange>[sys_purge]</color> - フェーズ1/3開始中",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "<color=orange>[sys_purge]</color> - 1/3 페이즈 발동",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化階段 1/3",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化阶段1/3",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.WavesOnActivate.C3.Phase1",
+      "internalEnabled": true,
+      "persistentID": 3804407529
+    },
+    {
+      "SkipLocalization": false,
+      "English": "<color=orange>[sys_purge]</color> - Initializing phase 1.5 of 3",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize [sys_purge].",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "<color=orange>[sys_purge]</color> - Initialisation de la phase 1,5 sur 3",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "<color=orange>[sys_purge]</color> - inizializzazione fase 1,5 di 3",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "<color=orange>[sys_purge]</color> – Phase 1,5 von 3 wird initialisiert",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "<color=orange>[sys_purge]</color>: Inicializando fase 1,5 de 3",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "<color=orange>[sys_purge]</color> — активация фазы 1,5/3.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "<color=orange>[sys_purge]</color> — Inicializando fase 1,5 de 3",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "<color=orange>[sys_purge]</color> – inicjowanie fazy 1,5 z 3",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "<color=orange>[sys_purge]</color> - フェーズ1.5/3開始中",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "<color=orange>[sys_purge]</color> - 1.5/3 페이즈 발동",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化階段 1.5/3",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化阶段1.5/3",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.WavesOnActivate.C3.Phase1_5",
+      "internalEnabled": true,
+      "persistentID": 828704543
+    },
+    {
+      "SkipLocalization": false,
+      "English": "<color=orange>[sys_purge]</color> -  initializing phase 2 of 3",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize [sys_purge].",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "<color=orange>[sys_purge]</color> -  initialisation de la phase 2 sur 3",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "<color=orange>[sys_purge]</color> - inizializzazione fase 2 di 3",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "<color=orange>[sys_purge]</color> – Phase 2 von 3 wird initialisiert",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "<color=orange>[sys_purge]</color>: Inicializando fase 2 de 3",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "<color=orange>[sys_purge]</color> — активация фазы 2/3.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "<color=orange>[sys_purge]</color> — Inicializando fase 2 de 3",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "<color=orange>[sys_purge]</color> – inicjowanie fazy 2 z 3",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "<color=orange>[sys_purge]</color> - フェーズ2/3開始中",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "<color=orange>[sys_purge]</color> - 2/3 페이즈 발동",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化階段 2/3",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化阶段2/3",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.WavesOnActivate.C3.Phase2",
+      "internalEnabled": true,
+      "persistentID": 747291007
+    },
+    {
+      "SkipLocalization": false,
+      "English": "<color=orange>[sys_purge]</color> -  initializing phase 2.5 of 3",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize [sys_purge].",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "<color=orange>[sys_purge]</color> -  initialisation de la phase 2,5 sur 3",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "<color=orange>[sys_purge]</color> - inizializzazione fase 2,5 di 3",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "<color=orange>[sys_purge]</color> – Phase 2,5 von 3 wird initialisiert",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "<color=orange>[sys_purge]</color>: Inicializando fase 2,5 de 3",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "<color=orange>[sys_purge]</color> — активация фазы 2,5/3.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "<color=orange>[sys_purge]</color> — Inicializando fase 2,5 de 3",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "<color=orange>[sys_purge]</color> – inicjowanie fazy 2.5 z 3",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "<color=orange>[sys_purge]</color> - フェーズ2.5/3開始中",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "<color=orange>[sys_purge]</color> - 2.5/3 페이즈 발동",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化階段 2.5/3",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "<color=orange>[sys_purge]</color> - 初始化阶段2.5/3",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.WavesOnActivate.C3.Phase2_5",
+      "internalEnabled": true,
+      "persistentID": 3398203610
+    },
+    {
+      "SkipLocalization": false,
+      "English": "POWER REROUTE COMPLETE - RESTORING SYSTEMS..",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "COURANT RÉACHEMINÉ - RÉTABLISSEMENT DES SYSTÈMES...",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "DEVIAZIONE ENERGIA COMPLETATA - RIPRISTINO SISTEMI...",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "UMLEITUNG DER STROMVERSORGUNG ABGESCHLOSSEN – SYSTEME WERDEN WIEDERHERGESTELLT …",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "DESVIAMIENTO DE ENERGÍA COMPLETADO. RESTAURANDO SISTEMAS...",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "ПИТАНИЕ ПЕРЕНАПРАВЛЕНО. РАБОТА СИСТЕМ ВОССТАНОВЛЕНА.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "REDIRECIONAMENTO DE ENERGIA CONCLUÍDO — RESTAURANDO SISTEMAS..",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "PRZEKIEROWANIE ZASILANIA UKOŃCZONE – PRZYWRACANIE SYSTEMÓW..",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "電力リルート完了 - システムを回復中..",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "동력 우회 완료 - 시스템 복구 중..",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "電源重設路線完成 - 修復系統……",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "电源重定向完成 - 正在恢复系统……",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.EventsOnActivate.PowerRerouteComplete",
+      "internalEnabled": true,
+      "persistentID": 3507705662
+    },
+    {
+      "SkipLocalization": false,
+      "English": "WARNING: Security bypass failed, BULKHEAD key required to reach additional depth",
+      "MaxCharacterLength": 0,
+      "Description": "Don't localize BULKHEAD.",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "ALERTE : échec de contrôle de sécurité, clé de cloison [BULKHEAD_KEY] requise pour continuer la descente",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "ATTENZIONE: bypass di sicurezza fallito, chiave stagna [BULKHEAD_KEY] necessaria per avanzare ulteriormente",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "WARNUNG: Sicherheitsumgehung fehlgeschlagen. Bulkhead Key erforderlich, um weiter vorzudringen.",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "ADVERTENCIA: Error de derivación de seguridad. Se necesita la llave de contención [BULKHEAD_KEY] para alcanzar una mayor profundidad.",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "ВНИМАНИЕ! Ошибка обхода системы безопасности. Требуется BULKHEAD KEY.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "AVISO: falha ao evitar segurança, chave de segurança [BULKHEAD_KEY] necessária para atingir a profundidade adicional",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "OSTRZEŻENIE: obejście zabezpieczeń nieudane; w celu osiągnięcia dodatkowej głębokości wymagany jest klucz do grodzi [BULKHEAD_KEY]",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "警告：セキュリティバイパス失敗、深部へ進むにはBULKHEADキーが必要",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "경고: 보안 통과 실패, 추가 심도 도달을 위해 BULKHEAD 키 필요",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "警告：安全略過失敗，需要艙門鑰匙[BULKHEAD_KEY]才可更深入",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "警告：安全旁通失败，需要舱壁钥匙[BULKHEAD_KEY]才能到达更深区域",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.EventsOnActivate.BulkheadKeyRequired",
+      "internalEnabled": true,
+      "persistentID": 1943997805
+    },
+    {
+      "SkipLocalization": false,
+      "English": "CRITICAL POWER FAILURE - REROUTING IN PROGRESS..",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "PANNE DE COURANT CRITIQUE - RÉACHEMINEMENT EN COURS...",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "MANCANZA ENERGIA CRITICA - DEVIAZIONE IN CORSO...",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "KRITISCHER STROMAUSFALL – WIRD UMGELEITET …",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "FALLO ELÉCTRICO CRÍTICO. DESVIAMIENTO EN CURSO...",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "КРИТИЧЕСКИЙ СБОЙ. ПОДАЧА ПИТАНИЯ ПЕРЕНАПРАВЛЯЕТСЯ.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "FALHA DE ENERGIA CRÍTICA — REDIRECIONAMENTO EM PROGRESSO..",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "KRYTYCZNA AWARIA ZASILANIA – PRZEKIEROWYWANIE W TOKU..",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "危機的停電 - リルート中..",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "치명적 동력 결함 발생 - 우회 진행 중..",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "嚴重電源故障 - 重設路線中……",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "关键电源故障 - 正在重定向……",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.EventsOnActivate.CriticalPowerFailure",
+      "internalEnabled": true,
+      "persistentID": 762852473
+    },
+    {
+      "SkipLocalization": false,
+      "English": "POWER REROUTE COMPLETE - RESTORING SYSTEMS.. ",
+      "MaxCharacterLength": 0,
+      "Description": "",
+      "CharacterMetaData": 2,
+      "Mood": "None",
+      "French": {
+        "Translation": "COURANT RÉACHEMINÉ - RÉTABLISSEMENT DES SYSTÈMES...",
+        "ShouldTranslate": false
+      },
+      "Italian": {
+        "Translation": "DEVIAZIONE ENERGIA COMPLETATA - RIPRISTINO SISTEMI... ",
+        "ShouldTranslate": false
+      },
+      "German": {
+        "Translation": "UMLEITUNG DER STROMVERSORGUNG ABGESCHLOSSEN – SYSTEME WERDEN WIEDERHERGESTELLT …",
+        "ShouldTranslate": false
+      },
+      "Spanish": {
+        "Translation": "DESVIAMIENTO DE ENERGÍA COMPLETADO. RESTAURANDO SISTEMAS... ",
+        "ShouldTranslate": false
+      },
+      "Russian": {
+        "Translation": "ПИТАНИЕ ПЕРЕНАПРАВЛЕНО. РАБОТА СИСТЕМ ВОССТАНОВЛЕНА.",
+        "ShouldTranslate": false
+      },
+      "Portuguese_Brazil": {
+        "Translation": "REDIRECIONAMENTO DE ENERGIA CONCLUÍDO — RESTAURANDO SISTEMAS.. ",
+        "ShouldTranslate": false
+      },
+      "Polish": {
+        "Translation": "PRZEKIEROWANIE ZASILANIA UKOŃCZONE – PRZYWRACANIE SYSTEMÓW..",
+        "ShouldTranslate": false
+      },
+      "Japanese": {
+        "Translation": "電力リルート完了 - システムを回復中..",
+        "ShouldTranslate": false
+      },
+      "Korean": {
+        "Translation": "동력 우회 완료 - 시스템 복구 중..",
+        "ShouldTranslate": false
+      },
+      "Chinese_Traditional": {
+        "Translation": "電源重設路線完成 - 修復系統……",
+        "ShouldTranslate": false
+      },
+      "Chinese_Simplified": {
+        "Translation": "电源重定向完成 - 正在恢复系统……",
+        "ShouldTranslate": false
+      },
+      "ExportVersion": 1,
+      "ImportVersion": 1,
+      "name": "WardenObjectiveData.Survival.EventsOnActivate.PowerRerouteComplete_1",
+      "internalEnabled": true,
+      "persistentID": 315830339
     }
   ],
   "LastPersistentID": 4269828931

@@ -12394,11 +12394,11 @@
       "InZoneFindItemHelp": 0,
       "SolveItem": 0,
       "SolveItemHelp": 0,
-      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinCondition_Elevator": 946,
       "GoToWinConditionHelp_Elevator": 0,
-      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinCondition_CustomGeo": 948,
       "GoToWinConditionHelp_CustomGeo": 0,
-      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinCondition_ToMainLayer": 949,
       "GoToWinConditionHelp_ToMainLayer": 0,
       "ShowHelpDelay": 180.0,
       "WavesOnElevatorLand": [],
@@ -12413,49 +12413,49 @@
           "WavePopulation": 1,
           "SpawnDelay": 0.0,
           "TriggerAlarm": true,
-          "IntelMessage": "<color=orange>[sys_purge]</color> - Initializing phase 1 of 3"
+          "IntelMessage": 3804407529
         },
         {
           "WaveSettings": 91,
           "WavePopulation": 22,
           "SpawnDelay": 225.0,
           "TriggerAlarm": false,
-          "IntelMessage": "WARNING: Large biomass detected "
+          "IntelMessage": 2736927834
         },
         {
           "WaveSettings": 85,
           "WavePopulation": 1,
           "SpawnDelay": 400.0,
           "TriggerAlarm": false,
-          "IntelMessage": "<color=orange>[sys_purge]</color> - Initializing phase 1.5 of 3"
+          "IntelMessage": 828704543
         },
         {
           "WaveSettings": 65,
           "WavePopulation": 22,
           "SpawnDelay": 625.0,
           "TriggerAlarm": false,
-          "IntelMessage": "WARNING: Large biomass detected "
+          "IntelMessage": 2736927834
         },
         {
           "WaveSettings": 82,
           "WavePopulation": 23,
           "SpawnDelay": 840.0,
           "TriggerAlarm": false,
-          "IntelMessage": "<color=orange>[sys_purge]</color> -  initializing phase 2 of 3"
+          "IntelMessage": 747291007
         },
         {
           "WaveSettings": 65,
           "WavePopulation": 22,
           "SpawnDelay": 1105.0,
           "TriggerAlarm": false,
-          "IntelMessage": "WARNING: Large biomass detected "
+          "IntelMessage": 2736927834
         },
         {
           "WaveSettings": 86,
           "WavePopulation": 8,
           "SpawnDelay": 1160.0,
           "TriggerAlarm": false,
-          "IntelMessage": "<color=orange>[sys_purge]</color> -  initializing phase 2.5 of 3"
+          "IntelMessage": 3398203610
         },
         {
           "WaveSettings": 84,
@@ -12469,7 +12469,7 @@
           "WavePopulation": 20,
           "SpawnDelay": 1680.0,
           "TriggerAlarm": false,
-          "IntelMessage": "WARNING: Large biomass detected "
+          "IntelMessage": 2736927834
         },
         {
           "WaveSettings": 88,
@@ -12531,7 +12531,7 @@
           "Delay": 310.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "POWER REROUTE COMPLETE - RESTORING SYSTEMS.. ",
+          "WardenIntel": 3507705662,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 3206896761,
@@ -12609,7 +12609,7 @@
           "Delay": 150.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "WARNING: Security bypass failed, BLKHEAD key required to reach additional depth",
+          "WardenIntel": 1943997805,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,
@@ -12635,7 +12635,7 @@
           "Delay": 1450.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "CRITICAL POWER FAILURE - REROUTING IN PROGRESS..",
+          "WardenIntel": 762852473,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,
@@ -12713,7 +12713,7 @@
           "Delay": 1630.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "POWER REROUTE COMPLETE - RESTORING SYSTEMS.. ",
+          "WardenIntel": 315830339,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,
@@ -12848,7 +12848,7 @@
           "Delay": 0.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "Releasing phase lock to [Zone 179] - Extraction allowed. ",
+          "WardenIntel": 2207614960,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,
@@ -12900,8 +12900,8 @@
       "ActivateHSU_Events": [],
       "Survival_TimeToActivate": 120.0,
       "Survival_TimeToSurvive": 1800.0,
-      "Survival_TimerTitle": "Time until allowed extraction:",
-      "Survival_TimerToActivateTitle": "<color=red>WARNING!</color> Warden Protocol <color=orange>[sys_purge]</color> will commence in: ",
+      "Survival_TimerTitle": 647325299,
+      "Survival_TimerToActivateTitle": 573438790,
       "GatherTerminal_SpawnCount": 0,
       "GatherTerminal_RequiredCount": 0,
       "GatherTerminal_Command": "",
