@@ -563,6 +563,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette020pSon-EA.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "VanityItems",
@@ -1358,6 +1362,10 @@
         },
         {
           "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso005Bishop.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear011.png",
           "Shard": "S1"
         }
       ],

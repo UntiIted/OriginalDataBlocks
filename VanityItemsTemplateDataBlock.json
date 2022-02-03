@@ -113,6 +113,16 @@
       "persistentID": 45
     },
     {
+      "publicName": "Oblique Tigris",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear011.png",
+      "name": "Headgear011",
+      "internalEnabled": true,
+      "persistentID": 60
+    },
+    {
       "publicName": "Woods' Mask",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear003WoodsOriginal/Headgear003WoodsOriginal.prefab",
@@ -543,5 +553,5 @@
       "persistentID": 59
     }
   ],
-  "LastPersistentID": 59
+  "LastPersistentID": 64
 }

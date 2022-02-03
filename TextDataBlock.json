@@ -1963,7 +1963,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Вы завершите экспедицию, покинете напарников и вернетесь в меню кампании.\n\n<size=90%><color=orange>ВНИМАНИЕ! Все собранные артефакты ИСЧЕЗНУТ. Вы <u>НЕ</u> получите усилители.</color></size>",
+        "Translation": "Вы завершите экспедицию, покинете напарников и вернетесь в меню кампании.\n\n<size=90%><color=orange>ВНИМАНИЕ! Все собранные артефакты ИСЧЕЗНУТ. Вы <b>НЕ</b> получите усилители.</color></size>",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -2394,6 +2394,63 @@
       "name": "MainMenu.RundownPage.ExpeditionWindow.InteruptedComminucations",
       "internalEnabled": true,
       "persistentID": 38
+    },
+    {
+      "SkipLocalization": false,
+      "English": "Drop the Item",
+      "MaxCharacterLength": 0,
+      "Description": "In communication list. This is the caption of the button that gives the tells someone to drop the expedition item they are carrying",
+      "CharacterMetaData": 1,
+      "Mood": "None",
+      "French": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Italian": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "German": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Spanish": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Russian": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Portuguese_Brazil": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Polish": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Japanese": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Korean": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Chinese_Traditional": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "Chinese_Simplified": {
+        "Translation": "",
+        "ShouldTranslate": true
+      },
+      "ExportVersion": 2,
+      "ImportVersion": 0,
+      "name": "PlayerDialogData.CommunicationList.DropTheItem",
+      "internalEnabled": true,
+      "persistentID": 3030182974
     },
     {
       "SkipLocalization": false,
@@ -33826,7 +33883,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "<b><size=150%>ОТПРАВИТЬ ID ЛОББИ</size></b>\nЛюбой заключенный (не только друг) может нажать кнопку и присоединиться к вашей кампании, если <u>скопирует</u> ID вашего лобби.",
+        "Translation": "<b><size=150%>ОТПРАВИТЬ ID ЛОББИ</size></b>\nЛюбой заключенный (не только друг) может нажать кнопку и присоединиться к вашей кампании, если <b>скопирует</b> ID вашего лобби.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
@@ -89914,7 +89971,7 @@
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "Найдите <u>терминалы подключения</u> ([ALL_ITEMS]) и установите внешнее подключение с каждого терминала.",
+        "Translation": "Найдите <b>терминалы подключения</b> ([ALL_ITEMS]) и установите внешнее подключение с каждого терминала.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {

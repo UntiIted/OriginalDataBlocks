@@ -77,6 +77,14 @@
     },
     {
       "Items": [
+        60
+      ],
+      "name": "ChineseNewYear2022 DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "Items": [
         5,
         18,
         19,
@@ -174,5 +182,5 @@
       "persistentID": 20
     }
   ],
-  "LastPersistentID": 20
+  "LastPersistentID": 21
 }
