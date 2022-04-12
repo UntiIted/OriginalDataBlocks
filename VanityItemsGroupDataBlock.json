@@ -85,6 +85,14 @@
     },
     {
       "Items": [
+        65
+      ],
+      "name": "ExtraExpeditions6.5 DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "Items": [
         5,
         18,
         19,
@@ -182,5 +190,5 @@
       "persistentID": 20
     }
   ],
-  "LastPersistentID": 21
+  "LastPersistentID": 22
 }

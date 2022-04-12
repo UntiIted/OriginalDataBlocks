@@ -1,2 +1,4 @@
 Normal
 Story
+External
+ExternalStory

@@ -351,6 +351,14 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjRagingBoss.prefab",
           "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjNotTargetingBigFast.prefab",
+          "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjNotTargetingSmallPellet.prefab",
+          "Shard": "S5"
         }
       ],
       "name": "Projectiles",
@@ -778,6 +786,14 @@
         },
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_Medium_RequireAll.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics.prefab",
           "Shard": "S1"
         }
       ],
@@ -1366,6 +1382,10 @@
         },
         {
           "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear011.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear012.png",
           "Shard": "S1"
         }
       ],

@@ -333,6 +333,16 @@
       "persistentID": 7
     },
     {
+      "WaveRoleWeakling": 35,
+      "WaveRoleStandard": 35,
+      "WaveRoleSpecial": 35,
+      "WaveRoleMiniBoss": 35,
+      "WaveRoleBoss": 35,
+      "name": "Shadows_BigsOnly",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
       "WaveRoleWeakling": 21,
       "WaveRoleStandard": 21,
       "WaveRoleSpecial": 42,
@@ -351,6 +361,16 @@
       "name": "Flyers",
       "internalEnabled": true,
       "persistentID": 35
+    },
+    {
+      "WaveRoleWeakling": 45,
+      "WaveRoleStandard": 45,
+      "WaveRoleSpecial": 45,
+      "WaveRoleMiniBoss": 45,
+      "WaveRoleBoss": 45,
+      "name": "Flyers_Big",
+      "internalEnabled": true,
+      "persistentID": 37
     },
     {
       "WaveRoleWeakling": 13,
@@ -383,5 +403,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 36
+  "LastPersistentID": 38
 }

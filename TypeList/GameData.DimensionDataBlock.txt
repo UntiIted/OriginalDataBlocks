@@ -59,10 +59,10 @@ DimensionData: DimensionData
                Boolean: HasTranslation
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
+            (enum) eWardenObjectiveEventType: Type
             (enum) eWardenObjectiveEventTrigger: Trigger
             UInt32: ChainPuzzle
             Boolean: UseStaticBioscanPoints
-            (enum) eWardenObjectiveEventType: Type
             (enum) LG_LayerType: Layer
             (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
@@ -94,6 +94,10 @@ DimensionData: DimensionData
                   String: UntranslatedText
                   UInt32: Id
                   Boolean: HasTranslation
+            Vector3: Position
+            Int32: Count
+            Boolean: Enabled
+            String: WorldEventObjectFilter
          (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData
          (enum) TERM_State: StartingState
@@ -113,10 +117,10 @@ DimensionData: DimensionData
             Int32: StaticSeed
    Boolean: ForbidTerminalsInDimension
    List<WardenObjectiveEventData>: EventsOnBossDeath
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -148,6 +152,10 @@ DimensionData: DimensionData
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    Boolean: IsOutside
    Single: LightAzimuth
    Single: LightElevation

@@ -56,6 +56,10 @@ RundownStorytellingData: StorytellingData
       String: UntranslatedText
       UInt32: Id
       Boolean: HasTranslation
+   LocalizedText: ExternalExpTitle
+      String: UntranslatedText
+      UInt32: Id
+      Boolean: HasTranslation
 UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
    Int32: HostIDSeed
@@ -74,6 +78,7 @@ List<ExpeditionInTierData>: TierA
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      Boolean: SkipExpNumberInName
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -96,6 +101,7 @@ List<ExpeditionInTierData>: TierA
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
       UInt32: ComplexResourceData
+      UInt32: MLSLevelKit
       UInt32: LightSettings
       UInt32: FogSettings
       UInt32: EnemyPopulation
@@ -232,6 +238,8 @@ List<ExpeditionInTierData>: TierA
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+   Boolean: HasExternalStyle
+   Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierB
    Int32: HostIDSeed
    Int32: SessionSeed
@@ -249,6 +257,7 @@ List<ExpeditionInTierData>: TierB
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      Boolean: SkipExpNumberInName
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -271,6 +280,7 @@ List<ExpeditionInTierData>: TierB
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
       UInt32: ComplexResourceData
+      UInt32: MLSLevelKit
       UInt32: LightSettings
       UInt32: FogSettings
       UInt32: EnemyPopulation
@@ -407,6 +417,8 @@ List<ExpeditionInTierData>: TierB
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+   Boolean: HasExternalStyle
+   Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierC
    Int32: HostIDSeed
    Int32: SessionSeed
@@ -424,6 +436,7 @@ List<ExpeditionInTierData>: TierC
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      Boolean: SkipExpNumberInName
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -446,6 +459,7 @@ List<ExpeditionInTierData>: TierC
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
       UInt32: ComplexResourceData
+      UInt32: MLSLevelKit
       UInt32: LightSettings
       UInt32: FogSettings
       UInt32: EnemyPopulation
@@ -582,6 +596,8 @@ List<ExpeditionInTierData>: TierC
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+   Boolean: HasExternalStyle
+   Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierD
    Int32: HostIDSeed
    Int32: SessionSeed
@@ -599,6 +615,7 @@ List<ExpeditionInTierData>: TierD
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      Boolean: SkipExpNumberInName
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -621,6 +638,7 @@ List<ExpeditionInTierData>: TierD
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
       UInt32: ComplexResourceData
+      UInt32: MLSLevelKit
       UInt32: LightSettings
       UInt32: FogSettings
       UInt32: EnemyPopulation
@@ -757,6 +775,8 @@ List<ExpeditionInTierData>: TierD
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+   Boolean: HasExternalStyle
+   Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierE
    Int32: HostIDSeed
    Int32: SessionSeed
@@ -774,6 +794,7 @@ List<ExpeditionInTierData>: TierE
       String: Prefix
       String: PublicName
       Boolean: IsExtraExpedition
+      Boolean: SkipExpNumberInName
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -796,6 +817,7 @@ List<ExpeditionInTierData>: TierE
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
       UInt32: ComplexResourceData
+      UInt32: MLSLevelKit
       UInt32: LightSettings
       UInt32: FogSettings
       UInt32: EnemyPopulation
@@ -932,6 +954,8 @@ List<ExpeditionInTierData>: TierE
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+   Boolean: HasExternalStyle
+   Boolean: HasStoryStyle
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

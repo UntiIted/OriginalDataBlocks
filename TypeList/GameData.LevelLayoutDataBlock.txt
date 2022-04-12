@@ -37,10 +37,10 @@ List<ExpeditionZoneData>: Zones
          Boolean: Enabled
          UInt32: SoundEvent
    List<WardenObjectiveEventData>: EventsOnPortalWarp
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -72,11 +72,15 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnApproachDoor
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -108,11 +112,15 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnUnlockDoor
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -144,11 +152,15 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnOpenDoor
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -180,11 +192,15 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnDoorScanStart
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -216,11 +232,15 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnDoorScanDone
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -252,11 +272,15 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnBossDeath
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -288,6 +312,51 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
+   List<WorldEventFromSourceData>: EventsOnTrigger
+      String: WorldEventTriggerObjectFilter
+      (enum) eWardenObjectiveEventType: Type
+      (enum) eWardenObjectiveEventTrigger: Trigger
+      UInt32: ChainPuzzle
+      Boolean: UseStaticBioscanPoints
+      (enum) LG_LayerType: Layer
+      (enum) eDimensionIndex: DimensionIndex
+      (enum) eLocalZoneIndex: LocalIndex
+      Single: Delay
+      Single: Duration
+      Boolean: ClearDimension
+      LocalizedText: WardenIntel
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjectiveHeader
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      LocalizedText: CustomSubObjective
+         String: UntranslatedText
+         UInt32: Id
+         Boolean: HasTranslation
+      UInt32: SoundID
+      UInt32: DialogueID
+      UInt32: FogSetting
+      Single: FogTransitionDuration
+      GenericEnemyWaveData: EnemyWaveData
+         UInt32: WaveSettings
+         UInt32: WavePopulation
+         Single: SpawnDelay
+         Boolean: TriggerAlarm
+         LocalizedText: IntelMessage
+            String: UntranslatedText
+            UInt32: Id
+            Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    ProgressionPuzzleData: ProgressionPuzzleToEnter
       (enum) eProgressionPuzzleType: PuzzleType
       LocalizedText: CustomText
@@ -314,10 +383,10 @@ List<ExpeditionZoneData>: Zones
       Int32: TerminalIndex
       Int32: StaticSeed
    List<WardenObjectiveEventData>: EventsOnTerminalDeactivateAlarm
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -349,6 +418,10 @@ List<ExpeditionZoneData>: Zones
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
    ActiveEnemyWaveData: ActiveEnemyWave
       Boolean: HasActiveEnemyWave
       UInt32: EnemyGroupInfrontOfDoor
@@ -403,10 +476,10 @@ List<ExpeditionZoneData>: Zones
                Boolean: HasTranslation
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
+            (enum) eWardenObjectiveEventType: Type
             (enum) eWardenObjectiveEventTrigger: Trigger
             UInt32: ChainPuzzle
             Boolean: UseStaticBioscanPoints
-            (enum) eWardenObjectiveEventType: Type
             (enum) LG_LayerType: Layer
             (enum) eDimensionIndex: DimensionIndex
             (enum) eLocalZoneIndex: LocalIndex
@@ -438,6 +511,10 @@ List<ExpeditionZoneData>: Zones
                   String: UntranslatedText
                   UInt32: Id
                   Boolean: HasTranslation
+            Vector3: Position
+            Int32: Count
+            Boolean: Enabled
+            String: WorldEventObjectFilter
          (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData
          (enum) TERM_State: StartingState

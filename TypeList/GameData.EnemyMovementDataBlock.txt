@@ -15,6 +15,7 @@ Boolean: AllowClimbDownLadders
 (enum) ES_StateEnum: LocomotionHitReact
 (enum) ES_StateEnum: LocomotionDead
 (enum) ES_StateEnum: LocomotionShooterAttack
+(enum) ES_StateEnum: LocomotionScream
 String: name
 Boolean: internalEnabled
 Boolean: internalForceRebuild

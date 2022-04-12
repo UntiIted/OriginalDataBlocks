@@ -264,6 +264,35 @@
     },
     {
       "Health": {
+        "HealthMax": 150.0,
+        "DamageUntilHitreact": 150.0,
+        "BodypartHealth": 150.0,
+        "WeakspotDamageMulti": 3.0,
+        "ArmorDamageMulti": 0.0001,
+        "HitreactOnLimbDestruction": "Light",
+        "TryForceHitreactOnLimbDestruction": false
+      },
+      "GlueTolerance": 4.0,
+      "GlueFadeOutTime": 8.0,
+      "CanBePushed": true,
+      "ForbidTwitchHit": true,
+      "AllowDamgeBonusFromBehind": true,
+      "UseTentacleTunnelCheck": true,
+      "UseVisibilityRaycastDuringTentacleAttack": false,
+      "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+      "TentacleAttackDamage": 3.0,
+      "MeleeAttackDamage": 3.0,
+      "MeleeAttackDamageCheckRadius": 1.0,
+      "TagTime": 60.0,
+      "EnemyCollisionRadius": 0.2,
+      "EnemyCollisionPlayerMovementReduction": 0.2,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.3,
+      "name": "Flyer_Big",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "Health": {
         "HealthMax": 30.0,
         "DamageUntilHitreact": 5.0,
         "BodypartHealth": 25.0,
@@ -437,5 +466,5 @@
       "persistentID": 35
     }
   ],
-  "LastPersistentID": 35
+  "LastPersistentID": 36
 }

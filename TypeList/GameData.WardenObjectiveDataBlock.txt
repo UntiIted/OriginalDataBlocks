@@ -76,10 +76,10 @@ List<GenericEnemyWaveData>: WavesOnElevatorLand
       UInt32: Id
       Boolean: HasTranslation
 List<WardenObjectiveEventData>: EventsOnElevatorLand
+   (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
    UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
-   (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
@@ -111,6 +111,10 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
          String: UntranslatedText
          UInt32: Id
          Boolean: HasTranslation
+   Vector3: Position
+   Int32: Count
+   Boolean: Enabled
+   String: WorldEventObjectFilter
 LocalizedText: WaveOnElevatorWardenIntel
    String: UntranslatedText
    UInt32: Id
@@ -128,10 +132,10 @@ List<GenericEnemyWaveData>: WavesOnActivate
       UInt32: Id
       Boolean: HasTranslation
 List<WardenObjectiveEventData>: EventsOnActivate
+   (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
    UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
-   (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
@@ -163,6 +167,10 @@ List<WardenObjectiveEventData>: EventsOnActivate
          String: UntranslatedText
          UInt32: Id
          Boolean: HasTranslation
+   Vector3: Position
+   Int32: Count
+   Boolean: Enabled
+   String: WorldEventObjectFilter
 Boolean: StopAllWavesBeforeGotoWin
 List<GenericEnemyWaveData>: WavesOnGotoWin
    UInt32: WaveSettings
@@ -175,10 +183,10 @@ List<GenericEnemyWaveData>: WavesOnGotoWin
       Boolean: HasTranslation
 (enum) eRetrieveExitWaveTrigger: WaveOnGotoWinTrigger
 List<WardenObjectiveEventData>: EventsOnGotoWin
+   (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
    UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
-   (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
@@ -210,6 +218,10 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
          String: UntranslatedText
          UInt32: Id
          Boolean: HasTranslation
+   Vector3: Position
+   Int32: Count
+   Boolean: Enabled
+   String: WorldEventObjectFilter
 (enum) eRetrieveExitWaveTrigger: EventsOnGotoWinTrigger
 UInt32: FogTransitionDataOnGotoWin
 Single: FogTransitionDurationOnGotoWin
@@ -239,10 +251,10 @@ List<ReactorWaveData>: ReactorWaves
       Single: SpawnTimeRel
       (enum) eReactorWaveSpawnType: SpawnType
    List<WardenObjectiveEventData>: Events
+      (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
       UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
-      (enum) eWardenObjectiveEventType: Type
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
       (enum) eLocalZoneIndex: LocalIndex
@@ -274,6 +286,10 @@ List<ReactorWaveData>: ReactorWaves
             String: UntranslatedText
             UInt32: Id
             Boolean: HasTranslation
+      Vector3: Position
+      Int32: Count
+      Boolean: Enabled
+      String: WorldEventObjectFilter
 Boolean: LightsOnFromBeginning
 Boolean: LightsOnDuringIntro
 Boolean: LightsOnWhenStartupComplete
@@ -297,10 +313,10 @@ Boolean: ActivateHSU_StopEnemyWavesOnActivation
 Boolean: ActivateHSU_ObjectiveCompleteAfterInsertion
 Boolean: ActivateHSU_RequireItemAfterActivationInExitScan
 List<WardenObjectiveEventData>: ActivateHSU_Events
+   (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
    UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
-   (enum) eWardenObjectiveEventType: Type
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
    (enum) eLocalZoneIndex: LocalIndex
@@ -332,6 +348,10 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
          String: UntranslatedText
          UInt32: Id
          Boolean: HasTranslation
+   Vector3: Position
+   Int32: Count
+   Boolean: Enabled
+   String: WorldEventObjectFilter
 Single: Survival_TimeToActivate
 Single: Survival_TimeToSurvive
 LocalizedText: Survival_TimerTitle

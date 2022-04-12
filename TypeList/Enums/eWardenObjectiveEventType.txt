@@ -11,4 +11,6 @@ SpawnEnemyWave
 StopEnemyWaves
 UpdateCustomSubObjective
 ForceCompleteObjective
+LightsInZone
+LightsInZoneToggle
 EventBreak

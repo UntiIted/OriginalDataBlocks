@@ -123,6 +123,16 @@
       "persistentID": 60
     },
     {
+      "publicName": "Twin Barrel Blade Visor Mark I",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear012/Headgear012.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear012.png",
+      "name": "Headgear012",
+      "internalEnabled": true,
+      "persistentID": 65
+    },
+    {
       "publicName": "Woods' Mask",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear003WoodsOriginal/Headgear003WoodsOriginal.prefab",
@@ -553,5 +563,5 @@
       "persistentID": 59
     }
   ],
-  "LastPersistentID": 64
+  "LastPersistentID": 66
 }

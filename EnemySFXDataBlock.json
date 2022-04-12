@@ -130,6 +130,38 @@
       "persistentID": 35
     },
     {
+      "SFX_ID_walk": 125945490,
+      "SFX_ID_run": 0,
+      "SFX_ID_climbLadder": 0,
+      "SFX_ID_heartbeatPulse": 0,
+      "SFX_ID_hibernateIdle": 2209321909,
+      "hibernateIdleInterval": {
+        "x": 60.0,
+        "y": 120.0
+      },
+      "SFX_ID_hibernateWakeUp": 0,
+      "SFX_ID_hibernateDie": 884101509,
+      "SFX_ID_hibernateDetectionStart": 1777084894,
+      "SFX_ID_scream": 748973542,
+      "SFX_ID_stuckInGlue": 3786569782,
+      "SFX_ID_releaseFromGlue": 748973542,
+      "SFX_ID_attackWindUp": 180748471,
+      "SFX_ID_attackWindUp_NotLocalTarget": 0,
+      "SFX_ID_attackFire": 2310769654,
+      "SFX_ID_hurtSmall": 3786569782,
+      "SFX_ID_hurtBig": 1565647817,
+      "SFX_ID_die": 884101509,
+      "SFX_ID_JumpStart": 0,
+      "SFX_ID_JumpInAir": 0,
+      "SFX_ID_JumpLand": 0,
+      "SFX_ID_BigTentacleStart": 0,
+      "SFX_ID_BigTentacleTipLoop": 0,
+      "SFX_ID_BigTentacleEnd": 0,
+      "name": "Flyer_Big",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
       "SFX_ID_walk": 1368628755,
       "SFX_ID_run": 327950447,
       "SFX_ID_climbLadder": 0,
@@ -450,5 +482,5 @@
       "persistentID": 36
     }
   ],
-  "LastPersistentID": 36
+  "LastPersistentID": 37
 }

@@ -3162,6 +3162,16 @@
           "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_hub_HA_03_V2.prefab",
           "SubComplex": "All",
           "Shard": "S8"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_destroyed_HA_03.prefab",
+          "SubComplex": "All",
+          "Shard": "S8"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_data_center_hub_SF_ConduitVersion.prefab",
+          "SubComplex": "All",
+          "Shard": "S10"
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [
@@ -4525,6 +4535,11 @@
           "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_SF_01.prefab",
           "SubComplex": "Floodways",
           "Shard": "S6"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_SF_02.prefab",
+          "SubComplex": "Floodways",
+          "Shard": "S4"
         }
       ],
       "CustomGeomorphs_Challenge_1x1": [],
@@ -4645,6 +4660,16 @@
         },
         {
           "Prefab": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_Boss_flash.prefab",
+          "SubComplex": "All",
+          "Shard": "S8"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_Mining_Shaft.prefab",
+          "SubComplex": "All",
+          "Shard": "S8"
+        },
+        {
+          "Prefab": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_R6A2.prefab",
           "SubComplex": "All",
           "Shard": "S8"
         }
@@ -5717,7 +5742,7 @@
       },
       "GeomorphTiles_1x1": [
         {
-          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_JG_01.prefab",
+          "Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_JG_02.prefab",
           "SubComplex": "Refinery",
           "Shard": "S10"
         }

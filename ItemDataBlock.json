@@ -362,7 +362,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_melee_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Melee/MeleeWeaponFirstPerson.prefab"
       ],
@@ -409,7 +409,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_melee_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Melee/MeleeWeaponFirstPersonSpear.prefab"
       ],
@@ -456,7 +456,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_melee_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Melee/MeleeWeaponFirstPersonBat.prefab"
       ],
@@ -503,7 +503,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_melee_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Melee/MeleeWeaponFirstPersonKnife.prefab"
       ],
@@ -795,7 +795,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Tools/HackingToool/HackingToolFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Tools/HackingToool/HackingToolModel.prefab"
@@ -1488,7 +1488,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/Flare/Consumable_Flare.prefab",
         "Assets/AssetPrefabs/Items/Consumables/Flare/Consumable_Flare_payload.prefab"
@@ -1542,7 +1542,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 3,
       "ConsumableAmmoMax": 5,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/FlashlightMedium/Consumable_FlashlightFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/FlashlightMedium/Consumable_MediumFlashlight.prefab"
@@ -1593,7 +1593,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 12,
       "ConsumableAmmoMax": 12,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick.prefab"
@@ -1646,7 +1646,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 12,
       "ConsumableAmmoMax": 12,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Christmas.prefab"
@@ -1699,7 +1699,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 12,
       "ConsumableAmmoMax": 12,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Halloween.prefab"
@@ -1752,7 +1752,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 12,
       "ConsumableAmmoMax": 12,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/Syringe/Consumable_Syringe_Health_FirstPerson.prefab"
       ],
@@ -1803,7 +1803,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 12,
       "ConsumableAmmoMax": 12,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/Syringe/Consumable_Syringe_MeleeBuff_FirstPerson.prefab"
       ],
@@ -1854,7 +1854,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 12,
       "ConsumableAmmoMax": 12,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick.prefab"
@@ -1907,7 +1907,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 1,
       "ConsumableAmmoMax": 1,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/GlueGrenade/Consumable_GlueGrenade.prefab"
@@ -1960,7 +1960,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 3,
       "ConsumableAmmoMax": 5,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/LockMelter/Consumable_LockMelter_FirstPerson.prefab"
       ],
@@ -2011,7 +2011,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 3,
       "ConsumableAmmoMax": 5,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
         "Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller.prefab"
@@ -2064,7 +2064,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 1,
       "ConsumableAmmoMax": 1,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/Tripmine/Consumable_Tripmine_FirstPerson.prefab"
       ],
@@ -2115,7 +2115,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 1,
       "ConsumableAmmoMax": 1,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/ShapedMine/Consumable_ShapedMine_FirstPerson.prefab"
       ],
@@ -2166,7 +2166,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 1,
       "ConsumableAmmoMax": 1,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/Tripmine/Consumable_Tripmine_Glue_FirstPerson.prefab"
       ],
@@ -2217,7 +2217,7 @@
       "ClassAmmoCostFactor": 1.0,
       "ConsumableAmmoMin": 1,
       "ConsumableAmmoMax": 1,
-      "audioEventEquip": "",
+      "audioEventEquip": "foley_equip_generic",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Tools/Barrier/BarrierFirstPerson.prefab"
       ],

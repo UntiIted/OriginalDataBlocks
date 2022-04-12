@@ -2209,6 +2209,92 @@
       "persistentID": 42
     },
     {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/FlyerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/FlyerBig/FlyerBig_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/FlyerBig/Customization_FlyerBig.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 0.8,
+            "y": 1.0
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 39,
+      "MovementDataId": 37,
+      "BalancingDataId": 36,
+      "SFXDataId": 37,
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmall_ShotgunChoke.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 5.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Flyer_Big",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
       "EnemyType": "Boss",
       "AssetBundle": "Enemies",
       "BundleShard": "S1",
@@ -2770,5 +2856,5 @@
       "persistentID": 44
     }
   ],
-  "LastPersistentID": 44
+  "LastPersistentID": 45
 }

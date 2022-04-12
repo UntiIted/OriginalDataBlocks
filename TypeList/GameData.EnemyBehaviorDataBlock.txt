@@ -45,6 +45,7 @@ Single: PropagationDistance
 Boolean: DisableTargetPreferenceWeight
 Boolean: IsFlyer
 (enum) AgentMode: Flyer_HibernateRemap
+Int32: Flyer_PathingNodeMargin
 MinMaxValue: PathingTargetOffsetY
    Single: Min
    Single: Max
@@ -58,6 +59,9 @@ Single: Flyer_Acceleration
 Single: Flyer_Deceleration
 Single: Flyer_SpeedMultipler
 MinMaxValue: Flyer_AttackChargeDuration
+   Single: Min
+   Single: Max
+MinMaxValue: Flyer_AttackDuration
    Single: Min
    Single: Max
 MinMaxValue: Flyer_BackToMovementAfterAttack

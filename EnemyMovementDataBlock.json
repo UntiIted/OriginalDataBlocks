@@ -19,6 +19,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Shadow",
       "internalEnabled": true,
       "persistentID": 21
@@ -41,6 +42,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Striker",
       "internalEnabled": true,
       "persistentID": 13
@@ -63,6 +65,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Striker_Child",
       "internalEnabled": true,
       "persistentID": 33
@@ -85,6 +88,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Striker_Big",
       "internalEnabled": true,
       "persistentID": 16
@@ -107,6 +111,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Tank",
       "internalEnabled": true,
       "persistentID": 34
@@ -129,6 +134,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Striker_Boss",
       "internalEnabled": true,
       "persistentID": 19
@@ -151,6 +157,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Striker_Bullrush",
       "internalEnabled": true,
       "persistentID": 28
@@ -173,6 +180,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Striker_Patrol",
       "internalEnabled": true,
       "persistentID": 29
@@ -195,6 +203,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Shooter",
       "internalEnabled": true,
       "persistentID": 11
@@ -217,9 +226,33 @@
       "LocomotionHitReact": "HitReactFlyer",
       "LocomotionDead": "DeadFlyer",
       "LocomotionShooterAttack": "ShooterAttackFlyer",
+      "LocomotionScream": "ScreamFlyer",
       "name": "Flyer",
       "internalEnabled": true,
       "persistentID": 35
+    },
+    {
+      "ForceDisableAnimator": true,
+      "AnimationControllers": -2006,
+      "MoveSlowerWhenInPlayerRoom": false,
+      "MoveSlowerWithinTargetDistance": 10.0,
+      "GlobalAnimSpeedMulti": 1.5,
+      "PathMoveAnimSpeedMulti": 1.0,
+      "RotationLerp": 0.5,
+      "RotationLerpWhenNotMoving": 1.0,
+      "BlendIntoAttackAnim": 0.15,
+      "BlendIntoScreamAnim": 0.15,
+      "AllowMovmentBlendOutOfPathMove": false,
+      "PathMoveAnimDampTime": 0.05,
+      "AllowClimbDownLadders": false,
+      "LocomotionPathMove": "PathMoveFlyer",
+      "LocomotionHitReact": "HitReactFlyer",
+      "LocomotionDead": "DeadFlyer",
+      "LocomotionShooterAttack": "ShooterAttackFlyer",
+      "LocomotionScream": "ScreamFlyer",
+      "name": "Flyer_Big",
+      "internalEnabled": true,
+      "persistentID": 37
     },
     {
       "ForceDisableAnimator": true,
@@ -239,6 +272,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "DeadSquidBoss",
       "LocomotionShooterAttack": "ShooterAttackFlyer",
+      "LocomotionScream": "Scream",
       "name": "SquidBossBig",
       "internalEnabled": true,
       "persistentID": 36
@@ -261,6 +295,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Birther",
       "internalEnabled": true,
       "persistentID": 31
@@ -283,6 +318,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Birther_Boss",
       "internalEnabled": true,
       "persistentID": 32
@@ -305,6 +341,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "Scout",
       "internalEnabled": true,
       "persistentID": 20
@@ -327,6 +364,7 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "ShooterBig_RapdiFire",
       "internalEnabled": true,
       "persistentID": 18
@@ -349,10 +387,11 @@
       "LocomotionHitReact": "Hitreact",
       "LocomotionDead": "Dead",
       "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
       "name": "ShooterBig",
       "internalEnabled": true,
       "persistentID": 30
     }
   ],
-  "LastPersistentID": 36
+  "LastPersistentID": 37
 }
