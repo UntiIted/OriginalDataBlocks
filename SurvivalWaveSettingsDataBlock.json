@@ -1237,7 +1237,7 @@
     },
     {
       "m_pauseBeforeStart": 3.0,
-      "m_pauseBetweenGroups": 70.0,
+      "m_pauseBetweenGroups": 60.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 10.0,
       "m_wavePauseMin": 1.0,
@@ -1255,8 +1255,8 @@
       "m_populationPointsPerWaveEnd": 10000.0,
       "m_populationPointsMinPerGroup": 1.0,
       "m_populationPointsPerGroupStart": 1.0,
-      "m_populationPointsPerGroupEnd": 1.0,
-      "m_populationRampOverTime": 720.0,
+      "m_populationPointsPerGroupEnd": 2.0,
+      "m_populationRampOverTime": 240.0,
       "name": "Uplink trickle FogChase WSp_Flyers_Big",
       "internalEnabled": true,
       "persistentID": 132
@@ -1280,9 +1280,9 @@
       "m_populationPointsPerWaveStart": 10000.0,
       "m_populationPointsPerWaveEnd": 10000.0,
       "m_populationPointsMinPerGroup": 2.0,
-      "m_populationPointsPerGroupStart": 3.0,
-      "m_populationPointsPerGroupEnd": 5.0,
-      "m_populationRampOverTime": 900.0,
+      "m_populationPointsPerGroupStart": 4.0,
+      "m_populationPointsPerGroupEnd": 6.0,
+      "m_populationRampOverTime": 660.0,
       "name": "Uplink trickle FogChase WSp_Flyers_Small",
       "internalEnabled": true,
       "persistentID": 133

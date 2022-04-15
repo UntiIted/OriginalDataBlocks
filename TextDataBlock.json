@@ -100152,56 +100152,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Proceed immediately to Zone 82 and confirm status of Specimen 22. ",
+      "English": "Proceed immediately to Zone 82 and confirm status of Unit 22. ",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
         "Translation": "Rendez-vous immédiatement dans la Zone 82 et confirmez l'état du spécimen 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Italian": {
         "Translation": "Procedere immediatamente alla Zone 82 e confermare lo stato dell'Esemplare 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "German": {
         "Translation": "Begeben Sie sich sofort zu Zone 82 und bestätigen Sie den Status von Exemplar 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Spanish": {
         "Translation": "Acude inmediatamente a Zone 82 y confirma el estado del espécimen 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Russian": {
         "Translation": "Немедленно отправляйтесь в Zone 82 и подтвердите статус особи 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Portuguese_Brazil": {
         "Translation": "Vá imediatamente até a Zone 82 e confirme o status do Espécimen 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Polish": {
         "Translation": "Przejdź bezzwłocznie do strefy 82 i potwierdź stan okazu nr 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Japanese": {
         "Translation": "即座にZone 82へ進み、標本22の状況を確認しろ。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Korean": {
         "Translation": "즉시 Zone 82로 이동해 표본 22의 상태를 확인할 것.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Traditional": {
         "Translation": "立即前往Zone 82並確認樣本22號的狀態。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Simplified": {
         "Translation": "立即前往ZONE 82，确认样本22的状态。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
-      "ExportVersion": 3,
+      "ExportVersion": 4,
       "ImportVersion": 3,
       "name": "WardenObjective.SubObjective.DX.ConduitCheck",
       "internalEnabled": true,
@@ -100209,7 +100209,7 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Status of specimen 22 confirmed. Proceed to elevator. ",
+      "English": "Status of Unit 22 confirmed. Proceed to elevator. ",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
@@ -100258,7 +100258,7 @@
         "Translation": "",
         "ShouldTranslate": true
       },
-      "ExportVersion": 1,
+      "ExportVersion": 2,
       "ImportVersion": 0,
       "name": "WardenObjective.SubObjective.DX.ConduitFound.Exit",
       "internalEnabled": true,
@@ -100323,56 +100323,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Proceed immediately to Zone 82 and confirm status of Specimen 22. ",
+      "English": "Proceed immediately to Zone 82 and confirm status of Unit 22. ",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
         "Translation": "Rendez-vous immédiatement dans la Zone 82 et confirmez l'état du spécimen 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Italian": {
         "Translation": "Procedere immediatamente alla Zone 82 e confermare lo stato dell'Esemplare 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "German": {
         "Translation": "Begeben Sie sich sofort zu Zone 82 und bestätigen Sie den Status von Exemplar 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Spanish": {
         "Translation": "Acude inmediatamente a Zone 82 y confirma el estado del espécimen 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Russian": {
         "Translation": "Немедленно отправляйтесь в Zone 82 и подтвердите статус особи 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Portuguese_Brazil": {
         "Translation": "Vá imediatamente até a Zone 82 e confirme o status do Espécimen 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Polish": {
         "Translation": "Przejdź bezzwłocznie do strefy 82 i potwierdź stan okazu nr 22.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Japanese": {
         "Translation": "即座にZone 82へ進み、標本22の状況を確認しろ。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Korean": {
         "Translation": "즉시 Zone 82로 이동해 표본 22의 상태를 확인할 것.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Traditional": {
         "Translation": "立即前往Zone 82並確認樣本22號的狀態。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Simplified": {
         "Translation": "立即前往ZONE 82，确认样本22的状态。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
-      "ExportVersion": 4,
+      "ExportVersion": 5,
       "ImportVersion": 4,
       "name": "WardenObjective.SubObjective.DX.LocateConduitInGeo",
       "internalEnabled": true,
@@ -101178,56 +101178,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "Status of specimen 22 confirmed. Proceed to elevator. ",
+      "English": "Status of Unit 22 confirmed. Proceed to elevator. ",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": "None",
       "French": {
         "Translation": "État du spécimen 22 confirmé. Rendez-vous à l'ascenseur.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Italian": {
         "Translation": "Stato dell'Esemplare 22 confermato. Procedere verso l'ascensore.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "German": {
         "Translation": "Status von Exemplar 22 bestätigt. Begeben Sie sich zum Aufzug.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Spanish": {
         "Translation": "Estado de espécimen 22 confirmado. Continúa hasta el ascensor.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Russian": {
         "Translation": "Статус особи 22 подтвержден. Направляйтесь к подъемнику.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Portuguese_Brazil": {
         "Translation": "Status do Espécimen 22 confirmado. Vá até o elevador.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Polish": {
         "Translation": "Potwierdzono stan okazu nr 22. Przejdź do windy.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Japanese": {
         "Translation": "標本22の状況を確認。エレベーターへ進め。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Korean": {
         "Translation": "표본 22 상태 확인됨. 엘리베이터로 이동할 것.",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Traditional": {
         "Translation": "樣本22號的狀態已確認。繼續到電梯。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
       "Chinese_Simplified": {
         "Translation": "样本22状态已确认。前往电梯。",
-        "ShouldTranslate": false
+        "ShouldTranslate": true
       },
-      "ExportVersion": 2,
+      "ExportVersion": 3,
       "ImportVersion": 2,
       "name": "WardenSubObjective.DX.Exit",
       "internalEnabled": true,

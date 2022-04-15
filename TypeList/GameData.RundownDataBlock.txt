@@ -79,6 +79,8 @@ List<ExpeditionInTierData>: TierA
       String: PublicName
       Boolean: IsExtraExpedition
       Boolean: SkipExpNumberInName
+      Boolean: UseCustomMatchmakingTier
+      (enum) eRundownTier: CustomMatchmakingTier
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -258,6 +260,8 @@ List<ExpeditionInTierData>: TierB
       String: PublicName
       Boolean: IsExtraExpedition
       Boolean: SkipExpNumberInName
+      Boolean: UseCustomMatchmakingTier
+      (enum) eRundownTier: CustomMatchmakingTier
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -437,6 +441,8 @@ List<ExpeditionInTierData>: TierC
       String: PublicName
       Boolean: IsExtraExpedition
       Boolean: SkipExpNumberInName
+      Boolean: UseCustomMatchmakingTier
+      (enum) eRundownTier: CustomMatchmakingTier
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -616,6 +622,8 @@ List<ExpeditionInTierData>: TierD
       String: PublicName
       Boolean: IsExtraExpedition
       Boolean: SkipExpNumberInName
+      Boolean: UseCustomMatchmakingTier
+      (enum) eRundownTier: CustomMatchmakingTier
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
@@ -795,6 +803,8 @@ List<ExpeditionInTierData>: TierE
       String: PublicName
       Boolean: IsExtraExpedition
       Boolean: SkipExpNumberInName
+      Boolean: UseCustomMatchmakingTier
+      (enum) eRundownTier: CustomMatchmakingTier
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
