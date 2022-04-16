@@ -1,14 +1,14 @@
-HSU_FindTakeSample
-Reactor_Startup
-Reactor_Shutdown
-GatherSmallItems
-ClearAPath
-SpecialTerminalCommand
-RetrieveBigItems
-PowerCellDistribution
-TerminalUplink
-CentralGeneratorCluster
-ActivateSmallHSU
-Survival
-GatherTerminal
-CorruptedTerminalUplink
+HSU_FindTakeSample - 0
+Reactor_Startup - 1
+Reactor_Shutdown - 2
+GatherSmallItems - 3
+ClearAPath - 4
+SpecialTerminalCommand - 5
+RetrieveBigItems - 6
+PowerCellDistribution - 7
+TerminalUplink - 8
+CentralGeneratorCluster - 9
+ActivateSmallHSU - 10
+Survival - 11
+GatherTerminal - 12
+CorruptedTerminalUplink - 13

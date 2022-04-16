@@ -1,11 +1,11 @@
-IsClose
-IsVeryClose
-IsFarAway
-HasFlashlight
-HasMapper
-HasScanner
-HasGlueGun
-HasLockCutter
-HeavylyArmed
-LowAmmo
-PlentyAmmo
+IsClose - 0
+IsVeryClose - 1
+IsFarAway - 2
+HasFlashlight - 100
+HasMapper - 101
+HasScanner - 102
+HasGlueGun - 103
+HasLockCutter - 104
+HeavylyArmed - 105
+LowAmmo - 200
+PlentyAmmo - 201

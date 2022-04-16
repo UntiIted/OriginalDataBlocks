@@ -1,20 +1,20 @@
-Muzzle
-ShellEject
-Magazine
-Sight
-Flashlight
-SightLook
-LeftHand
-RightHand
-Receiver
-Front
-ToolGrip
-ToolDelivery
-ToolPayload
-ToolTargeting
-ToolScreen
-ToolDetection
-ToolScanning
-MeleeHead
-RotationPivot
-GroundPlacement
+Muzzle - 0
+ShellEject - 1
+Magazine - 2
+Sight - 4
+Flashlight - 5
+SightLook - 6
+LeftHand - 7
+RightHand - 8
+Receiver - 9
+Front - 10
+ToolGrip - 12
+ToolDelivery - 13
+ToolPayload - 14
+ToolTargeting - 15
+ToolScreen - 16
+ToolDetection - 17
+ToolScanning - 18
+MeleeHead - 20
+RotationPivot - 40
+GroundPlacement - 41

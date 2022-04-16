@@ -1,34 +1,34 @@
-None
-StandStill
-PathMove
-Knockdown
-JumpDissolve
-LiquidSnake
-KnockdownRecover
-Hitreact
-ShortcutJump
-FloaterFly
-FloaterHitReact
-Dead
-ScoutDetection
-ScoutScream
-Hibernate
-HibernateWakeUp
-Scream
-StuckInGlue
-ShooterAttack
-StrikerAttack
-TankAttack
-TankMultiTargetAttack
-TentacleDragMove
-StrikerMelee
-ClimbLadder
-Jump
-BirtherGiveBirth
-TriggerFogSphere
-PathMoveFlyer
-HitReactFlyer
-ShooterAttackFlyer
-DeadFlyer
-DeadSquidBoss
-ScreamFlyer
+None - 0
+StandStill - 1
+PathMove - 2
+Knockdown - 3
+JumpDissolve - 4
+LiquidSnake - 5
+KnockdownRecover - 6
+Hitreact - 7
+ShortcutJump - 8
+FloaterFly - 9
+FloaterHitReact - 10
+Dead - 11
+ScoutDetection - 12
+ScoutScream - 13
+Hibernate - 14
+HibernateWakeUp - 15
+Scream - 16
+StuckInGlue - 17
+ShooterAttack - 18
+StrikerAttack - 19
+TankAttack - 20
+TankMultiTargetAttack - 21
+TentacleDragMove - 22
+StrikerMelee - 23
+ClimbLadder - 24
+Jump - 25
+BirtherGiveBirth - 26
+TriggerFogSphere - 27
+PathMoveFlyer - 28
+HitReactFlyer - 29
+ShooterAttackFlyer - 30
+DeadFlyer - 31
+DeadSquidBoss - 32
+ScreamFlyer - 33

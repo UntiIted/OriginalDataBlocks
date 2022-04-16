@@ -1,7 +1,7 @@
-Hibernate
-PureSneak
-Detect
-PureDetect
-Patrol
-Awake
-Hunter
+Hibernate - 0
+PureSneak - 1
+Detect - 2
+PureDetect - 3
+Patrol - 4
+Awake - 5
+Hunter - 6

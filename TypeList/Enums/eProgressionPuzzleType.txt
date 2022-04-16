@@ -1,4 +1,4 @@
-None
-Keycard_SecurityBox
-PowerGenerator_And_PowerCell
-Locked_No_Key
+None - 0
+Keycard_SecurityBox - 1
+PowerGenerator_And_PowerCell - 2
+Locked_No_Key - 3

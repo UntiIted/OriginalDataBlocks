@@ -1,2 +1,2 @@
-CurrentArea
-CurrentZone
+CurrentArea - 0
+CurrentZone - 1

@@ -1,4 +1,4 @@
-Common
-Uncommon
-Rare
-_COUNT
+Common - 0
+Uncommon - 1
+Rare - 2
+_COUNT - 3

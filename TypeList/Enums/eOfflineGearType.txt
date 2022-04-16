@@ -1,4 +1,4 @@
-None
-StandardInventory
-RundownSpecificInventory
-SpawnedInLevel
+None - 0
+StandardInventory - 1
+RundownSpecificInventory - 2
+SpawnedInLevel - 3

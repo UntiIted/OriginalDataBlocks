@@ -1,5 +1,5 @@
-OnStart
-OnButtonA
-OnButtonB
-OnButtonX
-OnButtonY
+OnStart - 0
+OnButtonA - 1
+OnButtonB - 2
+OnButtonX - 3
+OnButtonY - 4

@@ -1,6 +1,6 @@
-DirectPlacement
-DirectPlacementWithRemoteTrigger
-Drone
-LongRangeSemi
-LongRangeBurst
-LongRangeSemiRemoteTrigger
+DirectPlacement - 0
+DirectPlacementWithRemoteTrigger - 1
+Drone - 2
+LongRangeSemi - 3
+LongRangeBurst - 4
+LongRangeSemiRemoteTrigger - 5

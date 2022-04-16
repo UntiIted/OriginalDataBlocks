@@ -1,11 +1,11 @@
-DigSite
-Refinery
-Storage
-DataCenter
-Lab
-All
-Floodways
-Mining_Reactor
-Plug_SubComplex_Transition
-Tech_Reactor
-Tech_Portal
+DigSite - 0
+Refinery - 1
+Storage - 2
+DataCenter - 3
+Lab - 4
+All - 5
+Floodways - 6
+Mining_Reactor - 7
+Plug_SubComplex_Transition - 8
+Tech_Reactor - 9
+Tech_Portal - 10

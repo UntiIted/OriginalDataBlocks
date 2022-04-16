@@ -1,10 +1,10 @@
-WeaponMovementAnim
-FrontPartAnim
-LeftHandAnim
-LeftHandMagAnim
-ReceiverAnim
-Sound
-DoUpdateAmmo
-Empty
-StockAnim
-RightHandAnim
+WeaponMovementAnim - 0
+FrontPartAnim - 1
+LeftHandAnim - 2
+LeftHandMagAnim - 3
+ReceiverAnim - 4
+Sound - 5
+DoUpdateAmmo - 6
+Empty - 7
+StockAnim - 8
+RightHandAnim - 9

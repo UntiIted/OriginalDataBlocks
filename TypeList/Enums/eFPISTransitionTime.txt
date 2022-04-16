@@ -1,2 +1,2 @@
-Quick
-Slow
+Quick - 0
+Slow - 1

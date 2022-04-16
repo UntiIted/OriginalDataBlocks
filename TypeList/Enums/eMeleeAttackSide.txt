@@ -1,4 +1,4 @@
-None
-Right
-Left
-Middle
+None - 0
+Right - 1
+Left - 2
+Middle - 3

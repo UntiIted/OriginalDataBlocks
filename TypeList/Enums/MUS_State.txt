@@ -1,18 +1,18 @@
-None
-StartUp
-MainMenu
-ElevatorIdle
-ElevatorGoingDown
-Exploration
-Tension
-CombatEncounter
-CombatRegular
-CombatHidden
-SurvivalRegular
-SurvivalHidden
-SurvivalExtreme
-SurvivalEpicMoment
-Silence
-TensionMax
-Theme
-Testing
+None - 0
+StartUp - 1
+MainMenu - 2
+ElevatorIdle - 3
+ElevatorGoingDown - 4
+Exploration - 5
+Tension - 6
+CombatEncounter - 7
+CombatRegular - 8
+CombatHidden - 9
+SurvivalRegular - 10
+SurvivalHidden - 11
+SurvivalExtreme - 12
+SurvivalEpicMoment - 13
+Silence - 14
+TensionMax - 15
+Theme - 16
+Testing - 17

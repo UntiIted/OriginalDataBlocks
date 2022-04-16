@@ -1,55 +1,55 @@
-None
-FireMode
-Category
-BaseItem
-ItemFPSSettings
-AudioSetting
-MuzzleFlash
-ShellCasing
-Pattern
-Palette
-DecalA
-DecalB
-FrontPart
-FrontPartAttachmentA
-FrontPartAttachmentB
-FrontPartPerk
-ReceiverPart
-ReceiverPartAttachment
-ReceiverPartPerk
-StockPart
-StockPartPerk
-SightPart
-SightPartPerk
-MagPart
-MagPartPerk
-FlashlightPart
-FlashlightPartPerk
-ToolMainPart
-ToolMainPartPerk
-ToolMainPartAttachment
-ToolGripPart
-ToolGripPartPerk
-ToolDeliveryType
-ToolDeliveryPart
-ToolDeliveryPartPerk
-ToolDeliveryPartAttachment
-ToolPayloadType
-ToolPayloadPart
-ToolPayloadPartPerk
-ToolTargetingType
-ToolTargetingPart
-ToolTargetingPartPerk
-ToolScreenPart
-ToolScreenPartPerk
-MeleeHeadPart
-MeleeHeadPartPerk
-MeleeNeckPart
-MeleeNeckPartPerk
-MeleeHandlePart
-MeleeHandlePartPerk
-MeleePommelPart
-MeleePommelPartPerk
-PlatformPerkAID
-PlatformPerkBID
-PlatformPerkCID
+None - 0
+FireMode - 1
+Category - 2
+BaseItem - 3
+ItemFPSSettings - 4
+AudioSetting - 5
+MuzzleFlash - 6
+ShellCasing - 7
+Pattern - 8
+Palette - 9
+DecalA - 10
+DecalB - 11
+FrontPart - 12
+FrontPartAttachmentA - 13
+FrontPartAttachmentB - 14
+FrontPartPerk - 15
+ReceiverPart - 16
+ReceiverPartAttachment - 17
+ReceiverPartPerk - 18
+StockPart - 19
+StockPartPerk - 20
+SightPart - 21
+SightPartPerk - 22
+MagPart - 23
+MagPartPerk - 24
+FlashlightPart - 25
+FlashlightPartPerk - 26
+ToolMainPart - 27
+ToolMainPartPerk - 28
+ToolMainPartAttachment - 29
+ToolGripPart - 30
+ToolGripPartPerk - 31
+ToolDeliveryType - 32
+ToolDeliveryPart - 33
+ToolDeliveryPartPerk - 34
+ToolDeliveryPartAttachment - 35
+ToolPayloadType - 36
+ToolPayloadPart - 37
+ToolPayloadPartPerk - 38
+ToolTargetingType - 39
+ToolTargetingPart - 40
+ToolTargetingPartPerk - 41
+ToolScreenPart - 42
+ToolScreenPartPerk - 43
+MeleeHeadPart - 44
+MeleeHeadPartPerk - 45
+MeleeNeckPart - 46
+MeleeNeckPartPerk - 47
+MeleeHandlePart - 48
+MeleeHandlePartPerk - 49
+MeleePommelPart - 50
+MeleePommelPartPerk - 51
+PlatformPerkAID - 52
+PlatformPerkBID - 53
+PlatformPerkCID - 54

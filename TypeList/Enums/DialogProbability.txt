@@ -1,5 +1,5 @@
-None
-Low
-Medium
-High
-Always
+None - 0
+Low - 25
+Medium - 50
+High - 75
+Always - 100

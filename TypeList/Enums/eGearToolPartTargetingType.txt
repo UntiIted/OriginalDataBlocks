@@ -1,4 +1,4 @@
-Alpha
-EnemiesAndPlayer
-Gamme
-Delta
+Alpha - 0
+EnemiesAndPlayer - 1
+Gamme - 2
+Delta - 3

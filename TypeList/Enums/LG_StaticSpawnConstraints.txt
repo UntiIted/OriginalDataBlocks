@@ -1,2 +1,2 @@
-None
-AlwaysAndOnlySpawnInRespawnerZones
+None - 0
+AlwaysAndOnlySpawnInRespawnerZones - 1

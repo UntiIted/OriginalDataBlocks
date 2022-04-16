@@ -1,8 +1,8 @@
-Semi
-Burst
-Auto
-SemiBurst
-SentryGunSemi
-SentryGunAuto
-SentryGunBurst
-SentryGunShotgunSemi
+Semi - 0
+Burst - 1
+Auto - 2
+SemiBurst - 3
+SentryGunSemi - 10
+SentryGunAuto - 11
+SentryGunBurst - 12
+SentryGunShotgunSemi - 13

@@ -1,2 +1,2 @@
-Weight_is_zeroToOne_startToEnd
-Weight_is_exact_node_index
+Weight_is_zeroToOne_startToEnd - 0
+Weight_is_exact_node_index - 1

@@ -1,5 +1,5 @@
-None
-StartupScreenData_1
-StartupScreenData_2
-StartupScreenData_3
-StartupScreenData_4
+None - 0
+StartupScreenData_1 - 1
+StartupScreenData_2 - 2
+StartupScreenData_3 - 3
+StartupScreenData_4 - 4

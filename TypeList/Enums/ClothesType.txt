@@ -1,6 +1,6 @@
-Helmet
-Torso
-Legs
-Backpack
-Palette
-Face
+Helmet - 0
+Torso - 1
+Legs - 2
+Backpack - 3
+Palette - 4
+Face - 5

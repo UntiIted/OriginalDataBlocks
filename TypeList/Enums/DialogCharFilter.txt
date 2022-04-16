@@ -1,5 +1,5 @@
-None
-Char_G
-Char_T
-Char_F
-Char_O
+None - 1
+Char_G - 2
+Char_T - 4
+Char_F - 8
+Char_O - 16

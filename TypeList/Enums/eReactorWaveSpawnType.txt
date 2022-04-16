@@ -1,2 +1,2 @@
-ClosestToReactorNoPlayerBetween
-InElevatorZone
+ClosestToReactorNoPlayerBetween - 0
+InElevatorZone - 1

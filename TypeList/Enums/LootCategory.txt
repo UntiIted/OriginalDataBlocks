@@ -1,11 +1,11 @@
-MedicSmall
-MedicBig
-ArmorySmall
-ArmoryBig
-ResourcesSmall
-ResourcesBig
-ArtifactSmall
-ArtifactBig
-ObjectiveItem
-LootSmall
-LootBig
+MedicSmall - 0
+MedicBig - 1
+ArmorySmall - 2
+ArmoryBig - 3
+ResourcesSmall - 4
+ResourcesBig - 5
+ArtifactSmall - 6
+ArtifactBig - 7
+ObjectiveItem - 8
+LootSmall - 9
+LootBig - 10

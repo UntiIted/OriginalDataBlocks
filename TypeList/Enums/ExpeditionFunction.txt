@@ -1,21 +1,21 @@
-None
-Security
-BulkheadDoorController
-DisinfectionStation
-Strongbox
-AirSupply
-PowerGenerator
-Terminal
-SmallPickupItem
-Sign
-ResourceContainerWeak
-ResourceContainerSecure
-BigPickupItem
-ResourceContainerCluster
-Corpse
-HydroStatisUnit
-HydroStatisUnitCluster
-CorpseCluster
-SecurityTurret
-GeneratorCluster
-GroundSpawn
+None - 0
+Security - 1
+BulkheadDoorController - 2
+DisinfectionStation - 3
+Strongbox - 4
+AirSupply - 5
+PowerGenerator - 6
+Terminal - 7
+SmallPickupItem - 8
+Sign - 9
+ResourceContainerWeak - 10
+ResourceContainerSecure - 11
+BigPickupItem - 12
+ResourceContainerCluster - 13
+Corpse - 14
+HydroStatisUnit - 15
+HydroStatisUnitCluster - 16
+CorpseCluster - 17
+SecurityTurret - 18
+GeneratorCluster - 19
+GroundSpawn - 20

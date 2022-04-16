@@ -1,27 +1,27 @@
-None
-IsInBioscan
-IsOutsideBioscan
-HasFullHealth
-IsInFogRepellerRadius
-IsNextToTeammate
-IsLastManStanding
-IsNextToGlowstick
-HasFlashlightOff
-HasFlashlightOn
-IsCloseToEnemy
-IsFarAwayFromEnemy
-IsWieldingStandardWeapon
-IsWieldingSpecialWeapon
-IsWieldingTool
-IsWieldingMelee
-IsWieldingConsumable
-IsWieldingResourcePack
-IsWieldingHackingTool
-IsWieldingCarryItem
-HasLowHealth
-HasHighHealth
-HasLessThanAmmoSmall
-HasMoreThanAmmoLarge
-IsTeamAliveTwo
-IsTeamAliveThree
-IsTeamAliveFour
+None - 0
+IsInBioscan - 1
+IsOutsideBioscan - 2
+HasFullHealth - 3
+IsInFogRepellerRadius - 4
+IsNextToTeammate - 5
+IsLastManStanding - 6
+IsNextToGlowstick - 7
+HasFlashlightOff - 8
+HasFlashlightOn - 9
+IsCloseToEnemy - 10
+IsFarAwayFromEnemy - 11
+IsWieldingStandardWeapon - 12
+IsWieldingSpecialWeapon - 13
+IsWieldingTool - 14
+IsWieldingMelee - 15
+IsWieldingConsumable - 16
+IsWieldingResourcePack - 17
+IsWieldingHackingTool - 18
+IsWieldingCarryItem - 19
+HasLowHealth - 20
+HasHighHealth - 21
+HasLessThanAmmoSmall - 120
+HasMoreThanAmmoLarge - 132
+IsTeamAliveTwo - 140
+IsTeamAliveThree - 141
+IsTeamAliveFour - 142

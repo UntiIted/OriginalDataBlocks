@@ -1,7 +1,7 @@
-Unspecified
-None
-Micro
-Light
-Heavy
-ToDeath
-InstantRagdollDeath
+Unspecified - 0
+None - 1
+Micro - 2
+Light - 3
+Heavy - 4
+ToDeath - 5
+InstantRagdollDeath - 6

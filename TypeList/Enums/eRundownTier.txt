@@ -1,6 +1,6 @@
-TierA
-TierB
-TierC
-TierD
-TierE
-Surface
+TierA - 1
+TierB - 2
+TierC - 3
+TierD - 4
+TierE - 5
+Surface - 99

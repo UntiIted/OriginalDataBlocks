@@ -1,6 +1,6 @@
-Rifle
-Pistol
-Melee
-CarryHeavy
-Knife
-Spear
+Rifle - 0
+Pistol - 1
+Melee - 2
+CarryHeavy - 3
+Knife - 4
+Spear - 5

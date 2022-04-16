@@ -1,23 +1,23 @@
-Reality
-Dimension_1
-Dimension_2
-Dimension_3
-Dimension_4
-Dimension_5
-Dimension_6
-Dimension_7
-Dimension_8
-Dimension_9
-Dimension_10
-Dimension_11
-Dimension_12
-Dimension_13
-Dimension_14
-Dimension_15
-Dimension_16
-Dimension_17
-Dimension_18
-Dimension_19
-Dimension_20
-MAX_COUNT
-ARENA_DIMENSION
+Reality - 0
+Dimension_1 - 1
+Dimension_2 - 2
+Dimension_3 - 3
+Dimension_4 - 4
+Dimension_5 - 5
+Dimension_6 - 6
+Dimension_7 - 7
+Dimension_8 - 8
+Dimension_9 - 9
+Dimension_10 - 10
+Dimension_11 - 11
+Dimension_12 - 12
+Dimension_13 - 13
+Dimension_14 - 14
+Dimension_15 - 15
+Dimension_16 - 16
+Dimension_17 - 17
+Dimension_18 - 18
+Dimension_19 - 19
+Dimension_20 - 20
+MAX_COUNT - 21
+ARENA_DIMENSION - 22

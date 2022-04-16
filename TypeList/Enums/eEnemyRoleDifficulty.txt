@@ -1,8 +1,8 @@
-Easy
-Medium
-Hard
-MiniBoss
-Boss
-MegaBoss
-Biss
-Buss
+Easy - 0
+Medium - 1
+Hard - 2
+MiniBoss - 3
+Boss - 4
+MegaBoss - 5
+Biss - 6
+Buss - 7

@@ -1,6 +1,6 @@
-From_Random
-From_Start
-From_AverageCenter
-From_Furthest
-From_BetweenStartAndFurthest
-From_IndexWeight
+From_Random - 0
+From_Start - 1
+From_AverageCenter - 2
+From_Furthest - 3
+From_BetweenStartAndFurthest - 4
+From_IndexWeight - 5

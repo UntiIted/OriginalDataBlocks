@@ -1,2 +1,2 @@
-OnNodes_WallsAndCeiling
-OnNodes_Ceiling_UpOnly
+OnNodes_WallsAndCeiling - 0
+OnNodes_Ceiling_UpOnly - 1

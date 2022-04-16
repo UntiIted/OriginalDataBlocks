@@ -1,16 +1,16 @@
-None
-OpenSecurityDoor
-UnlockSecurityDoor
-AllLightsOff
-AllLightsOn
-PlaySound
-SetFogSetting
-DimensionFlashTeam
-DimensionWarpTeam
-SpawnEnemyWave
-StopEnemyWaves
-UpdateCustomSubObjective
-ForceCompleteObjective
-LightsInZone
-LightsInZoneToggle
-EventBreak
+None - 0
+OpenSecurityDoor - 1
+UnlockSecurityDoor - 2
+AllLightsOff - 3
+AllLightsOn - 4
+PlaySound - 5
+SetFogSetting - 6
+DimensionFlashTeam - 7
+DimensionWarpTeam - 8
+SpawnEnemyWave - 9
+StopEnemyWaves - 10
+UpdateCustomSubObjective - 11
+ForceCompleteObjective - 12
+LightsInZone - 13
+LightsInZoneToggle - 14
+EventBreak - 999

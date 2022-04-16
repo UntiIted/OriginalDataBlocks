@@ -1,126 +1,126 @@
-None
-player_enter_new_area
-player_enter_new_zone
-player_hacking_start
-player_hacking_success
-player_pickup_medikit
-player_apply_medikit
-player_pickup_ammokit
-player_apply_ammokit
-player_apply_disinfection
-player_pickup_artifact
-player_enter_terminal
-player_exit_terminal
-player_take_damage
-player_take_friendly_fire
-player_downed
-player_revived
-player_revived_2_total
-player_revived_3_total
-player_start_firing
-player_stop_firing
-player_fire_bullet
-player_fire_glue
-player_place_tripmine
-player_place_sentrygun
-enemy_scout_dead_from_melee
-enemy_dead_from_melee
-sticky_mine_explode
-sentry_gun_fire
-sentry_gun_ammo_depleated
-weak_door_opening
-weak_door_closing
-weak_door_punched
-weak_door_explode
-security_door_opening
-bioscan_start
-bioscan_end
-hibernating_enemy_spotted
-hibernating_enemy_heartbeat
-hibernating_enemy_wakeup
-hibernating_enemy_dead
-enemy_spotted
-scout_enemy_spotted
-scout_enemy_use_detect_ability
-scout_enemy_found_player
-scout_enemy_dead
-enemy_striker_attack
-enemy_shooter_attack
-enemy_dead
-enemy_big_attack
-player_low_health
-player_out_of_ammo_current_gear
-player_out_of_ammo_all_gear
-player_reload
-player_revive_start
-enemy_wave_spawned
-player_downed_2_total
-player_downed_3_total
-player_downed_4_total
-player_pickup_toolRefill
-player_apply_toolRefill
-player_pickup_commoditySmall
-player_pickup_commodityMedium
-player_pickup_commodityLarge
-player_pickup_consumable
-player_pickup_keycard
-gs_Startup
-gs_Offline
-gs_NoLobby
-gs_Lobby
-gs_Slim
-gs_FakeLobby
-gs_Generating
-gs_ReadyToStopElevatorRide
-gs_StopElevatorRide
-gs_ReadyToStartLevel
-gs_InLevel
-gs_AfterLevel
-gs_CaptureRecall
-gs_ExpeditionFail
-gs_ExpeditionSuccess
-gs_ExpeditionAbort
-game_quit
-term_Help
-term_Commands
-term_Cls
-term_Exit
-term_Open
-term_Close
-term_Activate
-term_Deactivate
-term_EmptyLine
-term_InvalidCommand
-term_DownloadData
-term_ViewSecurityLog
-term_Override
-term_DisableAlarm
-term_ActivateBeacon
-term_Find
-term_ShowList
-term_Query
-term_Locate
-term_Ping
-wobj_FindLocationInfo
-wobj_FindLocationInfoHelp
-wobj_GoToZone
-wobj_GoToZoneHelp
-wobj_InZoneFindItem
-wobj_InZoneFindItemHelp
-wobj_SolveItem
-wobj_SolveItemHelp
-wobj_GoToWinCondition
-wobj_GoToWinConditionHelp
-time_InLevel_0
-time_InLevel_5
-time_InLevel_15
-time_InLevel_30
-time_InLevel_45
-time_InLevel_60
-time_InLevel_90
-time_InLevel_120
-time_InLevel_150
-time_InLevel_180
-time_InLevel_210
-time_InLevel_240
-checkpoint_reload
+None - 0
+player_enter_new_area - 1
+player_enter_new_zone - 2
+player_hacking_start - 3
+player_hacking_success - 4
+player_pickup_medikit - 5
+player_apply_medikit - 6
+player_pickup_ammokit - 7
+player_apply_ammokit - 8
+player_apply_disinfection - 9
+player_pickup_artifact - 10
+player_enter_terminal - 11
+player_exit_terminal - 12
+player_take_damage - 13
+player_take_friendly_fire - 14
+player_downed - 15
+player_revived - 16
+player_revived_2_total - 17
+player_revived_3_total - 18
+player_start_firing - 19
+player_stop_firing - 20
+player_fire_bullet - 21
+player_fire_glue - 22
+player_place_tripmine - 23
+player_place_sentrygun - 24
+enemy_scout_dead_from_melee - 25
+enemy_dead_from_melee - 26
+sticky_mine_explode - 27
+sentry_gun_fire - 28
+sentry_gun_ammo_depleated - 29
+weak_door_opening - 30
+weak_door_closing - 31
+weak_door_punched - 32
+weak_door_explode - 33
+security_door_opening - 34
+bioscan_start - 35
+bioscan_end - 36
+hibernating_enemy_spotted - 37
+hibernating_enemy_heartbeat - 38
+hibernating_enemy_wakeup - 39
+hibernating_enemy_dead - 40
+enemy_spotted - 41
+scout_enemy_spotted - 42
+scout_enemy_use_detect_ability - 43
+scout_enemy_found_player - 44
+scout_enemy_dead - 45
+enemy_striker_attack - 46
+enemy_shooter_attack - 47
+enemy_dead - 48
+enemy_big_attack - 49
+player_low_health - 50
+player_out_of_ammo_current_gear - 51
+player_out_of_ammo_all_gear - 52
+player_reload - 53
+player_revive_start - 54
+enemy_wave_spawned - 55
+player_downed_2_total - 56
+player_downed_3_total - 57
+player_downed_4_total - 58
+player_pickup_toolRefill - 59
+player_apply_toolRefill - 60
+player_pickup_commoditySmall - 61
+player_pickup_commodityMedium - 62
+player_pickup_commodityLarge - 63
+player_pickup_consumable - 64
+player_pickup_keycard - 65
+gs_Startup - 66
+gs_Offline - 67
+gs_NoLobby - 68
+gs_Lobby - 69
+gs_Slim - 70
+gs_FakeLobby - 71
+gs_Generating - 72
+gs_ReadyToStopElevatorRide - 73
+gs_StopElevatorRide - 74
+gs_ReadyToStartLevel - 75
+gs_InLevel - 76
+gs_AfterLevel - 77
+gs_CaptureRecall - 78
+gs_ExpeditionFail - 79
+gs_ExpeditionSuccess - 80
+gs_ExpeditionAbort - 81
+game_quit - 82
+term_Help - 83
+term_Commands - 84
+term_Cls - 85
+term_Exit - 86
+term_Open - 87
+term_Close - 88
+term_Activate - 89
+term_Deactivate - 90
+term_EmptyLine - 91
+term_InvalidCommand - 92
+term_DownloadData - 93
+term_ViewSecurityLog - 94
+term_Override - 95
+term_DisableAlarm - 96
+term_ActivateBeacon - 97
+term_Find - 98
+term_ShowList - 99
+term_Query - 100
+term_Locate - 101
+term_Ping - 102
+wobj_FindLocationInfo - 103
+wobj_FindLocationInfoHelp - 104
+wobj_GoToZone - 105
+wobj_GoToZoneHelp - 106
+wobj_InZoneFindItem - 107
+wobj_InZoneFindItemHelp - 108
+wobj_SolveItem - 109
+wobj_SolveItemHelp - 110
+wobj_GoToWinCondition - 111
+wobj_GoToWinConditionHelp - 112
+time_InLevel_0 - 113
+time_InLevel_5 - 114
+time_InLevel_15 - 115
+time_InLevel_30 - 116
+time_InLevel_45 - 117
+time_InLevel_60 - 118
+time_InLevel_90 - 119
+time_InLevel_120 - 120
+time_InLevel_150 - 121
+time_InLevel_180 - 122
+time_InLevel_210 - 123
+time_InLevel_240 - 124
+checkpoint_reload - 125

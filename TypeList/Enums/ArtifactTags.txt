@@ -1,12 +1,12 @@
-None
-Corpse
-Ground
-Shelf
-DigSite
-Refinery
-Storage
-DataCenter
-Lab
-Floodways
-AllComplex
-Any
+None - 0
+Corpse - 1
+Ground - 2
+Shelf - 4
+DigSite - 8
+Refinery - 16
+Storage - 32
+DataCenter - 64
+Lab - 128
+Floodways - 256
+AllComplex - 504
+Any - 4294967295

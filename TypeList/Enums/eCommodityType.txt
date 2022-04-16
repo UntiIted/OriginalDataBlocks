@@ -1,4 +1,4 @@
-Artifact
-PhysicalSample
-LiquidSample
-Data
+Artifact - 0
+PhysicalSample - 1
+LiquidSample - 2
+Data - 3

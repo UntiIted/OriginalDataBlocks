@@ -1,9 +1,9 @@
-None
-Force_One
-Rel_25
-Rel_50
-Rel_75
-Rel_100
-Rel_15
-Rel_10
-Rel_05
+None - 0
+Force_One - 1
+Rel_25 - 2
+Rel_50 - 3
+Rel_75 - 4
+Rel_100 - 5
+Rel_15 - 6
+Rel_10 - 7
+Rel_05 - 8

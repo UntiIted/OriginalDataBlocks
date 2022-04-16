@@ -1,6 +1,6 @@
-Unlimited
-ShortCooldown
-MediumCooldown
-LongCooldown
-OncePerSegment
-OncePerExpedition
+Unlimited - 0
+ShortCooldown - 1
+MediumCooldown - 2
+LongCooldown - 3
+OncePerSegment - 4
+OncePerExpedition - 5

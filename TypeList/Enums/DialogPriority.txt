@@ -1,4 +1,4 @@
-IdleTalk
-PersonalEvent
-TeamEvent
-CombatEvent
+IdleTalk - 0
+PersonalEvent - 100
+TeamEvent - 200
+CombatEvent - 300

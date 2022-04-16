@@ -1,10 +1,10 @@
-None
-Melee
-Ranged
-Alarm
-Defensive
-Healing
-GroupEnhance
-Detection
-DoorBreaker
-SpawnChildren
+None - 0
+Melee - 1
+Ranged - 2
+Alarm - 3
+Defensive - 4
+Healing - 5
+GroupEnhance - 6
+Detection - 7
+DoorBreaker - 8
+SpawnChildren - 9

@@ -1,4 +1,4 @@
-Muted
-Bold
-Aggressive
-_COUNT
+Muted - 0
+Bold - 1
+Aggressive - 2
+_COUNT - 3

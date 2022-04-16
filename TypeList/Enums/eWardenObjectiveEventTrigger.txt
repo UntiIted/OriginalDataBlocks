@@ -1,4 +1,4 @@
-None
-OnStart
-OnMid
-OnEnd
+None - 0
+OnStart - 1
+OnMid - 2
+OnEnd - 3

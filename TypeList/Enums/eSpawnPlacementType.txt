@@ -1,8 +1,8 @@
-Default
-Align_0
-Align_1
-Align_2
-Align_3
-Align_4
-Align_5
-CycleAllAligns
+Default - 0
+Align_0 - 1
+Align_1 - 2
+Align_2 - 3
+Align_3 - 4
+Align_4 - 5
+Align_5 - 6
+CycleAllAligns - 7

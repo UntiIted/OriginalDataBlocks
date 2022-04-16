@@ -1,11 +1,11 @@
-Melee
-Ranged
-Tank
-Lurker
-PureSneak
-Scout
-Patroller
-Hunter
-BirtherChild
-MiniBoss
-Boss
+Melee - 0
+Ranged - 1
+Tank - 2
+Lurker - 3
+PureSneak - 4
+Scout - 5
+Patroller - 6
+Hunter - 7
+BirtherChild - 8
+MiniBoss - 9
+Boss - 10

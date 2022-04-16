@@ -1,8 +1,8 @@
-None_0
-Pair_2
-Few_5
-Some_10
-SomeMore_15
-Many_20
-Alot_30
-Tons_50
+None_0 - 0
+Pair_2 - 1
+Few_5 - 2
+Some_10 - 3
+SomeMore_15 - 4
+Many_20 - 5
+Alot_30 - 6
+Tons_50 - 7

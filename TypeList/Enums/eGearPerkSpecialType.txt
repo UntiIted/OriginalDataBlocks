@@ -1,3 +1,3 @@
-HeadshotMulti
-FirstShotInMagMulti
-LastShotInMagMulti
+HeadshotMulti - 0
+FirstShotInMagMulti - 1
+LastShotInMagMulti - 2

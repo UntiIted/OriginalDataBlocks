@@ -1,2 +1,2 @@
-OnObjectiveCompleted
-WhenExitScanMakesProgress
+OnObjectiveCompleted - 0
+WhenExitScanMakesProgress - 1

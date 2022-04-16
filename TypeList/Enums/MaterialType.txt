@@ -1,14 +1,14 @@
-Concrete
-Metal
-Glass
-EnemyBody
-EnemyWeakspot
-Plastic
-Mud
-Gravel
-SheetMetal
-Catwalk
-Wood
-PlayerBody
-WeakLockMelee
-Sand
+Concrete - 1
+Metal - 2
+Glass - 4
+EnemyBody - 8
+EnemyWeakspot - 16
+Plastic - 32
+Mud - 64
+Gravel - 128
+SheetMetal - 256
+Catwalk - 512
+Wood - 1024
+PlayerBody - 2048
+WeakLockMelee - 4096
+Sand - 8192
