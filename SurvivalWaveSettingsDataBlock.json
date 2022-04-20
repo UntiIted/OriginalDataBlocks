@@ -1216,8 +1216,8 @@
       "m_wavePauseMin": 1.0,
       "m_wavePauseMax": 20.0,
       "m_populationFilter": [
-        "Weakling",
-        "Special"
+        "MiniBoss",
+        "Boss"
       ],
       "m_filterType": "Exclude",
       "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,

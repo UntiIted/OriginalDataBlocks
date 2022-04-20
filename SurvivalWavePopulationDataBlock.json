@@ -244,6 +244,16 @@
     },
     {
       "WaveRoleWeakling": 30,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 39,
+      "WaveRoleMiniBoss": 42,
+      "WaveRoleBoss": 16,
+      "name": "Bullrush_mix7",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "WaveRoleWeakling": 30,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 30,
       "WaveRoleMiniBoss": 39,
@@ -403,5 +413,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 38
+  "LastPersistentID": 40
 }

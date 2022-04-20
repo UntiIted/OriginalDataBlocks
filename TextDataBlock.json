@@ -60252,56 +60252,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "RUNDOWN PROTOCOL #6.0 TITLE: DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
+      "English": "RUNDOWN PROTOCOL #6.5 TITLE: DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "PROTOCOLE DE CAMPAGNE #6.0 TITRE : DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "PROTOCOLE DE CAMPAGNE #6.5 TITRE : DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "PROTOCOLLO PERLUSTRAZIONE #6.0 TITOLO: DESTINAZIONE<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "PROTOCOLLO PERLUSTRAZIONE #6.5 TITOLO: DESTINAZIONE<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "German": {
-        "Translation": "RUNDOWN-PROTOKOLL #6.0 TITEL: ZIEL<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "RUNDOWN-PROTOKOLL #6.5 TITEL: ZIEL<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "PROTOCOLO DE CAMPAÑA #6.0 TÍTULO: DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "PROTOCOLO DE CAMPAÑA #6.5 TÍTULO: DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "ПРОТОКОЛ КАМПАНИИ № 6.0. НАЗВАНИЕ: ПУНКТ НАЗНАЧЕНИЯ<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "ПРОТОКОЛ КАМПАНИИ № 6.5. НАЗВАНИЕ: ПУНКТ НАЗНАЧЕНИЯ<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "TÍTULO DO PROTOCOLO DE CAMPANHA #6.0: DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "TÍTULO DO PROTOCOLO DE CAMPANHA #6.5: DESTINATION<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "PROTOKÓŁ EKSTRAKCJI #6.0 TYTUŁ: CEL<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "PROTOKÓŁ EKSTRAKCJI #6.5 TYTUŁ: CEL<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "ランダウンプロトコル #6.0 タイトル：目的地<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "ランダウンプロトコル #6.5 タイトル：目的地<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "런다운 프로토콜 #6.0 타이틀: 목적지<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "런다운 프로토콜 #6.5 타이틀: 목적지<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "遠征綱要協定#6.0標題：目的地<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "遠征綱要協定#6.5標題：目的地<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "行动协议#6.0标题：目的地<color=orange><size=80%>://EXTENDED</size></color>",
+        "Translation": "行动协议#6.5标题：目的地<color=orange><size=80%>://EXTENDED</size></color>",
         "ShouldTranslate": false
       },
-      "ExportVersion": 3,
+      "ExportVersion": 4,
       "ImportVersion": 3,
       "name": "RundownData.Rundown006.Title",
       "internalEnabled": true,
@@ -60480,56 +60480,56 @@
     },
     {
       "SkipLocalization": false,
-      "English": "<color=orange>[STATUS]</color>OBJECTIVE STACK REITERATION 6.0. <color=red>PROBE DEEPER.</color> PRISONERS TO RESUME DESCENT AND EXPLORE UNTIL FURTHER NOTICE.\n\n<color=orange>[APPAREL]</color>IMPROVED PSYCHOLOGICAL CONDITION OBSERVED IN PRISONERS PROVIDED WITH OPTIONAL APPAREL. PRISONERS THAT <color=red>CLEAR EXPEDITION SECTORS</color> WILL GAIN ACCESS TO SURPLUS RESOURCES.\n\n<color=orange>[BOOSTERS]</color>BOOSTER MODULES WILL BE DISPENSED TO PRISONERS THAT <color=red>RETRIEVE CRYSTAL ENCASED ARTIFACTS.</color> OBJECTIVE STACK UPDATED.",
+      "English": "<color=orange>[STATUS]</color>OBJECTIVE STACK REITERATION 6.5. <color=red>PROBE DEEPER.</color> PRISONERS TO RESUME DESCENT AND EXPLORE UNTIL FURTHER NOTICE.\n\n<color=orange>[APPAREL]</color>IMPROVED PSYCHOLOGICAL CONDITION OBSERVED IN PRISONERS PROVIDED WITH OPTIONAL APPAREL. PRISONERS THAT <color=red>CLEAR EXPEDITION SECTORS</color> WILL GAIN ACCESS TO SURPLUS RESOURCES.\n\n<color=orange>[BOOSTERS]</color>BOOSTER MODULES WILL BE DISPENSED TO PRISONERS THAT <color=red>RETRIEVE CRYSTAL ENCASED ARTIFACTS.</color> OBJECTIVE STACK UPDATED.",
       "MaxCharacterLength": 0,
       "Description": "This is a message that shows up in a popup when the player presses the INTEL button on the RundownPage.\nIt is a message from the Warden and gives information about Rundown # 6.0.\nIn this text everything appart from the Rich Text tags should be localized, even [STATUS], [BOOSTERS] and [APPAREL].",
       "CharacterMetaData": 2,
       "Mood": "None",
       "French": {
-        "Translation": "<color=orange>[STATUT]</color>RAPPEL DE LA LISTE D'OBJECTIFS 6.0. <color=red>SONDEZ PLUS EN PROFONDEUR.</color> LES PRISONNIERS DOIVENT POURSUIVRE LEUR DESCENTE ET EXPLORER JUSQU'À NOUVEL ORDRE.\n\n<color=orange>[VÊTEMENTS]</color>AMÉLIORATION DE L'ÉTAT PSYCHOLOGIQUE OBSERVÉE CHEZ LES PRISONNIERS DOTÉS DE VÊTEMENTS FACULTATIFS. LES PRISONNIERS AYANT <color=red>ACHEVÉ LES SECTEURS D'EXPÉDITION</color> AURONT ACCÈS AUX RESSOURCES EXCÉDENTAIRES.\n\n<color=orange>[BOOSTERS]</color>DES MODULES DE BOOSTERS SERONT ADMINISTRÉS AUX PRISONNIERS AYANT <color=red>RÉCUPÉRÉ DES ARTEFACTS COUVERTS DE CRISTAL.</color> LISTE D'OBJECTIFS MISE À JOUR.",
+        "Translation": "<color=orange>[STATUT]</color>RAPPEL DE LA LISTE D'OBJECTIFS 6.5. <color=red>SONDEZ PLUS EN PROFONDEUR.</color> LES PRISONNIERS DOIVENT POURSUIVRE LEUR DESCENTE ET EXPLORER JUSQU'À NOUVEL ORDRE.\n\n<color=orange>[VÊTEMENTS]</color>AMÉLIORATION DE L'ÉTAT PSYCHOLOGIQUE OBSERVÉE CHEZ LES PRISONNIERS DOTÉS DE VÊTEMENTS FACULTATIFS. LES PRISONNIERS AYANT <color=red>ACHEVÉ LES SECTEURS D'EXPÉDITION</color> AURONT ACCÈS AUX RESSOURCES EXCÉDENTAIRES.\n\n<color=orange>[BOOSTERS]</color>DES MODULES DE BOOSTERS SERONT ADMINISTRÉS AUX PRISONNIERS AYANT <color=red>RÉCUPÉRÉ DES ARTEFACTS COUVERTS DE CRISTAL.</color> LISTE D'OBJECTIFS MISE À JOUR.",
         "ShouldTranslate": false
       },
       "Italian": {
-        "Translation": "<color=orange>[STATO]</color>REITERAZIONE CODA OBIETTIVI 6.0. <color=red>SONDA PI PROFONDITÀ.</color> I PRIGIONIERI DEVONO RIPRENDERE LA DISCESA ED ESPLORARE FINO A NUOVO ORDINE.\n\n<color=orange>[ABBIGLIAMENTO]</color>MIGLIORAMENTO DELLE CONDIZIONI PSICOLOGICHE OSSERVATO NEI PRIGIONIERI DOTATI DI ABBIGLIAMENTO FACOLTATIVO. I PRIGIONIERI CHE <color=red>LIBERANO I SETTORI DELLA SPEDIZIONE</color> AVRANNO ACCESSO A RISORSE IN ECCESSO.\n\n<color=orange>[POTENZIAMENTI]</color>I MODULI DI POTENZIAMENTO SARANNO EROGATI AI PRIGIONIERI CHE <color=red>RECUPERANO MANUFATTI INCORPORATI NEL CRISTALLO.</color> STACK OBIETTIVO AGGIORNATO.",
+        "Translation": "<color=orange>[STATO]</color>REITERAZIONE CODA OBIETTIVI 6.5. <color=red>SONDA PI PROFONDITÀ.</color> I PRIGIONIERI DEVONO RIPRENDERE LA DISCESA ED ESPLORARE FINO A NUOVO ORDINE.\n\n<color=orange>[ABBIGLIAMENTO]</color>MIGLIORAMENTO DELLE CONDIZIONI PSICOLOGICHE OSSERVATO NEI PRIGIONIERI DOTATI DI ABBIGLIAMENTO FACOLTATIVO. I PRIGIONIERI CHE <color=red>LIBERANO I SETTORI DELLA SPEDIZIONE</color> AVRANNO ACCESSO A RISORSE IN ECCESSO.\n\n<color=orange>[POTENZIAMENTI]</color>I MODULI DI POTENZIAMENTO SARANNO EROGATI AI PRIGIONIERI CHE <color=red>RECUPERANO MANUFATTI INCORPORATI NEL CRISTALLO.</color> STACK OBIETTIVO AGGIORNATO.",
         "ShouldTranslate": false
       },
       "German": {
-        "Translation": "<color=orange>[STATUS]</color>REITERATION DES ZIEL-STACKS 6.0. <color=red>ERFORSCHUNG VERTIEFEN.</color> DIE GEFANGENEN SOLLEN DEN ABSTIEG UND DIE ERKUNDUNG BIS AUF WEITERES FORTSETZEN.\n\n<color=orange>[BEKLEIDUNG]</color>DIE PSYCHISCHE VERFASSUNG DER GEFANGENEN, DIE OPTIONALE BEKLEIDUNG ERHALTEN HABEN, HAT SICH VERBESSERT. GEFANGENE, DIE <color=red>EXPEDITIONSSEKTOREN RÄUMEN</color>, ERHALTEN ZUGANG ZU ÜBERSCHÜSSIGEN RESSOURCEN.\n\n<color=orange>[BOOSTER]</color>BOOSTER-MODULE WERDEN AN GEFANGENE AUSGEGEBEN, DIE <color=red>KRISTALLENE ARTEFAKTE BERGEN</color>. ZIEL-STACK AKTUALISIERT.",
+        "Translation": "<color=orange>[STATUS]</color>REITERATION DES ZIEL-STACKS 6.5. <color=red>ERFORSCHUNG VERTIEFEN.</color> DIE GEFANGENEN SOLLEN DEN ABSTIEG UND DIE ERKUNDUNG BIS AUF WEITERES FORTSETZEN.\n\n<color=orange>[BEKLEIDUNG]</color>DIE PSYCHISCHE VERFASSUNG DER GEFANGENEN, DIE OPTIONALE BEKLEIDUNG ERHALTEN HABEN, HAT SICH VERBESSERT. GEFANGENE, DIE <color=red>EXPEDITIONSSEKTOREN RÄUMEN</color>, ERHALTEN ZUGANG ZU ÜBERSCHÜSSIGEN RESSOURCEN.\n\n<color=orange>[BOOSTER]</color>BOOSTER-MODULE WERDEN AN GEFANGENE AUSGEGEBEN, DIE <color=red>KRISTALLENE ARTEFAKTE BERGEN</color>. ZIEL-STACK AKTUALISIERT.",
         "ShouldTranslate": false
       },
       "Spanish": {
-        "Translation": "<color=orange>[ESTADO]</color>REITERACIÓN DE ACUMULACIÓN DE OBJETIVOS 6.0. <color=red>AHONDAR MÁS.</color> LOS PRISIONEROS DEBEN RETOMAR EL DESCENSO Y EXPLORAR HASTA PRÓXIMO AVISO.\n\n<color=orange>[INDUMENTARIA]</color>SE HA OBSERVADO UNA MEJORA EN LA SALUD PSICOLÓGICA DE LOS PRISIONEROS QUE ESCOGEN SU VESTIMENTA. LOS PRISIONEROS QUE <color=red>COMPLETEN LOS SECTORES DE EXPEDICIÓN</color> PODRÁN ACCEDER A LOS EXCEDENTES DE RECURSOS.\n\n<color=orange>[POTENCIADORES]</color>LOS MÓDULOS DE POTENCIADORES SE ENTREGARÁN A LOS PRISIONEROS QUE <color=red>RECUPEREN CRISTALES RECUBIERTOS DE CRISTAL.</color> ACTUALIZACIÓN DE ACUMULACIÓN DE OBJETIVOS.",
+        "Translation": "<color=orange>[ESTADO]</color>REITERACIÓN DE ACUMULACIÓN DE OBJETIVOS 6.5. <color=red>AHONDAR MÁS.</color> LOS PRISIONEROS DEBEN RETOMAR EL DESCENSO Y EXPLORAR HASTA PRÓXIMO AVISO.\n\n<color=orange>[INDUMENTARIA]</color>SE HA OBSERVADO UNA MEJORA EN LA SALUD PSICOLÓGICA DE LOS PRISIONEROS QUE ESCOGEN SU VESTIMENTA. LOS PRISIONEROS QUE <color=red>COMPLETEN LOS SECTORES DE EXPEDICIÓN</color> PODRÁN ACCEDER A LOS EXCEDENTES DE RECURSOS.\n\n<color=orange>[POTENCIADORES]</color>LOS MÓDULOS DE POTENCIADORES SE ENTREGARÁN A LOS PRISIONEROS QUE <color=red>RECUPEREN CRISTALES RECUBIERTOS DE CRISTAL.</color> ACTUALIZACIÓN DE ACUMULACIÓN DE OBJETIVOS.",
         "ShouldTranslate": false
       },
       "Russian": {
-        "Translation": "<color=orange>[СТАТУС]</color>ПОВТОРНОЕ ОПИСАНИЕ ЦЕЛИ 6.0. <color=red>НУЖНО ДОПОЛНИТЕЛЬНОЕ ИЗУЧЕНИЕ.</color> ЗАКЛЮЧЕННЫЕ ОБЯЗАНЫ ВОЗОБНОВИТЬ СПУСК И ПРОДОЛЖИТЬ ИЗУЧЕНИЕ ДО ПОЛУЧЕНИЯ ДАЛЬНЕЙШИХ ИНСТРУКЦИЙ.\n\n<color=orange>[ЭКИПИРОВКА]</color>УЛУЧШЕННЫЕ ПСИХОЛОГИЧЕСКИЕ ПОКАЗАТЕЛИ У ЗАКЛЮЧЕННЫХ, ИМЕЮЩИХ ДОПОЛНИТЕЛЬНУЮ ЭКИПИРОВКУ. ЗАКЛЮЧЕННЫЕ, КОТОРЫЕ <color=red>ЗАЧИСТЯТ ЭКСПЕДИЦИОННЫЙ СЕКТОР</color>, ПОЛУЧАТ ДОСТУП К НОВЫМ РЕСУРСАМ.\n\n<color=orange>[УСИЛИТЕЛИ]</color>ЗАКЛЮЧЕННЫЕ, <color=red>КОТОРЫЕ ИЗВЛЕКУТ АРТЕФАКТЫ В КРИСТАЛЛИЧЕСКИХ КАПСУЛАХ</color>, ПОЛУЧАТ УСИЛИВАЮЩИЕ МОДУЛИ. ОПИСАНИЕ ЦЕЛИ ОБНОВЛЕНО.",
+        "Translation": "<color=orange>[СТАТУС]</color>ПОВТОРНОЕ ОПИСАНИЕ ЦЕЛИ 6.5. <color=red>НУЖНО ДОПОЛНИТЕЛЬНОЕ ИЗУЧЕНИЕ.</color> ЗАКЛЮЧЕННЫЕ ОБЯЗАНЫ ВОЗОБНОВИТЬ СПУСК И ПРОДОЛЖИТЬ ИЗУЧЕНИЕ ДО ПОЛУЧЕНИЯ ДАЛЬНЕЙШИХ ИНСТРУКЦИЙ.\n\n<color=orange>[ЭКИПИРОВКА]</color>УЛУЧШЕННЫЕ ПСИХОЛОГИЧЕСКИЕ ПОКАЗАТЕЛИ У ЗАКЛЮЧЕННЫХ, ИМЕЮЩИХ ДОПОЛНИТЕЛЬНУЮ ЭКИПИРОВКУ. ЗАКЛЮЧЕННЫЕ, КОТОРЫЕ <color=red>ЗАЧИСТЯТ ЭКСПЕДИЦИОННЫЙ СЕКТОР</color>, ПОЛУЧАТ ДОСТУП К НОВЫМ РЕСУРСАМ.\n\n<color=orange>[УСИЛИТЕЛИ]</color>ЗАКЛЮЧЕННЫЕ, <color=red>КОТОРЫЕ ИЗВЛЕКУТ АРТЕФАКТЫ В КРИСТАЛЛИЧЕСКИХ КАПСУЛАХ</color>, ПОЛУЧАТ УСИЛИВАЮЩИЕ МОДУЛИ. ОПИСАНИЕ ЦЕЛИ ОБНОВЛЕНО.",
         "ShouldTranslate": false
       },
       "Portuguese_Brazil": {
-        "Translation": "<color=orange>[STATUS]</color>REITERAÇÃO DE CONJUNTO DE OBJETIVOS 6.0. <color=red>SONDAGEM APROFUNDADA.</color> PRISIONEIROS RETOMAM DESCIDA E EXPLORAÇÃO ATÉ NOVO AVISO.\n\n<color=orange>[TRAJE]</color>CONDIÇÃO PSICOLÓGICA APRIMORADA OBSERVADA EM PRISIONEIROS COM TRAJE ÓPTICO. PRISIONEIROS QUE <color=red>LIBERAM SETORES DA EXPEDIÇÃO</color> GANHAM ACESSO A RECURSOS EXCEDENTES.\n\n<color=orange>[IMPULSOS]</color>MÓDULOS DE IMPULSO SÃO CONCEDIDOS A PRISIONEIROS QUE <color=red>RECUPERAM ARTEFATOS REVESTIDOS DE CRISTAL.</color> CONJUNTO DE OBJETIVOS ATUALIZADO.",
+        "Translation": "<color=orange>[STATUS]</color>REITERAÇÃO DE CONJUNTO DE OBJETIVOS 6.5. <color=red>SONDAGEM APROFUNDADA.</color> PRISIONEIROS RETOMAM DESCIDA E EXPLORAÇÃO ATÉ NOVO AVISO.\n\n<color=orange>[TRAJE]</color>CONDIÇÃO PSICOLÓGICA APRIMORADA OBSERVADA EM PRISIONEIROS COM TRAJE ÓPTICO. PRISIONEIROS QUE <color=red>LIBERAM SETORES DA EXPEDIÇÃO</color> GANHAM ACESSO A RECURSOS EXCEDENTES.\n\n<color=orange>[IMPULSOS]</color>MÓDULOS DE IMPULSO SÃO CONCEDIDOS A PRISIONEIROS QUE <color=red>RECUPERAM ARTEFATOS REVESTIDOS DE CRISTAL.</color> CONJUNTO DE OBJETIVOS ATUALIZADO.",
         "ShouldTranslate": false
       },
       "Polish": {
-        "Translation": "<color=orange>[STAN]</color>POWTÓRZENIE STOSU CELÓW 6.0. <color=red>POGŁĘBIONA SONDA.</color> WIĘŹNIOWIE POWINNI DO ODWOŁANIA WZNOWIĆ ZEJŚCIE I KONTYNUOWAĆ EKSPLORACJĘ.\n\n<color=orange>[UBIÓR]</color>U WIĘŹNIÓW ZAOBSERWOWANO POPRAWIONY STAN PSYCHICZNY PO ZAOPATRZENIU W DODATKOWY UBIÓR. WIĘŹNIOWIE, KTÓRZY <color=red>OCZYSZCZĄ SEKTORY EKSPEDYCJI</color>, UZYSKAJĄ DOSTĘP DO NADMIAROWYCH ZASOBÓW.\n\n<color=orange>[WZMACNIACZE]</color>WIĘŹNIOM, KTÓRZY <color=red>ZDOBĘDĄ ARTEFAKTY W KRYSZTALE</color>, PRZYZNANE ZOSTANĄ WZMACNIACZE. ZAKTUALIZOWANO STOS CELÓW.",
+        "Translation": "<color=orange>[STAN]</color>POWTÓRZENIE STOSU CELÓW 6.5. <color=red>POGŁĘBIONA SONDA.</color> WIĘŹNIOWIE POWINNI DO ODWOŁANIA WZNOWIĆ ZEJŚCIE I KONTYNUOWAĆ EKSPLORACJĘ.\n\n<color=orange>[UBIÓR]</color>U WIĘŹNIÓW ZAOBSERWOWANO POPRAWIONY STAN PSYCHICZNY PO ZAOPATRZENIU W DODATKOWY UBIÓR. WIĘŹNIOWIE, KTÓRZY <color=red>OCZYSZCZĄ SEKTORY EKSPEDYCJI</color>, UZYSKAJĄ DOSTĘP DO NADMIAROWYCH ZASOBÓW.\n\n<color=orange>[WZMACNIACZE]</color>WIĘŹNIOM, KTÓRZY <color=red>ZDOBĘDĄ ARTEFAKTY W KRYSZTALE</color>, PRZYZNANE ZOSTANĄ WZMACNIACZE. ZAKTUALIZOWANO STOS CELÓW.",
         "ShouldTranslate": false
       },
       "Japanese": {
-        "Translation": "<color=orange>[ステータス]</color>目標蓄積反復6.0。 <color=red>深部ヘと進め。</color> 囚人は次の通知があるまで降下と探索を続けろ。\n\n<color=orange>[外装]</color>追加外装を与えられた囚人に精神状態の改善が見られた。<color=red>エクスペディションのセクターをクリアした</color> 囚人には余剰物資が与えられる。\n\n<color=orange>[ブースター]</color> <color=red>クリスタルに内包されたアーティファクトを回収した</color> 囚人にはブースターモジュールが付与される。目標蓄積更新。",
+        "Translation": "<color=orange>[ステータス]</color>目標蓄積反復6.5。 <color=red>深部ヘと進め。</color> 囚人は次の通知があるまで降下と探索を続けろ。\n\n<color=orange>[外装]</color>追加外装を与えられた囚人に精神状態の改善が見られた。<color=red>エクスペディションのセクターをクリアした</color> 囚人には余剰物資が与えられる。\n\n<color=orange>[ブースター]</color> <color=red>クリスタルに内包されたアーティファクトを回収した</color> 囚人にはブースターモジュールが付与される。目標蓄積更新。",
         "ShouldTranslate": false
       },
       "Korean": {
-        "Translation": "<color=orange>[상태]</color>목표 목록 반복 6.0. <color=red>더 깊이 조사할 것.</color> 수감자는 추후 통보가 있을 때까지 하강을 재개하고 탐색할 것.\n\n<color=orange>[의류]</color>선택적 의복을 제공받은 수감자에게서 심리 상태 개선이 관찰됨. <color=red>탐사 섹터를 클리어</color>하는 수감자는 잉여 자원에 접근 가능.\n\n<color=orange>[부스터]</color>부스터 모듈은 <color=red>크리스탈에 수납된 아티팩트</color>를 회수하는 수감자에게 배포됨. 목표 목록 업데이트됨",
+        "Translation": "<color=orange>[상태]</color>목표 목록 반복 6.5. <color=red>더 깊이 조사할 것.</color> 수감자는 추후 통보가 있을 때까지 하강을 재개하고 탐색할 것.\n\n<color=orange>[의류]</color>선택적 의복을 제공받은 수감자에게서 심리 상태 개선이 관찰됨. <color=red>탐사 섹터를 클리어</color>하는 수감자는 잉여 자원에 접근 가능.\n\n<color=orange>[부스터]</color>부스터 모듈은 <color=red>크리스탈에 수납된 아티팩트</color>를 회수하는 수감자에게 배포됨. 목표 목록 업데이트됨",
         "ShouldTranslate": false
       },
       "Chinese_Traditional": {
-        "Translation": "<color=orange>[狀態]</color>目標堆疊重申 6.0。<color=red>進行更深入的探測。</color>\n\n<color=orange>[服裝]</color>在提供囚犯不同服裝選擇後，觀察到的心理狀況有所改善。囚犯<color=red>清空遠征分區</color>將獲得剩餘資源。\n\n<color=orange>[強化劑]</color>強化劑模組將分配給<color=red>取回水晶包覆寶物</color>的囚犯。目標堆疊已更新。",
+        "Translation": "<color=orange>[狀態]</color>目標堆疊重申 6.5。<color=red>進行更深入的探測。</color>\n\n<color=orange>[服裝]</color>在提供囚犯不同服裝選擇後，觀察到的心理狀況有所改善。囚犯<color=red>清空遠征分區</color>將獲得剩餘資源。\n\n<color=orange>[強化劑]</color>強化劑模組將分配給<color=red>取回水晶包覆寶物</color>的囚犯。目標堆疊已更新。",
         "ShouldTranslate": false
       },
       "Chinese_Simplified": {
-        "Translation": "<color=orange>[状态]</color>目标堆栈重复6.0。<color=red>继续深入探查。</color>囚犯继续下降探索，直至另行通知。\n\n<color=orange>[服装]</color>据观察，配备可选服装的囚犯心理状况有所改善。<color=red>清理任务分区</color>的囚犯将获得额外资源。\n\n<color=orange>[强化剂]</color>强化剂模块将分发给<color=red>取回红晶</color>的囚犯。目标堆栈已更新。",
+        "Translation": "<color=orange>[状态]</color>目标堆栈重复6.5。<color=red>继续深入探查。</color>囚犯继续下降探索，直至另行通知。\n\n<color=orange>[服装]</color>据观察，配备可选服装的囚犯心理状况有所改善。<color=red>清理任务分区</color>的囚犯将获得额外资源。\n\n<color=orange>[强化剂]</color>强化剂模块将分发给<color=red>取回红晶</color>的囚犯。目标堆栈已更新。",
         "ShouldTranslate": false
       },
-      "ExportVersion": 2,
+      "ExportVersion": 3,
       "ImportVersion": 2,
       "name": "RundownData.Rundown006.SurfaceDescription",
       "internalEnabled": true,
