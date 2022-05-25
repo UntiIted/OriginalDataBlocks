@@ -1,11 +1,7 @@
 Boolean: Deprecated
 LocalizedText: PublicName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: Description
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 Vector2: DurationRange
 Single: DropWeight
@@ -23,9 +19,4 @@ List<List<BoosterImplantEffectInstance>>: RandomEffects
 (enum) BoosterEffectCategory: MainEffectType
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

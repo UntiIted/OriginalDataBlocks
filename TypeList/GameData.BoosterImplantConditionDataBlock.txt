@@ -1,22 +1,11 @@
 (enum) BoosterCondition: Condition
 LocalizedText: PublicShortName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: PublicName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: Description
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 String: IconPath
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

@@ -1,26 +1,13 @@
 (enum) AgentModifier: Effect
 LocalizedText: PublicShortName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: PublicName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: Description
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: DescriptionNegative
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 (enum) BoosterEffectCategory: BoosterEffectCategory
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

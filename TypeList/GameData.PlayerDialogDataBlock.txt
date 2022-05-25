@@ -22,8 +22,6 @@ List<DialogStructureHolder>: dialogAlternatives
          Boolean: UNI
          Single: exit
          LocalizedText: Subtitle
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
    DialogActorSettings: ActorA
       (enum) DialogCharFilter: charFilter
@@ -39,9 +37,4 @@ List<DialogStructureHolder>: dialogAlternatives
       (enum) List<DialogCondition>: conditions
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

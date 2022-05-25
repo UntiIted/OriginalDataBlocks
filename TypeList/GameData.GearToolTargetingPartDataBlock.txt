@@ -1,4 +1,3 @@
-Dictionary`2: ModelDataPerType
 List<TypeAndGeneralData>: GeneralDatas
    (enum) eGearToolPartTargetingType: Type
    GearPartGeneralData: Data
@@ -15,9 +14,4 @@ List<GearPartAlignData>: Aligns
    String: AlignName
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

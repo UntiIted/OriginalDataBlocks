@@ -1,10 +1,6 @@
 LocalizedText: PublicName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 LocalizedText: Description
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 UInt32: BaseItem
 String: HUDIcon
@@ -22,9 +18,4 @@ List<GearPartAlignPriority>: PartAlignPriority
    (enum) List<eGearComponent>: PartPrio
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID
