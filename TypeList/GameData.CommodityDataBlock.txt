@@ -1,7 +1,7 @@
 String: PublicName
 (enum) eCommodityType: Type
 (enum) eCommodityPackSize: PackSize
-UInt32: Item
+(ItemDataBlock) UInt32: Item
 (enum) ePlayfabCurrency: PlayfabCurrency
 Int32: PlayfabCurrencyValue
 String: name

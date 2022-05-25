@@ -3,7 +3,7 @@ LocalizedText: PublicName
 LocalizedText: Description
    Boolean: HasTranslation
 (enum) eWeaponFireMode: FireMode
-UInt32: RecoilDataID
+(RecoilDataBlock) UInt32: RecoilDataID
 (enum) AgentModifier: DamageBoosterEffect
 Single: Damage
 Vector2: DamageFalloff

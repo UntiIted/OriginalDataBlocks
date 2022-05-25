@@ -1,7 +1,7 @@
 List<EnemyRoleData>: RoleDatas
    (enum) eEnemyRole: Role
    (enum) eEnemyRoleDifficulty: Difficulty
-   UInt32: Enemy
+   (EnemyDataBlock) UInt32: Enemy
    Single: Cost
    Single: Weight
 String: name

@@ -1,5 +1,5 @@
 List<GearCategoryFilterData>: AllowedCategories
-   UInt32: CategoryID
+   (GearCategoryDataBlock) UInt32: CategoryID
 String: name
 Boolean: internalEnabled
 UInt32: persistentID

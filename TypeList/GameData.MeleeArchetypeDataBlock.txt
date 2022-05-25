@@ -21,8 +21,8 @@ Boolean: EvaluateHoldBeforeAttack
 Boolean: PlayImpactEffect
 Boolean: AllowRunningWhenCharging
 Single: PlayerRunSpeedMultiWhileCharging
-UInt32: MeleeAnimationSet
-UInt32: MeleeSFXSet
+(MeleeAnimationSetDataBlock) UInt32: MeleeAnimationSet
+(MeleeSFXDataBlock) UInt32: MeleeSFXSet
 ActionCost: ChargedAttackStaminaCost
 ActionCost: LightAttackStaminaCost
 ActionCost: PushStaminaCost

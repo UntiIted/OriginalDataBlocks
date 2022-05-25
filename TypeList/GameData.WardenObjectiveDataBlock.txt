@@ -4,7 +4,7 @@ LocalizedText: Header
 LocalizedText: MainObjective
    Boolean: HasTranslation
 (enum) eWardenObjectiveSpecialUpdateType: WardenObjectiveSpecialUpdateType
-UInt32: GenericItemFromStart
+(ItemDataBlock) UInt32: GenericItemFromStart
 LocalizedText: FindLocationInfo
    Boolean: HasTranslation
 LocalizedText: FindLocationInfoHelp
@@ -35,8 +35,8 @@ LocalizedText: GoToWinConditionHelp_ToMainLayer
    Boolean: HasTranslation
 Single: ShowHelpDelay
 List<GenericEnemyWaveData>: WavesOnElevatorLand
-   UInt32: WaveSettings
-   UInt32: WavePopulation
+   (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+   (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
    Single: SpawnDelay
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
@@ -44,7 +44,7 @@ List<GenericEnemyWaveData>: WavesOnElevatorLand
 List<WardenObjectiveEventData>: EventsOnElevatorLand
    (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
-   UInt32: ChainPuzzle
+   (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
@@ -60,11 +60,11 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
       Boolean: HasTranslation
    UInt32: SoundID
    UInt32: DialogueID
-   UInt32: FogSetting
+   (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
    GenericEnemyWaveData: EnemyWaveData
-      UInt32: WaveSettings
-      UInt32: WavePopulation
+      (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -75,12 +75,12 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
    String: WorldEventObjectFilter
 LocalizedText: WaveOnElevatorWardenIntel
    Boolean: HasTranslation
-UInt32: FogTransitionDataOnElevatorLand
+(FogSettingsDataBlock) UInt32: FogTransitionDataOnElevatorLand
 Single: FogTransitionDurationOnElevatorLand
 Boolean: OnActivateOnSolveItem
 List<GenericEnemyWaveData>: WavesOnActivate
-   UInt32: WaveSettings
-   UInt32: WavePopulation
+   (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+   (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
    Single: SpawnDelay
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
@@ -88,7 +88,7 @@ List<GenericEnemyWaveData>: WavesOnActivate
 List<WardenObjectiveEventData>: EventsOnActivate
    (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
-   UInt32: ChainPuzzle
+   (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
@@ -104,11 +104,11 @@ List<WardenObjectiveEventData>: EventsOnActivate
       Boolean: HasTranslation
    UInt32: SoundID
    UInt32: DialogueID
-   UInt32: FogSetting
+   (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
    GenericEnemyWaveData: EnemyWaveData
-      UInt32: WaveSettings
-      UInt32: WavePopulation
+      (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -119,8 +119,8 @@ List<WardenObjectiveEventData>: EventsOnActivate
    String: WorldEventObjectFilter
 Boolean: StopAllWavesBeforeGotoWin
 List<GenericEnemyWaveData>: WavesOnGotoWin
-   UInt32: WaveSettings
-   UInt32: WavePopulation
+   (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+   (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
    Single: SpawnDelay
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
@@ -129,7 +129,7 @@ List<GenericEnemyWaveData>: WavesOnGotoWin
 List<WardenObjectiveEventData>: EventsOnGotoWin
    (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
-   UInt32: ChainPuzzle
+   (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
@@ -145,11 +145,11 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
       Boolean: HasTranslation
    UInt32: SoundID
    UInt32: DialogueID
-   UInt32: FogSetting
+   (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
    GenericEnemyWaveData: EnemyWaveData
-      UInt32: WaveSettings
-      UInt32: WavePopulation
+      (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -159,17 +159,17 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
    Boolean: Enabled
    String: WorldEventObjectFilter
 (enum) eRetrieveExitWaveTrigger: EventsOnGotoWinTrigger
-UInt32: FogTransitionDataOnGotoWin
+(FogSettingsDataBlock) UInt32: FogTransitionDataOnGotoWin
 Single: FogTransitionDurationOnGotoWin
-UInt32: ChainedPuzzleToActive
-UInt32: ChainedPuzzleMidObjective
-UInt32: ChainedPuzzleAtExit
+(ChainedPuzzleDataBlock) UInt32: ChainedPuzzleToActive
+(ChainedPuzzleDataBlock) UInt32: ChainedPuzzleMidObjective
+(ChainedPuzzleDataBlock) UInt32: ChainedPuzzleAtExit
 Single: ChainedPuzzleAtExitScanSpeedMultiplier
 Int32: Gather_RequiredCount
-UInt32: Gather_ItemId
+(ItemDataBlock) UInt32: Gather_ItemId
 Int32: Gather_SpawnCount
 Int32: Gather_MaxPerZone
-List<UInt32>: Retrieve_Items
+(ItemDataBlock) List<UInt32>: Retrieve_Items
 List<ReactorWaveData>: ReactorWaves
    Single: Warmup
    Single: WarmupFail
@@ -179,14 +179,14 @@ List<ReactorWaveData>: ReactorWaves
    Boolean: VerifyInOtherZone
    (enum) eLocalZoneIndex: ZoneForVerification
    List<ReactorWaveEnemyData>: EnemyWaves
-      UInt32: WaveSettings
-      UInt32: WavePopulation
+      (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Single: SpawnTimeRel
       (enum) eReactorWaveSpawnType: SpawnType
    List<WardenObjectiveEventData>: Events
       (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
-      UInt32: ChainPuzzle
+      (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
@@ -202,11 +202,11 @@ List<ReactorWaveData>: ReactorWaves
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
-      UInt32: FogSetting
+      (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
       GenericEnemyWaveData: EnemyWaveData
-         UInt32: WaveSettings
-         UInt32: WavePopulation
+         (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+         (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -230,17 +230,17 @@ Int32: Uplink_NumberOfTerminals
 Int32: CentralPowerGenClustser_NumberOfGenerators
 Int32: CentralPowerGenClustser_NumberOfPowerCells
 List<GeneralFogDataStep>: CentralPowerGenClustser_FogDataSteps
-   UInt32: m_fogDataId
+   (FogSettingsDataBlock) UInt32: m_fogDataId
    Single: m_transitionToTime
-UInt32: ActivateHSU_ItemFromStart
-UInt32: ActivateHSU_ItemAfterActivation
+(ItemDataBlock) UInt32: ActivateHSU_ItemFromStart
+(ItemDataBlock) UInt32: ActivateHSU_ItemAfterActivation
 Boolean: ActivateHSU_StopEnemyWavesOnActivation
 Boolean: ActivateHSU_ObjectiveCompleteAfterInsertion
 Boolean: ActivateHSU_RequireItemAfterActivationInExitScan
 List<WardenObjectiveEventData>: ActivateHSU_Events
    (enum) eWardenObjectiveEventType: Type
    (enum) eWardenObjectiveEventTrigger: Trigger
-   UInt32: ChainPuzzle
+   (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
    Boolean: UseStaticBioscanPoints
    (enum) LG_LayerType: Layer
    (enum) eDimensionIndex: DimensionIndex
@@ -256,11 +256,11 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
       Boolean: HasTranslation
    UInt32: SoundID
    UInt32: DialogueID
-   UInt32: FogSetting
+   (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
    GenericEnemyWaveData: EnemyWaveData
-      UInt32: WaveSettings
-      UInt32: WavePopulation
+      (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage

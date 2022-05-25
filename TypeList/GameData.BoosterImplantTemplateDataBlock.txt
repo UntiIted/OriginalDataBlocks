@@ -5,14 +5,14 @@ LocalizedText: Description
    Boolean: HasTranslation
 Vector2: DurationRange
 Single: DropWeight
-List<UInt32>: Conditions
-List<UInt32>: RandomConditions
+(BoosterImplantConditionDataBlock) List<UInt32>: Conditions
+(BoosterImplantConditionDataBlock) List<UInt32>: RandomConditions
 List<BoosterImplantEffectInstance>: Effects
-   UInt32: BoosterImplantEffect
+   (BoosterImplantEffectDataBlock) UInt32: BoosterImplantEffect
    Single: MinValue
    Single: MaxValue
 List<List<BoosterImplantEffectInstance>>: RandomEffects
-   UInt32: BoosterImplantEffect
+   (BoosterImplantEffectDataBlock) UInt32: BoosterImplantEffect
    Single: MinValue
    Single: MaxValue
 (enum) BoosterImplantCategory: ImplantCategory

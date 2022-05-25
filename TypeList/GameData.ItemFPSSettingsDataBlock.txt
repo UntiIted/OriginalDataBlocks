@@ -18,13 +18,13 @@ Single: customDelayUntilRelax
 Boolean: allowRotToAimPos
 Single: rotToAimPosMinDis
 (enum) eFPISTransitionTime: transitionToAim
-UInt32: RecoilAnimation
-UInt32: IdleAnimation
-UInt32: WalkAnimation
-UInt32: RunAnimation
-UInt32: JumpAnimation
-UInt32: LandAnimation
-UInt32: ChargeCancelAnimation
+(ItemMovementAnimationDataBlock) UInt32: RecoilAnimation
+(ItemMovementAnimationDataBlock) UInt32: IdleAnimation
+(ItemMovementAnimationDataBlock) UInt32: WalkAnimation
+(ItemMovementAnimationDataBlock) UInt32: RunAnimation
+(ItemMovementAnimationDataBlock) UInt32: JumpAnimation
+(ItemMovementAnimationDataBlock) UInt32: LandAnimation
+(ItemMovementAnimationDataBlock) UInt32: ChargeCancelAnimation
 DOFSettingsData: DofDefault
    Boolean: enabled
    Single: focusDistance

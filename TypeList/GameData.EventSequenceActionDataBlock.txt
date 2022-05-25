@@ -19,7 +19,7 @@ ESA_EnemyWave: EnemyWave
    Single: ValueC
 ESA_Lights: Lights
    Boolean: On
-   UInt32: LightSettingsID
+   (LightSettingsDataBlock) UInt32: LightSettingsID
    (enum) eESALightsEffectScope: Scope
 String: name
 Boolean: internalEnabled

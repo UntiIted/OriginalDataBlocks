@@ -1,7 +1,7 @@
 List<EventSequenceActionListComponent>: Actions
    Boolean: On
    Single: Time
-   UInt32: ActionID
+   (EventSequenceActionDataBlock) UInt32: ActionID
 String: name
 Boolean: internalEnabled
 UInt32: persistentID

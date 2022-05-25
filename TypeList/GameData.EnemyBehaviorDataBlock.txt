@@ -81,8 +81,8 @@ Single: Flyer_PitchThreshold
 MinMaxValue: Flyer_DeathDealy
    Single: Min
    Single: Max
-UInt32: Flyer_BossSpawnWaveID
-UInt32: Flyer_BossEnemyID
+(SurvivalWavePopulationDataBlock) UInt32: Flyer_BossSpawnWaveID
+(EnemyDataBlock) UInt32: Flyer_BossEnemyID
 MinMaxValue: Flyer_SpawnOutOfBossStateDuration
    Single: Min
    Single: Max

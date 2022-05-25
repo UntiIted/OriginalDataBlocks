@@ -1,10 +1,10 @@
 DimensionData: DimensionData
-   UInt32: LevelLayoutData
+   (LevelLayoutDataBlock) UInt32: LevelLayoutData
    String: DimensionGeomorph
    Single: VerticalExtentsUp
    Single: VerticalExtentsDown
-   UInt32: DimensionResourceSetID
-   UInt32: DimensionFogData
+   (ComplexResourceSetDataBlock) UInt32: DimensionResourceSetID
+   (FogSettingsDataBlock) UInt32: DimensionFogData
    Single: EnvironmentWetness
    Color: DustColor
    Single: DustAlphaBoost
@@ -15,7 +15,7 @@ DimensionData: DimensionData
    Int32: StaticZoneSeed
    Int32: StaticMarkerSeed
    Int32: StaticLightSeed
-   UInt32: StaticLightSettings
+   (LightSettingsDataBlock) UInt32: StaticLightSettings
    Int32: StaticAliasOverride
    String: StaticAliasPrefixOverride
    String: StaticAliasPrefixShortOverride
@@ -27,8 +27,8 @@ DimensionData: DimensionData
    Boolean: StaticAllowResourceContainerAllocation
    Boolean: StaticAllowSmallPickupsAllocation
    Boolean: StaticForceBigPickupsAllocation
-   UInt32: StaticConsumableDistributionInZone
-   UInt32: StaticBigPickupDistributionInZone
+   (ConsumableDistributionDataBlock) UInt32: StaticConsumableDistributionInZone
+   (BigPickupDistributionDataBlock) UInt32: StaticBigPickupDistributionInZone
    (enum) eZoneDistributionAmount: StaticGroundSpawnersInZone
    Single: StaticHealthMulti
    Single: StaticToolAmmoMulti
@@ -58,7 +58,7 @@ DimensionData: DimensionData
          List<WardenObjectiveEventData>: CommandEvents
             (enum) eWardenObjectiveEventType: Type
             (enum) eWardenObjectiveEventTrigger: Trigger
-            UInt32: ChainPuzzle
+            (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
             Boolean: UseStaticBioscanPoints
             (enum) LG_LayerType: Layer
             (enum) eDimensionIndex: DimensionIndex
@@ -74,11 +74,11 @@ DimensionData: DimensionData
                Boolean: HasTranslation
             UInt32: SoundID
             UInt32: DialogueID
-            UInt32: FogSetting
+            (FogSettingsDataBlock) UInt32: FogSetting
             Single: FogTransitionDuration
             GenericEnemyWaveData: EnemyWaveData
-               UInt32: WaveSettings
-               UInt32: WavePopulation
+               (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+               (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
                Single: SpawnDelay
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
@@ -108,7 +108,7 @@ DimensionData: DimensionData
    List<WardenObjectiveEventData>: EventsOnBossDeath
       (enum) eWardenObjectiveEventType: Type
       (enum) eWardenObjectiveEventTrigger: Trigger
-      UInt32: ChainPuzzle
+      (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
       (enum) LG_LayerType: Layer
       (enum) eDimensionIndex: DimensionIndex
@@ -124,11 +124,11 @@ DimensionData: DimensionData
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
-      UInt32: FogSetting
+      (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
       GenericEnemyWaveData: EnemyWaveData
-         UInt32: WaveSettings
-         UInt32: WavePopulation
+         (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+         (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -145,14 +145,14 @@ DimensionData: DimensionData
    Single: ReflectionsIntensity
    Single: GodrayRange
    Single: GodrayExponent
-   UInt32: AtmosphereData
+   (AtmosphereDataBlock) UInt32: AtmosphereData
    Single: AtmosphereDensity
    Single: Exposure
    Single: AerialScale
    Single: MieScattering
    Single: MieG
    Single: MultipleScattering
-   UInt32: CloudsData
+   (CloudsDataBlock) UInt32: CloudsData
    Single: CloudsCoverage
    Single: CloudsDensity
    Single: CloudsSharpness

@@ -1,13 +1,13 @@
 String: PublicAlarmName
 Boolean: TriggerAlarmOnActivate
-UInt32: SurvivalWaveSettings
-UInt32: SurvivalWavePopulation
+(SurvivalWaveSettingsDataBlock) UInt32: SurvivalWaveSettings
+(SurvivalWavePopulationDataBlock) UInt32: SurvivalWavePopulation
 Boolean: DisableSurvivalWaveOnComplete
 Boolean: UseRandomPositions
 Single: WantedDistanceFromStartPos
 Single: WantedDistanceBetweenPuzzleComponents
 List<ChainedPuzzleComponent>: ChainedPuzzle
-   UInt32: PuzzleType
+   (ChainedPuzzleTypeDataBlock) UInt32: PuzzleType
 Boolean: OnlyShowHUDWhenPlayerIsClose
 UInt32: AlarmSoundStart
 UInt32: AlarmSoundStop

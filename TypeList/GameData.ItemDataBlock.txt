@@ -8,7 +8,7 @@ Boolean: registerInTerminalSystem
 (enum) ItemWarpType: DimensionWarpType
 (enum) AssetBundleShard: Shard
 (enum) InventorySlot: inventorySlot
-UInt32: FPSSettings
+(ItemFPSSettingsDataBlock) UInt32: FPSSettings
 (enum) Crosshair: crosshair
 String: HUDIcon
 Boolean: ShowCrosshairWhenAiming

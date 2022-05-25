@@ -52,7 +52,7 @@ RundownStorytellingData: StorytellingData
       Boolean: HasTranslation
    LocalizedText: ExternalExpTitle
       Boolean: HasTranslation
-UInt32: VanityItemLayerDropDataBlock
+(VanityItemsLayerDropsDataBlock) UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
@@ -86,20 +86,20 @@ List<ExpeditionInTierData>: TierA
       Int32: StandardMarkerOffset
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
-      UInt32: ComplexResourceData
-      UInt32: MLSLevelKit
-      UInt32: LightSettings
-      UInt32: FogSettings
-      UInt32: EnemyPopulation
-      UInt32: ExpeditionBalance
-      UInt32: ScoutWaveSettings
-      UInt32: ScoutWavePopulation
+      (ComplexResourceSetDataBlock) UInt32: ComplexResourceData
+      (MLSArrayDescriptorReferenceDataBlock) UInt32: MLSLevelKit
+      (LightSettingsDataBlock) UInt32: LightSettings
+      (FogSettingsDataBlock) UInt32: FogSettings
+      (EnemyPopulationDataBlock) UInt32: EnemyPopulation
+      (ExpeditionBalanceDataBlock) UInt32: ExpeditionBalance
+      (SurvivalWaveSettingsDataBlock) UInt32: ScoutWaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: ScoutWavePopulation
       Single: EnvironmentWetness
       Color: DustColor
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
-      List<UInt32>: Groups
-   UInt32: LevelLayoutData
+      (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
@@ -118,7 +118,7 @@ List<ExpeditionInTierData>: TierA
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -129,14 +129,14 @@ List<ExpeditionInTierData>: TierA
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
-   UInt32: SecondaryLayout
+   (LevelLayoutDataBlock) UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -158,7 +158,7 @@ List<ExpeditionInTierData>: TierA
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -169,14 +169,14 @@ List<ExpeditionInTierData>: TierA
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
-   UInt32: ThirdLayout
+   (LevelLayoutDataBlock) UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -198,7 +198,7 @@ List<ExpeditionInTierData>: TierA
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -209,7 +209,7 @@ List<ExpeditionInTierData>: TierA
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
@@ -217,7 +217,7 @@ List<ExpeditionInTierData>: TierA
             Single: SpecializedArtifactWeight
    List<DimensionInExpeditionData>: DimensionDatas
       (enum) eDimensionIndex: DimensionIndex
-      UInt32: DimensionData
+      (DimensionDataBlock) UInt32: DimensionData
       Boolean: Enabled
    UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
@@ -259,20 +259,20 @@ List<ExpeditionInTierData>: TierB
       Int32: StandardMarkerOffset
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
-      UInt32: ComplexResourceData
-      UInt32: MLSLevelKit
-      UInt32: LightSettings
-      UInt32: FogSettings
-      UInt32: EnemyPopulation
-      UInt32: ExpeditionBalance
-      UInt32: ScoutWaveSettings
-      UInt32: ScoutWavePopulation
+      (ComplexResourceSetDataBlock) UInt32: ComplexResourceData
+      (MLSArrayDescriptorReferenceDataBlock) UInt32: MLSLevelKit
+      (LightSettingsDataBlock) UInt32: LightSettings
+      (FogSettingsDataBlock) UInt32: FogSettings
+      (EnemyPopulationDataBlock) UInt32: EnemyPopulation
+      (ExpeditionBalanceDataBlock) UInt32: ExpeditionBalance
+      (SurvivalWaveSettingsDataBlock) UInt32: ScoutWaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: ScoutWavePopulation
       Single: EnvironmentWetness
       Color: DustColor
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
-      List<UInt32>: Groups
-   UInt32: LevelLayoutData
+      (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
@@ -291,7 +291,7 @@ List<ExpeditionInTierData>: TierB
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -302,14 +302,14 @@ List<ExpeditionInTierData>: TierB
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
-   UInt32: SecondaryLayout
+   (LevelLayoutDataBlock) UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -331,7 +331,7 @@ List<ExpeditionInTierData>: TierB
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -342,14 +342,14 @@ List<ExpeditionInTierData>: TierB
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
-   UInt32: ThirdLayout
+   (LevelLayoutDataBlock) UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -371,7 +371,7 @@ List<ExpeditionInTierData>: TierB
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -382,7 +382,7 @@ List<ExpeditionInTierData>: TierB
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
@@ -390,7 +390,7 @@ List<ExpeditionInTierData>: TierB
             Single: SpecializedArtifactWeight
    List<DimensionInExpeditionData>: DimensionDatas
       (enum) eDimensionIndex: DimensionIndex
-      UInt32: DimensionData
+      (DimensionDataBlock) UInt32: DimensionData
       Boolean: Enabled
    UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
@@ -432,20 +432,20 @@ List<ExpeditionInTierData>: TierC
       Int32: StandardMarkerOffset
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
-      UInt32: ComplexResourceData
-      UInt32: MLSLevelKit
-      UInt32: LightSettings
-      UInt32: FogSettings
-      UInt32: EnemyPopulation
-      UInt32: ExpeditionBalance
-      UInt32: ScoutWaveSettings
-      UInt32: ScoutWavePopulation
+      (ComplexResourceSetDataBlock) UInt32: ComplexResourceData
+      (MLSArrayDescriptorReferenceDataBlock) UInt32: MLSLevelKit
+      (LightSettingsDataBlock) UInt32: LightSettings
+      (FogSettingsDataBlock) UInt32: FogSettings
+      (EnemyPopulationDataBlock) UInt32: EnemyPopulation
+      (ExpeditionBalanceDataBlock) UInt32: ExpeditionBalance
+      (SurvivalWaveSettingsDataBlock) UInt32: ScoutWaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: ScoutWavePopulation
       Single: EnvironmentWetness
       Color: DustColor
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
-      List<UInt32>: Groups
-   UInt32: LevelLayoutData
+      (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
@@ -464,7 +464,7 @@ List<ExpeditionInTierData>: TierC
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -475,14 +475,14 @@ List<ExpeditionInTierData>: TierC
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
-   UInt32: SecondaryLayout
+   (LevelLayoutDataBlock) UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -504,7 +504,7 @@ List<ExpeditionInTierData>: TierC
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -515,14 +515,14 @@ List<ExpeditionInTierData>: TierC
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
-   UInt32: ThirdLayout
+   (LevelLayoutDataBlock) UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -544,7 +544,7 @@ List<ExpeditionInTierData>: TierC
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -555,7 +555,7 @@ List<ExpeditionInTierData>: TierC
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
@@ -563,7 +563,7 @@ List<ExpeditionInTierData>: TierC
             Single: SpecializedArtifactWeight
    List<DimensionInExpeditionData>: DimensionDatas
       (enum) eDimensionIndex: DimensionIndex
-      UInt32: DimensionData
+      (DimensionDataBlock) UInt32: DimensionData
       Boolean: Enabled
    UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
@@ -605,20 +605,20 @@ List<ExpeditionInTierData>: TierD
       Int32: StandardMarkerOffset
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
-      UInt32: ComplexResourceData
-      UInt32: MLSLevelKit
-      UInt32: LightSettings
-      UInt32: FogSettings
-      UInt32: EnemyPopulation
-      UInt32: ExpeditionBalance
-      UInt32: ScoutWaveSettings
-      UInt32: ScoutWavePopulation
+      (ComplexResourceSetDataBlock) UInt32: ComplexResourceData
+      (MLSArrayDescriptorReferenceDataBlock) UInt32: MLSLevelKit
+      (LightSettingsDataBlock) UInt32: LightSettings
+      (FogSettingsDataBlock) UInt32: FogSettings
+      (EnemyPopulationDataBlock) UInt32: EnemyPopulation
+      (ExpeditionBalanceDataBlock) UInt32: ExpeditionBalance
+      (SurvivalWaveSettingsDataBlock) UInt32: ScoutWaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: ScoutWavePopulation
       Single: EnvironmentWetness
       Color: DustColor
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
-      List<UInt32>: Groups
-   UInt32: LevelLayoutData
+      (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
@@ -637,7 +637,7 @@ List<ExpeditionInTierData>: TierD
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -648,14 +648,14 @@ List<ExpeditionInTierData>: TierD
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
-   UInt32: SecondaryLayout
+   (LevelLayoutDataBlock) UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -677,7 +677,7 @@ List<ExpeditionInTierData>: TierD
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -688,14 +688,14 @@ List<ExpeditionInTierData>: TierD
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
-   UInt32: ThirdLayout
+   (LevelLayoutDataBlock) UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -717,7 +717,7 @@ List<ExpeditionInTierData>: TierD
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -728,7 +728,7 @@ List<ExpeditionInTierData>: TierD
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
@@ -736,7 +736,7 @@ List<ExpeditionInTierData>: TierD
             Single: SpecializedArtifactWeight
    List<DimensionInExpeditionData>: DimensionDatas
       (enum) eDimensionIndex: DimensionIndex
-      UInt32: DimensionData
+      (DimensionDataBlock) UInt32: DimensionData
       Boolean: Enabled
    UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData
@@ -778,20 +778,20 @@ List<ExpeditionInTierData>: TierE
       Int32: StandardMarkerOffset
       Int32: LightJobSeedOffset
    ExpeditionData: Expedition
-      UInt32: ComplexResourceData
-      UInt32: MLSLevelKit
-      UInt32: LightSettings
-      UInt32: FogSettings
-      UInt32: EnemyPopulation
-      UInt32: ExpeditionBalance
-      UInt32: ScoutWaveSettings
-      UInt32: ScoutWavePopulation
+      (ComplexResourceSetDataBlock) UInt32: ComplexResourceData
+      (MLSArrayDescriptorReferenceDataBlock) UInt32: MLSLevelKit
+      (LightSettingsDataBlock) UInt32: LightSettings
+      (FogSettingsDataBlock) UInt32: FogSettings
+      (EnemyPopulationDataBlock) UInt32: EnemyPopulation
+      (ExpeditionBalanceDataBlock) UInt32: ExpeditionBalance
+      (SurvivalWaveSettingsDataBlock) UInt32: ScoutWaveSettings
+      (SurvivalWavePopulationDataBlock) UInt32: ScoutWavePopulation
       Single: EnvironmentWetness
       Color: DustColor
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
-      List<UInt32>: Groups
-   UInt32: LevelLayoutData
+      (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
       List<BulkheadDoorPlacementData>: BulkheadDoorControllerPlacements
@@ -810,7 +810,7 @@ List<ExpeditionInTierData>: TierE
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -821,14 +821,14 @@ List<ExpeditionInTierData>: TierE
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: SecondaryLayerEnabled
-   UInt32: SecondaryLayout
+   (LevelLayoutDataBlock) UInt32: SecondaryLayout
    BuildLayerFromData: BuildSecondaryFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -850,7 +850,7 @@ List<ExpeditionInTierData>: TierE
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -861,14 +861,14 @@ List<ExpeditionInTierData>: TierE
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
             Single: AdvancedArtifactWeight
             Single: SpecializedArtifactWeight
    Boolean: ThirdLayerEnabled
-   UInt32: ThirdLayout
+   (LevelLayoutDataBlock) UInt32: ThirdLayout
    BuildLayerFromData: BuildThirdFrom
       (enum) LG_LayerType: LayerType
       (enum) eLocalZoneIndex: Zone
@@ -890,7 +890,7 @@ List<ExpeditionInTierData>: TierE
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
-         UInt32: DataBlockId
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
             (enum) eDimensionIndex: DimensionIndex
@@ -901,7 +901,7 @@ List<ExpeditionInTierData>: TierE
                Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
-         UInt32: ArtifactLayerDistributionDataID
+         (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
          List<ArtifactZoneDistribution>: ArtifactZoneDistributions
             (enum) eLocalZoneIndex: Zone
             Single: BasicArtifactWeight
@@ -909,7 +909,7 @@ List<ExpeditionInTierData>: TierE
             Single: SpecializedArtifactWeight
    List<DimensionInExpeditionData>: DimensionDatas
       (enum) eDimensionIndex: DimensionIndex
-      UInt32: DimensionData
+      (DimensionDataBlock) UInt32: DimensionData
       Boolean: Enabled
    UInt32: SoundEventOnWarpToReality
    SpecialExpeditionOverridesData: SpecialOverrideData

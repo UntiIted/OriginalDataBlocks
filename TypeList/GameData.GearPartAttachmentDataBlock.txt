@@ -3,7 +3,7 @@ GearPartGeneralData: General
    String: PublicName
    String: Model
    List<String>: Children
-   UInt32: GearCategoryFilter
+   (GearCategoryFilterDataBlock) UInt32: GearCategoryFilter
    String: LeftHandGripAnim
    String: RightHandGripAnim
    (enum) AssetBundleName: AssetBundle

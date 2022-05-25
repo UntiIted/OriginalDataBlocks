@@ -1,7 +1,7 @@
 Int32: SpawnsPerZone
 Single: ChanceToSpawnInResourceContainer
 List<ConsumableSpawnData>: SpawnData
-   UInt32: ItemID
+   (ItemDataBlock) UInt32: ItemID
    Single: Weight
 String: name
 Boolean: internalEnabled

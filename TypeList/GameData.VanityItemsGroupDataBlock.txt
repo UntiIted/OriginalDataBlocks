@@ -1,4 +1,4 @@
-List<UInt32>: Items
+(VanityItemsTemplateDataBlock) List<UInt32>: Items
 String: name
 Boolean: internalEnabled
 UInt32: persistentID

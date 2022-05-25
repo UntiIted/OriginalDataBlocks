@@ -2,17 +2,17 @@ LocalizedText: PublicName
    Boolean: HasTranslation
 LocalizedText: Description
    Boolean: HasTranslation
-UInt32: BaseItem
+(ItemDataBlock) UInt32: BaseItem
 String: HUDIcon
 Single: IconRotationOffset
 Single: IconZoomOffset
 String: FPSArmPoseName
 (enum) eFullbodyPlayerMovementSet: ThirdPersonFullbodyMovement
-UInt32: SemiArchetype
-UInt32: BurstArchetype
-UInt32: AutoArchetype
-UInt32: SemiBurstArchetype
-UInt32: MeleeArchetype
+(ArchetypeDataBlock) UInt32: SemiArchetype
+(ArchetypeDataBlock) UInt32: BurstArchetype
+(ArchetypeDataBlock) UInt32: AutoArchetype
+(ArchetypeDataBlock) UInt32: SemiBurstArchetype
+(MeleeArchetypeDataBlock) UInt32: MeleeArchetype
 List<GearPartAlignPriority>: PartAlignPriority
    (enum) eGearPartAlign: AlignType
    (enum) List<eGearComponent>: PartPrio

@@ -5,7 +5,7 @@ MarkerDataCommon: CommonData
       (enum) ExpeditionFunction: function
       (enum) AssetBundleShard: Shard
    (enum) AssetBundleName: AssetBundleName
-   UInt32: Group
+   (MarkerGroupDataBlock) UInt32: Group
    Single: FunctionPotential
    Int32: RotationSnap
    Single: RotationNoise

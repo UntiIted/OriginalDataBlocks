@@ -2,7 +2,7 @@ List<LayerDropData>: LayerDrops
    (enum) ExpeditionLayers: Layer
    Int32: Count
    Boolean: IsAll
-   List<UInt32>: Groups
+   (VanityItemsGroupDataBlock) List<UInt32>: Groups
 String: name
 Boolean: internalEnabled
 UInt32: persistentID
