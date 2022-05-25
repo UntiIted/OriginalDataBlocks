@@ -1,7 +1,3 @@
-String: m_cachedCoverageTexturePath
-Texture2D: m_cachedCoverageTexture
-String: m_cachedNoiseTexturePath
-Texture3D: m_cachedNoiseTexture
 String: CoverageTexture
 Single: CoverageSize
 Single: Altitude
@@ -20,9 +16,4 @@ Single: AmbientOcclusion
 (enum) AssetBundleShard: startupShard
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

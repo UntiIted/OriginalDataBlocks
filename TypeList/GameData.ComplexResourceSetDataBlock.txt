@@ -1,51 +1,3 @@
-Il2CppReferenceArray`1: m_geomorphTiles_1x1
-Il2CppReferenceArray`1: m_geomorphTiles_2x1
-Il2CppReferenceArray`1: m_geomorphTiles_2x2
-Il2CppReferenceArray`1: m_smallWeakGates
-Il2CppReferenceArray`1: m_smallSecurityGates
-Il2CppReferenceArray`1: m_smallApexGates
-Il2CppReferenceArray`1: m_smallBulkheadGates
-Il2CppReferenceArray`1: m_smallMainPathBulkheadGates
-Il2CppReferenceArray`1: m_smallWallCaps
-Il2CppReferenceArray`1: m_smallDestroyedCaps
-Il2CppReferenceArray`1: m_smallWallAndDestroyedCaps
-Il2CppReferenceArray`1: m_mediumWeakGates
-Il2CppReferenceArray`1: m_mediumSecurityGates
-Il2CppReferenceArray`1: m_mediumApexGates
-Il2CppReferenceArray`1: m_mediumBulkheadGates
-Il2CppReferenceArray`1: m_mediumMainPathBulkheadGates
-Il2CppReferenceArray`1: m_mediumWallCaps
-Il2CppReferenceArray`1: m_mediumDestroyedCaps
-Il2CppReferenceArray`1: m_mediumWallAndDestroyedCaps
-Il2CppReferenceArray`1: m_largeWeakGates
-Il2CppReferenceArray`1: m_largeSecurityGates
-Il2CppReferenceArray`1: m_largeApexGates
-Il2CppReferenceArray`1: m_largeBulkheadGates
-Il2CppReferenceArray`1: m_largeMainPathBulkheadGates
-Il2CppReferenceArray`1: m_largeWallCaps
-Il2CppReferenceArray`1: m_largeDestroyedCaps
-Il2CppReferenceArray`1: m_largeWallAndDestroyedCaps
-Il2CppReferenceArray`1: m_straightPlugsNoGates
-Il2CppReferenceArray`1: m_straightPlugsWithGates
-Il2CppReferenceArray`1: m_singleDropPlugsNoGates
-Il2CppReferenceArray`1: m_singleDropPlugsWithGates
-Il2CppReferenceArray`1: m_doubleDropPlugsNoGates
-Il2CppReferenceArray`1: m_doubleDropPlugsWithGates
-Il2CppReferenceArray`1: m_plugCaps
-Il2CppReferenceArray`1: m_elevatorShafts_1x1
-Il2CppReferenceArray`1: m_customGeomorphs_Exit_1x1
-Il2CppReferenceArray`1: m_customGeomorphs_Objective_1x1
-Il2CppReferenceArray`1: m_customGeomorphs_Challenge_1x1
-Il2CppReferenceArray`1: m_ladders_4m
-Il2CppReferenceArray`1: m_ladders_2m
-Il2CppReferenceArray`1: m_ladders_1m
-Il2CppReferenceArray`1: m_ladders_05m
-Il2CppReferenceArray`1: m_ladders_bottom
-Il2CppReferenceArray`1: m_ladders_top
-Double: m_lastSaveVerification
-Dictionary`2: m_prefabSpawnerCounter
-Dictionary`2: m_allCustomGeomorphsPerPath
-Il2CppObjectBase: m_geomorphPickerIndex
 (enum) Complex: ComplexType
 (enum) SubComplex: PrimareSubComplexUsed
 (enum) AssetBundleName: BundleName
@@ -234,9 +186,4 @@ List<ResourceData>: Ladders_Top
    (enum) AssetBundleShard: Shard
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

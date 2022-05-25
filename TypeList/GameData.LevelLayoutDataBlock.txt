@@ -1,8 +1,5 @@
 Int32: ZoneAliasStart
 List<ExpeditionZoneData>: Zones
-   Int32: Alias
-   Int32: BuildFromZoneAlias
-   String: BulkyListElementName
    (enum) eLocalZoneIndex: LocalIndex
    Int32: AliasOverride
    Boolean: OverrideAliasPrefix
@@ -48,16 +45,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -69,8 +60,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -88,16 +77,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -109,8 +92,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -128,16 +109,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -149,8 +124,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -168,16 +141,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -189,8 +156,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -208,16 +173,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -229,8 +188,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -248,16 +205,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -269,8 +220,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -288,16 +237,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -309,8 +252,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -329,16 +270,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -350,8 +285,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -360,8 +293,6 @@ List<ExpeditionZoneData>: Zones
    ProgressionPuzzleData: ProgressionPuzzleToEnter
       (enum) eProgressionPuzzleType: PuzzleType
       LocalizedText: CustomText
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       Int32: PlacementCount
       List<ZonePlacementData>: ZonePlacementData
@@ -394,16 +325,10 @@ List<ExpeditionZoneData>: Zones
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -415,8 +340,6 @@ List<ExpeditionZoneData>: Zones
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -459,7 +382,6 @@ List<ExpeditionZoneData>: Zones
       Int32: AreaSeedOffset
       Int32: MarkerSeedOffset
       List<TerminalLogFileData>: LocalLogFiles
-         List<String>: ParsedLog
          String: FileName
          String: FileContent
          UInt32: AttachedAudioFile
@@ -471,8 +393,6 @@ List<ExpeditionZoneData>: Zones
          List<TerminalOutput>: PostCommandOutputs
             (enum) TerminalLineType: LineType
             LocalizedText: Output
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
@@ -487,16 +407,10 @@ List<ExpeditionZoneData>: Zones
             Single: Duration
             Boolean: ClearDimension
             LocalizedText: WardenIntel
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             LocalizedText: CustomSubObjectiveHeader
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             LocalizedText: CustomSubObjective
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             UInt32: SoundID
             UInt32: DialogueID
@@ -508,8 +422,6 @@ List<ExpeditionZoneData>: Zones
                Single: SpawnDelay
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
-                  String: UntranslatedText
-                  UInt32: Id
                   Boolean: HasTranslation
             Vector3: Position
             Int32: Count
@@ -577,9 +489,4 @@ List<ExpeditionZoneData>: Zones
       Int32: FixedSeed
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

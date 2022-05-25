@@ -42,7 +42,6 @@ DimensionData: DimensionData
       Int32: AreaSeedOffset
       Int32: MarkerSeedOffset
       List<TerminalLogFileData>: LocalLogFiles
-         List<String>: ParsedLog
          String: FileName
          String: FileContent
          UInt32: AttachedAudioFile
@@ -54,8 +53,6 @@ DimensionData: DimensionData
          List<TerminalOutput>: PostCommandOutputs
             (enum) TerminalLineType: LineType
             LocalizedText: Output
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
@@ -70,16 +67,10 @@ DimensionData: DimensionData
             Single: Duration
             Boolean: ClearDimension
             LocalizedText: WardenIntel
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             LocalizedText: CustomSubObjectiveHeader
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             LocalizedText: CustomSubObjective
-               String: UntranslatedText
-               UInt32: Id
                Boolean: HasTranslation
             UInt32: SoundID
             UInt32: DialogueID
@@ -91,8 +82,6 @@ DimensionData: DimensionData
                Single: SpawnDelay
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
-                  String: UntranslatedText
-                  UInt32: Id
                   Boolean: HasTranslation
             Vector3: Position
             Int32: Count
@@ -128,16 +117,10 @@ DimensionData: DimensionData
       Single: Duration
       Boolean: ClearDimension
       LocalizedText: WardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjectiveHeader
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: CustomSubObjective
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       UInt32: SoundID
       UInt32: DialogueID
@@ -149,8 +132,6 @@ DimensionData: DimensionData
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
-            String: UntranslatedText
-            UInt32: Id
             Boolean: HasTranslation
       Vector3: Position
       Int32: Count
@@ -187,9 +168,4 @@ DimensionData: DimensionData
    (enum) LG_LayerType: LinkedToLayer
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

@@ -1,11 +1,8 @@
-Int32: m_internalMaterialId
-(enum) MaterialType: m_internalMaterial
 (enum) eEnemyType: EnemyType
 (enum) AssetBundleName: AssetBundle
 (enum) AssetBundleShard: BundleShard
 List<String>: BasePrefabs
 List<ModelData>: ModelDatas
-   Int32: m_internalMaterialId
    String: ModelFile
    String: ModelCustomization
    Vector3: PositionOffset
@@ -24,7 +21,6 @@ UInt32: BalancingDataId
 UInt32: SFXDataId
 List<LinkedSlaveModelData>: LinkedSlaveModels
    (enum) AnimatorControllerHandleName: AnimationSet
-   Int32: m_internalMaterialId
    String: ModelFile
    String: ModelCustomization
    Vector3: PositionOffset
@@ -47,9 +43,4 @@ List<AbilityData>: AI_Abilities
    (enum) List<AbilityCondition>: AbilityConditions
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

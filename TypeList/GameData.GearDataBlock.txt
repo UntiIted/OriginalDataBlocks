@@ -1,15 +1,8 @@
-String: m_publicName
-Boolean: m_baseItemSet
-UInt32: m_baseItemID
-Boolean: m_updateBaseItem
-Il2CppStringArray: m_toolsAvailable
 String: internalBlockListPrefix
 Color: internalBlockListColor
 String: generalBlockInfo
 Boolean: officialForRelease
 String: publicName
-String: example
-Boolean: updateBaseItem
 UInt32: baseItemID
 UInt32: weaponPersonalityID
 Boolean: showAmmoInGUI
@@ -22,61 +15,51 @@ String: PublicGearInfo
 List<GearDropPeriodData>: dropPeriodRange
    String: macroText
 List<ItemPartData>: structualModsAllowedGrip
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: structualModsAllowedStock
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: structualModsAllowedBarrel
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: structualModsAllowedReceiver
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: visualModsAllowed
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: toolsAllowed
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: sightsAllowed
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: gripsAllowed
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: muzzlesAllowed
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
    String: macroText
 List<ItemPartData>: magazinesAllowed
-   Boolean: tempTouched
    Boolean: allowed
    UInt32: ID
    String: partName
@@ -90,6 +73,4 @@ Boolean: allowEmptyMuzzleSlot
 Boolean: allowEmptyMagazineSlot
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListSuffix
 UInt32: persistentID

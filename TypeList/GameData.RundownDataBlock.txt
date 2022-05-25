@@ -21,12 +21,8 @@ RundownTierProgressionData: ReqToReachTierE
    Int32: AllClearedSectors
 RundownStorytellingData: StorytellingData
    LocalizedText: Title
-      String: UntranslatedText
-      UInt32: Id
       Boolean: HasTranslation
    LocalizedText: TextLog
-      String: UntranslatedText
-      UInt32: Id
       Boolean: HasTranslation
    Vector2: TextLogPos
    RundownStorytellingVisualData: Visuals
@@ -53,17 +49,11 @@ RundownStorytellingData: StorytellingData
          Single: ScaleYModifier
    Vector2: SurfaceIconPosition
    LocalizedText: SurfaceDescription
-      String: UntranslatedText
-      UInt32: Id
       Boolean: HasTranslation
    LocalizedText: ExternalExpTitle
-      String: UntranslatedText
-      UInt32: Id
       Boolean: HasTranslation
 UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
-   Int32: HostIDSeed
-   Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
@@ -84,16 +74,10 @@ List<ExpeditionInTierData>: TierA
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: ExpeditionDescription
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: RoleplayedWardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
@@ -243,8 +227,6 @@ List<ExpeditionInTierData>: TierA
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierB
-   Int32: HostIDSeed
-   Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
@@ -265,16 +247,10 @@ List<ExpeditionInTierData>: TierB
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: ExpeditionDescription
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: RoleplayedWardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
@@ -424,8 +400,6 @@ List<ExpeditionInTierData>: TierB
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierC
-   Int32: HostIDSeed
-   Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
@@ -446,16 +420,10 @@ List<ExpeditionInTierData>: TierC
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: ExpeditionDescription
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: RoleplayedWardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
@@ -605,8 +573,6 @@ List<ExpeditionInTierData>: TierC
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierD
-   Int32: HostIDSeed
-   Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
@@ -627,16 +593,10 @@ List<ExpeditionInTierData>: TierD
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: ExpeditionDescription
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: RoleplayedWardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
@@ -786,8 +746,6 @@ List<ExpeditionInTierData>: TierD
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierE
-   Int32: HostIDSeed
-   Int32: SessionSeed
    Boolean: Enabled
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
@@ -808,16 +766,10 @@ List<ExpeditionInTierData>: TierE
       (enum) eProgressionVisualStyle: ProgressionVisualStyle
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: ExpeditionDescription
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       LocalizedText: RoleplayedWardenIntel
-         String: UntranslatedText
-         UInt32: Id
          Boolean: HasTranslation
       String: DevInfo
    BuildSeedData: Seeds
@@ -968,9 +920,4 @@ List<ExpeditionInTierData>: TierE
    Boolean: HasStoryStyle
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

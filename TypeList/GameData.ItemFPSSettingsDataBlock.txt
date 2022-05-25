@@ -1,4 +1,3 @@
-Il2CppReferenceArray`1: ItemToolsPerSlot
 Vector3: localPosHip
 Vector3: localRotHip
 Single: SwayAmount
@@ -36,14 +35,6 @@ DOFSettingsData: DofAim
    Single: focusDistance
    Single: aperture
    Single: focalLength
-Boolean: debugForceHip
-Boolean: debugForceRelaxed
-Boolean: debugForceZoom
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

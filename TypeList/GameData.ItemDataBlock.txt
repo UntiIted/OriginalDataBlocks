@@ -1,10 +1,5 @@
-Int32: listIndex
-UInt32: syncID
-Il2CppReferenceArray`1: ItemToolsPerSlot
 String: publicName
 LocalizedText: LocalizedName
-   String: UntranslatedText
-   UInt32: Id
    Boolean: HasTranslation
 String: terminalItemShortName
 String: terminalItemLongName
@@ -44,9 +39,4 @@ String: MuzzleAlign
 String: BackpackAlign
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID

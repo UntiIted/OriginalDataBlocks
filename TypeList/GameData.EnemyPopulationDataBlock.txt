@@ -1,6 +1,3 @@
-Dictionary`2: m_enemyDataPerRoleAndDiff
-Dictionary`2: m_enemyRandomizerPerRoleAndDiff
-Boolean: EnemyDataIsSetup
 List<EnemyRoleData>: RoleDatas
    (enum) eEnemyRole: Role
    (enum) eEnemyRoleDifficulty: Difficulty
@@ -9,9 +6,4 @@ List<EnemyRoleData>: RoleDatas
    Single: Weight
 String: name
 Boolean: internalEnabled
-Boolean: internalForceRebuild
-String: internalBlockListPrefix
-String: internalBlockListSuffix
-Color: internalBlockListColor
-String: generalBlockInfo
 UInt32: persistentID
