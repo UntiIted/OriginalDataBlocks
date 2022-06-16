@@ -2,13 +2,11 @@
   "Headers": [
     {
       "AboveBlockID": 15,
-      "LabelText": "Mining",
-      "FoldoutStatus": true
+      "LabelText": "Mining"
     },
     {
       "AboveBlockID": 9,
-      "LabelText": "Tech",
-      "FoldoutStatus": true
+      "LabelText": "Tech"
     }
   ],
   "Blocks": [
@@ -142,6 +140,27 @@
       "persistentID": 3
     },
     {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 114,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        }
+      ],
+      "name": "Darkness",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
       "SpawnsPerZone": 1,
       "ChanceToSpawnInResourceContainer": 0.9,
       "SpawnData": [
@@ -198,6 +217,126 @@
       "name": "CombatFog_medium",
       "internalEnabled": true,
       "persistentID": 6
+    },
+    {
+      "SpawnsPerZone": 14,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 4.0
+        }
+      ],
+      "name": "CombatMelee_Storage",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "SpawnsPerZone": 14,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 4.0
+        }
+      ],
+      "name": "Combat_MineFocus_Storage",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "SpawnsPerZone": 18,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        }
+      ],
+      "name": "CombatMelee_Storage_lessMelee",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "SpawnsPerZone": 9,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        }
+      ],
+      "name": "CombatMelee_Storage_Medium",
+      "internalEnabled": true,
+      "persistentID": 37
     },
     {
       "SpawnsPerZone": 5,
@@ -374,7 +513,7 @@
         },
         {
           "ItemID": 114,
-          "Weight": 14.0
+          "Weight": 6.0
         },
         {
           "ItemID": 115,
@@ -382,11 +521,48 @@
         },
         {
           "ItemID": 116,
-          "Weight": 8.0
+          "Weight": 6.0
         },
         {
           "ItemID": 139,
           "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 12.0
+        }
+      ],
+      "name": "Baseline_Fog",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 114,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 4.0
         }
       ],
       "name": "Baseline_c2_r6",
@@ -876,7 +1052,20 @@
       "name": "Syringes_disinfect_Tech",
       "internalEnabled": true,
       "persistentID": 23
+    },
+    {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 0.0,
+      "SpawnData": [
+        {
+          "ItemID": 172,
+          "Weight": 1000.0
+        }
+      ],
+      "name": "PickUp_MemoryStick_Interactable",
+      "internalEnabled": true,
+      "persistentID": 39
     }
   ],
-  "LastPersistentID": 34
+  "LastPersistentID": 41
 }

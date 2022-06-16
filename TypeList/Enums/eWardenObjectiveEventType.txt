@@ -13,4 +13,12 @@ UpdateCustomSubObjective - 11
 ForceCompleteObjective - 12
 LightsInZone - 13
 LightsInZoneToggle - 14
+AnimationTrigger - 15
+SpawnEnemyOnPoint - 16
+SetNavMarker - 17
+StepProgressionObjective - 18
+SetWorldEventCondition - 19
+LockSecurityDoor - 20
+SetTerminalCommand - 21
+ActivateChainedPuzzle - 22
 EventBreak - 999

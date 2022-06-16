@@ -1,6 +1,7 @@
 Single: ClipSizeMultiplier
 Single: ReloadTimeMultiplier
 String: ReloadLeftHandGripAnim
+(enum) MagazineDropSoundType: DropSoundType
 GearPartGeneralData: General
    String: PublicName
    String: Model

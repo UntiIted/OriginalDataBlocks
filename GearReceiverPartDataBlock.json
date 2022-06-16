@@ -3,6 +3,42 @@
   "Blocks": [
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_MapperDisplay_c.prefab",
+        "GearCategoryFilter": 10,
+        "AssetBundle": "Gear_Weapon_Receiver",
+        "BundleShard": "S14"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_Mapper_1",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_MotionTracker_display_c.prefab",
+        "GearCategoryFilter": 9,
+        "AssetBundle": "Gear_Weapon_Receiver",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_MotionTracker_1",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "General": {
         "PublicName": "Machinegun 1",
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Machinegun_1.prefab",
         "GearCategoryFilter": 1,
@@ -41,11 +77,10 @@
     },
     {
       "General": {
-        "PublicName": "Gun Receiver 2",
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_SMG_3.prefab",
-        "GearCategoryFilter": 1,
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_SMG_1.prefab",
+        "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S12"
+        "BundleShard": "S1"
       },
       "Aligns": [
         {
@@ -54,45 +89,9 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_3",
+      "name": "Receiver_SMG_1",
       "internalEnabled": true,
-      "persistentID": 2
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_MotionTracker_display_c.prefab",
-        "GearCategoryFilter": 9,
-        "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S13"
-      },
-      "Aligns": [
-        {
-          "AlignType": "Sight",
-          "AlignName": "Receiver_Sight"
-        }
-      ],
-      "FireSequence": [],
-      "name": "Receiver_MotionTracker_1",
-      "internalEnabled": true,
-      "persistentID": 4
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_MapperDisplay_c.prefab",
-        "GearCategoryFilter": 10,
-        "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S14"
-      },
-      "Aligns": [
-        {
-          "AlignType": "Sight",
-          "AlignName": "Receiver_Sight"
-        }
-      ],
-      "FireSequence": [],
-      "name": "Receiver_Mapper_1",
-      "internalEnabled": true,
-      "persistentID": 5
+      "persistentID": 12
     },
     {
       "General": {
@@ -111,6 +110,43 @@
       "name": "Receiver_SMG_2",
       "internalEnabled": true,
       "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_SMG_2b.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Receiver",
+        "BundleShard": "S15"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_SMG_2b",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "General": {
+        "PublicName": "Gun Receiver 2",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_SMG_3.prefab",
+        "GearCategoryFilter": 1,
+        "AssetBundle": "Gear_Weapon_Receiver",
+        "BundleShard": "S12"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_SMG_3",
+      "internalEnabled": true,
+      "persistentID": 2
     },
     {
       "General": {
@@ -168,10 +204,10 @@
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Machinegun_2.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Rifle_3.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S19"
+        "BundleShard": "S2"
       },
       "Aligns": [
         {
@@ -180,9 +216,9 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_Machinegun_2",
+      "name": "Receiver_Rifle_3",
       "internalEnabled": true,
-      "persistentID": 10
+      "persistentID": 13
     },
     {
       "General": {
@@ -204,10 +240,10 @@
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_SMG_1.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Machinegun_2.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S1"
+        "BundleShard": "S19"
       },
       "Aligns": [
         {
@@ -216,27 +252,9 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_1",
+      "name": "Receiver_Machinegun_2",
       "internalEnabled": true,
-      "persistentID": 12
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Rifle_3.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S2"
-      },
-      "Aligns": [
-        {
-          "AlignType": "Sight",
-          "AlignName": "Receiver_Sight"
-        }
-      ],
-      "FireSequence": [],
-      "name": "Receiver_Rifle_3",
-      "internalEnabled": true,
-      "persistentID": 13
+      "persistentID": 10
     },
     {
       "General": {
@@ -395,6 +413,28 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Pistol_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Receiver",
+        "BundleShard": "S10"
+      },
+      "Aligns": [
+        {
+          "AlignType": "Sight",
+          "AlignName": "Receiver_Sight"
+        },
+        {
+          "AlignType": "Flashlight",
+          "AlignName": "Front_Flash"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_Pistol_1",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Bullpop_1.prefab",
         "Children": [
           "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Bullpop_1_GripAlign.fbx"
@@ -418,29 +458,7 @@
       "name": "Receiver_Bullpop_1",
       "internalEnabled": true,
       "persistentID": 20
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Pistol_1.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Receiver",
-        "BundleShard": "S10"
-      },
-      "Aligns": [
-        {
-          "AlignType": "Sight",
-          "AlignName": "Receiver_Sight"
-        },
-        {
-          "AlignType": "Flashlight",
-          "AlignName": "Front_Flash"
-        }
-      ],
-      "FireSequence": [],
-      "name": "Receiver_Pistol_1",
-      "internalEnabled": true,
-      "persistentID": 21
     }
   ],
-  "LastPersistentID": 22
+  "LastPersistentID": 23
 }

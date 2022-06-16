@@ -20,6 +20,12 @@
       "persistentID": 31
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R7B1.prefab",
+      "name": "SecurityScan_Big_Moving_R7B1",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Small.prefab",
       "name": "SecurityScan_Small",
       "internalEnabled": true,
@@ -123,9 +129,33 @@
     },
     {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan.prefab",
-      "name": "SecurityScan_Sustained_GeoScan",
+      "name": "SecurityScan_Sustained_GeoScan_3_sides",
       "internalEnabled": true,
       "persistentID": 33
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_3_sides.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_3_sides_v2",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_AllSides",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_wider.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_AllSides_Wider",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_Pouncer.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_AllSides_PouncerIntro",
+      "internalEnabled": true,
+      "persistentID": 37
     },
     {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics.prefab",
@@ -192,7 +222,13 @@
       "name": "SecurityScan_Hack",
       "internalEnabled": true,
       "persistentID": 30
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_RequireExit.prefab",
+      "name": "SecurityScan.ExitTeam",
+      "internalEnabled": true,
+      "persistentID": 41
     }
   ],
-  "LastPersistentID": 34
+  "LastPersistentID": 41
 }

@@ -2,28 +2,23 @@
   "Headers": [
     {
       "AboveBlockID": 1,
-      "LabelText": "MUTED",
-      "FoldoutStatus": true
+      "LabelText": "MUTED"
     },
     {
       "AboveBlockID": 2,
-      "LabelText": "BOLD",
-      "FoldoutStatus": true
+      "LabelText": "BOLD"
     },
     {
       "AboveBlockID": 12,
-      "LabelText": "AGGRESSIVE",
-      "FoldoutStatus": true
+      "LabelText": "AGGRESSIVE"
     },
     {
       "AboveBlockID": 26,
-      "LabelText": "BOLD",
-      "FoldoutStatus": true
+      "LabelText": "BOLD"
     },
     {
       "AboveBlockID": 38,
-      "LabelText": "AGGRESSIVE",
-      "FoldoutStatus": true
+      "LabelText": "AGGRESSIVE"
     }
   ],
   "Blocks": [

@@ -54,6 +54,56 @@
     {
       "ModelDataPerType": {
         "DirectPlacement": {
+          "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Delivery/Delivery_Nano_Swarm_1.prefab",
+          "Children": [
+            "Assets/Source/Graphics/Gear/ToolParts/delivery/Delivery_Mine_Deployer_Direct_1_GripAlign.FBX"
+          ],
+          "GearCategoryFilter": 0,
+          "LeftHandGripAnim": "Delivery_Mine_Deployer_Direct_1",
+          "AssetBundle": "Gear_Tool_Delivery",
+          "BundleShard": "S4"
+        }
+      },
+      "GeneralDatas": [
+        {
+          "Type": "DirectPlacement",
+          "Data": {
+            "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Delivery/Delivery_Nano_Swarm_1.prefab",
+            "Children": [
+              "Assets/Source/Graphics/Gear/ToolParts/delivery/Delivery_Mine_Deployer_Direct_1_GripAlign.FBX"
+            ],
+            "GearCategoryFilter": 0,
+            "LeftHandGripAnim": "Delivery_Mine_Deployer_Direct_1",
+            "AssetBundle": "Gear_Tool_Delivery",
+            "BundleShard": "S4"
+          }
+        }
+      ],
+      "Aligns": [
+        {
+          "AlignType": "ToolTargeting",
+          "AlignName": "Delivery_Targeting"
+        },
+        {
+          "AlignType": "ToolScreen",
+          "AlignName": "Delivery_Screen"
+        },
+        {
+          "AlignType": "ToolPayload",
+          "AlignName": "Delivery_Payload"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "name": "Delivery_Nano_Swarm",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "ModelDataPerType": {
+        "DirectPlacement": {
           "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Delivery/Delivery_Bio_Tracker_1.prefab",
           "Children": [
             "Assets/Source/Graphics/Gear/ToolParts/delivery/Delivery_Bio_Tracker_1_GripAlign.FBX"
@@ -181,5 +231,5 @@
       "persistentID": 5
     }
   ],
-  "LastPersistentID": 5
+  "LastPersistentID": 6
 }

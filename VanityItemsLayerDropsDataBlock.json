@@ -87,7 +87,94 @@
       "name": "Rundown_6_Drops",
       "internalEnabled": true,
       "persistentID": 1
+    },
+    {
+      "LayerDrops": [
+        {
+          "Layer": "Main",
+          "Count": 3,
+          "IsAll": false,
+          "Groups": [
+            24
+          ]
+        },
+        {
+          "Layer": "Main",
+          "Count": 6,
+          "IsAll": false,
+          "Groups": [
+            24
+          ]
+        },
+        {
+          "Layer": "Main",
+          "Count": 9,
+          "IsAll": false,
+          "Groups": [
+            24
+          ]
+        },
+        {
+          "Layer": "Main",
+          "Count": 10,
+          "IsAll": true,
+          "Groups": [
+            28
+          ]
+        },
+        {
+          "Layer": "Secondary",
+          "Count": 2,
+          "IsAll": false,
+          "Groups": [
+            25
+          ]
+        },
+        {
+          "Layer": "Secondary",
+          "Count": 4,
+          "IsAll": false,
+          "Groups": [
+            25
+          ]
+        },
+        {
+          "Layer": "Secondary",
+          "Count": 4,
+          "IsAll": true,
+          "Groups": [
+            29
+          ]
+        },
+        {
+          "Layer": "Third",
+          "Count": 1,
+          "IsAll": false,
+          "Groups": [
+            26
+          ]
+        },
+        {
+          "Layer": "Third",
+          "Count": 2,
+          "IsAll": false,
+          "Groups": [
+            26
+          ]
+        },
+        {
+          "Layer": "Third",
+          "Count": 4,
+          "IsAll": true,
+          "Groups": [
+            30
+          ]
+        }
+      ],
+      "name": "Rundown_7_Drops",
+      "internalEnabled": true,
+      "persistentID": 3
     }
   ],
-  "LastPersistentID": 2
+  "LastPersistentID": 3
 }

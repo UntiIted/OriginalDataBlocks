@@ -2,23 +2,19 @@
   "Headers": [
     {
       "AboveBlockID": 37,
-      "LabelText": "Storage",
-      "FoldoutStatus": true
+      "LabelText": "Storage"
     },
     {
       "AboveBlockID": 42,
-      "LabelText": "Dig Site",
-      "FoldoutStatus": true
+      "LabelText": "Dig Site"
     },
     {
       "AboveBlockID": 100,
-      "LabelText": "Refinery",
-      "FoldoutStatus": true
+      "LabelText": "Refinery"
     },
     {
       "AboveBlockID": 61,
-      "LabelText": "Expedition",
-      "FoldoutStatus": true
+      "LabelText": "Expedition"
     }
   ],
   "Blocks": [
@@ -10457,6 +10453,76 @@
         "FunctionComponentLinks": [
           [],
           [],
+          [],
+          [
+            0
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/Props/refinery/refinery_open_2200x2200x1000/refinery_open_2200x2200x1000_gc_V01.prefab",
+            "function": "GeneratorCluster",
+            "Shard": "S7"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S1"
+          }
+        ],
+        "AssetBundleName": "Complex_Mining",
+        "Group": 1,
+        "FunctionPotential": 4.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_dig_site_open_2200x2200x1000",
+        "BoundingVolume": 10648001.0
+      },
+      "name": "mining_refinery_open_2200x2200x2200",
+      "internalEnabled": true,
+      "persistentID": 154
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
           [
             0
           ],
@@ -11594,7 +11660,6 @@
           [
             2,
             1,
-            5,
             0,
             4,
             3
@@ -14567,6 +14632,53 @@
           [],
           [],
           [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 9999.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_weak_01.prefab",
+            "function": "ResourceContainerWeak",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Mining",
+        "Group": 6,
+        "FunctionPotential": 30.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Mining/M_mining_container_locker_200x300x50",
+        "BoundingVolume": 3000.0
+      },
+      "name": "mining_container_locker_high_function_pot_200x300x50_tutorial",
+      "internalEnabled": true,
+      "persistentID": 155
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
           [
             0
           ],
@@ -15079,5 +15191,5 @@
       "persistentID": 153
     }
   ],
-  "LastPersistentID": 153
+  "LastPersistentID": 155
 }

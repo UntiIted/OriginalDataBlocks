@@ -55,6 +55,11 @@ RundownStorytellingData: StorytellingData
 (VanityItemsLayerDropsDataBlock) UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
    Boolean: Enabled
+   Boolean: IsSinglePlayer
+   Boolean: SkipLobby
+   Boolean: PutIconAboveTier
+   Boolean: DisablePlayerVoicelines
+   Boolean: ExcludeFromProgression
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -99,6 +104,12 @@ List<ExpeditionInTierData>: TierA
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
       (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   Boolean: UseGearPicker
+   GearPicker: GearPicker
+      (GearCategoryDataBlock) UInt32: StandardGear
+      (GearCategoryDataBlock) UInt32: SpecialGear
+      (GearCategoryDataBlock) UInt32: ToolGear
+      (GearCategoryDataBlock) UInt32: MeleeGear
    (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
@@ -118,6 +129,16 @@ List<ExpeditionInTierData>: TierA
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
          (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
@@ -167,6 +188,16 @@ List<ExpeditionInTierData>: TierA
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -207,6 +238,16 @@ List<ExpeditionInTierData>: TierA
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -224,10 +265,18 @@ List<ExpeditionInTierData>: TierA
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+      Single: StandardAmmoAtExpeditionStart
+      Single: SpecialAmmoAtExpeditionStart
+      Single: ToolAmmoAtExpeditionStart
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierB
    Boolean: Enabled
+   Boolean: IsSinglePlayer
+   Boolean: SkipLobby
+   Boolean: PutIconAboveTier
+   Boolean: DisablePlayerVoicelines
+   Boolean: ExcludeFromProgression
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -272,6 +321,12 @@ List<ExpeditionInTierData>: TierB
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
       (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   Boolean: UseGearPicker
+   GearPicker: GearPicker
+      (GearCategoryDataBlock) UInt32: StandardGear
+      (GearCategoryDataBlock) UInt32: SpecialGear
+      (GearCategoryDataBlock) UInt32: ToolGear
+      (GearCategoryDataBlock) UInt32: MeleeGear
    (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
@@ -291,6 +346,16 @@ List<ExpeditionInTierData>: TierB
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
          (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
@@ -340,6 +405,16 @@ List<ExpeditionInTierData>: TierB
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -380,6 +455,16 @@ List<ExpeditionInTierData>: TierB
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -397,10 +482,18 @@ List<ExpeditionInTierData>: TierB
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+      Single: StandardAmmoAtExpeditionStart
+      Single: SpecialAmmoAtExpeditionStart
+      Single: ToolAmmoAtExpeditionStart
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierC
    Boolean: Enabled
+   Boolean: IsSinglePlayer
+   Boolean: SkipLobby
+   Boolean: PutIconAboveTier
+   Boolean: DisablePlayerVoicelines
+   Boolean: ExcludeFromProgression
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -445,6 +538,12 @@ List<ExpeditionInTierData>: TierC
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
       (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   Boolean: UseGearPicker
+   GearPicker: GearPicker
+      (GearCategoryDataBlock) UInt32: StandardGear
+      (GearCategoryDataBlock) UInt32: SpecialGear
+      (GearCategoryDataBlock) UInt32: ToolGear
+      (GearCategoryDataBlock) UInt32: MeleeGear
    (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
@@ -464,6 +563,16 @@ List<ExpeditionInTierData>: TierC
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
          (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
@@ -513,6 +622,16 @@ List<ExpeditionInTierData>: TierC
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -553,6 +672,16 @@ List<ExpeditionInTierData>: TierC
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -570,10 +699,18 @@ List<ExpeditionInTierData>: TierC
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+      Single: StandardAmmoAtExpeditionStart
+      Single: SpecialAmmoAtExpeditionStart
+      Single: ToolAmmoAtExpeditionStart
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierD
    Boolean: Enabled
+   Boolean: IsSinglePlayer
+   Boolean: SkipLobby
+   Boolean: PutIconAboveTier
+   Boolean: DisablePlayerVoicelines
+   Boolean: ExcludeFromProgression
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -618,6 +755,12 @@ List<ExpeditionInTierData>: TierD
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
       (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   Boolean: UseGearPicker
+   GearPicker: GearPicker
+      (GearCategoryDataBlock) UInt32: StandardGear
+      (GearCategoryDataBlock) UInt32: SpecialGear
+      (GearCategoryDataBlock) UInt32: ToolGear
+      (GearCategoryDataBlock) UInt32: MeleeGear
    (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
@@ -637,6 +780,16 @@ List<ExpeditionInTierData>: TierD
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
          (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
@@ -686,6 +839,16 @@ List<ExpeditionInTierData>: TierD
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -726,6 +889,16 @@ List<ExpeditionInTierData>: TierD
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -743,10 +916,18 @@ List<ExpeditionInTierData>: TierD
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+      Single: StandardAmmoAtExpeditionStart
+      Single: SpecialAmmoAtExpeditionStart
+      Single: ToolAmmoAtExpeditionStart
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierE
    Boolean: Enabled
+   Boolean: IsSinglePlayer
+   Boolean: SkipLobby
+   Boolean: PutIconAboveTier
+   Boolean: DisablePlayerVoicelines
+   Boolean: ExcludeFromProgression
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -791,6 +972,12 @@ List<ExpeditionInTierData>: TierE
       Single: DustTurbulence
    VanityItemsDropData: VanityItemsDropData
       (VanityItemsGroupDataBlock) List<UInt32>: Groups
+   Boolean: UseGearPicker
+   GearPicker: GearPicker
+      (GearCategoryDataBlock) UInt32: StandardGear
+      (GearCategoryDataBlock) UInt32: SpecialGear
+      (GearCategoryDataBlock) UInt32: ToolGear
+      (GearCategoryDataBlock) UInt32: MeleeGear
    (LevelLayoutDataBlock) UInt32: LevelLayoutData
    LayerData: MainLayerData
       (enum) List<eLocalZoneIndex>: ZonesWithBulkheadEntrance
@@ -810,6 +997,16 @@ List<ExpeditionInTierData>: TierE
             Single: Middle
             Single: End
       WardenObjectiveLayerData: ObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
          (WardenObjectiveDataBlock) UInt32: DataBlockId
          (enum) eWardenObjectiveWinCondition: WinCondition
          List<List<ZonePlacementData>>: ZonePlacementDatas
@@ -859,6 +1056,16 @@ List<ExpeditionInTierData>: TierE
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -899,6 +1106,16 @@ List<ExpeditionInTierData>: TierE
                Single: Start
                Single: Middle
                Single: End
+      List<WardenObjectiveLayerData>: ChainedObjectiveData
+         (WardenObjectiveDataBlock) UInt32: DataBlockId
+         (enum) eWardenObjectiveWinCondition: WinCondition
+         List<List<ZonePlacementData>>: ZonePlacementDatas
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            ZonePlacementWeights: Weights
+               Single: Start
+               Single: Middle
+               Single: End
       ArtifactLayerData: ArtifactData
          Single: ArtifactAmountMulti
          (ArtifactDistributionDataBlock) UInt32: ArtifactLayerDistributionDataID
@@ -916,6 +1133,9 @@ List<ExpeditionInTierData>: TierE
       Single: WeakResourceContainerWithPackChanceForLocked
       Single: InfectionLevelAtExpeditionStart
       Single: HealthLevelAtExpeditionStart
+      Single: StandardAmmoAtExpeditionStart
+      Single: SpecialAmmoAtExpeditionStart
+      Single: ToolAmmoAtExpeditionStart
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 String: name

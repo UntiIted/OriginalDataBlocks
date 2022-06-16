@@ -13,6 +13,7 @@ List<GearPartAlignData>: Aligns
 GearSightPartProperties: SightProperties
    Int32: GearFovZoom
    Int32: WorldFovZoom
+   Single: ZoomSensitivityModifier
 String: name
 Boolean: internalEnabled
 UInt32: persistentID

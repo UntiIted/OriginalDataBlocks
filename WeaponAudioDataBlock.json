@@ -258,6 +258,92 @@
     },
     {
       "eventOnSemiFire2D": [
+        "PistolBodyD",
+        "PistolNoiseD",
+        "PistolMechD",
+        "PistolReverb",
+        "pistol_kick_semi_b"
+      ],
+      "eventOnBurstFire2D": [
+        "PistolBodyDBurst",
+        "PistolMechDBurst",
+        "PistolNoiseDBurst",
+        "PistolReverbBurst"
+      ],
+      "eventOnAutoFireStart2D": [
+        "PistolBodyDAuto",
+        "PistolMechDAuto",
+        "PistolNoiseDAuto",
+        "PistolAutoWet",
+        "rifle_kick_auto_a"
+      ],
+      "eventOnAutoFireEnd2D": [
+        "PistolAutoEnd ",
+        "BurstRifleEnd2D"
+      ],
+      "eventOnBurstFireOneShot2D": [],
+      "eventOnChargeup2D": [
+        "GaussPistolChargeUp"
+      ],
+      "eventOnCooldown2D": [
+        "GaussPistolCooldown"
+      ],
+      "eventOnChargeupEnd2D": "GaussPistolChargeUpEnd",
+      "eventOnCooldownEnd2D": "GaussPistolCooldownEnd",
+      "eventOnSemiFire3D": [
+        "PistolBodyC3D",
+        "PistolNoiseC3D",
+        "PistolMechC3D ",
+        "PistolReverb3D"
+      ],
+      "eventOnBurstFire3D": [
+        "PistolBodyABurst3D",
+        "PistolMechABurst3D",
+        "PistolNoiseABurst3D",
+        "PistolReverbBurst3D"
+      ],
+      "eventOnAutoFireStart3D": [
+        "PistolBodyBAuto3D",
+        "PistolMechBAuto3D",
+        "PistolNoiseBAuto3D",
+        "PistolAutoWet3D"
+      ],
+      "eventOnAutoFireEnd3D": [
+        "PistolAutoEnd3D"
+      ],
+      "eventOnChargeup3D": [
+        "GaussPistolChargeUp"
+      ],
+      "eventOnCooldown3D": [
+        "GaussPistolCooldown"
+      ],
+      "eventOnChargeupEnd3D": "GaussPistolChargeUpEnd",
+      "eventOnCooldownEnd3D": "GaussPistolCooldownEnd",
+      "eventOnSyncedBurstFirePerShot3D": [
+        "PistolBodyA3D",
+        "PistolMechA3D",
+        "PistolNoiseA3D",
+        "PistolReverb3D"
+      ],
+      "eventOnSyncedAutoFirePerShot3D": [
+        "PistolBodyB3D",
+        "PistolMechB3D",
+        "PistolNoiseB3D",
+        "PistolReverb3D"
+      ],
+      "eventClick": "PistolDryFire",
+      "eventReload": "PistolReload",
+      "TriggerBurstAudioForEachShot": false,
+      "TriggerAutoAudioForEachShot": false,
+      "eventEquip": "PistolEquip",
+      "eventZoomIn": "PistolIronsightIn",
+      "eventZoomOut": "PistolIronsightOut",
+      "name": "PDW",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "eventOnSemiFire2D": [
         "SMGBBodySemiF2D",
         "SMGBMechSemiF2D",
         "SMGBNoiseSemiF2D",
@@ -1298,9 +1384,94 @@
       "eventEquip": "PrecisionEquip",
       "eventZoomIn": "PrecisionZoomIn",
       "eventZoomOut": "PrecisionZoomOut",
-      "name": "PrecisionRifle",
+      "name": "Sniper",
       "internalEnabled": true,
       "persistentID": 36
+    },
+    {
+      "eventOnSemiFire2D": [
+        "BurstRifle1shotBodyC2D",
+        "PrecisionMechA2D",
+        "BurstRifle1shotNoiseC2D",
+        "PrecisionWet2D",
+        "sniper_kick_semi_a"
+      ],
+      "eventOnBurstFire2D": [
+        "PrecisionBodyA2D",
+        "PrecisionMechA2D",
+        "PrecisionNoiseA2D",
+        "PrecisionWet2D"
+      ],
+      "eventOnAutoFireStart2D": [
+        "BurstRifle1shotBodyC2D",
+        "PrecisionMechA2D",
+        "BurstRifle1shotNoiseC2D",
+        "PrecisionWet2D",
+        "sniper_kick_semi_a"
+      ],
+      "eventOnAutoFireEnd2D": [
+        "PrecisionAutoEnd2D"
+      ],
+      "eventOnBurstFireOneShot2D": [],
+      "eventOnChargeup2D": [
+        "PrecisionChargeUp"
+      ],
+      "eventOnCooldown2D": [
+        "PrecisionChargeUpEnd"
+      ],
+      "eventOnChargeupEnd2D": "PrecisionChargeUpEnd",
+      "eventOnCooldownEnd2D": "PrecisionCooldownEnd",
+      "eventOnSemiFire3D": [
+        "BurstRifle1shotBodyC3D",
+        "PrecisionMechA3D",
+        "BurstRifle1shotNoiseC3D",
+        "PrecisionWet3D"
+      ],
+      "eventOnBurstFire3D": [
+        "PrecisionBodyA3D",
+        "PrecisionMechA3D",
+        "PrecisionNoiseA3D",
+        "PrecisionWet3D"
+      ],
+      "eventOnAutoFireStart3D": [
+        "BurstRifle1shotBodyC3D",
+        "PrecisionMechA3D",
+        "BurstRifle1shotNoiseC3D",
+        "PrecisionWet3D"
+      ],
+      "eventOnAutoFireEnd3D": [
+        "PrecisionAutoEnd3D"
+      ],
+      "eventOnChargeup3D": [
+        "PrecisionChargeUp"
+      ],
+      "eventOnCooldown3D": [
+        "PrecisionCooldown"
+      ],
+      "eventOnChargeupEnd3D": "PrecisionChargeUpEnd",
+      "eventOnCooldownEnd3D": "PrecisionCooldownEnd",
+      "eventOnSyncedBurstFirePerShot3D": [
+        "PrecisionBodyA3D",
+        "PrecisionMechA3D",
+        "PrecisionNoiseA3D",
+        "PrecisionWet3D"
+      ],
+      "eventOnSyncedAutoFirePerShot3D": [
+        "PrecisionBodyA3D",
+        "PrecisionMechA3D",
+        "PrecisionNoiseA3D",
+        "PrecisionWet3D"
+      ],
+      "eventClick": "PrecisionDryFire",
+      "eventReload": "PrecisionReload",
+      "TriggerBurstAudioForEachShot": true,
+      "TriggerAutoAudioForEachShot": true,
+      "eventEquip": "PrecisionEquip",
+      "eventZoomIn": "PrecisionZoomIn",
+      "eventZoomOut": "PrecisionZoomOut",
+      "name": "PrecisionRifle",
+      "internalEnabled": true,
+      "persistentID": 51
     },
     {
       "eventOnSemiFire2D": [
@@ -1388,6 +1559,90 @@
     },
     {
       "eventOnSemiFire2D": [
+        "RevolverBodyC",
+        "RevolverMechC",
+        "RevolverNoiseC",
+        "RevolverReverb",
+        "revolver_kick_semi_a"
+      ],
+      "eventOnBurstFire2D": [
+        "RevolverBodyB",
+        "RevolverMechB",
+        "RevolverNoiseB",
+        "RevolverReverb"
+      ],
+      "eventOnAutoFireStart2D": [
+        "RevolverBodyC",
+        "RevolverMechC",
+        "RevolverNoiseC",
+        "RevolverReverb"
+      ],
+      "eventOnAutoFireEnd2D": [
+        "RevolverAutoEnd"
+      ],
+      "eventOnBurstFireOneShot2D": [],
+      "eventOnChargeup2D": [
+        "WeaponChargeUpAlt1"
+      ],
+      "eventOnCooldown2D": [
+        "WeaponCooldownMedium1"
+      ],
+      "eventOnChargeupEnd2D": "WeaponChargeUpEnd",
+      "eventOnCooldownEnd2D": "WeaponCooldownEnd",
+      "eventOnSemiFire3D": [
+        "RevolverBodyA3D",
+        "RevolverMechA3D",
+        "RevolverNoiseA3D",
+        "RevolverReverb3D"
+      ],
+      "eventOnBurstFire3D": [
+        "RevolverBodyA3D",
+        "RevolverMechA3D",
+        "RevolverNoiseA3D",
+        "RevolverReverb3D"
+      ],
+      "eventOnAutoFireStart3D": [
+        "RevolverBodyA3C",
+        "RevolverMechA3C",
+        "RevolverNoiseA3C",
+        "RevolverReverb3C"
+      ],
+      "eventOnAutoFireEnd3D": [
+        "RevolverAutoEnd3D"
+      ],
+      "eventOnChargeup3D": [
+        "WeaponChargeUpAlt1"
+      ],
+      "eventOnCooldown3D": [
+        "WeaponCooldownMedium1"
+      ],
+      "eventOnChargeupEnd3D": "WeaponChargeUpEnd",
+      "eventOnCooldownEnd3D": "WeaponCooldownEnd",
+      "eventOnSyncedBurstFirePerShot3D": [
+        "RevolverBodyB3D",
+        "RevolverMechB3D",
+        "RevolverNoiseB3D",
+        "RevolverReverb3D"
+      ],
+      "eventOnSyncedAutoFirePerShot3D": [
+        "RevolverBodyC3D",
+        "RevolverMechC3D",
+        "RevolverNoiseC3D",
+        "RevolverReverb3D"
+      ],
+      "eventClick": "RevolverDryFire",
+      "eventReload": "RevolverReload",
+      "TriggerBurstAudioForEachShot": true,
+      "TriggerAutoAudioForEachShot": true,
+      "eventEquip": "RevolverEquip",
+      "eventZoomIn": "RevolverIronsightIn",
+      "eventZoomOut": "RevolverIronsightOut",
+      "name": "HighCalPistol",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "eventOnSemiFire2D": [
         "ShotgunBodyA",
         "ShotgunMechA",
         "ShotgunNoiseA",
@@ -1471,6 +1726,92 @@
       "name": "Shotgun",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "eventOnSemiFire2D": [
+        "ShotgunBodyA",
+        "ShotgunMechA",
+        "ShotgunNoiseA",
+        "ShotgunReverb",
+        "shotgun_kick_a_2D"
+      ],
+      "eventOnBurstFire2D": [
+        "ShotgunBodyB",
+        "ShotgunMechB",
+        "ShotgunNoiseB",
+        "ShotgunReverb",
+        "shotgun_kick_a_2D"
+      ],
+      "eventOnAutoFireStart2D": [
+        "ShotgunBodyC",
+        "ShotgunMechC",
+        "ShotgunNoiseB",
+        "ShotgunReverb",
+        "shotgun_kick_a_2D"
+      ],
+      "eventOnAutoFireEnd2D": [
+        "ShotgunAutoEnd2D"
+      ],
+      "eventOnBurstFireOneShot2D": [],
+      "eventOnChargeup2D": [
+        "WeaponChargeUpAlt2"
+      ],
+      "eventOnCooldown2D": [
+        "WeaponCooldownMedium1"
+      ],
+      "eventOnChargeupEnd2D": "WeaponChargeUpEnd",
+      "eventOnCooldownEnd2D": "WeaponCooldownEnd",
+      "eventOnSemiFire3D": [
+        "ShotgunBodyA3D",
+        "ShotgunMechA3D",
+        "ShotgunNoiseA3D",
+        "ShotgunReverb3D"
+      ],
+      "eventOnBurstFire3D": [
+        "ShotgunBodyB3D",
+        "ShotgunMechB3D",
+        "ShotgunNoiseB3D",
+        "ShotgunReverb3D"
+      ],
+      "eventOnAutoFireStart3D": [
+        "ShotgunBodyC3D",
+        "ShotgunMechC3D",
+        "ShotgunNoiseC3D",
+        "ShotgunReverb3D"
+      ],
+      "eventOnAutoFireEnd3D": [
+        "ShotgunAutoEnd3D"
+      ],
+      "eventOnChargeup3D": [
+        "WeaponChargeUpAlt2"
+      ],
+      "eventOnCooldown3D": [
+        "WeaponCooldownMedium1"
+      ],
+      "eventOnChargeupEnd3D": "WeaponChargeUpEnd",
+      "eventOnCooldownEnd3D": "WeaponCooldownEnd",
+      "eventOnSyncedBurstFirePerShot3D": [
+        "ShotgunBodyB3D",
+        "ShotgunMechB3D",
+        "ShotgunNoiseB3D",
+        "ShotgunReverb3D"
+      ],
+      "eventOnSyncedAutoFirePerShot3D": [
+        "ShotgunBodyC3D",
+        "ShotgunMechC3D",
+        "ShotgunNoiseC3D",
+        "ShotgunReverb3D"
+      ],
+      "eventClick": "ShotgunDryFire",
+      "eventReload": "ShotgunReload",
+      "TriggerBurstAudioForEachShot": true,
+      "TriggerAutoAudioForEachShot": true,
+      "eventEquip": "ShotgunEquip",
+      "eventZoomIn": "ShotgunIronsightIn",
+      "eventZoomOut": "ShotgunIronsightOut",
+      "name": "Shotgun_HEL",
+      "internalEnabled": true,
+      "persistentID": 50
     },
     {
       "eventOnSemiFire2D": [
@@ -2726,5 +3067,5 @@
       "persistentID": 28
     }
   ],
-  "LastPersistentID": 47
+  "LastPersistentID": 51
 }

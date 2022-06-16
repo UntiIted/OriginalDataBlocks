@@ -19,6 +19,7 @@ List<ModelData>: ModelDatas
 (EnemyMovementDataBlock) UInt32: MovementDataId
 (EnemyBalancingDataBlock) UInt32: BalancingDataId
 (EnemySFXDataBlock) UInt32: SFXDataId
+(DimensionDataBlock) List<UInt32>: ArenaDimensions
 List<LinkedSlaveModelData>: LinkedSlaveModels
    (enum) AnimatorControllerHandleName: AnimationSet
    String: ModelFile

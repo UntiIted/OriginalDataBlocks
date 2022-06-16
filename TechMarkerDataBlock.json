@@ -2,23 +2,19 @@
   "Headers": [
     {
       "AboveBlockID": 9,
-      "LabelText": "Expedition",
-      "FoldoutStatus": true
+      "LabelText": "Expedition"
     },
     {
       "AboveBlockID": 45,
-      "LabelText": "Lab",
-      "FoldoutStatus": true
+      "LabelText": "Lab"
     },
     {
       "AboveBlockID": 1,
-      "LabelText": "Datacenter",
-      "FoldoutStatus": true
+      "LabelText": "Datacenter"
     },
     {
       "AboveBlockID": 65,
-      "LabelText": "Destroyed",
-      "FoldoutStatus": true
+      "LabelText": "Destroyed"
     }
   ],
   "Blocks": [

@@ -3,6 +3,29 @@
   "Blocks": [
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_1.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "RightHandGripAnim": "DefaultGrip",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_Precision_1",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "General": {
         "PublicName": "Gun Stock 1",
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_2.prefab",
         "Children": [
@@ -25,6 +48,29 @@
       "name": "Stock_Precision_2",
       "internalEnabled": true,
       "persistentID": 1
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_3.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 0,
+        "RightHandGripAnim": "DefaultGrip",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S20"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_Precision_3",
+      "internalEnabled": true,
+      "persistentID": 11
     },
     {
       "General": {
@@ -52,61 +98,10 @@
     },
     {
       "General": {
-        "PublicName": "Gun Stock 3",
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Rifle_2.prefab",
-        "Children": [
-          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_2_GripAlign.fbx"
-        ],
-        "GearCategoryFilter": 1,
-        "RightHandGripAnim": "DefaultGrip",
-        "AssetBundle": "Gear_Weapon_Stock",
-        "BundleShard": "S13"
-      },
-      "Aligns": [
-        {
-          "AlignType": "RightHand",
-          "AlignName": "RightHand"
-        }
-      ],
-      "FireSequence": [],
-      "ReloadSequence": [],
-      "name": "Stock_Rifle_2",
-      "internalEnabled": true,
-      "persistentID": 3
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_MotionTracker_c.prefab",
-        "GearCategoryFilter": 9,
-        "LeftHandGripAnim": "mapper_c_fp_arms",
-        "RightHandGripAnim": "mapper_c_fp_arms",
-        "AssetBundle": "Gear_Weapon_Stock",
-        "BundleShard": "S14"
-      },
-      "Aligns": [
-        {
-          "AlignType": "RightHand",
-          "AlignName": "RightHand"
-        },
-        {
-          "AlignType": "LeftHand",
-          "AlignName": "LeftHand"
-        }
-      ],
-      "FireSequence": [],
-      "ReloadSequence": [],
-      "name": "Stock_MotionTracker_1",
-      "internalEnabled": true,
-      "persistentID": 4
-    },
-    {
-      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_SMG_1.prefab",
-        "Children": [
-          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
-        ],
+        "Children": [],
         "GearCategoryFilter": 0,
-        "RightHandGripAnim": "DefaultGrip",
+        "RightHandGripAnim": "SMG_Front_4_Idle",
         "AssetBundle": "Gear_Weapon_Stock",
         "BundleShard": "S15"
       },
@@ -121,6 +116,27 @@
       "name": "Stock_SMG_1",
       "internalEnabled": true,
       "persistentID": 5
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_SMG_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "RightHandGripAnim": "SMG_Front_3_Idle",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S18"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_SMG_2",
+      "internalEnabled": true,
+      "persistentID": 9
     },
     {
       "General": {
@@ -148,6 +164,30 @@
     },
     {
       "General": {
+        "PublicName": "Gun Stock 3",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Rifle_2.prefab",
+        "Children": [
+          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_2_GripAlign.fbx"
+        ],
+        "GearCategoryFilter": 1,
+        "RightHandGripAnim": "DefaultGrip",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S13"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_Rifle_2",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Rifle_3.prefab",
         "Children": [
           "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
@@ -172,14 +212,14 @@
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_SMG_2.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Shootgun_1.prefab",
         "Children": [
           "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
         ],
         "GearCategoryFilter": 0,
         "RightHandGripAnim": "DefaultGrip",
         "AssetBundle": "Gear_Weapon_Stock",
-        "BundleShard": "S18"
+        "BundleShard": "S2"
       },
       "Aligns": [
         {
@@ -189,9 +229,9 @@
       ],
       "FireSequence": [],
       "ReloadSequence": [],
-      "name": "Stock_SMG_2",
+      "name": "Stock_Shootgun_1",
       "internalEnabled": true,
-      "persistentID": 9
+      "persistentID": 13
     },
     {
       "General": {
@@ -215,75 +255,6 @@
       "name": "Stock_Shootgun_2",
       "internalEnabled": true,
       "persistentID": 10
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_3.prefab",
-        "Children": [
-          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
-        ],
-        "GearCategoryFilter": 0,
-        "RightHandGripAnim": "DefaultGrip",
-        "AssetBundle": "Gear_Weapon_Stock",
-        "BundleShard": "S20"
-      },
-      "Aligns": [
-        {
-          "AlignType": "RightHand",
-          "AlignName": "RightHand"
-        }
-      ],
-      "FireSequence": [],
-      "ReloadSequence": [],
-      "name": "Stock_Precision_3",
-      "internalEnabled": true,
-      "persistentID": 11
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Precision_1.prefab",
-        "Children": [
-          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
-        ],
-        "GearCategoryFilter": 0,
-        "RightHandGripAnim": "DefaultGrip",
-        "AssetBundle": "Gear_Weapon_Stock",
-        "BundleShard": "S1"
-      },
-      "Aligns": [
-        {
-          "AlignType": "RightHand",
-          "AlignName": "RightHand"
-        }
-      ],
-      "FireSequence": [],
-      "ReloadSequence": [],
-      "name": "Stock_Precision_1",
-      "internalEnabled": true,
-      "persistentID": 12
-    },
-    {
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Shootgun_1.prefab",
-        "Children": [
-          "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Default_GripAlign.fbx"
-        ],
-        "GearCategoryFilter": 0,
-        "RightHandGripAnim": "DefaultGrip",
-        "AssetBundle": "Gear_Weapon_Stock",
-        "BundleShard": "S2"
-      },
-      "Aligns": [
-        {
-          "AlignType": "RightHand",
-          "AlignName": "RightHand"
-        }
-      ],
-      "FireSequence": [],
-      "ReloadSequence": [],
-      "name": "Stock_Shootgun_1",
-      "internalEnabled": true,
-      "persistentID": 13
     },
     {
       "General": {
@@ -457,9 +428,19 @@
           "StringData": "bullpup_reload_mag_out"
         },
         {
+          "TriggerTime": 0.65,
+          "Type": "MagazineAction",
+          "StringData": "drop"
+        },
+        {
           "TriggerTime": 0.8,
           "Type": "Sound",
           "StringData": "smg_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 0.9,
+          "Type": "MagazineAction",
+          "StringData": "show"
         },
         {
           "TriggerTime": 1.15,
@@ -562,9 +543,19 @@
           "StringData": "pistol_reload_3_grab_mag"
         },
         {
+          "TriggerTime": 0.3,
+          "Type": "MagazineAction",
+          "StringData": "drop"
+        },
+        {
           "TriggerTime": 0.5,
           "Type": "Sound",
           "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.6,
+          "Type": "MagazineAction",
+          "StringData": "show"
         },
         {
           "TriggerTime": 1.2,
@@ -657,6 +648,31 @@
       "name": "Stock_UZI_1",
       "internalEnabled": true,
       "persistentID": 20
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_MotionTracker_c.prefab",
+        "GearCategoryFilter": 9,
+        "LeftHandGripAnim": "mapper_c_fp_arms",
+        "RightHandGripAnim": "mapper_c_fp_arms",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S14"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_MotionTracker_1",
+      "internalEnabled": true,
+      "persistentID": 4
     }
   ],
   "LastPersistentID": 21

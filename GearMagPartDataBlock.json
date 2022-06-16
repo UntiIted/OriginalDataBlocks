@@ -5,6 +5,104 @@
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "None",
+      "General": {
+        "PublicName": "EMPTY",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_30rnds_B.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S11"
+      },
+      "Aligns": [],
+      "name": "EMPTY",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "None",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_150rnds_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
+      "name": "EMPTY_1",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Small",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_9mm_20rdns_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S17"
+      },
+      "Aligns": [],
+      "name": "Mag_9mm_20rdns_A",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Small",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_9mm_30rdns_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S14"
+      },
+      "Aligns": [],
+      "name": "Mag_9mm_30rdns_A",
+      "internalEnabled": true,
+      "persistentID": 5
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_9mm_50rdns_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S6"
+      },
+      "Aligns": [],
+      "name": "Mag_9mm_50rdns_A",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_24rnds.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S13"
+      },
+      "Aligns": [],
+      "name": "Mag_556_24rnds",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
         "PublicName": "Mag 556 40 Rounds A",
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_40rnds_A.prefab",
@@ -21,22 +119,55 @@
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
-        "PublicName": "EMPTY",
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_30rnds_B.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_60rnds_A.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S11"
+        "BundleShard": "S13"
       },
       "Aligns": [],
-      "name": "EMPTY",
+      "name": "Mag_556_60rnds_A",
       "internalEnabled": true,
-      "persistentID": 2
+      "persistentID": 4
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_80rnds_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S4"
+      },
+      "Aligns": [],
+      "name": "Mag_556_80rnds_A",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_100rnds_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S19"
+      },
+      "Aligns": [],
+      "name": "Mag_556_100rnds_A",
+      "internalEnabled": true,
+      "persistentID": 10
     },
     {
       "ClipSizeMultiplier": 0.7,
       "ReloadTimeMultiplier": 0.6,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
         "PublicName": "Mag 762 20 Rounds A",
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_20rnds_A.prefab",
@@ -53,156 +184,7 @@
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_60rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S13"
-      },
-      "Aligns": [],
-      "name": "Mag_556_60rnds_A",
-      "internalEnabled": true,
-      "persistentID": 4
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_9mm_30rdns_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S14"
-      },
-      "Aligns": [],
-      "name": "Mag_9mm_30rdns_A",
-      "internalEnabled": true,
-      "persistentID": 5
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_60rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S15"
-      },
-      "Aligns": [],
-      "name": "Mag_762_60rnds_A",
-      "internalEnabled": true,
-      "persistentID": 6
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_100rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S16"
-      },
-      "Aligns": [],
-      "name": "Mag_762_100rnds_A",
-      "internalEnabled": true,
-      "persistentID": 7
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_9mm_20rdns_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S17"
-      },
-      "Aligns": [],
-      "name": "Mag_9mm_20rdns_A",
-      "internalEnabled": true,
-      "persistentID": 8
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_12G_10rnds.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S18"
-      },
-      "Aligns": [],
-      "name": "Mag_12G_10rnds",
-      "internalEnabled": true,
-      "persistentID": 9
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_100rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S19"
-      },
-      "Aligns": [],
-      "name": "Mag_556_100rnds_A",
-      "internalEnabled": true,
-      "persistentID": 10
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_150rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S20"
-      },
-      "Aligns": [],
-      "name": "EMPTY_1",
-      "internalEnabled": true,
-      "persistentID": 11
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_50_20rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S1"
-      },
-      "Aligns": [],
-      "name": "Mag_50_20rnds_A",
-      "internalEnabled": true,
-      "persistentID": 12
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
-      "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_50_10rnds_A.prefab",
-        "GearCategoryFilter": 0,
-        "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S2"
-      },
-      "Aligns": [],
-      "name": "Mag_50_10rnds_A",
-      "internalEnabled": true,
-      "persistentID": 13
-    },
-    {
-      "ClipSizeMultiplier": 1.0,
-      "ReloadTimeMultiplier": 1.0,
-      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_40rnds_A.prefab",
         "GearCategoryFilter": 0,
@@ -218,21 +200,23 @@
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_556_80rnds_A.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_60rnds_A.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S4"
+        "BundleShard": "S15"
       },
       "Aligns": [],
-      "name": "Mag_556_80rnds_A",
+      "name": "Mag_762_60rnds_A",
       "internalEnabled": true,
-      "persistentID": 15
+      "persistentID": 6
     },
     {
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_80rnds_A.prefab",
         "GearCategoryFilter": 0,
@@ -248,36 +232,55 @@
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_9mm_50rdns_A.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_762_100rnds_A.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S6"
+        "BundleShard": "S16"
       },
       "Aligns": [],
-      "name": "Mag_9mm_50rdns_A",
+      "name": "Mag_762_100rnds_A",
       "internalEnabled": true,
-      "persistentID": 17
+      "persistentID": 7
     },
     {
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_12G_20rnds.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_50_10rnds_A.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Weapon_Mag",
-        "BundleShard": "S7"
+        "BundleShard": "S2"
       },
       "Aligns": [],
-      "name": "Mag_12G_20rnds",
+      "name": "Mag_50_10rnds_A",
       "internalEnabled": true,
-      "persistentID": 18
+      "persistentID": 13
     },
     {
       "ClipSizeMultiplier": 1.0,
       "ReloadTimeMultiplier": 1.0,
       "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_50_20rnds_A.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S1"
+      },
+      "Aligns": [],
+      "name": "Mag_50_20rnds_A",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
       "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_12G_04rnds_A.prefab",
         "GearCategoryFilter": 0,
@@ -288,7 +291,39 @@
       "name": "Mag_12G_04rnds",
       "internalEnabled": true,
       "persistentID": 19
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_12G_10rnds.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S18"
+      },
+      "Aligns": [],
+      "name": "Mag_12G_10rnds",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "ClipSizeMultiplier": 1.0,
+      "ReloadTimeMultiplier": 1.0,
+      "ReloadLeftHandGripAnim": "",
+      "DropSoundType": "Large",
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Mags/Mag_12G_20rnds.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Weapon_Mag",
+        "BundleShard": "S7"
+      },
+      "Aligns": [],
+      "name": "Mag_12G_20rnds",
+      "internalEnabled": true,
+      "persistentID": 18
     }
   ],
-  "LastPersistentID": 19
+  "LastPersistentID": 20
 }

@@ -10,7 +10,10 @@ DimensionData: DimensionData
    Single: DustAlphaBoost
    Single: DustTurbulence
    UInt32: SoundEventOnWarpTo
+   Boolean: DisableVFXEventOnWarp
    Boolean: UseLocalDimensionSeeds
+   Boolean: ForbidWaveSpawning
+   Boolean: ForbidCarryItemWarps
    Boolean: IsStaticDimension
    Int32: StaticZoneSeed
    Int32: StaticMarkerSeed
@@ -43,13 +46,16 @@ DimensionData: DimensionData
       Int32: MarkerSeedOffset
       List<TerminalLogFileData>: LocalLogFiles
          String: FileName
-         String: FileContent
+         LocalizedText: FileContent
+            Boolean: HasTranslation
+         (enum) Language: FileContentOriginalLanguage
          UInt32: AttachedAudioFile
          Int32: AttachedAudioByteSize
          UInt32: PlayerDialogToTriggerAfterAudio
       List<CustomTerminalCommand>: UniqueCommands
          String: Command
-         String: CommandDesc
+         LocalizedText: CommandDesc
+            Boolean: HasTranslation
          List<TerminalOutput>: PostCommandOutputs
             (enum) TerminalLineType: LineType
             LocalizedText: Output
@@ -57,6 +63,9 @@ DimensionData: DimensionData
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
             (enum) eWardenObjectiveEventType: Type
+            WorldEventConditionPair: Condition
+               Int32: ConditionIndex
+               Boolean: IsTrue
             (enum) eWardenObjectiveEventTrigger: Trigger
             (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
             Boolean: UseStaticBioscanPoints
@@ -73,23 +82,33 @@ DimensionData: DimensionData
             LocalizedText: CustomSubObjective
                Boolean: HasTranslation
             UInt32: SoundID
-            UInt32: DialogueID
+            LocalizedText: SoundSubtitle
+               Boolean: HasTranslation
+            (PlayerDialogDataBlock) UInt32: DialogueID
             (FogSettingsDataBlock) UInt32: FogSetting
             Single: FogTransitionDuration
             GenericEnemyWaveData: EnemyWaveData
                (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
                (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
+               Int32: AreaDistance
                Single: SpawnDelay
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
                   Boolean: HasTranslation
+            UInt32: EnemyID
             Vector3: Position
             Int32: Count
             Boolean: Enabled
+            (enum) TERM_Command: TerminalCommand
+            (enum) TERM_CommandRule: TerminalCommandRule
             String: WorldEventObjectFilter
          (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData
          (enum) TERM_State: StartingState
+         Boolean: UseCustomInfoText
+         LocalizedText: CustomInfoText
+            Boolean: HasTranslation
+         Boolean: KeepShowingLocalLogCount
          UInt32: AudioEventEnter
          UInt32: AudioEventExit
          Boolean: PasswordProtected
@@ -107,6 +126,9 @@ DimensionData: DimensionData
    Boolean: ForbidTerminalsInDimension
    List<WardenObjectiveEventData>: EventsOnBossDeath
       (enum) eWardenObjectiveEventType: Type
+      WorldEventConditionPair: Condition
+         Int32: ConditionIndex
+         Boolean: IsTrue
       (enum) eWardenObjectiveEventTrigger: Trigger
       (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
       Boolean: UseStaticBioscanPoints
@@ -123,19 +145,25 @@ DimensionData: DimensionData
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
       UInt32: SoundID
-      UInt32: DialogueID
+      LocalizedText: SoundSubtitle
+         Boolean: HasTranslation
+      (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
       GenericEnemyWaveData: EnemyWaveData
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
+         Int32: AreaDistance
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+      UInt32: EnemyID
       Vector3: Position
       Int32: Count
       Boolean: Enabled
+      (enum) TERM_Command: TerminalCommand
+      (enum) TERM_CommandRule: TerminalCommandRule
       String: WorldEventObjectFilter
    Boolean: IsOutside
    Single: LightAzimuth

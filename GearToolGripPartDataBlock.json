@@ -79,7 +79,7 @@
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_4.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_Nano_Swarm_1.prefab",
         "Children": [
           "Assets/Source/Graphics/Gear/ToolParts/grips/Grip_4_GripAlign.FBX"
         ],
@@ -102,7 +102,33 @@
       "name": "Grip_4",
       "internalEnabled": true,
       "persistentID": 6
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Grip/Grip_Nano_Swarm_1.prefab",
+        "Children": [
+          "Assets/Source/Graphics/Gear/ToolParts/grips/Grip_4_GripAlign.FBX"
+        ],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Tools_Grip_3",
+        "RightHandGripAnim": "Tools_Grip_3",
+        "AssetBundle": "Gear_Tool_Grip",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        },
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        }
+      ],
+      "name": "Grip_Nano_Swarm_1",
+      "internalEnabled": true,
+      "persistentID": 7
     }
   ],
-  "LastPersistentID": 6
+  "LastPersistentID": 7
 }

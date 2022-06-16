@@ -305,6 +305,9 @@
       "m_gameEventSounds": [],
       "m_EventsOnEnter": [
         {
+          "eventName": "combat_regular"
+        },
+        {
           "eventName": "music_encounter"
         }
       ],
@@ -326,9 +329,46 @@
       "m_EventOnSmallScare": "",
       "m_EventOnBigScare": "",
       "m_EventsOnExit": [],
-      "name": "CombatEncounter",
+      "name": "EncounterRegular",
       "internalEnabled": true,
       "persistentID": 13
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 5.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "combat_hidden"
+        },
+        {
+          "eventName": "music_encounter"
+        }
+      ],
+      "m_SwitchesOnEnter": [
+        {
+          "switchGroup": "encounter_stinger_level",
+          "switchName": "level_001",
+          "randomCount": 0
+        }
+      ],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "suspense",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "EncounterHidden",
+      "internalEnabled": true,
+      "persistentID": 23
     },
     {
       "m_timing": {
@@ -424,6 +464,9 @@
       "m_gameEventSounds": [],
       "m_EventsOnEnter": [
         {
+          "eventName": "combat_hidden"
+        },
+        {
           "eventName": "music_survival"
         }
       ],
@@ -457,6 +500,9 @@
       },
       "m_gameEventSounds": [],
       "m_EventsOnEnter": [
+        {
+          "eventName": "combat_regular"
+        },
         {
           "eventName": "music_survival"
         }
@@ -653,7 +699,69 @@
       "name": "Testing",
       "internalEnabled": true,
       "persistentID": 20
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "combat_hidden"
+        },
+        {
+          "eventName": "music_combat_intentional"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "IntentionalCombatHidden",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "m_timing": {
+        "minTimeInState": 0.0,
+        "maxTimeInState": 0.0,
+        "stateAfterMaxTime": "None"
+      },
+      "m_gameEventSounds": [],
+      "m_EventsOnEnter": [
+        {
+          "eventName": "combat_regular"
+        },
+        {
+          "eventName": "music_combat_intentional"
+        }
+      ],
+      "m_SwitchesOnEnter": [],
+      "m_SwitchesOnCustomCue": [],
+      "m_EventsOnTime": [],
+      "m_SwitchesOnTime": [],
+      "m_EventsOnTimeInactive": [],
+      "m_SwitchesOnTimeInactive": [],
+      "m_RTPC_1": "",
+      "m_RTPC_2": "",
+      "m_RTPC_3": "",
+      "m_EventOnSmallScare": "",
+      "m_EventOnBigScare": "",
+      "m_EventsOnExit": [],
+      "name": "IntentionalCombatRegular",
+      "internalEnabled": true,
+      "persistentID": 22
     }
   ],
-  "LastPersistentID": 20
+  "LastPersistentID": 23
 }

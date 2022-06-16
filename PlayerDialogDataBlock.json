@@ -2,188 +2,151 @@
   "Headers": [
     {
       "AboveBlockID": 99,
-      "LabelText": "player health",
-      "FoldoutStatus": true
+      "LabelText": "player health"
     },
     {
       "AboveBlockID": 101,
-      "LabelText": "oxygen",
-      "FoldoutStatus": true
+      "LabelText": "oxygen"
     },
     {
       "AboveBlockID": 1,
-      "LabelText": "pickups",
-      "FoldoutStatus": true
+      "LabelText": "pickups"
     },
     {
       "AboveBlockID": 4,
-      "LabelText": "fall damage",
-      "FoldoutStatus": true
+      "LabelText": "fall damage"
     },
     {
       "AboveBlockID": 7,
-      "LabelText": "ammo",
-      "FoldoutStatus": true
+      "LabelText": "ammo"
     },
     {
       "AboveBlockID": 9,
-      "LabelText": "motion tracker",
-      "FoldoutStatus": true
+      "LabelText": "motion tracker"
     },
     {
       "AboveBlockID": 12,
-      "LabelText": "mapper",
-      "FoldoutStatus": true
+      "LabelText": "mapper"
     },
     {
       "AboveBlockID": 85,
-      "LabelText": "lock cutter",
-      "FoldoutStatus": true
+      "LabelText": "lock cutter"
     },
     {
       "AboveBlockID": 107,
-      "LabelText": "heal spray",
-      "FoldoutStatus": true
+      "LabelText": "heal spray"
     },
     {
       "AboveBlockID": 109,
-      "LabelText": "sentry gun",
-      "FoldoutStatus": true
+      "LabelText": "sentry gun"
     },
     {
       "AboveBlockID": 90,
-      "LabelText": "exploration/surroundings",
-      "FoldoutStatus": true
+      "LabelText": "exploration/surroundings"
     },
     {
       "AboveBlockID": 113,
-      "LabelText": "common interactables",
-      "FoldoutStatus": true
+      "LabelText": "common interactables"
     },
     {
       "AboveBlockID": 19,
-      "LabelText": "lost",
-      "FoldoutStatus": true
+      "LabelText": "lost"
     },
     {
       "AboveBlockID": 13,
-      "LabelText": "doors & key cards",
-      "FoldoutStatus": true
+      "LabelText": "doors & key cards"
     },
     {
       "AboveBlockID": 134,
-      "LabelText": "important doors",
-      "FoldoutStatus": true
+      "LabelText": "important doors"
     },
     {
       "AboveBlockID": 148,
-      "LabelText": "accidental discharge",
-      "FoldoutStatus": true
+      "LabelText": "accidental discharge"
     },
     {
       "AboveBlockID": 94,
-      "LabelText": "snatchers",
-      "FoldoutStatus": true
+      "LabelText": "snatchers"
     },
     {
       "AboveBlockID": 60,
-      "LabelText": "parasites",
-      "FoldoutStatus": true
+      "LabelText": "parasites"
     },
     {
       "AboveBlockID": 50,
-      "LabelText": "monsters",
-      "FoldoutStatus": true
+      "LabelText": "monsters"
     },
     {
       "AboveBlockID": 45,
-      "LabelText": "attract monsters",
-      "FoldoutStatus": true
+      "LabelText": "attract monsters"
     },
     {
       "AboveBlockID": 54,
-      "LabelText": "combat",
-      "FoldoutStatus": true
+      "LabelText": "combat"
     },
     {
       "AboveBlockID": 25,
-      "LabelText": "battle cries",
-      "FoldoutStatus": true
+      "LabelText": "battle cries"
     },
     {
       "AboveBlockID": 55,
-      "LabelText": "post combat",
-      "FoldoutStatus": true
+      "LabelText": "post combat"
     },
     {
       "AboveBlockID": 48,
-      "LabelText": "screams",
-      "FoldoutStatus": true
+      "LabelText": "screams"
     },
     {
       "AboveBlockID": 87,
-      "LabelText": "expedition start",
-      "FoldoutStatus": true
+      "LabelText": "expedition start"
     },
     {
       "AboveBlockID": 159,
-      "LabelText": "retrieve",
-      "FoldoutStatus": true
+      "LabelText": "retrieve"
     },
     {
       "AboveBlockID": 36,
-      "LabelText": "data mining",
-      "FoldoutStatus": true
+      "LabelText": "data mining"
     },
     {
       "AboveBlockID": 47,
-      "LabelText": "signs & waypoints",
-      "FoldoutStatus": true
+      "LabelText": "signs & waypoints"
     },
     {
       "AboveBlockID": 172,
-      "LabelText": "tension",
-      "FoldoutStatus": true
+      "LabelText": "tension"
     },
     {
       "AboveBlockID": 15,
-      "LabelText": "group bonding",
-      "FoldoutStatus": true
+      "LabelText": "group bonding"
     },
     {
       "AboveBlockID": 14,
-      "LabelText": "comments",
-      "FoldoutStatus": true
+      "LabelText": "comments"
     },
     {
       "AboveBlockID": 138,
-      "LabelText": "consumables",
-      "FoldoutStatus": true
+      "LabelText": "consumables"
     },
     {
       "AboveBlockID": 175,
-      "LabelText": "hacking",
-      "FoldoutStatus": true
+      "LabelText": "hacking"
     },
     {
       "AboveBlockID": 193,
-      "LabelText": "bio scans",
-      "FoldoutStatus": true
+      "LabelText": "bio scans"
     },
     {
       "AboveBlockID": 221,
-      "LabelText": "New Header",
-      "FoldoutStatus": true
+      "LabelText": "New Header"
     },
     {
       "AboveBlockID": 291,
-      "LabelText": "Rundown Specfic",
-      "FoldoutStatus": true
+      "LabelText": "Rundown Specfic"
     },
     {
       "AboveBlockID": 229,
-      "LabelText": "Communication List",
-      "FoldoutStatus": true
+      "LabelText": "Communication List"
     }
   ],
   "Blocks": [

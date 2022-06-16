@@ -438,6 +438,35 @@
     },
     {
       "Health": {
+        "HealthMax": 9999999.0,
+        "DamageUntilHitreact": 400.0,
+        "BodypartHealth": 99999.0,
+        "WeakspotDamageMulti": 0.01,
+        "ArmorDamageMulti": 0.01,
+        "HitreactOnLimbDestruction": "Light",
+        "TryForceHitreactOnLimbDestruction": false
+      },
+      "GlueTolerance": 65.0,
+      "GlueFadeOutTime": 8.0,
+      "CanBePushed": false,
+      "ForbidTwitchHit": true,
+      "AllowDamgeBonusFromBehind": false,
+      "UseTentacleTunnelCheck": false,
+      "UseVisibilityRaycastDuringTentacleAttack": true,
+      "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.5,
+      "TentacleAttackDamage": 3.5,
+      "MeleeAttackDamage": 8.0,
+      "MeleeAttackDamageCheckRadius": 1.3,
+      "TagTime": 1.0,
+      "EnemyCollisionRadius": 1.5,
+      "EnemyCollisionPlayerMovementReduction": 0.3,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.5,
+      "name": "Tank_Boss",
+      "internalEnabled": true,
+      "persistentID": 38
+    },
+    {
+      "Health": {
         "HealthMax": 6000.0,
         "DamageUntilHitreact": 1500.0,
         "BodypartHealth": 1200.0,
@@ -464,7 +493,36 @@
       "name": "Squid_Boss",
       "internalEnabled": true,
       "persistentID": 35
+    },
+    {
+      "Health": {
+        "HealthMax": 225.0,
+        "DamageUntilHitreact": 50.0,
+        "BodypartHealth": 900.0,
+        "WeakspotDamageMulti": 2.0,
+        "ArmorDamageMulti": 0.2,
+        "HitreactOnLimbDestruction": "Heavy",
+        "TryForceHitreactOnLimbDestruction": true
+      },
+      "GlueTolerance": 1000000.0,
+      "GlueFadeOutTime": 8.0,
+      "CanBePushed": false,
+      "ForbidTwitchHit": false,
+      "AllowDamgeBonusFromBehind": true,
+      "UseTentacleTunnelCheck": true,
+      "UseVisibilityRaycastDuringTentacleAttack": false,
+      "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+      "TentacleAttackDamage": 3.0,
+      "MeleeAttackDamage": 3.0,
+      "MeleeAttackDamageCheckRadius": 1.0,
+      "TagTime": 60.0,
+      "EnemyCollisionRadius": 1.4,
+      "EnemyCollisionPlayerMovementReduction": 0.98,
+      "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
+      "name": "Pouncer",
+      "internalEnabled": true,
+      "persistentID": 37
     }
   ],
-  "LastPersistentID": 36
+  "LastPersistentID": 38
 }

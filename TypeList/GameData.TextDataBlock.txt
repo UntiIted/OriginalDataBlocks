@@ -1,9 +1,7 @@
 Boolean: SkipLocalization
 String: English
-Int32: MaxCharacterLength
 String: Description
 (TextCharacterMetaDataBlock) UInt32: CharacterMetaData
-(enum) Mood: Mood
 LanguageData: French
    String: Translation
    Boolean: ShouldTranslate

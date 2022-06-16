@@ -2,28 +2,23 @@
   "Headers": [
     {
       "AboveBlockID": 13,
-      "LabelText": "Striker",
-      "FoldoutStatus": true
+      "LabelText": "Striker"
     },
     {
       "AboveBlockID": 26,
-      "LabelText": "Shooter",
-      "FoldoutStatus": true
+      "LabelText": "Shooter"
     },
     {
       "AboveBlockID": 22,
-      "LabelText": "Misc",
-      "FoldoutStatus": true
+      "LabelText": "Misc"
     },
     {
       "AboveBlockID": 20,
-      "LabelText": "Scout",
-      "FoldoutStatus": true
+      "LabelText": "Scout"
     },
     {
       "AboveBlockID": 36,
-      "LabelText": "Birther",
-      "FoldoutStatus": true
+      "LabelText": "Birther"
     }
   ],
   "Blocks": [
@@ -85,6 +80,7 @@
       "MovementDataId": 13,
       "BalancingDataId": 13,
       "SFXDataId": 13,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -165,6 +161,7 @@
       "MovementDataId": 29,
       "BalancingDataId": 13,
       "SFXDataId": 13,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -245,6 +242,7 @@
       "MovementDataId": 13,
       "BalancingDataId": 13,
       "SFXDataId": 13,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -325,6 +323,7 @@
       "MovementDataId": 13,
       "BalancingDataId": 13,
       "SFXDataId": 13,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -405,6 +404,7 @@
       "MovementDataId": 28,
       "BalancingDataId": 28,
       "SFXDataId": 28,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -491,6 +491,7 @@
       "MovementDataId": 16,
       "BalancingDataId": 16,
       "SFXDataId": 16,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -577,6 +578,7 @@
       "MovementDataId": 28,
       "BalancingDataId": 16,
       "SFXDataId": 16,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -663,6 +665,7 @@
       "MovementDataId": 16,
       "BalancingDataId": 16,
       "SFXDataId": 16,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -749,6 +752,7 @@
       "MovementDataId": 21,
       "BalancingDataId": 16,
       "SFXDataId": 16,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -835,6 +839,7 @@
       "MovementDataId": 19,
       "BalancingDataId": 16,
       "SFXDataId": 19,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -915,6 +920,7 @@
       "MovementDataId": 33,
       "BalancingDataId": 32,
       "SFXDataId": 33,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -995,6 +1001,7 @@
       "MovementDataId": 11,
       "BalancingDataId": 11,
       "SFXDataId": 11,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1081,6 +1088,7 @@
       "MovementDataId": 11,
       "BalancingDataId": 11,
       "SFXDataId": 11,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1167,6 +1175,7 @@
       "MovementDataId": 30,
       "BalancingDataId": 18,
       "SFXDataId": 18,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1253,6 +1262,7 @@
       "MovementDataId": 18,
       "BalancingDataId": 18,
       "SFXDataId": 30,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1345,6 +1355,7 @@
       "MovementDataId": 18,
       "BalancingDataId": 18,
       "SFXDataId": 18,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1431,6 +1442,7 @@
       "MovementDataId": 31,
       "BalancingDataId": 30,
       "SFXDataId": 31,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -1517,6 +1529,7 @@
       "MovementDataId": 32,
       "BalancingDataId": 31,
       "SFXDataId": 32,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -1603,6 +1616,7 @@
       "MovementDataId": 20,
       "BalancingDataId": 20,
       "SFXDataId": 20,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1689,6 +1703,7 @@
       "MovementDataId": 28,
       "BalancingDataId": 33,
       "SFXDataId": 20,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1781,6 +1796,7 @@
       "MovementDataId": 20,
       "BalancingDataId": 20,
       "SFXDataId": 20,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 65536,
       "isCoccoon": false,
@@ -1867,6 +1883,7 @@
       "MovementDataId": 0,
       "BalancingDataId": 0,
       "SFXDataId": 0,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": true,
@@ -1934,6 +1951,7 @@
       "MovementDataId": 21,
       "BalancingDataId": 21,
       "SFXDataId": 21,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -2014,6 +2032,7 @@
       "MovementDataId": 34,
       "BalancingDataId": 29,
       "SFXDataId": 34,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -2043,6 +2062,93 @@
       "persistentID": 29
     },
     {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Tank_Boss/TankBoss_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Tank_Boss/Customization_TankBoss.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "HeadScale": {
+            "x": 0.6,
+            "y": 0.6,
+            "z": 0.6
+          },
+          "ChestScale": {
+            "x": 1.8,
+            "y": 1.6,
+            "z": 1.6
+          },
+          "ArmScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.4,
+            "y": 1.4
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 41,
+      "MovementDataId": 39,
+      "BalancingDataId": 38,
+      "SFXDataId": 39,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacleMultipleBoss.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 0.1
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        }
+      ],
+      "name": "Tank_Boss",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
       "EnemyType": "Standard",
       "AssetBundle": "Enemies",
       "BundleShard": "S1",
@@ -2056,6 +2162,7 @@
       "MovementDataId": 0,
       "BalancingDataId": 0,
       "SFXDataId": 0,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [
         {
           "AnimationSet": "Unspecified",
@@ -2180,6 +2287,7 @@
       "MovementDataId": 35,
       "BalancingDataId": 34,
       "SFXDataId": 35,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -2266,6 +2374,7 @@
       "MovementDataId": 37,
       "BalancingDataId": 36,
       "SFXDataId": 37,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -2352,6 +2461,7 @@
       "MovementDataId": 35,
       "BalancingDataId": 35,
       "SFXDataId": 36,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -2470,6 +2580,7 @@
       "MovementDataId": 36,
       "BalancingDataId": 35,
       "SFXDataId": 36,
+      "ArenaDimensions": [],
       "LinkedSlaveModels": [],
       "InternalMaterial": 131072,
       "isCoccoon": false,
@@ -2854,7 +2965,90 @@
       "name": "SquidBoss_Big",
       "internalEnabled": true,
       "persistentID": 44
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/PouncerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Pouncer/Pouncer_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Pouncer/Customization_Pouncer.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.1,
+            "y": 1.2
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 40,
+      "MovementDataId": 38,
+      "BalancingDataId": 37,
+      "SFXDataId": 38,
+      "ArenaDimensions": [
+        14
+      ],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_PouncerDashAttack.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 5.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Pouncer",
+      "internalEnabled": true,
+      "persistentID": 46
     }
   ],
-  "LastPersistentID": 45
+  "LastPersistentID": 47
 }

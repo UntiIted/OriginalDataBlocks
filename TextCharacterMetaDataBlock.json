@@ -24,7 +24,13 @@
       "name": "Human",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "Description": "DOS Like Computer Terminal.",
+      "name": "Terminal",
+      "internalEnabled": true,
+      "persistentID": 5
     }
   ],
-  "LastPersistentID": 4
+  "LastPersistentID": 5
 }

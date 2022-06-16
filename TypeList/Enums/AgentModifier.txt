@@ -7,6 +7,10 @@ ReviveStartHealthSupport - 5
 MeleeResistance - 6
 ProjectileResistance - 7
 InfectionResistance - 8
+DamageOverTime - 9
+Nanoswarm_Shield - 10
+Nanoswarm_Weakness - 11
+ExplosionResistance - 12
 PistolDamage - 50
 SMGDamage - 51
 DMRDamage - 52
@@ -46,3 +50,5 @@ FogRepellerEffect - 155
 GlowstickEffect - 156
 BioscanSpeed - 157
 MeleeDamage - 200
+MovementSpeed - 250
+MovementAcceleration - 251

@@ -8,6 +8,9 @@ Single: fallDamageMinHeight
 Single: fallDamageMaxHeight
 Single: fallDamageMin
 Single: fallDamageMax
+AnimationCurve: nanoswarmShieldDamageMultiplierCurve
+AnimationCurve: nanoswarmShieldResistanceCurve
+AnimationCurve: nanoswarmNegativeResistanceCurve
 Int32: battery
 Single: smallBatteryConsumtionPerSec
 Single: mediumBatteryConsumtionPerSec

@@ -12,3 +12,5 @@ ActivateSmallHSU - 10
 Survival - 11
 GatherTerminal - 12
 CorruptedTerminalUplink - 13
+Empty - 14
+TimedTerminalSequence - 15

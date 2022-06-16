@@ -1,0 +1,12 @@
+English - 1
+French - 2
+Italian - 3
+German - 4
+Spanish - 5
+Russian - 6
+Portuguese_Brazil - 7
+Polish - 8
+Japanese - 9
+Korean - 10
+Chinese_Traditional - 11
+Chinese_Simplified - 12

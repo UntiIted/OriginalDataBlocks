@@ -169,7 +169,7 @@
     },
     {
       "General": {
-        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Geo_Tracker_1.prefab",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Nano_Swarm_1.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Tool_Main",
         "BundleShard": "S1"
@@ -187,7 +187,28 @@
       "name": "Main_Geo_Tracker_1",
       "internalEnabled": true,
       "persistentID": 16
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Main/Main_Nano_Swarm_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Main",
+        "BundleShard": "S1"
+      },
+      "Aligns": [
+        {
+          "AlignType": "ToolTargeting",
+          "AlignName": "Geo_Tracker_1_Targeting"
+        },
+        {
+          "AlignType": "ToolScreen",
+          "AlignName": "Geo_Tracker_1_Screen"
+        }
+      ],
+      "name": "Main_Nano_Swarm_1",
+      "internalEnabled": true,
+      "persistentID": 17
     }
   ],
-  "LastPersistentID": 16
+  "LastPersistentID": 17
 }

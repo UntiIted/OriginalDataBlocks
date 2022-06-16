@@ -19,7 +19,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 0,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -90,7 +93,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 0,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": false,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -160,7 +166,10 @@
         "DustAlphaBoost": 2.0,
         "DustTurbulence": 30.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -190,6 +199,7 @@
               {
                 "FileName": "XXX-X2-ERQQ.LOG",
                 "FileContent": ">>RECORDING XXX-X2-ERQQ START ",
+                "FileContentOriginalLanguage": "English",
                 "AttachedAudioFile": 2909192547,
                 "AttachedAudioByteSize": 7262320,
                 "PlayerDialogToTriggerAfterAudio": 0
@@ -198,6 +208,9 @@
             "UniqueCommands": [],
             "StartingStateData": {
               "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
               "AudioEventEnter": 0,
               "AudioEventExit": 0,
               "PasswordProtected": false,
@@ -248,6 +261,292 @@
     {
       "DimensionData": {
         "LevelLayoutData": 0,
+        "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_Static_01_R7E1.prefab",
+        "VerticalExtentsUp": 30.0,
+        "VerticalExtentsDown": 30.0,
+        "DimensionResourceSetID": 47,
+        "DimensionFogData": 87,
+        "EnvironmentWetness": 0.0,
+        "DustColor": {
+          "a": 1.0,
+          "r": 0.5,
+          "g": 0.37109375,
+          "b": 0.25
+        },
+        "DustAlphaBoost": 2.0,
+        "DustTurbulence": 30.0,
+        "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
+        "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
+        "IsStaticDimension": true,
+        "StaticZoneSeed": 0,
+        "StaticMarkerSeed": 0,
+        "StaticLightSeed": 0,
+        "StaticLightSettings": 0,
+        "StaticAliasOverride": -1,
+        "StaticEnemySpawningInZone": [],
+        "StaticAllowResourceContainerAllocation": false,
+        "StaticAllowSmallPickupsAllocation": false,
+        "StaticForceBigPickupsAllocation": false,
+        "StaticConsumableDistributionInZone": 0,
+        "StaticBigPickupDistributionInZone": 0,
+        "StaticGroundSpawnersInZone": "None_0",
+        "StaticHealthMulti": 0.0,
+        "StaticToolAmmoMulti": 0.0,
+        "StaticWeaponAmmoMulti": 0.0,
+        "StaticDisinfectionMulti": 0.0,
+        "StaticTerminalPlacements": [
+          {
+            "PlacementWeights": {
+              "Start": 0.0,
+              "Middle": 0.0,
+              "End": 0.0
+            },
+            "AreaSeedOffset": 0,
+            "MarkerSeedOffset": 126,
+            "LocalLogFiles": [],
+            "UniqueCommands": [
+              {
+                "Command": "Override_Initialization",
+                "CommandDesc": 0,
+                "PostCommandOutputs": [
+                  {
+                    "LineType": "Warning",
+                    "Output": 1665414206,
+                    "Time": 7.0
+                  }
+                ],
+                "CommandEvents": [
+                  {
+                    "Type": "SpawnEnemyOnPoint",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 47,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": true,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal",
+                    "WorldEventObjectFilter": "FrankSpawner2"
+                  },
+                  {
+                    "Type": "SpawnEnemyWave",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 1.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 110,
+                      "WavePopulation": 5,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "StopEnemyWaves",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 55.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": "",
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "DimensionWarpTeam",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_1",
+                    "Delay": 75.0,
+                    "Duration": 0.0,
+                    "ClearDimension": true,
+                    "WardenIntel": "",
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  }
+                ],
+                "SpecialCommandRule": "OnlyOnceDelete"
+              }
+            ],
+            "StartingStateData": {
+              "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
+              "AudioEventEnter": 0,
+              "AudioEventExit": 0,
+              "PasswordProtected": false,
+              "PasswordHintText": "Password Required.",
+              "GeneratePassword": false,
+              "PasswordPartCount": 1,
+              "ShowPasswordLength": true,
+              "ShowPasswordPartPositions": false,
+              "TerminalZoneSelectionDatas": []
+            }
+          }
+        ],
+        "ForbidTerminalsInDimension": false,
+        "IsOutside": true,
+        "LightAzimuth": -32.9,
+        "LightElevation": 81.4,
+        "LightIntensity": 0.0648,
+        "AmbientIntensity": 1.106,
+        "ReflectionsIntensity": 1.547,
+        "GodrayRange": 7622.0,
+        "GodrayExponent": 1.227,
+        "AtmosphereData": 3,
+        "AtmosphereDensity": 7.23,
+        "Exposure": 1.43,
+        "AerialScale": 23.2,
+        "MieScattering": 11.8,
+        "MieG": 0.77,
+        "MultipleScattering": 19.2,
+        "CloudsData": 1,
+        "CloudsCoverage": 0.5,
+        "CloudsDensity": 0.5,
+        "CloudsSharpness": 0.0,
+        "CloudsShadowOpacity": 1.0,
+        "CloudsTimescale": 0.02,
+        "CloudsCrawling": -0.02,
+        "CloudsFade": 0.35,
+        "Sandstorm": true,
+        "SandstormEdgeA": 0.25,
+        "SandstormEdgeB": 1.0,
+        "SandstormMinFog": 0.006,
+        "ObjectiveType": "Ignore",
+        "LinkedToLayer": "MainLayer"
+      },
+      "name": "Dimension_Desert_Vista_R7E1",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "DimensionData": {
+        "LevelLayoutData": 0,
         "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_Static_02.prefab",
         "VerticalExtentsUp": 100.0,
         "VerticalExtentsDown": 55.0,
@@ -263,7 +562,10 @@
         "DustAlphaBoost": 5.0,
         "DustTurbulence": 100.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -319,6 +621,509 @@
     {
       "DimensionData": {
         "LevelLayoutData": 0,
+        "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_Dune_camp_03.prefab",
+        "VerticalExtentsUp": 100.0,
+        "VerticalExtentsDown": 55.0,
+        "DimensionResourceSetID": 47,
+        "DimensionFogData": 92,
+        "EnvironmentWetness": 0.0,
+        "DustColor": {
+          "a": 1.0,
+          "r": 0.5019608,
+          "g": 0.446603864,
+          "b": 0.3558902
+        },
+        "DustAlphaBoost": 5.0,
+        "DustTurbulence": 100.0,
+        "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
+        "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
+        "IsStaticDimension": true,
+        "StaticZoneSeed": 0,
+        "StaticMarkerSeed": 0,
+        "StaticLightSeed": 0,
+        "StaticLightSettings": 0,
+        "StaticAliasOverride": -1,
+        "StaticAllowResourceContainerAllocation": false,
+        "StaticAllowSmallPickupsAllocation": false,
+        "StaticForceBigPickupsAllocation": false,
+        "StaticConsumableDistributionInZone": 0,
+        "StaticBigPickupDistributionInZone": 0,
+        "StaticGroundSpawnersInZone": "None_0",
+        "StaticHealthMulti": 0.0,
+        "StaticToolAmmoMulti": 0.0,
+        "StaticWeaponAmmoMulti": 0.0,
+        "StaticDisinfectionMulti": 0.0,
+        "StaticTerminalPlacements": [
+          {
+            "PlacementWeights": {
+              "Start": 999999.0,
+              "Middle": 0.0,
+              "End": 0.0
+            },
+            "AreaSeedOffset": 0,
+            "MarkerSeedOffset": 0,
+            "LocalLogFiles": [
+              {
+                "FileName": "D3T-INI-FNI",
+                "FileContent": 3979312916,
+                "FileContentOriginalLanguage": "English",
+                "AttachedAudioFile": 3887080436,
+                "AttachedAudioByteSize": 755983,
+                "PlayerDialogToTriggerAfterAudio": 0
+              }
+            ],
+            "UniqueCommands": [
+              {
+                "Command": "COPY_GEN_INDEX_EXTENDED_DB",
+                "CommandDesc": "Download local extension of genome database",
+                "PostCommandOutputs": [
+                  {
+                    "LineType": "SpinningWaitDone",
+                    "Output": 0,
+                    "Time": 5.0
+                  }
+                ],
+                "CommandEvents": [
+                  {
+                    "Type": "StopEnemyWaves",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "OnStart",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "UpdateCustomSubObjective",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 2.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 780586628,
+                    "CustomSubObjective": 32988041,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "DimensionWarpTeam",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "OnStart",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 3.0,
+                    "Duration": 0.0,
+                    "ClearDimension": true,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "SpawnEnemyWave",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "OnEnd",
+                    "ChainPuzzle": 173,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 1418664407,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 169,
+                      "WavePopulation": 43,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "EventBreak",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "ForceCompleteObjective",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "OnEnd",
+                    "ChainPuzzle": 174,
+                    "UseStaticBioscanPoints": true,
+                    "Layer": "SecondaryLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 1.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "DimensionWarpTeam",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "OnEnd",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 4.0,
+                    "Duration": 0.0,
+                    "ClearDimension": true,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "StopEnemyWaves",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "OnEnd",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  },
+                  {
+                    "Type": "UpdateCustomSubObjective",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": "None",
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": "MainLayer",
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 402866245,
+                    "CustomSubObjective": 589951525,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 0,
+                      "WavePopulation": 0,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
+                  }
+                ],
+                "SpecialCommandRule": "Normal"
+              }
+            ],
+            "StartingStateData": {
+              "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
+              "AudioEventEnter": 0,
+              "AudioEventExit": 0,
+              "PasswordProtected": false,
+              "PasswordHintText": "Password Required.",
+              "GeneratePassword": false,
+              "PasswordPartCount": 1,
+              "ShowPasswordLength": true,
+              "ShowPasswordPartPositions": false,
+              "TerminalZoneSelectionDatas": []
+            }
+          }
+        ],
+        "ForbidTerminalsInDimension": false,
+        "IsOutside": true,
+        "LightAzimuth": 180.0,
+        "LightElevation": 165.0,
+        "LightIntensity": 0.4,
+        "AmbientIntensity": 0.5,
+        "ReflectionsIntensity": 1.0,
+        "GodrayRange": 2000.0,
+        "GodrayExponent": 1.0,
+        "AtmosphereData": 4,
+        "AtmosphereDensity": 2.0,
+        "Exposure": 5.0,
+        "AerialScale": 20.0,
+        "MieScattering": 10.0,
+        "MieG": 0.85,
+        "MultipleScattering": 2.0,
+        "CloudsData": 1,
+        "CloudsCoverage": 0.625,
+        "CloudsDensity": 1.0,
+        "CloudsSharpness": 0.0,
+        "CloudsShadowOpacity": 1.0,
+        "CloudsTimescale": 0.0,
+        "CloudsCrawling": 0.02,
+        "CloudsFade": 0.3,
+        "Sandstorm": true,
+        "SandstormEdgeA": 0.5,
+        "SandstormEdgeB": 0.7583,
+        "SandstormMinFog": 0.0063,
+        "ObjectiveType": "Ignore",
+        "LinkedToLayer": "MainLayer"
+      },
+      "name": "Dimension_Desert_dune_camp_01",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "DimensionData": {
+        "LevelLayoutData": 0,
         "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/PouncerArena/Dimension_Flyer_Arena_01.prefab",
         "VerticalExtentsUp": 50.0,
         "VerticalExtentsDown": 10.0,
@@ -334,7 +1139,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -389,6 +1197,154 @@
     },
     {
       "DimensionData": {
+        "LevelLayoutData": 0,
+        "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/PouncerArena/Dimension_Pouncer_Arena_01.prefab",
+        "VerticalExtentsUp": 50.0,
+        "VerticalExtentsDown": 10.0,
+        "DimensionResourceSetID": 47,
+        "DimensionFogData": 93,
+        "EnvironmentWetness": 0.199,
+        "DustColor": {
+          "a": 1.0,
+          "r": 0.65,
+          "g": 0.6042968,
+          "b": 0.487499952
+        },
+        "DustAlphaBoost": 0.0,
+        "DustTurbulence": 1.0,
+        "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
+        "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": true,
+        "ForbidCarryItemWarps": true,
+        "IsStaticDimension": true,
+        "StaticZoneSeed": 0,
+        "StaticMarkerSeed": 0,
+        "StaticLightSeed": 0,
+        "StaticLightSettings": 20,
+        "StaticAliasOverride": -1,
+        "StaticEnemySpawningInZone": [],
+        "StaticAllowResourceContainerAllocation": false,
+        "StaticAllowSmallPickupsAllocation": false,
+        "StaticForceBigPickupsAllocation": false,
+        "StaticConsumableDistributionInZone": 0,
+        "StaticBigPickupDistributionInZone": 0,
+        "StaticGroundSpawnersInZone": "None_0",
+        "StaticHealthMulti": 0.0,
+        "StaticToolAmmoMulti": 0.0,
+        "StaticWeaponAmmoMulti": 0.0,
+        "StaticDisinfectionMulti": 0.0,
+        "ForbidTerminalsInDimension": true,
+        "IsOutside": true,
+        "LightAzimuth": -4.7,
+        "LightElevation": 81.4,
+        "LightIntensity": 0.3198,
+        "AmbientIntensity": 1.106,
+        "ReflectionsIntensity": 1.547,
+        "GodrayRange": 7622.0,
+        "GodrayExponent": 1.227,
+        "AtmosphereData": 3,
+        "AtmosphereDensity": 7.23,
+        "Exposure": 1.43,
+        "AerialScale": 23.2,
+        "MieScattering": 11.8,
+        "MieG": 0.77,
+        "MultipleScattering": 19.2,
+        "CloudsData": 1,
+        "CloudsCoverage": 0.5,
+        "CloudsDensity": 0.5,
+        "CloudsSharpness": 0.0,
+        "CloudsShadowOpacity": 1.0,
+        "CloudsTimescale": 0.02,
+        "CloudsCrawling": 0.1,
+        "CloudsFade": 0.1,
+        "Sandstorm": false,
+        "SandstormEdgeA": 0.4,
+        "SandstormEdgeB": 0.6,
+        "SandstormMinFog": 0.01,
+        "ObjectiveType": "Ignore",
+        "LinkedToLayer": "MainLayer"
+      },
+      "name": "Dimension_Pouncer_Arena",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "DimensionData": {
+        "LevelLayoutData": 0,
+        "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_R7B3.prefab",
+        "VerticalExtentsUp": 50.0,
+        "VerticalExtentsDown": 10.0,
+        "DimensionResourceSetID": 47,
+        "DimensionFogData": 93,
+        "EnvironmentWetness": 0.199,
+        "DustColor": {
+          "a": 1.0,
+          "r": 0.65,
+          "g": 0.6042968,
+          "b": 0.487499952
+        },
+        "DustAlphaBoost": 0.0,
+        "DustTurbulence": 20.0,
+        "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
+        "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
+        "IsStaticDimension": true,
+        "StaticZoneSeed": 0,
+        "StaticMarkerSeed": 0,
+        "StaticLightSeed": 0,
+        "StaticLightSettings": 18,
+        "StaticAliasOverride": -1,
+        "StaticEnemySpawningInZone": [],
+        "StaticAllowResourceContainerAllocation": false,
+        "StaticAllowSmallPickupsAllocation": false,
+        "StaticForceBigPickupsAllocation": false,
+        "StaticConsumableDistributionInZone": 0,
+        "StaticBigPickupDistributionInZone": 0,
+        "StaticGroundSpawnersInZone": "None_0",
+        "StaticHealthMulti": 0.0,
+        "StaticToolAmmoMulti": 0.0,
+        "StaticWeaponAmmoMulti": 0.0,
+        "StaticDisinfectionMulti": 0.0,
+        "ForbidTerminalsInDimension": true,
+        "IsOutside": true,
+        "LightAzimuth": -4.7,
+        "LightElevation": 81.4,
+        "LightIntensity": 0.3198,
+        "AmbientIntensity": 1.106,
+        "ReflectionsIntensity": 1.547,
+        "GodrayRange": 7622.0,
+        "GodrayExponent": 1.227,
+        "AtmosphereData": 1,
+        "AtmosphereDensity": 7.23,
+        "Exposure": 1.43,
+        "AerialScale": 23.2,
+        "MieScattering": 11.8,
+        "MieG": 0.77,
+        "MultipleScattering": 19.2,
+        "CloudsData": 1,
+        "CloudsCoverage": 0.5,
+        "CloudsDensity": 0.8065,
+        "CloudsSharpness": 0.0,
+        "CloudsShadowOpacity": 1.0,
+        "CloudsTimescale": 0.02,
+        "CloudsCrawling": 0.1,
+        "CloudsFade": 0.1,
+        "Sandstorm": true,
+        "SandstormEdgeA": 0.4,
+        "SandstormEdgeB": 0.6,
+        "SandstormMinFog": 0.01,
+        "ObjectiveType": "Ignore",
+        "LinkedToLayer": "MainLayer"
+      },
+      "name": "Dimension_Desert_R7B3",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "DimensionData": {
         "LevelLayoutData": 1398700845,
         "DimensionGeomorph": "Assets/AssetPrefabs/Complex/Dimensions/Desert/Dimension_Desert_R6A2.prefab",
         "VerticalExtentsUp": 50.0,
@@ -405,7 +1361,10 @@
         "DustAlphaBoost": 1.0,
         "DustTurbulence": 20.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 418421869,
         "StaticMarkerSeed": 123486931,
@@ -457,6 +1416,10 @@
                 "CommandEvents": [
                   {
                     "Type": "UpdateCustomSubObjective",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -470,26 +1433,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 0,
                       "WavePopulation": 0,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "SpawnEnemyWave",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -503,26 +1475,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 3057097766,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 132,
                       "WavePopulation": 37,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "SpawnEnemyWave",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -536,26 +1517,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 149,
                       "WavePopulation": 35,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "SpawnEnemyWave",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 160,
                     "UseStaticBioscanPoints": false,
@@ -569,26 +1559,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 0,
                       "WavePopulation": 0,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "ForceCompleteObjective",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -602,26 +1601,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 0,
                       "WavePopulation": 0,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "StopEnemyWaves",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -635,26 +1643,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 0,
                       "WavePopulation": 0,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "DimensionWarpTeam",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -668,23 +1685,28 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 0,
                       "WavePopulation": 0,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   }
                 ],
                 "SpecialCommandRule": "OnlyOnceDelete"
@@ -692,6 +1714,9 @@
             ],
             "StartingStateData": {
               "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
               "AudioEventEnter": 0,
               "AudioEventExit": 0,
               "PasswordProtected": false,
@@ -758,7 +1783,10 @@
         "DustAlphaBoost": 4.0,
         "DustTurbulence": 100.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -794,6 +1822,10 @@
                 "CommandEvents": [
                   {
                     "Type": "SpawnEnemyWave",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 4,
                     "UseStaticBioscanPoints": false,
@@ -807,26 +1839,35 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 120,
                       "WavePopulation": 34,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   },
                   {
                     "Type": "UpdateCustomSubObjective",
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
                     "Trigger": "None",
                     "ChainPuzzle": 0,
                     "UseStaticBioscanPoints": false,
@@ -840,23 +1881,28 @@
                     "CustomSubObjectiveHeader": 0,
                     "CustomSubObjective": 0,
                     "SoundID": 0,
+                    "SoundSubtitle": 0,
                     "DialogueID": 0,
                     "FogSetting": 0,
                     "FogTransitionDuration": 0.0,
                     "EnemyWaveData": {
                       "WaveSettings": 0,
                       "WavePopulation": 0,
+                      "AreaDistance": 2,
                       "SpawnDelay": 0.0,
                       "TriggerAlarm": false,
                       "IntelMessage": 0
                     },
+                    "EnemyID": 0,
                     "Position": {
                       "x": 0.0,
                       "y": 0.0,
                       "z": 0.0
                     },
                     "Count": 0,
-                    "Enabled": false
+                    "Enabled": false,
+                    "TerminalCommand": "None",
+                    "TerminalCommandRule": "Normal"
                   }
                 ],
                 "SpecialCommandRule": "OnlyOnceDelete"
@@ -864,6 +1910,9 @@
             ],
             "StartingStateData": {
               "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
               "AudioEventEnter": 0,
               "AudioEventExit": 0,
               "PasswordProtected": false,
@@ -880,6 +1929,10 @@
         "EventsOnBossDeath": [
           {
             "Type": "SetFogSetting",
+            "Condition": {
+              "ConditionIndex": -1,
+              "IsTrue": false
+            },
             "Trigger": "None",
             "ChainPuzzle": 0,
             "UseStaticBioscanPoints": false,
@@ -893,26 +1946,35 @@
             "CustomSubObjectiveHeader": 0,
             "CustomSubObjective": 0,
             "SoundID": 0,
+            "SoundSubtitle": 0,
             "DialogueID": 0,
             "FogSetting": 102,
             "FogTransitionDuration": 1.0,
             "EnemyWaveData": {
               "WaveSettings": 0,
               "WavePopulation": 0,
+              "AreaDistance": 2,
               "SpawnDelay": 0.0,
               "TriggerAlarm": false,
               "IntelMessage": 0
             },
+            "EnemyID": 0,
             "Position": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
             },
             "Count": 0,
-            "Enabled": false
+            "Enabled": false,
+            "TerminalCommand": "None",
+            "TerminalCommandRule": "Normal"
           },
           {
             "Type": "DimensionWarpTeam",
+            "Condition": {
+              "ConditionIndex": -1,
+              "IsTrue": false
+            },
             "Trigger": "None",
             "ChainPuzzle": 0,
             "UseStaticBioscanPoints": false,
@@ -926,26 +1988,35 @@
             "CustomSubObjectiveHeader": 0,
             "CustomSubObjective": 0,
             "SoundID": 0,
+            "SoundSubtitle": 0,
             "DialogueID": 0,
             "FogSetting": 0,
             "FogTransitionDuration": 0.0,
             "EnemyWaveData": {
               "WaveSettings": 0,
               "WavePopulation": 0,
+              "AreaDistance": 2,
               "SpawnDelay": 0.0,
               "TriggerAlarm": false,
               "IntelMessage": 0
             },
+            "EnemyID": 0,
             "Position": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
             },
             "Count": 0,
-            "Enabled": false
+            "Enabled": false,
+            "TerminalCommand": "None",
+            "TerminalCommandRule": "Normal"
           },
           {
             "Type": "ForceCompleteObjective",
+            "Condition": {
+              "ConditionIndex": -1,
+              "IsTrue": false
+            },
             "Trigger": "None",
             "ChainPuzzle": 0,
             "UseStaticBioscanPoints": false,
@@ -959,26 +2030,35 @@
             "CustomSubObjectiveHeader": 0,
             "CustomSubObjective": 0,
             "SoundID": 0,
+            "SoundSubtitle": 0,
             "DialogueID": 0,
             "FogSetting": 0,
             "FogTransitionDuration": 0.0,
             "EnemyWaveData": {
               "WaveSettings": 0,
               "WavePopulation": 0,
+              "AreaDistance": 2,
               "SpawnDelay": 0.0,
               "TriggerAlarm": false,
               "IntelMessage": 0
             },
+            "EnemyID": 0,
             "Position": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
             },
             "Count": 0,
-            "Enabled": false
+            "Enabled": false,
+            "TerminalCommand": "None",
+            "TerminalCommandRule": "Normal"
           },
           {
             "Type": "PlaySound",
+            "Condition": {
+              "ConditionIndex": -1,
+              "IsTrue": false
+            },
             "Trigger": "None",
             "ChainPuzzle": 0,
             "UseStaticBioscanPoints": false,
@@ -992,23 +2072,28 @@
             "CustomSubObjectiveHeader": 0,
             "CustomSubObjective": 1446,
             "SoundID": 1685024518,
+            "SoundSubtitle": 0,
             "DialogueID": 0,
             "FogSetting": 0,
             "FogTransitionDuration": 0.0,
             "EnemyWaveData": {
               "WaveSettings": 0,
               "WavePopulation": 0,
+              "AreaDistance": 2,
               "SpawnDelay": 0.0,
               "TriggerAlarm": false,
               "IntelMessage": 0
             },
+            "EnemyID": 0,
             "Position": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
             },
             "Count": 0,
-            "Enabled": false
+            "Enabled": false,
+            "TerminalCommand": "None",
+            "TerminalCommandRule": "Normal"
           }
         ],
         "IsOutside": true,
@@ -1063,7 +2148,10 @@
         "DustAlphaBoost": 2.0,
         "DustTurbulence": 20.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 234,
@@ -1094,6 +2182,9 @@
             "UniqueCommands": [],
             "StartingStateData": {
               "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
               "AudioEventEnter": 0,
               "AudioEventExit": 0,
               "PasswordProtected": false,
@@ -1117,6 +2208,9 @@
             "UniqueCommands": [],
             "StartingStateData": {
               "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
               "AudioEventEnter": 0,
               "AudioEventExit": 0,
               "PasswordProtected": false,
@@ -1140,6 +2234,9 @@
             "UniqueCommands": [],
             "StartingStateData": {
               "StartingState": "Sleeping",
+              "UseCustomInfoText": false,
+              "CustomInfoText": 0,
+              "KeepShowingLocalLogCount": false,
               "AudioEventEnter": 0,
               "AudioEventExit": 0,
               "PasswordProtected": false,
@@ -1206,7 +2303,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -1277,7 +2377,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 1998147319,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": false,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": true,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -1348,7 +2451,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 1064851100,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": true,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": false,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -1418,7 +2524,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 1064851100,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": true,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": false,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -1488,7 +2597,10 @@
         "DustAlphaBoost": 0.0,
         "DustTurbulence": 1.0,
         "SoundEventOnWarpTo": 1064851100,
+        "DisableVFXEventOnWarp": false,
         "UseLocalDimensionSeeds": true,
+        "ForbidWaveSpawning": false,
+        "ForbidCarryItemWarps": false,
         "IsStaticDimension": false,
         "StaticZoneSeed": 0,
         "StaticMarkerSeed": 0,
@@ -1541,5 +2653,5 @@
       "persistentID": 11
     }
   ],
-  "LastPersistentID": 13
+  "LastPersistentID": 17
 }

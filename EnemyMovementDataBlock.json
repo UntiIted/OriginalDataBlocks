@@ -3,7 +3,7 @@
   "Blocks": [
     {
       "ForceDisableAnimator": false,
-      "AnimationControllers": -2018,
+      "AnimationControllers": -4066,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 20.0,
       "GlobalAnimSpeedMulti": 0.8,
@@ -118,6 +118,29 @@
     },
     {
       "ForceDisableAnimator": false,
+      "AnimationControllers": "EnemyExploder",
+      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWithinTargetDistance": 17.5,
+      "GlobalAnimSpeedMulti": 1.4,
+      "PathMoveAnimSpeedMulti": 1.0,
+      "RotationLerp": 1.5,
+      "RotationLerpWhenNotMoving": 0.8,
+      "BlendIntoAttackAnim": 0.5,
+      "BlendIntoScreamAnim": 0.5,
+      "AllowMovmentBlendOutOfPathMove": true,
+      "PathMoveAnimDampTime": 0.05,
+      "AllowClimbDownLadders": false,
+      "LocomotionPathMove": "PathMove",
+      "LocomotionHitReact": "Hitreact",
+      "LocomotionDead": "Dead",
+      "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
+      "name": "Tank_Boss",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "ForceDisableAnimator": false,
       "AnimationControllers": "EnemyCrawl",
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 20.0,
@@ -187,7 +210,7 @@
     },
     {
       "ForceDisableAnimator": false,
-      "AnimationControllers": -2006,
+      "AnimationControllers": -4054,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 20.0,
       "GlobalAnimSpeedMulti": 1.05,
@@ -210,7 +233,7 @@
     },
     {
       "ForceDisableAnimator": true,
-      "AnimationControllers": -2006,
+      "AnimationControllers": -4054,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
@@ -233,7 +256,7 @@
     },
     {
       "ForceDisableAnimator": true,
-      "AnimationControllers": -2006,
+      "AnimationControllers": -4054,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
@@ -256,7 +279,7 @@
     },
     {
       "ForceDisableAnimator": true,
-      "AnimationControllers": -2006,
+      "AnimationControllers": -4054,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
@@ -325,7 +348,7 @@
     },
     {
       "ForceDisableAnimator": false,
-      "AnimationControllers": -2038,
+      "AnimationControllers": -4086,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 20.0,
       "GlobalAnimSpeedMulti": 1.1,
@@ -348,7 +371,7 @@
     },
     {
       "ForceDisableAnimator": false,
-      "AnimationControllers": -2032,
+      "AnimationControllers": -4080,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 20.0,
       "GlobalAnimSpeedMulti": 1.5,
@@ -371,7 +394,7 @@
     },
     {
       "ForceDisableAnimator": false,
-      "AnimationControllers": -2046,
+      "AnimationControllers": -4094,
       "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 20.0,
       "GlobalAnimSpeedMulti": 1.0,
@@ -391,7 +414,30 @@
       "name": "ShooterBig",
       "internalEnabled": true,
       "persistentID": 30
+    },
+    {
+      "ForceDisableAnimator": false,
+      "AnimationControllers": "EnemyPouncer",
+      "MoveSlowerWhenInPlayerRoom": false,
+      "MoveSlowerWithinTargetDistance": 20.0,
+      "GlobalAnimSpeedMulti": 1.2,
+      "PathMoveAnimSpeedMulti": 1.0,
+      "RotationLerp": 6.0,
+      "RotationLerpWhenNotMoving": 6.0,
+      "BlendIntoAttackAnim": 0.15,
+      "BlendIntoScreamAnim": 0.15,
+      "AllowMovmentBlendOutOfPathMove": false,
+      "PathMoveAnimDampTime": 0.05,
+      "AllowClimbDownLadders": false,
+      "LocomotionPathMove": "PathMove",
+      "LocomotionHitReact": "Hitreact",
+      "LocomotionDead": "Dead",
+      "LocomotionShooterAttack": "ShooterAttack",
+      "LocomotionScream": "Scream",
+      "name": "Pouncer",
+      "internalEnabled": true,
+      "persistentID": 38
     }
   ],
-  "LastPersistentID": 37
+  "LastPersistentID": 39
 }

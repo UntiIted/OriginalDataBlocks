@@ -13,6 +13,8 @@ Int32: DefaultClipSize
 Single: DefaultReloadTime
 Single: CostOfBullet
 Single: ShotDelay
+Single: ShellCasingSize
+Vector2: ShellCasingSpeedRange
 Boolean: PiercingBullets
 Int32: PiercingDamageCountLimit
 Single: HipFireSpread

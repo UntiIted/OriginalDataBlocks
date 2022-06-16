@@ -2,13 +2,11 @@
   "Headers": [
     {
       "AboveBlockID": 1,
-      "LabelText": "Physical Samples",
-      "FoldoutStatus": true
+      "LabelText": "Physical Samples"
     },
     {
       "AboveBlockID": 13,
-      "LabelText": "Artifacts",
-      "FoldoutStatus": true
+      "LabelText": "Artifacts"
     }
   ],
   "Blocks": [

@@ -72,7 +72,20 @@
       "name": "Screen_6",
       "internalEnabled": true,
       "persistentID": 8
+    },
+    {
+      "General": {
+        "PublicName": "Nanoswarm Display",
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Tools/Screen/Screen_7.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Tool_Screen",
+        "BundleShard": "S2"
+      },
+      "Aligns": [],
+      "name": "Screen_7",
+      "internalEnabled": true,
+      "persistentID": 9
     }
   ],
-  "LastPersistentID": 8
+  "LastPersistentID": 9
 }

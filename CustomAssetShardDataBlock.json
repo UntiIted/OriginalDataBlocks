@@ -573,7 +573,131 @@
           "Shard": "S1"
         },
         {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear010/Headgear010.prefab",
+          "Shard": "S1"
+        },
+        {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear012/Headgear012.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs007Security/Legs007Security.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso006/Torso006.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack013Security/Backpack013Security.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso007Security/Torso007Security.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear006/Headgear006.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs006/Legs006.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso008Construction/Torso008Construction.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs008Construction/Legs008Construction.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack010/Backpack010.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack011Lab/Backpack011Lab.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso009Lab/Torso009Lab.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs009Lab/Legs009Lab.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear013Lab/Headgear013Lab.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack014Security/Backpack014Security.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack015Construction/Backpack015Construction.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack012Garden/Backpack012Garden.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear014Garden/Headgear014Garden.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015Construction/Headgear015Construction.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016Security/Headgear016Security.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso010Garden/Torso010Garden.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs010Garden/Legs010Garden.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs003Woods/Legs003WoodsNew.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs003WoodsB/Legs003WoodsBNew.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs006/Legs006_New.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette023Construction.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette021Garden.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette022Security.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs011Garden/Legs011Garden.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso011Garden/Torso011Garden.prefab",
           "Shard": "S1"
         }
       ],
@@ -795,6 +919,30 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_3_sides.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_Pouncer.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R7B1.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_wider.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_RequireExit.prefab",
+          "Shard": "S10"
         }
       ],
       "name": "ChainedPuzzles",
@@ -1247,6 +1395,90 @@
         {
           "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Rock/Cliff_Desert_a/Cliff_Desert_a_Smooth_mls_detail.png",
           "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Bunker_mls_df.png",
+          "Shard": "S19"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Bunker_mls_nm.png",
+          "Shard": "S7"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Bunker_mls_h.png",
+          "Shard": "S4"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Rock/CliffBlasted_a/CliffBlasted_a_Wall_mls_df.png",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Rock/CliffBlasted_a/CliffBlasted_a_Wall_mls_nm.png",
+          "Shard": "S7"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Rock/CliffBlasted_a/CliffBlasted_a_Wall_mls_h.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Clean_mls_df.png",
+          "Shard": "S17"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Clean_mls_nm.png",
+          "Shard": "S15"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Clean_mls_h.png",
+          "Shard": "S13"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Polished_mls_df.png",
+          "Shard": "S19"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Polished_mls_nm.png",
+          "Shard": "S3"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Polished_mls_h.png",
+          "Shard": "S12"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Dirty_mls_df.png",
+          "Shard": "S14"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Dirty_mls_nm.png",
+          "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Concrete/ConcreteBare_a/ConcreteBare_a_Dirty_mls_h.png",
+          "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Organic/MossGeneric_a/MossGeneric_a_Flat_df.png",
+          "Shard": "S15"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Organic/MossGeneric_a/MossGeneric_a_Flat_nm.png",
+          "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Organic/MossGeneric_a/MossGeneric_a_Flat_h.png",
+          "Shard": "S18"
+        },
+        {
+          "AssetPath": "Assets/Modules/MaterialLayeringSystem/Textures/Rock/CliffBlasted_a/CliffBlasted_a_Wall_mls_detail.png",
+          "Shard": "S15"
+        },
+        {
+          "AssetPath": "Assets/Source/Graphics/Characters/Players/Clothes/Tilers/085_GenericLagom_Normal.png",
+          "Shard": "S9"
+        },
+        {
+          "AssetPath": "Assets/Source/Graphics/Characters/Players/Clothes/Tilers/085_GenericLagom_Masks.png",
+          "Shard": "S18"
         }
       ],
       "name": "MLS_Resources_Do_Not_Rename",
@@ -1386,6 +1618,106 @@
         },
         {
           "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear012.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear013Lab.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear014Garden.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear015Construction.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear016Security.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Legs007Security.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Legs008Construction.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Legs009Lab.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Legs010Garden.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Backpack011Lab.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Backpack012Garden.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Backpack013Security.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Backpack014Security.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Backpack015Construction.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso007Security.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso008Construction.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso009Lab.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso010Garden.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Legs006.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear006.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso006.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Backpack010.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/UnknownRequisitionItem.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/RequisitionComplete.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Legs011Garden.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso011Garden.png",
           "Shard": "S1"
         }
       ],

@@ -12,6 +12,75 @@
       "fallDamageMaxHeight": 20.0,
       "fallDamageMin": 2.0,
       "fallDamageMax": 15.0,
+      "nanoswarmShieldDamageMultiplierCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 19.5670452,
+            "outTangent": -0.0569575243
+          },
+          {
+            "time": 0.899648547,
+            "value": 0.948758245,
+            "inTangent": -0.0569575243,
+            "outTangent": -1.93505383
+          },
+          {
+            "time": 0.95089227,
+            "value": 0.8495989,
+            "inTangent": -1.93505383,
+            "outTangent": -5.08267975
+          },
+          {
+            "time": 1.0,
+            "value": 0.6,
+            "inTangent": -5.08267975,
+            "outTangent": -5.08267975
+          }
+        ],
+        "length": 4
+      },
+      "nanoswarmShieldResistanceCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inTangent": 3.35630512,
+            "outTangent": 3.35630512
+          },
+          {
+            "time": 0.2979467,
+            "value": 1.0,
+            "inTangent": 0.0155750373,
+            "outTangent": 0.0155750373
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0
+          }
+        ],
+        "length": 3
+      },
+      "nanoswarmNegativeResistanceCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0
+          }
+        ],
+        "length": 2
+      },
       "battery": 100,
       "smallBatteryConsumtionPerSec": 0.25,
       "mediumBatteryConsumtionPerSec": 0.5,

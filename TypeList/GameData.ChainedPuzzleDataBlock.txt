@@ -2,6 +2,7 @@ String: PublicAlarmName
 Boolean: TriggerAlarmOnActivate
 (SurvivalWaveSettingsDataBlock) UInt32: SurvivalWaveSettings
 (SurvivalWavePopulationDataBlock) UInt32: SurvivalWavePopulation
+Int32: SurvivalWaveAreaDistance
 Boolean: DisableSurvivalWaveOnComplete
 Boolean: UseRandomPositions
 Single: WantedDistanceFromStartPos

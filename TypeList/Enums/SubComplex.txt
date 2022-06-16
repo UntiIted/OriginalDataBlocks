@@ -9,3 +9,5 @@ Mining_Reactor - 7
 Plug_SubComplex_Transition - 8
 Tech_Reactor - 9
 Tech_Portal - 10
+Gardens - 11
+Mining_Portal - 12

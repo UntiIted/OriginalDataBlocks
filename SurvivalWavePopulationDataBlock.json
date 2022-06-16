@@ -2,33 +2,27 @@
   "Headers": [
     {
       "AboveBlockID": 1,
-      "LabelText": "Baseline",
-      "FoldoutStatus": true
+      "LabelText": "Baseline"
     },
     {
       "AboveBlockID": 22,
-      "LabelText": "Bigs",
-      "FoldoutStatus": true
+      "LabelText": "Bigs"
     },
     {
       "AboveBlockID": 5,
-      "LabelText": "Bullrush",
-      "FoldoutStatus": true
+      "LabelText": "Bullrush"
     },
     {
       "AboveBlockID": 6,
-      "LabelText": "Reactor",
-      "FoldoutStatus": true
+      "LabelText": "Reactor"
     },
     {
       "AboveBlockID": 3,
-      "LabelText": "Other",
-      "FoldoutStatus": true
+      "LabelText": "Other"
     },
     {
       "AboveBlockID": 21,
-      "LabelText": "Modified Baseline",
-      "FoldoutStatus": true
+      "LabelText": "Modified Baseline"
     }
   ],
   "Blocks": [
@@ -53,7 +47,7 @@
       "persistentID": 12
     },
     {
-      "WaveRoleWeakling": 21,
+      "WaveRoleWeakling": 13,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 11,
       "WaveRoleMiniBoss": 33,
@@ -123,10 +117,30 @@
       "persistentID": 30
     },
     {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 11,
+      "name": "Modified S-Flyer_V3",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "WaveRoleWeakling": 42,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 45,
+      "WaveRoleMiniBoss": 30,
+      "WaveRoleBoss": 30,
+      "name": "Modified S-Flyer_V4",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
       "WaveRoleWeakling": 11,
       "WaveRoleStandard": 13,
-      "WaveRoleSpecial": 33,
-      "WaveRoleMiniBoss": 16,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 33,
       "WaveRoleBoss": 39,
       "name": "Modified Sp-Hybrid",
       "internalEnabled": true,
@@ -323,6 +337,16 @@
       "persistentID": 10
     },
     {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 38,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 36,
+      "WaveRoleBoss": 16,
+      "name": "Baseline Reactor S-Child",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
       "WaveRoleWeakling": 11,
       "WaveRoleStandard": 11,
       "WaveRoleSpecial": 33,
@@ -383,6 +407,36 @@
       "persistentID": 37
     },
     {
+      "WaveRoleWeakling": 42,
+      "WaveRoleStandard": 42,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 45,
+      "WaveRoleBoss": 45,
+      "name": "Flyers Mb-Flyer Big",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 46,
+      "WaveRoleBoss": 16,
+      "name": "Wave_Pouncer",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 11,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 16,
+      "name": "Wave_Pouncer_Combo",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
       "WaveRoleWeakling": 13,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 13,
@@ -413,5 +467,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 40
+  "LastPersistentID": 45
 }

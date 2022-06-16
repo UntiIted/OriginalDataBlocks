@@ -124,7 +124,31 @@
       "name": "Datasphere",
       "internalEnabled": true,
       "persistentID": 9
+    },
+    {
+      "SpawnsPerZone": 1,
+      "SpawnData": [
+        {
+          "ItemID": 164,
+          "Weight": 1.0
+        }
+      ],
+      "name": "MWP_1",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "SpawnsPerZone": 1,
+      "SpawnData": [
+        {
+          "ItemID": 173,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Sedatives_1",
+      "internalEnabled": true,
+      "persistentID": 11
     }
   ],
-  "LastPersistentID": 9
+  "LastPersistentID": 11
 }

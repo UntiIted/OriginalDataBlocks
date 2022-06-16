@@ -2,53 +2,43 @@
   "Headers": [
     {
       "AboveBlockID": 42,
-      "LabelText": "Hibernate Easy (Strikers+Shooters)",
-      "FoldoutStatus": true
+      "LabelText": "Hibernate Easy (Strikers+Shooters)"
     },
     {
       "AboveBlockID": 6,
-      "LabelText": "Hibernate Medium (Strikers+Shooters+Bigs)",
-      "FoldoutStatus": true
+      "LabelText": "Hibernate Medium (Strikers+Shooters+Bigs)"
     },
     {
       "AboveBlockID": 19,
-      "LabelText": "Hibernate Hard (Strikers+Shooter+Bigs+Random Scout)",
-      "FoldoutStatus": true
+      "LabelText": "Hibernate Hard (Strikers+Shooter+Bigs+Random Scout)"
     },
     {
       "AboveBlockID": 7,
-      "LabelText": "Hibernate Biss-Buss (shadows)",
-      "FoldoutStatus": true
+      "LabelText": "Hibernate Biss-Buss (shadows)"
     },
     {
       "AboveBlockID": 20,
-      "LabelText": "Pure Sneak (Bigs or Children)",
-      "FoldoutStatus": true
+      "LabelText": "Pure Sneak (Bigs or Children)"
     },
     {
       "AboveBlockID": 40,
-      "LabelText": "Bosses",
-      "FoldoutStatus": true
+      "LabelText": "Bosses"
     },
     {
       "AboveBlockID": 26,
-      "LabelText": "Pure Detect (Scouts)",
-      "FoldoutStatus": true
+      "LabelText": "Pure Detect (Scouts)"
     },
     {
       "AboveBlockID": 23,
-      "LabelText": "Detects (Bullrush)",
-      "FoldoutStatus": true
+      "LabelText": "Detects (Bullrush)"
     },
     {
       "AboveBlockID": 29,
-      "LabelText": "Test",
-      "FoldoutStatus": true
+      "LabelText": "Test"
     },
     {
       "AboveBlockID": 30,
-      "LabelText": "Hunters",
-      "FoldoutStatus": true
+      "LabelText": "Hunters"
     }
   ],
   "Blocks": [
@@ -1068,6 +1058,27 @@
     },
     {
       "Type": "Hunter",
+      "Difficulty": "Easy",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 15.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Melee",
+          "Distribution": "Rel_75"
+        },
+        {
+          "Role": "Ranged",
+          "Distribution": "Rel_25"
+        }
+      ],
+      "name": "Hunter Medium Inback strikers shooters",
+      "internalEnabled": true,
+      "persistentID": 76
+    },
+    {
+      "Type": "Hunter",
       "Difficulty": "Hard",
       "SpawnPlacementType": "Align_0",
       "MaxScore": 10.0,
@@ -1348,7 +1359,24 @@
       "name": "Squid Boss Children",
       "internalEnabled": true,
       "persistentID": 68
+    },
+    {
+      "Type": "Hunter",
+      "Difficulty": "Biss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 1.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Hunter",
+          "Distribution": "Force_One"
+        }
+      ],
+      "name": "Hunter Biss Pouncer",
+      "internalEnabled": true,
+      "persistentID": 75
     }
   ],
-  "LastPersistentID": 74
+  "LastPersistentID": 76
 }

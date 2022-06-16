@@ -2,58 +2,47 @@
   "Headers": [
     {
       "AboveBlockID": 31,
-      "LabelText": "Consumables",
-      "FoldoutStatus": true
+      "LabelText": "Consumables"
     },
     {
       "AboveBlockID": 108,
-      "LabelText": "Gear",
-      "FoldoutStatus": true
+      "LabelText": "Gear"
     },
     {
       "AboveBlockID": 27,
-      "LabelText": "Keycards",
-      "FoldoutStatus": true
+      "LabelText": "Keycards"
     },
     {
       "AboveBlockID": 83,
-      "LabelText": "WardenObjectiveItems",
-      "FoldoutStatus": true
+      "LabelText": "WardenObjectiveItems"
     },
     {
       "AboveBlockID": 101,
-      "LabelText": "ResourcePacks",
-      "FoldoutStatus": true
+      "LabelText": "ResourcePacks"
     },
     {
       "AboveBlockID": 113,
-      "LabelText": "Consumables",
-      "FoldoutStatus": true
+      "LabelText": "Consumables"
     },
     {
       "AboveBlockID": 118,
-      "LabelText": "Commodities",
-      "FoldoutStatus": true
+      "LabelText": "Commodities"
     },
     {
       "AboveBlockID": 125,
-      "LabelText": "Mines to spawn",
-      "FoldoutStatus": true
+      "LabelText": "Mines to spawn"
     },
     {
       "AboveBlockID": 128,
-      "LabelText": "Warden Objective",
-      "FoldoutStatus": true
+      "LabelText": "Warden Objective"
     },
     {
       "AboveBlockID": 131,
-      "LabelText": "Carry Items",
-      "FoldoutStatus": true
+      "LabelText": "Carry Items"
     },
     {
       "AboveBlockID": 146,
-      "LabelText": "Bulkhead key",
-      "FoldoutStatus": true
+      "LabelText": "Bulkhead key"
     }
   ],
   "Blocks": [
@@ -584,7 +573,7 @@
       "DimensionWarpType": "Never",
       "Shard": "S13",
       "inventorySlot": "GearClass",
-      "FPSSettings": 11,
+      "FPSSettings": 44,
       "crosshair": "None",
       "HUDIcon": "GUI/Player/silouette_sentrygun",
       "ShowCrosshairWhenAiming": true,
@@ -705,7 +694,6 @@
       ],
       "ThirdPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Tools/MineDeployer/MineDeployerThirdPerson.prefab",
-        "Assets/AssetPrefabs/Items/Tools/MineDeployer/TripMine_1.prefab",
         "Assets/AssetPrefabs/Items/Tools/MineDeployer/MineDeployer_GripAlign.prefab"
       ],
       "PickupPrefabs": [],
@@ -735,7 +723,7 @@
       "DimensionWarpType": "Never",
       "Shard": "S14",
       "inventorySlot": "GearClass",
-      "FPSSettings": 0,
+      "FPSSettings": 44,
       "crosshair": "None",
       "HUDIcon": "GUI/Player/silouette_enemyscanner",
       "ShowCrosshairWhenAiming": false,
@@ -745,9 +733,9 @@
       "GUIShowAmmoInfinite": false,
       "canMoveQuick": true,
       "BlockToolAmmoRefill": false,
-      "ClassAmmoCostFactor": 1.0,
+      "ClassAmmoCostFactor": 1.5,
       "ConsumableAmmoMin": 0,
-      "ConsumableAmmoMax": 0,
+      "ConsumableAmmoMax": 100,
       "audioEventEquip": "MedFreezeEquip",
       "FirstPersonPrefabs": [
         "Assets/AssetPrefabs/Items/Tools/NanoSwarm/NanoSwarmFirstPerson.prefab"
@@ -2024,7 +2012,7 @@
       ],
       "InstancePrefabs": [
         "Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_Fogrepeller_Instance.prefab",
-        "Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller.prefab"
+        "Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller_Activated.prefab"
       ],
       "EquipTransitionTime": 1.0,
       "AimTransitionTime": 0.5,
@@ -2953,10 +2941,10 @@
       "persistentID": 150
     },
     {
-      "publicName": "DATA_CUBE",
+      "publicName": "GLP Hormone mk 2",
       "LocalizedName": 0,
-      "terminalItemShortName": "DATA_CUBE",
-      "terminalItemLongName": "Advanced data storage unit",
+      "terminalItemShortName": "GLP-2",
+      "terminalItemLongName": "Glucagon peptide hormone mk 2",
       "addSerialNumberToName": true,
       "registerInTerminalSystem": true,
       "DimensionWarpType": "Never",
@@ -2979,8 +2967,8 @@
       "FirstPersonPrefabs": [],
       "ThirdPersonPrefabs": [],
       "PickupPrefabs": [
-        "Assets/AssetPrefabs/Items/MiscPickups/MWP_DataCube_Pickup_Core.prefab",
-        "Assets/AssetPrefabs/Items/MiscPickups/MWP_DataCube.prefab"
+        "Assets/AssetPrefabs/Items/MiscPickups/GLP-2_containerPickup_Core.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/GLP-2_container.prefab"
       ],
       "InstancePrefabs": [],
       "EquipTransitionTime": 1.0,
@@ -2994,9 +2982,9 @@
       "SightLookAlign": "",
       "MuzzleAlign": "",
       "BackpackAlign": "",
-      "name": "Pickup_Data_Cube",
+      "name": "Pickup_GLP-2",
       "internalEnabled": true,
-      "persistentID": 165
+      "persistentID": 169
     },
     {
       "publicName": "TAMPERED_DATA_CUBE",
@@ -3045,6 +3033,52 @@
       "persistentID": 168
     },
     {
+      "publicName": "DATA_CUBE",
+      "LocalizedName": 0,
+      "terminalItemShortName": "DATA_CUBE",
+      "terminalItemLongName": "Advanced data storage unit",
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InPocket",
+      "FPSSettings": 0,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": true,
+      "GUIShowAmmoClip": true,
+      "GUIShowAmmoPack": true,
+      "GUIShowAmmoTotalRel": true,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": true,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [],
+      "ThirdPersonPrefabs": [],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/MWP_DataCube_Pickup_Core.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/MWP_DataCube.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 1.0,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "",
+      "LeftHandGripAnim": "",
+      "RightHandGripAlign": "",
+      "RightHandGripAnim": "",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Pickup_Data_Cube",
+      "internalEnabled": true,
+      "persistentID": 165
+    },
+    {
       "publicName": "Plant Sample",
       "LocalizedName": 0,
       "terminalItemShortName": "Plant",
@@ -3089,6 +3123,96 @@
       "name": "Pickup_Plant_sample",
       "internalEnabled": true,
       "persistentID": 153
+    },
+    {
+      "publicName": "Memory_Stick",
+      "LocalizedName": 0,
+      "terminalItemShortName": "Memory",
+      "terminalItemLongName": "Memory Stick",
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InPocket",
+      "FPSSettings": 0,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": true,
+      "GUIShowAmmoClip": true,
+      "GUIShowAmmoPack": true,
+      "GUIShowAmmoTotalRel": true,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": true,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [],
+      "ThirdPersonPrefabs": [],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Prop/prop_narrative/Memory_stick/Prop_Memory_Stick.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 1.0,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "",
+      "LeftHandGripAnim": "",
+      "RightHandGripAlign": "",
+      "RightHandGripAnim": "",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Pickup_Memory_Stick",
+      "internalEnabled": true,
+      "persistentID": 171
+    },
+    {
+      "publicName": "Memory_Stick",
+      "LocalizedName": 0,
+      "terminalItemShortName": "Memory_Stick",
+      "terminalItemLongName": "Memory Stick",
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InPocket",
+      "FPSSettings": 0,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": true,
+      "GUIShowAmmoClip": true,
+      "GUIShowAmmoPack": true,
+      "GUIShowAmmoTotalRel": true,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": true,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [],
+      "ThirdPersonPrefabs": [],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Prop/prop_narrative/Memory_stick/Prop_Memory_Stick_Interact.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 1.0,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "",
+      "LeftHandGripAnim": "",
+      "RightHandGripAlign": "",
+      "RightHandGripAnim": "",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Pickup_Memory_Stick_Interactable",
+      "internalEnabled": true,
+      "persistentID": 172
     },
     {
       "publicName": "Power Cell",
@@ -3346,6 +3470,57 @@
       "name": "Carry_HSU_Small_Stage_3",
       "internalEnabled": true,
       "persistentID": 143
+    },
+    {
+      "publicName": "NEONATE HSU",
+      "LocalizedName": 0,
+      "terminalItemShortName": "NEONATE HSU",
+      "terminalItemLongName": "NEONATE HYDRO STATIS UNIT",
+      "addSerialNumberToName": false,
+      "registerInTerminalSystem": false,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InLevelCarry",
+      "FPSSettings": 36,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": false,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": false,
+      "GUIShowAmmoTotalRel": false,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": false,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/SmallHSUEuippable_FirstPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_FirstPerson_Stage_5.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_ThirdPerson_Stage_5.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_Pickup_Stage_5.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 0.5,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "Generator_Cell",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "Generator_Cell",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Carry_HSU_Small_Stage_5",
+      "internalEnabled": true,
+      "persistentID": 170
     },
     {
       "publicName": "MATTER_WAVE_PROJECTOR",
@@ -3760,7 +3935,59 @@
       "name": "Carry_CargoCrate_HighSecurity_Open",
       "internalEnabled": true,
       "persistentID": 155
+    },
+    {
+      "publicName": "Collection Case",
+      "LocalizedName": 0,
+      "terminalItemShortName": "COLLECTION_CASE",
+      "terminalItemLongName": "Hydrokinetic fluid Collection Case",
+      "addSerialNumberToName": false,
+      "registerInTerminalSystem": true,
+      "DimensionWarpType": "Never",
+      "Shard": "S5",
+      "inventorySlot": "InLevelCarry",
+      "FPSSettings": 36,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": false,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": false,
+      "GUIShowAmmoTotalRel": false,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": false,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_FirstPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/Sedatives_Case_FirstPerson.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/Sedatives_Case_ThirdPerson.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_Pickup.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/Sedatives_Case_Pickup.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 0.5,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "Generator_Cell",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "Generator_Cell",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Carry_Sedatives_Case",
+      "internalEnabled": true,
+      "persistentID": 173
     }
   ],
-  "LastPersistentID": 168
+  "LastPersistentID": 173
 }

@@ -9,3 +9,4 @@ EnemyGiant - 128
 EnemyBig - 256
 EnemyExploder - 512
 EnemyBirtherCrawlFlip - 1024
+EnemyPouncer - 2048

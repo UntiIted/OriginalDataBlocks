@@ -2,18 +2,15 @@
   "Headers": [
     {
       "AboveBlockID": 1,
-      "LabelText": "Recoil",
-      "FoldoutStatus": true
+      "LabelText": "Recoil"
     },
     {
       "AboveBlockID": 9,
-      "LabelText": "Inertia",
-      "FoldoutStatus": true
+      "LabelText": "Inertia"
     },
     {
       "AboveBlockID": 14,
-      "LabelText": "Idle",
-      "FoldoutStatus": true
+      "LabelText": "Idle"
     }
   ],
   "Blocks": [
@@ -292,6 +289,313 @@
       "name": "Pistol_Recoil",
       "internalEnabled": true,
       "persistentID": 1
+    },
+    {
+      "ItemPosition": {
+        "X": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": 0.00135161693,
+              "outTangent": 0.00135161693
+            },
+            {
+              "time": 0.0642021745,
+              "value": -0.009849329,
+              "inTangent": -0.0242730416,
+              "outTangent": -0.0242730416
+            },
+            {
+              "time": 0.2345834,
+              "value": 0.00247245561,
+              "inTangent": -4.10848043E-06,
+              "outTangent": -4.10848043E-06
+            },
+            {
+              "time": 0.423349768,
+              "value": -0.00134164281,
+              "inTangent": 7.277507E-07,
+              "outTangent": 7.277507E-07
+            },
+            {
+              "time": 0.634511232,
+              "value": 0.0,
+              "inTangent": 0.000301389315,
+              "outTangent": 0.000301389315
+            }
+          ],
+          "length": 5
+        },
+        "Y": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": -0.00111001241,
+              "outTangent": -0.00111001241
+            },
+            {
+              "time": 0.05,
+              "value": 0.0658598542,
+              "inTangent": 0.001561486,
+              "outTangent": 0.001561486
+            },
+            {
+              "time": 0.3,
+              "value": 0.0536364056,
+              "inTangent": -0.171984911,
+              "outTangent": -0.171984911
+            },
+            {
+              "time": 0.6333672,
+              "value": -0.00448237732,
+              "inTangent": 0.0008865336,
+              "outTangent": 0.0008865336
+            },
+            {
+              "time": 0.9137461,
+              "value": 0.0,
+              "inTangent": 0.00056769076,
+              "outTangent": 0.00056769076
+            }
+          ],
+          "length": 5
+        },
+        "Z": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.05168271,
+              "inTangent": -0.008735572,
+              "outTangent": -0.008735572
+            },
+            {
+              "time": 0.12448623,
+              "value": -0.106973112,
+              "inTangent": -2.84389046E-07,
+              "outTangent": -2.84389046E-07
+            },
+            {
+              "time": 0.25,
+              "value": -0.0534962043,
+              "inTangent": -0.0005769907,
+              "outTangent": -0.0005769907
+            },
+            {
+              "time": 0.5,
+              "value": 0.0121071246,
+              "inTangent": 0.00136515638,
+              "outTangent": 0.00136515638
+            },
+            {
+              "time": 0.7621399,
+              "value": -0.005189863,
+              "inTangent": 0.0035361906,
+              "outTangent": 0.0035361906
+            },
+            {
+              "time": 1.00380647,
+              "value": 0.0,
+              "inTangent": -0.00106425153,
+              "outTangent": -0.00106425153
+            }
+          ],
+          "length": 6
+        },
+        "VarianceX": {
+          "x": -1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 0.9,
+          "y": 1.1
+        },
+        "VarianceZ": {
+          "x": 1.1,
+          "y": 1.2
+        }
+      },
+      "ItemRotation": {
+        "X": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": -1.13763082,
+              "outTangent": -1.13763082
+            },
+            {
+              "time": 0.0938678458,
+              "value": -9.868063,
+              "inTangent": 3.393559E-05,
+              "outTangent": 3.393559E-05
+            },
+            {
+              "time": 0.25,
+              "value": -6.77963352,
+              "inTangent": -9.333073,
+              "outTangent": -9.333073
+            },
+            {
+              "time": 0.491400123,
+              "value": 0.419662237,
+              "inTangent": -0.0008590285,
+              "outTangent": -0.0008590285
+            },
+            {
+              "time": 0.8580076,
+              "value": 0.0,
+              "inTangent": -0.00975224,
+              "outTangent": -0.00975224
+            }
+          ],
+          "length": 5
+        },
+        "Y": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.00527119637,
+              "inTangent": -0.2089936,
+              "outTangent": -0.2089936
+            },
+            {
+              "time": 0.0493305475,
+              "value": 0.870352,
+              "inTangent": -0.0609303564,
+              "outTangent": -0.0609303564
+            },
+            {
+              "time": 0.1401469,
+              "value": -0.192879915,
+              "inTangent": -0.919978,
+              "outTangent": -0.919978
+            },
+            {
+              "time": 0.2934648,
+              "value": 0.1608634,
+              "inTangent": 0.214112446,
+              "outTangent": 0.214112446
+            },
+            {
+              "time": 0.449850351,
+              "value": 0.0,
+              "inTangent": 0.00587546872,
+              "outTangent": 0.00587546872
+            }
+          ],
+          "length": 5
+        },
+        "Z": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": 0.4486482,
+              "outTangent": 0.4486482
+            },
+            {
+              "time": 0.08391416,
+              "value": 4.96251869,
+              "inTangent": 0.0004528672,
+              "outTangent": 0.0004528672
+            },
+            {
+              "time": 0.24283272,
+              "value": -0.717625856,
+              "inTangent": -1.10539782,
+              "outTangent": -1.10539782
+            },
+            {
+              "time": 0.39795506,
+              "value": 0.5595031,
+              "inTangent": 0.989295661,
+              "outTangent": 0.989295661
+            },
+            {
+              "time": 0.7144082,
+              "value": -0.12338689,
+              "inTangent": -0.1447798,
+              "outTangent": -0.1447798
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inTangent": 0.0357732773,
+              "outTangent": 0.0357732773
+            }
+          ],
+          "length": 6
+        },
+        "VarianceX": {
+          "x": 2.0,
+          "y": 3.0
+        },
+        "VarianceY": {
+          "x": -1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": -1.0,
+          "y": 1.0
+        }
+      },
+      "CameraPosition": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [],
+          "length": 0
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "CameraRotation": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [],
+          "length": 0
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "name": "Pistol_Chunky_Recoil",
+      "internalEnabled": true,
+      "persistentID": 33
     },
     {
       "ItemPosition": {
@@ -1366,6 +1670,197 @@
         "X": {
           "keys": [
             {
+              "time": -0.00143432617,
+              "value": -0.00112915039,
+              "inTangent": -0.124817356,
+              "outTangent": -0.124817356
+            },
+            {
+              "time": 0.04191793,
+              "value": -0.00654026447,
+              "inTangent": 0.0293757878,
+              "outTangent": 0.0293757878
+            },
+            {
+              "time": 0.398552775,
+              "value": -3.3947872E-05,
+              "inTangent": 0.000463722972,
+              "outTangent": 0.000463722972
+            }
+          ],
+          "length": 3
+        },
+        "Y": {
+          "keys": [
+            {
+              "time": 0.00144195557,
+              "value": 0.0,
+              "inTangent": 0.330654949,
+              "outTangent": 0.330654949
+            },
+            {
+              "time": 0.0299705025,
+              "value": 0.009433106,
+              "inTangent": -0.124428429,
+              "outTangent": -0.124428429
+            },
+            {
+              "time": 0.299985617,
+              "value": 2.2553897E-05,
+              "inTangent": -0.0110127646,
+              "outTangent": -0.0110127646
+            }
+          ],
+          "length": 3
+        },
+        "Z": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.002357483,
+              "inTangent": -4.433107,
+              "outTangent": -4.433107
+            },
+            {
+              "time": 0.0190379173,
+              "value": -0.08203964,
+              "inTangent": 0.5483862,
+              "outTangent": 0.5483862
+            },
+            {
+              "time": 0.3651612,
+              "value": -0.00235093618,
+              "inTangent": 0.05371952,
+              "outTangent": 0.05371952
+            },
+            {
+              "time": 0.5002493,
+              "value": 0.000388724351,
+              "inTangent": 0.00481687952,
+              "outTangent": 0.00481687952
+            }
+          ],
+          "length": 4
+        },
+        "VarianceX": {
+          "x": -1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "ItemRotation": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [
+            {
+              "time": -0.00144195557,
+              "value": 0.00471878052,
+              "inTangent": 8.673931,
+              "outTangent": 8.673931
+            },
+            {
+              "time": 0.0424299762,
+              "value": 0.38526088,
+              "inTangent": -0.981935441,
+              "outTangent": -0.981935441
+            },
+            {
+              "time": 0.211156517,
+              "value": -0.000284519047,
+              "inTangent": 0.7741485,
+              "outTangent": 0.7741485
+            }
+          ],
+          "length": 3
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "CameraPosition": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [],
+          "length": 0
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "CameraRotation": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [],
+          "length": 0
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "name": "Shotgun_Recoil_small",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "ItemPosition": {
+        "X": {
+          "keys": [
+            {
               "time": 0.0,
               "value": 0.0,
               "inTangent": 0.03131778,
@@ -1418,43 +1913,37 @@
         "Z": {
           "keys": [
             {
-              "time": 0.0009918213,
-              "value": 0.03257828,
-              "inTangent": -0.9878371,
-              "outTangent": -0.9878371
+              "time": 0.0,
+              "value": 0.03441165,
+              "inTangent": -2.75833225,
+              "outTangent": -2.75833225
             },
             {
-              "time": 0.049333185,
-              "value": -0.0151751116,
-              "inTangent": -0.158817366,
-              "outTangent": -0.158817366
+              "time": 0.03831342,
+              "value": -0.0321328044,
+              "inTangent": 0.02020461,
+              "outTangent": 0.02020461
             },
             {
-              "time": 0.205758587,
-              "value": 0.00187331,
-              "inTangent": 0.0595990047,
-              "outTangent": 0.0595990047
+              "time": 0.116946362,
+              "value": -0.0113327652,
+              "inTangent": 0.05525334,
+              "outTangent": 0.05525334
             },
             {
-              "time": 0.3,
+              "time": 0.185950965,
+              "value": -0.0142379031,
+              "inTangent": 0.120862111,
+              "outTangent": 0.120862111
+            },
+            {
+              "time": 0.3623499,
               "value": 0.0,
-              "inTangent": -0.04791548,
-              "outTangent": -0.04791548
-            },
-            {
-              "time": 0.477824867,
-              "value": -0.002169562,
-              "inTangent": 0.09055734,
-              "outTangent": 0.09055734
-            },
-            {
-              "time": 0.7,
-              "value": 0.0,
-              "inTangent": 0.009765099,
-              "outTangent": 0.009765099
+              "inTangent": 0.00114837952,
+              "outTangent": 0.00114837952
             }
           ],
-          "length": 6
+          "length": 5
         },
         "VarianceX": {
           "x": 0.8,
@@ -1475,26 +1964,26 @@
             {
               "time": 0.0,
               "value": 0.0,
-              "inTangent": -0.06795629,
-              "outTangent": -0.06795629
+              "inTangent": -0.13168329,
+              "outTangent": -0.13168329
             },
             {
-              "time": 0.3027917,
-              "value": -0.0205766018,
-              "inTangent": 0.37180838,
-              "outTangent": 0.37180838
+              "time": 0.0743842646,
+              "value": -0.009795165,
+              "inTangent": 0.00145767082,
+              "outTangent": 0.00145767082
             },
             {
-              "time": 0.58373183,
-              "value": -0.005525121,
-              "inTangent": -0.613571644,
-              "outTangent": -0.613571644
+              "time": 0.1807812,
+              "value": 0.00308731943,
+              "inTangent": -0.007130444,
+              "outTangent": -0.007130444
             },
             {
-              "time": 0.8,
+              "time": 0.401888341,
               "value": 0.0,
-              "inTangent": -0.404150963,
-              "outTangent": -0.404150963
+              "inTangent": 0.0483620875,
+              "outTangent": 0.0483620875
             }
           ],
           "length": 4
@@ -1504,32 +1993,32 @@
             {
               "time": 0.0,
               "value": 0.0,
-              "inTangent": -0.230296284,
-              "outTangent": -0.230296284
+              "inTangent": -0.07935949,
+              "outTangent": -0.07935949
             },
             {
-              "time": 0.342658728,
-              "value": -0.07891303,
-              "inTangent": 0.319945753,
-              "outTangent": 0.319945753
+              "time": 0.26138413,
+              "value": -0.02074331,
+              "inTangent": 0.0311189424,
+              "outTangent": 0.0311189424
             },
             {
-              "time": 0.5287134,
-              "value": 0.0285837725,
-              "inTangent": 0.1918832,
-              "outTangent": 0.1918832
+              "time": 0.5720599,
+              "value": 0.007942904,
+              "inTangent": 0.0189681649,
+              "outTangent": 0.0189681649
             },
             {
-              "time": 0.8152966,
-              "value": -0.02701439,
-              "inTangent": -0.023872681,
-              "outTangent": -0.023872681
+              "time": 0.8152717,
+              "value": -0.005287463,
+              "inTangent": -0.0128878187,
+              "outTangent": -0.0128878187
             },
             {
               "time": 1.0,
               "value": 0.0,
-              "inTangent": -0.297252685,
-              "outTangent": -0.297252685
+              "inTangent": -0.116512507,
+              "outTangent": -0.116512507
             }
           ],
           "length": 5
@@ -1570,16 +2059,16 @@
           "length": 5
         },
         "VarianceX": {
-          "x": 0.8,
-          "y": 1.0
+          "x": 12.0,
+          "y": 14.0
         },
         "VarianceY": {
-          "x": 0.9,
-          "y": 1.0
+          "x": -2.0,
+          "y": 2.0
         },
         "VarianceZ": {
-          "x": -1.0,
-          "y": 1.0
+          "x": -2.0,
+          "y": 2.0
         }
       },
       "CameraPosition": {
@@ -2468,6 +2957,283 @@
       "name": "Sniper_Recoil",
       "internalEnabled": true,
       "persistentID": 26
+    },
+    {
+      "ItemPosition": {
+        "X": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": 0.03131778,
+              "outTangent": 0.03131778
+            },
+            {
+              "time": 0.113907292,
+              "value": 0.0001725292,
+              "inTangent": -0.03286043,
+              "outTangent": -0.03286043
+            },
+            {
+              "time": 0.3,
+              "value": 0.0,
+              "inTangent": -0.000927114161,
+              "outTangent": -0.000927114161
+            }
+          ],
+          "length": 3
+        },
+        "Y": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": 0.0123704253,
+              "outTangent": 0.0123704253
+            },
+            {
+              "time": 0.07117622,
+              "value": 0.000880480162,
+              "inTangent": -0.0129226772,
+              "outTangent": -0.0129226772
+            },
+            {
+              "time": 0.317454726,
+              "value": -0.00127680437,
+              "inTangent": 0.00910258,
+              "outTangent": 0.00910258
+            },
+            {
+              "time": 0.549382,
+              "value": 0.0,
+              "inTangent": 0.00102392887,
+              "outTangent": 0.00102392887
+            }
+          ],
+          "length": 4
+        },
+        "Z": {
+          "keys": [
+            {
+              "time": 0.0009918213,
+              "value": 0.03257828,
+              "inTangent": -4.730701,
+              "outTangent": -4.730701
+            },
+            {
+              "time": 0.0276570171,
+              "value": -0.09356679,
+              "inTangent": -0.014140008,
+              "outTangent": -0.014140008
+            },
+            {
+              "time": 0.317487657,
+              "value": 0.007393347,
+              "inTangent": -0.151834652,
+              "outTangent": -0.151834652
+            },
+            {
+              "time": 0.554583549,
+              "value": -0.005727674,
+              "inTangent": 0.04913989,
+              "outTangent": 0.04913989
+            },
+            {
+              "time": 0.8771771,
+              "value": 0.0,
+              "inTangent": 0.0005151885,
+              "outTangent": 0.0005151885
+            }
+          ],
+          "length": 5
+        },
+        "VarianceX": {
+          "x": 0.8,
+          "y": 1.1
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 0.4,
+          "y": 0.5
+        }
+      },
+      "ItemRotation": {
+        "X": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": 0.0151725244,
+              "outTangent": 0.0151725244
+            },
+            {
+              "time": 0.09421775,
+              "value": -0.0134083861,
+              "inTangent": 0.0,
+              "outTangent": 0.0
+            },
+            {
+              "time": 0.381864458,
+              "value": 0.01585462,
+              "inTangent": -0.09280431,
+              "outTangent": -0.09280431
+            },
+            {
+              "time": 0.5550336,
+              "value": -0.0124502731,
+              "inTangent": 0.0827856362,
+              "outTangent": 0.0827856362
+            },
+            {
+              "time": 0.9133674,
+              "value": 0.0,
+              "inTangent": 0.004793645,
+              "outTangent": 0.004793645
+            }
+          ],
+          "length": 5
+        },
+        "Y": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": -0.06841738,
+              "outTangent": -0.06841738
+            },
+            {
+              "time": 0.35600394,
+              "value": -0.0451983027,
+              "inTangent": 0.131692648,
+              "outTangent": 0.131692648
+            },
+            {
+              "time": 0.521570146,
+              "value": 0.009411506,
+              "inTangent": -0.0105782729,
+              "outTangent": -0.0105782729
+            },
+            {
+              "time": 0.7984113,
+              "value": -0.005071615,
+              "inTangent": -0.0135787008,
+              "outTangent": -0.0135787008
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inTangent": 0.00470209,
+              "outTangent": 0.00470209
+            }
+          ],
+          "length": 5
+        },
+        "Z": {
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inTangent": 1.45107031,
+              "outTangent": 1.45107031
+            },
+            {
+              "time": 0.0578045473,
+              "value": -3.964454E-05,
+              "inTangent": -1.8512888,
+              "outTangent": -1.8512888
+            },
+            {
+              "time": 0.140064612,
+              "value": -0.000236026943,
+              "inTangent": -0.1489036,
+              "outTangent": -0.1489036
+            },
+            {
+              "time": 0.5106086,
+              "value": -6.366521E-06,
+              "inTangent": 0.389311075,
+              "outTangent": 0.389311075
+            },
+            {
+              "time": 0.7,
+              "value": 0.0,
+              "inTangent": 3.36156882E-05,
+              "outTangent": 3.36156882E-05
+            }
+          ],
+          "length": 5
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": -1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": -1.0,
+          "y": 1.0
+        }
+      },
+      "CameraPosition": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [],
+          "length": 0
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "CameraRotation": {
+        "X": {
+          "keys": [],
+          "length": 0
+        },
+        "Y": {
+          "keys": [],
+          "length": 0
+        },
+        "Z": {
+          "keys": [],
+          "length": 0
+        },
+        "VarianceX": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceY": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "VarianceZ": {
+          "x": 1.0,
+          "y": 1.0
+        }
+      },
+      "name": "Precision_Rifle_Recoil",
+      "internalEnabled": true,
+      "persistentID": 34
     },
     {
       "ItemPosition": {
@@ -3893,31 +4659,31 @@
           "keys": [
             {
               "time": 0.0,
-              "value": -0.0146562429,
+              "value": -0.021284068,
               "inTangent": 0.0,
               "outTangent": 0.0
             },
             {
               "time": 0.25,
-              "value": -0.043030303,
+              "value": -0.03577126,
               "inTangent": 0.0610971935,
               "outTangent": 0.0610971935
             },
             {
               "time": 0.5,
-              "value": -0.0146562429,
+              "value": -0.021284068,
               "inTangent": 0.0,
               "outTangent": 0.0
             },
             {
               "time": 0.75,
-              "value": -0.043030303,
+              "value": -0.03577126,
               "inTangent": 0.0561864674,
               "outTangent": 0.0561864674
             },
             {
               "time": 1.0,
-              "value": -0.0146562429,
+              "value": -0.021284068,
               "inTangent": 0.0,
               "outTangent": 0.0
             }
@@ -7498,5 +8264,5 @@
       "persistentID": 21
     }
   ],
-  "LastPersistentID": 31
+  "LastPersistentID": 34
 }

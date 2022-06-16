@@ -8,3 +8,5 @@ DoUpdateAmmo - 6
 Empty - 7
 StockAnim - 8
 RightHandAnim - 9
+MagazineAction - 10
+EjectCasing - 11

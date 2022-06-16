@@ -43,6 +43,7 @@ Single: ChanceToPropagateOnDeath
 Single: ChanceToPropagateToMastermind
 Single: PropagationDistance
 Boolean: DisableTargetPreferenceWeight
+Boolean: IgnoreBotsTargeting
 Boolean: IsFlyer
 (enum) AgentMode: Flyer_HibernateRemap
 Int32: Flyer_PathingNodeMargin
