@@ -4015,19 +4015,7 @@
               "Zone_0"
             ],
             "BulkheadDoorControllerPlacements": [],
-            "BulkheadKeyPlacements": [
-              [
-                {
-                  "DimensionIndex": "Reality",
-                  "LocalIndex": "Zone_0",
-                  "Weights": {
-                    "Start": 0.0,
-                    "Middle": 9999.0,
-                    "End": 0.0
-                  }
-                }
-              ]
-            ],
+            "BulkheadKeyPlacements": [],
             "ObjectiveData": {
               "DataBlockId": 161,
               "WinCondition": "GoToElevator",

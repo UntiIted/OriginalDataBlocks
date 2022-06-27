@@ -14,6 +14,7 @@ DimensionData: DimensionData
    Boolean: UseLocalDimensionSeeds
    Boolean: ForbidWaveSpawning
    Boolean: ForbidCarryItemWarps
+   Boolean: LeaveDeployablesOnWarp
    Boolean: IsStaticDimension
    Int32: StaticZoneSeed
    Int32: StaticMarkerSeed

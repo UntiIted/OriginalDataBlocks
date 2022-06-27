@@ -124,3 +124,4 @@ time_InLevel_180 - 122
 time_InLevel_210 - 123
 time_InLevel_240 - 124
 checkpoint_reload - 125
+new_user_registered - 126

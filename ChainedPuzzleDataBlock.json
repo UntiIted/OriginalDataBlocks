@@ -3183,6 +3183,28 @@
     {
       "PublicAlarmName": "Class ://ERROR! Alarm",
       "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 112,
+      "SurvivalWavePopulation": 8,
+      "SurvivalWaveAreaDistance": 2,
+      "DisableSurvivalWaveOnComplete": false,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 0.0,
+      "WantedDistanceBetweenPuzzleComponents": 10.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 6
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Single x1 - Error Alarm Apex Wave From Elevator No Flyers",
+      "internalEnabled": true,
+      "persistentID": 193
+    },
+    {
+      "PublicAlarmName": "Class ://ERROR! Alarm",
+      "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 220,
       "SurvivalWavePopulation": 29,
       "SurvivalWaveAreaDistance": 2,
@@ -5380,5 +5402,5 @@
       "persistentID": 61
     }
   ],
-  "LastPersistentID": 192
+  "LastPersistentID": 193
 }

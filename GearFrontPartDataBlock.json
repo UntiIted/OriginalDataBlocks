@@ -777,12 +777,12 @@
           "StringData": "Rifle1_Reload"
         },
         {
-          "TriggerTime": 0.0,
+          "TriggerTime": 0.15,
           "Type": "Sound",
           "StringData": "generic_reload_foley_quick"
         },
         {
-          "TriggerTime": 0.1,
+          "TriggerTime": 0.3,
           "Type": "Sound",
           "StringData": "CARBINE_RELOAD_1_MAG_OUT"
         },
@@ -792,7 +792,7 @@
           "StringData": "drop"
         },
         {
-          "TriggerTime": 0.5,
+          "TriggerTime": 0.3,
           "Type": "Sound",
           "StringData": "carbine_reload_3_grab_mag"
         },
@@ -807,12 +807,12 @@
           "StringData": "generic_reload_foley_quick"
         },
         {
-          "TriggerTime": 0.9,
+          "TriggerTime": 1.25,
           "Type": "Sound",
           "StringData": "CARBINE_RELOAD_2_MAG_IN"
         },
         {
-          "TriggerTime": 0.95,
+          "TriggerTime": 0.9,
           "Type": "DoUpdateAmmo"
         },
         {
@@ -1684,7 +1684,7 @@
           "StringData": "cannon_reload_mag_out"
         },
         {
-          "TriggerTime": 0.55,
+          "TriggerTime": 0.5,
           "Type": "MagazineAction",
           "StringData": "drop"
         },
@@ -1704,14 +1704,14 @@
           "StringData": "generic_reload_foley_quick"
         },
         {
-          "TriggerTime": 1.65,
-          "Type": "Sound",
-          "StringData": "cannon_reload_mag_in"
-        },
-        {
-          "TriggerTime": 1.7,
+          "TriggerTime": 1.35,
           "Type": "Sound",
           "StringData": "carbine_reload_5_release_slide"
+        },
+        {
+          "TriggerTime": 1.83,
+          "Type": "Sound",
+          "StringData": "cannon_reload_mag_in"
         },
         {
           "TriggerTime": 1.9,

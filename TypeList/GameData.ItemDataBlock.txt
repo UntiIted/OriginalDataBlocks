@@ -2,7 +2,8 @@ String: publicName
 LocalizedText: LocalizedName
    Boolean: HasTranslation
 String: terminalItemShortName
-String: terminalItemLongName
+LocalizedText: terminalItemLongName
+   Boolean: HasTranslation
 Boolean: addSerialNumberToName
 Boolean: registerInTerminalSystem
 (enum) ItemWarpType: DimensionWarpType

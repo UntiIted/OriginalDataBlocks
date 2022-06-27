@@ -1720,6 +1720,32 @@
     },
     {
       "m_pauseBeforeStart": 0.0,
+      "m_pauseBetweenGroups": 360.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 2.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "MiniBoss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": true,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": 1.0,
+      "m_populationPointsPerWaveStart": 1.0,
+      "m_populationPointsPerWaveEnd": 1.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 1.0,
+      "m_populationPointsPerGroupEnd": 1.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Trickle 1-240 MB",
+      "internalEnabled": true,
+      "persistentID": 226
+    },
+    {
+      "m_pauseBeforeStart": 0.0,
       "m_pauseBetweenGroups": 60.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 2.0,
@@ -3171,9 +3197,35 @@
       "m_populationPointsPerGroupStart": 1.0,
       "m_populationPointsPerGroupEnd": 2.0,
       "m_populationRampOverTime": 1800.0,
-      "name": "Shadow Trickle -2- 160 MB",
+      "name": "Shadow Trickle -2- 160 MB From Elevator",
       "internalEnabled": true,
       "persistentID": 189
+    },
+    {
+      "m_pauseBeforeStart": 0.0,
+      "m_pauseBetweenGroups": 160.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "MiniBoss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 1.0,
+      "m_populationPointsPerGroupEnd": 2.0,
+      "m_populationRampOverTime": 1800.0,
+      "name": "Trickle -2- 160 MB",
+      "internalEnabled": true,
+      "persistentID": 225
     },
     {
       "m_pauseBeforeStart": 0.0,
@@ -3198,7 +3250,7 @@
       "m_populationPointsPerGroupStart": 2.0,
       "m_populationPointsPerGroupEnd": 3.0,
       "m_populationRampOverTime": 2000.0,
-      "name": "Shadow Trickle -2- 80 SSp",
+      "name": "Shadow Trickle -2- 80 SSp From Elevator",
       "internalEnabled": true,
       "persistentID": 190
     },
@@ -3627,9 +3679,9 @@
       "m_wavePauseMin": 3.0,
       "m_wavePauseMax": 30.0,
       "m_populationFilter": [
-        "Weakling"
+        "MiniBoss"
       ],
-      "m_filterType": "Exclude",
+      "m_filterType": "Include",
       "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
       "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
       "m_overrideWaveSpawnType": true,
@@ -3639,7 +3691,7 @@
       "m_populationPointsPerWaveEnd": 2000.0,
       "m_populationPointsMinPerGroup": 1.0,
       "m_populationPointsPerGroupStart": 1.0,
-      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationPointsPerGroupEnd": 2.0,
       "m_populationRampOverTime": 800.0,
       "name": "Mainframerush_Pouncer_End_wave_Return",
       "internalEnabled": true,
@@ -4689,7 +4741,7 @@
       "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
       "m_chanceToRandomizeSpawnDirectionPerGroup": 0.2,
       "m_overrideWaveSpawnType": true,
-      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
       "m_populationPointsTotal": -1.0,
       "m_populationPointsPerWaveStart": 30.0,
       "m_populationPointsPerWaveEnd": 30.0,
@@ -5792,5 +5844,5 @@
       "persistentID": 188
     }
   ],
-  "LastPersistentID": 224
+  "LastPersistentID": 226
 }
