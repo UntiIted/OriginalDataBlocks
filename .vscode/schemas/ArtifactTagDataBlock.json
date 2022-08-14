@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfArtifactTagDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ArtifactTagDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ArtifactTagDataBlock": {
+      "type": "object",
+      "properties": {
+        "Tags": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/ArtifactTags"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ArtifactTags": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Corpse",
+        "Ground",
+        "Shelf",
+        "DigSite",
+        "Refinery",
+        "Storage",
+        "DataCenter",
+        "Lab",
+        "Floodways",
+        "AllComplex",
+        "Any"
+      ],
+      "enum": [
+        "None",
+        "Corpse",
+        "Ground",
+        "Shelf",
+        "DigSite",
+        "Refinery",
+        "Storage",
+        "DataCenter",
+        "Lab",
+        "Floodways",
+        "AllComplex",
+        "Any"
+      ]
+    }
+  }
+}

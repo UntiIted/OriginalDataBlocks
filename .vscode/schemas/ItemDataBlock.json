@@ -1,0 +1,428 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfItemDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ItemDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ItemDataBlock": {
+      "type": "object",
+      "properties": {
+        "publicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "LocalizedName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "terminalItemShortName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "terminalItemLongName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "addSerialNumberToName": {
+          "type": "boolean"
+        },
+        "registerInTerminalSystem": {
+          "type": "boolean"
+        },
+        "DimensionWarpType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ItemWarpType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Shard": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleShard"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "inventorySlot": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/InventorySlot"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "FPSSettings": {
+          "type": "integer"
+        },
+        "crosshair": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/Crosshair"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "HUDIcon": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ShowCrosshairWhenAiming": {
+          "type": "boolean"
+        },
+        "GUIShowAmmoClip": {
+          "type": "boolean"
+        },
+        "GUIShowAmmoPack": {
+          "type": "boolean"
+        },
+        "GUIShowAmmoTotalRel": {
+          "type": "boolean"
+        },
+        "GUIShowAmmoInfinite": {
+          "type": "boolean"
+        },
+        "canMoveQuick": {
+          "type": "boolean"
+        },
+        "BlockToolAmmoRefill": {
+          "type": "boolean"
+        },
+        "ClassAmmoCostFactor": {
+          "type": "number",
+          "format": "float"
+        },
+        "ConsumableAmmoMin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ConsumableAmmoMax": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "audioEventEquip": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "FirstPersonPrefabs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "ThirdPersonPrefabs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "PickupPrefabs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "InstancePrefabs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "EquipTransitionTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AimTransitionTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "FPSArmsAnim": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ThirdPersonFullbodyMovementSet": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EFullbodyPlayerMovementSet"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LeftHandGripAlign": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "LeftHandGripAnim": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "RightHandGripAlign": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "RightHandGripAnim": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "SightLookAlign": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "MuzzleAlign": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "BackpackAlign": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ItemWarpType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Never",
+        "Always",
+        "OnlyWarpToSpawnDimension",
+        "OnlyWarpToOtherDimension"
+      ],
+      "enum": [
+        "Never",
+        "Always",
+        "OnlyWarpToSpawnDimension",
+        "OnlyWarpToOtherDimension"
+      ]
+    },
+    "AssetBundleShard": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ]
+    },
+    "InventorySlot": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "GearStandard",
+        "GearSpecial",
+        "GearClass",
+        "ResourcePack",
+        "Consumable",
+        "ConsumableHeavy",
+        "InPocket",
+        "InLevelCarry",
+        "Pickup",
+        "GearMelee",
+        "HackingTool"
+      ],
+      "enum": [
+        "None",
+        "GearStandard",
+        "GearSpecial",
+        "GearClass",
+        "ResourcePack",
+        "Consumable",
+        "ConsumableHeavy",
+        "InPocket",
+        "InLevelCarry",
+        "Pickup",
+        "GearMelee",
+        "HackingTool"
+      ]
+    },
+    "Crosshair": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Neutral",
+        "AssaultRifle",
+        "Shotgun",
+        "Keypad",
+        "Circle"
+      ],
+      "enum": [
+        "None",
+        "Neutral",
+        "AssaultRifle",
+        "Shotgun",
+        "Keypad",
+        "Circle"
+      ]
+    },
+    "EFullbodyPlayerMovementSet": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Rifle",
+        "Pistol",
+        "Melee",
+        "CarryHeavy",
+        "Knife",
+        "Spear"
+      ],
+      "enum": [
+        "Rifle",
+        "Pistol",
+        "Melee",
+        "CarryHeavy",
+        "Knife",
+        "Spear"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEventSequenceDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EventSequenceDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EventSequenceDataBlock": {
+      "type": "object",
+      "properties": {
+        "Actions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/EventSequenceActionListComponent"
+          }
+        }
+      }
+    },
+    "EventSequenceActionListComponent": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "Time": {
+          "type": "number",
+          "format": "float"
+        },
+        "ActionID": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfPlayerDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/PlayerDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "PlayerDataBlock": {
+      "type": "object",
+      "properties": {
+        "health": {
+          "type": "number",
+          "format": "float"
+        },
+        "healthRegenStartDelayAfterDamage": {
+          "type": "number",
+          "format": "float"
+        },
+        "healthRegenRelMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "healthRegenDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "healthRegenPerSecond": {
+          "type": "number",
+          "format": "float"
+        },
+        "friendlyFireMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "fallDamageMinHeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "fallDamageMaxHeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "fallDamageMin": {
+          "type": "number",
+          "format": "float"
+        },
+        "fallDamageMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "nanoswarmShieldDamageMultiplierCurve": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimationCurve"
+            }
+          ]
+        },
+        "nanoswarmShieldResistanceCurve": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimationCurve"
+            }
+          ]
+        },
+        "nanoswarmNegativeResistanceCurve": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimationCurve"
+            }
+          ]
+        },
+        "battery": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "smallBatteryConsumtionPerSec": {
+          "type": "number",
+          "format": "float"
+        },
+        "mediumBatteryConsumtionPerSec": {
+          "type": "number",
+          "format": "float"
+        },
+        "largeBatteryConsumtionPerSec": {
+          "type": "number",
+          "format": "float"
+        },
+        "walkMoveSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "runMoveSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "airMoveSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "crouchMoveSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "ladderMoveSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "walkFootstepLength": {
+          "type": "number",
+          "format": "float"
+        },
+        "runFootstepLength": {
+          "type": "number",
+          "format": "float"
+        },
+        "crouchFootstepLength": {
+          "type": "number",
+          "format": "float"
+        },
+        "throttleSmoothAcc": {
+          "type": "number",
+          "format": "float"
+        },
+        "throttleSmoothStop": {
+          "type": "number",
+          "format": "float"
+        },
+        "throttleSmoothVertical": {
+          "type": "number",
+          "format": "float"
+        },
+        "jumpVelInitial": {
+          "type": "number",
+          "format": "float"
+        },
+        "jumpGravityMulDefault": {
+          "type": "number",
+          "format": "float"
+        },
+        "jumpGravityMulButtonReleased": {
+          "type": "number",
+          "format": "float"
+        },
+        "jumpGravityMulAfterPeak": {
+          "type": "number",
+          "format": "float"
+        },
+        "jumpGravityMulFalling": {
+          "type": "number",
+          "format": "float"
+        },
+        "jumpVerticalVelocityMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "camPosDefault": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "camPosCrouch": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "camFovRunDif": {
+          "type": "number",
+          "format": "float"
+        },
+        "DofDefault": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DOFSettingsData"
+            }
+          ]
+        },
+        "DofInElevator": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DOFSettingsData"
+            }
+          ]
+        },
+        "DofInTerminal": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DOFSettingsData"
+            }
+          ]
+        },
+        "ChromaticAbberationIntensityMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "mouselookAimScaleMinMax": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "mouselookAimScaleFovRef": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "FPSArmsOffset": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "FPSBodyOffset": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "AdditionalFPSBodyOffsetWhenRunning": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "FPSBodyOffsetWhenNotFollowingCamera": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "FPSBodyScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "FPSBodyMoveNeckToFollowCamera": {
+          "type": "boolean"
+        },
+        "FPSBodyWantedDisToNeck": {
+          "type": "number",
+          "format": "float"
+        },
+        "GearMaxSightHeightDiff": {
+          "type": "number",
+          "format": "float"
+        },
+        "AmmoStandardInitial": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoStandardInitialOnDropin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoStandardMaxCap": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoStandardResourcePackMaxCap": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoSpecialInitial": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoSpecialInitialOnDropin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoSpecialMaxCap": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoSpecialResourcePackMaxCap": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoClassInitial": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoClassInitialOnDropin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoClassMaxCap": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AmmoClassResourcePackMaxCap": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "implantSmallTriggerDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "implantBigTriggerDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemAnimWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemAnimAxisWeight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "itemLookatAimWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayPosImpulseScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "itemLookSwayPosStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayPosDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayRotImpulseScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "itemLookSwayRotXMulti": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "itemLookSwayRotStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayRotDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayWeightAiming": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemLookSwayPosImpulseScaleAiming": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "itemLookSwayRotImpulseScaleAiming": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "itemAnimWeightAiming": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemRecoilWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemFootstepWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemFootstepWeightAiming": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemFootstepDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemFootstepImpulseScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "itemFootstepStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "itemFootstepDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "breathingEnabled": {
+          "type": "boolean"
+        },
+        "breathingStaminaEnabled": {
+          "type": "boolean"
+        },
+        "breathingScaredEnabled": {
+          "type": "boolean"
+        },
+        "breathingDebugEnabled": {
+          "type": "boolean"
+        },
+        "breathingVolume": {
+          "type": "number",
+          "format": "float"
+        },
+        "breathingHealthLowLimit": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaTimeBeforeResting": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaRegenRestingInCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaRegenNotRestingInCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaRegenRestingOutOfCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaRegenNotRestingOutOfCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaEnableAffectMoveSpeed": {
+          "type": "boolean"
+        },
+        "StaminaHighMovespeedModifier": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaLowMovespeedModifier": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaMoveSpeedCurveExponent": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaEnableAffectMeleeSpeed": {
+          "type": "boolean"
+        },
+        "StaminaHighMeleeSpeedModifier": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaLowMeleeSpeedModifier": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaMeleeSpeedCurveExponent": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaExhaustedAudioThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaWasTiredAudioThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaRestedAudioThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaUsageAffectedByDrama": {
+          "type": "boolean"
+        },
+        "StaminaMinimumCapWhenNotInCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaMaximumCapWhenInCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaMaximumCapWhenInCombatFallRate": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaminaJumpCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "StaminaSneakCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "StaminaWalkCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "StaminaRunCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "StaminaCrouchEnterCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "defaultDialogLineDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "shortDialogCooldown": {
+          "type": "number",
+          "format": "float"
+        },
+        "mediumDialogCooldown": {
+          "type": "number",
+          "format": "float"
+        },
+        "longDialogCooldown": {
+          "type": "number",
+          "format": "float"
+        },
+        "radioEnabledDefaultDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "radioQualityLowestAtDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "lowTensionMaxLimit": {
+          "type": "number",
+          "format": "float"
+        },
+        "mediumTensionMaxLimit": {
+          "type": "number",
+          "format": "float"
+        },
+        "dialogEnabledInSpectator": {
+          "type": "boolean"
+        },
+        "radioQualityInSpectator": {
+          "type": "number",
+          "format": "float"
+        },
+        "radioDistortionInSpectator": {
+          "type": "number",
+          "format": "float"
+        },
+        "noAirTimeToEmpty": {
+          "type": "number",
+          "format": "float"
+        },
+        "noAirDamageRel": {
+          "type": "number",
+          "format": "float"
+        },
+        "noAirDamageDelay": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "AnimationCurve": {
+      "type": "object"
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "DOFSettingsData": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "focusDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "aperture": {
+          "type": "number",
+          "format": "float"
+        },
+        "focalLength": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "ActionCost": {
+      "type": "object",
+      "properties": {
+        "baseStaminaCostInCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "baseStaminaCostOutOfCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "resetRestingTimerInCombat": {
+          "type": "boolean"
+        },
+        "resetRestingTimerOutOfCombat": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

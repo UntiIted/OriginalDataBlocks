@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfTextDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/TextDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "TextDataBlock": {
+      "type": "object",
+      "properties": {
+        "SkipLocalization": {
+          "type": "boolean"
+        },
+        "English": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "CharacterMetaData": {
+          "type": "integer"
+        },
+        "French": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Italian": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "German": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Spanish": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Russian": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Portuguese_Brazil": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Polish": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Japanese": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Korean": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Chinese_Traditional": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "Chinese_Simplified": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LanguageData"
+            }
+          ]
+        },
+        "ExportVersion": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ImportVersion": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "LanguageData": {
+      "type": "object",
+      "properties": {
+        "Translation": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ShouldTranslate": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

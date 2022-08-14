@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfItemMovementAnimationDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ItemMovementAnimationDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ItemMovementAnimationDataBlock": {
+      "type": "object",
+      "properties": {
+        "ItemPosition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3AnimationCurve"
+            }
+          ]
+        },
+        "ItemRotation": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3AnimationCurve"
+            }
+          ]
+        },
+        "CameraPosition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3AnimationCurve"
+            }
+          ]
+        },
+        "CameraRotation": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3AnimationCurve"
+            }
+          ]
+        }
+      }
+    },
+    "Vector3AnimationCurve": {
+      "type": "object",
+      "properties": {
+        "X": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimationCurve"
+            }
+          ]
+        },
+        "Y": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimationCurve"
+            }
+          ]
+        },
+        "Z": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimationCurve"
+            }
+          ]
+        },
+        "VarianceX": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "VarianceY": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "VarianceZ": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        }
+      }
+    },
+    "AnimationCurve": {
+      "type": "object"
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfTextCharacterMetaDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/TextCharacterMetaDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "TextCharacterMetaDataBlock": {
+      "type": "object",
+      "properties": {
+        "Description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfMusicStateDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/MusicStateDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "MusicStateDataBlock": {
+      "type": "object",
+      "properties": {
+        "m_timing": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TimingData"
+            }
+          ]
+        },
+        "m_gameEventSounds": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GameEventSound"
+          }
+        },
+        "m_EventsOnEnter": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicEventData"
+          }
+        },
+        "m_SwitchesOnEnter": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicSwitchData"
+          }
+        },
+        "m_SwitchesOnCustomCue": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicSwitchDataOnCustomCue"
+          }
+        },
+        "m_EventsOnTime": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicEventDataTimed"
+          }
+        },
+        "m_SwitchesOnTime": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicSwitchDataTimed"
+          }
+        },
+        "m_EventsOnTimeInactive": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicEventDataTimed"
+          }
+        },
+        "m_SwitchesOnTimeInactive": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicSwitchDataTimed"
+          }
+        },
+        "m_RTPC_1": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "m_RTPC_2": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "m_RTPC_3": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "m_EventOnSmallScare": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "m_EventOnBigScare": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "m_EventsOnExit": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicEventDataConditional"
+          }
+        }
+      }
+    },
+    "TimingData": {
+      "type": "object",
+      "properties": {
+        "minTimeInState": {
+          "type": "number",
+          "format": "float"
+        },
+        "maxTimeInState": {
+          "type": "number",
+          "format": "float"
+        },
+        "stateAfterMaxTime": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/MUS_State"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "MUS_State": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "StartUp",
+        "MainMenu",
+        "ElevatorIdle",
+        "ElevatorGoingDown",
+        "Exploration",
+        "Tension",
+        "EncounterRegular",
+        "CombatRegular",
+        "CombatHidden",
+        "SurvivalRegular",
+        "SurvivalHidden",
+        "SurvivalExtreme",
+        "SurvivalEpicMoment",
+        "Silence",
+        "TensionMax",
+        "Theme",
+        "Testing",
+        "IntentionalCombatHidden",
+        "IntentionalCombatRegular",
+        "EncounterHidden"
+      ],
+      "enum": [
+        "None",
+        "StartUp",
+        "MainMenu",
+        "ElevatorIdle",
+        "ElevatorGoingDown",
+        "Exploration",
+        "Tension",
+        "EncounterRegular",
+        "CombatRegular",
+        "CombatHidden",
+        "SurvivalRegular",
+        "SurvivalHidden",
+        "SurvivalExtreme",
+        "SurvivalEpicMoment",
+        "Silence",
+        "TensionMax",
+        "Theme",
+        "Testing",
+        "IntentionalCombatHidden",
+        "IntentionalCombatRegular",
+        "EncounterHidden"
+      ]
+    },
+    "GameEventSound": {
+      "type": "object",
+      "properties": {
+        "GameEvent": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EGameEvent"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "SoundEvent": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Cooldown": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EGameEvent": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "player_enter_new_area",
+        "player_enter_new_zone",
+        "player_hacking_start",
+        "player_hacking_success",
+        "player_pickup_medikit",
+        "player_apply_medikit",
+        "player_pickup_ammokit",
+        "player_apply_ammokit",
+        "player_apply_disinfection",
+        "player_pickup_artifact",
+        "player_enter_terminal",
+        "player_exit_terminal",
+        "player_take_damage",
+        "player_take_friendly_fire",
+        "player_downed",
+        "player_revived",
+        "player_revived_2_total",
+        "player_revived_3_total",
+        "player_start_firing",
+        "player_stop_firing",
+        "player_fire_bullet",
+        "player_fire_glue",
+        "player_place_tripmine",
+        "player_place_sentrygun",
+        "enemy_scout_dead_from_melee",
+        "enemy_dead_from_melee",
+        "sticky_mine_explode",
+        "sentry_gun_fire",
+        "sentry_gun_ammo_depleated",
+        "weak_door_opening",
+        "weak_door_closing",
+        "weak_door_punched",
+        "weak_door_explode",
+        "security_door_opening",
+        "bioscan_start",
+        "bioscan_end",
+        "hibernating_enemy_spotted",
+        "hibernating_enemy_heartbeat",
+        "hibernating_enemy_wakeup",
+        "hibernating_enemy_dead",
+        "enemy_spotted",
+        "scout_enemy_spotted",
+        "scout_enemy_use_detect_ability",
+        "scout_enemy_found_player",
+        "scout_enemy_dead",
+        "enemy_striker_attack",
+        "enemy_shooter_attack",
+        "enemy_dead",
+        "enemy_big_attack",
+        "player_low_health",
+        "player_out_of_ammo_current_gear",
+        "player_out_of_ammo_all_gear",
+        "player_reload",
+        "player_revive_start",
+        "enemy_wave_spawned",
+        "player_downed_2_total",
+        "player_downed_3_total",
+        "player_downed_4_total",
+        "player_pickup_toolRefill",
+        "player_apply_toolRefill",
+        "player_pickup_commoditySmall",
+        "player_pickup_commodityMedium",
+        "player_pickup_commodityLarge",
+        "player_pickup_consumable",
+        "player_pickup_keycard",
+        "gs_Startup",
+        "gs_Offline",
+        "gs_NoLobby",
+        "gs_Lobby",
+        "gs_Slim",
+        "gs_FakeLobby",
+        "gs_Generating",
+        "gs_ReadyToStopElevatorRide",
+        "gs_StopElevatorRide",
+        "gs_ReadyToStartLevel",
+        "gs_InLevel",
+        "gs_AfterLevel",
+        "gs_CaptureRecall",
+        "gs_ExpeditionFail",
+        "gs_ExpeditionSuccess",
+        "gs_ExpeditionAbort",
+        "game_quit",
+        "term_Help",
+        "term_Commands",
+        "term_Cls",
+        "term_Exit",
+        "term_Open",
+        "term_Close",
+        "term_Activate",
+        "term_Deactivate",
+        "term_EmptyLine",
+        "term_InvalidCommand",
+        "term_DownloadData",
+        "term_ViewSecurityLog",
+        "term_Override",
+        "term_DisableAlarm",
+        "term_ActivateBeacon",
+        "term_Find",
+        "term_ShowList",
+        "term_Query",
+        "term_Locate",
+        "term_Ping",
+        "wobj_FindLocationInfo",
+        "wobj_FindLocationInfoHelp",
+        "wobj_GoToZone",
+        "wobj_GoToZoneHelp",
+        "wobj_InZoneFindItem",
+        "wobj_InZoneFindItemHelp",
+        "wobj_SolveItem",
+        "wobj_SolveItemHelp",
+        "wobj_GoToWinCondition",
+        "wobj_GoToWinConditionHelp",
+        "time_InLevel_0",
+        "time_InLevel_5",
+        "time_InLevel_15",
+        "time_InLevel_30",
+        "time_InLevel_45",
+        "time_InLevel_60",
+        "time_InLevel_90",
+        "time_InLevel_120",
+        "time_InLevel_150",
+        "time_InLevel_180",
+        "time_InLevel_210",
+        "time_InLevel_240",
+        "checkpoint_reload"
+      ],
+      "enum": [
+        "None",
+        "player_enter_new_area",
+        "player_enter_new_zone",
+        "player_hacking_start",
+        "player_hacking_success",
+        "player_pickup_medikit",
+        "player_apply_medikit",
+        "player_pickup_ammokit",
+        "player_apply_ammokit",
+        "player_apply_disinfection",
+        "player_pickup_artifact",
+        "player_enter_terminal",
+        "player_exit_terminal",
+        "player_take_damage",
+        "player_take_friendly_fire",
+        "player_downed",
+        "player_revived",
+        "player_revived_2_total",
+        "player_revived_3_total",
+        "player_start_firing",
+        "player_stop_firing",
+        "player_fire_bullet",
+        "player_fire_glue",
+        "player_place_tripmine",
+        "player_place_sentrygun",
+        "enemy_scout_dead_from_melee",
+        "enemy_dead_from_melee",
+        "sticky_mine_explode",
+        "sentry_gun_fire",
+        "sentry_gun_ammo_depleated",
+        "weak_door_opening",
+        "weak_door_closing",
+        "weak_door_punched",
+        "weak_door_explode",
+        "security_door_opening",
+        "bioscan_start",
+        "bioscan_end",
+        "hibernating_enemy_spotted",
+        "hibernating_enemy_heartbeat",
+        "hibernating_enemy_wakeup",
+        "hibernating_enemy_dead",
+        "enemy_spotted",
+        "scout_enemy_spotted",
+        "scout_enemy_use_detect_ability",
+        "scout_enemy_found_player",
+        "scout_enemy_dead",
+        "enemy_striker_attack",
+        "enemy_shooter_attack",
+        "enemy_dead",
+        "enemy_big_attack",
+        "player_low_health",
+        "player_out_of_ammo_current_gear",
+        "player_out_of_ammo_all_gear",
+        "player_reload",
+        "player_revive_start",
+        "enemy_wave_spawned",
+        "player_downed_2_total",
+        "player_downed_3_total",
+        "player_downed_4_total",
+        "player_pickup_toolRefill",
+        "player_apply_toolRefill",
+        "player_pickup_commoditySmall",
+        "player_pickup_commodityMedium",
+        "player_pickup_commodityLarge",
+        "player_pickup_consumable",
+        "player_pickup_keycard",
+        "gs_Startup",
+        "gs_Offline",
+        "gs_NoLobby",
+        "gs_Lobby",
+        "gs_Slim",
+        "gs_FakeLobby",
+        "gs_Generating",
+        "gs_ReadyToStopElevatorRide",
+        "gs_StopElevatorRide",
+        "gs_ReadyToStartLevel",
+        "gs_InLevel",
+        "gs_AfterLevel",
+        "gs_CaptureRecall",
+        "gs_ExpeditionFail",
+        "gs_ExpeditionSuccess",
+        "gs_ExpeditionAbort",
+        "game_quit",
+        "term_Help",
+        "term_Commands",
+        "term_Cls",
+        "term_Exit",
+        "term_Open",
+        "term_Close",
+        "term_Activate",
+        "term_Deactivate",
+        "term_EmptyLine",
+        "term_InvalidCommand",
+        "term_DownloadData",
+        "term_ViewSecurityLog",
+        "term_Override",
+        "term_DisableAlarm",
+        "term_ActivateBeacon",
+        "term_Find",
+        "term_ShowList",
+        "term_Query",
+        "term_Locate",
+        "term_Ping",
+        "wobj_FindLocationInfo",
+        "wobj_FindLocationInfoHelp",
+        "wobj_GoToZone",
+        "wobj_GoToZoneHelp",
+        "wobj_InZoneFindItem",
+        "wobj_InZoneFindItemHelp",
+        "wobj_SolveItem",
+        "wobj_SolveItemHelp",
+        "wobj_GoToWinCondition",
+        "wobj_GoToWinConditionHelp",
+        "time_InLevel_0",
+        "time_InLevel_5",
+        "time_InLevel_15",
+        "time_InLevel_30",
+        "time_InLevel_45",
+        "time_InLevel_60",
+        "time_InLevel_90",
+        "time_InLevel_120",
+        "time_InLevel_150",
+        "time_InLevel_180",
+        "time_InLevel_210",
+        "time_InLevel_240",
+        "checkpoint_reload"
+      ]
+    },
+    "MusicEventData": {
+      "type": "object",
+      "properties": {
+        "eventName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "MusicSwitchData": {
+      "type": "object",
+      "properties": {
+        "switchGroup": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "switchName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "randomCount": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "MusicSwitchDataOnCustomCue": {
+      "type": "object",
+      "properties": {
+        "customCue": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "switches": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicSwitchData"
+          }
+        }
+      }
+    },
+    "MusicEventDataTimed": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "type": "number",
+          "format": "float"
+        },
+        "repeat": {
+          "type": "boolean"
+        },
+        "events": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicEventData"
+          }
+        }
+      }
+    },
+    "MusicSwitchDataTimed": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "type": "number",
+          "format": "float"
+        },
+        "repeat": {
+          "type": "boolean"
+        },
+        "switches": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/MusicSwitchData"
+          }
+        }
+      }
+    },
+    "MusicEventDataConditional": {
+      "type": "object",
+      "properties": {
+        "onlyWhenExitingTo": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/MUS_State"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "eventName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

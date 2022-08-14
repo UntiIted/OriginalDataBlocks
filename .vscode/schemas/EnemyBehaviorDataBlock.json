@@ -1,0 +1,377 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemyBehaviorDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemyBehaviorDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemyBehaviorDataBlock": {
+      "type": "object",
+      "properties": {
+        "MeleeAttackDistance": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "RangedAttackDistance": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "StrafeDistance": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "HowOftenToStrafe": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "DistanceToStrafeWithoutLOS": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "DistanceToStrafeInTargetsLOS": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "DistanceToStrafeWithoutTargetsLOS": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "MoveCloserDelayAfterAttack": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "MoveTowardsTargetDuration": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "ClosestTargetDistance": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "StartWalkDuration": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "StartWalkTimeoutUntilNext": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "ScreamStateDelay": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "RushTargetDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToPropagateOnDetection": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToPropagateOnDeath": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToPropagateToMastermind": {
+          "type": "number",
+          "format": "float"
+        },
+        "PropagationDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "DisableTargetPreferenceWeight": {
+          "type": "boolean"
+        },
+        "IgnoreBotsTargeting": {
+          "type": "boolean"
+        },
+        "IsFlyer": {
+          "type": "boolean"
+        },
+        "Flyer_HibernateRemap": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AgentMode"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Flyer_PathingNodeMargin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "PathingTargetOffsetY": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "PathingTargetDistance": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "StrafeVerticalDistance": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_Acceleration": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_Deceleration": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_SpeedMultipler": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_AttackChargeDuration": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_AttackDuration": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_BackToMovementAfterAttack": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_LightDamageForce": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_HeavyDamageForce": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_RecoilForce": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_RecoilTorque": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_RollThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_YawThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_PitchThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "Flyer_DeathDealy": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_BossSpawnWaveID": {
+          "type": "integer"
+        },
+        "Flyer_BossEnemyID": {
+          "type": "integer"
+        },
+        "Flyer_SpawnOutOfBossStateDuration": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "Flyer_EstimatedDistanceFromBoss": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        }
+      }
+    },
+    "MinMaxValue": {
+      "type": "object",
+      "properties": {
+        "Min": {
+          "type": "number",
+          "format": "float"
+        },
+        "Max": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "AgentMode": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Off",
+        "Agressive",
+        "Patrolling",
+        "Scout",
+        "Hibernate"
+      ],
+      "enum": [
+        "Off",
+        "Agressive",
+        "Patrolling",
+        "Scout",
+        "Hibernate"
+      ]
+    }
+  }
+}

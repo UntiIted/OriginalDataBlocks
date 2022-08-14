@@ -1,0 +1,722 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfComplexResourceSetDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ComplexResourceSetDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ComplexResourceSetDataBlock": {
+      "type": "object",
+      "properties": {
+        "ComplexType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/Complex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PrimareSubComplexUsed": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/SubComplex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "BundleName": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleName"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LevelGenConfig": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LevelGenConfig"
+            }
+          ]
+        },
+        "GeomorphTiles_1x1": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "GeomorphTiles_2x1": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "GeomorphTiles_2x2": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "RandomizeGeomorphOrder": {
+          "type": "boolean"
+        },
+        "SmallWeakGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallSecurityGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallApexGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallBulkheadGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallMainPathBulkheadGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallWallCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallDestroyedCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SmallWallAndDestroyedCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumWeakGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumSecurityGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumApexGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumBulkheadGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumMainPathBulkheadGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumWallCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumDestroyedCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "MediumWallAndDestroyedCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeWeakGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeSecurityGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeApexGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeBulkheadGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeMainPathBulkheadGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeWallCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeDestroyedCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "LargeWallAndDestroyedCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "StraightPlugsNoGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "StraightPlugsWithGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SingleDropPlugsNoGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "SingleDropPlugsWithGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "DoubleDropPlugsNoGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "DoubleDropPlugsWithGates": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "PlugCaps": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "ElevatorShafts_1x1": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "CustomGeomorphs_Exit_1x1": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "CustomGeomorphs_Objective_1x1": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "CustomGeomorphs_Challenge_1x1": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "Ladders_4m": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "Ladders_2m": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "Ladders_1m": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "Ladders_05m": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "Ladders_Bottom": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        },
+        "Ladders_Top": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ResourceData"
+          }
+        }
+      }
+    },
+    "Complex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Mining",
+        "Service",
+        "Tech"
+      ],
+      "enum": [
+        "Mining",
+        "Service",
+        "Tech"
+      ]
+    },
+    "SubComplex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "DigSite",
+        "Refinery",
+        "Storage",
+        "DataCenter",
+        "Lab",
+        "All",
+        "Floodways",
+        "Mining_Reactor",
+        "Plug_SubComplex_Transition",
+        "Tech_Reactor",
+        "Tech_Portal",
+        "Gardens",
+        "Mining_Portal"
+      ],
+      "enum": [
+        "DigSite",
+        "Refinery",
+        "Storage",
+        "DataCenter",
+        "Lab",
+        "All",
+        "Floodways",
+        "Mining_Reactor",
+        "Plug_SubComplex_Transition",
+        "Tech_Reactor",
+        "Tech_Portal",
+        "Gardens",
+        "Mining_Portal"
+      ]
+    },
+    "AssetBundleName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Complex_Shared",
+        "Complex_Mining",
+        "Complex_Tech",
+        "Complex_Service",
+        "Startup",
+        "Gear_Weapon_Front",
+        "Gear_Weapon_Receiver",
+        "Gear_Weapon_Stock",
+        "Gear_Weapon_Sight",
+        "Gear_Weapon_Mag",
+        "Gear_Weapon_Flashlight",
+        "Gear_Tool_Main",
+        "Gear_Tool_Grip",
+        "Gear_Tool_Delivery",
+        "Gear_Tool_Payload",
+        "Gear_Tool_Targeting",
+        "Gear_Tool_Screen",
+        "Gear_Melee_Head",
+        "Gear_Melee_Neck",
+        "Gear_Melee_Handle",
+        "Gear_Melee_Pommel",
+        "Gear_Material",
+        "Enemies"
+      ],
+      "enum": [
+        "None",
+        "Complex_Shared",
+        "Complex_Mining",
+        "Complex_Tech",
+        "Complex_Service",
+        "Startup",
+        "Gear_Weapon_Front",
+        "Gear_Weapon_Receiver",
+        "Gear_Weapon_Stock",
+        "Gear_Weapon_Sight",
+        "Gear_Weapon_Mag",
+        "Gear_Weapon_Flashlight",
+        "Gear_Tool_Main",
+        "Gear_Tool_Grip",
+        "Gear_Tool_Delivery",
+        "Gear_Tool_Payload",
+        "Gear_Tool_Targeting",
+        "Gear_Tool_Screen",
+        "Gear_Melee_Head",
+        "Gear_Melee_Neck",
+        "Gear_Melee_Handle",
+        "Gear_Melee_Pommel",
+        "Gear_Material",
+        "Enemies"
+      ]
+    },
+    "LevelGenConfig": {
+      "type": "object",
+      "properties": {
+        "GridSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "CellDimension": {
+          "type": "number",
+          "format": "float"
+        },
+        "AltitudeOffset": {
+          "type": "number",
+          "format": "float"
+        },
+        "TransitionDirection": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_FloorTransitionDirection"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LevelProgression": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_LevelProgression"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LG_FloorTransitionDirection": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "FloorUp",
+        "FloorDown"
+      ],
+      "enum": [
+        "FloorUp",
+        "FloorDown"
+      ]
+    },
+    "LG_LevelProgression": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "StartLevel",
+        "MidLevel",
+        "EndLevel"
+      ],
+      "enum": [
+        "StartLevel",
+        "MidLevel",
+        "EndLevel"
+      ]
+    },
+    "ResourceData": {
+      "type": "object",
+      "properties": {
+        "Prefab": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "SubComplex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/SubComplex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Shard": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleShard"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "AssetBundleShard": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ]
+    }
+  }
+}

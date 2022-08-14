@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfWeaponShellCasingDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/WeaponShellCasingDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "WeaponShellCasingDataBlock": {
+      "type": "object",
+      "properties": {
+        "ShellCasingType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ShellTypes"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ShellTypes": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Shell_None",
+        "Shell_9mm",
+        "Shell_45_ACP",
+        "Shell_338",
+        "Shell_12_Gauge"
+      ],
+      "enum": [
+        "Shell_None",
+        "Shell_9mm",
+        "Shell_45_ACP",
+        "Shell_338",
+        "Shell_12_Gauge"
+      ]
+    }
+  }
+}

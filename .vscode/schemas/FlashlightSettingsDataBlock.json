@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfFlashlightSettingsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/FlashlightSettingsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "FlashlightSettingsDataBlock": {
+      "type": "object",
+      "properties": {
+        "range": {
+          "type": "number",
+          "format": "float"
+        },
+        "angle": {
+          "type": "number",
+          "format": "float"
+        },
+        "intensity": {
+          "type": "number",
+          "format": "float"
+        },
+        "cookie": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "color": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        },
+        "startupShard": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleShard"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Color": {
+      "type": "object",
+      "properties": {
+        "r": {
+          "type": "number",
+          "format": "float"
+        },
+        "g": {
+          "type": "number",
+          "format": "float"
+        },
+        "b": {
+          "type": "number",
+          "format": "float"
+        },
+        "a": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "AssetBundleShard": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ]
+    }
+  }
+}

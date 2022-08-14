@@ -1,0 +1,412 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfWeaponDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/WeaponDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "WeaponDataBlock": {
+      "type": "object",
+      "properties": {
+        "muzzleFlashFPS": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "muzzleFlash3RD": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "muzzleFlashFPSSpecial": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "muzzleFlash3RDSpecial": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "muzzleFeedback": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "shellType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ShellTypes"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "shellEjectFeedback": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "clipSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "hasRotatingCylinder": {
+          "type": "boolean"
+        },
+        "reloadDuration": {
+          "type": "number",
+          "format": "float"
+        },
+        "EffectiveDamagePerSecond": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "recoilPosImpulse": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "recoilPosShift": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "recoilPosShiftWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosImpulseWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilCameraPosWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilRotImpulse": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "recoilRotStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilRotDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilRotImpulseWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilCameraRotWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilAimingWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "eventOnSemiFire2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnBurstFire2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireStart2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireEnd2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialSemiFire2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialBurstFire2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialAutoFireStart2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialAutoFireEnd2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialChargeup2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialCooldown2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialChargeupEnd2D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnSpecialCooldownEnd2D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnSemiFire3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnBurstFire3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireStart3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireEnd3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialSemiFire3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialBurstFire3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialAutoFireStart3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialAutoFireEnd3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialChargeup3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialCooldown3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSpecialChargeupEnd3D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnSpecialCooldownEnd3D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventClick": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventReload": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "useSemiAudioForBurstShots": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ShellTypes": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Shell_None",
+        "Shell_9mm",
+        "Shell_45_ACP",
+        "Shell_338",
+        "Shell_12_Gauge"
+      ],
+      "enum": [
+        "Shell_None",
+        "Shell_9mm",
+        "Shell_45_ACP",
+        "Shell_338",
+        "Shell_12_Gauge"
+      ]
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

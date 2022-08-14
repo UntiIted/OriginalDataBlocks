@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfSurvivalWavePopulationDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/SurvivalWavePopulationDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "SurvivalWavePopulationDataBlock": {
+      "type": "object",
+      "properties": {
+        "WaveRoleWeakling": {
+          "type": "integer"
+        },
+        "WaveRoleStandard": {
+          "type": "integer"
+        },
+        "WaveRoleSpecial": {
+          "type": "integer"
+        },
+        "WaveRoleMiniBoss": {
+          "type": "integer"
+        },
+        "WaveRoleBoss": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

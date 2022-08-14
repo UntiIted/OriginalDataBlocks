@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfMeleeSFXDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/MeleeSFXDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "MeleeSFXDataBlock": {
+      "type": "object",
+      "properties": {
+        "FeedbackMeleeHitNormal": {
+          "type": "integer"
+        },
+        "FeedbackMeleeHitHard": {
+          "type": "integer"
+        },
+        "InitialFoley": {
+          "type": "integer"
+        },
+        "SwishRegularLeft": {
+          "type": "integer"
+        },
+        "SwishRegularRight": {
+          "type": "integer"
+        },
+        "SwishRegularDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "SwishHeavy": {
+          "type": "integer"
+        },
+        "ShoveHit": {
+          "type": "integer"
+        },
+        "Charge": {
+          "type": "integer"
+        },
+        "Charged": {
+          "type": "integer"
+        },
+        "ChargedCancelWarning": {
+          "type": "integer"
+        },
+        "PlayerCancelCharge": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

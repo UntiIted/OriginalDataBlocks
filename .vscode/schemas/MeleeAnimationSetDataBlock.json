@@ -1,0 +1,391 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfMeleeAnimationSetDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/MeleeAnimationSetDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "MeleeAnimationSetDataBlock": {
+      "type": "object",
+      "properties": {
+        "HoldToChargeTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "MaxDamageChargeTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AutoAttackTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AutoAttackWarningTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "FPIdleAnim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPSettleAnim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPWalkAnim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPRunAnim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPJumpAnim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPLandAnim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPChargeCancelAnimRight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPChargeCancelAnimLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "FPAttackMissRight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackMissLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackHitRight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackHitLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackPush": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackChargeUpRight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackChargeUpLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackChargeUpReleaseRight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackChargeUpReleaseLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackChargeUpHitRight": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "FPAttackChargeUpHitLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MeleeAttackData"
+            }
+          ]
+        },
+        "TPAnimHashIdle": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashIdleCrouch": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashAttackLeft": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashAttackLeftCrouch": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashAttackLeftCharge": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashAttackLeftChargeCrouch": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashAttackLeftRelease": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "TPAnimHashAttackLeftReleaseCrouch": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        }
+      }
+    },
+    "AnimHash": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "MeleeAttackData": {
+      "type": "object",
+      "properties": {
+        "Side": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EMeleeAttackSide"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Anim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AnimHash"
+            }
+          ]
+        },
+        "AnimBlendIn": {
+          "type": "number",
+          "format": "float"
+        },
+        "AttackLengthFrameTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AttackHitFrameTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "DamageStartFrameTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "DamageEndFrameTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AttackCamFwdHitFrameTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "ComboEarlyFrameTime": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EMeleeAttackSide": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Right",
+        "Left",
+        "Middle"
+      ],
+      "enum": [
+        "None",
+        "Right",
+        "Left",
+        "Middle"
+      ]
+    }
+  }
+}

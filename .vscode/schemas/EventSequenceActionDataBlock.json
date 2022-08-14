@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEventSequenceActionDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EventSequenceActionDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EventSequenceActionDataBlock": {
+      "type": "object",
+      "properties": {
+        "Sound": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ESA_Sound"
+            }
+          ]
+        },
+        "PostEffect": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ESA_PostEffect"
+            }
+          ]
+        },
+        "FogSettings": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ESA_FogSettings"
+            }
+          ]
+        },
+        "EnemyWave": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ESA_EnemyWave"
+            }
+          ]
+        },
+        "Lights": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ESA_Lights"
+            }
+          ]
+        }
+      }
+    },
+    "ESA_Sound": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "SoundID": {
+          "type": "integer"
+        }
+      }
+    },
+    "ESA_PostEffect": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "ValueA": {
+          "type": "number",
+          "format": "float"
+        },
+        "ValueB": {
+          "type": "number",
+          "format": "float"
+        },
+        "ValueC": {
+          "type": "number",
+          "format": "float"
+        },
+        "ValueD": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "ESA_FogSettings": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "ValueA": {
+          "type": "number",
+          "format": "float"
+        },
+        "ValueB": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ValueC": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "ESA_EnemyWave": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "ValueA": {
+          "type": "number",
+          "format": "float"
+        },
+        "ValueB": {
+          "type": "number",
+          "format": "float"
+        },
+        "ValueC": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "ESA_Lights": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "LightSettingsID": {
+          "type": "integer"
+        },
+        "Scope": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EESALightsEffectScope"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "EESALightsEffectScope": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "CurrentArea",
+        "CurrentZone"
+      ],
+      "enum": [
+        "CurrentArea",
+        "CurrentZone"
+      ]
+    }
+  }
+}

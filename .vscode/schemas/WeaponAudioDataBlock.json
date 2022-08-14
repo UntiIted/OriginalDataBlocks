@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfWeaponAudioDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/WeaponAudioDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "WeaponAudioDataBlock": {
+      "type": "object",
+      "properties": {
+        "eventOnSemiFire2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnBurstFire2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireStart2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireEnd2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnBurstFireOneShot2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnChargeup2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnCooldown2D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnChargeupEnd2D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnCooldownEnd2D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnSemiFire3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnBurstFire3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireStart3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnAutoFireEnd3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnChargeup3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnCooldown3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnChargeupEnd3D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnCooldownEnd3D": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventOnSyncedBurstFirePerShot3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventOnSyncedAutoFirePerShot3D": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "eventClick": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventReload": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "TriggerBurstAudioForEachShot": {
+          "type": "boolean"
+        },
+        "TriggerAutoAudioForEachShot": {
+          "type": "boolean"
+        },
+        "eventEquip": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventZoomIn": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "eventZoomOut": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGearCategoryFilterDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GearCategoryFilterDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GearCategoryFilterDataBlock": {
+      "type": "object",
+      "properties": {
+        "AllowedCategories": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GearCategoryFilterData"
+          }
+        }
+      }
+    },
+    "GearCategoryFilterData": {
+      "type": "object",
+      "properties": {
+        "CategoryID": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

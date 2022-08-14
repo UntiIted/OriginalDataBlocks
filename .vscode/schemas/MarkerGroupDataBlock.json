@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfMarkerGroupDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/MarkerGroupDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "MarkerGroupDataBlock": {
+      "type": "object",
+      "properties": {
+        "MeshColor": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        }
+      }
+    },
+    "Color": {
+      "type": "object",
+      "properties": {
+        "r": {
+          "type": "number",
+          "format": "float"
+        },
+        "g": {
+          "type": "number",
+          "format": "float"
+        },
+        "b": {
+          "type": "number",
+          "format": "float"
+        },
+        "a": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

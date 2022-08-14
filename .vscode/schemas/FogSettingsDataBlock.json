@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfFogSettingsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/FogSettingsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "FogSettingsDataBlock": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "FogColor": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        },
+        "FogDensity": {
+          "type": "number",
+          "format": "float"
+        },
+        "FogAmbience": {
+          "type": "number",
+          "format": "float"
+        },
+        "DensityNoiseDirection": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "DensityNoiseSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "DensityNoiseScale": {
+          "type": "number",
+          "format": "float"
+        },
+        "DensityHeightAltitude": {
+          "type": "number",
+          "format": "float"
+        },
+        "DensityHeightRange": {
+          "type": "number",
+          "format": "float"
+        },
+        "DensityHeightMaxBoost": {
+          "type": "number",
+          "format": "float"
+        },
+        "Infection": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "Color": {
+      "type": "object",
+      "properties": {
+        "r": {
+          "type": "number",
+          "format": "float"
+        },
+        "g": {
+          "type": "number",
+          "format": "float"
+        },
+        "b": {
+          "type": "number",
+          "format": "float"
+        },
+        "a": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

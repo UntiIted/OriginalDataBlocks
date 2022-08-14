@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEffectNodeDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EffectNodeDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EffectNodeDataBlock": {
+      "type": "object",
+      "properties": {
+        "PlayAll": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/EffectNodeListData"
+          }
+        },
+        "PlayOne": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "EffectToSpawn": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/EffectNodePrefabData"
+            }
+          ]
+        }
+      }
+    },
+    "EffectNodeListData": {
+      "type": "object",
+      "properties": {
+        "EffectNode": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Chance": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EffectNodePrefabData": {
+      "type": "object",
+      "properties": {
+        "PrefabPointer": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AttachToRoot": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

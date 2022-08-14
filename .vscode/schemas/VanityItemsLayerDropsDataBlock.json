@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfVanityItemsLayerDropsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/VanityItemsLayerDropsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "VanityItemsLayerDropsDataBlock": {
+      "type": "object",
+      "properties": {
+        "LayerDrops": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/LayerDropData"
+          }
+        }
+      }
+    },
+    "LayerDropData": {
+      "type": "object",
+      "properties": {
+        "Layer": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ExpeditionLayers"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "IsAll": {
+          "type": "boolean"
+        },
+        "Groups": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "ExpeditionLayers": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Main",
+        "Secondary",
+        "Third"
+      ],
+      "enum": [
+        "Main",
+        "Secondary",
+        "Third"
+      ]
+    }
+  }
+}

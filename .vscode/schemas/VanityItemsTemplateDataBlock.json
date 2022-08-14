@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfVanityItemsTemplateDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/VanityItemsTemplateDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "VanityItemsTemplateDataBlock": {
+      "type": "object",
+      "properties": {
+        "publicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ClothesType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "prefab": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "DropWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "icon": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "ClothesType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Helmet",
+        "Torso",
+        "Legs",
+        "Backpack",
+        "Palette",
+        "Face"
+      ],
+      "enum": [
+        "Helmet",
+        "Torso",
+        "Legs",
+        "Backpack",
+        "Palette",
+        "Face"
+      ]
+    }
+  }
+}

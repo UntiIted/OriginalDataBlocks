@@ -1,0 +1,231 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGearDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GearDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GearDataBlock": {
+      "type": "object",
+      "properties": {
+        "officialForRelease": {
+          "type": "boolean"
+        },
+        "publicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "baseItemID": {
+          "type": "integer"
+        },
+        "weaponPersonalityID": {
+          "type": "integer"
+        },
+        "showAmmoInGUI": {
+          "type": "boolean"
+        },
+        "archetypesAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GearArchetypeData"
+          }
+        },
+        "ClassAmmoCostFactor": {
+          "type": "number",
+          "format": "float"
+        },
+        "PublicGearInfo": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "dropPeriodRange": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GearDropPeriodData"
+          }
+        },
+        "structualModsAllowedGrip": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "structualModsAllowedStock": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "structualModsAllowedBarrel": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "structualModsAllowedReceiver": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "visualModsAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "toolsAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "sightsAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "gripsAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "muzzlesAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "magazinesAllowed": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ItemPartData"
+          }
+        },
+        "allowEmptyStructualModSlot": {
+          "type": "boolean"
+        },
+        "allowEmptyVisualModSlot": {
+          "type": "boolean"
+        },
+        "allowEmptyToolSlot": {
+          "type": "boolean"
+        },
+        "allowEmptySightSlot": {
+          "type": "boolean"
+        },
+        "allowEmptyGripSlot": {
+          "type": "boolean"
+        },
+        "allowEmptyMuzzleSlot": {
+          "type": "boolean"
+        },
+        "allowEmptyMagazineSlot": {
+          "type": "boolean"
+        }
+      }
+    },
+    "GearArchetypeData": {
+      "type": "object",
+      "properties": {
+        "allowed": {
+          "type": "boolean"
+        },
+        "archetypeID": {
+          "type": "integer"
+        },
+        "macroText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "GearDropPeriodData": {
+      "type": "object",
+      "properties": {
+        "macroText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "ItemPartData": {
+      "type": "object",
+      "properties": {
+        "allowed": {
+          "type": "boolean"
+        },
+        "ID": {
+          "type": "integer"
+        },
+        "partName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "macroText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

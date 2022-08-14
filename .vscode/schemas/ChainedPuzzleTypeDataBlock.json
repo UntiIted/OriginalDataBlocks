@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfChainedPuzzleTypeDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ChainedPuzzleTypeDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ChainedPuzzleTypeDataBlock": {
+      "type": "object",
+      "properties": {
+        "Prefab": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

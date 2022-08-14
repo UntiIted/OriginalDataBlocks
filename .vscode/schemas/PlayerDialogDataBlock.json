@@ -1,0 +1,418 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfPlayerDialogDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/PlayerDialogDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "PlayerDialogDataBlock": {
+      "type": "object",
+      "properties": {
+        "priority": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/DialogPriority"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "probabilityToTrigger": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/DialogProbability"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "triggerInterval": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/DialogTriggerInterval"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "randomDelay": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "tensionLimit": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/DialogTensionLimit"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "dramaFilter": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DialogDramaFilter"
+            }
+          ]
+        },
+        "dialogAlternatives": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/DialogStructureHolder"
+          }
+        }
+      }
+    },
+    "DialogPriority": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "IdleTalk",
+        "PersonalEvent",
+        "TeamEvent",
+        "CombatEvent"
+      ],
+      "enum": [
+        "IdleTalk",
+        "PersonalEvent",
+        "TeamEvent",
+        "CombatEvent"
+      ]
+    },
+    "DialogProbability": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Low",
+        "Medium",
+        "High",
+        "Always"
+      ],
+      "enum": [
+        "None",
+        "Low",
+        "Medium",
+        "High",
+        "Always"
+      ]
+    },
+    "DialogTriggerInterval": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Unlimited",
+        "ShortCooldown",
+        "MediumCooldown",
+        "LongCooldown",
+        "OncePerSegment",
+        "OncePerExpedition"
+      ],
+      "enum": [
+        "Unlimited",
+        "ShortCooldown",
+        "MediumCooldown",
+        "LongCooldown",
+        "OncePerSegment",
+        "OncePerExpedition"
+      ]
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "DialogTensionLimit": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "enum": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "DialogDramaFilter": {
+      "type": "object",
+      "properties": {
+        "Exploration": {
+          "type": "boolean"
+        },
+        "Alert": {
+          "type": "boolean"
+        },
+        "Sneaking": {
+          "type": "boolean"
+        },
+        "Encounter": {
+          "type": "boolean"
+        },
+        "Combat": {
+          "type": "boolean"
+        }
+      }
+    },
+    "DialogStructureHolder": {
+      "type": "object",
+      "properties": {
+        "structure": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DialogStructure"
+            }
+          ]
+        },
+        "ActorA": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DialogActorSettings"
+            }
+          ]
+        },
+        "ActorB": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DialogActorSettings"
+            }
+          ]
+        },
+        "ActorC": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DialogActorSettings"
+            }
+          ]
+        },
+        "ActorD": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DialogActorSettings"
+            }
+          ]
+        }
+      }
+    },
+    "DialogStructure": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "weight": {
+          "type": "number",
+          "format": "float"
+        },
+        "lines": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/DialogLine"
+          }
+        }
+      }
+    },
+    "DialogLine": {
+      "type": "object",
+      "properties": {
+        "lineEvent": {
+          "type": "integer"
+        },
+        "A": {
+          "type": "boolean"
+        },
+        "B": {
+          "type": "boolean"
+        },
+        "C": {
+          "type": "boolean"
+        },
+        "D": {
+          "type": "boolean"
+        },
+        "UNI": {
+          "type": "boolean"
+        },
+        "exit": {
+          "type": "number",
+          "format": "float"
+        },
+        "Subtitle": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "DialogActorSettings": {
+      "type": "object",
+      "properties": {
+        "charFilter": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/DialogCharFilter"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "conditions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/DialogCondition"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "DialogCharFilter": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Char_G",
+        "Char_T",
+        "Char_F",
+        "Char_O"
+      ],
+      "enum": [
+        "None",
+        "Char_G",
+        "Char_T",
+        "Char_F",
+        "Char_O"
+      ]
+    },
+    "DialogCondition": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "IsClose",
+        "IsVeryClose",
+        "IsFarAway",
+        "HasFlashlight",
+        "HasMapper",
+        "HasScanner",
+        "HasGlueGun",
+        "HasLockCutter",
+        "HeavylyArmed",
+        "LowAmmo",
+        "PlentyAmmo"
+      ],
+      "enum": [
+        "IsClose",
+        "IsVeryClose",
+        "IsFarAway",
+        "HasFlashlight",
+        "HasMapper",
+        "HasScanner",
+        "HasGlueGun",
+        "HasLockCutter",
+        "HeavylyArmed",
+        "LowAmmo",
+        "PlentyAmmo"
+      ]
+    }
+  }
+}

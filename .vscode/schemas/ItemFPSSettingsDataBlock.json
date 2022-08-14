@@ -1,0 +1,245 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfItemFPSSettingsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ItemFPSSettingsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ItemFPSSettingsDataBlock": {
+      "type": "object",
+      "properties": {
+        "localPosHip": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "localRotHip": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "SwayAmount": {
+          "type": "number",
+          "format": "float"
+        },
+        "crouchTiltAngle": {
+          "type": "number",
+          "format": "float"
+        },
+        "localPosRelaxed": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "localRotRelaxed": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "localPosZoom": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "localRotZoom": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "bodyOffsetLocal": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "bodyRotationOffsetLocal": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "ItemCameraFOVDefault": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ItemCameraFOVZoom": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "LookCameraFOVZoom": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "canAim": {
+          "type": "boolean"
+        },
+        "onlyStartAimOnPressed": {
+          "type": "boolean"
+        },
+        "canRelax": {
+          "type": "boolean"
+        },
+        "customDelayUntilRelax": {
+          "type": "number",
+          "format": "float"
+        },
+        "allowRotToAimPos": {
+          "type": "boolean"
+        },
+        "rotToAimPosMinDis": {
+          "type": "number",
+          "format": "float"
+        },
+        "transitionToAim": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EFPISTransitionTime"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "RecoilAnimation": {
+          "type": "integer"
+        },
+        "IdleAnimation": {
+          "type": "integer"
+        },
+        "WalkAnimation": {
+          "type": "integer"
+        },
+        "RunAnimation": {
+          "type": "integer"
+        },
+        "JumpAnimation": {
+          "type": "integer"
+        },
+        "LandAnimation": {
+          "type": "integer"
+        },
+        "ChargeCancelAnimation": {
+          "type": "integer"
+        },
+        "DofDefault": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DOFSettingsData"
+            }
+          ]
+        },
+        "DofAim": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DOFSettingsData"
+            }
+          ]
+        }
+      }
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EFPISTransitionTime": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Quick",
+        "Slow"
+      ],
+      "enum": [
+        "Quick",
+        "Slow"
+      ]
+    },
+    "DOFSettingsData": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "focusDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "aperture": {
+          "type": "number",
+          "format": "float"
+        },
+        "focalLength": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

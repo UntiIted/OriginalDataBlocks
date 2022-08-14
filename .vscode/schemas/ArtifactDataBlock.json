@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfArtifactDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ArtifactDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ArtifactDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ArtifactCategory": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ArtifactCategory"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PrefabPath": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "PrefabPaths": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "TagsID": {
+          "type": "integer"
+        }
+      }
+    },
+    "ArtifactCategory": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "_COUNT"
+      ],
+      "enum": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "_COUNT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemyDetectionDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemyDetectionDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemyDetectionDataBlock": {
+      "type": "object",
+      "properties": {
+        "weaponDetectionDistanceMin": {
+          "type": "number",
+          "format": "float"
+        },
+        "weaponDetectionDistanceMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "detectionNodeDistanceMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "movementDetectionDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "detectionBuildupSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "detectionCooldownSpeed": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfSurvivalWaveSettingsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/SurvivalWaveSettingsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "SurvivalWaveSettingsDataBlock": {
+      "type": "object",
+      "properties": {
+        "m_pauseBeforeStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_pauseBetweenGroups": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_wavePauseMin_atCost": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_wavePauseMax_atCost": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_wavePauseMin": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_wavePauseMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationFilter": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/EEnemyType"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        },
+        "m_filterType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyFilterType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "m_chanceToRandomizeSpawnDirectionPerWave": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_chanceToRandomizeSpawnDirectionPerGroup": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_overrideWaveSpawnType": {
+          "type": "boolean"
+        },
+        "m_survivalWaveSpawnType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/SurvivalWaveSpawnType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "m_populationPointsTotal": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationPointsPerWaveStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationPointsPerWaveEnd": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationPointsMinPerGroup": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationPointsPerGroupStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationPointsPerGroupEnd": {
+          "type": "number",
+          "format": "float"
+        },
+        "m_populationRampOverTime": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EEnemyType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Weakling",
+        "Standard",
+        "Special",
+        "MiniBoss",
+        "Boss"
+      ],
+      "enum": [
+        "Weakling",
+        "Standard",
+        "Special",
+        "MiniBoss",
+        "Boss"
+      ]
+    },
+    "EEnemyFilterType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Include",
+        "Exclude"
+      ],
+      "enum": [
+        "Include",
+        "Exclude"
+      ]
+    },
+    "SurvivalWaveSpawnType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "InRelationToClosestAlivePlayer",
+        "InSuppliedCourseNodeZone",
+        "InSuppliedCourseNode",
+        "InSuppliedCourseNode_OnPosition",
+        "ClosestToSuppliedNodeButNoBetweenPlayers",
+        "OnSpawnPoints",
+        "FromElevatorDirection"
+      ],
+      "enum": [
+        "InRelationToClosestAlivePlayer",
+        "InSuppliedCourseNodeZone",
+        "InSuppliedCourseNode",
+        "InSuppliedCourseNode_OnPosition",
+        "ClosestToSuppliedNodeButNoBetweenPlayers",
+        "OnSpawnPoints",
+        "FromElevatorDirection"
+      ]
+    }
+  }
+}

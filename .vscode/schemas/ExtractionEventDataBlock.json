@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfExtractionEventDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ExtractionEventDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ExtractionEventDataBlock": {
+      "type": "object",
+      "properties": {
+        "EventsToTrigger": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/EExtractionEventType"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "EExtractionEventType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "EnemyWaveSpawn",
+        "ElevatorBioscan",
+        "ThickFog",
+        "LightsOff",
+        "LightsOn",
+        "RemoveAir"
+      ],
+      "enum": [
+        "EnemyWaveSpawn",
+        "ElevatorBioscan",
+        "ThickFog",
+        "LightsOff",
+        "LightsOn",
+        "RemoveAir"
+      ]
+    }
+  }
+}

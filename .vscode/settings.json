@@ -1,0 +1,586 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/*ArchetypeDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ArchetypeDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ArtifactDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ArtifactDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ArtifactDistributionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ArtifactDistributionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ArtifactTagDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ArtifactTagDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*AtmosphereDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/AtmosphereDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*BigPickupDistributionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/BigPickupDistributionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*BoosterImplantConditionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/BoosterImplantConditionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*BoosterImplantEffectDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/BoosterImplantEffectDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*BoosterImplantTemplateDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/BoosterImplantTemplateDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ChainedPuzzleDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ChainedPuzzleDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ChainedPuzzleTypeDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ChainedPuzzleTypeDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*CloudsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/CloudsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*CommodityDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/CommodityDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ComplexResourceSetDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ComplexResourceSetDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ConsumableDistributionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ConsumableDistributionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*CustomAssetShardDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/CustomAssetShardDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*DimensionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/DimensionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EffectNodeDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EffectNodeDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyBalancingDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyBalancingDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyBehaviorDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyBehaviorDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyDetectionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyDetectionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyGroupDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyGroupDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyMovementDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyMovementDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemyPopulationDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemyPopulationDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnemySFXDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnemySFXDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EnvironmentFeedbackDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EnvironmentFeedbackDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EventSequenceActionDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EventSequenceActionDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*EventSequenceDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/EventSequenceDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ExpeditionBalanceDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ExpeditionBalanceDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ExtractionEventDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ExtractionEventDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*FeedbackDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/FeedbackDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*FlashlightSettingsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/FlashlightSettingsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*FogScenarioDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/FogScenarioDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*FogSettingsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/FogSettingsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GameplayTrailerDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GameplayTrailerDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GameSetupDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GameSetupDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearCategoryDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearCategoryDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearCategoryFilterDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearCategoryFilterDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearDecalDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearDecalDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearFlashlightPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearFlashlightPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearFrontPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearFrontPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearMagPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearMagPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearMeleeHandlePartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearMeleeHandlePartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearMeleeHeadPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearMeleeHeadPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearMeleeNeckPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearMeleeNeckPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearMeleePommelPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearMeleePommelPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearPaletteDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearPaletteDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearPartAttachmentDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearPartAttachmentDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearPatternDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearPatternDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearPerkDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearPerkDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearReceiverPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearReceiverPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearSightPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearSightPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearStockPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearStockPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearToolDeliveryPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearToolDeliveryPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearToolGripPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearToolGripPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearToolMainPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearToolMainPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearToolPayloadPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearToolPayloadPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearToolScreenPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearToolScreenPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*GearToolTargetingPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/GearToolTargetingPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ItemDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ItemDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ItemFPSSettingsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ItemFPSSettingsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ItemMovementAnimationDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ItemMovementAnimationDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ItemPartDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ItemPartDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*LevelGenSettingsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/LevelGenSettingsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*LevelLayoutDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/LevelLayoutDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*LightSettingsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/LightSettingsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*LootDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/LootDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MarkerGroupDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MarkerGroupDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MeleeAnimationSetDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MeleeAnimationSetDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MeleeArchetypeDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MeleeArchetypeDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MeleeSFXDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MeleeSFXDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MiningMarkerDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MiningMarkerDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MLSArrayDescriptorReferenceDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MLSArrayDescriptorReferenceDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*MusicStateDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/MusicStateDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*PlayerDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/PlayerDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*PlayerDialogDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/PlayerDialogDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*PlayerOfflineGearDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/PlayerOfflineGearDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*RecepieDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/RecepieDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*RecoilDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/RecoilDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*RundownDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/RundownDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*ServiceMarkerDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/ServiceMarkerDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*StaticSpawnDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/StaticSpawnDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*SurvivalWavePopulationDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/SurvivalWavePopulationDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*SurvivalWaveSettingsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/SurvivalWaveSettingsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*TechMarkerDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/TechMarkerDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*TextCharacterMetaDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/TextCharacterMetaDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*TextDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/TextDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*VanityItemsGroupDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/VanityItemsGroupDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*VanityItemsLayerDropsDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/VanityItemsLayerDropsDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*VanityItemsTemplateDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/VanityItemsTemplateDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*WardenObjectiveDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/WardenObjectiveDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*WeaponAudioDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/WeaponAudioDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*WeaponDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/WeaponDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*WeaponMuzzleFlashDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/WeaponMuzzleFlashDataBlock.json"
+    },
+    {
+      "fileMatch": [
+        "/*WeaponShellCasingDataBlock*.json"
+      ],
+      "url": "/.vscode/schemas/WeaponShellCasingDataBlock.json"
+    }
+  ]
+}

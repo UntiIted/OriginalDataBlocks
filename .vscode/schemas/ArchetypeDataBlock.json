@@ -1,0 +1,498 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfArchetypeDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ArchetypeDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ArchetypeDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "FireMode": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWeaponFireMode"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "RecoilDataID": {
+          "type": "integer"
+        },
+        "DamageBoosterEffect": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AgentModifier"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Damage": {
+          "type": "number",
+          "format": "float"
+        },
+        "DamageFalloff": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "StaggerDamageMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "PrecisionDamageMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "DefaultClipSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "DefaultReloadTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "CostOfBullet": {
+          "type": "number",
+          "format": "float"
+        },
+        "ShotDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "ShellCasingSize": {
+          "type": "number",
+          "format": "float"
+        },
+        "ShellCasingSpeedRange": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "PiercingBullets": {
+          "type": "boolean"
+        },
+        "PiercingDamageCountLimit": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "HipFireSpread": {
+          "type": "number",
+          "format": "float"
+        },
+        "AimSpread": {
+          "type": "number",
+          "format": "float"
+        },
+        "EquipTransitionTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "EquipSequence": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WeaponAnimSequenceItem"
+          }
+        },
+        "AimTransitionTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AimSequence": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WeaponAnimSequenceItem"
+          }
+        },
+        "BurstDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "BurstShotCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ShotgunBulletCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ShotgunConeSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ShotgunBulletSpread": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "SpecialChargetupTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpecialCooldownTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpecialSemiBurstCountTimeout": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_StartFireDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_RotationSpeed": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_DetectionMaxRange": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_DetectionMaxAngle": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_FireTowardsTargetInsteadOfForward": {
+          "type": "boolean"
+        },
+        "Sentry_LongRangeThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_ShortRangeThreshold": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_LegacyEnemyDetection": {
+          "type": "boolean"
+        },
+        "Sentry_FireTagOnly": {
+          "type": "boolean"
+        },
+        "Sentry_PrioTag": {
+          "type": "boolean"
+        },
+        "Sentry_StartFireDelayTagMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_RotationSpeedTagMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_DamageTagMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_StaggerDamageTagMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_CostOfBulletTagMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "Sentry_ShotDelayTagMulti": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "EWeaponFireMode": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Semi",
+        "Burst",
+        "Auto",
+        "SemiBurst",
+        "SentryGunSemi",
+        "SentryGunAuto",
+        "SentryGunBurst",
+        "SentryGunShotgunSemi"
+      ],
+      "enum": [
+        "Semi",
+        "Burst",
+        "Auto",
+        "SemiBurst",
+        "SentryGunSemi",
+        "SentryGunAuto",
+        "SentryGunBurst",
+        "SentryGunShotgunSemi"
+      ]
+    },
+    "AgentModifier": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "RegenerationCap",
+        "RegenerationSpeed",
+        "HealSupport",
+        "ReviveSpeedSupport",
+        "ReviveStartHealthSupport",
+        "MeleeResistance",
+        "ProjectileResistance",
+        "InfectionResistance",
+        "DamageOverTime",
+        "Nanoswarm_Shield",
+        "Nanoswarm_Weakness",
+        "ExplosionResistance",
+        "PistolDamage",
+        "SMGDamage",
+        "DMRDamage",
+        "AssaultRifleDamage",
+        "CarbineDamage",
+        "AutoPistolDamage",
+        "HELDamage",
+        "ShotgunDamage",
+        "RevolverDamage",
+        "SniperDamage",
+        "BurstCannonDamage",
+        "MachineGunDamage",
+        "MachinePistolDamage",
+        "RifleDamage",
+        "BurstRifleDamage",
+        "DoubleTapRifle",
+        "BullpupRifleDamage",
+        "CombatShotgunDamage",
+        "ChokeModShotgunDamage",
+        "StandardWeaponDamage",
+        "SpecialWeaponDamage",
+        "GlueStrength",
+        "GlueEfficiency",
+        "SentryGunSpeed",
+        "SentryGunDamage",
+        "SentryGunLongRangeDamage",
+        "SentryGunShortRangeDamage",
+        "TripMineDamage",
+        "ScannerRechargeSpeed",
+        "AmmoSupport",
+        "HackingProficiency",
+        "ComputerProcessingSpeed",
+        "InitialAmmoStandard",
+        "InitialAmmoSpecial",
+        "InitialAmmoTool",
+        "FogRepellerEffect",
+        "GlowstickEffect",
+        "BioscanSpeed",
+        "MeleeDamage",
+        "MovementSpeed",
+        "MovementAcceleration"
+      ],
+      "enum": [
+        "None",
+        "RegenerationCap",
+        "RegenerationSpeed",
+        "HealSupport",
+        "ReviveSpeedSupport",
+        "ReviveStartHealthSupport",
+        "MeleeResistance",
+        "ProjectileResistance",
+        "InfectionResistance",
+        "DamageOverTime",
+        "Nanoswarm_Shield",
+        "Nanoswarm_Weakness",
+        "ExplosionResistance",
+        "PistolDamage",
+        "SMGDamage",
+        "DMRDamage",
+        "AssaultRifleDamage",
+        "CarbineDamage",
+        "AutoPistolDamage",
+        "HELDamage",
+        "ShotgunDamage",
+        "RevolverDamage",
+        "SniperDamage",
+        "BurstCannonDamage",
+        "MachineGunDamage",
+        "MachinePistolDamage",
+        "RifleDamage",
+        "BurstRifleDamage",
+        "DoubleTapRifle",
+        "BullpupRifleDamage",
+        "CombatShotgunDamage",
+        "ChokeModShotgunDamage",
+        "StandardWeaponDamage",
+        "SpecialWeaponDamage",
+        "GlueStrength",
+        "GlueEfficiency",
+        "SentryGunSpeed",
+        "SentryGunDamage",
+        "SentryGunLongRangeDamage",
+        "SentryGunShortRangeDamage",
+        "TripMineDamage",
+        "ScannerRechargeSpeed",
+        "AmmoSupport",
+        "HackingProficiency",
+        "ComputerProcessingSpeed",
+        "InitialAmmoStandard",
+        "InitialAmmoSpecial",
+        "InitialAmmoTool",
+        "FogRepellerEffect",
+        "GlowstickEffect",
+        "BioscanSpeed",
+        "MeleeDamage",
+        "MovementSpeed",
+        "MovementAcceleration"
+      ]
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "WeaponAnimSequenceItem": {
+      "type": "object",
+      "properties": {
+        "TriggerTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "Type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWeaponAnimSequenceItemType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "StringData": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "EWeaponAnimSequenceItemType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "WeaponMovementAnim",
+        "FrontPartAnim",
+        "LeftHandAnim",
+        "LeftHandMagAnim",
+        "ReceiverAnim",
+        "Sound",
+        "DoUpdateAmmo",
+        "Empty",
+        "StockAnim",
+        "RightHandAnim",
+        "MagazineAction",
+        "EjectCasing"
+      ],
+      "enum": [
+        "WeaponMovementAnim",
+        "FrontPartAnim",
+        "LeftHandAnim",
+        "LeftHandMagAnim",
+        "ReceiverAnim",
+        "Sound",
+        "DoUpdateAmmo",
+        "Empty",
+        "StockAnim",
+        "RightHandAnim",
+        "MagazineAction",
+        "EjectCasing"
+      ]
+    }
+  }
+}

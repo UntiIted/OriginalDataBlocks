@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemySFXDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemySFXDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemySFXDataBlock": {
+      "type": "object",
+      "properties": {
+        "SFX_ID_walk": {
+          "type": "integer"
+        },
+        "SFX_ID_run": {
+          "type": "integer"
+        },
+        "SFX_ID_climbLadder": {
+          "type": "integer"
+        },
+        "SFX_ID_heartbeatPulse": {
+          "type": "integer"
+        },
+        "SFX_ID_hibernateIdle": {
+          "type": "integer"
+        },
+        "hibernateIdleInterval": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "SFX_ID_hibernateWakeUp": {
+          "type": "integer"
+        },
+        "SFX_ID_hibernateDie": {
+          "type": "integer"
+        },
+        "SFX_ID_hibernateDetectionStart": {
+          "type": "integer"
+        },
+        "SFX_ID_scream": {
+          "type": "integer"
+        },
+        "SFX_ID_stuckInGlue": {
+          "type": "integer"
+        },
+        "SFX_ID_releaseFromGlue": {
+          "type": "integer"
+        },
+        "SFX_ID_attackWindUp": {
+          "type": "integer"
+        },
+        "SFX_ID_attackWindUp_NotLocalTarget": {
+          "type": "integer"
+        },
+        "SFX_ID_attackFire": {
+          "type": "integer"
+        },
+        "SFX_ID_hurtSmall": {
+          "type": "integer"
+        },
+        "SFX_ID_hurtBig": {
+          "type": "integer"
+        },
+        "SFX_ID_die": {
+          "type": "integer"
+        },
+        "SFX_ID_JumpStart": {
+          "type": "integer"
+        },
+        "SFX_ID_JumpInAir": {
+          "type": "integer"
+        },
+        "SFX_ID_JumpLand": {
+          "type": "integer"
+        },
+        "SFX_ID_BigTentacleStart": {
+          "type": "integer"
+        },
+        "SFX_ID_BigTentacleTipLoop": {
+          "type": "integer"
+        },
+        "SFX_ID_BigTentacleEnd": {
+          "type": "integer"
+        }
+      }
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

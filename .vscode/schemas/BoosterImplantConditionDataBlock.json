@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfBoosterImplantConditionDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/BoosterImplantConditionDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "BoosterImplantConditionDataBlock": {
+      "type": "object",
+      "properties": {
+        "Condition": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/BoosterCondition"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PublicShortName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "PublicName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "IconPath": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "BoosterCondition": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "IsInBioscan",
+        "IsOutsideBioscan",
+        "HasFullHealth",
+        "IsInFogRepellerRadius",
+        "IsNextToTeammate",
+        "IsLastManStanding",
+        "IsNextToGlowstick",
+        "HasFlashlightOff",
+        "HasFlashlightOn",
+        "IsCloseToEnemy",
+        "IsFarAwayFromEnemy",
+        "IsWieldingStandardWeapon",
+        "IsWieldingSpecialWeapon",
+        "IsWieldingTool",
+        "IsWieldingMelee",
+        "IsWieldingConsumable",
+        "IsWieldingResourcePack",
+        "IsWieldingHackingTool",
+        "IsWieldingCarryItem",
+        "HasLowHealth",
+        "HasHighHealth",
+        "HasLessThanAmmoSmall",
+        "HasMoreThanAmmoLarge",
+        "IsTeamAliveTwo",
+        "IsTeamAliveThree",
+        "IsTeamAliveFour"
+      ],
+      "enum": [
+        "None",
+        "IsInBioscan",
+        "IsOutsideBioscan",
+        "HasFullHealth",
+        "IsInFogRepellerRadius",
+        "IsNextToTeammate",
+        "IsLastManStanding",
+        "IsNextToGlowstick",
+        "HasFlashlightOff",
+        "HasFlashlightOn",
+        "IsCloseToEnemy",
+        "IsFarAwayFromEnemy",
+        "IsWieldingStandardWeapon",
+        "IsWieldingSpecialWeapon",
+        "IsWieldingTool",
+        "IsWieldingMelee",
+        "IsWieldingConsumable",
+        "IsWieldingResourcePack",
+        "IsWieldingHackingTool",
+        "IsWieldingCarryItem",
+        "HasLowHealth",
+        "HasHighHealth",
+        "HasLessThanAmmoSmall",
+        "HasMoreThanAmmoLarge",
+        "IsTeamAliveTwo",
+        "IsTeamAliveThree",
+        "IsTeamAliveFour"
+      ]
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfArtifactDistributionDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ArtifactDistributionDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ArtifactDistributionDataBlock": {
+      "type": "object",
+      "properties": {
+        "BasicWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "AdvancedWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpecializedWeight": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

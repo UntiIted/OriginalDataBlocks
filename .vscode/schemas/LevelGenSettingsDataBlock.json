@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfLevelGenSettingsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/LevelGenSettingsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "LevelGenSettingsDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ZoneMinSize": {
+          "type": "number",
+          "format": "float"
+        },
+        "ZoneMaxSize": {
+          "type": "number",
+          "format": "float"
+        },
+        "StartZoneSize": {
+          "type": "number",
+          "format": "float"
+        },
+        "SegmentZoneCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "PublicEstimatedAreaCoverage": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

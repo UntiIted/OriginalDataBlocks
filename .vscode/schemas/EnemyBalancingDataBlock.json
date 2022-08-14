@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemyBalancingDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemyBalancingDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemyBalancingDataBlock": {
+      "type": "object",
+      "properties": {
+        "Health": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/HealthData"
+            }
+          ]
+        },
+        "GlueTolerance": {
+          "type": "number",
+          "format": "float"
+        },
+        "GlueFadeOutTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "CanBePushed": {
+          "type": "boolean"
+        },
+        "ForbidTwitchHit": {
+          "type": "boolean"
+        },
+        "AllowDamgeBonusFromBehind": {
+          "type": "boolean"
+        },
+        "UseTentacleTunnelCheck": {
+          "type": "boolean"
+        },
+        "UseVisibilityRaycastDuringTentacleAttack": {
+          "type": "boolean"
+        },
+        "TentacleAttackDamageRadiusIfNoTunnelCheck": {
+          "type": "number",
+          "format": "float"
+        },
+        "TentacleAttackDamage": {
+          "type": "number",
+          "format": "float"
+        },
+        "MeleeAttackDamage": {
+          "type": "number",
+          "format": "float"
+        },
+        "MeleeAttackDamageCheckRadius": {
+          "type": "number",
+          "format": "float"
+        },
+        "TagTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyCollisionRadius": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyCollisionPlayerMovementReduction": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyCollisionMinimumMoveSpeedModifier": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "HealthData": {
+      "type": "object",
+      "properties": {
+        "HealthMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "DamageUntilHitreact": {
+          "type": "number",
+          "format": "float"
+        },
+        "BodypartHealth": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakspotDamageMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ArmorDamageMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "HitreactOnLimbDestruction": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ES_HitreactType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "TryForceHitreactOnLimbDestruction": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ES_HitreactType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Unspecified",
+        "None",
+        "Micro",
+        "Light",
+        "Heavy",
+        "ToDeath",
+        "InstantRagdollDeath"
+      ],
+      "enum": [
+        "Unspecified",
+        "None",
+        "Micro",
+        "Light",
+        "Heavy",
+        "ToDeath",
+        "InstantRagdollDeath"
+      ]
+    }
+  }
+}

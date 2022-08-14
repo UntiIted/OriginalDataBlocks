@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfMLSArrayDescriptorReferenceDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/MLSArrayDescriptorReferenceDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "MLSArrayDescriptorReferenceDataBlock": {
+      "type": "object",
+      "properties": {
+        "Path": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

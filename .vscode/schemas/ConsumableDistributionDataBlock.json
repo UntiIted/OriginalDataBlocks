@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfConsumableDistributionDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ConsumableDistributionDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ConsumableDistributionDataBlock": {
+      "type": "object",
+      "properties": {
+        "SpawnsPerZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ChanceToSpawnInResourceContainer": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpawnData": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ConsumableSpawnData"
+          }
+        }
+      }
+    },
+    "ConsumableSpawnData": {
+      "type": "object",
+      "properties": {
+        "ItemID": {
+          "type": "integer"
+        },
+        "Weight": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

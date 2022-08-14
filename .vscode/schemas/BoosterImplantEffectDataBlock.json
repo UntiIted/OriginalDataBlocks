@@ -1,0 +1,272 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfBoosterImplantEffectDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/BoosterImplantEffectDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "BoosterImplantEffectDataBlock": {
+      "type": "object",
+      "properties": {
+        "Effect": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AgentModifier"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PublicShortName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "PublicName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "DescriptionNegative": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "BoosterEffectCategory": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/BoosterEffectCategory"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "AgentModifier": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "RegenerationCap",
+        "RegenerationSpeed",
+        "HealSupport",
+        "ReviveSpeedSupport",
+        "ReviveStartHealthSupport",
+        "MeleeResistance",
+        "ProjectileResistance",
+        "InfectionResistance",
+        "DamageOverTime",
+        "Nanoswarm_Shield",
+        "Nanoswarm_Weakness",
+        "ExplosionResistance",
+        "PistolDamage",
+        "SMGDamage",
+        "DMRDamage",
+        "AssaultRifleDamage",
+        "CarbineDamage",
+        "AutoPistolDamage",
+        "HELDamage",
+        "ShotgunDamage",
+        "RevolverDamage",
+        "SniperDamage",
+        "BurstCannonDamage",
+        "MachineGunDamage",
+        "MachinePistolDamage",
+        "RifleDamage",
+        "BurstRifleDamage",
+        "DoubleTapRifle",
+        "BullpupRifleDamage",
+        "CombatShotgunDamage",
+        "ChokeModShotgunDamage",
+        "StandardWeaponDamage",
+        "SpecialWeaponDamage",
+        "GlueStrength",
+        "GlueEfficiency",
+        "SentryGunSpeed",
+        "SentryGunDamage",
+        "SentryGunLongRangeDamage",
+        "SentryGunShortRangeDamage",
+        "TripMineDamage",
+        "ScannerRechargeSpeed",
+        "AmmoSupport",
+        "HackingProficiency",
+        "ComputerProcessingSpeed",
+        "InitialAmmoStandard",
+        "InitialAmmoSpecial",
+        "InitialAmmoTool",
+        "FogRepellerEffect",
+        "GlowstickEffect",
+        "BioscanSpeed",
+        "MeleeDamage",
+        "MovementSpeed",
+        "MovementAcceleration"
+      ],
+      "enum": [
+        "None",
+        "RegenerationCap",
+        "RegenerationSpeed",
+        "HealSupport",
+        "ReviveSpeedSupport",
+        "ReviveStartHealthSupport",
+        "MeleeResistance",
+        "ProjectileResistance",
+        "InfectionResistance",
+        "DamageOverTime",
+        "Nanoswarm_Shield",
+        "Nanoswarm_Weakness",
+        "ExplosionResistance",
+        "PistolDamage",
+        "SMGDamage",
+        "DMRDamage",
+        "AssaultRifleDamage",
+        "CarbineDamage",
+        "AutoPistolDamage",
+        "HELDamage",
+        "ShotgunDamage",
+        "RevolverDamage",
+        "SniperDamage",
+        "BurstCannonDamage",
+        "MachineGunDamage",
+        "MachinePistolDamage",
+        "RifleDamage",
+        "BurstRifleDamage",
+        "DoubleTapRifle",
+        "BullpupRifleDamage",
+        "CombatShotgunDamage",
+        "ChokeModShotgunDamage",
+        "StandardWeaponDamage",
+        "SpecialWeaponDamage",
+        "GlueStrength",
+        "GlueEfficiency",
+        "SentryGunSpeed",
+        "SentryGunDamage",
+        "SentryGunLongRangeDamage",
+        "SentryGunShortRangeDamage",
+        "TripMineDamage",
+        "ScannerRechargeSpeed",
+        "AmmoSupport",
+        "HackingProficiency",
+        "ComputerProcessingSpeed",
+        "InitialAmmoStandard",
+        "InitialAmmoSpecial",
+        "InitialAmmoTool",
+        "FogRepellerEffect",
+        "GlowstickEffect",
+        "BioscanSpeed",
+        "MeleeDamage",
+        "MovementSpeed",
+        "MovementAcceleration"
+      ]
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "BoosterEffectCategory": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "InitialState",
+        "Damage",
+        "Health",
+        "ProcessingSpeed",
+        "Tool"
+      ],
+      "enum": [
+        "InitialState",
+        "Damage",
+        "Health",
+        "ProcessingSpeed",
+        "Tool"
+      ]
+    }
+  }
+}

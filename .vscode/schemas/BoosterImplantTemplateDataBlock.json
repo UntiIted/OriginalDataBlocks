@@ -1,0 +1,217 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfBoosterImplantTemplateDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/BoosterImplantTemplateDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "BoosterImplantTemplateDataBlock": {
+      "type": "object",
+      "properties": {
+        "Deprecated": {
+          "type": "boolean"
+        },
+        "PublicName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "DurationRange": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "DropWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "Conditions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "RandomConditions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "Effects": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/BoosterImplantEffectInstance"
+          }
+        },
+        "RandomEffects": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/BoosterImplantEffectInstance"
+            }
+          }
+        },
+        "ImplantCategory": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/BoosterImplantCategory"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "MainEffectType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/BoosterEffectCategory"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "BoosterImplantEffectInstance": {
+      "type": "object",
+      "properties": {
+        "BoosterImplantEffect": {
+          "type": "integer"
+        },
+        "MinValue": {
+          "type": "number",
+          "format": "float"
+        },
+        "MaxValue": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "BoosterImplantCategory": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Muted",
+        "Bold",
+        "Aggressive",
+        "_COUNT"
+      ],
+      "enum": [
+        "Muted",
+        "Bold",
+        "Aggressive",
+        "_COUNT"
+      ]
+    },
+    "BoosterEffectCategory": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "InitialState",
+        "Damage",
+        "Health",
+        "ProcessingSpeed",
+        "Tool"
+      ],
+      "enum": [
+        "InitialState",
+        "Damage",
+        "Health",
+        "ProcessingSpeed",
+        "Tool"
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemyPopulationDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemyPopulationDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemyPopulationDataBlock": {
+      "type": "object",
+      "properties": {
+        "RoleDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/EnemyRoleData"
+          }
+        }
+      }
+    },
+    "EnemyRoleData": {
+      "type": "object",
+      "properties": {
+        "Role": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyRole"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Difficulty": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyRoleDifficulty"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Enemy": {
+          "type": "integer"
+        },
+        "Cost": {
+          "type": "number",
+          "format": "float"
+        },
+        "Weight": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EEnemyRole": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Melee",
+        "Ranged",
+        "Tank",
+        "Lurker",
+        "PureSneak",
+        "Scout",
+        "Patroller",
+        "Hunter",
+        "BirtherChild",
+        "MiniBoss",
+        "Boss"
+      ],
+      "enum": [
+        "Melee",
+        "Ranged",
+        "Tank",
+        "Lurker",
+        "PureSneak",
+        "Scout",
+        "Patroller",
+        "Hunter",
+        "BirtherChild",
+        "MiniBoss",
+        "Boss"
+      ]
+    },
+    "EEnemyRoleDifficulty": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Easy",
+        "Medium",
+        "Hard",
+        "MiniBoss",
+        "Boss",
+        "MegaBoss",
+        "Biss",
+        "Buss"
+      ],
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard",
+        "MiniBoss",
+        "Boss",
+        "MegaBoss",
+        "Biss",
+        "Buss"
+      ]
+    }
+  }
+}

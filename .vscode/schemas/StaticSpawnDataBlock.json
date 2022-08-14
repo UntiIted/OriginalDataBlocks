@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfStaticSpawnDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/StaticSpawnDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "StaticSpawnDataBlock": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "RegisterForNodeUpdate": {
+          "type": "boolean"
+        },
+        "RandomType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_RandomType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Path": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Path_OnNode": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "PlacementType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_StaticPlacementType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "RadiusToAvoidMasked": {
+          "type": "number",
+          "format": "float"
+        },
+        "MaxHeightFromNodes": {
+          "type": "number",
+          "format": "float"
+        },
+        "MinHeightFromNodes": {
+          "type": "number",
+          "format": "float"
+        },
+        "PushOutScaleAlongNormal": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpreadScale": {
+          "type": "number",
+          "format": "float"
+        },
+        "ClusterChance": {
+          "type": "number",
+          "format": "float"
+        },
+        "MinScale": {
+          "type": "number",
+          "format": "float"
+        },
+        "MaxScale": {
+          "type": "number",
+          "format": "float"
+        },
+        "OnNodeSpawnChance": {
+          "type": "number",
+          "format": "float"
+        },
+        "OnNodeNormalDotLimit": {
+          "type": "number",
+          "format": "float"
+        },
+        "OnNodeRotateWithSurface": {
+          "type": "boolean"
+        },
+        "SpawnConstraints": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_StaticSpawnConstraints"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "UsePrefabsBasedOnDistane": {
+          "type": "boolean"
+        },
+        "PrefabDistancePairs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/StaticSpawnPrefabDistancePair"
+          }
+        }
+      }
+    },
+    "LG_RandomType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "SessionSeed",
+        "BuildSeed",
+        "FixedSeed"
+      ],
+      "enum": [
+        "SessionSeed",
+        "BuildSeed",
+        "FixedSeed"
+      ]
+    },
+    "LG_StaticPlacementType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "OnNodes_WallsAndCeiling",
+        "OnNodes_Ceiling_UpOnly"
+      ],
+      "enum": [
+        "OnNodes_WallsAndCeiling",
+        "OnNodes_Ceiling_UpOnly"
+      ]
+    },
+    "LG_StaticSpawnConstraints": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "AlwaysAndOnlySpawnInRespawnerZones"
+      ],
+      "enum": [
+        "None",
+        "AlwaysAndOnlySpawnInRespawnerZones"
+      ]
+    },
+    "StaticSpawnPrefabDistancePair": {
+      "type": "object",
+      "properties": {
+        "DistancePrefabPath": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "DistancePrefabOnNodePath": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "DistanceMin": {
+          "type": "number",
+          "format": "float"
+        },
+        "DistanceMax": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

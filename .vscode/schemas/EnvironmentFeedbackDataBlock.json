@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnvironmentFeedbackDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnvironmentFeedbackDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnvironmentFeedbackDataBlock": {
+      "type": "object",
+      "properties": {
+        "audioData": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/FeedbackAudioCompData"
+          }
+        },
+        "effectData": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/FeedbackEffectCompData"
+          }
+        }
+      }
+    },
+    "FeedbackAudioCompData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "NetMode": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/NetworkMode"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Material": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/MaterialType"
+            },
+            {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          ]
+        },
+        "Delay": {
+          "type": "number",
+          "format": "float"
+        },
+        "AudioEvent": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "NetworkMode": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Both",
+        "Local",
+        "Sync"
+      ],
+      "enum": [
+        "Both",
+        "Local",
+        "Sync"
+      ]
+    },
+    "MaterialType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Concrete",
+        "Metal",
+        "Glass",
+        "EnemyBody",
+        "EnemyWeakspot",
+        "Plastic",
+        "Mud",
+        "Gravel",
+        "SheetMetal",
+        "Catwalk",
+        "Wood",
+        "PlayerBody",
+        "WeakLockMelee",
+        "Sand"
+      ],
+      "enum": [
+        "Concrete",
+        "Metal",
+        "Glass",
+        "EnemyBody",
+        "EnemyWeakspot",
+        "Plastic",
+        "Mud",
+        "Gravel",
+        "SheetMetal",
+        "Catwalk",
+        "Wood",
+        "PlayerBody",
+        "WeakLockMelee",
+        "Sand"
+      ]
+    },
+    "FeedbackEffectCompData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "NetMode": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/NetworkMode"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Material": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/MaterialType"
+            },
+            {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          ]
+        },
+        "Chance": {
+          "type": "number",
+          "format": "float"
+        },
+        "Delay": {
+          "type": "number",
+          "format": "float"
+        },
+        "EffectPrefab": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AttachToRoot": {
+          "type": "boolean"
+        },
+        "DoNoKill": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

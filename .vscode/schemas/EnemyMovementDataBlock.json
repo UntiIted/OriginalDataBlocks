@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemyMovementDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemyMovementDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemyMovementDataBlock": {
+      "type": "object",
+      "properties": {
+        "ForceDisableAnimator": {
+          "type": "boolean"
+        },
+        "AnimationControllers": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/AnimatorControllerHandleName"
+            },
+            {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          ]
+        },
+        "MoveSlowerWhenInPlayerRoom": {
+          "type": "boolean"
+        },
+        "MoveSlowerWithinTargetDistance": {
+          "type": "number",
+          "format": "float"
+        },
+        "GlobalAnimSpeedMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "PathMoveAnimSpeedMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "RotationLerp": {
+          "type": "number",
+          "format": "float"
+        },
+        "RotationLerpWhenNotMoving": {
+          "type": "number",
+          "format": "float"
+        },
+        "BlendIntoAttackAnim": {
+          "type": "number",
+          "format": "float"
+        },
+        "BlendIntoScreamAnim": {
+          "type": "number",
+          "format": "float"
+        },
+        "AllowMovmentBlendOutOfPathMove": {
+          "type": "boolean"
+        },
+        "PathMoveAnimDampTime": {
+          "type": "number",
+          "format": "float"
+        },
+        "AllowClimbDownLadders": {
+          "type": "boolean"
+        },
+        "LocomotionPathMove": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ES_StateEnum"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocomotionHitReact": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ES_StateEnum"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocomotionDead": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ES_StateEnum"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocomotionShooterAttack": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ES_StateEnum"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocomotionScream": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ES_StateEnum"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "AnimatorControllerHandleName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Unspecified",
+        "EnemyCripple",
+        "EnemyRunner",
+        "EnemyFiddler",
+        "EnemyLow",
+        "EnemyCrawlFlip",
+        "EnemyCrawl",
+        "EnemyGiant",
+        "EnemyBig",
+        "EnemyExploder",
+        "EnemyBirtherCrawlFlip",
+        "EnemyPouncer"
+      ],
+      "enum": [
+        "Unspecified",
+        "EnemyCripple",
+        "EnemyRunner",
+        "EnemyFiddler",
+        "EnemyLow",
+        "EnemyCrawlFlip",
+        "EnemyCrawl",
+        "EnemyGiant",
+        "EnemyBig",
+        "EnemyExploder",
+        "EnemyBirtherCrawlFlip",
+        "EnemyPouncer"
+      ]
+    },
+    "ES_StateEnum": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "StandStill",
+        "PathMove",
+        "Knockdown",
+        "JumpDissolve",
+        "LiquidSnake",
+        "KnockdownRecover",
+        "Hitreact",
+        "ShortcutJump",
+        "FloaterFly",
+        "FloaterHitReact",
+        "Dead",
+        "ScoutDetection",
+        "ScoutScream",
+        "Hibernate",
+        "HibernateWakeUp",
+        "Scream",
+        "StuckInGlue",
+        "ShooterAttack",
+        "StrikerAttack",
+        "TankAttack",
+        "TankMultiTargetAttack",
+        "TentacleDragMove",
+        "StrikerMelee",
+        "ClimbLadder",
+        "Jump",
+        "BirtherGiveBirth",
+        "TriggerFogSphere",
+        "PathMoveFlyer",
+        "HitReactFlyer",
+        "ShooterAttackFlyer",
+        "DeadFlyer",
+        "DeadSquidBoss",
+        "ScreamFlyer"
+      ],
+      "enum": [
+        "None",
+        "StandStill",
+        "PathMove",
+        "Knockdown",
+        "JumpDissolve",
+        "LiquidSnake",
+        "KnockdownRecover",
+        "Hitreact",
+        "ShortcutJump",
+        "FloaterFly",
+        "FloaterHitReact",
+        "Dead",
+        "ScoutDetection",
+        "ScoutScream",
+        "Hibernate",
+        "HibernateWakeUp",
+        "Scream",
+        "StuckInGlue",
+        "ShooterAttack",
+        "StrikerAttack",
+        "TankAttack",
+        "TankMultiTargetAttack",
+        "TentacleDragMove",
+        "StrikerMelee",
+        "ClimbLadder",
+        "Jump",
+        "BirtherGiveBirth",
+        "TriggerFogSphere",
+        "PathMoveFlyer",
+        "HitReactFlyer",
+        "ShooterAttackFlyer",
+        "DeadFlyer",
+        "DeadSquidBoss",
+        "ScreamFlyer"
+      ]
+    }
+  }
+}

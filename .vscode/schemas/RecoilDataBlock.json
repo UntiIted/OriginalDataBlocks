@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfRecoilDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/RecoilDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "RecoilDataBlock": {
+      "type": "object",
+      "properties": {
+        "power": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "spring": {
+          "type": "number",
+          "format": "float"
+        },
+        "dampening": {
+          "type": "number",
+          "format": "float"
+        },
+        "hipFireCrosshairSizeDefault": {
+          "type": "number",
+          "format": "float"
+        },
+        "hipFireCrosshairRecoilPop": {
+          "type": "number",
+          "format": "float"
+        },
+        "hipFireCrosshairSizeMax": {
+          "type": "number",
+          "format": "float"
+        },
+        "horizontalScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "verticalScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/MinMaxValue"
+            }
+          ]
+        },
+        "directionalSimilarity": {
+          "type": "number",
+          "format": "float"
+        },
+        "worldToViewSpaceBlendHorizontal": {
+          "type": "number",
+          "format": "float"
+        },
+        "worldToViewSpaceBlendVertical": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosImpulse": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "recoilPosShift": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "recoilPosShiftWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilPosImpulseWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilCameraPosWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilAimingWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilRotImpulse": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "recoilRotStiffness": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilRotDamping": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilRotImpulseWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "recoilCameraRotWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "concussionIntensity": {
+          "type": "number",
+          "format": "float"
+        },
+        "concussionFrequency": {
+          "type": "number",
+          "format": "float"
+        },
+        "concussionDuration": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "MinMaxValue": {
+      "type": "object",
+      "properties": {
+        "Min": {
+          "type": "number",
+          "format": "float"
+        },
+        "Max": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

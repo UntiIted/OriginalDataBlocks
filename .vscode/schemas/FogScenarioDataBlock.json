@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfFogScenarioDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/FogScenarioDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "FogScenarioDataBlock": {
+      "type": "object",
+      "properties": {
+        "Fog": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    }
+  }
+}

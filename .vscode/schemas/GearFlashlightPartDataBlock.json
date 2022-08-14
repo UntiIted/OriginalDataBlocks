@@ -1,0 +1,282 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGearFlashlightPartDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GearFlashlightPartDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GearFlashlightPartDataBlock": {
+      "type": "object",
+      "properties": {
+        "General": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPartGeneralData"
+            }
+          ]
+        },
+        "Aligns": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GearPartAlignData"
+          }
+        }
+      }
+    },
+    "GearPartGeneralData": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Model": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Children": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "GearCategoryFilter": {
+          "type": "integer"
+        },
+        "LeftHandGripAnim": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "RightHandGripAnim": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AssetBundle": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleName"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "BundleShard": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleShard"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "AssetBundleName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Complex_Shared",
+        "Complex_Mining",
+        "Complex_Tech",
+        "Complex_Service",
+        "Startup",
+        "Gear_Weapon_Front",
+        "Gear_Weapon_Receiver",
+        "Gear_Weapon_Stock",
+        "Gear_Weapon_Sight",
+        "Gear_Weapon_Mag",
+        "Gear_Weapon_Flashlight",
+        "Gear_Tool_Main",
+        "Gear_Tool_Grip",
+        "Gear_Tool_Delivery",
+        "Gear_Tool_Payload",
+        "Gear_Tool_Targeting",
+        "Gear_Tool_Screen",
+        "Gear_Melee_Head",
+        "Gear_Melee_Neck",
+        "Gear_Melee_Handle",
+        "Gear_Melee_Pommel",
+        "Gear_Material",
+        "Enemies"
+      ],
+      "enum": [
+        "None",
+        "Complex_Shared",
+        "Complex_Mining",
+        "Complex_Tech",
+        "Complex_Service",
+        "Startup",
+        "Gear_Weapon_Front",
+        "Gear_Weapon_Receiver",
+        "Gear_Weapon_Stock",
+        "Gear_Weapon_Sight",
+        "Gear_Weapon_Mag",
+        "Gear_Weapon_Flashlight",
+        "Gear_Tool_Main",
+        "Gear_Tool_Grip",
+        "Gear_Tool_Delivery",
+        "Gear_Tool_Payload",
+        "Gear_Tool_Targeting",
+        "Gear_Tool_Screen",
+        "Gear_Melee_Head",
+        "Gear_Melee_Neck",
+        "Gear_Melee_Handle",
+        "Gear_Melee_Pommel",
+        "Gear_Material",
+        "Enemies"
+      ]
+    },
+    "AssetBundleShard": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ]
+    },
+    "GearPartAlignData": {
+      "type": "object",
+      "properties": {
+        "AlignType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EGearPartAlign"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "AlignName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "EGearPartAlign": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Muzzle",
+        "ShellEject",
+        "Magazine",
+        "Sight",
+        "Flashlight",
+        "SightLook",
+        "LeftHand",
+        "RightHand",
+        "Receiver",
+        "Front",
+        "ToolGrip",
+        "ToolDelivery",
+        "ToolPayload",
+        "ToolTargeting",
+        "ToolScreen",
+        "ToolDetection",
+        "ToolScanning",
+        "MeleeHead",
+        "RotationPivot",
+        "GroundPlacement"
+      ],
+      "enum": [
+        "Muzzle",
+        "ShellEject",
+        "Magazine",
+        "Sight",
+        "Flashlight",
+        "SightLook",
+        "LeftHand",
+        "RightHand",
+        "Receiver",
+        "Front",
+        "ToolGrip",
+        "ToolDelivery",
+        "ToolPayload",
+        "ToolTargeting",
+        "ToolScreen",
+        "ToolDetection",
+        "ToolScanning",
+        "MeleeHead",
+        "RotationPivot",
+        "GroundPlacement"
+      ]
+    }
+  }
+}

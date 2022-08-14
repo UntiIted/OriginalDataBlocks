@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfPlayerOfflineGearDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/PlayerOfflineGearDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "PlayerOfflineGearDataBlock": {
+      "type": "object",
+      "properties": {
+        "Type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EOfflineGearType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "GearJSON": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "EOfflineGearType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "StandardInventory",
+        "RundownSpecificInventory",
+        "SpawnedInLevel"
+      ],
+      "enum": [
+        "None",
+        "StandardInventory",
+        "RundownSpecificInventory",
+        "SpawnedInLevel"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2509 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfLevelLayoutDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/LevelLayoutDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "LevelLayoutDataBlock": {
+      "type": "object",
+      "properties": {
+        "ZoneAliasStart": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Zones": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ExpeditionZoneData"
+          }
+        }
+      }
+    },
+    "ExpeditionZoneData": {
+      "type": "object",
+      "properties": {
+        "LocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "AliasOverride": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "OverrideAliasPrefix": {
+          "type": "boolean"
+        },
+        "AliasPrefixOverride": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AliasPrefixShortOverride": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "SubSeed": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MarkerSubSeed": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "LightsSubSeed": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "BulkheadDCScanSeed": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "SubComplex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/SubComplex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "CustomGeomorph": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "IgnoreRandomGeomorphRotation": {
+          "type": "boolean"
+        },
+        "CoverageMinMax": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "BuildFromLocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "StartPosition": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneBuildFromType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "StartPosition_IndexWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "StartExpansion": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneBuildFromExpansionType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ZoneExpansion": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneExpansionType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LightSettings": {
+          "type": "integer"
+        },
+        "AltitudeData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/AltitudeData"
+            }
+          ]
+        },
+        "EventsOnEnter": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/LevelEventData"
+          }
+        },
+        "EventsOnPortalWarp": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnApproachDoor": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnUnlockDoor": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnOpenDoor": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnDoorScanStart": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnDoorScanDone": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnBossDeath": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "EventsOnTrigger": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WorldEventFromSourceData"
+          }
+        },
+        "ProgressionPuzzleToEnter": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ProgressionPuzzleData"
+            }
+          ]
+        },
+        "ChainedPuzzleToEnter": {
+          "type": "integer"
+        },
+        "IsCheckpointDoor": {
+          "type": "boolean"
+        },
+        "PlayScannerVoiceAudio": {
+          "type": "boolean"
+        },
+        "SkipAutomaticProgressionObjective": {
+          "type": "boolean"
+        },
+        "SecurityGateToEnter": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ESecurityGateType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "UseStaticBioscanPointsInZone": {
+          "type": "boolean"
+        },
+        "TurnOffAlarmOnTerminal": {
+          "type": "boolean"
+        },
+        "TerminalPuzzleZone": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TerminalZoneSelectionData"
+            }
+          ]
+        },
+        "EventsOnTerminalDeactivateAlarm": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "ActiveEnemyWave": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActiveEnemyWaveData"
+            }
+          ]
+        },
+        "WorldEventChainedPuzzleDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/SpecificChainPuzzleSpawnData"
+          }
+        },
+        "EnemySpawningInZone": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/EnemySpawningData"
+          }
+        },
+        "EnemyRespawning": {
+          "type": "boolean"
+        },
+        "EnemyRespawnRequireOtherZone": {
+          "type": "boolean"
+        },
+        "EnemyRespawnRoomDistance": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "EnemyRespawnTimeInterval": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyRespawnCountMultiplier": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyRespawnExcludeList": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "HSUClustersInZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "CorpseClustersInZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ResourceContainerClustersInZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "GeneratorClustersInZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "CorpsesInZone": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneDistributionAmount"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "GroundSpawnersInZone": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneDistributionAmount"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "HSUsInZone": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneDistributionAmount"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "DeconUnitsInZone": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EZoneDistributionAmount"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "AllowSmallPickupsAllocation": {
+          "type": "boolean"
+        },
+        "AllowResourceContainerAllocation": {
+          "type": "boolean"
+        },
+        "ForceBigPickupsAllocation": {
+          "type": "boolean"
+        },
+        "ConsumableDistributionInZone": {
+          "type": "integer"
+        },
+        "BigPickupDistributionInZone": {
+          "type": "integer"
+        },
+        "SpecificPickupSpawningDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/SpecificPickupSpawnData"
+          }
+        },
+        "TerminalPlacements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/TerminalPlacementData"
+          }
+        },
+        "ForbidTerminalsInZone": {
+          "type": "boolean"
+        },
+        "PowerGeneratorPlacements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/FunctionPlacementData"
+          }
+        },
+        "DisinfectionStationPlacements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/FunctionPlacementData"
+          }
+        },
+        "HealthMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "HealthPlacement": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "WeaponAmmoMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeaponAmmoPlacement": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "ToolAmmoMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ToolAmmoPlacement": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "DisinfectionMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "DisinfectionPlacement": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "StaticSpawnDataContainers": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/StaticSpawnDataContainer"
+          }
+        }
+      }
+    },
+    "ELocalZoneIndex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Zone_0",
+        "Zone_1",
+        "Zone_2",
+        "Zone_3",
+        "Zone_4",
+        "Zone_5",
+        "Zone_6",
+        "Zone_7",
+        "Zone_8",
+        "Zone_9",
+        "Zone_10",
+        "Zone_11",
+        "Zone_12",
+        "Zone_13",
+        "Zone_14",
+        "Zone_15",
+        "Zone_16",
+        "Zone_17",
+        "Zone_18",
+        "Zone_19",
+        "Zone_20"
+      ],
+      "enum": [
+        "Zone_0",
+        "Zone_1",
+        "Zone_2",
+        "Zone_3",
+        "Zone_4",
+        "Zone_5",
+        "Zone_6",
+        "Zone_7",
+        "Zone_8",
+        "Zone_9",
+        "Zone_10",
+        "Zone_11",
+        "Zone_12",
+        "Zone_13",
+        "Zone_14",
+        "Zone_15",
+        "Zone_16",
+        "Zone_17",
+        "Zone_18",
+        "Zone_19",
+        "Zone_20"
+      ]
+    },
+    "SubComplex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "DigSite",
+        "Refinery",
+        "Storage",
+        "DataCenter",
+        "Lab",
+        "All",
+        "Floodways",
+        "Mining_Reactor",
+        "Plug_SubComplex_Transition",
+        "Tech_Reactor",
+        "Tech_Portal",
+        "Gardens",
+        "Mining_Portal"
+      ],
+      "enum": [
+        "DigSite",
+        "Refinery",
+        "Storage",
+        "DataCenter",
+        "Lab",
+        "All",
+        "Floodways",
+        "Mining_Reactor",
+        "Plug_SubComplex_Transition",
+        "Tech_Reactor",
+        "Tech_Portal",
+        "Gardens",
+        "Mining_Portal"
+      ]
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EZoneBuildFromType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "From_Random",
+        "From_Start",
+        "From_AverageCenter",
+        "From_Furthest",
+        "From_BetweenStartAndFurthest",
+        "From_IndexWeight"
+      ],
+      "enum": [
+        "From_Random",
+        "From_Start",
+        "From_AverageCenter",
+        "From_Furthest",
+        "From_BetweenStartAndFurthest",
+        "From_IndexWeight"
+      ]
+    },
+    "EZoneBuildFromExpansionType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Towards_Random",
+        "Towards_Forward",
+        "Towards_Backward",
+        "Towards_Right",
+        "Towards_Left"
+      ],
+      "enum": [
+        "Towards_Random",
+        "Towards_Forward",
+        "Towards_Backward",
+        "Towards_Right",
+        "Towards_Left"
+      ]
+    },
+    "EZoneExpansionType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Random",
+        "Collapsed",
+        "Expansional",
+        "Directional_Forward",
+        "Directional_Backward",
+        "Directional_Right",
+        "Directional_Left",
+        "Directional_Random"
+      ],
+      "enum": [
+        "Random",
+        "Collapsed",
+        "Expansional",
+        "Directional_Forward",
+        "Directional_Backward",
+        "Directional_Right",
+        "Directional_Left",
+        "Directional_Random"
+      ]
+    },
+    "AltitudeData": {
+      "type": "object",
+      "properties": {
+        "AllowedZoneAltitude": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWantedZoneHeighs"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ChanceToChange": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EWantedZoneHeighs": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "LowMidHigh",
+        "OnlyLow",
+        "OnlyHigh",
+        "OnlyMid",
+        "LowMid",
+        "MidHigh",
+        "LowHigh",
+        "Ascending",
+        "Descending",
+        "Unchanged"
+      ],
+      "enum": [
+        "LowMidHigh",
+        "OnlyLow",
+        "OnlyHigh",
+        "OnlyMid",
+        "LowMid",
+        "MidHigh",
+        "LowHigh",
+        "Ascending",
+        "Descending",
+        "Unchanged"
+      ]
+    },
+    "LevelEventData": {
+      "type": "object",
+      "properties": {
+        "Delay": {
+          "type": "number",
+          "format": "float"
+        },
+        "Noise": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LevelEventNoiseData"
+            }
+          ]
+        },
+        "Intel": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LevelEventWardenIntelData"
+            }
+          ]
+        },
+        "Sound": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LevelEventSoundData"
+            }
+          ]
+        }
+      }
+    },
+    "LevelEventNoiseData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "RadiusMin": {
+          "type": "number",
+          "format": "float"
+        },
+        "RadiusMax": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "LevelEventWardenIntelData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "IntelMessage": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "LevelEventSoundData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "SoundEvent": {
+          "type": "integer"
+        }
+      }
+    },
+    "WardenObjectiveEventData": {
+      "type": "object",
+      "properties": {
+        "Type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWardenObjectiveEventType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Condition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/WorldEventConditionPair"
+            }
+          ]
+        },
+        "Trigger": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWardenObjectiveEventTrigger"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ChainPuzzle": {
+          "type": "integer"
+        },
+        "UseStaticBioscanPoints": {
+          "type": "boolean"
+        },
+        "Layer": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_LayerType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "DimensionIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EDimensionIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Delay": {
+          "type": "number",
+          "format": "float"
+        },
+        "Duration": {
+          "type": "number",
+          "format": "float"
+        },
+        "ClearDimension": {
+          "type": "boolean"
+        },
+        "WardenIntel": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "CustomSubObjectiveHeader": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "CustomSubObjective": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "SoundID": {
+          "type": "integer"
+        },
+        "SoundSubtitle": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "DialogueID": {
+          "type": "integer"
+        },
+        "FogSetting": {
+          "type": "integer"
+        },
+        "FogTransitionDuration": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyWaveData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GenericEnemyWaveData"
+            }
+          ]
+        },
+        "EnemyID": {
+          "type": "integer"
+        },
+        "Position": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "Count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Enabled": {
+          "type": "boolean"
+        },
+        "TerminalCommand": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TERM_Command"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "TerminalCommandRule": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TERM_CommandRule"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "WorldEventObjectFilter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "EWardenObjectiveEventType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "OpenSecurityDoor",
+        "UnlockSecurityDoor",
+        "AllLightsOff",
+        "AllLightsOn",
+        "PlaySound",
+        "SetFogSetting",
+        "DimensionFlashTeam",
+        "DimensionWarpTeam",
+        "SpawnEnemyWave",
+        "StopEnemyWaves",
+        "UpdateCustomSubObjective",
+        "ForceCompleteObjective",
+        "LightsInZone",
+        "LightsInZoneToggle",
+        "AnimationTrigger",
+        "SpawnEnemyOnPoint",
+        "SetNavMarker",
+        "StepProgressionObjective",
+        "SetWorldEventCondition",
+        "LockSecurityDoor",
+        "SetTerminalCommand",
+        "ActivateChainedPuzzle",
+        "EventBreak"
+      ],
+      "enum": [
+        "None",
+        "OpenSecurityDoor",
+        "UnlockSecurityDoor",
+        "AllLightsOff",
+        "AllLightsOn",
+        "PlaySound",
+        "SetFogSetting",
+        "DimensionFlashTeam",
+        "DimensionWarpTeam",
+        "SpawnEnemyWave",
+        "StopEnemyWaves",
+        "UpdateCustomSubObjective",
+        "ForceCompleteObjective",
+        "LightsInZone",
+        "LightsInZoneToggle",
+        "AnimationTrigger",
+        "SpawnEnemyOnPoint",
+        "SetNavMarker",
+        "StepProgressionObjective",
+        "SetWorldEventCondition",
+        "LockSecurityDoor",
+        "SetTerminalCommand",
+        "ActivateChainedPuzzle",
+        "EventBreak"
+      ]
+    },
+    "WorldEventConditionPair": {
+      "type": "object",
+      "properties": {
+        "ConditionIndex": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "IsTrue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "EWardenObjectiveEventTrigger": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "OnStart",
+        "OnMid",
+        "OnEnd"
+      ],
+      "enum": [
+        "None",
+        "OnStart",
+        "OnMid",
+        "OnEnd"
+      ]
+    },
+    "LG_LayerType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "MainLayer",
+        "SecondaryLayer",
+        "ThirdLayer"
+      ],
+      "enum": [
+        "MainLayer",
+        "SecondaryLayer",
+        "ThirdLayer"
+      ]
+    },
+    "EDimensionIndex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Reality",
+        "Dimension_1",
+        "Dimension_2",
+        "Dimension_3",
+        "Dimension_4",
+        "Dimension_5",
+        "Dimension_6",
+        "Dimension_7",
+        "Dimension_8",
+        "Dimension_9",
+        "Dimension_10",
+        "Dimension_11",
+        "Dimension_12",
+        "Dimension_13",
+        "Dimension_14",
+        "Dimension_15",
+        "Dimension_16",
+        "Dimension_17",
+        "Dimension_18",
+        "Dimension_19",
+        "Dimension_20",
+        "MAX_COUNT",
+        "ARENA_DIMENSION"
+      ],
+      "enum": [
+        "Reality",
+        "Dimension_1",
+        "Dimension_2",
+        "Dimension_3",
+        "Dimension_4",
+        "Dimension_5",
+        "Dimension_6",
+        "Dimension_7",
+        "Dimension_8",
+        "Dimension_9",
+        "Dimension_10",
+        "Dimension_11",
+        "Dimension_12",
+        "Dimension_13",
+        "Dimension_14",
+        "Dimension_15",
+        "Dimension_16",
+        "Dimension_17",
+        "Dimension_18",
+        "Dimension_19",
+        "Dimension_20",
+        "MAX_COUNT",
+        "ARENA_DIMENSION"
+      ]
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "GenericEnemyWaveData": {
+      "type": "object",
+      "properties": {
+        "WaveSettings": {
+          "type": "integer"
+        },
+        "WavePopulation": {
+          "type": "integer"
+        },
+        "AreaDistance": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "SpawnDelay": {
+          "type": "number",
+          "format": "float"
+        },
+        "TriggerAlarm": {
+          "type": "boolean"
+        },
+        "IntelMessage": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "TERM_Command": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Help",
+        "Commands",
+        "Cls",
+        "Exit",
+        "Open",
+        "Close",
+        "Activate",
+        "Deactivate",
+        "EmptyLine",
+        "InvalidCommand",
+        "DownloadData",
+        "ViewSecurityLog",
+        "Override",
+        "DisableAlarm",
+        "Locate",
+        "ActivateBeacon",
+        "Find",
+        "ShowList",
+        "Query",
+        "Ping",
+        "ReactorStartup",
+        "ReactorVerify",
+        "ReactorShutdown",
+        "WardenObjectiveSpecialCommand",
+        "TerminalUplinkConnect",
+        "TerminalUplinkVerify",
+        "TerminalUplinkConfirm",
+        "ListLogs",
+        "ReadLog",
+        "Start",
+        "TryUnlockingTerminal",
+        "WardenObjectiveGatherCommand",
+        "TerminalCorruptedUplinkConnect",
+        "TerminalCorruptedUplinkVerify",
+        "TimedConnectionSend",
+        "TimedConnectionVerify",
+        "UsedCommand",
+        "UniqueCommand1",
+        "UniqueCommand2",
+        "UniqueCommand3",
+        "UniqueCommand4",
+        "UniqueCommand5",
+        "Info",
+        "MAX_COUNT"
+      ],
+      "enum": [
+        "None",
+        "Help",
+        "Commands",
+        "Cls",
+        "Exit",
+        "Open",
+        "Close",
+        "Activate",
+        "Deactivate",
+        "EmptyLine",
+        "InvalidCommand",
+        "DownloadData",
+        "ViewSecurityLog",
+        "Override",
+        "DisableAlarm",
+        "Locate",
+        "ActivateBeacon",
+        "Find",
+        "ShowList",
+        "Query",
+        "Ping",
+        "ReactorStartup",
+        "ReactorVerify",
+        "ReactorShutdown",
+        "WardenObjectiveSpecialCommand",
+        "TerminalUplinkConnect",
+        "TerminalUplinkVerify",
+        "TerminalUplinkConfirm",
+        "ListLogs",
+        "ReadLog",
+        "Start",
+        "TryUnlockingTerminal",
+        "WardenObjectiveGatherCommand",
+        "TerminalCorruptedUplinkConnect",
+        "TerminalCorruptedUplinkVerify",
+        "TimedConnectionSend",
+        "TimedConnectionVerify",
+        "UsedCommand",
+        "UniqueCommand1",
+        "UniqueCommand2",
+        "UniqueCommand3",
+        "UniqueCommand4",
+        "UniqueCommand5",
+        "Info",
+        "MAX_COUNT"
+      ]
+    },
+    "TERM_CommandRule": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Normal",
+        "OnlyOnce",
+        "OnlyOnceDelete"
+      ],
+      "enum": [
+        "Normal",
+        "OnlyOnce",
+        "OnlyOnceDelete"
+      ]
+    },
+    "WorldEventFromSourceData": {
+      "type": "object",
+      "properties": {
+        "WorldEventTriggerObjectFilter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWardenObjectiveEventType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Condition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/WorldEventConditionPair"
+            }
+          ]
+        },
+        "Trigger": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWardenObjectiveEventTrigger"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ChainPuzzle": {
+          "type": "integer"
+        },
+        "UseStaticBioscanPoints": {
+          "type": "boolean"
+        },
+        "Layer": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_LayerType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "DimensionIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EDimensionIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Delay": {
+          "type": "number",
+          "format": "float"
+        },
+        "Duration": {
+          "type": "number",
+          "format": "float"
+        },
+        "ClearDimension": {
+          "type": "boolean"
+        },
+        "WardenIntel": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "CustomSubObjectiveHeader": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "CustomSubObjective": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "SoundID": {
+          "type": "integer"
+        },
+        "SoundSubtitle": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "DialogueID": {
+          "type": "integer"
+        },
+        "FogSetting": {
+          "type": "integer"
+        },
+        "FogTransitionDuration": {
+          "type": "number",
+          "format": "float"
+        },
+        "EnemyWaveData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GenericEnemyWaveData"
+            }
+          ]
+        },
+        "EnemyID": {
+          "type": "integer"
+        },
+        "Position": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "Count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Enabled": {
+          "type": "boolean"
+        },
+        "TerminalCommand": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TERM_Command"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "TerminalCommandRule": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TERM_CommandRule"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "WorldEventObjectFilter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "ProgressionPuzzleData": {
+      "type": "object",
+      "properties": {
+        "PuzzleType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EProgressionPuzzleType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "CustomText": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "PlacementCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ZonePlacementData": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ZonePlacementData"
+          }
+        }
+      }
+    },
+    "EProgressionPuzzleType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Keycard_SecurityBox",
+        "PowerGenerator_And_PowerCell",
+        "Locked_No_Key"
+      ],
+      "enum": [
+        "None",
+        "Keycard_SecurityBox",
+        "PowerGenerator_And_PowerCell",
+        "Locked_No_Key"
+      ]
+    },
+    "ZonePlacementData": {
+      "type": "object",
+      "properties": {
+        "DimensionIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EDimensionIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Weights": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        }
+      }
+    },
+    "ZonePlacementWeights": {
+      "type": "object",
+      "properties": {
+        "Start": {
+          "type": "number",
+          "format": "float"
+        },
+        "Middle": {
+          "type": "number",
+          "format": "float"
+        },
+        "End": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "ESecurityGateType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Security",
+        "Apex"
+      ],
+      "enum": [
+        "Security",
+        "Apex"
+      ]
+    },
+    "TerminalZoneSelectionData": {
+      "type": "object",
+      "properties": {
+        "LocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "SeedType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ESeedType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "TerminalIndex": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StaticSeed": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ESeedType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "SessionSeed",
+        "BuildSeed",
+        "StaticSeed"
+      ],
+      "enum": [
+        "None",
+        "SessionSeed",
+        "BuildSeed",
+        "StaticSeed"
+      ]
+    },
+    "ActiveEnemyWaveData": {
+      "type": "object",
+      "properties": {
+        "HasActiveEnemyWave": {
+          "type": "boolean"
+        },
+        "EnemyGroupInfrontOfDoor": {
+          "type": "integer"
+        },
+        "EnemyGroupInArea": {
+          "type": "integer"
+        },
+        "EnemyGroupsInArea": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "SpecificChainPuzzleSpawnData": {
+      "type": "object",
+      "properties": {
+        "ChainedPuzzle": {
+          "type": "integer"
+        },
+        "WorldEventObjectFilter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "EventsOnScanDone": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        }
+      }
+    },
+    "EnemySpawningData": {
+      "type": "object",
+      "properties": {
+        "GroupType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyGroupType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Difficulty": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyRoleDifficulty"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Distribution": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyZoneDistribution"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "DistributionValue": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EEnemyGroupType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Hibernate",
+        "PureSneak",
+        "Detect",
+        "PureDetect",
+        "Patrol",
+        "Awake",
+        "Hunter"
+      ],
+      "enum": [
+        "Hibernate",
+        "PureSneak",
+        "Detect",
+        "PureDetect",
+        "Patrol",
+        "Awake",
+        "Hunter"
+      ]
+    },
+    "EEnemyRoleDifficulty": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Easy",
+        "Medium",
+        "Hard",
+        "MiniBoss",
+        "Boss",
+        "MegaBoss",
+        "Biss",
+        "Buss"
+      ],
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard",
+        "MiniBoss",
+        "Boss",
+        "MegaBoss",
+        "Biss",
+        "Buss"
+      ]
+    },
+    "EEnemyZoneDistribution": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Force_One",
+        "Rel_Value"
+      ],
+      "enum": [
+        "None",
+        "Force_One",
+        "Rel_Value"
+      ]
+    },
+    "EZoneDistributionAmount": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None_0",
+        "Pair_2",
+        "Few_5",
+        "Some_10",
+        "SomeMore_15",
+        "Many_20",
+        "Alot_30",
+        "Tons_50"
+      ],
+      "enum": [
+        "None_0",
+        "Pair_2",
+        "Few_5",
+        "Some_10",
+        "SomeMore_15",
+        "Many_20",
+        "Alot_30",
+        "Tons_50"
+      ]
+    },
+    "SpecificPickupSpawnData": {
+      "type": "object",
+      "properties": {
+        "PickupToSpawn": {
+          "type": "integer"
+        },
+        "WorldEventObjectFilter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "TerminalPlacementData": {
+      "type": "object",
+      "properties": {
+        "PlacementWeights": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "AreaSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MarkerSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "LocalLogFiles": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/TerminalLogFileData"
+          }
+        },
+        "UniqueCommands": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/CustomTerminalCommand"
+          }
+        },
+        "StartingStateData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TerminalStartStateData"
+            }
+          ]
+        }
+      }
+    },
+    "TerminalLogFileData": {
+      "type": "object",
+      "properties": {
+        "FileName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "FileContent": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "FileContentOriginalLanguage": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/Language"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "AttachedAudioFile": {
+          "type": "integer"
+        },
+        "AttachedAudioByteSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "PlayerDialogToTriggerAfterAudio": {
+          "type": "integer"
+        }
+      }
+    },
+    "Language": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "English",
+        "French",
+        "Italian",
+        "German",
+        "Spanish",
+        "Russian",
+        "Portuguese_Brazil",
+        "Polish",
+        "Japanese",
+        "Korean",
+        "Chinese_Traditional",
+        "Chinese_Simplified"
+      ],
+      "enum": [
+        "English",
+        "French",
+        "Italian",
+        "German",
+        "Spanish",
+        "Russian",
+        "Portuguese_Brazil",
+        "Polish",
+        "Japanese",
+        "Korean",
+        "Chinese_Traditional",
+        "Chinese_Simplified"
+      ]
+    },
+    "CustomTerminalCommand": {
+      "type": "object",
+      "properties": {
+        "Command": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "CommandDesc": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "PostCommandOutputs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/TerminalOutput"
+          }
+        },
+        "CommandEvents": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveEventData"
+          }
+        },
+        "SpecialCommandRule": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TERM_CommandRule"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "TerminalOutput": {
+      "type": "object",
+      "properties": {
+        "LineType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TerminalLineType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Output": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Time": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "TerminalLineType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Normal",
+        "Fail",
+        "SpinningWaitDone",
+        "SpinningWaitNoDone",
+        "ProgressWait",
+        "Warning"
+      ],
+      "enum": [
+        "Normal",
+        "Fail",
+        "SpinningWaitDone",
+        "SpinningWaitNoDone",
+        "ProgressWait",
+        "Warning"
+      ]
+    },
+    "TerminalStartStateData": {
+      "type": "object",
+      "properties": {
+        "StartingState": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/TERM_State"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "UseCustomInfoText": {
+          "type": "boolean"
+        },
+        "CustomInfoText": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "KeepShowingLocalLogCount": {
+          "type": "boolean"
+        },
+        "AudioEventEnter": {
+          "type": "integer"
+        },
+        "AudioEventExit": {
+          "type": "integer"
+        },
+        "PasswordProtected": {
+          "type": "boolean"
+        },
+        "Password": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "PasswordHintText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "GeneratePassword": {
+          "type": "boolean"
+        },
+        "PasswordPartCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ShowPasswordLength": {
+          "type": "boolean"
+        },
+        "ShowPasswordPartPositions": {
+          "type": "boolean"
+        },
+        "TerminalZoneSelectionDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/TerminalZoneSelectionData"
+            }
+          }
+        }
+      }
+    },
+    "TERM_State": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Sleeping",
+        "Awake",
+        "PlayerInteracting",
+        "DataMining",
+        "Hacked",
+        "CodePuzzle",
+        "InputTest",
+        "ReactorError",
+        "AskToPlayLogAudio",
+        "DoPlayAudioFile",
+        "AudioLoopError",
+        "Ping",
+        "PasswordProtected",
+        "EnterPassword"
+      ],
+      "enum": [
+        "Sleeping",
+        "Awake",
+        "PlayerInteracting",
+        "DataMining",
+        "Hacked",
+        "CodePuzzle",
+        "InputTest",
+        "ReactorError",
+        "AskToPlayLogAudio",
+        "DoPlayAudioFile",
+        "AudioLoopError",
+        "Ping",
+        "PasswordProtected",
+        "EnterPassword"
+      ]
+    },
+    "FunctionPlacementData": {
+      "type": "object",
+      "properties": {
+        "PlacementWeights": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "AreaSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MarkerSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "StaticSpawnDataContainer": {
+      "type": "object",
+      "properties": {
+        "Count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "DistributionWeightType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_StaticDistributionWeightType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "DistributionWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "DistributionRandomBlend": {
+          "type": "number",
+          "format": "float"
+        },
+        "DistributionResultPow": {
+          "type": "number",
+          "format": "float"
+        },
+        "StaticSpawnDataId": {
+          "type": "integer"
+        },
+        "FixedSeed": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "LG_StaticDistributionWeightType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Weight_is_zeroToOne_startToEnd",
+        "Weight_is_exact_node_index"
+      ],
+      "enum": [
+        "Weight_is_zeroToOne_startToEnd",
+        "Weight_is_exact_node_index"
+      ]
+    }
+  }
+}

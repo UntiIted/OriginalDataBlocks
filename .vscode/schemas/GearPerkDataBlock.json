@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGearPerkDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GearPerkDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GearPerkDataBlock": {
+      "type": "object",
+      "properties": {
+        "PerkSpecials": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GearSpecialPerkData"
+          }
+        },
+        "ModFirerate": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPerkModifierData"
+            }
+          ]
+        },
+        "ModDamage": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPerkModifierData"
+            }
+          ]
+        },
+        "ModReloadTime": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPerkModifierData"
+            }
+          ]
+        },
+        "ModRange": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPerkModifierData"
+            }
+          ]
+        },
+        "ModRecoilReduction": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPerkModifierData"
+            }
+          ]
+        },
+        "ModHandling": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPerkModifierData"
+            }
+          ]
+        }
+      }
+    },
+    "GearSpecialPerkData": {
+      "type": "object",
+      "properties": {
+        "Type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EGearPerkSpecialType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "TypeValue1": {
+          "type": "number",
+          "format": "float"
+        },
+        "TypeValue2": {
+          "type": "number",
+          "format": "float"
+        },
+        "TypeValue3": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "EGearPerkSpecialType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "HeadshotMulti",
+        "FirstShotInMagMulti",
+        "LastShotInMagMulti"
+      ],
+      "enum": [
+        "HeadshotMulti",
+        "FirstShotInMagMulti",
+        "LastShotInMagMulti"
+      ]
+    },
+    "GearPerkModifierData": {
+      "type": "object",
+      "properties": {
+        "Active": {
+          "type": "boolean"
+        },
+        "Min": {
+          "type": "number",
+          "format": "float"
+        },
+        "Max": {
+          "type": "number",
+          "format": "float"
+        },
+        "Cost": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

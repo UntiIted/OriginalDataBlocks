@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfLightSettingsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/LightSettingsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "LightSettingsDataBlock": {
+      "type": "object",
+      "properties": {
+        "LightCategorySettings": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/LightCategorySetting"
+          }
+        }
+      }
+    },
+    "LightCategorySetting": {
+      "type": "object",
+      "properties": {
+        "On": {
+          "type": "boolean"
+        },
+        "Category": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LightCategory"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Chance": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceBroken": {
+          "type": "number",
+          "format": "float"
+        },
+        "Color": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        },
+        "IntensityMul": {
+          "type": "number",
+          "format": "float"
+        },
+        "Weight": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "LightCategory": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "General",
+        "Special",
+        "Emergency",
+        "Independent",
+        "Door",
+        "Sign",
+        "DoorImportant"
+      ],
+      "enum": [
+        "General",
+        "Special",
+        "Emergency",
+        "Independent",
+        "Door",
+        "Sign",
+        "DoorImportant"
+      ]
+    },
+    "Color": {
+      "type": "object",
+      "properties": {
+        "r": {
+          "type": "number",
+          "format": "float"
+        },
+        "g": {
+          "type": "number",
+          "format": "float"
+        },
+        "b": {
+          "type": "number",
+          "format": "float"
+        },
+        "a": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

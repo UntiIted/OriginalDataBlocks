@@ -1,0 +1,683 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfEnemyDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/EnemyDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "EnemyDataBlock": {
+      "type": "object",
+      "properties": {
+        "EnemyType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EEnemyType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "AssetBundle": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleName"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "BundleShard": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleShard"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "BasePrefabs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "ModelDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ModelData"
+          }
+        },
+        "DetectionDataId": {
+          "type": "integer"
+        },
+        "BehaviorDataId": {
+          "type": "integer"
+        },
+        "MovementDataId": {
+          "type": "integer"
+        },
+        "BalancingDataId": {
+          "type": "integer"
+        },
+        "SFXDataId": {
+          "type": "integer"
+        },
+        "ArenaDimensions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "LinkedSlaveModels": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/LinkedSlaveModelData"
+          }
+        },
+        "InternalMaterial": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/MaterialType"
+            },
+            {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          ]
+        },
+        "isCoccoon": {
+          "type": "boolean"
+        },
+        "EnemySpottedDialogId": {
+          "type": "integer"
+        },
+        "AI_Abilities": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/AbilityData"
+          }
+        }
+      }
+    },
+    "EEnemyType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Weakling",
+        "Standard",
+        "Special",
+        "MiniBoss",
+        "Boss"
+      ],
+      "enum": [
+        "Weakling",
+        "Standard",
+        "Special",
+        "MiniBoss",
+        "Boss"
+      ]
+    },
+    "AssetBundleName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Complex_Shared",
+        "Complex_Mining",
+        "Complex_Tech",
+        "Complex_Service",
+        "Startup",
+        "Gear_Weapon_Front",
+        "Gear_Weapon_Receiver",
+        "Gear_Weapon_Stock",
+        "Gear_Weapon_Sight",
+        "Gear_Weapon_Mag",
+        "Gear_Weapon_Flashlight",
+        "Gear_Tool_Main",
+        "Gear_Tool_Grip",
+        "Gear_Tool_Delivery",
+        "Gear_Tool_Payload",
+        "Gear_Tool_Targeting",
+        "Gear_Tool_Screen",
+        "Gear_Melee_Head",
+        "Gear_Melee_Neck",
+        "Gear_Melee_Handle",
+        "Gear_Melee_Pommel",
+        "Gear_Material",
+        "Enemies"
+      ],
+      "enum": [
+        "None",
+        "Complex_Shared",
+        "Complex_Mining",
+        "Complex_Tech",
+        "Complex_Service",
+        "Startup",
+        "Gear_Weapon_Front",
+        "Gear_Weapon_Receiver",
+        "Gear_Weapon_Stock",
+        "Gear_Weapon_Sight",
+        "Gear_Weapon_Mag",
+        "Gear_Weapon_Flashlight",
+        "Gear_Tool_Main",
+        "Gear_Tool_Grip",
+        "Gear_Tool_Delivery",
+        "Gear_Tool_Payload",
+        "Gear_Tool_Targeting",
+        "Gear_Tool_Screen",
+        "Gear_Melee_Head",
+        "Gear_Melee_Neck",
+        "Gear_Melee_Handle",
+        "Gear_Melee_Pommel",
+        "Gear_Material",
+        "Enemies"
+      ]
+    },
+    "AssetBundleShard": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ]
+    },
+    "ModelData": {
+      "type": "object",
+      "properties": {
+        "ModelFile": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ModelCustomization": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "PositionOffset": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "RotationOffset": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "NeckScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "HeadScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "ChestScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "ArmScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "LegScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "LinkBone": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "SizeRange": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        }
+      }
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "LinkedSlaveModelData": {
+      "type": "object",
+      "properties": {
+        "AnimationSet": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/AnimatorControllerHandleName"
+            },
+            {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          ]
+        },
+        "ModelFile": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ModelCustomization": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "PositionOffset": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "RotationOffset": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "NeckScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "HeadScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "ChestScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "ArmScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "LegScale": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        },
+        "LinkBone": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "SizeRange": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        }
+      }
+    },
+    "AnimatorControllerHandleName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Unspecified",
+        "EnemyCripple",
+        "EnemyRunner",
+        "EnemyFiddler",
+        "EnemyLow",
+        "EnemyCrawlFlip",
+        "EnemyCrawl",
+        "EnemyGiant",
+        "EnemyBig",
+        "EnemyExploder",
+        "EnemyBirtherCrawlFlip",
+        "EnemyPouncer"
+      ],
+      "enum": [
+        "Unspecified",
+        "EnemyCripple",
+        "EnemyRunner",
+        "EnemyFiddler",
+        "EnemyLow",
+        "EnemyCrawlFlip",
+        "EnemyCrawl",
+        "EnemyGiant",
+        "EnemyBig",
+        "EnemyExploder",
+        "EnemyBirtherCrawlFlip",
+        "EnemyPouncer"
+      ]
+    },
+    "MaterialType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Concrete",
+        "Metal",
+        "Glass",
+        "EnemyBody",
+        "EnemyWeakspot",
+        "Plastic",
+        "Mud",
+        "Gravel",
+        "SheetMetal",
+        "Catwalk",
+        "Wood",
+        "PlayerBody",
+        "WeakLockMelee",
+        "Sand"
+      ],
+      "enum": [
+        "Concrete",
+        "Metal",
+        "Glass",
+        "EnemyBody",
+        "EnemyWeakspot",
+        "Plastic",
+        "Mud",
+        "Gravel",
+        "SheetMetal",
+        "Catwalk",
+        "Wood",
+        "PlayerBody",
+        "WeakLockMelee",
+        "Sand"
+      ]
+    },
+    "AbilityData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "AbilityPrefab": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AbilityType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AgentAbility"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Cooldown": {
+          "type": "number",
+          "format": "float"
+        },
+        "AbilityConditions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/AbilityCondition"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "AgentAbility": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Melee",
+        "Ranged",
+        "Alarm",
+        "Defensive",
+        "Healing",
+        "GroupEnhance",
+        "Detection",
+        "DoorBreaker",
+        "SpawnChildren"
+      ],
+      "enum": [
+        "None",
+        "Melee",
+        "Ranged",
+        "Alarm",
+        "Defensive",
+        "Healing",
+        "GroupEnhance",
+        "Detection",
+        "DoorBreaker",
+        "SpawnChildren"
+      ]
+    },
+    "AbilityCondition": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "BossPhase0",
+        "BossPhase1",
+        "BossPhase2",
+        "BossPhase3",
+        "BossPhase4",
+        "BossPhase5",
+        "BossStateCombat",
+        "BossStateSpawn",
+        "BossStateRage",
+        "BossStateIntro"
+      ],
+      "enum": [
+        "None",
+        "BossPhase0",
+        "BossPhase1",
+        "BossPhase2",
+        "BossPhase3",
+        "BossPhase4",
+        "BossPhase5",
+        "BossStateCombat",
+        "BossStateSpawn",
+        "BossStateRage",
+        "BossStateIntro"
+      ]
+    }
+  }
+}

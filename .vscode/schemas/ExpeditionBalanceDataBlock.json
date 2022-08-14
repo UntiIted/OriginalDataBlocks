@@ -1,0 +1,242 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfExpeditionBalanceDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ExpeditionBalanceDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ExpeditionBalanceDataBlock": {
+      "type": "object",
+      "properties": {
+        "HealthPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "DisinfectionPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeaponAmmoPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "ToolAmmoPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "CommodityValuePerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToPutCommodityInResourceContainer": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToPutArtifactInResourceContainer": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToSpawnCommodityLargePack": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToSpawnCommodityMediumPack": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChanceToReUseResourceContainer": {
+          "type": "number",
+          "format": "float"
+        },
+        "MaxPacksPerResourceContainer": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "EmptyWeakResourceContainersPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "EmptySecureResourceContainersPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "LootPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "AirPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "AirPerZoneInNoAir": {
+          "type": "number",
+          "format": "float"
+        },
+        "TerminalsPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "TentacleTraps": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/StaticEnemyData"
+            }
+          ]
+        },
+        "ParasiteNests": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/StaticEnemyData"
+            }
+          ]
+        },
+        "EnemyPatrolGroupsPerZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StaticEnemiesMaxPerZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StaticEnemiesMaxSmallArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StaticEnemiesMaxMediumArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StaticEnemiesMaxLargeArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StaticEnemiesMaxHugeArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "EnemyPopulationPerZone": {
+          "type": "number",
+          "format": "float"
+        },
+        "VoxelCoverageAreaMultiplier": {
+          "type": "number",
+          "format": "float"
+        },
+        "VoxelCoverageAreaScoringRandomMultiplier": {
+          "type": "number",
+          "format": "float"
+        },
+        "ArtifactsPerSegment": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ArtifactsPerLayer": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "WeakDoor4x4Health": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoor8x4Health": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoorChanceLockWeightNoLock": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoorChanceLockWeightMeleeLock": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoorChanceLockWeightHackableLock": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoorUnlockedChanceForOpen": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoorOpenChanceForWallRemoverUsed": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakDoorLockHealth": {
+          "type": "number",
+          "format": "float"
+        },
+        "WeakResourceContainerWithPackChanceForLocked": {
+          "type": "number",
+          "format": "float"
+        },
+        "ResourcePackSizes": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "GlueVolumeToDoorHealthConversion": {
+          "type": "number",
+          "format": "float"
+        },
+        "GlueVolumeForDoorGlueMaxState": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "StaticEnemyData": {
+      "type": "object",
+      "properties": {
+        "Health": {
+          "type": "number",
+          "format": "float"
+        },
+        "AttackDamage": {
+          "type": "number",
+          "format": "float"
+        },
+        "MaxPerZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MaxSmallArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MaxMediumArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MaxLargeArea": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MaxHugeArea": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    }
+  }
+}

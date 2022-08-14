@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfChainedPuzzleDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/ChainedPuzzleDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ChainedPuzzleDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicAlarmName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "TriggerAlarmOnActivate": {
+          "type": "boolean"
+        },
+        "SurvivalWaveSettings": {
+          "type": "integer"
+        },
+        "SurvivalWavePopulation": {
+          "type": "integer"
+        },
+        "SurvivalWaveAreaDistance": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "DisableSurvivalWaveOnComplete": {
+          "type": "boolean"
+        },
+        "UseRandomPositions": {
+          "type": "boolean"
+        },
+        "WantedDistanceFromStartPos": {
+          "type": "number",
+          "format": "float"
+        },
+        "WantedDistanceBetweenPuzzleComponents": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChainedPuzzle": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ChainedPuzzleComponent"
+          }
+        },
+        "OnlyShowHUDWhenPlayerIsClose": {
+          "type": "boolean"
+        },
+        "AlarmSoundStart": {
+          "type": "integer"
+        },
+        "AlarmSoundStop": {
+          "type": "integer"
+        }
+      }
+    },
+    "ChainedPuzzleComponent": {
+      "type": "object",
+      "properties": {
+        "PuzzleType": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

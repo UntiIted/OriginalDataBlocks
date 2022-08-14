@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfBigPickupDistributionDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/BigPickupDistributionDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "BigPickupDistributionDataBlock": {
+      "type": "object",
+      "properties": {
+        "SpawnsPerZone": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "SpawnData": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/BigPickupSpawnData"
+          }
+        }
+      }
+    },
+    "BigPickupSpawnData": {
+      "type": "object",
+      "properties": {
+        "ItemID": {
+          "type": "integer"
+        },
+        "Weight": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

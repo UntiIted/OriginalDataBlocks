@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGameplayTrailerDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GameplayTrailerDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GameplayTrailerDataBlock": {
+      "type": "object",
+      "properties": {
+        "Actions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GameplayTrailerDirectorAction"
+          }
+        }
+      }
+    },
+    "GameplayTrailerDirectorAction": {
+      "type": "object",
+      "properties": {
+        "GOPath": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Action": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/GameplayTrailerActionName"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Trigger": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/GameplayTrailerActionTrigger"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Position": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector3"
+            }
+          ]
+        }
+      }
+    },
+    "GameplayTrailerActionName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "Move",
+        "Rotate",
+        "Disable"
+      ],
+      "enum": [
+        "None",
+        "Move",
+        "Rotate",
+        "Disable"
+      ]
+    },
+    "GameplayTrailerActionTrigger": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "OnStart",
+        "OnButtonA",
+        "OnButtonB",
+        "OnButtonX",
+        "OnButtonY"
+      ],
+      "enum": [
+        "OnStart",
+        "OnButtonA",
+        "OnButtonB",
+        "OnButtonX",
+        "OnButtonY"
+      ]
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        },
+        "z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

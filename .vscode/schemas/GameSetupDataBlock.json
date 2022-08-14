@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGameSetupDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GameSetupDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GameSetupDataBlock": {
+      "type": "object",
+      "properties": {
+        "RundownIdToLoad": {
+          "type": "integer"
+        },
+        "StartupScreenToLoad": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EStartupScreenKey"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "EStartupScreenKey": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "StartupScreenData_1",
+        "StartupScreenData_2",
+        "StartupScreenData_3",
+        "StartupScreenData_4"
+      ],
+      "enum": [
+        "None",
+        "StartupScreenData_1",
+        "StartupScreenData_2",
+        "StartupScreenData_3",
+        "StartupScreenData_4"
+      ]
+    }
+  }
+}

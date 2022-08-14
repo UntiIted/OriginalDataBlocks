@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfMeleeArchetypeDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/MeleeArchetypeDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "MeleeArchetypeDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "NoiseLevel": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/DamageNoiseLevel"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ChargedAttackDamage": {
+          "type": "number",
+          "format": "float"
+        },
+        "LightAttackDamage": {
+          "type": "number",
+          "format": "float"
+        },
+        "LightStaggerMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChargedStaggerMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "LightPrecisionMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChargedPrecisionMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "LightEnvironmentMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChargedEnvironmentMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "LightBackstabberMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChargedBackstabberMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "LightSleeperMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ChargedSleeperMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "SkipLimbDestruction": {
+          "type": "boolean"
+        },
+        "CameraDamageRayLength": {
+          "type": "number",
+          "format": "float"
+        },
+        "AttackSphereRadius": {
+          "type": "number",
+          "format": "float"
+        },
+        "PushDamageSphereRadius": {
+          "type": "number",
+          "format": "float"
+        },
+        "CanHitMultipleEnemies": {
+          "type": "boolean"
+        },
+        "EvaluateHoldBeforeAttack": {
+          "type": "boolean"
+        },
+        "PlayImpactEffect": {
+          "type": "boolean"
+        },
+        "AllowRunningWhenCharging": {
+          "type": "boolean"
+        },
+        "PlayerRunSpeedMultiWhileCharging": {
+          "type": "number",
+          "format": "float"
+        },
+        "MeleeAnimationSet": {
+          "type": "integer"
+        },
+        "MeleeSFXSet": {
+          "type": "integer"
+        },
+        "ChargedAttackStaminaCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "LightAttackStaminaCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        },
+        "PushStaminaCost": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ActionCost"
+            }
+          ]
+        }
+      }
+    },
+    "DamageNoiseLevel": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Normal",
+        "Low"
+      ],
+      "enum": [
+        "Normal",
+        "Low"
+      ]
+    },
+    "ActionCost": {
+      "type": "object",
+      "properties": {
+        "baseStaminaCostInCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "baseStaminaCostOutOfCombat": {
+          "type": "number",
+          "format": "float"
+        },
+        "resetRestingTimerInCombat": {
+          "type": "boolean"
+        },
+        "resetRestingTimerOutOfCombat": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

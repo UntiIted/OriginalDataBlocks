@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfCommodityDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/CommodityDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "CommodityDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Type": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ECommodityType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PackSize": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ECommodityPackSize"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Item": {
+          "type": "integer"
+        },
+        "PlayfabCurrency": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EPlayfabCurrency"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PlayfabCurrencyValue": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ECommodityType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Artifact",
+        "PhysicalSample",
+        "LiquidSample",
+        "Data"
+      ],
+      "enum": [
+        "Artifact",
+        "PhysicalSample",
+        "LiquidSample",
+        "Data"
+      ]
+    },
+    "ECommodityPackSize": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "enum": [
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    "EPlayfabCurrency": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "CurrA",
+        "CurrB",
+        "CurrC"
+      ],
+      "enum": [
+        "CurrA",
+        "CurrB",
+        "CurrC"
+      ]
+    }
+  }
+}

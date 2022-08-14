@@ -1,0 +1,354 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfGearCategoryDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/GearCategoryDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "GearCategoryDataBlock": {
+      "type": "object",
+      "properties": {
+        "PublicName": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "BaseItem": {
+          "type": "integer"
+        },
+        "HUDIcon": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "IconRotationOffset": {
+          "type": "number",
+          "format": "float"
+        },
+        "IconZoomOffset": {
+          "type": "number",
+          "format": "float"
+        },
+        "FPSArmPoseName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ThirdPersonFullbodyMovement": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EFullbodyPlayerMovementSet"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "SemiArchetype": {
+          "type": "integer"
+        },
+        "BurstArchetype": {
+          "type": "integer"
+        },
+        "AutoArchetype": {
+          "type": "integer"
+        },
+        "SemiBurstArchetype": {
+          "type": "integer"
+        },
+        "MeleeArchetype": {
+          "type": "integer"
+        },
+        "PartAlignPriority": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/GearPartAlignPriority"
+          }
+        }
+      }
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "EFullbodyPlayerMovementSet": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Rifle",
+        "Pistol",
+        "Melee",
+        "CarryHeavy",
+        "Knife",
+        "Spear"
+      ],
+      "enum": [
+        "Rifle",
+        "Pistol",
+        "Melee",
+        "CarryHeavy",
+        "Knife",
+        "Spear"
+      ]
+    },
+    "GearPartAlignPriority": {
+      "type": "object",
+      "properties": {
+        "AlignType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EGearPartAlign"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PartPrio": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/EGearComponent"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "EGearPartAlign": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Muzzle",
+        "ShellEject",
+        "Magazine",
+        "Sight",
+        "Flashlight",
+        "SightLook",
+        "LeftHand",
+        "RightHand",
+        "Receiver",
+        "Front",
+        "ToolGrip",
+        "ToolDelivery",
+        "ToolPayload",
+        "ToolTargeting",
+        "ToolScreen",
+        "ToolDetection",
+        "ToolScanning",
+        "MeleeHead",
+        "RotationPivot",
+        "GroundPlacement"
+      ],
+      "enum": [
+        "Muzzle",
+        "ShellEject",
+        "Magazine",
+        "Sight",
+        "Flashlight",
+        "SightLook",
+        "LeftHand",
+        "RightHand",
+        "Receiver",
+        "Front",
+        "ToolGrip",
+        "ToolDelivery",
+        "ToolPayload",
+        "ToolTargeting",
+        "ToolScreen",
+        "ToolDetection",
+        "ToolScanning",
+        "MeleeHead",
+        "RotationPivot",
+        "GroundPlacement"
+      ]
+    },
+    "EGearComponent": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "FireMode",
+        "Category",
+        "BaseItem",
+        "ItemFPSSettings",
+        "AudioSetting",
+        "MuzzleFlash",
+        "ShellCasing",
+        "Pattern",
+        "Palette",
+        "DecalA",
+        "DecalB",
+        "FrontPart",
+        "FrontPartAttachmentA",
+        "FrontPartAttachmentB",
+        "FrontPartPerk",
+        "ReceiverPart",
+        "ReceiverPartAttachment",
+        "ReceiverPartPerk",
+        "StockPart",
+        "StockPartPerk",
+        "SightPart",
+        "SightPartPerk",
+        "MagPart",
+        "MagPartPerk",
+        "FlashlightPart",
+        "FlashlightPartPerk",
+        "ToolMainPart",
+        "ToolMainPartPerk",
+        "ToolMainPartAttachment",
+        "ToolGripPart",
+        "ToolGripPartPerk",
+        "ToolDeliveryType",
+        "ToolDeliveryPart",
+        "ToolDeliveryPartPerk",
+        "ToolDeliveryPartAttachment",
+        "ToolPayloadType",
+        "ToolPayloadPart",
+        "ToolPayloadPartPerk",
+        "ToolTargetingType",
+        "ToolTargetingPart",
+        "ToolTargetingPartPerk",
+        "ToolScreenPart",
+        "ToolScreenPartPerk",
+        "MeleeHeadPart",
+        "MeleeHeadPartPerk",
+        "MeleeNeckPart",
+        "MeleeNeckPartPerk",
+        "MeleeHandlePart",
+        "MeleeHandlePartPerk",
+        "MeleePommelPart",
+        "MeleePommelPartPerk",
+        "PlatformPerkAID",
+        "PlatformPerkBID",
+        "PlatformPerkCID"
+      ],
+      "enum": [
+        "None",
+        "FireMode",
+        "Category",
+        "BaseItem",
+        "ItemFPSSettings",
+        "AudioSetting",
+        "MuzzleFlash",
+        "ShellCasing",
+        "Pattern",
+        "Palette",
+        "DecalA",
+        "DecalB",
+        "FrontPart",
+        "FrontPartAttachmentA",
+        "FrontPartAttachmentB",
+        "FrontPartPerk",
+        "ReceiverPart",
+        "ReceiverPartAttachment",
+        "ReceiverPartPerk",
+        "StockPart",
+        "StockPartPerk",
+        "SightPart",
+        "SightPartPerk",
+        "MagPart",
+        "MagPartPerk",
+        "FlashlightPart",
+        "FlashlightPartPerk",
+        "ToolMainPart",
+        "ToolMainPartPerk",
+        "ToolMainPartAttachment",
+        "ToolGripPart",
+        "ToolGripPartPerk",
+        "ToolDeliveryType",
+        "ToolDeliveryPart",
+        "ToolDeliveryPartPerk",
+        "ToolDeliveryPartAttachment",
+        "ToolPayloadType",
+        "ToolPayloadPart",
+        "ToolPayloadPartPerk",
+        "ToolTargetingType",
+        "ToolTargetingPart",
+        "ToolTargetingPartPerk",
+        "ToolScreenPart",
+        "ToolScreenPartPerk",
+        "MeleeHeadPart",
+        "MeleeHeadPartPerk",
+        "MeleeNeckPart",
+        "MeleeNeckPartPerk",
+        "MeleeHandlePart",
+        "MeleeHandlePartPerk",
+        "MeleePommelPart",
+        "MeleePommelPartPerk",
+        "PlatformPerkAID",
+        "PlatformPerkBID",
+        "PlatformPerkCID"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1377 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfRundownDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/RundownDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "RundownDataBlock": {
+      "type": "object",
+      "properties": {
+        "UseTierUnlockRequirements": {
+          "type": "boolean"
+        },
+        "ReqToReachTierB": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownTierProgressionData"
+            }
+          ]
+        },
+        "ReqToReachTierC": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownTierProgressionData"
+            }
+          ]
+        },
+        "ReqToReachTierD": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownTierProgressionData"
+            }
+          ]
+        },
+        "ReqToReachTierE": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownTierProgressionData"
+            }
+          ]
+        },
+        "StorytellingData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownStorytellingData"
+            }
+          ]
+        },
+        "VanityItemLayerDropDataBlock": {
+          "type": "integer"
+        },
+        "TierA": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ExpeditionInTierData"
+          }
+        },
+        "TierB": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ExpeditionInTierData"
+          }
+        },
+        "TierC": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ExpeditionInTierData"
+          }
+        },
+        "TierD": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ExpeditionInTierData"
+          }
+        },
+        "TierE": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ExpeditionInTierData"
+          }
+        }
+      }
+    },
+    "RundownTierProgressionData": {
+      "type": "object",
+      "properties": {
+        "MainSectors": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "SecondarySectors": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ThirdSectors": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AllClearedSectors": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "RundownStorytellingData": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "TextLog": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "TextLogPos": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "Visuals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownStorytellingVisualData"
+            }
+          ]
+        },
+        "SurfaceIconPosition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Vector2"
+            }
+          ]
+        },
+        "SurfaceDescription": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "ExternalExpTitle": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LocalizedText": {
+      "type": "object",
+      "properties": {
+        "HasTranslation": {
+          "type": "boolean"
+        },
+        "HasValue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "Vector2": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "format": "float"
+        },
+        "y": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "RundownStorytellingVisualData": {
+      "type": "object",
+      "properties": {
+        "ColorBackground": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        },
+        "TierAVisuals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TierVisualData"
+            }
+          ]
+        },
+        "TierBVisuals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TierVisualData"
+            }
+          ]
+        },
+        "TierCVisuals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TierVisualData"
+            }
+          ]
+        },
+        "TierDVisuals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TierVisualData"
+            }
+          ]
+        },
+        "TierEVisuals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TierVisualData"
+            }
+          ]
+        }
+      }
+    },
+    "Color": {
+      "type": "object",
+      "properties": {
+        "r": {
+          "type": "number",
+          "format": "float"
+        },
+        "g": {
+          "type": "number",
+          "format": "float"
+        },
+        "b": {
+          "type": "number",
+          "format": "float"
+        },
+        "a": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "TierVisualData": {
+      "type": "object",
+      "properties": {
+        "Color": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        },
+        "Scale": {
+          "type": "number",
+          "format": "float"
+        },
+        "ScaleYModifier": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "ExpeditionInTierData": {
+      "type": "object",
+      "properties": {
+        "Enabled": {
+          "type": "boolean"
+        },
+        "IsSinglePlayer": {
+          "type": "boolean"
+        },
+        "SkipLobby": {
+          "type": "boolean"
+        },
+        "PutIconAboveTier": {
+          "type": "boolean"
+        },
+        "DisablePlayerVoicelines": {
+          "type": "boolean"
+        },
+        "ExcludeFromProgression": {
+          "type": "boolean"
+        },
+        "Accessibility": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EExpeditionAccessibility"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "UnlockedByExpedition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ExpeditionIndex"
+            }
+          ]
+        },
+        "CustomProgressionLock": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/RundownTierProgressionData"
+            }
+          ]
+        },
+        "Descriptive": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/DescriptiveData"
+            }
+          ]
+        },
+        "Seeds": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/BuildSeedData"
+            }
+          ]
+        },
+        "Expedition": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ExpeditionData"
+            }
+          ]
+        },
+        "VanityItemsDropData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/VanityItemsDropData"
+            }
+          ]
+        },
+        "UseGearPicker": {
+          "type": "boolean"
+        },
+        "GearPicker": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/GearPicker"
+            }
+          ]
+        },
+        "LevelLayoutData": {
+          "type": "integer"
+        },
+        "MainLayerData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LayerData"
+            }
+          ]
+        },
+        "SecondaryLayerEnabled": {
+          "type": "boolean"
+        },
+        "SecondaryLayout": {
+          "type": "integer"
+        },
+        "BuildSecondaryFrom": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/BuildLayerFromData"
+            }
+          ]
+        },
+        "SecondaryLayerData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LayerData"
+            }
+          ]
+        },
+        "ThirdLayerEnabled": {
+          "type": "boolean"
+        },
+        "ThirdLayout": {
+          "type": "integer"
+        },
+        "BuildThirdFrom": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/BuildLayerFromData"
+            }
+          ]
+        },
+        "ThirdLayerData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/LayerData"
+            }
+          ]
+        },
+        "DimensionDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/DimensionInExpeditionData"
+          }
+        },
+        "SoundEventOnWarpToReality": {
+          "type": "integer"
+        },
+        "SpecialOverrideData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SpecialExpeditionOverridesData"
+            }
+          ]
+        },
+        "HasExternalStyle": {
+          "type": "boolean"
+        },
+        "HasStoryStyle": {
+          "type": "boolean"
+        }
+      }
+    },
+    "EExpeditionAccessibility": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Normal",
+        "AlwayBlock",
+        "AlwaysAllow",
+        "BlockedAndScrambled",
+        "UseCustomProgressionLock",
+        "UnlockedByExpedition"
+      ],
+      "enum": [
+        "Normal",
+        "AlwayBlock",
+        "AlwaysAllow",
+        "BlockedAndScrambled",
+        "UseCustomProgressionLock",
+        "UnlockedByExpedition"
+      ]
+    },
+    "ExpeditionIndex": {
+      "type": "object",
+      "properties": {
+        "Tier": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ERundownTier"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Exp": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EBuildAutoExpeditionNumber"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ERundownTier": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "TierA",
+        "TierB",
+        "TierC",
+        "TierD",
+        "TierE",
+        "Surface"
+      ],
+      "enum": [
+        "TierA",
+        "TierB",
+        "TierC",
+        "TierD",
+        "TierE",
+        "Surface"
+      ]
+    },
+    "EBuildAutoExpeditionNumber": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Exp1",
+        "Exp2",
+        "Exp3",
+        "Exp4",
+        "Exp5",
+        "Exp6",
+        "Exp7"
+      ],
+      "enum": [
+        "Exp1",
+        "Exp2",
+        "Exp3",
+        "Exp4",
+        "Exp5",
+        "Exp6",
+        "Exp7"
+      ]
+    },
+    "DescriptiveData": {
+      "type": "object",
+      "properties": {
+        "Prefix": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "PublicName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "IsExtraExpedition": {
+          "type": "boolean"
+        },
+        "SkipExpNumberInName": {
+          "type": "boolean"
+        },
+        "UseCustomMatchmakingTier": {
+          "type": "boolean"
+        },
+        "CustomMatchmakingTier": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ERundownTier"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ProgressionVisualStyle": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EProgressionVisualStyle"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ExpeditionDepth": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "EstimatedDuration": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "ExpeditionDescription": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "RoleplayedWardenIntel": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/LocalizedText"
+                },
+                {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "DevInfo": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "EProgressionVisualStyle": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Normal",
+        "Story",
+        "External",
+        "ExternalStory"
+      ],
+      "enum": [
+        "Normal",
+        "Story",
+        "External",
+        "ExternalStory"
+      ]
+    },
+    "BuildSeedData": {
+      "type": "object",
+      "properties": {
+        "BuildSeed": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "FunctionMarkerOffset": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "StandardMarkerOffset": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "LightJobSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ExpeditionData": {
+      "type": "object",
+      "properties": {
+        "ComplexResourceData": {
+          "type": "integer"
+        },
+        "MLSLevelKit": {
+          "type": "integer"
+        },
+        "LightSettings": {
+          "type": "integer"
+        },
+        "FogSettings": {
+          "type": "integer"
+        },
+        "EnemyPopulation": {
+          "type": "integer"
+        },
+        "ExpeditionBalance": {
+          "type": "integer"
+        },
+        "ScoutWaveSettings": {
+          "type": "integer"
+        },
+        "ScoutWavePopulation": {
+          "type": "integer"
+        },
+        "EnvironmentWetness": {
+          "type": "number",
+          "format": "float"
+        },
+        "DustColor": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Color"
+            }
+          ]
+        },
+        "DustTurbulence": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "VanityItemsDropData": {
+      "type": "object",
+      "properties": {
+        "Groups": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "GearPicker": {
+      "type": "object",
+      "properties": {
+        "StandardGear": {
+          "type": "integer"
+        },
+        "SpecialGear": {
+          "type": "integer"
+        },
+        "ToolGear": {
+          "type": "integer"
+        },
+        "MeleeGear": {
+          "type": "integer"
+        }
+      }
+    },
+    "LayerData": {
+      "type": "object",
+      "properties": {
+        "ZonesWithBulkheadEntrance": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/ELocalZoneIndex"
+              },
+              {
+                "type": [
+                  "integer"
+                ]
+              }
+            ]
+          }
+        },
+        "BulkheadDoorControllerPlacements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/BulkheadDoorPlacementData"
+          }
+        },
+        "BulkheadKeyPlacements": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/ZonePlacementData"
+            }
+          }
+        },
+        "ObjectiveData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/WardenObjectiveLayerData"
+            }
+          ]
+        },
+        "ChainedObjectiveData": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/WardenObjectiveLayerData"
+          }
+        },
+        "ArtifactData": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ArtifactLayerData"
+            }
+          ]
+        }
+      }
+    },
+    "ELocalZoneIndex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Zone_0",
+        "Zone_1",
+        "Zone_2",
+        "Zone_3",
+        "Zone_4",
+        "Zone_5",
+        "Zone_6",
+        "Zone_7",
+        "Zone_8",
+        "Zone_9",
+        "Zone_10",
+        "Zone_11",
+        "Zone_12",
+        "Zone_13",
+        "Zone_14",
+        "Zone_15",
+        "Zone_16",
+        "Zone_17",
+        "Zone_18",
+        "Zone_19",
+        "Zone_20"
+      ],
+      "enum": [
+        "Zone_0",
+        "Zone_1",
+        "Zone_2",
+        "Zone_3",
+        "Zone_4",
+        "Zone_5",
+        "Zone_6",
+        "Zone_7",
+        "Zone_8",
+        "Zone_9",
+        "Zone_10",
+        "Zone_11",
+        "Zone_12",
+        "Zone_13",
+        "Zone_14",
+        "Zone_15",
+        "Zone_16",
+        "Zone_17",
+        "Zone_18",
+        "Zone_19",
+        "Zone_20"
+      ]
+    },
+    "BulkheadDoorPlacementData": {
+      "type": "object",
+      "properties": {
+        "ZoneIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "PlacementWeights": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        },
+        "AreaSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MarkerSeedOffset": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ZonePlacementWeights": {
+      "type": "object",
+      "properties": {
+        "Start": {
+          "type": "number",
+          "format": "float"
+        },
+        "Middle": {
+          "type": "number",
+          "format": "float"
+        },
+        "End": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "ZonePlacementData": {
+      "type": "object",
+      "properties": {
+        "DimensionIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EDimensionIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "LocalIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Weights": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ZonePlacementWeights"
+            }
+          ]
+        }
+      }
+    },
+    "EDimensionIndex": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Reality",
+        "Dimension_1",
+        "Dimension_2",
+        "Dimension_3",
+        "Dimension_4",
+        "Dimension_5",
+        "Dimension_6",
+        "Dimension_7",
+        "Dimension_8",
+        "Dimension_9",
+        "Dimension_10",
+        "Dimension_11",
+        "Dimension_12",
+        "Dimension_13",
+        "Dimension_14",
+        "Dimension_15",
+        "Dimension_16",
+        "Dimension_17",
+        "Dimension_18",
+        "Dimension_19",
+        "Dimension_20",
+        "MAX_COUNT",
+        "ARENA_DIMENSION"
+      ],
+      "enum": [
+        "Reality",
+        "Dimension_1",
+        "Dimension_2",
+        "Dimension_3",
+        "Dimension_4",
+        "Dimension_5",
+        "Dimension_6",
+        "Dimension_7",
+        "Dimension_8",
+        "Dimension_9",
+        "Dimension_10",
+        "Dimension_11",
+        "Dimension_12",
+        "Dimension_13",
+        "Dimension_14",
+        "Dimension_15",
+        "Dimension_16",
+        "Dimension_17",
+        "Dimension_18",
+        "Dimension_19",
+        "Dimension_20",
+        "MAX_COUNT",
+        "ARENA_DIMENSION"
+      ]
+    },
+    "WardenObjectiveLayerData": {
+      "type": "object",
+      "properties": {
+        "DataBlockId": {
+          "type": "integer"
+        },
+        "WinCondition": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EWardenObjectiveWinCondition"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "ZonePlacementDatas": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/ZonePlacementData"
+            }
+          }
+        }
+      }
+    },
+    "EWardenObjectiveWinCondition": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "GoToElevator",
+        "GoToExitGeo"
+      ],
+      "enum": [
+        "GoToElevator",
+        "GoToExitGeo"
+      ]
+    },
+    "ArtifactLayerData": {
+      "type": "object",
+      "properties": {
+        "ArtifactAmountMulti": {
+          "type": "number",
+          "format": "float"
+        },
+        "ArtifactLayerDistributionDataID": {
+          "type": "integer"
+        },
+        "ArtifactZoneDistributions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/ArtifactZoneDistribution"
+          }
+        }
+      }
+    },
+    "ArtifactZoneDistribution": {
+      "type": "object",
+      "properties": {
+        "Zone": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "BasicArtifactWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "AdvancedArtifactWeight": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpecializedArtifactWeight": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "BuildLayerFromData": {
+      "type": "object",
+      "properties": {
+        "LayerType": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/LG_LayerType"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "Zone": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/ELocalZoneIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LG_LayerType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "MainLayer",
+        "SecondaryLayer",
+        "ThirdLayer"
+      ],
+      "enum": [
+        "MainLayer",
+        "SecondaryLayer",
+        "ThirdLayer"
+      ]
+    },
+    "DimensionInExpeditionData": {
+      "type": "object",
+      "properties": {
+        "DimensionIndex": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/EDimensionIndex"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        },
+        "DimensionData": {
+          "type": "integer"
+        },
+        "Enabled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "SpecialExpeditionOverridesData": {
+      "type": "object",
+      "properties": {
+        "WeakResourceContainerWithPackChanceForLocked": {
+          "type": "number",
+          "format": "float"
+        },
+        "InfectionLevelAtExpeditionStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "HealthLevelAtExpeditionStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "StandardAmmoAtExpeditionStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "SpecialAmmoAtExpeditionStart": {
+          "type": "number",
+          "format": "float"
+        },
+        "ToolAmmoAtExpeditionStart": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

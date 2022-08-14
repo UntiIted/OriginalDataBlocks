@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GameDataBlockWrapperOfCloudsDataBlock",
+  "type": "object",
+  "properties": {
+    "Blocks": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "#/definitions/CloudsDataBlock"
+      }
+    }
+  },
+  "definitions": {
+    "CloudsDataBlock": {
+      "type": "object",
+      "properties": {
+        "CoverageTexture": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "CoverageSize": {
+          "type": "number",
+          "format": "float"
+        },
+        "Altitude": {
+          "type": "number",
+          "format": "float"
+        },
+        "Height": {
+          "type": "number",
+          "format": "float"
+        },
+        "Center": {
+          "type": "number",
+          "format": "float"
+        },
+        "Belly": {
+          "type": "number",
+          "format": "float"
+        },
+        "Crown": {
+          "type": "number",
+          "format": "float"
+        },
+        "Anvil": {
+          "type": "number",
+          "format": "float"
+        },
+        "Softness": {
+          "type": "number",
+          "format": "float"
+        },
+        "NoiseTexture": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "NoiseScale1": {
+          "type": "number",
+          "format": "float"
+        },
+        "NoiseIntensity1": {
+          "type": "number",
+          "format": "float"
+        },
+        "NoiseScale2": {
+          "type": "number",
+          "format": "float"
+        },
+        "NoiseIntensity2": {
+          "type": "number",
+          "format": "float"
+        },
+        "AmbientOcclusion": {
+          "type": "number",
+          "format": "float"
+        },
+        "startupShard": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/AssetBundleShard"
+            },
+            {
+              "type": [
+                "integer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "AssetBundleShard": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ]
+    }
+  }
+}
