@@ -1,12 +1,16 @@
 (enum) AgentModifier: Effect
 LocalizedText: PublicShortName
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: PublicName
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: Description
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: DescriptionNegative
    Boolean: HasTranslation
+   Boolean: HasValue
 (enum) BoosterEffectCategory: BoosterEffectCategory
 String: name
 Boolean: internalEnabled

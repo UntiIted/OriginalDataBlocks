@@ -1,39 +1,55 @@
 (enum) eWardenObjectiveType: Type
 LocalizedText: Header
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: MainObjective
    Boolean: HasTranslation
+   Boolean: HasValue
 (enum) eWardenObjectiveSpecialUpdateType: WardenObjectiveSpecialUpdateType
 (ItemDataBlock) UInt32: GenericItemFromStart
 Boolean: DoNotMarkPickupItemsAsWardenObjectives
 LocalizedText: FindLocationInfo
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: FindLocationInfoHelp
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToZone
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToZoneHelp
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: InZoneFindItem
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: InZoneFindItemHelp
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: SolveItem
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: SolveItemHelp
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToWinCondition_Elevator
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToWinConditionHelp_Elevator
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToWinCondition_CustomGeo
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToWinConditionHelp_CustomGeo
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToWinCondition_ToMainLayer
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GoToWinConditionHelp_ToMainLayer
    Boolean: HasTranslation
+   Boolean: HasValue
 Single: ShowHelpDelay
 List<GenericEnemyWaveData>: WavesOnElevatorLand
    (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
@@ -43,6 +59,7 @@ List<GenericEnemyWaveData>: WavesOnElevatorLand
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
       Boolean: HasTranslation
+      Boolean: HasValue
 List<WardenObjectiveEventData>: EventsOnElevatorLand
    (enum) eWardenObjectiveEventType: Type
    WorldEventConditionPair: Condition
@@ -59,13 +76,17 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -77,6 +98,7 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count
@@ -86,6 +108,7 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
    String: WorldEventObjectFilter
 LocalizedText: WaveOnElevatorWardenIntel
    Boolean: HasTranslation
+   Boolean: HasValue
 (FogSettingsDataBlock) UInt32: FogTransitionDataOnElevatorLand
 Single: FogTransitionDurationOnElevatorLand
 Boolean: OnActivateOnSolveItem
@@ -97,6 +120,7 @@ List<GenericEnemyWaveData>: WavesOnActivate
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
       Boolean: HasTranslation
+      Boolean: HasValue
 List<WardenObjectiveEventData>: EventsOnActivate
    (enum) eWardenObjectiveEventType: Type
    WorldEventConditionPair: Condition
@@ -113,13 +137,17 @@ List<WardenObjectiveEventData>: EventsOnActivate
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -131,6 +159,7 @@ List<WardenObjectiveEventData>: EventsOnActivate
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count
@@ -147,6 +176,7 @@ List<GenericEnemyWaveData>: WavesOnGotoWin
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
       Boolean: HasTranslation
+      Boolean: HasValue
 (enum) eRetrieveExitWaveTrigger: WaveOnGotoWinTrigger
 List<WardenObjectiveEventData>: EventsOnGotoWin
    (enum) eWardenObjectiveEventType: Type
@@ -164,13 +194,17 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -182,6 +216,7 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count
@@ -231,13 +266,17 @@ List<ReactorWaveData>: ReactorWaves
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -249,6 +288,7 @@ List<ReactorWaveData>: ReactorWaves
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -263,6 +303,7 @@ Boolean: DoNotSolveObjectiveOnReactorComplete
 String: SpecialTerminalCommand
 LocalizedText: SpecialTerminalCommandDesc
    Boolean: HasTranslation
+   Boolean: HasValue
 List<String>: PostCommandOutput
 (enum) TERM_CommandRule: SpecialCommandRule
 Int32: PowerCellsToDistribute
@@ -297,13 +338,17 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -315,6 +360,7 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count
@@ -326,17 +372,22 @@ Single: Survival_TimeToActivate
 Single: Survival_TimeToSurvive
 LocalizedText: Survival_TimerTitle
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: Survival_TimerToActivateTitle
    Boolean: HasTranslation
+   Boolean: HasValue
 Int32: GatherTerminal_SpawnCount
 Int32: GatherTerminal_RequiredCount
 String: GatherTerminal_Command
 LocalizedText: GatherTerminal_CommandHelp
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GatherTerminal_DownloadingText
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: GatherTerminal_DownloadCompleteText
    Boolean: HasTranslation
+   Boolean: HasValue
 Single: GatherTerminal_DownloadTime
 Int32: TimedTerminalSequence_NumberOfRounds
 Int32: TimedTerminalSequence_NumberOfTerminals
@@ -360,13 +411,17 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceStar
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -378,6 +433,7 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceStar
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count
@@ -401,13 +457,17 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceDone
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -419,6 +479,7 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceDone
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count
@@ -442,13 +503,17 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceFail
    Boolean: ClearDimension
    LocalizedText: WardenIntel
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjectiveHeader
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: CustomSubObjective
       Boolean: HasTranslation
+      Boolean: HasValue
    UInt32: SoundID
    LocalizedText: SoundSubtitle
       Boolean: HasTranslation
+      Boolean: HasValue
    (PlayerDialogDataBlock) UInt32: DialogueID
    (FogSettingsDataBlock) UInt32: FogSetting
    Single: FogTransitionDuration
@@ -460,6 +525,7 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceFail
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
          Boolean: HasTranslation
+         Boolean: HasValue
    UInt32: EnemyID
    Vector3: Position
    Int32: Count

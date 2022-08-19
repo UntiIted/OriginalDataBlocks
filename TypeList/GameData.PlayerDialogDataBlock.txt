@@ -23,6 +23,7 @@ List<DialogStructureHolder>: dialogAlternatives
          Single: exit
          LocalizedText: Subtitle
             Boolean: HasTranslation
+            Boolean: HasValue
    DialogActorSettings: ActorA
       (enum) DialogCharFilter: charFilter
       (enum) List<DialogCondition>: conditions

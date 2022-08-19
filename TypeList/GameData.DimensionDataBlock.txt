@@ -49,6 +49,7 @@ DimensionData: DimensionData
          String: FileName
          LocalizedText: FileContent
             Boolean: HasTranslation
+            Boolean: HasValue
          (enum) Language: FileContentOriginalLanguage
          UInt32: AttachedAudioFile
          Int32: AttachedAudioByteSize
@@ -57,10 +58,12 @@ DimensionData: DimensionData
          String: Command
          LocalizedText: CommandDesc
             Boolean: HasTranslation
+            Boolean: HasValue
          List<TerminalOutput>: PostCommandOutputs
             (enum) TerminalLineType: LineType
             LocalizedText: Output
                Boolean: HasTranslation
+               Boolean: HasValue
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
             (enum) eWardenObjectiveEventType: Type
@@ -78,13 +81,17 @@ DimensionData: DimensionData
             Boolean: ClearDimension
             LocalizedText: WardenIntel
                Boolean: HasTranslation
+               Boolean: HasValue
             LocalizedText: CustomSubObjectiveHeader
                Boolean: HasTranslation
+               Boolean: HasValue
             LocalizedText: CustomSubObjective
                Boolean: HasTranslation
+               Boolean: HasValue
             UInt32: SoundID
             LocalizedText: SoundSubtitle
                Boolean: HasTranslation
+               Boolean: HasValue
             (PlayerDialogDataBlock) UInt32: DialogueID
             (FogSettingsDataBlock) UInt32: FogSetting
             Single: FogTransitionDuration
@@ -96,6 +103,7 @@ DimensionData: DimensionData
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
                   Boolean: HasTranslation
+                  Boolean: HasValue
             UInt32: EnemyID
             Vector3: Position
             Int32: Count
@@ -109,6 +117,7 @@ DimensionData: DimensionData
          Boolean: UseCustomInfoText
          LocalizedText: CustomInfoText
             Boolean: HasTranslation
+            Boolean: HasValue
          Boolean: KeepShowingLocalLogCount
          UInt32: AudioEventEnter
          UInt32: AudioEventExit
@@ -141,13 +150,17 @@ DimensionData: DimensionData
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -159,6 +172,7 @@ DimensionData: DimensionData
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count

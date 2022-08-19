@@ -50,13 +50,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -68,6 +72,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -91,13 +96,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -109,6 +118,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -132,13 +142,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -150,6 +164,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -173,13 +188,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -191,6 +210,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -214,13 +234,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -232,6 +256,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -255,13 +280,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -273,6 +302,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -296,13 +326,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -314,6 +348,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -338,13 +373,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -356,6 +395,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -367,6 +407,7 @@ List<ExpeditionZoneData>: Zones
       (enum) eProgressionPuzzleType: PuzzleType
       LocalizedText: CustomText
          Boolean: HasTranslation
+         Boolean: HasValue
       Int32: PlacementCount
       List<ZonePlacementData>: ZonePlacementData
          (enum) eDimensionIndex: DimensionIndex
@@ -403,13 +444,17 @@ List<ExpeditionZoneData>: Zones
       Boolean: ClearDimension
       LocalizedText: WardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjectiveHeader
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: CustomSubObjective
          Boolean: HasTranslation
+         Boolean: HasValue
       UInt32: SoundID
       LocalizedText: SoundSubtitle
          Boolean: HasTranslation
+         Boolean: HasValue
       (PlayerDialogDataBlock) UInt32: DialogueID
       (FogSettingsDataBlock) UInt32: FogSetting
       Single: FogTransitionDuration
@@ -421,6 +466,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
             Boolean: HasTranslation
+            Boolean: HasValue
       UInt32: EnemyID
       Vector3: Position
       Int32: Count
@@ -452,13 +498,17 @@ List<ExpeditionZoneData>: Zones
          Boolean: ClearDimension
          LocalizedText: WardenIntel
             Boolean: HasTranslation
+            Boolean: HasValue
          LocalizedText: CustomSubObjectiveHeader
             Boolean: HasTranslation
+            Boolean: HasValue
          LocalizedText: CustomSubObjective
             Boolean: HasTranslation
+            Boolean: HasValue
          UInt32: SoundID
          LocalizedText: SoundSubtitle
             Boolean: HasTranslation
+            Boolean: HasValue
          (PlayerDialogDataBlock) UInt32: DialogueID
          (FogSettingsDataBlock) UInt32: FogSetting
          Single: FogTransitionDuration
@@ -470,6 +520,7 @@ List<ExpeditionZoneData>: Zones
             Boolean: TriggerAlarm
             LocalizedText: IntelMessage
                Boolean: HasTranslation
+               Boolean: HasValue
          UInt32: EnemyID
          Vector3: Position
          Int32: Count
@@ -515,6 +566,7 @@ List<ExpeditionZoneData>: Zones
          String: FileName
          LocalizedText: FileContent
             Boolean: HasTranslation
+            Boolean: HasValue
          (enum) Language: FileContentOriginalLanguage
          UInt32: AttachedAudioFile
          Int32: AttachedAudioByteSize
@@ -523,10 +575,12 @@ List<ExpeditionZoneData>: Zones
          String: Command
          LocalizedText: CommandDesc
             Boolean: HasTranslation
+            Boolean: HasValue
          List<TerminalOutput>: PostCommandOutputs
             (enum) TerminalLineType: LineType
             LocalizedText: Output
                Boolean: HasTranslation
+               Boolean: HasValue
             Single: Time
          List<WardenObjectiveEventData>: CommandEvents
             (enum) eWardenObjectiveEventType: Type
@@ -544,13 +598,17 @@ List<ExpeditionZoneData>: Zones
             Boolean: ClearDimension
             LocalizedText: WardenIntel
                Boolean: HasTranslation
+               Boolean: HasValue
             LocalizedText: CustomSubObjectiveHeader
                Boolean: HasTranslation
+               Boolean: HasValue
             LocalizedText: CustomSubObjective
                Boolean: HasTranslation
+               Boolean: HasValue
             UInt32: SoundID
             LocalizedText: SoundSubtitle
                Boolean: HasTranslation
+               Boolean: HasValue
             (PlayerDialogDataBlock) UInt32: DialogueID
             (FogSettingsDataBlock) UInt32: FogSetting
             Single: FogTransitionDuration
@@ -562,6 +620,7 @@ List<ExpeditionZoneData>: Zones
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
                   Boolean: HasTranslation
+                  Boolean: HasValue
             UInt32: EnemyID
             Vector3: Position
             Int32: Count
@@ -575,6 +634,7 @@ List<ExpeditionZoneData>: Zones
          Boolean: UseCustomInfoText
          LocalizedText: CustomInfoText
             Boolean: HasTranslation
+            Boolean: HasValue
          Boolean: KeepShowingLocalLogCount
          UInt32: AudioEventEnter
          UInt32: AudioEventExit

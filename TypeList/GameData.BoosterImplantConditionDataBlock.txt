@@ -1,10 +1,13 @@
 (enum) BoosterCondition: Condition
 LocalizedText: PublicShortName
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: PublicName
    Boolean: HasTranslation
+   Boolean: HasValue
 LocalizedText: Description
    Boolean: HasTranslation
+   Boolean: HasValue
 String: IconPath
 String: name
 Boolean: internalEnabled

@@ -22,8 +22,10 @@ RundownTierProgressionData: ReqToReachTierE
 RundownStorytellingData: StorytellingData
    LocalizedText: Title
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: TextLog
       Boolean: HasTranslation
+      Boolean: HasValue
    Vector2: TextLogPos
    RundownStorytellingVisualData: Visuals
       Color: ColorBackground
@@ -50,8 +52,10 @@ RundownStorytellingData: StorytellingData
    Vector2: SurfaceIconPosition
    LocalizedText: SurfaceDescription
       Boolean: HasTranslation
+      Boolean: HasValue
    LocalizedText: ExternalExpTitle
       Boolean: HasTranslation
+      Boolean: HasValue
 (VanityItemsLayerDropsDataBlock) UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
    Boolean: Enabled
@@ -80,10 +84,13 @@ List<ExpeditionInTierData>: TierA
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: ExpeditionDescription
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: RoleplayedWardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -297,10 +304,13 @@ List<ExpeditionInTierData>: TierB
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: ExpeditionDescription
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: RoleplayedWardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -514,10 +524,13 @@ List<ExpeditionInTierData>: TierC
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: ExpeditionDescription
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: RoleplayedWardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -731,10 +744,13 @@ List<ExpeditionInTierData>: TierD
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: ExpeditionDescription
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: RoleplayedWardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
@@ -948,10 +964,13 @@ List<ExpeditionInTierData>: TierE
       Int32: ExpeditionDepth
       LocalizedText: EstimatedDuration
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: ExpeditionDescription
          Boolean: HasTranslation
+         Boolean: HasValue
       LocalizedText: RoleplayedWardenIntel
          Boolean: HasTranslation
+         Boolean: HasValue
       String: DevInfo
    BuildSeedData: Seeds
       Int32: BuildSeed
