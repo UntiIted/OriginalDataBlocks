@@ -699,6 +699,22 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso011Garden/Torso011Garden.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso004Dauda/Torso004DaudaGamescom.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs004Dauda/Legs004DaudaGamescom.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack004Dauda/Backpack004DaudaGamescom.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette025Red.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "VanityItems",

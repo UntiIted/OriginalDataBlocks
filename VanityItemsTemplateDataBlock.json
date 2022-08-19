@@ -367,6 +367,16 @@
       "persistentID": 100
     },
     {
+      "publicName": "Commando Rhino Bush Vest",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso004Dauda/Torso004DaudaGamescom.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso004Dauda.png",
+      "name": "Torso012Gamescom",
+      "internalEnabled": true,
+      "persistentID": 103
+    },
+    {
       "publicName": "Burlap Dexterity",
       "type": "Legs",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs001/Legs001.prefab",
@@ -485,6 +495,16 @@
       "name": "Legs011Garden",
       "internalEnabled": true,
       "persistentID": 101
+    },
+    {
+      "publicName": "Commando Mudcrawler Bush Pants",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs004Dauda/Legs004DaudaGamescom.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs004Dauda.png",
+      "name": "Legs012Gamescom",
+      "internalEnabled": true,
+      "persistentID": 102
     },
     {
       "publicName": "Insight Canteen Runner",
@@ -625,6 +645,16 @@
       "name": "Backpack015Construction",
       "internalEnabled": true,
       "persistentID": 81
+    },
+    {
+      "publicName": "Commando Brawler Bush Pack",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack004Dauda/Backpack004DaudaGamescom.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack004Dauda.png",
+      "name": "Backpack016Gamescom",
+      "internalEnabled": true,
+      "persistentID": 105
     },
     {
       "publicName": "Bark Half-Life",
@@ -807,6 +837,16 @@
       "persistentID": 93
     },
     {
+      "publicName": "Crimson Grit",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette025Red.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette025Red",
+      "internalEnabled": true,
+      "persistentID": 107
+    },
+    {
       "publicName": "Subterranean Garden",
       "type": "Palette",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette021Garden.prefab",
@@ -827,5 +867,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 101
+  "LastPersistentID": 107
 }

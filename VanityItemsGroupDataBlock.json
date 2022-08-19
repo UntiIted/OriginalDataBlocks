@@ -97,6 +97,17 @@
     },
     {
       "Items": [
+        103,
+        102,
+        105,
+        107
+      ],
+      "name": "Gamescom2022 DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "Items": [
         5,
         18,
         19,
@@ -297,5 +308,5 @@
       "persistentID": 30
     }
   ],
-  "LastPersistentID": 31
+  "LastPersistentID": 32
 }
