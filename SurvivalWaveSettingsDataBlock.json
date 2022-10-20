@@ -75,12 +75,64 @@
     {
       "m_pauseBeforeStart": 3.0,
       "m_pauseBetweenGroups": 6.0,
-      "m_wavePauseMin_atCost": 4.0,
+      "m_wavePauseMin_atCost": 3.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 4.0,
+      "m_wavePauseMax": 30.0,
+      "m_populationFilter": [
+        "Boss"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 15.0,
+      "m_populationPointsPerWaveEnd": 25.0,
+      "m_populationPointsMinPerGroup": 10.0,
+      "m_populationPointsPerGroupStart": 10.0,
+      "m_populationPointsPerGroupEnd": 25.0,
+      "m_populationRampOverTime": 60.0,
+      "name": "Apex R1D1",
+      "internalEnabled": true,
+      "persistentID": 235
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 5.0,
+      "m_wavePauseMin_atCost": 3.0,
       "m_wavePauseMax_atCost": 10.0,
       "m_wavePauseMin": 3.0,
       "m_wavePauseMax": 30.0,
       "m_populationFilter": [
-        "Weakling"
+        "Standard"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 15.0,
+      "m_populationPointsPerWaveEnd": 25.0,
+      "m_populationPointsMinPerGroup": 5.0,
+      "m_populationPointsPerGroupStart": 5.0,
+      "m_populationPointsPerGroupEnd": 10.0,
+      "m_populationRampOverTime": 200.0,
+      "name": "Apex_Bullrush",
+      "internalEnabled": true,
+      "persistentID": 228
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 6.0,
+      "m_wavePauseMin_atCost": 4.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 4.0,
+      "m_wavePauseMax": 30.0,
+      "m_populationFilter": [
+        "Boss"
       ],
       "m_filterType": "Exclude",
       "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
@@ -89,7 +141,7 @@
       "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
       "m_populationPointsTotal": -1.0,
       "m_populationPointsPerWaveStart": 14.0,
-      "m_populationPointsPerWaveEnd": 23.0,
+      "m_populationPointsPerWaveEnd": 21.0,
       "m_populationPointsMinPerGroup": 5.0,
       "m_populationPointsPerGroupStart": 5.0,
       "m_populationPointsPerGroupEnd": 14.0,
@@ -1197,6 +1249,33 @@
     },
     {
       "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 3.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "MiniBoss",
+        "Boss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": 12.0,
+      "m_populationPointsPerWaveStart": 12.0,
+      "m_populationPointsPerWaveEnd": 12.0,
+      "m_populationPointsMinPerGroup": 3.0,
+      "m_populationPointsPerGroupStart": 5.0,
+      "m_populationPointsPerGroupEnd": 5.0,
+      "m_populationRampOverTime": 120.0,
+      "name": "Finite 12 MBB R2B1 Extraction",
+      "internalEnabled": true,
+      "persistentID": 227
+    },
+    {
+      "m_pauseBeforeStart": 1.0,
       "m_pauseBetweenGroups": 1.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 8.0,
@@ -1849,13 +1928,14 @@
       "persistentID": 97
     },
     {
-      "m_pauseBeforeStart": 10.0,
-      "m_pauseBetweenGroups": 6.0,
+      "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 3.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 10.0,
       "m_wavePauseMin": 1.0,
       "m_wavePauseMax": 20.0,
       "m_populationFilter": [
+        "MiniBoss",
         "Boss"
       ],
       "m_filterType": "Include",
@@ -1863,13 +1943,13 @@
       "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
       "m_overrideWaveSpawnType": false,
       "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
-      "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 4.0,
-      "m_populationPointsPerWaveEnd": 4.0,
+      "m_populationPointsTotal": 12.0,
+      "m_populationPointsPerWaveStart": 12.0,
+      "m_populationPointsPerWaveEnd": 12.0,
       "m_populationPointsMinPerGroup": 3.0,
       "m_populationPointsPerGroupStart": 5.0,
       "m_populationPointsPerGroupEnd": 5.0,
-      "m_populationRampOverTime": 0.0,
+      "m_populationRampOverTime": 120.0,
       "name": "Trickle 4-6 B",
       "internalEnabled": true,
       "persistentID": 16
@@ -2052,8 +2132,8 @@
       "m_overrideWaveSpawnType": false,
       "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
       "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 3.0,
-      "m_populationPointsPerWaveEnd": 4.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
       "m_populationPointsMinPerGroup": 2.0,
       "m_populationPointsPerGroupStart": 3.0,
       "m_populationPointsPerGroupEnd": 4.0,
@@ -2145,6 +2225,34 @@
       "name": "Trickle 3-30 SSpB",
       "internalEnabled": true,
       "persistentID": 147
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 30.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Standard",
+        "Boss",
+        "Special"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 10.0,
+      "m_populationRampOverTime": 1800.0,
+      "name": "Trickle 3-30 SSpB R2E1",
+      "internalEnabled": true,
+      "persistentID": 229
     },
     {
       "m_pauseBeforeStart": 0.0,
@@ -2937,6 +3045,58 @@
       "persistentID": 14
     },
     {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 8.0,
+      "m_wavePauseMin_atCost": 5.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 5.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 1.0,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 2.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 45.0,
+      "name": "Exit Trickle 3-8 Rundown001 C1",
+      "internalEnabled": true,
+      "persistentID": 230
+    },
+    {
+      "m_pauseBeforeStart": 5.0,
+      "m_pauseBetweenGroups": 10.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Standard"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Exit Trickle 5-10 Rundown002 C1",
+      "internalEnabled": true,
+      "persistentID": 231
+    },
+    {
       "m_pauseBeforeStart": 5.0,
       "m_pauseBetweenGroups": 40.0,
       "m_wavePauseMin_atCost": 1.0,
@@ -3174,6 +3334,32 @@
       "name": "Exit Trickle 1-8 S",
       "internalEnabled": true,
       "persistentID": 11
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 8.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 2.0,
+      "m_populationPointsPerGroupEnd": 4.0,
+      "m_populationRampOverTime": 60.0,
+      "name": "Rundown001_C1 Exit Trickle",
+      "internalEnabled": true,
+      "persistentID": 234
     },
     {
       "m_pauseBeforeStart": 0.0,
@@ -5101,6 +5287,32 @@
       "persistentID": 7
     },
     {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 5.0,
+      "m_wavePauseMin_atCost": 3.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 3.0,
+      "m_wavePauseMax": 30.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": 22.0,
+      "m_populationPointsPerWaveStart": 22.0,
+      "m_populationPointsPerWaveEnd": 22.0,
+      "m_populationPointsMinPerGroup": 5.0,
+      "m_populationPointsPerGroupStart": 5.0,
+      "m_populationPointsPerGroupEnd": 10.0,
+      "m_populationRampOverTime": 50.0,
+      "name": "Rundown001_C1_Reactor Original",
+      "internalEnabled": true,
+      "persistentID": 233
+    },
+    {
       "m_pauseBeforeStart": 0.0,
       "m_pauseBetweenGroups": 1.0,
       "m_wavePauseMin_atCost": 3.0,
@@ -5362,6 +5574,33 @@
       "name": "Reactor 3 MB",
       "internalEnabled": true,
       "persistentID": 22
+    },
+    {
+      "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 5.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "MiniBoss",
+        "Boss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": 3.0,
+      "m_populationPointsPerWaveStart": 3.0,
+      "m_populationPointsPerWaveEnd": 3.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 1.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Reactor 3 MB LessPop R2D2",
+      "internalEnabled": true,
+      "persistentID": 232
     },
     {
       "m_pauseBeforeStart": 1.0,
@@ -5844,5 +6083,5 @@
       "persistentID": 188
     }
   ],
-  "LastPersistentID": 226
+  "LastPersistentID": 235
 }

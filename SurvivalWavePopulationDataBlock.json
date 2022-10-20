@@ -37,6 +37,26 @@
       "persistentID": 1
     },
     {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 11,
+      "WaveRoleSpecial": 16,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 33,
+      "name": "Baseline_Hybrids R1D1",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 33,
+      "WaveRoleBoss": 33,
+      "name": "Baseline Rapid Shooter R2D2",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
       "WaveRoleWeakling": 21,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 11,
@@ -65,6 +85,16 @@
       "name": "Baseline M-Hybrid No Shooter",
       "internalEnabled": true,
       "persistentID": 11
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 13,
+      "WaveRoleMiniBoss": 13,
+      "WaveRoleBoss": 33,
+      "name": "Baseline Rapid R2E1",
+      "internalEnabled": true,
+      "persistentID": 48
     },
     {
       "WaveRoleWeakling": 21,
@@ -147,6 +177,16 @@
       "persistentID": 9
     },
     {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 33,
+      "WaveRoleMiniBoss": 11,
+      "WaveRoleBoss": 11,
+      "name": "Modified Rapid Shooter R2E1",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
       "WaveRoleWeakling": 16,
       "WaveRoleStandard": 16,
       "WaveRoleSpecial": 16,
@@ -225,6 +265,16 @@
       "name": "Bullrush",
       "internalEnabled": true,
       "persistentID": 5
+    },
+    {
+      "WaveRoleWeakling": 30,
+      "WaveRoleStandard": 30,
+      "WaveRoleSpecial": 30,
+      "WaveRoleMiniBoss": 30,
+      "WaveRoleBoss": 30,
+      "name": "Bullrush_Only",
+      "internalEnabled": true,
+      "persistentID": 47
     },
     {
       "WaveRoleWeakling": 39,
@@ -330,6 +380,36 @@
       "WaveRoleWeakling": 21,
       "WaveRoleStandard": 31,
       "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 33,
+      "name": "Rundown002_D2_Baseline_Reactor",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 31,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 18,
+      "name": "Rundown001_C1_Baseline_Reactor",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 31,
+      "WaveRoleSpecial": 11,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 18,
+      "name": "Baseline_Reactor_Kind - Rundown001 C1",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 31,
+      "WaveRoleSpecial": 11,
       "WaveRoleMiniBoss": 33,
       "WaveRoleBoss": 16,
       "name": "Baseline Reactor M-Hybrid",
@@ -365,6 +445,16 @@
       "name": "Shadows",
       "internalEnabled": true,
       "persistentID": 7
+    },
+    {
+      "WaveRoleWeakling": 21,
+      "WaveRoleStandard": 21,
+      "WaveRoleSpecial": 21,
+      "WaveRoleMiniBoss": 21,
+      "WaveRoleBoss": 21,
+      "name": "Shadows_Only",
+      "internalEnabled": true,
+      "persistentID": 51
     },
     {
       "WaveRoleWeakling": 35,
@@ -467,5 +557,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 45
+  "LastPersistentID": 54
 }

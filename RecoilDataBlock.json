@@ -1490,9 +1490,9 @@
         "Min": 0.8,
         "Max": 1.0
       },
-      "spring": 1.0,
+      "spring": 1.3,
       "dampening": 10.0,
-      "hipFireCrosshairSizeDefault": 170.0,
+      "hipFireCrosshairSizeDefault": 160.0,
       "hipFireCrosshairRecoilPop": 40.0,
       "hipFireCrosshairSizeMax": 250.0,
       "horizontalScale": {
@@ -1545,7 +1545,7 @@
       },
       "spring": 1.3,
       "dampening": 13.0,
-      "hipFireCrosshairSizeDefault": 175.0,
+      "hipFireCrosshairSizeDefault": 190.0,
       "hipFireCrosshairRecoilPop": 40.0,
       "hipFireCrosshairSizeMax": 280.0,
       "horizontalScale": {

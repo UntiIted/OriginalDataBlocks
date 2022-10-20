@@ -133,7 +133,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Headgear006.png",
       "name": "Headgear006",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 72
     },
     {
@@ -173,7 +173,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Headgear011.png",
       "name": "Headgear010",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 66
     },
     {
@@ -203,7 +203,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Headgear013Lab.png",
       "name": "Headgear013Lab",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 79
     },
     {
@@ -217,7 +217,7 @@
       "persistentID": 83
     },
     {
-      "publicName": "Headgear015Construction",
+      "publicName": "Omneco Pro-Tech Mark I",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015Construction/Headgear015Construction.prefab",
       "DropWeight": 1.0,
@@ -235,6 +235,16 @@
       "name": "Headgear016Security",
       "internalEnabled": true,
       "persistentID": 85
+    },
+    {
+      "publicName": "Kovac Red Ranger",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityHalloween/Headgear016SecurityHalloween.prefab",
+      "DropWeight": 1.1,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear016Security.png",
+      "name": "Headgear016SecurityHalloween",
+      "internalEnabled": true,
+      "persistentID": 108
     },
     {
       "publicName": "Kovac Carrier model I",
@@ -313,7 +323,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Torso006.png",
       "name": "Torso006",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 67
     },
     {
@@ -333,7 +343,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Torso008Construction.png",
       "name": "Torso008Construction",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 73
     },
     {
@@ -343,7 +353,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Torso009Lab.png",
       "name": "Torso009Lab",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 77
     },
     {
@@ -363,7 +373,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Torso011Garden.png",
       "name": "Torso011Garden",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 100
     },
     {
@@ -385,6 +395,16 @@
       "name": "Legs001",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "publicName": "Rough Cut",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs002Hackett/Legs002Hackett.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs002Hackett.png",
+      "name": "Legs002Hackett",
+      "internalEnabled": true,
+      "persistentID": 10
     },
     {
       "publicName": "Rough Dexterity",
@@ -443,7 +463,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Legs006.png",
       "name": "Legs006",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 71
     },
     {
@@ -463,7 +483,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Legs008Construction.png",
       "name": "Legs008Construction",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 75
     },
     {
@@ -473,7 +493,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Legs009Lab.png",
       "name": "Legs009Lab",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 78
     },
     {
@@ -493,7 +513,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Legs011Garden.png",
       "name": "Legs011Garden",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 101
     },
     {
@@ -593,7 +613,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Backpack010.png",
       "name": "Backpack010",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 74
     },
     {
@@ -603,7 +623,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Backpack011Lab.png",
       "name": "Backpack011Lab",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 76
     },
     {
@@ -623,7 +643,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Backpack013Security.png",
       "name": "Backpack013Security",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 70
     },
     {
@@ -643,7 +663,7 @@
       "DropWeight": 1.0,
       "icon": "Assets/Source/UI/VanityItemIcons/Backpack015Construction.png",
       "name": "Backpack015Construction",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 81
     },
     {
@@ -747,16 +767,6 @@
       "persistentID": 53
     },
     {
-      "publicName": "Rough Cut",
-      "type": "Legs",
-      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs002Hackett/Legs002Hackett.prefab",
-      "DropWeight": 1.0,
-      "icon": "Assets/Source/UI/VanityItemIcons/Legs002Hackett.png",
-      "name": "Legs002Hackett",
-      "internalEnabled": true,
-      "persistentID": 10
-    },
-    {
       "publicName": "Miracle",
       "type": "Palette",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette015Miracle.prefab",
@@ -833,7 +843,7 @@
       "DropWeight": 1.0,
       "icon": "",
       "name": "Palette023Construction",
-      "internalEnabled": true,
+      "internalEnabled": false,
       "persistentID": 93
     },
     {
@@ -867,5 +877,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 107
+  "LastPersistentID": 108
 }

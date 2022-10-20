@@ -23,6 +23,10 @@
     {
       "AboveBlockID": 28,
       "LabelText": "R7 Completed Drops"
+    },
+    {
+      "AboveBlockID": 36,
+      "LabelText": "ALT Drops"
     }
   ],
   "Blocks": [
@@ -105,6 +109,26 @@
       "name": "Gamescom2022 DONOTDELETE",
       "internalEnabled": true,
       "persistentID": 32
+    },
+    {
+      "Items": [
+        108
+      ],
+      "name": "Halloween2022 DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "Items": [],
+      "name": "BlackFriday2022 DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "Items": [],
+      "name": "ChineseNewYear2023 DONOTDELETE",
+      "internalEnabled": true,
+      "persistentID": 35
     },
     {
       "Items": [
@@ -306,7 +330,74 @@
       "name": "R7OverloadCompletedDrops",
       "internalEnabled": true,
       "persistentID": 30
+    },
+    {
+      "Items": [
+        5,
+        18,
+        19,
+        20,
+        21,
+        33,
+        34,
+        35,
+        2,
+        17,
+        41,
+        9,
+        24,
+        12,
+        4,
+        10,
+        16,
+        23,
+        13,
+        3,
+        15,
+        11,
+        22,
+        14,
+        7,
+        25,
+        26,
+        30,
+        31,
+        32,
+        83,
+        82,
+        86,
+        98,
+        45,
+        46,
+        47,
+        48,
+        40,
+        49,
+        43,
+        36,
+        37,
+        54,
+        56,
+        42,
+        38,
+        51,
+        52,
+        68,
+        69,
+        80
+      ],
+      "name": "MainDrops",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "Items": [
+        84
+      ],
+      "name": "R1Completion",
+      "internalEnabled": true,
+      "persistentID": 37
     }
   ],
-  "LastPersistentID": 32
+  "LastPersistentID": 37
 }

@@ -7,6 +7,14 @@
     {
       "AboveBlockID": 9,
       "LabelText": "Tech"
+    },
+    {
+      "AboveBlockID": 42,
+      "LabelText": "Mining Alt"
+    },
+    {
+      "AboveBlockID": 66,
+      "LabelText": "Tech Alt"
     }
   ],
   "Blocks": [
@@ -1065,7 +1073,1063 @@
       "name": "PickUp_MemoryStick_Interactable",
       "internalEnabled": true,
       "persistentID": 39
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Baseline_c1_r3_Alt",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "SpawnsPerZone": 4,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 4.0
+        }
+      ],
+      "name": "Baseline_a2_r3_Alt",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "SpawnsPerZone": 7,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 115,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 174,
+          "Weight": 0.25
+        }
+      ],
+      "name": "ExplorationFog_Alt",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
+      "SpawnsPerZone": 7,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        }
+      ],
+      "name": "OnlyFogReps_Alt",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 174,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 139,
+          "Weight": 0.5
+        }
+      ],
+      "name": "ExplorationDark_Alt",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 174,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        }
+      ],
+      "name": "Darkness_Alt",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 6.0
+        }
+      ],
+      "name": "Baseline_small_Alt",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "SpawnsPerZone": 3,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "CombatFog_medium_Alt",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "SpawnsPerZone": 14,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 4.0
+        }
+      ],
+      "name": "CombatMelee_Storage_Alt",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
+      "SpawnsPerZone": 14,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 4.0
+        }
+      ],
+      "name": "Combat_MineFocus_Storage_Alt",
+      "internalEnabled": true,
+      "persistentID": 51
+    },
+    {
+      "SpawnsPerZone": 18,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        }
+      ],
+      "name": "CombatMelee_Storage_lessMelee_Alt",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
+      "SpawnsPerZone": 9,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 6.0
+        }
+      ],
+      "name": "CombatMelee_Storage_Medium_Alt",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "CombatFog_BiggerMedium_Alt",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "SpawnsPerZone": 3,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Small_foam_Alt",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 3.0
+        }
+      ],
+      "name": "Small_Foam_Alt",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 3.0
+        }
+      ],
+      "name": "Small_explosives_Tripmine_Alt",
+      "internalEnabled": true,
+      "persistentID": 57
+    },
+    {
+      "SpawnsPerZone": 3,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Small_fog_Alt",
+      "internalEnabled": true,
+      "persistentID": 58
+    },
+    {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Tiny_fog_Alt",
+      "internalEnabled": true,
+      "persistentID": 59
+    },
+    {
+      "SpawnsPerZone": 3,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Small_C-foam_Alt",
+      "internalEnabled": true,
+      "persistentID": 60
+    },
+    {
+      "SpawnsPerZone": 8,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Abundant C-foam_Alt",
+      "internalEnabled": true,
+      "persistentID": 61
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 14.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Baseline_Alt",
+      "internalEnabled": true,
+      "persistentID": 62
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 12.0
+        }
+      ],
+      "name": "Baseline_Fog_Alt",
+      "internalEnabled": true,
+      "persistentID": 63
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 4.0
+        }
+      ],
+      "name": "Baseline_c2_r6_Alt",
+      "internalEnabled": true,
+      "persistentID": 64
+    },
+    {
+      "SpawnsPerZone": 50,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 14.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Baseline_lots_in_containers_Alt",
+      "internalEnabled": true,
+      "persistentID": 65
+    },
+    {
+      "SpawnsPerZone": 9,
+      "ChanceToSpawnInResourceContainer": 0.2,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 7.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 11.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 11.0
+        }
+      ],
+      "name": "Baseline_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 66
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.2,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 4.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 7.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 11.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 11.0
+        }
+      ],
+      "name": "Baseline_small_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 67
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.4,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 8.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 7.0
+        }
+      ],
+      "name": "Baseline_small_Tech_R4_Alt",
+      "internalEnabled": true,
+      "persistentID": 68
+    },
+    {
+      "SpawnsPerZone": 6,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 1.5
+        },
+        {
+          "ItemID": 115,
+          "Weight": 0.7
+        },
+        {
+          "ItemID": 117,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 144,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Baseline_small_Tech_R4_fog_Alt",
+      "internalEnabled": true,
+      "persistentID": 69
+    },
+    {
+      "SpawnsPerZone": 8,
+      "ChanceToSpawnInResourceContainer": 0.8,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 115,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 174,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 140,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 142,
+          "Weight": 0.5
+        }
+      ],
+      "name": "ExplorationFog_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 70
+    },
+    {
+      "SpawnsPerZone": 7,
+      "ChanceToSpawnInResourceContainer": 0.2,
+      "SpawnData": [
+        {
+          "ItemID": 174,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 30,
+          "Weight": 0.75
+        },
+        {
+          "ItemID": 115,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 140,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 2.0
+        }
+      ],
+      "name": "ExplorationDark_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 71
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 174,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 30,
+          "Weight": 0.75
+        },
+        {
+          "ItemID": 115,
+          "Weight": 0.2
+        },
+        {
+          "ItemID": 116,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 140,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 142,
+          "Weight": 0.5
+        },
+        {
+          "ItemID": 144,
+          "Weight": 0.3
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        }
+      ],
+      "name": "ExplorationDark_Tech_R4_Alt",
+      "internalEnabled": true,
+      "persistentID": 72
+    },
+    {
+      "SpawnsPerZone": 8,
+      "ChanceToSpawnInResourceContainer": 0.2,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.5
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        }
+      ],
+      "name": "CombatFog_medium_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 73
+    },
+    {
+      "SpawnsPerZone": 5,
+      "ChanceToSpawnInResourceContainer": 0.2,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Small_fog_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 74
+    },
+    {
+      "SpawnsPerZone": 9,
+      "ChanceToSpawnInResourceContainer": 0.5,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 3.0
+        }
+      ],
+      "name": "ExplorationFog_Tech_v02_Alt",
+      "internalEnabled": true,
+      "persistentID": 75
+    },
+    {
+      "SpawnsPerZone": 10,
+      "ChanceToSpawnInResourceContainer": 0.35,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Freps_IIX_glows_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 76
+    },
+    {
+      "SpawnsPerZone": 15,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 114,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 3.0
+        }
+      ],
+      "name": "Foam_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 77
+    },
+    {
+      "SpawnsPerZone": 10,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 174,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 3.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Stealth_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 78
+    },
+    {
+      "SpawnsPerZone": 15,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 7.0
+        }
+      ],
+      "name": "Explosives_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 79
+    },
+    {
+      "SpawnsPerZone": 15,
+      "ChanceToSpawnInResourceContainer": 0.7,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 1.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 7.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 7.0
+        }
+      ],
+      "name": "Syringes_disinfect_Tech_Alt",
+      "internalEnabled": true,
+      "persistentID": 80
+    },
+    {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 0.0,
+      "SpawnData": [
+        {
+          "ItemID": 172,
+          "Weight": 1000.0
+        }
+      ],
+      "name": "PickUp_MemoryStick_Interactable_Alt",
+      "internalEnabled": true,
+      "persistentID": 81
     }
   ],
-  "LastPersistentID": 41
+  "LastPersistentID": 81
 }

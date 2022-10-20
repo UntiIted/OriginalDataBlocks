@@ -99,6 +99,7 @@ DimensionData: DimensionData
                (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
                (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
                Int32: AreaDistance
+               String: WorldEventObjectFilterSpawnPoint
                Single: SpawnDelay
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
@@ -168,6 +169,7 @@ DimensionData: DimensionData
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage

@@ -1,4 +1,5 @@
 Boolean: SkipLocalization
+Boolean: MachineTranslation
 String: English
 String: Description
 (TextCharacterMetaDataBlock) UInt32: CharacterMetaData

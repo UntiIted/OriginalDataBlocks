@@ -55,6 +55,7 @@ List<GenericEnemyWaveData>: WavesOnElevatorLand
    (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
    (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
    Int32: AreaDistance
+   String: WorldEventObjectFilterSpawnPoint
    Single: SpawnDelay
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
@@ -94,6 +95,7 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -116,6 +118,7 @@ List<GenericEnemyWaveData>: WavesOnActivate
    (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
    (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
    Int32: AreaDistance
+   String: WorldEventObjectFilterSpawnPoint
    Single: SpawnDelay
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
@@ -155,6 +158,7 @@ List<WardenObjectiveEventData>: EventsOnActivate
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -172,6 +176,7 @@ List<GenericEnemyWaveData>: WavesOnGotoWin
    (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
    (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
    Int32: AreaDistance
+   String: WorldEventObjectFilterSpawnPoint
    Single: SpawnDelay
    Boolean: TriggerAlarm
    LocalizedText: IntelMessage
@@ -212,6 +217,7 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -284,6 +290,7 @@ List<ReactorWaveData>: ReactorWaves
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -356,6 +363,7 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -429,6 +437,7 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceStar
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -475,6 +484,7 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceDone
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage
@@ -521,6 +531,7 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceFail
       (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
       (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
       Int32: AreaDistance
+      String: WorldEventObjectFilterSpawnPoint
       Single: SpawnDelay
       Boolean: TriggerAlarm
       LocalizedText: IntelMessage

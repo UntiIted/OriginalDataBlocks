@@ -1718,6 +1718,59 @@
       "persistentID": 167
     },
     {
+      "publicName": "Glow Stick Yellow",
+      "LocalizedName": 4269828931,
+      "terminalItemShortName": "",
+      "terminalItemLongName": "",
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "DimensionWarpType": "Never",
+      "Shard": "S4",
+      "inventorySlot": "Consumable",
+      "FPSSettings": 24,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": true,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": true,
+      "GUIShowAmmoTotalRel": true,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": true,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 12,
+      "ConsumableAmmoMax": 12,
+      "audioEventEquip": "foley_equip_generic",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Yellow.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_third_Yellow.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Pickup_Yellow.prefab"
+      ],
+      "InstancePrefabs": [
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Instance_Yellow.prefab",
+        "Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_lit_Yellow.prefab"
+      ],
+      "EquipTransitionTime": 1.0,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "GlowStick",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "GlowStick",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "CONSUMABLE_GlowStick_Yellow",
+      "internalEnabled": true,
+      "persistentID": 174
+    },
+    {
       "publicName": "I2-LP Syringe",
       "LocalizedName": 2347869174,
       "terminalItemShortName": "",
@@ -2759,8 +2812,8 @@
     {
       "publicName": "Partial Decoder",
       "LocalizedName": 0,
-      "terminalItemShortName": "",
-      "terminalItemLongName": "",
+      "terminalItemShortName": "PD",
+      "terminalItemLongName": "Partial decoder",
       "addSerialNumberToName": true,
       "registerInTerminalSystem": true,
       "DimensionWarpType": "Never",
@@ -3626,6 +3679,57 @@
       "persistentID": 145
     },
     {
+      "publicName": "IMPRINTED NEONATE HSU",
+      "LocalizedName": 0,
+      "terminalItemShortName": "IMPRINTED NEONATE HSU",
+      "terminalItemLongName": 2871753284,
+      "addSerialNumberToName": false,
+      "registerInTerminalSystem": false,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InLevelCarry",
+      "FPSSettings": 36,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": false,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": false,
+      "GUIShowAmmoTotalRel": false,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": false,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/SmallHSUEuippable_FirstPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_FirstPerson_Stage_4.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_ThirdPerson_Stage_4.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_Pickup_Stage_4.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 0.5,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "Generator_Cell",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "Generator_Cell",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Carry_HSU_Small_Stage_4_R3D1",
+      "internalEnabled": true,
+      "persistentID": 175
+    },
+    {
       "publicName": "DATA SPHERE",
       "LocalizedName": 0,
       "terminalItemShortName": "DATA_SPHERE",
@@ -3989,5 +4093,5 @@
       "persistentID": 173
     }
   ],
-  "LastPersistentID": 173
+  "LastPersistentID": 175
 }

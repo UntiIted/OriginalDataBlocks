@@ -19,3 +19,4 @@ CorpseCluster - 17
 SecurityTurret - 18
 GeneratorCluster - 19
 GroundSpawn - 20
+Dumbwaiter - 21

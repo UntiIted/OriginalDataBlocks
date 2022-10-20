@@ -68,6 +68,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -114,6 +115,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -160,6 +162,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -206,6 +209,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -252,6 +256,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -298,6 +303,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -344,6 +350,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -391,6 +398,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -462,6 +470,7 @@ List<ExpeditionZoneData>: Zones
          (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
          (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
          Int32: AreaDistance
+         String: WorldEventObjectFilterSpawnPoint
          Single: SpawnDelay
          Boolean: TriggerAlarm
          LocalizedText: IntelMessage
@@ -516,6 +525,7 @@ List<ExpeditionZoneData>: Zones
             (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
             (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
             Int32: AreaDistance
+            String: WorldEventObjectFilterSpawnPoint
             Single: SpawnDelay
             Boolean: TriggerAlarm
             LocalizedText: IntelMessage
@@ -616,6 +626,100 @@ List<ExpeditionZoneData>: Zones
                (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
                (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
                Int32: AreaDistance
+               String: WorldEventObjectFilterSpawnPoint
+               Single: SpawnDelay
+               Boolean: TriggerAlarm
+               LocalizedText: IntelMessage
+                  Boolean: HasTranslation
+                  Boolean: HasValue
+            UInt32: EnemyID
+            Vector3: Position
+            Int32: Count
+            Boolean: Enabled
+            (enum) TERM_Command: TerminalCommand
+            (enum) TERM_CommandRule: TerminalCommandRule
+            String: WorldEventObjectFilter
+         (enum) TERM_CommandRule: SpecialCommandRule
+      TerminalStartStateData: StartingStateData
+         (enum) TERM_State: StartingState
+         Boolean: UseCustomInfoText
+         LocalizedText: CustomInfoText
+            Boolean: HasTranslation
+            Boolean: HasValue
+         Boolean: KeepShowingLocalLogCount
+         UInt32: AudioEventEnter
+         UInt32: AudioEventExit
+         Boolean: PasswordProtected
+         String: Password
+         String: PasswordHintText
+         Boolean: GeneratePassword
+         Int32: PasswordPartCount
+         Boolean: ShowPasswordLength
+         Boolean: ShowPasswordPartPositions
+         List<List<TerminalZoneSelectionData>>: TerminalZoneSelectionDatas
+            (enum) eLocalZoneIndex: LocalIndex
+            (enum) eSeedType: SeedType
+            Int32: TerminalIndex
+            Int32: StaticSeed
+   List<SpecificTerminalSpawnData>: SpecificTerminalSpawnDatas
+      String: WorldEventObjectFilter
+      Boolean: IsWardenObjective
+      Int32: WardenObjectiveChainIndex
+      List<TerminalLogFileData>: LocalLogFiles
+         String: FileName
+         LocalizedText: FileContent
+            Boolean: HasTranslation
+            Boolean: HasValue
+         (enum) Language: FileContentOriginalLanguage
+         UInt32: AttachedAudioFile
+         Int32: AttachedAudioByteSize
+         UInt32: PlayerDialogToTriggerAfterAudio
+      List<CustomTerminalCommand>: UniqueCommands
+         String: Command
+         LocalizedText: CommandDesc
+            Boolean: HasTranslation
+            Boolean: HasValue
+         List<TerminalOutput>: PostCommandOutputs
+            (enum) TerminalLineType: LineType
+            LocalizedText: Output
+               Boolean: HasTranslation
+               Boolean: HasValue
+            Single: Time
+         List<WardenObjectiveEventData>: CommandEvents
+            (enum) eWardenObjectiveEventType: Type
+            WorldEventConditionPair: Condition
+               Int32: ConditionIndex
+               Boolean: IsTrue
+            (enum) eWardenObjectiveEventTrigger: Trigger
+            (ChainedPuzzleDataBlock) UInt32: ChainPuzzle
+            Boolean: UseStaticBioscanPoints
+            (enum) LG_LayerType: Layer
+            (enum) eDimensionIndex: DimensionIndex
+            (enum) eLocalZoneIndex: LocalIndex
+            Single: Delay
+            Single: Duration
+            Boolean: ClearDimension
+            LocalizedText: WardenIntel
+               Boolean: HasTranslation
+               Boolean: HasValue
+            LocalizedText: CustomSubObjectiveHeader
+               Boolean: HasTranslation
+               Boolean: HasValue
+            LocalizedText: CustomSubObjective
+               Boolean: HasTranslation
+               Boolean: HasValue
+            UInt32: SoundID
+            LocalizedText: SoundSubtitle
+               Boolean: HasTranslation
+               Boolean: HasValue
+            (PlayerDialogDataBlock) UInt32: DialogueID
+            (FogSettingsDataBlock) UInt32: FogSetting
+            Single: FogTransitionDuration
+            GenericEnemyWaveData: EnemyWaveData
+               (SurvivalWaveSettingsDataBlock) UInt32: WaveSettings
+               (SurvivalWavePopulationDataBlock) UInt32: WavePopulation
+               Int32: AreaDistance
+               String: WorldEventObjectFilterSpawnPoint
                Single: SpawnDelay
                Boolean: TriggerAlarm
                LocalizedText: IntelMessage
@@ -659,6 +763,13 @@ List<ExpeditionZoneData>: Zones
       Int32: AreaSeedOffset
       Int32: MarkerSeedOffset
    List<FunctionPlacementData>: DisinfectionStationPlacements
+      ZonePlacementWeights: PlacementWeights
+         Single: Start
+         Single: Middle
+         Single: End
+      Int32: AreaSeedOffset
+      Int32: MarkerSeedOffset
+   List<DumbwaiterPlacementData>: DumbwaiterPlacements
       ZonePlacementWeights: PlacementWeights
          Single: Start
          Single: Middle

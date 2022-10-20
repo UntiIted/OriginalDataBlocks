@@ -174,7 +174,37 @@
       "name": "Rundown_7_Drops",
       "internalEnabled": true,
       "persistentID": 3
+    },
+    {
+      "LayerDrops": [
+        {
+          "Layer": "Main",
+          "Count": 6,
+          "IsAll": true,
+          "Groups": [
+            37
+          ]
+        }
+      ],
+      "name": "ALT Rundown_1_Drops",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "LayerDrops": [
+        {
+          "Layer": "Main",
+          "Count": 10,
+          "IsAll": true,
+          "Groups": [
+            28
+          ]
+        }
+      ],
+      "name": "ALT Rundown_7_Drops",
+      "internalEnabled": true,
+      "persistentID": 5
     }
   ],
-  "LastPersistentID": 3
+  "LastPersistentID": 5
 }

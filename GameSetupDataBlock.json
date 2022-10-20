@@ -2,7 +2,10 @@
   "Headers": [],
   "Blocks": [
     {
-      "RundownIdToLoad": 31,
+      "RundownIdsToLoad": [
+        32,
+        31
+      ],
       "StartupScreenToLoad": "StartupScreenData_3",
       "name": "Default",
       "internalEnabled": true,

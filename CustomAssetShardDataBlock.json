@@ -59,6 +59,30 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_main_path_bulkhead_door.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/Service_ladder_a_top_01.prefab",
+          "Shard": "S16"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_bottom_01.prefab",
+          "Shard": "S16"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_05m_01.prefab",
+          "Shard": "S16"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_1m_01.prefab",
+          "Shard": "S16"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_2m_01.prefab",
+          "Shard": "S16"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_4m_01.prefab",
+          "Shard": "S16"
         }
       ],
       "name": "Shared Complex Resources",
@@ -714,6 +738,10 @@
         },
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette025Red.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityHalloween/Headgear016SecurityHalloween.prefab",
           "Shard": "S1"
         }
       ],

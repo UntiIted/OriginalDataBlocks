@@ -993,7 +993,7 @@
           "Distribution": "Rel_100"
         }
       ],
-      "name": "Detect Lurker Miniboss ???",
+      "name": "Detect Lurker Miniboss ",
       "internalEnabled": false,
       "persistentID": 53
     },
@@ -1183,7 +1183,7 @@
           "Distribution": "Rel_10"
         }
       ],
-      "name": "Hunter Easy Inback Strikers+Shooters+Hybrids",
+      "name": "Hunter Easy Inback StrikersShootersHybrids",
       "internalEnabled": true,
       "persistentID": 31
     },
@@ -1208,7 +1208,7 @@
           "Distribution": "Rel_10"
         }
       ],
-      "name": "Hunter Easy Inback Strikers+Shooters+Hybrids V2",
+      "name": "Hunter Easy Inback StrikersShootersHybrids V2",
       "internalEnabled": true,
       "persistentID": 51
     },
@@ -1237,7 +1237,7 @@
           "Distribution": "Rel_10"
         }
       ],
-      "name": "Hunter Medium Inback Strikers+Shooters+Hybrids",
+      "name": "Hunter Medium Inback StrikersShootersHybrids",
       "internalEnabled": true,
       "persistentID": 33
     },
@@ -1257,6 +1257,23 @@
       "name": "Hunter Easy Bullrush",
       "internalEnabled": true,
       "persistentID": 32
+    },
+    {
+      "Type": "Hunter",
+      "Difficulty": "Biss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 4.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Melee",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Hunter Easy Shadows R2E1",
+      "internalEnabled": true,
+      "persistentID": 77
     },
     {
       "Type": "Hunter",
@@ -1291,6 +1308,23 @@
       "name": "Hunter Medium Biss Melee Shadows",
       "internalEnabled": true,
       "persistentID": 35
+    },
+    {
+      "Type": "Hunter",
+      "Difficulty": "Biss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 5.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Melee",
+          "Distribution": "Rel_75"
+        }
+      ],
+      "name": "Hunter Medium Melee Shadows R2C1",
+      "internalEnabled": true,
+      "persistentID": 78
     },
     {
       "Type": "Hunter",
@@ -1378,5 +1412,5 @@
       "persistentID": 75
     }
   ],
-  "LastPersistentID": 76
+  "LastPersistentID": 78
 }

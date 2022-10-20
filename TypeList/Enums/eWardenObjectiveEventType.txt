@@ -21,4 +21,5 @@ SetWorldEventCondition - 19
 LockSecurityDoor - 20
 SetTerminalCommand - 21
 ActivateChainedPuzzle - 22
+LightOnWorldEventObject - 23
 EventBreak - 999

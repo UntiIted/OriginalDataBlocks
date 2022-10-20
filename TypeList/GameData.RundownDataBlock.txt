@@ -1,3 +1,4 @@
+Boolean: NeverShowRundownTree
 Boolean: UseTierUnlockRequirements
 RundownTierProgressionData: ReqToReachTierB
    Int32: MainSectors
