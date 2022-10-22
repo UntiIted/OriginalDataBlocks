@@ -995,7 +995,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 189,
+              "DataBlockId": 142,
               "WinCondition": "GoToExitGeo",
               "ZonePlacementDatas": [
                 [
