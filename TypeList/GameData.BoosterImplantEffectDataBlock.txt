@@ -2,15 +2,19 @@
 LocalizedText: PublicShortName
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 LocalizedText: PublicName
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 LocalizedText: Description
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 LocalizedText: DescriptionNegative
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 (enum) BoosterEffectCategory: BoosterEffectCategory
 String: name
 Boolean: internalEnabled

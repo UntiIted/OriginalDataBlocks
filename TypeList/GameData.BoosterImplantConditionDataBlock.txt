@@ -2,12 +2,15 @@
 LocalizedText: PublicShortName
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 LocalizedText: PublicName
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 LocalizedText: Description
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 String: IconPath
 String: name
 Boolean: internalEnabled

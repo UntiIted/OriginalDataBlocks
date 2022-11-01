@@ -1,9 +1,11 @@
 LocalizedText: PublicName
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 LocalizedText: Description
    Boolean: HasTranslation
    Boolean: HasValue
+   Boolean: ShouldLocalize
 (ItemDataBlock) UInt32: BaseItem
 String: HUDIcon
 Single: IconRotationOffset
