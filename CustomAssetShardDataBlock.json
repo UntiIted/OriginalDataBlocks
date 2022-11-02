@@ -743,6 +743,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityHalloween/Headgear016SecurityHalloween.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette024Black.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "VanityItems",

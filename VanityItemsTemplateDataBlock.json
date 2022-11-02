@@ -847,6 +847,16 @@
       "persistentID": 93
     },
     {
+      "publicName": "Onyx Corruption",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette024Black.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette024Black",
+      "internalEnabled": true,
+      "persistentID": 109
+    },
+    {
       "publicName": "Crimson Grit",
       "type": "Palette",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette025Red.prefab",
@@ -877,5 +887,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 108
+  "LastPersistentID": 109
 }
