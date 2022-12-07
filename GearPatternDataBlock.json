@@ -2,54 +2,6 @@
   "Headers": [],
   "Blocks": [
     {
-      "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_gradient_pixel_a.tga",
-      "AssetBundleName": "Gear_Material",
-      "AssetBundleShard": "S1",
-      "name": "Checkers",
-      "internalEnabled": false,
-      "persistentID": 1
-    },
-    {
-      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/concretePaintedWallPattern_height.tga",
-      "AssetBundleName": "Gear_Material",
-      "AssetBundleShard": "S1",
-      "name": "Concrete A",
-      "internalEnabled": false,
-      "persistentID": 2
-    },
-    {
-      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/concreteWallPainted_height.tga",
-      "AssetBundleName": "Gear_Material",
-      "AssetBundleShard": "S1",
-      "name": "Concrete B",
-      "internalEnabled": false,
-      "persistentID": 3
-    },
-    {
-      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/FlameRoundParticleSheet.tga",
-      "AssetBundleName": "Gear_Material",
-      "AssetBundleShard": "S1",
-      "name": "FlameParticle",
-      "internalEnabled": false,
-      "persistentID": 4
-    },
-    {
-      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/metalBase_Height.tga",
-      "AssetBundleName": "Gear_Material",
-      "AssetBundleShard": "S1",
-      "name": "MetalBase",
-      "internalEnabled": false,
-      "persistentID": 5
-    },
-    {
-      "Pattern": "Assets/AssetPrefabs/Items/Gear/Parts/Patterns/metalFloorPattern_height.tga",
-      "AssetBundleName": "Gear_Material",
-      "AssetBundleShard": "S1",
-      "name": "MetalFloor",
-      "internalEnabled": false,
-      "persistentID": 6
-    },
-    {
       "Pattern": "Assets/AssetPrefabs/Items/Gear/Patterns/pattern_splat_a.tga",
       "AssetBundleName": "Gear_Material",
       "AssetBundleShard": "S1",

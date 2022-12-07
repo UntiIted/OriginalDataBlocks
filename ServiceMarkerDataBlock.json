@@ -4846,51 +4846,6 @@
           [],
           [],
           [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          []
-        ],
-        "Compositions": [
-          {
-            "weight": 1.0,
-            "function": "None",
-            "Shard": "S1"
-          }
-        ],
-        "AssetBundleName": "Complex_Service",
-        "Group": 14,
-        "FunctionPotential": 3.0,
-        "RotationSnap": 0,
-        "RotationNoise": 0.0,
-        "EditorMesh": "Markerproducers/Service/M_Gardens_Wall_1800x900x2000",
-        "BoundingVolume": 3240000.0
-      },
-      "name": "Gardens_Dirt_Wall_1800x900x2000",
-      "internalEnabled": false,
-      "persistentID": 48
-    },
-    {
-      "CommonData": {
-        "FunctionComponentLinks": [
-          [],
-          [],
-          [],
           [
             1,
             2,
@@ -7294,45 +7249,6 @@
       "name": "Gardens_Lab_L_1200x1200x500",
       "internalEnabled": true,
       "persistentID": 57
-    },
-    {
-      "CommonData": {
-        "FunctionComponentLinks": [
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          [],
-          []
-        ],
-        "Compositions": [],
-        "AssetBundleName": "Complex_Service",
-        "Group": 14,
-        "FunctionPotential": 4.0,
-        "RotationSnap": 0,
-        "RotationNoise": 0.0,
-        "EditorMesh": "Markerproducers/Service/M_Gardens_Lab_T_1800x1200x1000",
-        "BoundingVolume": 960000.0
-      },
-      "name": "Gardens_Lab_T_1600x1200x500",
-      "internalEnabled": false,
-      "persistentID": 58
     },
     {
       "CommonData": {

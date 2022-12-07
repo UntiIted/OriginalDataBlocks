@@ -662,12 +662,6 @@
       "persistentID": 65
     },
     {
-      "PartPrefab": "Items/Tools/FlashlightBig/FlashlightBigToolSpotlightLong",
-      "name": "FlashlightBigToolSpotlightLong",
-      "internalEnabled": false,
-      "persistentID": 63
-    },
-    {
       "PartPrefab": "Items/Weapons/ShotgunParts/shotgun_barrel_a",
       "name": "shotgun_barrel_a",
       "internalEnabled": true,

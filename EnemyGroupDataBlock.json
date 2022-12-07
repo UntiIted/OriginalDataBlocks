@@ -47,23 +47,6 @@
       "Difficulty": "Easy",
       "SpawnPlacementType": "Default",
       "MaxScore": 5.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.0,
-      "Roles": [
-        {
-          "Role": "Melee",
-          "Distribution": "Rel_100"
-        }
-      ],
-      "name": "Hibernate Easy Large Melee",
-      "internalEnabled": false,
-      "persistentID": 42
-    },
-    {
-      "Type": "Hibernate",
-      "Difficulty": "Easy",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 5.0,
       "ScoreInAreaPaddingMulti": 3.0,
       "RelativeWeight": 1.0,
       "Roles": [
@@ -186,27 +169,6 @@
       "Difficulty": "Medium",
       "SpawnPlacementType": "Default",
       "MaxScore": 5.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.0,
-      "Roles": [
-        {
-          "Role": "Melee",
-          "Distribution": "Rel_50"
-        },
-        {
-          "Role": "Ranged",
-          "Distribution": "Rel_50"
-        }
-      ],
-      "name": "Hibernate Medium Mix A",
-      "internalEnabled": false,
-      "persistentID": 6
-    },
-    {
-      "Type": "Hibernate",
-      "Difficulty": "Medium",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 5.0,
       "ScoreInAreaPaddingMulti": 3.0,
       "RelativeWeight": 1.0,
       "Roles": [
@@ -306,23 +268,6 @@
       "name": "Hibernate Medium Tiny Mix B",
       "internalEnabled": true,
       "persistentID": 15
-    },
-    {
-      "Type": "Hibernate",
-      "Difficulty": "Medium",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 1.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.5,
-      "Roles": [
-        {
-          "Role": "Melee",
-          "Distribution": "Rel_100"
-        }
-      ],
-      "name": "Hibernate Medium Tiny Melee",
-      "internalEnabled": false,
-      "persistentID": 56
     },
     {
       "Type": "Hibernate",
@@ -461,31 +406,6 @@
       "name": "Hibernate Hard Small Mix B",
       "internalEnabled": true,
       "persistentID": 59
-    },
-    {
-      "Type": "Hibernate",
-      "Difficulty": "Hard",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 10.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.0,
-      "Roles": [
-        {
-          "Role": "Melee",
-          "Distribution": "Rel_75"
-        },
-        {
-          "Role": "Scout",
-          "Distribution": "Force_One"
-        },
-        {
-          "Role": "Ranged",
-          "Distribution": "Rel_25"
-        }
-      ],
-      "name": "Hibernate Hard Large Scout",
-      "internalEnabled": false,
-      "persistentID": 2
     },
     {
       "Type": "Hibernate",
@@ -979,61 +899,6 @@
       "name": "Detect Lurker Hard Large Bullrush Bigs",
       "internalEnabled": true,
       "persistentID": 73
-    },
-    {
-      "Type": "Detect",
-      "Difficulty": "MiniBoss",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 4.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.0,
-      "Roles": [
-        {
-          "Role": "Lurker",
-          "Distribution": "Rel_100"
-        }
-      ],
-      "name": "Detect Lurker Miniboss ",
-      "internalEnabled": false,
-      "persistentID": 53
-    },
-    {
-      "Type": "Detect",
-      "Difficulty": "Hard",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 10.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.0,
-      "Roles": [
-        {
-          "Role": "Lurker",
-          "Distribution": "Rel_75"
-        },
-        {
-          "Role": "Scout",
-          "Distribution": "Force_One"
-        }
-      ],
-      "name": "detect_hard_scout",
-      "internalEnabled": false,
-      "persistentID": 24
-    },
-    {
-      "Type": "PureDetect",
-      "Difficulty": "Easy",
-      "SpawnPlacementType": "Default",
-      "MaxScore": 12.0,
-      "ScoreInAreaPaddingMulti": 1.0,
-      "RelativeWeight": 1.0,
-      "Roles": [
-        {
-          "Role": "Tank",
-          "Distribution": "Rel_100"
-        }
-      ],
-      "name": "Bullrush",
-      "internalEnabled": false,
-      "persistentID": 25
     },
     {
       "Type": "Hunter",

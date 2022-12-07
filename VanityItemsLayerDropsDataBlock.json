@@ -197,6 +197,21 @@
           "Count": 10,
           "IsAll": true,
           "Groups": [
+            38
+          ]
+        }
+      ],
+      "name": "ALT Rundown_2_Drops",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "LayerDrops": [
+        {
+          "Layer": "Main",
+          "Count": 10,
+          "IsAll": true,
+          "Groups": [
             28
           ]
         }
@@ -206,5 +221,5 @@
       "persistentID": 5
     }
   ],
-  "LastPersistentID": 5
+  "LastPersistentID": 6
 }

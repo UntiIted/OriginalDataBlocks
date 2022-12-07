@@ -293,6 +293,31 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
+        "r": 0.356862783,
+        "g": 1.0,
+        "b": 0.5468703
+      },
+      "FogDensity": 0.0004,
+      "FogAmbience": 0.005,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.034,
+      "DensityNoiseScale": 0.131,
+      "DensityHeightAltitude": -3.0,
+      "DensityHeightRange": 1.65,
+      "DensityHeightMaxBoost": 0.05,
+      "Infection": 0.03,
+      "name": "Fog_light_green_low_INFECTION_R8_B4",
+      "internalEnabled": true,
+      "persistentID": 144
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
         "r": 0.357,
         "g": 1.0,
         "b": 0.815925539
@@ -388,6 +413,31 @@
       "name": "Fog_lightest_White_low1_INFECTION_Copy",
       "internalEnabled": true,
       "persistentID": 43
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.109803922,
+        "r": 0.356862754,
+        "g": 1.0,
+        "b": 0.8156863
+      },
+      "FogDensity": 0.0002,
+      "FogAmbience": 0.005,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.034,
+      "DensityNoiseScale": 0.131,
+      "DensityHeightAltitude": -0.2,
+      "DensityHeightRange": 0.35,
+      "DensityHeightMaxBoost": 0.08,
+      "Infection": 0.03,
+      "name": "Fog_lightest_White_low1_INFECTION_R2B3",
+      "internalEnabled": true,
+      "persistentID": 145
     },
     {
       "Enabled": true,
@@ -943,6 +993,31 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.0,
+        "r": 0.6179246,
+        "g": 1.0,
+        "b": 0.890621543
+      },
+      "FogDensity": 0.00055,
+      "FogAmbience": 0.0,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.02,
+      "DensityNoiseScale": 0.085,
+      "DensityHeightAltitude": -5.1,
+      "DensityHeightRange": 1.0,
+      "DensityHeightMaxBoost": 0.013,
+      "Infection": 0.03,
+      "name": "Fog_very_light_White_low4_A3_FG_INFECTION_R5A3",
+      "internalEnabled": true,
+      "persistentID": 142
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.0,
         "r": 0.847058833,
         "g": 1.0,
         "b": 0.956862748
@@ -963,6 +1038,31 @@
       "name": "Fog_very_light_White_Low5ToHigh2",
       "internalEnabled": true,
       "persistentID": 28
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.0,
+        "r": 0.847058833,
+        "g": 1.0,
+        "b": 0.956862748
+      },
+      "FogDensity": 9E-05,
+      "FogAmbience": 0.0,
+      "DensityNoiseDirection": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "DensityNoiseSpeed": 0.045,
+      "DensityNoiseScale": 0.085,
+      "DensityHeightAltitude": -5.0,
+      "DensityHeightRange": 7.0,
+      "DensityHeightMaxBoost": 0.01,
+      "Infection": 0.0,
+      "name": "Fog_very_light_White_Low5ToHigh2_R5B1",
+      "internalEnabled": true,
+      "persistentID": 143
     },
     {
       "Enabled": true,
@@ -1083,7 +1183,7 @@
       "DensityNoiseScale": 0.0731,
       "DensityHeightAltitude": -0.4,
       "DensityHeightRange": 0.4,
-      "DensityHeightMaxBoost": 0.005,
+      "DensityHeightMaxBoost": 0.008,
       "Infection": 0.0,
       "name": "Fog_very_light_White_low_layer_R5A2",
       "internalEnabled": true,
@@ -1547,7 +1647,7 @@
         "g": 0.9716981,
         "b": 0.6887659
       },
-      "FogDensity": 0.001,
+      "FogDensity": 0.0002,
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
         "x": 0.5,
@@ -1557,7 +1657,7 @@
       "DensityNoiseSpeed": 0.074,
       "DensityNoiseScale": 0.131,
       "DensityHeightAltitude": -2.0,
-      "DensityHeightRange": 2.0,
+      "DensityHeightRange": 1.5,
       "DensityHeightMaxBoost": 0.05,
       "Infection": 0.03,
       "name": "Fog_light_green_low2_INFECTION_R2C2",
@@ -1618,11 +1718,11 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
-        "r": 0.267132431,
-        "g": 0.8207547,
-        "b": 0.662577
+        "r": 0.5549128,
+        "g": 0.8113208,
+        "b": 0.7367836
       },
-      "FogDensity": 0.0003,
+      "FogDensity": 0.0006,
       "FogAmbience": 0.005,
       "DensityNoiseDirection": {
         "x": 0.0,
@@ -1631,10 +1731,35 @@
       },
       "DensityNoiseSpeed": 0.074,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": -3.0,
-      "DensityHeightRange": 0.05,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightAltitude": -2.5,
+      "DensityHeightRange": 0.7,
+      "DensityHeightMaxBoost": 0.035,
       "Infection": 0.03,
+      "name": "Fog_light_green_low3_INFECTION_R2E1",
+      "internalEnabled": true,
+      "persistentID": 141
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
+        "r": 0.565459251,
+        "g": 0.9150943,
+        "b": 0.830202
+      },
+      "FogDensity": 0.0004,
+      "FogAmbience": 0.05,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.074,
+      "DensityNoiseScale": 0.131,
+      "DensityHeightAltitude": -3.5,
+      "DensityHeightRange": 1.5,
+      "DensityHeightMaxBoost": 0.03,
+      "Infection": 0.0,
       "name": "Fog_light_green_low3_INFECTION_R2D2",
       "internalEnabled": true,
       "persistentID": 135
@@ -1668,9 +1793,9 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.7137255
+        "r": 0.116011046,
+        "g": 0.745283,
+        "b": 0.5651385
       },
       "FogDensity": 0.0003,
       "FogAmbience": 0.0001,
@@ -2806,9 +2931,9 @@
       },
       "DensityNoiseSpeed": 0.02,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": 0.75,
-      "DensityHeightRange": 0.1,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightAltitude": 0.5,
+      "DensityHeightRange": 0.15,
+      "DensityHeightMaxBoost": 0.04,
       "Infection": 0.03,
       "name": "Fog_light_green_INFECTION_R2D1_1",
       "internalEnabled": true,
@@ -2831,9 +2956,9 @@
       },
       "DensityNoiseSpeed": 0.02,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": -0.85,
+      "DensityHeightAltitude": -1.0,
       "DensityHeightRange": 0.15,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightMaxBoost": 0.04,
       "Infection": 0.03,
       "name": "Fog_light_green_INFECTION_R2D1_2",
       "internalEnabled": true,
@@ -2856,9 +2981,9 @@
       },
       "DensityNoiseSpeed": 0.02,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": -1.85,
+      "DensityHeightAltitude": -2.0,
       "DensityHeightRange": 0.15,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightMaxBoost": 0.04,
       "Infection": 0.03,
       "name": "Fog_light_green_INFECTION_R2D1_3",
       "internalEnabled": true,
@@ -2881,9 +3006,9 @@
       },
       "DensityNoiseSpeed": 0.02,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": -2.85,
+      "DensityHeightAltitude": -3.75,
       "DensityHeightRange": 0.15,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightMaxBoost": 0.04,
       "Infection": 0.03,
       "name": "Fog_light_green_INFECTION_R2D1_4",
       "internalEnabled": true,
@@ -2906,9 +3031,9 @@
       },
       "DensityNoiseSpeed": 0.02,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": -4.85,
+      "DensityHeightAltitude": -5.0,
       "DensityHeightRange": 0.15,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightMaxBoost": 0.04,
       "Infection": 0.03,
       "name": "Fog_light_green_INFECTION_R2D1_5",
       "internalEnabled": true,
@@ -2933,7 +3058,7 @@
       "DensityNoiseScale": 0.131,
       "DensityHeightAltitude": 6.0,
       "DensityHeightRange": 3.0,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightMaxBoost": 0.04,
       "Infection": 0.03,
       "name": "Fog_light_green_INFECTION_R2D1_6",
       "internalEnabled": true,
@@ -3265,5 +3390,5 @@
       "persistentID": 139
     }
   ],
-  "LastPersistentID": 140
+  "LastPersistentID": 145
 }

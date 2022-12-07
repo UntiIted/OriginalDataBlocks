@@ -931,32 +931,6 @@
       "persistentID": 112
     },
     {
-      "m_pauseBeforeStart": 3.0,
-      "m_pauseBetweenGroups": 5.0,
-      "m_wavePauseMin_atCost": 3.0,
-      "m_wavePauseMax_atCost": 10.0,
-      "m_wavePauseMin": 3.0,
-      "m_wavePauseMax": 30.0,
-      "m_populationFilter": [
-        "Weakling"
-      ],
-      "m_filterType": "Exclude",
-      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
-      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
-      "m_overrideWaveSpawnType": false,
-      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
-      "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 17.0,
-      "m_populationPointsPerWaveEnd": 25.0,
-      "m_populationPointsMinPerGroup": 5.0,
-      "m_populationPointsPerGroupStart": 5.0,
-      "m_populationPointsPerGroupEnd": 10.0,
-      "m_populationRampOverTime": 200.0,
-      "name": "Apex_duplicate",
-      "internalEnabled": false,
-      "persistentID": 19
-    },
-    {
       "m_pauseBeforeStart": 1.0,
       "m_pauseBetweenGroups": 3.0,
       "m_wavePauseMin_atCost": 1.0,
@@ -1007,58 +981,6 @@
       "name": "Surge Decreased Groups",
       "internalEnabled": true,
       "persistentID": 25
-    },
-    {
-      "m_pauseBeforeStart": 3.0,
-      "m_pauseBetweenGroups": 5.0,
-      "m_wavePauseMin_atCost": 3.0,
-      "m_wavePauseMax_atCost": 10.0,
-      "m_wavePauseMin": 3.0,
-      "m_wavePauseMax": 30.0,
-      "m_populationFilter": [
-        "Weakling"
-      ],
-      "m_filterType": "Exclude",
-      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
-      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
-      "m_overrideWaveSpawnType": false,
-      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
-      "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 17.0,
-      "m_populationPointsPerWaveEnd": 25.0,
-      "m_populationPointsMinPerGroup": 5.0,
-      "m_populationPointsPerGroupStart": 5.0,
-      "m_populationPointsPerGroupEnd": 10.0,
-      "m_populationRampOverTime": 50.0,
-      "name": "Reactor_infiite",
-      "internalEnabled": false,
-      "persistentID": 10
-    },
-    {
-      "m_pauseBeforeStart": 1.0,
-      "m_pauseBetweenGroups": 3.0,
-      "m_wavePauseMin_atCost": 1.0,
-      "m_wavePauseMax_atCost": 10.0,
-      "m_wavePauseMin": 1.0,
-      "m_wavePauseMax": 20.0,
-      "m_populationFilter": [
-        "Weakling"
-      ],
-      "m_filterType": "Exclude",
-      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
-      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.2,
-      "m_overrideWaveSpawnType": false,
-      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
-      "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 10.0,
-      "m_populationPointsPerWaveEnd": 20.0,
-      "m_populationPointsMinPerGroup": 1.0,
-      "m_populationPointsPerGroupStart": 3.0,
-      "m_populationPointsPerGroupEnd": 3.0,
-      "m_populationRampOverTime": 120.0,
-      "name": "Decontamination",
-      "internalEnabled": false,
-      "persistentID": 2
     },
     {
       "m_pauseBeforeStart": 1.0,
@@ -1191,35 +1113,6 @@
       "name": "Scout Halved and Reduced S",
       "internalEnabled": true,
       "persistentID": 131
-    },
-    {
-      "m_pauseBeforeStart": 1.0,
-      "m_pauseBetweenGroups": 3.0,
-      "m_wavePauseMin_atCost": 1.0,
-      "m_wavePauseMax_atCost": 14.0,
-      "m_wavePauseMin": 1.0,
-      "m_wavePauseMax": 20.0,
-      "m_populationFilter": [
-        "Special",
-        "MiniBoss",
-        "Standard",
-        "Boss"
-      ],
-      "m_filterType": "Include",
-      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
-      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
-      "m_overrideWaveSpawnType": false,
-      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
-      "m_populationPointsTotal": 14.0,
-      "m_populationPointsPerWaveStart": 14.0,
-      "m_populationPointsPerWaveEnd": 14.0,
-      "m_populationPointsMinPerGroup": 3.0,
-      "m_populationPointsPerGroupStart": 14.0,
-      "m_populationPointsPerGroupEnd": 14.0,
-      "m_populationRampOverTime": 120.0,
-      "name": "Door_wave",
-      "internalEnabled": false,
-      "persistentID": 18
     },
     {
       "m_pauseBeforeStart": 1.0,
@@ -3439,32 +3332,6 @@
       "name": "Shadow Trickle -2- 80 SSp From Elevator",
       "internalEnabled": true,
       "persistentID": 190
-    },
-    {
-      "m_pauseBeforeStart": 3.0,
-      "m_pauseBetweenGroups": 8.0,
-      "m_wavePauseMin_atCost": 1.0,
-      "m_wavePauseMax_atCost": 10.0,
-      "m_wavePauseMin": 1.0,
-      "m_wavePauseMax": 20.0,
-      "m_populationFilter": [
-        "Standard"
-      ],
-      "m_filterType": "Include",
-      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
-      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
-      "m_overrideWaveSpawnType": false,
-      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
-      "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 10000.0,
-      "m_populationPointsPerWaveEnd": 10000.0,
-      "m_populationPointsMinPerGroup": 1.0,
-      "m_populationPointsPerGroupStart": 1.0,
-      "m_populationPointsPerGroupEnd": 1.0,
-      "m_populationRampOverTime": 0.0,
-      "name": "Exit Trickle 1-8 S duplicate",
-      "internalEnabled": false,
-      "persistentID": 60
     },
     {
       "m_pauseBeforeStart": 0.0,

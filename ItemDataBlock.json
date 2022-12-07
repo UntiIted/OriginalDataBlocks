@@ -3372,12 +3372,12 @@
       "persistentID": 133
     },
     {
-      "publicName": "NEONATE_HSU",
+      "publicName": "NEONATE HSU",
       "LocalizedName": 0,
       "terminalItemShortName": "NEONATE_HSU",
       "terminalItemLongName": 2871753284,
-      "addSerialNumberToName": false,
-      "registerInTerminalSystem": false,
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
       "DimensionWarpType": "Never",
       "Shard": "S3",
       "inventorySlot": "InLevelCarry",
@@ -3885,6 +3885,58 @@
       "persistentID": 138
     },
     {
+      "publicName": "Cargo Crate",
+      "LocalizedName": 0,
+      "terminalItemShortName": "CARGO",
+      "terminalItemLongName": 1695783613,
+      "addSerialNumberToName": true,
+      "registerInTerminalSystem": true,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InLevelCarry",
+      "FPSSettings": 33,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": false,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": false,
+      "GUIShowAmmoTotalRel": false,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": false,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_FirstPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/CargoCrate_Generic_FirstPerson.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/CargoCrate_Generic_ThirdPerson.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_Pickup.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/CargoCrate_Generic_Pickup.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 0.5,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "Generator_Cell",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "Generator_Cell",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Carry_CargoCrate_Generic_R2A1",
+      "internalEnabled": true,
+      "persistentID": 176
+    },
+    {
       "publicName": "Cryo Hardcase",
       "LocalizedName": 0,
       "terminalItemShortName": "CRYO",
@@ -4093,5 +4145,5 @@
       "persistentID": 173
     }
   ],
-  "LastPersistentID": 175
+  "LastPersistentID": 176
 }

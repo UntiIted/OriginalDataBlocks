@@ -991,6 +991,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_RequireExit.prefab",
           "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_Moving_R8B4.prefab",
+          "Shard": "S10"
         }
       ],
       "name": "ChainedPuzzles",

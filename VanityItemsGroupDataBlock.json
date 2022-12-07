@@ -127,7 +127,9 @@
       "persistentID": 34
     },
     {
-      "Items": [],
+      "Items": [
+        70
+      ],
       "name": "ChineseNewYear2023 DONOTDELETE",
       "internalEnabled": true,
       "persistentID": 35
@@ -399,7 +401,15 @@
       "name": "R1Completion",
       "internalEnabled": true,
       "persistentID": 37
+    },
+    {
+      "Items": [
+        79
+      ],
+      "name": "R2Completion",
+      "internalEnabled": true,
+      "persistentID": 38
     }
   ],
-  "LastPersistentID": 37
+  "LastPersistentID": 38
 }

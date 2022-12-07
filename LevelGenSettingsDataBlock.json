@@ -66,17 +66,6 @@
       "name": "TGATrailer2018",
       "internalEnabled": true,
       "persistentID": 7
-    },
-    {
-      "PublicName": "",
-      "ZoneMinSize": 10.0,
-      "ZoneMaxSize": 20.0,
-      "StartZoneSize": 10.0,
-      "SegmentZoneCount": 1,
-      "PublicEstimatedAreaCoverage": 0.0,
-      "name": "GPTrailerShort",
-      "internalEnabled": false,
-      "persistentID": 4
     }
   ],
   "LastPersistentID": 7
