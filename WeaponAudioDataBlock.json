@@ -1982,6 +1982,41 @@
       "name": "RangedShotgun_buckland_xdist2",
       "internalEnabled": true,
       "persistentID": 46
+    },
+    {
+      "eventOnSemiFire2D": [],
+      "eventOnBurstFire2D": [],
+      "eventOnAutoFireStart2D": [],
+      "eventOnAutoFireEnd2D": [],
+      "eventOnBurstFireOneShot2D": [],
+      "eventOnChargeup2D": [
+        "ImplantSmallJumpBoostChargeUp"
+      ],
+      "eventOnCooldown2D": [
+        "ImplantSmallJumpBoostChargeUp"
+      ],
+      "eventOnChargeupEnd2D": "WeaponChargeUpEnd",
+      "eventOnCooldownEnd2D": "WeaponCooldownEnd",
+      "eventOnSemiFire3D": [],
+      "eventOnBurstFire3D": [],
+      "eventOnAutoFireStart3D": [],
+      "eventOnAutoFireEnd3D": [],
+      "eventOnChargeup3D": [],
+      "eventOnCooldown3D": [],
+      "eventOnChargeupEnd3D": "WeaponChargeUpEnd",
+      "eventOnCooldownEnd3D": "WeaponCooldownEnd",
+      "eventOnSyncedBurstFirePerShot3D": [],
+      "eventOnSyncedAutoFirePerShot3D": [],
+      "eventClick": "",
+      "eventReload": "",
+      "TriggerBurstAudioForEachShot": false,
+      "TriggerAutoAudioForEachShot": false,
+      "eventEquip": "",
+      "eventZoomIn": "",
+      "eventZoomOut": "",
+      "name": "FlareGun",
+      "internalEnabled": false,
+      "persistentID": 28
     }
   ],
   "LastPersistentID": 51

@@ -10687,6 +10687,56 @@
             "weight": 1.0,
             "lines": [
               {
+                "lineEvent": 1847382451,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 0,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "found_item_generic",
+      "internalEnabled": true,
+      "persistentID": 155
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
                 "lineEvent": 3372641809,
                 "A": true,
                 "B": false,
