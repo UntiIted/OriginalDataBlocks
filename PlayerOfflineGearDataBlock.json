@@ -87,6 +87,13 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Drekker Pres MOD 556\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":1},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":1},\"d\":{\"c\":5,\"v\":42},\"e\":{\"c\":6,\"v\":3},\"f\":{\"c\":7,\"v\":2},\"g\":{\"c\":8,\"v\":9},\"h\":{\"c\":9,\"v\":8},\"i\":{\"c\":10,\"v\":10},\"j\":{\"c\":11,\"v\":10},\"k\":{\"c\":12,\"v\":14},\"l\":{\"c\":16,\"v\":8},\"m\":{\"c\":19,\"v\":7},\"n\":{\"c\":21,\"v\":15},\"o\":{\"c\":23,\"v\":1},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.03,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.02},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.32,\"y\":0.0},\"scale\":0.6}},\"publicName\":{\"data\":\"Drekker Pres MOD 556\"}}}",
+      "name": "RifleSemi",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Buckland s870\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":2,\"v\":6},\"b\":{\"c\":3,\"v\":110},\"c\":{\"c\":4,\"v\":6},\"d\":{\"c\":5,\"v\":4},\"e\":{\"c\":6,\"v\":4},\"f\":{\"c\":7,\"v\":4},\"g\":{\"c\":8,\"v\":7},\"h\":{\"c\":9,\"v\":1},\"i\":{\"c\":10,\"v\":24},\"j\":{\"c\":11,\"v\":24},\"k\":{\"c\":12,\"v\":22},\"l\":{\"c\":16,\"v\":12},\"m\":{\"c\":19,\"v\":13},\"n\":{\"c\":21,\"v\":40},\"o\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.11,\"y\":0.01},\"angle\":0.07,\"scale\":0.07},\"tDecalB\":{\"position\":{\"x\":0.105,\"y\":0.005},\"angle\":0.07,\"scale\":0.07},\"tPattern\":{\"position\":{\"x\":0.25,\"y\":0.0},\"angle\":180.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Buckland s870\"}}}",
       "name": "ShotgunSemi",
       "internalEnabled": true,
@@ -136,6 +143,20 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"TechMan Klust 6\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":3},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":43},\"f\":{\"c\":6,\"v\":33},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":18},\"i\":{\"c\":9,\"v\":8},\"j\":{\"c\":10,\"v\":27},\"k\":{\"c\":11,\"v\":26},\"l\":{\"c\":12,\"v\":27},\"m\":{\"c\":16,\"v\":11},\"n\":{\"c\":19,\"v\":8},\"o\":{\"c\":21,\"v\":4},\"p\":{\"c\":23,\"v\":16},\"q\":{\"c\":25,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.05,\"y\":0.01},\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":-0.05,\"y\":0.01},\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.17,\"y\":0.05},\"angle\":-135.0,\"scale\":0.2}},\"publicName\":{\"data\":\"TechMan Klust 6\"}}}",
+      "name": "MachinegunBurst",
+      "internalEnabled": true,
+      "persistentID": 39
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco exp1\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":3},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":3},\"d\":{\"c\":5,\"v\":33},\"e\":{\"c\":6,\"v\":33},\"f\":{\"c\":7,\"v\":3},\"g\":{\"c\":8,\"v\":13},\"h\":{\"c\":9,\"v\":5},\"i\":{\"c\":10,\"v\":25},\"j\":{\"c\":11,\"v\":12},\"k\":{\"c\":12,\"v\":27},\"l\":{\"c\":16,\"v\":10},\"m\":{\"c\":19,\"v\":1},\"n\":{\"c\":21,\"v\":24},\"o\":{\"c\":23,\"v\":14},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.05,\"y\":0.045},\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":-0.22,\"y\":0.0},\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.02},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Omneco exp1\"}}}",
+      "name": "HELGun",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Shelling Arid 5\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":2,\"v\":35},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":48},\"d\":{\"c\":5,\"v\":48},\"e\":{\"c\":6,\"v\":29},\"f\":{\"c\":7,\"v\":2},\"g\":{\"c\":8,\"v\":16},\"h\":{\"c\":9,\"v\":15},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":27},\"k\":{\"c\":12,\"v\":49},\"l\":{\"c\":16,\"v\":21},\"m\":{\"c\":19,\"v\":18},\"n\":{\"c\":23,\"v\":8},\"o\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.098,\"y\":-0.07,\"normalized\":{\"x\":-0.813733459,\"y\":-0.5812382,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.120432548,\"sqrMagnitude\":0.014504},\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":-0.098,\"y\":-0.07,\"normalized\":{\"x\":-0.813733459,\"y\":-0.5812382,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.120432548,\"sqrMagnitude\":0.014504},\"scale\":0.04},\"tPattern\":{\"position\":{\"x\":-0.09,\"y\":-0.03,\"normalized\":{\"x\":-0.9486833,\"y\":-0.316227764,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.09486833,\"sqrMagnitude\":0.009000001},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Shelling Arid 5\"}}}",
       "name": "HighCalPistol",
       "internalEnabled": true,
@@ -154,6 +175,13 @@
       "name": "SniperSemi",
       "internalEnabled": true,
       "persistentID": 14
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco LRG\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":20},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":5},\"d\":{\"c\":5,\"v\":36},\"e\":{\"c\":6,\"v\":36},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":29},\"l\":{\"c\":16,\"v\":10},\"m\":{\"c\":19,\"v\":2},\"n\":{\"c\":21,\"v\":19},\"o\":{\"c\":23,\"v\":12},\"p\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.04},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Omneco LRG\"}}}",
+      "name": "HELRifleSemi",
+      "internalEnabled": true,
+      "persistentID": 42
     },
     {
       "Type": "StandardInventory",

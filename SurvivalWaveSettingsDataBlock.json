@@ -931,6 +931,32 @@
       "persistentID": 112
     },
     {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 5.0,
+      "m_wavePauseMin_atCost": 3.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 3.0,
+      "m_wavePauseMax": 30.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 17.0,
+      "m_populationPointsPerWaveEnd": 25.0,
+      "m_populationPointsMinPerGroup": 5.0,
+      "m_populationPointsPerGroupStart": 5.0,
+      "m_populationPointsPerGroupEnd": 10.0,
+      "m_populationRampOverTime": 200.0,
+      "name": "Apex_Rapid_shooters_R5C2",
+      "internalEnabled": true,
+      "persistentID": 237
+    },
+    {
       "m_pauseBeforeStart": 1.0,
       "m_pauseBetweenGroups": 3.0,
       "m_wavePauseMin_atCost": 1.0,
@@ -2623,6 +2649,34 @@
     },
     {
       "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 52.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Standard",
+        "Boss",
+        "Special"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 0.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.0,
+      "m_overrideWaveSpawnType": true,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Trickle 3-52 SSpB_R4B2_L2_ALT",
+      "internalEnabled": true,
+      "persistentID": 240
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
       "m_pauseBetweenGroups": 45.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 10.0,
@@ -2754,6 +2808,33 @@
     },
     {
       "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 20.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Standard",
+        "Special"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 1.0,
+      "m_populationPointsPerWaveEnd": 2.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 1.0,
+      "m_populationPointsPerGroupEnd": 2.0,
+      "m_populationRampOverTime": 1.0,
+      "name": "Exit trickle R3C1",
+      "internalEnabled": true,
+      "persistentID": 236
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
       "m_pauseBetweenGroups": 60.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 10.0,
@@ -2832,6 +2913,33 @@
       "name": "Trickle 6-30 SSp",
       "internalEnabled": true,
       "persistentID": 24
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 20.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Weakling",
+        "Weakling"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 3.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 5.0,
+      "m_populationRampOverTime": 300.0,
+      "name": "Trickle 6-30 R3C1",
+      "internalEnabled": true,
+      "persistentID": 239
     },
     {
       "m_pauseBeforeStart": 1.0,
@@ -5154,6 +5262,32 @@
       "persistentID": 7
     },
     {
+      "m_pauseBeforeStart": 0.0,
+      "m_pauseBetweenGroups": 1.0,
+      "m_wavePauseMin_atCost": 3.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 3.0,
+      "m_wavePauseMax": 30.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.75,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": 10.0,
+      "m_populationPointsPerWaveStart": 10.0,
+      "m_populationPointsPerWaveEnd": 10.0,
+      "m_populationPointsMinPerGroup": 5.0,
+      "m_populationPointsPerGroupStart": 5.0,
+      "m_populationPointsPerGroupEnd": 10.0,
+      "m_populationRampOverTime": 50.0,
+      "name": "Reactor 24 SSpMB_R3A3",
+      "internalEnabled": true,
+      "persistentID": 238
+    },
+    {
       "m_pauseBeforeStart": 3.0,
       "m_pauseBetweenGroups": 5.0,
       "m_wavePauseMin_atCost": 3.0,
@@ -5950,5 +6084,5 @@
       "persistentID": 188
     }
   ],
-  "LastPersistentID": 235
+  "LastPersistentID": 240
 }

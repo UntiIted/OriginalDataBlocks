@@ -20,10 +20,16 @@
       "persistentID": 31
     },
     {
-      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_Moving_R8B4.prefab",
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4.prefab",
       "name": "SecurityScan_Big_Moving_R8B4",
       "internalEnabled": true,
       "persistentID": 42
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4_v2.prefab",
+      "name": "SecurityScan_Big_Moving_R8B4_v2",
+      "internalEnabled": true,
+      "persistentID": 43
     },
     {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R7B1.prefab",
@@ -236,5 +242,5 @@
       "persistentID": 41
     }
   ],
-  "LastPersistentID": 42
+  "LastPersistentID": 43
 }

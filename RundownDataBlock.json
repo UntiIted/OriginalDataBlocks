@@ -4309,7 +4309,7 @@
             "LightJobSeedOffset": 0
           },
           "Expedition": {
-            "ComplexResourceData": 49,
+            "ComplexResourceData": 48,
             "MLSLevelKit": 0,
             "LightSettings": 0,
             "FogSettings": 25,
@@ -4620,8 +4620,8 @@
           "Expedition": {
             "ComplexResourceData": 73,
             "MLSLevelKit": 0,
-            "LightSettings": 20,
-            "FogSettings": 12,
+            "LightSettings": 0,
+            "FogSettings": 144,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
@@ -8387,6 +8387,1242 @@
       "name": "ALT Rundown 2.0",
       "internalEnabled": true,
       "persistentID": 33
+    },
+    {
+      "NeverShowRundownTree": false,
+      "UseTierUnlockRequirements": false,
+      "ReqToReachTierB": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "ReqToReachTierC": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "ReqToReachTierD": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "ReqToReachTierE": {
+        "MainSectors": 0,
+        "SecondarySectors": 0,
+        "ThirdSectors": 0,
+        "AllClearedSectors": 0
+      },
+      "StorytellingData": {
+        "Title": 2624188180,
+        "TextLog": 1717146407,
+        "TextLogPos": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "Visuals": {
+          "ColorBackground": {
+            "a": 1.0,
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "TierAVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.4509804,
+              "g": 0.7490196,
+              "b": 0.858823538
+            },
+            "Scale": 0.65,
+            "ScaleYModifier": 1.0
+          },
+          "TierBVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.5412235,
+              "g": 0.7680878,
+              "b": 0.8509804
+            },
+            "Scale": 0.5,
+            "ScaleYModifier": 1.0
+          },
+          "TierCVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.5411765,
+              "g": 0.7686275,
+              "b": 0.850980461
+            },
+            "Scale": 0.01,
+            "ScaleYModifier": 1.0
+          },
+          "TierDVisuals": {
+            "Color": {
+              "a": 1.0,
+              "r": 0.5411765,
+              "g": 0.7686275,
+              "b": 0.850980461
+            },
+            "Scale": 0.01,
+            "ScaleYModifier": 1.0
+          },
+          "TierEVisuals": {
+            "Color": {
+              "a": 0.239215687,
+              "r": 0.5411765,
+              "g": 0.7686275,
+              "b": 0.850980461
+            },
+            "Scale": 1.0,
+            "ScaleYModifier": 1.0
+          }
+        },
+        "SurfaceIconPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "SurfaceDescription": 3972128895,
+        "ExternalExpTitle": 0
+      },
+      "VanityItemLayerDropDataBlock": 7,
+      "TierA": [
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "AlwaysAllow",
+          "UnlockedByExpedition": {
+            "Tier": "TierA",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3A",
+            "PublicName": "Resuscitation",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 482,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 1464459331,
+            "RoleplayedWardenIntel": 1390575355,
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 3344444,
+            "FunctionMarkerOffset": 2626,
+            "StandardMarkerOffset": 123,
+            "LightJobSeedOffset": 123123
+          },
+          "Expedition": {
+            "ComplexResourceData": 77,
+            "MLSLevelKit": 0,
+            "LightSettings": 24,
+            "FogSettings": 19,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 1.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 399002596,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 184,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_5",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": [
+                {
+                  "Zone": "Zone_5",
+                  "BasicArtifactWeight": 0.0,
+                  "AdvancedArtifactWeight": 0.0,
+                  "SpecializedArtifactWeight": 0.0
+                }
+              ]
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        },
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "UnlockedByExpedition",
+          "UnlockedByExpedition": {
+            "Tier": "TierA",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3A",
+            "PublicName": "Purification",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 563,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 3356017243,
+            "RoleplayedWardenIntel": 1992761049
+          },
+          "Seeds": {
+            "BuildSeed": 0,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 76,
+            "MLSLevelKit": 0,
+            "LightSettings": 53,
+            "FogSettings": 136,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 1.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 2924773867,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 185,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_0",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_2",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 100.0,
+                      "End": 300.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_3",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 100.0,
+                      "End": 300.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_4",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 500.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        },
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "UnlockedByExpedition",
+          "UnlockedByExpedition": {
+            "Tier": "TierA",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3A",
+            "PublicName": "Bolt",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 579,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 1840875035,
+            "RoleplayedWardenIntel": 3113223505,
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 44444,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 123124
+          },
+          "Expedition": {
+            "ComplexResourceData": 78,
+            "MLSLevelKit": 0,
+            "LightSettings": 55,
+            "FogSettings": 8,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 1.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 571013951,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 187,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        }
+      ],
+      "TierB": [
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "UnlockedByExpedition",
+          "UnlockedByExpedition": {
+            "Tier": "TierA",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3B",
+            "PublicName": "Threshold",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 716,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 2136441274,
+            "RoleplayedWardenIntel": 3753879062,
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 0,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 444
+          },
+          "Expedition": {
+            "ComplexResourceData": 79,
+            "MLSLevelKit": 0,
+            "LightSettings": 1,
+            "FogSettings": 24,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 1.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 2624498477,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 188,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_4",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 100.0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_5",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 100.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 0.7,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": [
+                {
+                  "Zone": "Zone_3",
+                  "BasicArtifactWeight": 0.0,
+                  "AdvancedArtifactWeight": 0.0,
+                  "SpecializedArtifactWeight": 0.0
+                }
+              ]
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        },
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "UnlockedByExpedition",
+          "UnlockedByExpedition": {
+            "Tier": "TierB",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3B",
+            "PublicName": "Pressure",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 670,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 1007400837,
+            "RoleplayedWardenIntel": 3103540076,
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 40,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 222
+          },
+          "Expedition": {
+            "ComplexResourceData": 68,
+            "MLSLevelKit": 0,
+            "LightSettings": 28,
+            "FogSettings": 147,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 1.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 3702530426,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 189,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_6",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 0.8,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": [
+                {
+                  "Zone": "Zone_6",
+                  "BasicArtifactWeight": 0.5,
+                  "AdvancedArtifactWeight": 0.5,
+                  "SpecializedArtifactWeight": 0.5
+                }
+              ]
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        }
+      ],
+      "TierC": [
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "UnlockedByExpedition",
+          "UnlockedByExpedition": {
+            "Tier": "TierB",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3C",
+            "PublicName": "ALPHA",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 833,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 610364783,
+            "RoleplayedWardenIntel": 261939357,
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 421234,
+            "FunctionMarkerOffset": 1234,
+            "StandardMarkerOffset": 512,
+            "LightJobSeedOffset": 123
+          },
+          "Expedition": {
+            "ComplexResourceData": 28,
+            "MLSLevelKit": 0,
+            "LightSettings": 37,
+            "FogSettings": 44,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 1.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 3252418700,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 190,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_7",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 75.0
+                    }
+                  },
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_10",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 75.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 0.7,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": [
+                {
+                  "Zone": "Zone_3",
+                  "BasicArtifactWeight": 0.5,
+                  "AdvancedArtifactWeight": 0.5,
+                  "SpecializedArtifactWeight": 0.5
+                },
+                {
+                  "Zone": "Zone_6",
+                  "BasicArtifactWeight": 0.5,
+                  "AdvancedArtifactWeight": 0.5,
+                  "SpecializedArtifactWeight": 0.5
+                }
+              ]
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        }
+      ],
+      "TierD": [
+        {
+          "Enabled": true,
+          "IsSinglePlayer": false,
+          "SkipLobby": false,
+          "PutIconAboveTier": false,
+          "DisablePlayerVoicelines": false,
+          "ExcludeFromProgression": false,
+          "Accessibility": "UnlockedByExpedition",
+          "UnlockedByExpedition": {
+            "Tier": "TierC",
+            "Exp": "Exp1"
+          },
+          "CustomProgressionLock": {
+            "MainSectors": 0,
+            "SecondarySectors": 0,
+            "ThirdSectors": 0,
+            "AllClearedSectors": 0
+          },
+          "Descriptive": {
+            "Prefix": "R3D",
+            "PublicName": "Bianhua",
+            "IsExtraExpedition": false,
+            "SkipExpNumberInName": false,
+            "UseCustomMatchmakingTier": false,
+            "CustomMatchmakingTier": "TierA",
+            "ProgressionVisualStyle": "Normal",
+            "ExpeditionDepth": 989,
+            "EstimatedDuration": 930,
+            "ExpeditionDescription": 2515642072,
+            "RoleplayedWardenIntel": 2587190580,
+            "DevInfo": ""
+          },
+          "Seeds": {
+            "BuildSeed": 12312,
+            "FunctionMarkerOffset": 0,
+            "StandardMarkerOffset": 0,
+            "LightJobSeedOffset": 0
+          },
+          "Expedition": {
+            "ComplexResourceData": 80,
+            "MLSLevelKit": 0,
+            "LightSettings": 66,
+            "FogSettings": 47,
+            "EnemyPopulation": 1,
+            "ExpeditionBalance": 1,
+            "ScoutWaveSettings": 3,
+            "ScoutWavePopulation": 1,
+            "EnvironmentWetness": 0.0,
+            "DustColor": {
+              "a": 1.0,
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5
+            },
+            "DustTurbulence": 10.0
+          },
+          "VanityItemsDropData": {
+            "Groups": [
+              36
+            ]
+          },
+          "UseGearPicker": false,
+          "LevelLayoutData": 3127162354,
+          "MainLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 191,
+              "WinCondition": "GoToExitGeo",
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "DimensionIndex": "Reality",
+                    "LocalIndex": "Zone_5",
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 0.8,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": [
+                {
+                  "Zone": "Zone_5",
+                  "BasicArtifactWeight": 0.5,
+                  "AdvancedArtifactWeight": 0.5,
+                  "SpecializedArtifactWeight": 0.5
+                },
+                {
+                  "Zone": "Zone_9",
+                  "BasicArtifactWeight": 0.0,
+                  "AdvancedArtifactWeight": 0.0,
+                  "SpecializedArtifactWeight": 0.0
+                }
+              ]
+            }
+          },
+          "SecondaryLayerEnabled": false,
+          "SecondaryLayout": 0,
+          "BuildSecondaryFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "SecondaryLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "ThirdLayerEnabled": false,
+          "ThirdLayout": 0,
+          "BuildThirdFrom": {
+            "LayerType": "MainLayer",
+            "Zone": "Zone_0"
+          },
+          "ThirdLayerData": {
+            "ZonesWithBulkheadEntrance": [],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
+            "ObjectiveData": {
+              "DataBlockId": 0,
+              "WinCondition": "GoToElevator",
+              "ZonePlacementDatas": []
+            },
+            "ChainedObjectiveData": [],
+            "ArtifactData": {
+              "ArtifactAmountMulti": 1.0,
+              "ArtifactLayerDistributionDataID": 0,
+              "ArtifactZoneDistributions": []
+            }
+          },
+          "DimensionDatas": [],
+          "SoundEventOnWarpToReality": 0,
+          "SpecialOverrideData": {
+            "WeakResourceContainerWithPackChanceForLocked": -1.0,
+            "InfectionLevelAtExpeditionStart": 0.0,
+            "HealthLevelAtExpeditionStart": 1.0,
+            "StandardAmmoAtExpeditionStart": 1.0,
+            "SpecialAmmoAtExpeditionStart": 1.0,
+            "ToolAmmoAtExpeditionStart": 1.0
+          },
+          "HasExternalStyle": false,
+          "HasStoryStyle": false
+        }
+      ],
+      "TierE": [],
+      "name": "ALT Rundown 3.0",
+      "internalEnabled": true,
+      "persistentID": 34
     }
   ],
   "LastPersistentID": 39

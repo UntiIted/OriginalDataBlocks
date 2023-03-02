@@ -1108,6 +1108,39 @@
       "persistentID": 42
     },
     {
+      "SpawnsPerZone": 8,
+      "ChanceToSpawnInResourceContainer": 0.9,
+      "SpawnData": [
+        {
+          "ItemID": 30,
+          "Weight": 5.0
+        },
+        {
+          "ItemID": 174,
+          "Weight": 10.0
+        },
+        {
+          "ItemID": 115,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 12.0
+        },
+        {
+          "ItemID": 116,
+          "Weight": 6.0
+        },
+        {
+          "ItemID": 139,
+          "Weight": 2.0
+        }
+      ],
+      "name": "Baseline_c1_r3_Alt_fog",
+      "internalEnabled": true,
+      "persistentID": 82
+    },
+    {
       "SpawnsPerZone": 4,
       "ChanceToSpawnInResourceContainer": 0.7,
       "SpawnData": [
@@ -2131,5 +2164,5 @@
       "persistentID": 81
     }
   ],
-  "LastPersistentID": 81
+  "LastPersistentID": 82
 }

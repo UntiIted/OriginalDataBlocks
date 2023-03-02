@@ -2015,7 +2015,7 @@
       "eventZoomIn": "",
       "eventZoomOut": "",
       "name": "FlareGun",
-      "internalEnabled": false,
+      "internalEnabled": true,
       "persistentID": 28
     }
   ],

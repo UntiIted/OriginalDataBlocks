@@ -747,6 +747,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette024Black.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011Black.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "VanityItems",
@@ -993,7 +997,11 @@
           "Shard": "S10"
         },
         {
-          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_Moving_R8B4.prefab",
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4.prefab",
+          "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4_v2.prefab",
           "Shard": "S10"
         }
       ],
@@ -1770,6 +1778,10 @@
         },
         {
           "AssetPath": "Assets/Source/UI/VanityItemIcons/Torso011Garden.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear011Black.png",
           "Shard": "S1"
         }
       ],

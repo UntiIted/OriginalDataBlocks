@@ -3730,6 +3730,55 @@
       "persistentID": 175
     },
     {
+      "publicName": "IMPRINTED NEONATE HSU",
+      "LocalizedName": 0,
+      "terminalItemShortName": "IMPRINTED NEONATE HSU",
+      "terminalItemLongName": 2871753284,
+      "addSerialNumberToName": false,
+      "registerInTerminalSystem": false,
+      "DimensionWarpType": "Never",
+      "Shard": "S3",
+      "inventorySlot": "InLevelCarry",
+      "FPSSettings": 36,
+      "crosshair": "None",
+      "HUDIcon": "",
+      "ShowCrosshairWhenAiming": false,
+      "GUIShowAmmoClip": false,
+      "GUIShowAmmoPack": false,
+      "GUIShowAmmoTotalRel": false,
+      "GUIShowAmmoInfinite": false,
+      "canMoveQuick": false,
+      "BlockToolAmmoRefill": false,
+      "ClassAmmoCostFactor": 1.0,
+      "ConsumableAmmoMin": 0,
+      "ConsumableAmmoMax": 0,
+      "audioEventEquip": "",
+      "FirstPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_FirstPerson_Stage_4.prefab"
+      ],
+      "ThirdPersonPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_ThirdPerson_Stage_4.prefab"
+      ],
+      "PickupPrefabs": [
+        "Assets/AssetPrefabs/Items/MiscPickups/HSUSmall_Pickup_Stage_4_static.prefab"
+      ],
+      "InstancePrefabs": [],
+      "EquipTransitionTime": 0.5,
+      "AimTransitionTime": 0.5,
+      "FPSArmsAnim": "",
+      "ThirdPersonFullbodyMovementSet": "Rifle",
+      "LeftHandGripAlign": "LeftHand",
+      "LeftHandGripAnim": "Generator_Cell",
+      "RightHandGripAlign": "RightHand",
+      "RightHandGripAnim": "Generator_Cell",
+      "SightLookAlign": "",
+      "MuzzleAlign": "",
+      "BackpackAlign": "",
+      "name": "Carry_HSU_Small_Stage_4_R3D1_Static",
+      "internalEnabled": true,
+      "persistentID": 177
+    },
+    {
       "publicName": "DATA SPHERE",
       "LocalizedName": 0,
       "terminalItemShortName": "DATA_SPHERE",
@@ -4145,5 +4194,5 @@
       "persistentID": 173
     }
   ],
-  "LastPersistentID": 176
+  "LastPersistentID": 177
 }

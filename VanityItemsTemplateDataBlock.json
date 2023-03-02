@@ -127,6 +127,16 @@
       "persistentID": 48
     },
     {
+      "publicName": "Kovac Typhoon model I",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear006/Headgear006.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear006.png",
+      "name": "Headgear006",
+      "internalEnabled": true,
+      "persistentID": 72
+    },
+    {
       "publicName": "Inter Piranha Mark I",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear007/Headgear007.prefab",
@@ -747,5 +757,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 109
+  "LastPersistentID": 110
 }
