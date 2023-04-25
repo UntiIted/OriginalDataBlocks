@@ -6855,7 +6855,16 @@
               },
               "AreaSeedOffset": 0,
               "MarkerSeedOffset": 0,
-              "LocalLogFiles": [],
+              "LocalLogFiles": [
+                {
+                  "FileName": "STA-B26-078",
+                  "FileContent": 1794210895,
+                  "FileContentOriginalLanguage": "English",
+                  "AttachedAudioFile": 0,
+                  "AttachedAudioByteSize": 0,
+                  "PlayerDialogToTriggerAfterAudio": 0
+                }
+              ],
               "UniqueCommands": [],
               "StartingStateData": {
                 "StartingState": "Sleeping",
@@ -7004,18 +7013,10 @@
               "MarkerSeedOffset": 0,
               "LocalLogFiles": [
                 {
-                  "FileName": "STA-B26-078",
-                  "FileContent": 1794210895,
-                  "FileContentOriginalLanguage": "English",
-                  "AttachedAudioFile": 0,
-                  "AttachedAudioByteSize": 0,
-                  "PlayerDialogToTriggerAfterAudio": 0
-                },
-                {
                   "FileName": "POI-M7Y-THE",
                   "FileContent": 2831084690,
                   "FileContentOriginalLanguage": "English",
-                  "AttachedAudioFile": 676469472,
+                  "AttachedAudioFile": 3929856436,
                   "AttachedAudioByteSize": 0,
                   "PlayerDialogToTriggerAfterAudio": 0
                 }
@@ -7653,7 +7654,7 @@
               }
             }
           ],
-          "ForbidTerminalsInZone": true,
+          "ForbidTerminalsInZone": false,
           "PowerGeneratorPlacements": [],
           "DisinfectionStationPlacements": [
             {
