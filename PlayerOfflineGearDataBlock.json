@@ -38,6 +38,13 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Raptus Steigro\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":21},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":21},\"e\":{\"c\":5,\"v\":44},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":18},\"i\":{\"c\":9,\"v\":11},\"j\":{\"c\":10,\"v\":28},\"k\":{\"c\":11,\"v\":28},\"l\":{\"c\":12,\"v\":39},\"m\":{\"c\":16,\"v\":18},\"n\":{\"c\":19,\"v\":18},\"o\":{\"c\":23,\"v\":17},\"p\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.03,\"y\":0.032},\"scale\":0.033},\"tDecalB\":{\"position\":{\"x\":-0.03,\"y\":0.032},\"scale\":0.03},\"tPattern\":{\"position\":{\"x\":-0.1,\"y\":0.032},\"angle\":140.0,\"scale\":0.15}},\"publicName\":{\"data\":\"Raptus Steigro\"}}}",
+      "name": "Autopistol staggering",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Accrat Golok DA\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":17},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":22},\"e\":{\"c\":5,\"v\":38},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":2},\"h\":{\"c\":8,\"v\":18},\"i\":{\"c\":9,\"v\":13},\"j\":{\"c\":10,\"v\":22},\"k\":{\"c\":11,\"v\":22},\"l\":{\"c\":12,\"v\":41},\"m\":{\"c\":16,\"v\":19},\"n\":{\"c\":19,\"v\":17},\"o\":{\"c\":21,\"v\":9},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.202,\"y\":0.012,\"normalized\":{\"x\":-0.9982401,\"y\":0.05930139,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.20235613,\"sqrMagnitude\":0.0409480035},\"scale\":0.07},\"tDecalB\":{\"position\":{\"x\":-0.2,\"y\":0.01,\"normalized\":{\"x\":-0.9987523,\"y\":0.0499376133,\"normalized\":{\"x\":-0.998752356,\"y\":0.049937617,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.99999994,\"sqrMagnitude\":0.99999994},\"magnitude\":0.200249851,\"sqrMagnitude\":0.0401},\"scale\":0.07},\"tPattern\":{\"position\":{\"x\":-0.1,\"y\":0.032,\"normalized\":{\"x\":-0.9524241,\"y\":0.3047757,\"normalized\":{\"x\":-0.952424169,\"y\":0.304775745,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.99999994,\"sqrMagnitude\":0.99999994},\"magnitude\":0.104995243,\"sqrMagnitude\":0.011024},\"angle\":-140.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Accrat Golok DA\"}}}",
       "name": "BullpupAuto",
       "internalEnabled": true,
@@ -231,6 +238,13 @@
       "name": "Mine_Deployer",
       "internalEnabled": true,
       "persistentID": 20
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"RAD Labs Meduza\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":11},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":45},\"f\":{\"c\":12,\"v\":28},\"g\":{\"c\":16,\"v\":2},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":2},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"RAD Labs Meduza\"}}}",
+      "name": "SentryGun_Auto_staggering",
+      "internalEnabled": true,
+      "persistentID": 6
     },
     {
       "Type": "StandardInventory",

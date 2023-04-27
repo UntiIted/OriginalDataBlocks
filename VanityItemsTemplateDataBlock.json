@@ -167,6 +167,16 @@
       "persistentID": 35
     },
     {
+      "publicName": "Headgear010",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear010/Headgear010.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear011.png",
+      "name": "Headgear010",
+      "internalEnabled": true,
+      "persistentID": 66
+    },
+    {
       "publicName": "Oblique Tigris",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011.prefab",
@@ -175,6 +185,16 @@
       "name": "Headgear011",
       "internalEnabled": true,
       "persistentID": 60
+    },
+    {
+      "publicName": "HF Panther 90",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011Black.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear011Black.png",
+      "name": "Headgear011Black",
+      "internalEnabled": true,
+      "persistentID": 110
     },
     {
       "publicName": "Twin Barrel Blade Visor Mark I",

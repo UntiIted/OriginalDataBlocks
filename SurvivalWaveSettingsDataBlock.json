@@ -878,6 +878,32 @@
     },
     {
       "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 5.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 30.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 15.0,
+      "m_populationPointsPerWaveEnd": 25.0,
+      "m_populationPointsMinPerGroup": 5.0,
+      "m_populationPointsPerGroupStart": 4.0,
+      "m_populationPointsPerGroupEnd": 10.0,
+      "m_populationRampOverTime": 120.0,
+      "name": "Apex Increased R4B3_L2",
+      "internalEnabled": true,
+      "persistentID": 241
+    },
+    {
+      "m_pauseBeforeStart": 1.0,
       "m_pauseBetweenGroups": 3.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 10.0,
@@ -1872,6 +1898,59 @@
       "name": "Trickle 4-6 B",
       "internalEnabled": true,
       "persistentID": 16
+    },
+    {
+      "m_pauseBeforeStart": 3.0,
+      "m_pauseBetweenGroups": 15.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 12.0,
+      "m_wavePauseMax": 25.0,
+      "m_populationFilter": [
+        "Weakling",
+        "Weakling"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 2.0,
+      "m_populationPointsPerWaveEnd": 5.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 2.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 140.0,
+      "name": "Trickle 4-6 B_R4E1_L1",
+      "internalEnabled": true,
+      "persistentID": 243
+    },
+    {
+      "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 6.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Standard"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 8.0,
+      "m_populationPointsPerWaveEnd": 12.0,
+      "m_populationPointsMinPerGroup": 3.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 5.0,
+      "m_populationRampOverTime": 120.0,
+      "name": "Trickle 4-6 B_R5D2",
+      "internalEnabled": true,
+      "persistentID": 242
     },
     {
       "m_pauseBeforeStart": 1.0,
@@ -3044,6 +3123,58 @@
       "name": "Exit Trickle 4-10 S",
       "internalEnabled": true,
       "persistentID": 14
+    },
+    {
+      "m_pauseBeforeStart": 5.0,
+      "m_pauseBetweenGroups": 10.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.5,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 1.0,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 10000.0,
+      "m_populationPointsPerWaveEnd": 10000.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 5.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Exit Trickle 4-10 S R4C2",
+      "internalEnabled": true,
+      "persistentID": 245
+    },
+    {
+      "m_pauseBeforeStart": 5.0,
+      "m_pauseBetweenGroups": 10.0,
+      "m_wavePauseMin_atCost": 5.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 5.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.5,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 1.0,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 1000.0,
+      "m_populationPointsPerWaveEnd": 1000.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Exit Trickle 4-10 S R4D2_L3",
+      "internalEnabled": true,
+      "persistentID": 244
     },
     {
       "m_pauseBeforeStart": 3.0,
@@ -6084,5 +6215,5 @@
       "persistentID": 188
     }
   ],
-  "LastPersistentID": 240
+  "LastPersistentID": 245
 }

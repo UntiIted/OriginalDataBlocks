@@ -125,3 +125,6 @@ time_InLevel_210 - 123
 time_InLevel_240 - 124
 checkpoint_reload - 125
 new_user_registered - 126
+user_login_success - 127
+player_equip_item - 128
+enemy_spawned - 129

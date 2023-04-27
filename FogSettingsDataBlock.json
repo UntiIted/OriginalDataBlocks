@@ -2051,6 +2051,31 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
+        "r": 0.388127446,
+        "g": 0.9245283,
+        "b": 0.746809065
+      },
+      "FogDensity": 0.001,
+      "FogAmbience": 0.0001,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.074,
+      "DensityNoiseScale": 0.131,
+      "DensityHeightAltitude": -1.5,
+      "DensityHeightRange": 0.3,
+      "DensityHeightMaxBoost": 0.03,
+      "Infection": 0.03,
+      "name": "Fog_light_green_low0_LOW_INFECTION_R4C3_1",
+      "internalEnabled": true,
+      "persistentID": 173
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
         "r": 0.0,
         "g": 1.0,
         "b": 0.7137255
@@ -2855,31 +2880,6 @@
         "g": 1.0,
         "b": 0.956862748
       },
-      "FogDensity": 0.00035,
-      "FogAmbience": 0.0001,
-      "DensityNoiseDirection": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "DensityNoiseSpeed": 0.055,
-      "DensityNoiseScale": 0.045,
-      "DensityHeightAltitude": 8.0,
-      "DensityHeightRange": -1.5,
-      "DensityHeightMaxBoost": 0.1,
-      "Infection": 0.0,
-      "name": "Fog_light_inverted_high8_FG4_R4E1",
-      "internalEnabled": true,
-      "persistentID": 166
-    },
-    {
-      "Enabled": true,
-      "FogColor": {
-        "a": 0.03137255,
-        "r": 0.847058833,
-        "g": 1.0,
-        "b": 0.956862748
-      },
       "FogDensity": 0.0006,
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
@@ -2905,6 +2905,31 @@
         "g": 1.0,
         "b": 0.956862748
       },
+      "FogDensity": 0.03,
+      "FogAmbience": 0.0001,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.055,
+      "DensityNoiseScale": 0.045,
+      "DensityHeightAltitude": 8.0,
+      "DensityHeightRange": 1.5,
+      "DensityHeightMaxBoost": 0.0008,
+      "Infection": 0.0,
+      "name": "Fog_light_inverted_high8_FG4_R4E1",
+      "internalEnabled": true,
+      "persistentID": 166
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
+        "r": 0.847058833,
+        "g": 1.0,
+        "b": 0.956862748
+      },
       "FogDensity": 5E-07,
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
@@ -2915,12 +2940,37 @@
       "DensityNoiseSpeed": 0.055,
       "DensityNoiseScale": 0.045,
       "DensityHeightAltitude": -4.0,
-      "DensityHeightRange": -1.0,
+      "DensityHeightRange": 1.0,
       "DensityHeightMaxBoost": 0.008,
       "Infection": 0.0,
       "name": "Fog_light_inverted_low2_FG4_R4E1",
       "internalEnabled": true,
       "persistentID": 165
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.7137255
+      },
+      "FogDensity": 0.0005,
+      "FogAmbience": 0.0001,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.055,
+      "DensityNoiseScale": 0.045,
+      "DensityHeightAltitude": 0.0,
+      "DensityHeightRange": 0.4,
+      "DensityHeightMaxBoost": 0.05,
+      "Infection": 0.03,
+      "name": "Fog_light_low0_INFECTON_FG4_R4E1",
+      "internalEnabled": true,
+      "persistentID": 174
     },
     {
       "Enabled": true,
@@ -3301,11 +3351,11 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
-        "r": 0.9019608,
-        "g": 0.8745098,
+        "r": 0.8235294,
+        "g": 0.9019608,
         "b": 0.819607854
       },
-      "FogDensity": 0.0003,
+      "FogDensity": 0.001,
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
         "x": 0.0,
@@ -3326,11 +3376,11 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
-        "r": 0.9019608,
-        "g": 0.8745098,
+        "r": 0.8228212,
+        "g": 0.9019608,
         "b": 0.819607854
       },
-      "FogDensity": 0.0003,
+      "FogDensity": 0.02,
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
         "x": 0.0,
@@ -3339,13 +3389,88 @@
       },
       "DensityNoiseSpeed": 0.055,
       "DensityNoiseScale": 0.045,
-      "DensityHeightAltitude": 4.0,
-      "DensityHeightRange": -2.5,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightAltitude": 5.0,
+      "DensityHeightRange": 2.5,
+      "DensityHeightMaxBoost": 0.00075,
       "Infection": 0.0,
       "name": "R4B2 Fog light inverted high 4",
       "internalEnabled": true,
       "persistentID": 168
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
+        "r": 0.8235294,
+        "g": 0.9019608,
+        "b": 0.819607854
+      },
+      "FogDensity": 0.001,
+      "FogAmbience": 0.0001,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.055,
+      "DensityNoiseScale": 0.045,
+      "DensityHeightAltitude": 2.0,
+      "DensityHeightRange": 2.0,
+      "DensityHeightMaxBoost": 0.02,
+      "Infection": 0.0,
+      "name": "R4B2 Fog light high2",
+      "internalEnabled": true,
+      "persistentID": 169
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
+        "r": 0.8235294,
+        "g": 0.9019608,
+        "b": 0.819607854
+      },
+      "FogDensity": 0.005,
+      "FogAmbience": 0.0001,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.055,
+      "DensityNoiseScale": 0.045,
+      "DensityHeightAltitude": 0.0,
+      "DensityHeightRange": 1.0,
+      "DensityHeightMaxBoost": 0.02,
+      "Infection": 0.0,
+      "name": "R4B2 Fog light high 0",
+      "internalEnabled": true,
+      "persistentID": 170
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.03137255,
+        "r": 0.8235294,
+        "g": 0.9019608,
+        "b": 0.819607854
+      },
+      "FogDensity": 0.005,
+      "FogAmbience": 0.0001,
+      "DensityNoiseDirection": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "DensityNoiseSpeed": 0.055,
+      "DensityNoiseScale": 0.045,
+      "DensityHeightAltitude": -3.0,
+      "DensityHeightRange": 1.5,
+      "DensityHeightMaxBoost": 0.02,
+      "Infection": 0.0,
+      "name": "R4B2 Fog light low 3",
+      "internalEnabled": true,
+      "persistentID": 171
     },
     {
       "Enabled": true,
@@ -3371,81 +3496,6 @@
       "name": "R4B2 Fog light inverted high 0",
       "internalEnabled": true,
       "persistentID": 172
-    },
-    {
-      "Enabled": true,
-      "FogColor": {
-        "a": 0.03137255,
-        "r": 0.9019608,
-        "g": 0.8745098,
-        "b": 0.819607854
-      },
-      "FogDensity": 0.0003,
-      "FogAmbience": 0.0001,
-      "DensityNoiseDirection": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "DensityNoiseSpeed": 0.055,
-      "DensityNoiseScale": 0.045,
-      "DensityHeightAltitude": 2.0,
-      "DensityHeightRange": 2.0,
-      "DensityHeightMaxBoost": 0.02,
-      "Infection": 0.0,
-      "name": "R4B2 Fog light high2",
-      "internalEnabled": true,
-      "persistentID": 169
-    },
-    {
-      "Enabled": true,
-      "FogColor": {
-        "a": 0.03137255,
-        "r": 0.9019608,
-        "g": 0.8745098,
-        "b": 0.819607854
-      },
-      "FogDensity": 0.0003,
-      "FogAmbience": 0.0001,
-      "DensityNoiseDirection": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "DensityNoiseSpeed": 0.055,
-      "DensityNoiseScale": 0.045,
-      "DensityHeightAltitude": 0.0,
-      "DensityHeightRange": 1.0,
-      "DensityHeightMaxBoost": 0.02,
-      "Infection": 0.0,
-      "name": "R4B2 Fog light high 0",
-      "internalEnabled": true,
-      "persistentID": 170
-    },
-    {
-      "Enabled": true,
-      "FogColor": {
-        "a": 0.03137255,
-        "r": 0.9019608,
-        "g": 0.8745098,
-        "b": 0.819607854
-      },
-      "FogDensity": 0.0003,
-      "FogAmbience": 0.0001,
-      "DensityNoiseDirection": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "DensityNoiseSpeed": 0.055,
-      "DensityNoiseScale": 0.045,
-      "DensityHeightAltitude": -3.0,
-      "DensityHeightRange": 1.5,
-      "DensityHeightMaxBoost": 0.02,
-      "Infection": 0.0,
-      "name": "R4B2 Fog light low 3",
-      "internalEnabled": true,
-      "persistentID": 171
     },
     {
       "Enabled": true,
@@ -4073,5 +4123,5 @@
       "persistentID": 139
     }
   ],
-  "LastPersistentID": 172
+  "LastPersistentID": 174
 }

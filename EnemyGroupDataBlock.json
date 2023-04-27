@@ -995,6 +995,23 @@
     },
     {
       "Type": "Hunter",
+      "Difficulty": "MegaBoss",
+      "SpawnPlacementType": "Align_1",
+      "MaxScore": 10.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Melee",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Hunter Boss Tank_R4C3_L3",
+      "internalEnabled": true,
+      "persistentID": 79
+    },
+    {
+      "Type": "Hunter",
       "Difficulty": "Buss",
       "SpawnPlacementType": "Default",
       "MaxScore": 12.0,
@@ -1277,5 +1294,5 @@
       "persistentID": 75
     }
   ],
-  "LastPersistentID": 78
+  "LastPersistentID": 79
 }
