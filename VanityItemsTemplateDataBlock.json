@@ -167,16 +167,6 @@
       "persistentID": 35
     },
     {
-      "publicName": "Headgear010",
-      "type": "Helmet",
-      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear010/Headgear010.prefab",
-      "DropWeight": 1.0,
-      "icon": "Assets/Source/UI/VanityItemIcons/Headgear011.png",
-      "name": "Headgear010",
-      "internalEnabled": true,
-      "persistentID": 66
-    },
-    {
       "publicName": "Oblique Tigris",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011.prefab",
@@ -327,6 +317,16 @@
       "persistentID": 12
     },
     {
+      "publicName": "Braveer Pathfinder model I",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso006/Torso006.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso006.png",
+      "name": "Torso006",
+      "internalEnabled": true,
+      "persistentID": 67
+    },
+    {
       "publicName": "Kovac Dragonscale model I",
       "type": "Torso",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso007Security/Torso007Security.prefab",
@@ -337,6 +337,26 @@
       "persistentID": 69
     },
     {
+      "publicName": "SMC Cut model I",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso008Construction/Torso008Construction.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso008Construction.png",
+      "name": "Torso008Construction",
+      "internalEnabled": true,
+      "persistentID": 73
+    },
+    {
+      "publicName": "Nyxos Antora",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso009Lab/Torso009Lab.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso009Lab.png",
+      "name": "Torso009Lab",
+      "internalEnabled": true,
+      "persistentID": 77
+    },
+    {
       "publicName": "Chem Wader Hyperseal",
       "type": "Torso",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso010Garden/Torso010Garden.prefab",
@@ -345,6 +365,16 @@
       "name": "Torso010Garden",
       "internalEnabled": true,
       "persistentID": 87
+    },
+    {
+      "publicName": "HF Oasis model I",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso011Garden/Torso011Garden.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso011Garden.png",
+      "name": "Torso011Garden",
+      "internalEnabled": true,
+      "persistentID": 100
     },
     {
       "publicName": "Commando Rhino Bush Vest",
@@ -427,6 +457,16 @@
       "persistentID": 43
     },
     {
+      "publicName": "Braveer Pathfinder TR",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs006/Legs006_New.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs006.png",
+      "name": "Legs006",
+      "internalEnabled": true,
+      "persistentID": 71
+    },
+    {
       "publicName": "Roughneck MDR Cargo",
       "type": "Legs",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs007Security/Legs007Security.prefab",
@@ -437,6 +477,26 @@
       "persistentID": 68
     },
     {
+      "publicName": "SMC Murk H",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs008Construction/Legs008Construction.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs008Construction.png",
+      "name": "Legs008Construction",
+      "internalEnabled": true,
+      "persistentID": 75
+    },
+    {
+      "publicName": "Nyxos Waders",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs009Lab/Legs009Lab.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs009Lab.png",
+      "name": "Legs009Lab",
+      "internalEnabled": true,
+      "persistentID": 78
+    },
+    {
       "publicName": "Model W Hyperseal",
       "type": "Legs",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs010Garden/Legs010Garden.prefab",
@@ -445,6 +505,16 @@
       "name": "Legs010Garden",
       "internalEnabled": true,
       "persistentID": 86
+    },
+    {
+      "publicName": "HF Oasis REL",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs011Garden/Legs011Garden.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs011Garden.png",
+      "name": "Legs011Garden",
+      "internalEnabled": true,
+      "persistentID": 101
     },
     {
       "publicName": "Commando Mudcrawler Bush Pants",
@@ -537,6 +607,26 @@
       "persistentID": 38
     },
     {
+      "publicName": "STRP Pack Mule",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack010/Backpack010.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack010.png",
+      "name": "Backpack010",
+      "internalEnabled": true,
+      "persistentID": 74
+    },
+    {
+      "publicName": "D-Tek Compact WM",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack011Lab/Backpack011Lab.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack011Lab.png",
+      "name": "Backpack011Lab",
+      "internalEnabled": true,
+      "persistentID": 76
+    },
+    {
       "publicName": "HF van Niel T1",
       "type": "Backpack",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack012Garden/Backpack012Garden.prefab",
@@ -565,6 +655,16 @@
       "name": "Backpack014Security",
       "internalEnabled": true,
       "persistentID": 80
+    },
+    {
+      "publicName": "SMC Utility Kit",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack015Construction/Backpack015Construction.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack015Construction.png",
+      "name": "Backpack015Construction",
+      "internalEnabled": true,
+      "persistentID": 81
     },
     {
       "publicName": "Commando Brawler Bush Pack",
@@ -735,6 +835,16 @@
       "name": "Palette020pSon-EA",
       "internalEnabled": true,
       "persistentID": 59
+    },
+    {
+      "publicName": "Blush Safeguard",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette023Construction.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette023Construction",
+      "internalEnabled": true,
+      "persistentID": 93
     },
     {
       "publicName": "Onyx Corruption",
