@@ -20,18 +20,6 @@
       "persistentID": 31
     },
     {
-      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4.prefab",
-      "name": "SecurityScan_Big_Moving_R8B4",
-      "internalEnabled": true,
-      "persistentID": 42
-    },
-    {
-      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4_v2.prefab",
-      "name": "SecurityScan_Big_Moving_R8B4_v2",
-      "internalEnabled": true,
-      "persistentID": 43
-    },
-    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R7B1.prefab",
       "name": "SecurityScan_Big_Moving_R7B1",
       "internalEnabled": true,
@@ -158,6 +146,12 @@
       "persistentID": 35
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_R5B3.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_AllSides_R5B3",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_wider.prefab",
       "name": "SecurityScan_Sustained_GeoScan_AllSides_Wider",
       "internalEnabled": true,
@@ -242,5 +236,5 @@
       "persistentID": 41
     }
   ],
-  "LastPersistentID": 43
+  "LastPersistentID": 44
 }

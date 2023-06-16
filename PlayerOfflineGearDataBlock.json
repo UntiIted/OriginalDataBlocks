@@ -66,6 +66,13 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Accrat ND6\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":25},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":47},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":25},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":5},\"o\":{\"c\":21,\"v\":8},\"p\":{\"c\":23,\"v\":8},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Accrat ND6\"}}}\n",
+      "name": "SMGHeavyAuto",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken CAB F4\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":2},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":41},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":9},\"j\":{\"c\":10,\"v\":10},\"k\":{\"c\":11,\"v\":10},\"l\":{\"c\":12,\"v\":23},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":9},\"o\":{\"c\":21,\"v\":12},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.05,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"angle\":-135.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Van Auken CAB F4\"}}}",
       "name": "SMGBurst",
       "internalEnabled": true,
@@ -77,6 +84,13 @@
       "name": "DMRSemi",
       "internalEnabled": true,
       "persistentID": 5
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Hanaway PSB\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":4},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":4},\"e\":{\"c\":5,\"v\":34},\"f\":{\"c\":6,\"v\":34},\"g\":{\"c\":7,\"v\":5},\"h\":{\"c\":8,\"v\":13},\"i\":{\"c\":9,\"v\":9},\"j\":{\"c\":10,\"v\":10},\"k\":{\"c\":11,\"v\":10},\"l\":{\"c\":12,\"v\":15},\"m\":{\"c\":16,\"v\":2},\"n\":{\"c\":19,\"v\":8},\"o\":{\"c\":21,\"v\":18},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.035,\"y\":0.045},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.03,\"y\":0.04},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.03},\"angle\":-90.0,\"scale\":0.3}},\"publicName\":{\"data\":\"Hanaway PSB\"}}}",
+      "name": "DMRBurst",
+      "internalEnabled": true,
+      "persistentID": 50
     },
     {
       "Type": "StandardInventory",
@@ -112,6 +126,13 @@
       "name": "ShotgunAuto",
       "internalEnabled": true,
       "persistentID": 31
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Buckland SBS III\",\"Packet\":{\"Comps\":{\"Length\":14,\"a\":{\"c\":2,\"v\":16},\"b\":{\"c\":3,\"v\":156},\"c\":{\"c\":4,\"v\":20},\"d\":{\"c\":5,\"v\":37},\"e\":{\"c\":6,\"v\":4},\"f\":{\"c\":8,\"v\":17},\"g\":{\"c\":9,\"v\":5},\"h\":{\"c\":10,\"v\":18},\"i\":{\"c\":11,\"v\":18},\"j\":{\"c\":12,\"v\":47},\"k\":{\"c\":16,\"v\":22},\"l\":{\"c\":19,\"v\":21},\"m\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.51,\"y\":-0.05,\"normalized\":{\"x\":0.9952285,\"y\":-0.09757143,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.5124451,\"sqrMagnitude\":0.2626},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.5,\"y\":-0.07,\"normalized\":{\"x\":0.9903418,\"y\":-0.138647854,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.5048762,\"sqrMagnitude\":0.2549},\"scale\":0.3},\"tPattern\":{\"angle\":-90.0,\"scale\":0.3}},\"publicName\":{\"data\":\"Buckland SBS III\"}}}",
+      "name": "ShotgunShort",
+      "internalEnabled": true,
+      "persistentID": 51
     },
     {
       "Type": "StandardInventory",
@@ -241,17 +262,17 @@
     },
     {
       "Type": "StandardInventory",
-      "GearJSON": "{\"Ver\":1,\"Name\":\"RAD Labs Meduza\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":11},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":45},\"f\":{\"c\":12,\"v\":28},\"g\":{\"c\":16,\"v\":2},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":2},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"RAD Labs Meduza\"}}}",
-      "name": "SentryGun_Auto_staggering",
-      "internalEnabled": true,
-      "persistentID": 6
-    },
-    {
-      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Mechatronic SGB3\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":12},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":3},\"f\":{\"c\":12,\"v\":17},\"g\":{\"c\":16,\"v\":8},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":3},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Mechatronic SGB3\"}}}",
       "name": "SentryGun_Burst",
       "internalEnabled": true,
       "persistentID": 24
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"RAD Labs Meduza\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":11},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":45},\"f\":{\"c\":12,\"v\":28},\"g\":{\"c\":16,\"v\":2},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":2},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"RAD Labs Meduza\"}}}",
+      "name": "SentryGun_Auto_staggering",
+      "internalEnabled": true,
+      "persistentID": 6
     },
     {
       "Type": "StandardInventory",
@@ -275,5 +296,5 @@
       "persistentID": 37
     }
   ],
-  "LastPersistentID": 63
+  "LastPersistentID": 67
 }

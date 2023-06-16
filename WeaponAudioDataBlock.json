@@ -10,10 +10,11 @@
         "pistol_kick_semi_a"
       ],
       "eventOnBurstFire2D": [
-        "PistolBodyBBurst",
-        "PistolMechBBurst",
-        "PistolNoiseBBurst",
-        "PistolReverbBurst"
+        "PistolBodyA",
+        "PistolNoiseA",
+        "PistolMechA",
+        "PistolReverb",
+        "pistol_kick_semi_a"
       ],
       "eventOnAutoFireStart2D": [
         "PistolBodyBAuto",
@@ -41,10 +42,10 @@
         "PistolReverb3D"
       ],
       "eventOnBurstFire3D": [
-        "PistolBodyBBurst3D",
-        "PistolMechBBurst3D",
-        "PistolNoiseBBurst3D",
-        "PistolReverbBurst3D"
+        "PistolBodyA3D",
+        "PistolNoiseA3D",
+        "PistolMechA3D ",
+        "PistolReverb3D"
       ],
       "eventOnAutoFireStart3D": [
         "PistolBodyBAuto3D",
@@ -77,7 +78,7 @@
       ],
       "eventClick": "PistolDryFire",
       "eventReload": "PistolReload",
-      "TriggerBurstAudioForEachShot": false,
+      "TriggerBurstAudioForEachShot": true,
       "TriggerAutoAudioForEachShot": false,
       "eventEquip": "PistolEquip",
       "eventZoomIn": "PistolIronsightIn",
@@ -348,7 +349,7 @@
         "SMGBMechSemiF2D",
         "SMGBNoiseSemiF2D",
         "SMGBWetSemi2D",
-        "rifle_burst_kick_a_1shot"
+        "smg_kick_semi_a"
       ],
       "eventOnBurstFire2D": [
         "SMGBBodySemiE2D",
@@ -1729,11 +1730,11 @@
     },
     {
       "eventOnSemiFire2D": [
-        "ShotgunBodyA",
-        "ShotgunMechA",
-        "ShotgunNoiseA",
+        "ShotgunBodyC",
+        "ShotgunMechC",
+        "ShotgunNoiseC",
         "ShotgunReverb",
-        "shotgun_kick_a_2D"
+        "gasrifle_kick_semi_a"
       ],
       "eventOnBurstFire2D": [
         "ShotgunBodyB",
@@ -1763,8 +1764,8 @@
       "eventOnCooldownEnd2D": "WeaponCooldownEnd",
       "eventOnSemiFire3D": [
         "ShotgunBodyA3D",
-        "ShotgunMechA3D",
-        "ShotgunNoiseA3D",
+        "ShotgunMechB3D",
+        "ShotgunNoiseC3D",
         "ShotgunReverb3D"
       ],
       "eventOnBurstFire3D": [

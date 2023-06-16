@@ -2974,8 +2974,8 @@
       "FirstPersonPrefabs": [],
       "ThirdPersonPrefabs": [],
       "PickupPrefabs": [
-        "Assets/AssetPrefabs/Items/MiscPickups/plant_samplePickup_Core.prefab",
-        "Assets/AssetPrefabs/Items/MiscPickups/plant_sample.prefab"
+        "Assets/AssetPrefabs/Items/MiscPickups/OSIP_containerPickup_Core.prefab",
+        "Assets/AssetPrefabs/Items/MiscPickups/OSIP_container.prefab"
       ],
       "InstancePrefabs": [],
       "EquipTransitionTime": 1.0,

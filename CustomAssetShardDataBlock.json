@@ -751,6 +751,66 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear011/Headgear011Black.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear013LabB/Headgear013LabB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear014GardenB/Headgear014GardenB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015ConstructionB/Headgear015ConstructionB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs007SecurityB/Legs007SecurityB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso007SecurityB/Torso007SecurityB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack013SecurityB/Backpack013SecurityB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette026Camo.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityB/Headgear016SecurityB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015ConstructionSantonian/Headgear015ConstructionSantonian.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette027Santonian.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack014SecurityB/Backpack014SecurityB.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack015ConstructionSantonian/Backpack015ConstructionSantonian.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear012B/Headgear012B.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette028Camo2.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear022/Headgear022.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "VanityItems",
@@ -1003,6 +1063,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4_v2.prefab",
           "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_R5B3.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "ChainedPuzzles",
@@ -1782,6 +1846,10 @@
         },
         {
           "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear011Black.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear022.png",
           "Shard": "S1"
         }
       ],

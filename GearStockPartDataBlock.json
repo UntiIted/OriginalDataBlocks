@@ -587,6 +587,110 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Pistol_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Stock_Pistol_1",
+        "RightHandGripAnim": "Stock_Pistol_1",
+        "AssetBundle": "Gear_Weapon_Stock",
+        "BundleShard": "S7"
+      },
+      "Aligns": [
+        {
+          "AlignType": "RightHand",
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": "Magazine",
+          "AlignName": "a_mag"
+        },
+        {
+          "AlignType": "LeftHand",
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "PistolReload_Stock_Pistol_1_anim"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "StockAnim",
+          "StringData": "Stock_Pistol_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "LeftHandAnim",
+          "StringData": "Stock_Pistol_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "RightHandAnim",
+          "StringData": "Stock_Pistol_1_reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.1,
+          "Type": "Sound",
+          "StringData": "pistol_reload_1_mag_out"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "Sound",
+          "StringData": "pistol_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 0.3,
+          "Type": "MagazineAction",
+          "StringData": "drop"
+        },
+        {
+          "TriggerTime": 0.5,
+          "Type": "Sound",
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 0.6,
+          "Type": "MagazineAction",
+          "StringData": "show"
+        },
+        {
+          "TriggerTime": 1.2,
+          "Type": "Sound",
+          "StringData": "pistol_reload_2_mag_in"
+        },
+        {
+          "TriggerTime": 1.35,
+          "Type": "Sound",
+          "StringData": "pistol_reload_4_pat_mag"
+        },
+        {
+          "TriggerTime": 1.35,
+          "Type": "DoUpdateAmmo"
+        },
+        {
+          "TriggerTime": 1.4,
+          "Type": "Sound",
+          "StringData": "generic_reload_grab_heavy_weapon_soft"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "name": "Stock_Pistol_2",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_UZI_2.prefab",
         "Children": [
           "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_UZI_2_GripAlign.fbx"
@@ -675,5 +779,5 @@
       "persistentID": 4
     }
   ],
-  "LastPersistentID": 21
+  "LastPersistentID": 22
 }

@@ -11,13 +11,6 @@
           "Weight": 1.0
         },
         {
-          "Role": "Ranged",
-          "Difficulty": "Easy",
-          "Enemy": 26,
-          "Cost": 1.0,
-          "Weight": 1.0
-        },
-        {
           "Role": "Melee",
           "Difficulty": "Medium",
           "Enemy": 24,
@@ -57,6 +50,13 @@
           "Difficulty": "Buss",
           "Enemy": 35,
           "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 26,
+          "Cost": 1.0,
           "Weight": 1.0
         },
         {
@@ -158,6 +158,27 @@
           "Weight": 1.0
         },
         {
+          "Role": "PureSneak",
+          "Difficulty": "Boss",
+          "Enemy": 44,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "MegaBoss",
+          "Enemy": 29,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "MiniBoss",
+          "Enemy": 37,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
           "Role": "BirtherChild",
           "Difficulty": "Buss",
           "Enemy": 38,
@@ -168,6 +189,13 @@
           "Role": "BirtherChild",
           "Difficulty": "Easy",
           "Enemy": 38,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "BirtherChild",
+          "Difficulty": "Biss",
+          "Enemy": 42,
           "Cost": 1.0,
           "Weight": 1.0
         },
@@ -204,6 +232,20 @@
           "Difficulty": "MegaBoss",
           "Enemy": 29,
           "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Buss",
+          "Enemy": 16,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Biss",
+          "Enemy": 46,
+          "Cost": 1.0,
           "Weight": 1.0
         },
         {
@@ -253,41 +295,6 @@
           "Difficulty": "Easy",
           "Enemy": 30,
           "Cost": 1.0,
-          "Weight": 1.0
-        },
-        {
-          "Role": "BirtherChild",
-          "Difficulty": "Biss",
-          "Enemy": 42,
-          "Cost": 1.0,
-          "Weight": 1.0
-        },
-        {
-          "Role": "PureSneak",
-          "Difficulty": "Boss",
-          "Enemy": 44,
-          "Cost": 10.0,
-          "Weight": 1.0
-        },
-        {
-          "Role": "PureSneak",
-          "Difficulty": "MegaBoss",
-          "Enemy": 29,
-          "Cost": 10.0,
-          "Weight": 1.0
-        },
-        {
-          "Role": "PureSneak",
-          "Difficulty": "MiniBoss",
-          "Enemy": 37,
-          "Cost": 10.0,
-          "Weight": 1.0
-        },
-        {
-          "Role": "Hunter",
-          "Difficulty": "Buss",
-          "Enemy": 16,
-          "Cost": 4.0,
           "Weight": 1.0
         }
       ],

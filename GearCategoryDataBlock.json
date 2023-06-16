@@ -209,13 +209,13 @@
       "IconZoomOffset": 0.0,
       "FPSArmPoseName": "",
       "ThirdPersonFullbodyMovement": "Rifle",
-      "SemiArchetype": 68,
-      "BurstArchetype": 26,
-      "AutoArchetype": 27,
+      "SemiArchetype": 17,
+      "BurstArchetype": 18,
+      "AutoArchetype": 19,
       "SemiBurstArchetype": 28,
       "MeleeArchetype": 0,
       "PartAlignPriority": [],
-      "name": "DMR_Special",
+      "name": "SMG_Special",
       "internalEnabled": true,
       "persistentID": 24
     },
@@ -304,7 +304,7 @@
       "IconZoomOffset": 0.0,
       "FPSArmPoseName": "",
       "ThirdPersonFullbodyMovement": "Rifle",
-      "SemiArchetype": 78,
+      "SemiArchetype": 81,
       "BurstArchetype": 78,
       "AutoArchetype": 78,
       "SemiBurstArchetype": 78,
@@ -752,5 +752,5 @@
       "persistentID": 26
     }
   ],
-  "LastPersistentID": 35
+  "LastPersistentID": 37
 }

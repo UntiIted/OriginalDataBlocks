@@ -5163,6 +5163,74 @@
         "FunctionComponentLinks": [
           [],
           [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_large_open_2600x2000x800_V06.prefab",
+            "function": "GeneratorCluster",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 6.0,
+        "RotationSnap": 180,
+        "RotationNoise": 0.0,
+        "EditorMesh": "Markerproducers/Tech/M_Lab_large_open_2600x2000x800",
+        "BoundingVolume": 4160000.0
+      },
+      "name": "Lab_large_open_2600x2000x800_GC",
+      "internalEnabled": true,
+      "persistentID": 78
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
           [
             4
           ],
@@ -6969,5 +7037,5 @@
       "persistentID": 58
     }
   ],
-  "LastPersistentID": 77
+  "LastPersistentID": 78
 }

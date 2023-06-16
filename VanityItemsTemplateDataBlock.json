@@ -197,6 +197,16 @@
       "persistentID": 65
     },
     {
+      "publicName": "TWIN BARREL BLADE VISOR MARK II",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear012B/Headgear012B.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear012.png",
+      "name": "Headgear012B",
+      "internalEnabled": true,
+      "persistentID": 123
+    },
+    {
       "publicName": "HF Tardigrade C",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear013Lab/Headgear013Lab.prefab",
@@ -205,6 +215,16 @@
       "name": "Headgear013Lab",
       "internalEnabled": true,
       "persistentID": 79
+    },
+    {
+      "publicName": "HF HYPSIBIUS C",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear013LabB/Headgear013LabB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear013Lab.png",
+      "name": "Headgear013LabB",
+      "internalEnabled": true,
+      "persistentID": 111
     },
     {
       "publicName": "HF Decon First Response",
@@ -217,6 +237,16 @@
       "persistentID": 83
     },
     {
+      "publicName": "HF ARBUSTUM MARK I",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear014GardenB/Headgear014GardenB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear014Garden.png",
+      "name": "Headgear014GardenB",
+      "internalEnabled": true,
+      "persistentID": 112
+    },
+    {
       "publicName": "Omneco Pro-Tech Mark I",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015Construction/Headgear015Construction.prefab",
@@ -225,6 +255,26 @@
       "name": "Headgear015Construction",
       "internalEnabled": true,
       "persistentID": 84
+    },
+    {
+      "publicName": "OMNECO REPARO",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015ConstructionB/Headgear015ConstructionB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear015Construction.png",
+      "name": "Headgear015ConstructionB",
+      "internalEnabled": true,
+      "persistentID": 113
+    },
+    {
+      "publicName": "SANTONIAN GALEA MARK I",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear015ConstructionSantonian/Headgear015ConstructionSantonian.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear015Construction.png",
+      "name": "Headgear015ConstructionSantonian",
+      "internalEnabled": true,
+      "persistentID": 119
     },
     {
       "publicName": "Storax Kimble Mark I",
@@ -237,6 +287,16 @@
       "persistentID": 85
     },
     {
+      "publicName": "KOVAC GREEN GUARD",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityB/Headgear016SecurityB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear016Security.png",
+      "name": "Headgear016SecurityB",
+      "internalEnabled": true,
+      "persistentID": 118
+    },
+    {
       "publicName": "Kovac Red Ranger",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityHalloween/Headgear016SecurityHalloween.prefab",
@@ -245,6 +305,16 @@
       "name": "Headgear016SecurityHalloween",
       "internalEnabled": true,
       "persistentID": 108
+    },
+    {
+      "publicName": "Storax Aranea Mark I",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear022/Headgear022.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear022.png",
+      "name": "Headgear022",
+      "internalEnabled": true,
+      "persistentID": 125
     },
     {
       "publicName": "Kovac Carrier model I",
@@ -335,6 +405,16 @@
       "name": "Torso007Security",
       "internalEnabled": true,
       "persistentID": 69
+    },
+    {
+      "publicName": "KOVAC FORTIS ARMIS",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso007SecurityB/Torso007SecurityB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso007Security.png",
+      "name": "Torso007SecurityB",
+      "internalEnabled": true,
+      "persistentID": 115
     },
     {
       "publicName": "SMC Cut model I",
@@ -475,6 +555,16 @@
       "name": "Legs007Security",
       "internalEnabled": true,
       "persistentID": 68
+    },
+    {
+      "publicName": "KOVAC FORTIS CRURA",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs007SecurityB/Legs007SecurityB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs007Security.png",
+      "name": "Legs007SecurityB",
+      "internalEnabled": true,
+      "persistentID": 114
     },
     {
       "publicName": "SMC Murk H",
@@ -647,6 +737,16 @@
       "persistentID": 70
     },
     {
+      "publicName": "OUTWEAR DEMI CAMO",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack013SecurityB/Backpack013SecurityB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack013Security.png",
+      "name": "Backpack013SecurityB",
+      "internalEnabled": true,
+      "persistentID": 116
+    },
+    {
       "publicName": "KDS Ray Proto Cage",
       "type": "Backpack",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack014Security/Backpack014Security.prefab",
@@ -657,6 +757,16 @@
       "persistentID": 80
     },
     {
+      "publicName": "KOVAC PRAESIDIO",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack014SecurityB/Backpack014SecurityB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack014Security.png",
+      "name": "Backpack014SecurityB",
+      "internalEnabled": true,
+      "persistentID": 121
+    },
+    {
       "publicName": "SMC Utility Kit",
       "type": "Backpack",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack015Construction/Backpack015Construction.prefab",
@@ -665,6 +775,16 @@
       "name": "Backpack015Construction",
       "internalEnabled": true,
       "persistentID": 81
+    },
+    {
+      "publicName": "SANTONIAN APPARATU",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack015ConstructionSantonian/Backpack015ConstructionSantonian.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack015Construction.png",
+      "name": "Backpack015ConstructionSantonian",
+      "internalEnabled": true,
+      "persistentID": 122
     },
     {
       "publicName": "Commando Brawler Bush Pack",
@@ -867,6 +987,36 @@
       "persistentID": 107
     },
     {
+      "publicName": "VIRIDE SILVA",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette026Camo.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette026Camo",
+      "internalEnabled": true,
+      "persistentID": 117
+    },
+    {
+      "publicName": "DESERTUM",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette028Camo2.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette028Camo2",
+      "internalEnabled": true,
+      "persistentID": 124
+    },
+    {
+      "publicName": "SANTONIAN VESTIS",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette027Santonian.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette027Santonian",
+      "internalEnabled": true,
+      "persistentID": 120
+    },
+    {
       "publicName": "Subterranean Garden",
       "type": "Palette",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette021Garden.prefab",
@@ -887,5 +1037,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 110
+  "LastPersistentID": 125
 }

@@ -128,3 +128,9 @@ new_user_registered - 126
 user_login_success - 127
 player_equip_item - 128
 enemy_spawned - 129
+player_map_show - 130
+player_map_hide - 131
+player_ping - 132
+player_chat_message_sent - 133
+gs_begin_matchmake - 134
+gs_cancel_matchmake - 135

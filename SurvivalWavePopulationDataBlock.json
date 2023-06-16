@@ -180,6 +180,16 @@
       "WaveRoleWeakling": 13,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 33,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 18,
+      "name": "Modified Sp-Hybrid_R5C3",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
+      "WaveRoleWeakling": 13,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 33,
       "WaveRoleMiniBoss": 11,
       "WaveRoleBoss": 11,
       "name": "Modified Rapid Shooter R2E1",
@@ -517,6 +527,16 @@
       "persistentID": 39
     },
     {
+      "WaveRoleWeakling": 46,
+      "WaveRoleStandard": 46,
+      "WaveRoleSpecial": 46,
+      "WaveRoleMiniBoss": 46,
+      "WaveRoleBoss": 46,
+      "name": "Pouncer",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
       "WaveRoleWeakling": 13,
       "WaveRoleStandard": 11,
       "WaveRoleSpecial": 16,
@@ -557,5 +577,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 54
+  "LastPersistentID": 56
 }

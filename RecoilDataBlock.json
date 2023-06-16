@@ -216,33 +216,33 @@
     {
       "power": {
         "Min": 0.6,
-        "Max": 0.7
+        "Max": 0.8
       },
-      "spring": 1.0,
-      "dampening": 7.0,
+      "spring": 3.0,
+      "dampening": 12.0,
       "hipFireCrosshairSizeDefault": 60.0,
       "hipFireCrosshairRecoilPop": 20.0,
       "hipFireCrosshairSizeMax": 120.0,
       "horizontalScale": {
-        "Min": 0.0,
-        "Max": 0.4
+        "Min": 0.1,
+        "Max": -0.3
       },
       "verticalScale": {
         "Min": 0.8,
         "Max": 1.0
       },
       "directionalSimilarity": 0.0,
-      "worldToViewSpaceBlendHorizontal": 0.4,
-      "worldToViewSpaceBlendVertical": 0.4,
+      "worldToViewSpaceBlendHorizontal": 0.2,
+      "worldToViewSpaceBlendVertical": 0.05,
       "recoilPosImpulse": {
         "x": 0.0,
         "y": 0.0,
-        "z": -1.1
+        "z": -2.1
       },
       "recoilPosShift": {
         "x": 0.0,
         "y": 0.0,
-        "z": -0.04
+        "z": -0.06
       },
       "recoilPosShiftWeight": 1.0,
       "recoilPosStiffness": 250.0,
@@ -259,9 +259,9 @@
       "recoilRotDamping": 8.0,
       "recoilRotImpulseWeight": 200.0,
       "recoilCameraRotWeight": 1.0,
-      "concussionIntensity": 0.0,
-      "concussionFrequency": 0.0,
-      "concussionDuration": 0.0,
+      "concussionIntensity": 1.5,
+      "concussionFrequency": 20.0,
+      "concussionDuration": 0.12,
       "name": "SMGSemi",
       "internalEnabled": true,
       "persistentID": 15
@@ -533,20 +533,20 @@
     },
     {
       "power": {
-        "Min": 0.5,
-        "Max": 0.8
+        "Min": 0.3,
+        "Max": 0.5
       },
-      "spring": 1.0,
-      "dampening": 8.0,
-      "hipFireCrosshairSizeDefault": 55.0,
+      "spring": 2.0,
+      "dampening": 10.0,
+      "hipFireCrosshairSizeDefault": 45.0,
       "hipFireCrosshairRecoilPop": 10.0,
-      "hipFireCrosshairSizeMax": 130.0,
+      "hipFireCrosshairSizeMax": 110.0,
       "horizontalScale": {
-        "Min": 0.2,
+        "Min": -0.4,
         "Max": 0.5
       },
       "verticalScale": {
-        "Min": 0.4,
+        "Min": 0.7,
         "Max": 1.0
       },
       "directionalSimilarity": 0.5,
@@ -577,9 +577,9 @@
       "recoilRotDamping": 8.0,
       "recoilRotImpulseWeight": 1.0,
       "recoilCameraRotWeight": 0.8,
-      "concussionIntensity": 0.0,
-      "concussionFrequency": 0.0,
-      "concussionDuration": 0.0,
+      "concussionIntensity": 1.0,
+      "concussionFrequency": 18.0,
+      "concussionDuration": 0.1,
       "name": "PistolBurst",
       "internalEnabled": true,
       "persistentID": 18
@@ -2228,5 +2228,5 @@
       "persistentID": 11
     }
   ],
-  "LastPersistentID": 49
+  "LastPersistentID": 50
 }
