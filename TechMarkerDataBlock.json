@@ -1696,6 +1696,59 @@
           [],
           [],
           [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+            "function": "SmallPickupItem",
+            "Shard": "S20"
+          },
+          {
+            "weight": 1.0,
+            "function": "None",
+            "Shard": "S20"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 9,
+        "FunctionPotential": 1.0,
+        "RotationSnap": 0,
+        "RotationNoise": 11.0,
+        "EditorMesh": "Markerproducers/Mining/SM_mining_submarker_60x30x60",
+        "BoundingVolume": 108.0
+      },
+      "name": "DataCenter_function_pickup_60x60x30",
+      "internalEnabled": true,
+      "persistentID": 79
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
+          [],
           [
             5,
             1,
@@ -7037,5 +7090,5 @@
       "persistentID": 58
     }
   ],
-  "LastPersistentID": 78
+  "LastPersistentID": 79
 }

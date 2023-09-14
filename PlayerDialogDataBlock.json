@@ -10695,9 +10695,17 @@
                 "UNI": false,
                 "exit": 0.0,
                 "Subtitle": 0
-              },
+              }
+            ]
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
               {
-                "lineEvent": 0,
+                "lineEvent": 2655778136,
                 "A": true,
                 "B": false,
                 "C": false,
@@ -15537,7 +15545,7 @@
             "weight": 1.0,
             "lines": [
               {
-                "lineEvent": 0,
+                "lineEvent": 261421135,
                 "A": true,
                 "B": false,
                 "C": false,
@@ -15577,7 +15585,7 @@
             "weight": 1.0,
             "lines": [
               {
-                "lineEvent": 0,
+                "lineEvent": 2458258005,
                 "A": true,
                 "B": false,
                 "C": false,
@@ -15793,7 +15801,487 @@
       "name": "CL-WillDo",
       "internalEnabled": true,
       "persistentID": 355
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 112920025,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1741940867
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-AmmoPackHere",
+      "internalEnabled": true,
+      "persistentID": 357
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2784390532,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 725517620
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-ApexDoorHere",
+      "internalEnabled": true,
+      "persistentID": 358
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3605336658,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3880669416
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-ArtifactHere",
+      "internalEnabled": true,
+      "persistentID": 359
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1783717496,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1553641400
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-BloodDoorHere",
+      "internalEnabled": true,
+      "persistentID": 360
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2713951850,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 395757258
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-BulkHeadDoorHere",
+      "internalEnabled": true,
+      "persistentID": 361
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1528601886,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4205898778
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-CheckPointDoorHere",
+      "internalEnabled": true,
+      "persistentID": 362
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1516860280,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3725781419
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-DisinfectionPackHere",
+      "internalEnabled": true,
+      "persistentID": 363
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 640990720,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4191930321
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-DoorHere",
+      "internalEnabled": true,
+      "persistentID": 364
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1343867736,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3689709340
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-ObjectiveItemHere",
+      "internalEnabled": true,
+      "persistentID": 365
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3628205394,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 64140789
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-RollUpDoorHere",
+      "internalEnabled": true,
+      "persistentID": 366
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1943995862,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3195719961
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-SecurityDoorHere",
+      "internalEnabled": true,
+      "persistentID": 367
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2138368909,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3192468019
+              }
+            ]
+          }
+        }
+      ],
+      "name": "CL-ToolRefillPackHere",
+      "internalEnabled": true,
+      "persistentID": 368
     }
   ],
-  "LastPersistentID": 355
+  "LastPersistentID": 368
 }

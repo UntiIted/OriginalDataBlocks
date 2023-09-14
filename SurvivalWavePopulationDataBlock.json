@@ -177,6 +177,16 @@
       "persistentID": 9
     },
     {
+      "WaveRoleWeakling": 11,
+      "WaveRoleStandard": 13,
+      "WaveRoleSpecial": 33,
+      "WaveRoleMiniBoss": 16,
+      "WaveRoleBoss": 39,
+      "name": "Modified Sp-Hybrid_R6C1",
+      "internalEnabled": true,
+      "persistentID": 69
+    },
+    {
       "WaveRoleWeakling": 13,
       "WaveRoleStandard": 13,
       "WaveRoleSpecial": 33,
@@ -275,6 +285,16 @@
       "name": "Bullrush",
       "internalEnabled": true,
       "persistentID": 5
+    },
+    {
+      "WaveRoleWeakling": 30,
+      "WaveRoleStandard": 30,
+      "WaveRoleSpecial": 42,
+      "WaveRoleMiniBoss": 42,
+      "WaveRoleBoss": 42,
+      "name": "BullrushAndFlyers",
+      "internalEnabled": true,
+      "persistentID": 59
     },
     {
       "WaveRoleWeakling": 30,
@@ -577,5 +597,5 @@
       "persistentID": 34
     }
   ],
-  "LastPersistentID": 56
+  "LastPersistentID": 69
 }

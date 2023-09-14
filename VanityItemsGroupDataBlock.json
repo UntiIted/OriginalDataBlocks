@@ -408,7 +408,33 @@
         74,
         76,
         81,
-        93
+        93,
+        123,
+        111,
+        112,
+        113,
+        119,
+        118,
+        115,
+        114,
+        116,
+        122,
+        117,
+        124,
+        120,
+        135,
+        142,
+        134,
+        141,
+        140,
+        136,
+        137,
+        131,
+        132,
+        139,
+        126,
+        128,
+        133
       ],
       "name": "MainDrops",
       "internalEnabled": true,
@@ -453,7 +479,15 @@
       "name": "R5Completion",
       "internalEnabled": true,
       "persistentID": 42
+    },
+    {
+      "Items": [
+        66
+      ],
+      "name": "R6Completion",
+      "internalEnabled": true,
+      "persistentID": 43
     }
   ],
-  "LastPersistentID": 42
+  "LastPersistentID": 43
 }

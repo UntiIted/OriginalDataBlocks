@@ -1075,6 +1075,19 @@
       "persistentID": 39
     },
     {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 0.0,
+      "SpawnData": [
+        {
+          "ItemID": 180,
+          "Weight": 10000.0
+        }
+      ],
+      "name": "PickUp_Hard_drive_Interactable",
+      "internalEnabled": true,
+      "persistentID": 83
+    },
+    {
       "SpawnsPerZone": 5,
       "ChanceToSpawnInResourceContainer": 0.9,
       "SpawnData": [
@@ -2164,5 +2177,5 @@
       "persistentID": 81
     }
   ],
-  "LastPersistentID": 82
+  "LastPersistentID": 83
 }

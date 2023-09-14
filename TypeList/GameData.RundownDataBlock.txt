@@ -69,6 +69,7 @@ List<ExpeditionInTierData>: TierA
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
+   Boolean: HideOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -292,6 +293,7 @@ List<ExpeditionInTierData>: TierB
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
+   Boolean: HideOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -515,6 +517,7 @@ List<ExpeditionInTierData>: TierC
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
+   Boolean: HideOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -738,6 +741,7 @@ List<ExpeditionInTierData>: TierD
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
+   Boolean: HideOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -961,6 +965,7 @@ List<ExpeditionInTierData>: TierE
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
+   Boolean: HideOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier

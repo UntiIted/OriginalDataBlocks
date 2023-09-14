@@ -1326,6 +1326,31 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.0,
+        "r": 0.847058833,
+        "g": 1.0,
+        "b": 0.956862748
+      },
+      "FogDensity": 0.0005,
+      "FogAmbience": 0.001,
+      "DensityNoiseDirection": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 1.0
+      },
+      "DensityNoiseSpeed": 0.1,
+      "DensityNoiseScale": 0.3,
+      "DensityHeightAltitude": -4.8,
+      "DensityHeightRange": 0.75,
+      "DensityHeightMaxBoost": 0.05,
+      "Infection": 0.0,
+      "name": "Fog_very_light_White_GamescomHard",
+      "internalEnabled": true,
+      "persistentID": 182
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
+        "a": 0.0,
         "r": 0.6677643,
         "g": 0.7735849,
         "b": 0.743738055
@@ -1626,22 +1651,22 @@
       "Enabled": true,
       "FogColor": {
         "a": 0.03137255,
-        "r": 0.468583137,
-        "g": 0.735209465,
-        "b": 0.8490566
+        "r": 0.7815504,
+        "g": 0.834937453,
+        "b": 0.8584906
       },
       "FogDensity": 0.0002,
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
         "x": 0.0,
-        "y": 1.0,
-        "z": 1.0
+        "y": 0.25,
+        "z": 0.7
       },
       "DensityNoiseSpeed": 0.1,
       "DensityNoiseScale": 0.131,
-      "DensityHeightAltitude": -3.75,
+      "DensityHeightAltitude": -18.75,
       "DensityHeightRange": 0.05,
-      "DensityHeightMaxBoost": 0.02,
+      "DensityHeightMaxBoost": 0.0175,
       "Infection": 0.0,
       "name": "Fog_light_white_Low_5",
       "internalEnabled": true,
@@ -1659,14 +1684,14 @@
       "FogAmbience": 0.0001,
       "DensityNoiseDirection": {
         "x": 0.0,
-        "y": 1.0,
+        "y": 0.15,
         "z": 0.0
       },
       "DensityNoiseSpeed": 0.02,
       "DensityNoiseScale": 0.131,
       "DensityHeightAltitude": 4.0,
-      "DensityHeightRange": 0.05,
-      "DensityHeightMaxBoost": 0.04,
+      "DensityHeightRange": 0.009,
+      "DensityHeightMaxBoost": 0.03,
       "Infection": 0.0,
       "name": "Fog_Heavy_white_High_6",
       "internalEnabled": true,
@@ -3800,6 +3825,31 @@
     {
       "Enabled": true,
       "FogColor": {
+        "a": 0.0,
+        "r": 0.8455882,
+        "g": 1.0,
+        "b": 0.9558824
+      },
+      "FogDensity": 0.0008,
+      "FogAmbience": 0.001,
+      "DensityNoiseDirection": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "DensityNoiseSpeed": 0.024,
+      "DensityNoiseScale": 0.209,
+      "DensityHeightAltitude": -2.4,
+      "DensityHeightRange": 0.5,
+      "DensityHeightMaxBoost": 0.004,
+      "Infection": 0.0,
+      "name": "Fog_light_layered_white_low_D2",
+      "internalEnabled": true,
+      "persistentID": 180
+    },
+    {
+      "Enabled": true,
+      "FogColor": {
         "a": 0.196078435,
         "r": 0.0,
         "g": 1.0,
@@ -4048,5 +4098,5 @@
       "persistentID": 139
     }
   ],
-  "LastPersistentID": 176
+  "LastPersistentID": 182
 }

@@ -322,6 +322,335 @@
           "Role": "Melee",
           "Difficulty": "Medium",
           "Enemy": 28,
+          "Cost": 4.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 28,
+          "Cost": 4.0,
+          "Weight": 0.3
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Hard",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Biss",
+          "Enemy": 21,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Buss",
+          "Enemy": 35,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Easy",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.2
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 26,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Ranged",
+          "Difficulty": "Hard",
+          "Enemy": 18,
+          "Cost": 4.0,
+          "Weight": 0.2
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Easy",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Medium",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Hard",
+          "Enemy": 20,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "MiniBoss",
+          "Enemy": 41,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Boss",
+          "Enemy": 40,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "MegaBoss",
+          "Enemy": 54,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Scout",
+          "Difficulty": "Biss",
+          "Enemy": 56,
+          "Cost": 5.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Easy",
+          "Enemy": 28,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 28,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Medium",
+          "Enemy": 18,
+          "Cost": 3.0,
+          "Weight": 0.2
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Hard",
+          "Enemy": 36,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Biss",
+          "Enemy": 33,
+          "Cost": 3.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "Boss",
+          "Enemy": 44,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "MegaBoss",
+          "Enemy": 29,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "PureSneak",
+          "Difficulty": "MiniBoss",
+          "Enemy": 37,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "BirtherChild",
+          "Difficulty": "Buss",
+          "Enemy": 38,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "BirtherChild",
+          "Difficulty": "Easy",
+          "Enemy": 38,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "BirtherChild",
+          "Difficulty": "Biss",
+          "Enemy": 42,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Easy",
+          "Enemy": 33,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Medium",
+          "Enemy": 33,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Hard",
+          "Enemy": 36,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "MiniBoss",
+          "Enemy": 37,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "MegaBoss",
+          "Enemy": 29,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Buss",
+          "Enemy": 16,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Hunter",
+          "Difficulty": "Biss",
+          "Enemy": 46,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Easy",
+          "Enemy": 13,
+          "Cost": 2.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Medium",
+          "Enemy": 30,
+          "Cost": 2.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Hard",
+          "Enemy": 39,
+          "Cost": 4.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Boss",
+          "Difficulty": "Boss",
+          "Enemy": 37,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "MiniBoss",
+          "Difficulty": "MiniBoss",
+          "Enemy": 36,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "MiniBoss",
+          "Difficulty": "MegaBoss",
+          "Enemy": 29,
+          "Cost": 10.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Patroller",
+          "Difficulty": "Easy",
+          "Enemy": 30,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Biss",
+          "Enemy": 53,
+          "Cost": 2.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Lurker",
+          "Difficulty": "Buss",
+          "Enemy": 52,
+          "Cost": 2.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "DefaultPop_Hunter_Mod",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "RoleDatas": [
+        {
+          "Role": "Melee",
+          "Difficulty": "Easy",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 24,
+          "Cost": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "Role": "Melee",
+          "Difficulty": "Medium",
+          "Enemy": 28,
           "Cost": 6.0,
           "Weight": 0.3
         },
@@ -891,5 +1220,5 @@
       "persistentID": 6
     }
   ],
-  "LastPersistentID": 7
+  "LastPersistentID": 9
 }

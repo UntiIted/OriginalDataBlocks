@@ -901,6 +901,23 @@
       "persistentID": 73
     },
     {
+      "Type": "Detect",
+      "Difficulty": "Buss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 4.0,
+      "ScoreInAreaPaddingMulti": 3.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Lurker",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Cluster Shooter",
+      "internalEnabled": true,
+      "persistentID": 81
+    },
+    {
       "Type": "Hunter",
       "Difficulty": "Easy",
       "SpawnPlacementType": "Default",
@@ -1294,5 +1311,5 @@
       "persistentID": 75
     }
   ],
-  "LastPersistentID": 79
+  "LastPersistentID": 84
 }

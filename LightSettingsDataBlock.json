@@ -2986,8 +2986,8 @@
           "Color": {
             "a": 0.0,
             "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
+            "g": 0.0,
+            "b": 0.0
           },
           "IntensityMul": 1.0,
           "Weight": 1.0
@@ -2999,9 +2999,9 @@
           "ChanceBroken": 0.0,
           "Color": {
             "a": 1.0,
-            "r": 0.9019608,
-            "g": 0.8325098,
-            "b": 0.8325098
+            "r": 1.0,
+            "g": 0.0,
+            "b": 0.0
           },
           "IntensityMul": 1.0,
           "Weight": 1.0
@@ -3013,15 +3013,15 @@
           "ChanceBroken": 0.0,
           "Color": {
             "a": 0.0,
-            "r": 0.9019608,
-            "g": 0.7567451,
-            "b": 0.7567451
+            "r": 1.0,
+            "g": 0.0,
+            "b": 0.0
           },
           "IntensityMul": 1.0,
           "Weight": 1.0
         }
       ],
-      "name": "Monochrome_Red_Copy",
+      "name": "Monochrome_Red_True",
       "internalEnabled": true,
       "persistentID": 69
     },
@@ -7685,6 +7685,125 @@
         {
           "On": true,
           "Category": "General",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.7490196,
+            "g": 0.7234711,
+            "b": 0.7019608
+          },
+          "IntensityMul": 1.2,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.7830189,
+            "g": 0.7577285,
+            "b": 0.6832948
+          },
+          "IntensityMul": 1.2,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.8632076,
+            "g": 0.9039061,
+            "b": 1.0
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.754717,
+            "g": 0.68993485,
+            "b": 0.6728373
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.754717,
+            "g": 0.7363694,
+            "b": 0.7226771
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.57350266,
+            "g": 0.7590476,
+            "b": 0.797
+          },
+          "IntensityMul": 0.9,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.7137255,
+            "g": 0.2784314,
+            "b": 0.305882365
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 2.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.7028302,
+            "g": 0.740566,
+            "b": 0.75
+          },
+          "IntensityMul": 1.2,
+          "Weight": 1.0
+        }
+      ],
+      "name": "White_To_Blue_all_on_1 ALL ON FOR REAL",
+      "internalEnabled": true,
+      "persistentID": 107
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
           "Chance": 0.66,
           "ChanceBroken": 0.0,
           "Color": {
@@ -9977,5 +10096,5 @@
       "persistentID": 85
     }
   ],
-  "LastPersistentID": 103
+  "LastPersistentID": 107
 }

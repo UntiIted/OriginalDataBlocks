@@ -10,6 +10,7 @@ LocalizedText: MainObjective
 (enum) eWardenObjectiveSpecialUpdateType: WardenObjectiveSpecialUpdateType
 (ItemDataBlock) UInt32: GenericItemFromStart
 Boolean: DoNotMarkPickupItemsAsWardenObjectives
+Boolean: OverrideNoRequiredItemsForExit
 LocalizedText: FindLocationInfo
    Boolean: HasTranslation
    Boolean: HasValue

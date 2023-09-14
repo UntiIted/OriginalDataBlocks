@@ -66,7 +66,7 @@
     },
     {
       "Type": "StandardInventory",
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Accrat ND6\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":25},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":47},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":25},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":5},\"o\":{\"c\":21,\"v\":8},\"p\":{\"c\":23,\"v\":8},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Accrat ND6\"}}}\n",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Accrat ND6\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":25},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":47},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":25},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":5},\"o\":{\"c\":21,\"v\":8},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Accrat ND6\"}}}",
       "name": "SMGHeavyAuto",
       "internalEnabled": true,
       "persistentID": 49
@@ -133,6 +133,13 @@
       "name": "ShotgunShort",
       "internalEnabled": true,
       "persistentID": 51
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Drekker INEX Drei\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":30},\"c\":{\"c\":3,\"v\":110},\"d\":{\"c\":4,\"v\":43},\"e\":{\"c\":5,\"v\":4},\"f\":{\"c\":6,\"v\":4},\"g\":{\"c\":7,\"v\":4},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":19},\"k\":{\"c\":11,\"v\":19},\"l\":{\"c\":12,\"v\":11},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":13},\"o\":{\"c\":21,\"v\":33},\"p\":{\"c\":23,\"v\":19},\"q\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.06,\"y\":0.005,\"normalized\":{\"x\":0.9965458,\"y\":0.08304548,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.06020797,\"sqrMagnitude\":0.003625},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.07,\"y\":0.01,\"normalized\":{\"x\":0.989949465,\"y\":0.141421348,\"magnitude\":1.0,\"sqrMagnitude\":0.99999994},\"magnitude\":0.07071068,\"sqrMagnitude\":0.005},\"scale\":0.08},\"tPattern\":{\"position\":{\"x\":0.06,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.06,\"sqrMagnitude\":0.0036},\"angle\":-60.0,\"scale\":0.3}},\"publicName\":{\"data\":\"Drekker INEX Drei\"}}}",
+      "name": "Scattergun",
+      "internalEnabled": true,
+      "persistentID": 56
     },
     {
       "Type": "StandardInventory",
