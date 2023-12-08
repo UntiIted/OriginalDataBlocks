@@ -383,6 +383,10 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjNotTargetingSmallPellet.prefab",
           "Shard": "S5"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingSpread.prefab",
+          "Shard": "S5"
         }
       ],
       "name": "Projectiles",
@@ -887,6 +891,46 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear017/Headgear017.prefab",
           "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear018/Headgear018.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear019/Headgear019.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear020/Headgear020.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear021/Headgear021.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear017B/Headgear017B.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear018B/Headgear018B.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear019B/Headgear019B.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear020B/Headgear020B.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear021B/Headgear021B.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette034.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "VanityItems",
@@ -1133,12 +1177,100 @@
           "Shard": "S10"
         },
         {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4.prefab",
+          "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4_v2.prefab",
+          "Shard": "S10"
+        },
+        {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_R5B3.prefab",
           "Shard": "S1"
         },
         {
           "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_Instant.prefab",
           "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics_R8E1.prefab",
+          "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics_R8A2.prefab",
+          "Shard": "S10"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_R8B3_Easy.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_R8B3_Medium.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_R8B3_Hard.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_MegaHuge_RequireAll_R8E1.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_A.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8C2_01.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8C2_02.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8C2_03.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_big_defend.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8E2_01.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8E2_02.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics_R8D1.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B2.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_R8C2.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_MegaCluster_R8B4.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8E2_01.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8E2_02.prefab",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_E2.prefab",
+          "Shard": "S1"
         }
       ],
       "name": "ChainedPuzzles",
@@ -1219,6 +1351,18 @@
         {
           "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_womb_litter_01.prefab",
           "Shard": "S11"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Infestation/infested_body_04_ceiling.prefab",
+          "Shard": "S11"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Parasite/Parasite.prefab",
+          "Shard": "S11"
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Infestation/infested_tentacle_base_01.prefab",
+          "Shard": "S11"
         }
       ],
       "name": "Infestation",
@@ -1282,6 +1426,10 @@
       "Assets": [
         {
           "AssetPath": "Assets/Modules/ExteriorRendering/Clouds/Textures/CloudNoise.psd",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Modules/ExteriorRendering/Clouds/Textures/CloudDetailNoise.asset",
           "Shard": "S1"
         }
       ],
@@ -1925,11 +2073,27 @@
           "Shard": "S1"
         },
         {
-          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear010.png",
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear017.png",
           "Shard": "S1"
         },
         {
-          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear017.png",
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear018.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear019.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear020.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear021.png",
+          "Shard": "S1"
+        },
+        {
+          "AssetPath": "Assets/Source/UI/VanityItemIcons/Headgear010.png",
           "Shard": "S1"
         }
       ],

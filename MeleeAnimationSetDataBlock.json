@@ -269,9 +269,9 @@
     },
     {
       "HoldToChargeTime": 0.2,
-      "MaxDamageChargeTime": 0.5,
-      "AutoAttackTime": 7.0,
-      "AutoAttackWarningTime": 6.5,
+      "MaxDamageChargeTime": 0.6,
+      "AutoAttackTime": 15.0,
+      "AutoAttackWarningTime": 14.5,
       "FPIdleAnim": {
         "Name": "Knife_Idle"
       },
@@ -535,7 +535,7 @@
     },
     {
       "HoldToChargeTime": 0.2,
-      "MaxDamageChargeTime": 1.7,
+      "MaxDamageChargeTime": 1.8,
       "AutoAttackTime": 4.5,
       "AutoAttackWarningTime": 4.0,
       "FPIdleAnim": {

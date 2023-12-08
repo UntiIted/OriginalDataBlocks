@@ -203,7 +203,7 @@
       "PrecisionDamageMulti": 0.8667,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 2.0,
-      "CostOfBullet": 1.75,
+      "CostOfBullet": 1.65,
       "ShotDelay": 0.04,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -603,6 +603,75 @@
       "persistentID": 16
     },
     {
+      "PublicName": 730,
+      "Description": 4085860013,
+      "FireMode": "Semi",
+      "RecoilDataID": 15,
+      "DamageBoosterEffect": "SMGDamage",
+      "Damage": 4.81,
+      "DamageFalloff": {
+        "x": 8.0,
+        "y": 58.0
+      },
+      "StaggerDamageMulti": 0.5,
+      "PrecisionDamageMulti": 0.7413,
+      "DefaultClipSize": 30,
+      "DefaultReloadTime": 1.7,
+      "CostOfBullet": 1.38,
+      "ShotDelay": 0.04,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0
+      },
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 5,
+      "HipFireSpread": 2.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.3,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_UZI_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.2,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_SMG_Semi",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
       "PublicName": 731,
       "Description": 732,
       "FireMode": "Burst",
@@ -992,7 +1061,7 @@
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
-      "SpecialChargetupTime": 0.3,
+      "SpecialChargetupTime": 0.2,
       "SpecialCooldownTime": 0.0,
       "SpecialSemiBurstCountTimeout": 0.0,
       "Sentry_StartFireDelay": 1.0,
@@ -1031,7 +1100,7 @@
       "PrecisionDamageMulti": 0.734,
       "DefaultClipSize": 20,
       "DefaultReloadTime": 3.7,
-      "CostOfBullet": 5.1,
+      "CostOfBullet": 5.0,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1057,7 +1126,7 @@
       "AimTransitionTime": 0.35,
       "AimSequence": [],
       "BurstDelay": 0.3,
-      "BurstShotCount": 5,
+      "BurstShotCount": 3,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
@@ -1650,10 +1719,10 @@
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 2.0025,
-      "DefaultClipSize": 3,
+      "DefaultClipSize": 2,
       "DefaultReloadTime": 3.5,
-      "CostOfBullet": 23.0,
-      "ShotDelay": 0.5,
+      "CostOfBullet": 17.5,
+      "ShotDelay": 1.3,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -1661,7 +1730,7 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 3.0,
+      "HipFireSpread": 13.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.8,
       "EquipSequence": [
@@ -1983,12 +2052,81 @@
       "persistentID": 33
     },
     {
+      "PublicName": 3837272169,
+      "Description": 922859417,
+      "FireMode": "Semi",
+      "RecoilDataID": 50,
+      "DamageBoosterEffect": "ShotgunDamage",
+      "Damage": 21.0,
+      "DamageFalloff": {
+        "x": 6.0,
+        "y": 40.0
+      },
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 0.7413,
+      "DefaultClipSize": 6,
+      "DefaultReloadTime": 2.5,
+      "CostOfBullet": 12.0,
+      "ShotDelay": 0.75,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0
+      },
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 2,
+      "HipFireSpread": 2.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.4,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Shotgun_3_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.3,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 1,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Shotgun_Slug_Semi",
+      "internalEnabled": true,
+      "persistentID": 81
+    },
+    {
       "PublicName": 1399,
       "Description": 1400,
       "FireMode": "Burst",
       "RecoilDataID": 44,
       "DamageBoosterEffect": "ShotgunDamage",
-      "Damage": 4.01,
+      "Damage": 4.8,
       "DamageFalloff": {
         "x": 4.0,
         "y": 30.0
@@ -1997,7 +2135,7 @@
       "PrecisionDamageMulti": 0.7333,
       "DefaultClipSize": 2,
       "DefaultReloadTime": 2.66,
-      "CostOfBullet": 19.15,
+      "CostOfBullet": 16.3,
       "ShotDelay": 0.65,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -2665,7 +2803,7 @@
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.3,
-      "DefaultClipSize": 12,
+      "DefaultClipSize": 10,
       "DefaultReloadTime": 3.3,
       "CostOfBullet": 5.5,
       "ShotDelay": 0.28,
@@ -2860,6 +2998,75 @@
       "persistentID": 80
     },
     {
+      "PublicName": 1282527880,
+      "Description": 1698285781,
+      "FireMode": "Burst",
+      "RecoilDataID": 18,
+      "DamageBoosterEffect": "PistolDamage",
+      "Damage": 3.05,
+      "DamageFalloff": {
+        "x": 7.0,
+        "y": 47.0
+      },
+      "StaggerDamageMulti": 1.0,
+      "PrecisionDamageMulti": 0.8667,
+      "DefaultClipSize": 28,
+      "DefaultReloadTime": 1.25,
+      "CostOfBullet": 1.8,
+      "ShotDelay": 0.06,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0
+      },
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 5,
+      "HipFireSpread": 1.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.3,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": "WeaponMovementAnim",
+          "StringData": "Front_Pistol_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": "Empty"
+        }
+      ],
+      "AimTransitionTime": 0.2,
+      "AimSequence": [],
+      "BurstDelay": 0.2,
+      "BurstShotCount": 2,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Pistol_Burst",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
       "PublicName": 767,
       "Description": 768,
       "FireMode": "Auto",
@@ -2867,8 +3074,8 @@
       "DamageBoosterEffect": "MachinePistolDamage",
       "Damage": 1.9,
       "DamageFalloff": {
-        "x": 4.0,
-        "y": 30.0
+        "x": 5.0,
+        "y": 35.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 0.7413,
@@ -2934,7 +3141,7 @@
       "FireMode": "Auto",
       "RecoilDataID": 19,
       "DamageBoosterEffect": "AutoPistolDamage",
-      "Damage": 1.01,
+      "Damage": 1.5,
       "DamageFalloff": {
         "x": 5.0,
         "y": 55.0
@@ -2943,7 +3150,7 @@
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 60,
       "DefaultReloadTime": 1.3,
-      "CostOfBullet": 0.8,
+      "CostOfBullet": 1.0,
       "ShotDelay": 0.058,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3079,7 +3286,7 @@
       },
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.7413,
-      "DefaultClipSize": 3,
+      "DefaultClipSize": 4,
       "DefaultReloadTime": 1.6,
       "CostOfBullet": 11.0,
       "ShotDelay": 0.25,
@@ -3143,13 +3350,13 @@
       "DamageBoosterEffect": "BullpupRifleDamage",
       "Damage": 2.1,
       "DamageFalloff": {
-        "x": 15.0,
-        "y": 70.0
+        "x": 10.0,
+        "y": 65.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 40,
-      "DefaultReloadTime": 2.1,
+      "DefaultReloadTime": 2.3,
       "CostOfBullet": 1.5,
       "ShotDelay": 0.055,
       "ShellCasingSize": 1.0,
@@ -3419,7 +3626,7 @@
       "DamageBoosterEffect": "SentryGunDamage",
       "Damage": 48.1,
       "DamageFalloff": {
-        "x": 20.0,
+        "x": 30.0,
         "y": 100.0
       },
       "StaggerDamageMulti": 1.0,
@@ -3427,13 +3634,13 @@
       "DefaultClipSize": 10,
       "DefaultReloadTime": 1.8,
       "CostOfBullet": 16.0,
-      "ShotDelay": 3.0,
+      "ShotDelay": 2.6,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
         "y": 5.0
       },
-      "PiercingBullets": true,
+      "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 0.0,
       "AimSpread": 0.0,
@@ -3459,7 +3666,7 @@
       "SpecialChargetupTime": 0.0,
       "SpecialCooldownTime": 0.0,
       "SpecialSemiBurstCountTimeout": 0.0,
-      "Sentry_StartFireDelay": 3.0,
+      "Sentry_StartFireDelay": 2.8,
       "Sentry_RotationSpeed": 6.0,
       "Sentry_DetectionMaxRange": 50.0,
       "Sentry_DetectionMaxAngle": 20.0,
@@ -3488,14 +3695,14 @@
       "DamageBoosterEffect": "SentryGunDamage",
       "Damage": 2.01,
       "DamageFalloff": {
-        "x": 15.0,
-        "y": 80.0
+        "x": 10.0,
+        "y": 40.0
       },
       "StaggerDamageMulti": 1.0,
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 24,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 1.95,
+      "CostOfBullet": 2.05,
       "ShotDelay": 0.045,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3555,7 +3762,7 @@
       "FireMode": "Auto",
       "RecoilDataID": 13,
       "DamageBoosterEffect": "SentryGunDamage",
-      "Damage": 0.71,
+      "Damage": 0.8,
       "DamageFalloff": {
         "x": 10.0,
         "y": 70.0
@@ -3633,7 +3840,7 @@
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.0,
-      "CostOfBullet": 1.8,
+      "CostOfBullet": 1.58,
       "ShotDelay": 0.75,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {

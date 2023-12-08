@@ -349,7 +349,7 @@
         "SMGBMechSemiF2D",
         "SMGBNoiseSemiF2D",
         "SMGBWetSemi2D",
-        "smg_kick_semi_a"
+        "dmr_kick_semi_a"
       ],
       "eventOnBurstFire2D": [
         "SMGBBodySemiE2D",

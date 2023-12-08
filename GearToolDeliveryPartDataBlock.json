@@ -199,6 +199,10 @@
         {
           "AlignType": "ToolTargeting",
           "AlignName": "a_targeting"
+        },
+        {
+          "AlignType": "Muzzle",
+          "AlignName": "a_Muzzle"
         }
       ],
       "name": "Delivery_Glue",

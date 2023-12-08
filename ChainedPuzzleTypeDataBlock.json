@@ -8,6 +8,12 @@
       "persistentID": 2
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_big_defend.prefab",
+      "name": "SecurityScan_Big_Defend",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_Moving.prefab",
       "name": "SecurityScan_Big_Moving",
       "internalEnabled": true,
@@ -20,10 +26,34 @@
       "persistentID": 31
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4.prefab",
+      "name": "SecurityScan_Big_Moving_R8B4",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B2.prefab",
+      "name": "SecurityScan_Big_Moving_R8B2",
+      "internalEnabled": true,
+      "persistentID": 60
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R8B4_v2.prefab",
+      "name": "SecurityScan_Big_Moving_R8B4_v2",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_R7B1.prefab",
       "name": "SecurityScan_Big_Moving_R7B1",
       "internalEnabled": true,
       "persistentID": 38
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_Moving_A.prefab",
+      "name": "SecurityScan_Big_Moving_A",
+      "internalEnabled": true,
+      "persistentID": 52
     },
     {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Small.prefab",
@@ -56,6 +86,42 @@
       "persistentID": 6
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8E2_01.prefab",
+      "name": "SecurityScan_Big_RequireAll_PortalRoom_01",
+      "internalEnabled": true,
+      "persistentID": 57
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8E2_02.prefab",
+      "name": "SecurityScan_Big_RequireAll_PortalRoom_02",
+      "internalEnabled": true,
+      "persistentID": 58
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_R8C2.prefab",
+      "name": "SecurityScan_Big_RequireAll_R8C2_01",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8C2_02.prefab",
+      "name": "SecurityScan_Big_RequireAll_R8C2_02",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8C2_03.prefab",
+      "name": "SecurityScan_Big_RequireAll_R8C2_03",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R8B2.prefab",
+      "name": "SecurityScan_Big_RequireAll_R8B2",
+      "internalEnabled": true,
+      "persistentID": 51
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_Instant.prefab",
       "name": "SecurityScan_Big_RequireAll_Instant",
       "internalEnabled": true,
@@ -66,6 +132,12 @@
       "name": "SecurityScan_Big_RequireAll_R6A1_Narrative",
       "internalEnabled": true,
       "persistentID": 25
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_MegaHuge_RequireAll_R8E1.prefab",
+      "name": "SecurityScan_Big_RequireAll_R8E1_Narrative",
+      "internalEnabled": true,
+      "persistentID": 46
     },
     {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll_R6C1_Narrative_1.prefab",
@@ -122,6 +194,30 @@
       "persistentID": 13
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_E2.prefab",
+      "name": "SecurityScan_Sustained_RequireAll_E2",
+      "internalEnabled": true,
+      "persistentID": 62
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_R8B3_Easy.prefab",
+      "name": "SecurityScan_Sustained_RequireAll_R8B3_Easy",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_R8B3_Medium.prefab",
+      "name": "SecurityScan_Sustained_RequireAll_R8B3_Medium",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll_R8B3_Hard.prefab",
+      "name": "SecurityScan_Sustained_RequireAll_R8B3_Hard",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_Medium_RequireAll.prefab",
       "name": "SecurityScan_Sustained_Medium_RequireAll",
       "internalEnabled": true,
@@ -152,6 +248,12 @@
       "persistentID": 35
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics_R8D1.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_No_Graphics_R8D1",
+      "internalEnabled": true,
+      "persistentID": 59
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_scan_all_sides_R5B3.prefab",
       "name": "SecurityScan_Sustained_GeoScan_AllSides_R5B3",
       "internalEnabled": true,
@@ -176,6 +278,12 @@
       "persistentID": 34
     },
     {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_geo_No_Graphics_R8A2.prefab",
+      "name": "SecurityScan_Sustained_GeoScan_No_Graphics_R8A2",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_Huge_RequireAll .prefab",
       "name": "SecurityScan_Sustained_Huge_RequireAll",
       "internalEnabled": true,
@@ -198,6 +306,12 @@
       "name": "SecurityScan_Cluster_Six",
       "internalEnabled": true,
       "persistentID": 9
+    },
+    {
+      "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_MegaCluster_R8B4.prefab",
+      "name": "SecurityScan_MegaCluster_R8B4",
+      "internalEnabled": true,
+      "persistentID": 61
     },
     {
       "Prefab": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Bulkhead_Select_Layer_Main.prefab",
@@ -242,5 +356,5 @@
       "persistentID": 41
     }
   ],
-  "LastPersistentID": 50
+  "LastPersistentID": 62
 }

@@ -9,7 +9,7 @@
       "LabelText": "Shooter"
     },
     {
-      "AboveBlockID": 22,
+      "AboveBlockID": 40,
       "LabelText": "Misc"
     },
     {
@@ -102,6 +102,93 @@
       "name": "Striker_Wave",
       "internalEnabled": true,
       "persistentID": 13
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_Berserk_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerBerserk.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "HeadScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ChestScale": {
+            "x": 1.05,
+            "y": 1.05,
+            "z": 1.05
+          },
+          "ArmScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "LegScale": {
+            "x": 0.97,
+            "y": 0.97,
+            "z": 0.97
+          },
+          "SizeRange": {
+            "x": 1.1,
+            "y": 1.2
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 43,
+      "MovementDataId": 43,
+      "BalancingDataId": 40,
+      "SFXDataId": 40,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 7.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 9.0
+        }
+      ],
+      "name": "Striker_Berserk",
+      "internalEnabled": true,
+      "persistentID": 53
     },
     {
       "EnemyType": "Standard",
@@ -530,6 +617,93 @@
       ],
       "ModelDatas": [
         {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_Big_nightmare_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerBigNightmare.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 0.1,
+            "y": 0.1,
+            "z": 0.1
+          },
+          "HeadScale": {
+            "x": 0.1,
+            "y": 0.1,
+            "z": 0.1
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 28,
+      "MovementDataId": 48,
+      "BalancingDataId": 43,
+      "SFXDataId": 16,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 3.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileSrikerBig_RapidFire.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 4.0
+        }
+      ],
+      "name": "Striker_Big_nightmare",
+      "internalEnabled": true,
+      "persistentID": 62
+    },
+    {
+      "EnemyType": "MiniBoss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
           "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/StrikerBullrush/StrikerBullrush_CB.prefab",
           "ModelCustomization": "",
           "PositionOffset": {
@@ -606,6 +780,99 @@
       "name": "Striker_Big_Bullrush",
       "internalEnabled": true,
       "persistentID": 39
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_nightmare_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterSpread.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.1,
+            "y": 0.1,
+            "z": 0.1
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+          },
+          "LegScale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+          "SizeRange": {
+            "x": 0.95,
+            "y": 1.05
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 42,
+      "MovementDataId": 42,
+      "BalancingDataId": 39,
+      "SFXDataId": 42,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmall_Sniper.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 8.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 5.0
+        }
+      ],
+      "name": "Shooter_Spread",
+      "internalEnabled": true,
+      "persistentID": 52
     },
     {
       "EnemyType": "MiniBoss",
@@ -942,6 +1209,87 @@
       "name": "Striker_Child",
       "internalEnabled": true,
       "persistentID": 38
+    },
+    {
+      "EnemyType": "Standard",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_Child_nightmare_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerChild.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "ArmScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "LegScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "SizeRange": {
+            "x": 0.5,
+            "y": 0.6
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 34,
+      "MovementDataId": 49,
+      "BalancingDataId": 32,
+      "SFXDataId": 33,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerChildTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 1.5
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Striker_Child_Nightmare",
+      "internalEnabled": true,
+      "persistentID": 63
     },
     {
       "EnemyType": "Special",
@@ -1559,6 +1907,105 @@
       "persistentID": 37
     },
     {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/BossBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Birther/MegaMother_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Birther/Customization_MegaMother.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 6.0,
+            "y": 6.0
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 44,
+      "MovementDataId": 45,
+      "BalancingDataId": 44,
+      "SFXDataId": 32,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_Birthing_Megamother.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacle.prefab",
+          "AbilityType": "Melee",
+          "Cooldown": 4.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterBig_RapidFire.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 8.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_Birthing.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 50.0
+        }
+      ],
+      "name": "MegaMother",
+      "internalEnabled": true,
+      "persistentID": 55
+    },
+    {
       "EnemyType": "Special",
       "AssetBundle": "Enemies",
       "BundleShard": "S1",
@@ -1644,6 +2091,180 @@
       "name": "Scout",
       "internalEnabled": true,
       "persistentID": 20
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Scout_nightmare_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_Scout_nightmare.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+          },
+          "LegScale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+          "SizeRange": {
+            "x": 1.7,
+            "y": 1.7
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 20,
+      "MovementDataId": 20,
+      "BalancingDataId": 41,
+      "SFXDataId": 20,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 51,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmall_ShotgunChoke.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Scout_nightmare",
+      "internalEnabled": true,
+      "persistentID": 56
+    },
+    {
+      "EnemyType": "Special",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_Scout.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.45,
+            "y": 1.55
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 20,
+      "MovementDataId": 44,
+      "BalancingDataId": 45,
+      "SFXDataId": 20,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 65536,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 51,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmallBurst.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 2.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+          "AbilityType": "Detection",
+          "Cooldown": 25.0
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+          "AbilityType": "DoorBreaker",
+          "Cooldown": 1.0
+        }
+      ],
+      "name": "Scout_zoomer",
+      "internalEnabled": true,
+      "persistentID": 54
     },
     {
       "EnemyType": "Special",
@@ -2967,7 +3588,706 @@
       "name": "Pouncer",
       "internalEnabled": true,
       "persistentID": 46
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/SquidBossBase_Complex.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Squidward/Squidward_CB_Complex.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Squidward/Customization_Squidward.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 45,
+      "MovementDataId": 46,
+      "BalancingDataId": 46,
+      "SFXDataId": 36,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase0Intro.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossStateIntro"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 30.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase0"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase0Standard.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 40.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase0"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningRaging.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 30.0,
+          "AbilityConditions": [
+            "BossStateRage",
+            "BossPhase1"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter_Phase_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase1"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase_1.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 40.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase1"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase_2.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 45.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase2"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningRaging_Phase_2.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossStateRage",
+            "BossPhase2"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter_Phase_3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase3"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase_3.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 60.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase3"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningRaging_Phase_3.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 30.0,
+          "AbilityConditions": [
+            "BossStateRage",
+            "BossPhase3"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter_Phase_4.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase4"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase_4.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 70.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase4"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningRaging_Phase_4.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 30.0,
+          "AbilityConditions": [
+            "BossStateRage",
+            "BossPhase4"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter_Phase_5.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 12.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase5"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningPhase_5.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 40.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase5"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossSpawningRaging_Phase_5.prefab",
+          "AbilityType": "SpawnChildren",
+          "Cooldown": 30.0,
+          "AbilityConditions": [
+            "BossStateSpawn",
+            "BossPhase5"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter 1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter 2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter 3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 25.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 25.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase1"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 25.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase2"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase3"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 4.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase4"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 5.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase5"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossPhase1",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossPhase2",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase3",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase4",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase1",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase1",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase2",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase2",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase3",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase3",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_4.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase4",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_4.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase4",
+            "BossStateRage"
+          ]
+        }
+      ],
+      "name": "SquidBoss_Big_Complex",
+      "internalEnabled": true,
+      "persistentID": 58
+    },
+    {
+      "EnemyType": "Boss",
+      "AssetBundle": "Enemies",
+      "BundleShard": "S1",
+      "BasePrefabs": [
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+        "Assets/AssetPrefabs/Characters/Enemies/Bases/SquidBossBase_VS.prefab"
+      ],
+      "ModelDatas": [
+        {
+          "ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Squidward/Squidward_CB_VS.prefab",
+          "ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Squidward/Customization_Squidward.prefab",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "RotationOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "NeckScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HeadScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ChestScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ArmScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "LegScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "SizeRange": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        }
+      ],
+      "DetectionDataId": 13,
+      "BehaviorDataId": 38,
+      "MovementDataId": 36,
+      "BalancingDataId": 42,
+      "SFXDataId": 36,
+      "ArenaDimensions": [],
+      "LinkedSlaveModels": [],
+      "InternalMaterial": 131072,
+      "isCoccoon": false,
+      "EnemySpottedDialogId": 0,
+      "AI_Abilities": [
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 30.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase0"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter_Phase_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase1"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter_Phase_3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase3"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter 1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter 2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooter 3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 25.0,
+          "AbilityConditions": [
+            "BossStateCombat"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 25.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase1"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 25.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase2"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterArtillery_Phase 3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossStateCombat",
+            "BossPhase3"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossPhase1",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 20.0,
+          "AbilityConditions": [
+            "BossPhase2",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase3",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase1",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_1.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 15.0,
+          "AbilityConditions": [
+            "BossPhase1",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase2",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_2.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase2",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_1_Phase_3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase3",
+            "BossStateRage"
+          ]
+        },
+        {
+          "Enabled": true,
+          "AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_SquidBossProjectileShooterRagingArtillery_2_Phase_3.prefab",
+          "AbilityType": "Ranged",
+          "Cooldown": 10.0,
+          "AbilityConditions": [
+            "BossPhase3",
+            "BossStateRage"
+          ]
+        }
+      ],
+      "name": "SquidBoss_VS",
+      "internalEnabled": true,
+      "persistentID": 61
     }
   ],
-  "LastPersistentID": 60
+  "LastPersistentID": 63
 }

@@ -513,13 +513,13 @@
       },
       "bodyOffsetLocal": {
         "x": 0.0,
-        "y": -0.1,
+        "y": 0.0,
         "z": 0.0
       },
       "bodyRotationOffsetLocal": {
         "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "y": 0.1,
+        "z": 0.1
       },
       "ItemCameraFOVDefault": 33,
       "ItemCameraFOVZoom": 31,
@@ -1085,6 +1085,82 @@
       "name": "SMG",
       "internalEnabled": true,
       "persistentID": 2
+    },
+    {
+      "localPosHip": {
+        "x": 0.062,
+        "y": -0.1,
+        "z": 0.33
+      },
+      "localRotHip": {
+        "x": -2.15,
+        "y": 0.0,
+        "z": -1.71
+      },
+      "SwayAmount": 1.0,
+      "crouchTiltAngle": 10.0,
+      "localPosRelaxed": {
+        "x": 0.046,
+        "y": -0.11,
+        "z": 0.32
+      },
+      "localRotRelaxed": {
+        "x": 5.0,
+        "y": -12.0,
+        "z": -25.0
+      },
+      "localPosZoom": {
+        "x": 0.0,
+        "y": -0.154,
+        "z": 0.38
+      },
+      "localRotZoom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bodyOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.1
+      },
+      "bodyRotationOffsetLocal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ItemCameraFOVDefault": 36,
+      "ItemCameraFOVZoom": 20,
+      "LookCameraFOVZoom": 53,
+      "canAim": true,
+      "onlyStartAimOnPressed": false,
+      "canRelax": true,
+      "customDelayUntilRelax": 0.0,
+      "allowRotToAimPos": true,
+      "rotToAimPosMinDis": 1.0,
+      "transitionToAim": "Quick",
+      "RecoilAnimation": 35,
+      "IdleAnimation": 21,
+      "WalkAnimation": 12,
+      "RunAnimation": 23,
+      "JumpAnimation": 7,
+      "LandAnimation": 8,
+      "ChargeCancelAnimation": 0,
+      "DofDefault": {
+        "enabled": true,
+        "focusDistance": 1.0,
+        "aperture": 1.0,
+        "focalLength": 5.5
+      },
+      "DofAim": {
+        "enabled": true,
+        "focusDistance": 1.0,
+        "aperture": 1.0,
+        "focalLength": 7.7
+      },
+      "name": "SMG_Semi",
+      "internalEnabled": true,
+      "persistentID": 49
     },
     {
       "localPosHip": {

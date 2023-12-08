@@ -130,6 +130,11 @@ List<WardenObjectiveEventData>: EventsOnElevatorLand
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 LocalizedText: WaveOnElevatorWardenIntel
    Boolean: HasTranslation
@@ -200,6 +205,11 @@ List<WardenObjectiveEventData>: EventsOnActivate
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 Boolean: StopAllWavesBeforeGotoWin
 List<GenericEnemyWaveData>: WavesOnGotoWin
@@ -265,6 +275,11 @@ List<WardenObjectiveEventData>: EventsOnGotoWin
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 (enum) eRetrieveExitWaveTrigger: EventsOnGotoWinTrigger
 (FogSettingsDataBlock) UInt32: FogTransitionDataOnGotoWin
@@ -343,6 +358,11 @@ List<ReactorWaveData>: ReactorWaves
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
 Boolean: LightsOnFromBeginning
 Boolean: LightsOnDuringIntro
@@ -422,6 +442,11 @@ List<WardenObjectiveEventData>: ActivateHSU_Events
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 Single: Survival_TimeToActivate
 Single: Survival_TimeToSurvive
@@ -506,6 +531,11 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceStar
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceDone
    (enum) eWardenObjectiveEventType: Type
@@ -558,6 +588,11 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceDone
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceFail
    (enum) eWardenObjectiveEventType: Type
@@ -610,6 +645,11 @@ List<List<WardenObjectiveEventData>>: TimedTerminalSequence_EventsOnSequenceFail
    Boolean: Enabled
    (enum) TERM_Command: TerminalCommand
    (enum) TERM_CommandRule: TerminalCommandRule
+   String: AchievementKey
+   Int32: SustainedEventSlotIndex
+   Int32: SustainedEventStateCount
+   Single: SustainedEventStateDuration
+   Single: SustainedEventDelay
    String: WorldEventObjectFilter
 String: name
 Boolean: internalEnabled

@@ -1,5 +1,10 @@
 Boolean: NeverShowRundownTree
 Boolean: UseTierUnlockRequirements
+RundownTierProgressionData: ReqToReachTierA
+   Int32: MainSectors
+   Int32: SecondarySectors
+   Int32: ThirdSectors
+   Int32: AllClearedSectors
 RundownTierProgressionData: ReqToReachTierB
    Int32: MainSectors
    Int32: SecondarySectors
@@ -64,12 +69,14 @@ RundownStorytellingData: StorytellingData
 (VanityItemsLayerDropsDataBlock) UInt32: VanityItemLayerDropDataBlock
 List<ExpeditionInTierData>: TierA
    Boolean: Enabled
+   Boolean: ExcludeFromMatchmaking
    Boolean: IsSinglePlayer
    Boolean: SkipLobby
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
    Boolean: HideOnLocked
+   Boolean: HideRolePlayDataOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -284,16 +291,21 @@ List<ExpeditionInTierData>: TierA
       Single: StandardAmmoAtExpeditionStart
       Single: SpecialAmmoAtExpeditionStart
       Single: ToolAmmoAtExpeditionStart
+      String: CustomSuccessScreen
+      String: PreSuccessScreen
+      Boolean: ShowCreditsAfterSuccess
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierB
    Boolean: Enabled
+   Boolean: ExcludeFromMatchmaking
    Boolean: IsSinglePlayer
    Boolean: SkipLobby
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
    Boolean: HideOnLocked
+   Boolean: HideRolePlayDataOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -508,16 +520,21 @@ List<ExpeditionInTierData>: TierB
       Single: StandardAmmoAtExpeditionStart
       Single: SpecialAmmoAtExpeditionStart
       Single: ToolAmmoAtExpeditionStart
+      String: CustomSuccessScreen
+      String: PreSuccessScreen
+      Boolean: ShowCreditsAfterSuccess
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierC
    Boolean: Enabled
+   Boolean: ExcludeFromMatchmaking
    Boolean: IsSinglePlayer
    Boolean: SkipLobby
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
    Boolean: HideOnLocked
+   Boolean: HideRolePlayDataOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -732,16 +749,21 @@ List<ExpeditionInTierData>: TierC
       Single: StandardAmmoAtExpeditionStart
       Single: SpecialAmmoAtExpeditionStart
       Single: ToolAmmoAtExpeditionStart
+      String: CustomSuccessScreen
+      String: PreSuccessScreen
+      Boolean: ShowCreditsAfterSuccess
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierD
    Boolean: Enabled
+   Boolean: ExcludeFromMatchmaking
    Boolean: IsSinglePlayer
    Boolean: SkipLobby
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
    Boolean: HideOnLocked
+   Boolean: HideRolePlayDataOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -956,16 +978,21 @@ List<ExpeditionInTierData>: TierD
       Single: StandardAmmoAtExpeditionStart
       Single: SpecialAmmoAtExpeditionStart
       Single: ToolAmmoAtExpeditionStart
+      String: CustomSuccessScreen
+      String: PreSuccessScreen
+      Boolean: ShowCreditsAfterSuccess
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 List<ExpeditionInTierData>: TierE
    Boolean: Enabled
+   Boolean: ExcludeFromMatchmaking
    Boolean: IsSinglePlayer
    Boolean: SkipLobby
    Boolean: PutIconAboveTier
    Boolean: DisablePlayerVoicelines
    Boolean: ExcludeFromProgression
    Boolean: HideOnLocked
+   Boolean: HideRolePlayDataOnLocked
    (enum) eExpeditionAccessibility: Accessibility
    ExpeditionIndex: UnlockedByExpedition
       (enum) eRundownTier: Tier
@@ -1180,6 +1207,9 @@ List<ExpeditionInTierData>: TierE
       Single: StandardAmmoAtExpeditionStart
       Single: SpecialAmmoAtExpeditionStart
       Single: ToolAmmoAtExpeditionStart
+      String: CustomSuccessScreen
+      String: PreSuccessScreen
+      Boolean: ShowCreditsAfterSuccess
    Boolean: HasExternalStyle
    Boolean: HasStoryStyle
 String: name

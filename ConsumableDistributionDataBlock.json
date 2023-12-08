@@ -1508,6 +1508,19 @@
       "persistentID": 56
     },
     {
+      "SpawnsPerZone": 4,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 115,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Small_Foam_grenades_Alt",
+      "internalEnabled": true,
+      "persistentID": 85
+    },
+    {
       "SpawnsPerZone": 5,
       "ChanceToSpawnInResourceContainer": 0.9,
       "SpawnData": [
@@ -1748,6 +1761,31 @@
       "name": "Baseline_Tech_Alt",
       "internalEnabled": true,
       "persistentID": 66
+    },
+    {
+      "SpawnsPerZone": 7,
+      "ChanceToSpawnInResourceContainer": 0.75,
+      "SpawnData": [
+        {
+          "ItemID": 174,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 117,
+          "Weight": 9.0
+        },
+        {
+          "ItemID": 140,
+          "Weight": 2.0
+        },
+        {
+          "ItemID": 142,
+          "Weight": 9.0
+        }
+      ],
+      "name": "Fog_reps_and_syringes_alt",
+      "internalEnabled": true,
+      "persistentID": 86
     },
     {
       "SpawnsPerZone": 5,
@@ -2175,7 +2213,20 @@
       "name": "PickUp_MemoryStick_Interactable_Alt",
       "internalEnabled": true,
       "persistentID": 81
+    },
+    {
+      "SpawnsPerZone": 1,
+      "ChanceToSpawnInResourceContainer": 0.0,
+      "SpawnData": [
+        {
+          "ItemID": 183,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Microdrive_Dataextractor",
+      "internalEnabled": true,
+      "persistentID": 84
     }
   ],
-  "LastPersistentID": 83
+  "LastPersistentID": 86
 }

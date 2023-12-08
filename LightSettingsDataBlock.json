@@ -244,6 +244,125 @@
         {
           "On": true,
           "Category": "General",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.620131,
+            "g": 0.696466,
+            "b": 0.727
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.9098039,
+            "b": 0.847058833
+          },
+          "IntensityMul": 0.55,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.7411765,
+            "g": 0.5330367,
+            "b": 0.512894154
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.447058827,
+            "g": 0.654902,
+            "b": 0.7254902
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.4461765,
+            "g": 0.6530756,
+            "b": 0.7254902
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.266666681,
+            "b": 0.266666681
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.9255541,
+            "g": 1.0,
+            "b": 0.7877358
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.4627451,
+            "g": 0.670588255,
+            "b": 0.7254902
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "SecuritySpotlight_1",
+      "internalEnabled": true,
+      "persistentID": 109
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
           "Chance": 0.5,
           "ChanceBroken": 0.1,
           "Color": {
@@ -847,6 +966,258 @@
       "name": "OrangeToYellow_1",
       "internalEnabled": true,
       "persistentID": 13
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.579144537,
+            "g": 0.638,
+            "b": 0.559526
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.429411769,
+            "g": 0.5882353,
+            "b": 0.450588256
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.5,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.5019608,
+            "g": 0.130007848,
+            "b": 0.146040216
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.79,
+            "g": 0.78380394,
+            "b": 0.5824314
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.783000052,
+            "g": 0.776858866,
+            "b": 0.5772706
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.2647059,
+            "b": 0.2647059
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.478431374,
+            "g": 0.5882353,
+            "b": 0.519966662
+          },
+          "IntensityMul": 0.45,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.5071104,
+            "g": 0.5882353,
+            "b": 0.478431374
+          },
+          "IntensityMul": 0.45,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8117647,
+            "g": 0.6561854,
+            "b": 0.460270584
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        }
+      ],
+      "name": "R8A2_MirrorGeo",
+      "internalEnabled": true,
+      "persistentID": 108
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.811,
+            "g": 0.600380838,
+            "b": 0.334943
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.881,
+            "g": 0.5091494,
+            "b": 0.308350027
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.5,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.5019608,
+            "g": 0.130007848,
+            "b": 0.146040216
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.79,
+            "g": 0.78380394,
+            "b": 0.5824314
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 0.0,
+            "r": 0.783000052,
+            "g": 0.776858866,
+            "b": 0.5772706
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.2647059,
+            "b": 0.2647059
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.5613208,
+            "g": 1.0,
+            "b": 0.874417365
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.5,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.888,
+            "g": 0.88451767,
+            "b": 0.731294155
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        }
+      ],
+      "name": "DoubleBridgeGeo",
+      "internalEnabled": true,
+      "persistentID": 110
     },
     {
       "LightCategorySettings": [
@@ -1652,6 +2023,111 @@
       "name": "Monochrome_Cyan",
       "internalEnabled": true,
       "persistentID": 60
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.8,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.670588255,
+            "g": 0.8078432,
+            "b": 1.0
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.3066038,
+            "g": 0.595518947,
+            "b": 1.0
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.670588255,
+            "g": 0.807843149,
+            "b": 1.0
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.8,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.305882365,
+            "g": 0.596078455,
+            "b": 1.0
+          },
+          "IntensityMul": 0.4,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.1,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.266666681,
+            "b": 0.266666681
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.86,
+            "g": 0.93905884,
+            "b": 1.0
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.8,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.867,
+            "g": 0.9421059,
+            "b": 1.0
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Monochrome_iceblue_incr_chance",
+      "internalEnabled": true,
+      "persistentID": 115
     },
     {
       "LightCategorySettings": [
@@ -3240,6 +3716,111 @@
         {
           "On": true,
           "Category": "General",
+          "Chance": 0.5,
+          "ChanceBroken": 0.5,
+          "Color": {
+            "a": 1.0,
+            "r": 0.9019608,
+            "g": 0.196078435,
+            "b": 0.196078435
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.5,
+          "Color": {
+            "a": 1.0,
+            "r": 0.6320754,
+            "g": 0.0626112446,
+            "b": 0.0626112446
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.5,
+          "ChanceBroken": 0.5,
+          "Color": {
+            "a": 1.0,
+            "r": 0.6603774,
+            "g": 0.07164473,
+            "b": 0.07164473
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.5,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.9019608,
+            "g": 0.196078435,
+            "b": 0.196078435
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.46226418,
+            "g": 0.215868637,
+            "b": 0.215868637
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.544,
+            "g": 0.198104024,
+            "b": 0.198104024
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "Monochrome_Red_R8A2",
+      "internalEnabled": true,
+      "persistentID": 114
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
           "Chance": 0.75,
           "ChanceBroken": 0.0,
           "Color": {
@@ -3353,6 +3934,272 @@
       "name": "BlueToGreen_1",
       "internalEnabled": true,
       "persistentID": 24
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.75,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.477058858,
+            "g": 0.5734118,
+            "b": 0.5882353
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.75,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.229564711,
+            "g": 0.309803933,
+            "b": 0.276370943
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.118881,
+            "g": 0.17147024,
+            "b": 0.189
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.33222276,
+            "g": 0.4392157,
+            "b": 0.2916392
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.5,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.253176481,
+            "g": 0.449377358,
+            "b": 0.470588237
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.266666681,
+            "b": 0.266666681
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.333333343,
+            "g": 0.43921572,
+            "b": 0.2901961
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.7,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.4096543,
+            "g": 0.5019608,
+            "b": 0.375466675
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.254901975,
+            "g": 0.450980425,
+            "b": 0.470588267
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        }
+      ],
+      "name": "BlueToGreen_1_R8B2",
+      "internalEnabled": true,
+      "persistentID": 112
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.75,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.477058858,
+            "g": 0.5734118,
+            "b": 0.5882353
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.75,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.229564711,
+            "g": 0.309803933,
+            "b": 0.276370943
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.118881,
+            "g": 0.17147024,
+            "b": 0.189
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.5,
+          "ChanceBroken": 0.05,
+          "Color": {
+            "a": 1.0,
+            "r": 0.33222276,
+            "g": 0.4392157,
+            "b": 0.2916392
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.5,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.253176481,
+            "g": 0.449377358,
+            "b": 0.470588237
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 1.0,
+            "g": 0.266666681,
+            "b": 0.266666681
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.254901975,
+            "g": 0.369196922,
+            "b": 0.470588237
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.7,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.4096543,
+            "g": 0.5019608,
+            "b": 0.375466675
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 0.0,
+            "r": 0.254901975,
+            "g": 0.450980425,
+            "b": 0.470588267
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        }
+      ],
+      "name": "BlueToBlue_1_R8B2",
+      "internalEnabled": true,
+      "persistentID": 113
     },
     {
       "LightCategorySettings": [
@@ -6713,6 +7560,363 @@
       "name": "GreenToRed_1",
       "internalEnabled": true,
       "persistentID": 29
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.8,
+          "ChanceBroken": 0.6,
+          "Color": {
+            "a": 1.0,
+            "r": 0.5566928,
+            "g": 0.8490566,
+            "b": 0.752982259
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 0.8,
+          "ChanceBroken": 0.6,
+          "Color": {
+            "a": 0.0,
+            "r": 0.6509434,
+            "g": 0.123322964,
+            "b": 0.0276343785
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.6,
+          "ChanceBroken": 0.8,
+          "Color": {
+            "a": 0.0,
+            "r": 0.764151,
+            "g": 0.221497029,
+            "b": 0.140574962
+          },
+          "IntensityMul": 0.4,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.7,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8716928,
+            "g": 0.90199995,
+            "b": 0.807289958
+          },
+          "IntensityMul": 0.55,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.6,
+          "ChanceBroken": 0.3,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8745098,
+            "g": 0.905882359,
+            "b": 0.807843149
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.7,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.671,
+            "g": 0.217875257,
+            "b": 0.150304019
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.2,
+          "Color": {
+            "a": 1.0,
+            "r": 0.894117653,
+            "g": 0.2380008,
+            "b": 0.149019569
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 1.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.874,
+            "g": 0.8100488,
+            "b": 0.699200034
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        }
+      ],
+      "name": "GreenToRed_2_R8B1_Dimension",
+      "internalEnabled": true,
+      "persistentID": 104
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 1.0,
+          "ChanceBroken": 0.3,
+          "Color": {
+            "a": 1.0,
+            "r": 0.5566928,
+            "g": 0.8490566,
+            "b": 0.752982259
+          },
+          "IntensityMul": 1.2,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 1.0,
+          "ChanceBroken": 0.5,
+          "Color": {
+            "a": 0.0,
+            "r": 0.6509434,
+            "g": 0.123322964,
+            "b": 0.0276343785
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.6,
+          "ChanceBroken": 0.4,
+          "Color": {
+            "a": 0.0,
+            "r": 0.764151,
+            "g": 0.221497029,
+            "b": 0.140574962
+          },
+          "IntensityMul": 0.4,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.5,
+          "ChanceBroken": 0.7,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8716928,
+            "g": 0.90199995,
+            "b": 0.807289958
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.6,
+          "ChanceBroken": 0.3,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8745098,
+            "g": 0.905882359,
+            "b": 0.807843149
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.7,
+          "ChanceBroken": 0.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.671,
+            "g": 0.217875257,
+            "b": 0.150304019
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.0,
+          "ChanceBroken": 0.2,
+          "Color": {
+            "a": 1.0,
+            "r": 0.894117653,
+            "g": 0.2380008,
+            "b": 0.149019569
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 1.0,
+          "Color": {
+            "a": 1.0,
+            "r": 0.874,
+            "g": 0.8100488,
+            "b": 0.699200034
+          },
+          "IntensityMul": 1.0,
+          "Weight": 1.0
+        }
+      ],
+      "name": "GreenToRed_2_R8B1_Dimension_2",
+      "internalEnabled": true,
+      "persistentID": 105
+    },
+    {
+      "LightCategorySettings": [
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 1.0,
+          "ChanceBroken": 0.3,
+          "Color": {
+            "a": 1.0,
+            "r": 0.5566928,
+            "g": 0.8490566,
+            "b": 0.752982259
+          },
+          "IntensityMul": 0.8,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "General",
+          "Chance": 1.0,
+          "ChanceBroken": 0.3,
+          "Color": {
+            "a": 0.0,
+            "r": 0.6509434,
+            "g": 0.123322964,
+            "b": 0.0276343785
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Special",
+          "Chance": 0.8,
+          "ChanceBroken": 0.3,
+          "Color": {
+            "a": 0.0,
+            "r": 0.764151,
+            "g": 0.221497029,
+            "b": 0.140574962
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Door",
+          "Chance": 0.7,
+          "ChanceBroken": 0.4,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8716928,
+            "g": 0.90199995,
+            "b": 0.807289958
+          },
+          "IntensityMul": 0.55,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Sign",
+          "Chance": 0.8,
+          "ChanceBroken": 0.2,
+          "Color": {
+            "a": 1.0,
+            "r": 0.8745098,
+            "g": 0.905882359,
+            "b": 0.807843149
+          },
+          "IntensityMul": 0.55,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Independent",
+          "Chance": 0.8,
+          "ChanceBroken": 0.2,
+          "Color": {
+            "a": 1.0,
+            "r": 0.671,
+            "g": 0.217875257,
+            "b": 0.150304019
+          },
+          "IntensityMul": 0.7,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "Emergency",
+          "Chance": 0.4,
+          "ChanceBroken": 0.25,
+          "Color": {
+            "a": 1.0,
+            "r": 0.894117653,
+            "g": 0.2380008,
+            "b": 0.149019569
+          },
+          "IntensityMul": 0.5,
+          "Weight": 1.0
+        },
+        {
+          "On": true,
+          "Category": "DoorImportant",
+          "Chance": 1.0,
+          "ChanceBroken": 0.4,
+          "Color": {
+            "a": 1.0,
+            "r": 0.874,
+            "g": 0.8100488,
+            "b": 0.699200034
+          },
+          "IntensityMul": 0.6,
+          "Weight": 1.0
+        }
+      ],
+      "name": "GreenToRed_2_R8B1_Dimension_3",
+      "internalEnabled": true,
+      "persistentID": 106
     },
     {
       "LightCategorySettings": [
@@ -10201,5 +11405,5 @@
       "persistentID": 85
     }
   ],
-  "LastPersistentID": 111
+  "LastPersistentID": 115
 }

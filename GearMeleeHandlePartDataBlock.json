@@ -27,6 +27,18 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Bat_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S10"
+      },
+      "Aligns": [],
+      "name": "Handle_Bat_2",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Spear_1.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Melee_Handle",
@@ -39,6 +51,18 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Spear_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S10"
+      },
+      "Aligns": [],
+      "name": "Handle_Spear_2",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Knife_1.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Melee_Handle",
@@ -48,6 +72,18 @@
       "name": "Handle_Knife_1",
       "internalEnabled": true,
       "persistentID": 14
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Knife_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Handle",
+        "BundleShard": "S10"
+      },
+      "Aligns": [],
+      "name": "Handle_Knife_2",
+      "internalEnabled": true,
+      "persistentID": 19
     },
     {
       "General": {
@@ -158,5 +194,5 @@
       "persistentID": 12
     }
   ],
-  "LastPersistentID": 16
+  "LastPersistentID": 19
 }

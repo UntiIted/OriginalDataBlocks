@@ -17,6 +17,13 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Shelling Nano\",\"Packet\":{\"Comps\":{\"Length\":15,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":8},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":8},\"e\":{\"c\":5,\"v\":1},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":16},\"i\":{\"c\":9,\"v\":15},\"j\":{\"c\":10,\"v\":27},\"k\":{\"c\":11,\"v\":27},\"l\":{\"c\":12,\"v\":45},\"m\":{\"c\":19,\"v\":22},\"n\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.098,\"y\":-0.07,\"normalized\":{\"x\":-0.813733459,\"y\":-0.5812382,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.120432548,\"sqrMagnitude\":0.014504},\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":-0.098,\"y\":-0.07,\"normalized\":{\"x\":-0.813733459,\"y\":-0.5812382,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.120432548,\"sqrMagnitude\":0.014504},\"scale\":0.04},\"tPattern\":{\"position\":{\"x\":-0.09,\"y\":-0.03,\"normalized\":{\"x\":-0.9486833,\"y\":-0.316227764,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.09486833,\"sqrMagnitude\":0.009000001},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Pistol Burst\"}}}",
+      "name": "PistolBurst",
+      "internalEnabled": true,
+      "persistentID": 67
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Malatack HXC\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":22},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":42},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":28},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":3},\"o\":{\"c\":21,\"v\":45},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025,\"normalized\":{\"x\":0.8741573,\"y\":0.48564294,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.05147815,\"sqrMagnitude\":0.00265000015},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Malatack HXC\"}}}",
       "name": "RifleHeavyAuto",
       "internalEnabled": true,
@@ -56,6 +63,13 @@
       "name": "SMGAuto",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Drekker CLR\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":24},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":49},\"d\":{\"c\":5,\"v\":2},\"e\":{\"c\":6,\"v\":2},\"f\":{\"c\":7,\"v\":1},\"g\":{\"c\":8,\"v\":15},\"h\":{\"c\":9,\"v\":5},\"i\":{\"c\":10,\"v\":17},\"j\":{\"c\":11,\"v\":17},\"k\":{\"c\":12,\"v\":25},\"l\":{\"c\":16,\"v\":7},\"m\":{\"c\":19,\"v\":8},\"n\":{\"c\":21,\"v\":50},\"o\":{\"c\":23,\"v\":5},\"p\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.07,\"sqrMagnitude\":0.0049},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003,\"normalized\":{\"x\":0.99920094,\"y\":0.0399680361,\"magnitude\":1.0,\"sqrMagnitude\":0.99999994},\"magnitude\":0.07505998,\"sqrMagnitude\":0.00563400052},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.02,\"sqrMagnitude\":0.0004},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"SMG Semi\"}}}\n",
+      "name": "SMGSemi",
+      "internalEnabled": true,
+      "persistentID": 66
     },
     {
       "Type": "StandardInventory",
@@ -157,6 +171,13 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Bataldo Custom K330\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":2,\"v\":37},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":6},\"d\":{\"c\":5,\"v\":50},\"e\":{\"c\":6,\"v\":4},\"f\":{\"c\":7,\"v\":4},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":13},\"i\":{\"c\":10,\"v\":22},\"j\":{\"c\":11,\"v\":22},\"k\":{\"c\":12,\"v\":33},\"l\":{\"c\":16,\"v\":12},\"m\":{\"c\":19,\"v\":12},\"n\":{\"c\":21,\"v\":49},\"o\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.202,\"y\":0.012,\"normalized\":{\"x\":-0.9982401,\"y\":0.05930139,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.20235613,\"sqrMagnitude\":0.0409480035},\"scale\":0.07},\"tDecalB\":{\"position\":{\"x\":-0.2,\"y\":0.01,\"normalized\":{\"x\":-0.9987523,\"y\":0.0499376133,\"normalized\":{\"x\":-0.998752356,\"y\":0.049937617,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.99999994,\"sqrMagnitude\":0.99999994},\"magnitude\":0.200249851,\"sqrMagnitude\":0.0401},\"scale\":0.07},\"tPattern\":{\"position\":{\"x\":-0.1,\"y\":0.032,\"normalized\":{\"x\":-0.9524241,\"y\":0.3047757,\"normalized\":{\"x\":-0.952424169,\"y\":0.304775745,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.99999994,\"sqrMagnitude\":0.99999994},\"magnitude\":0.104995243,\"sqrMagnitude\":0.011024},\"angle\":-140.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Bataldo Custom K330\"}}}",
+      "name": "ShotgunSlug",
+      "internalEnabled": true,
+      "persistentID": 65
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba R66\",\"Packet\":{\"Comps\":{\"Length\":14,\"a\":{\"c\":2,\"v\":7},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":7},\"d\":{\"c\":5,\"v\":29},\"e\":{\"c\":6,\"v\":29},\"f\":{\"c\":8,\"v\":7},\"g\":{\"c\":9,\"v\":14},\"h\":{\"c\":10,\"v\":20},\"i\":{\"c\":11,\"v\":35},\"j\":{\"c\":12,\"v\":36},\"k\":{\"c\":16,\"v\":16},\"l\":{\"c\":19,\"v\":14},\"m\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.17,\"y\":0.02},\"scale\":0.06},\"tDecalB\":{\"position\":{\"x\":0.17,\"y\":-0.015},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":0.24,\"y\":0.0},\"scale\":0.5}},\"publicName\":{\"data\":\"Mastaba R66\"}}}",
       "name": "RevolverSemi",
       "internalEnabled": true,
@@ -227,10 +248,24 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco Maul\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":3},\"e\":{\"c\":46,\"v\":5},\"f\":{\"c\":48,\"v\":2},\"g\":{\"c\":50,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Maul\"}}}",
+      "name": "Maul",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Fixed Blade\",\"Packet\":{\"Comps\":{\"Length\":7,\"a\":{\"c\":2,\"v\":27},\"b\":{\"c\":3,\"v\":161},\"c\":{\"c\":4,\"v\":39},\"d\":{\"c\":44,\"v\":12},\"e\":{\"c\":48,\"v\":14},\"f\":{\"c\":50,\"v\":10}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Mastaba Fixed Blade\"}}}",
       "name": "Knife",
       "internalEnabled": true,
       "persistentID": 53
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Wox Compact\",\"Packet\":{\"Comps\":{\"Length\":5,\"a\":{\"c\":2,\"v\":27},\"b\":{\"c\":3,\"v\":161},\"c\":{\"c\":4,\"v\":39},\"d\":{\"c\":48,\"v\":19}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Santonian Fixed Blade\"}}}",
+      "name": "Knife_02",
+      "internalEnabled": true,
+      "persistentID": 68
     },
     {
       "Type": "StandardInventory",
@@ -241,10 +276,24 @@
     },
     {
       "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Attroc Titanium\",\"Packet\":{\"Comps\":{\"Length\":5,\"a\":{\"c\":2,\"v\":29},\"b\":{\"c\":3,\"v\":163},\"c\":{\"c\":4,\"v\":41},\"d\":{\"c\":48,\"v\":17}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Mastaba Shortbonk\"}}}",
+      "name": "Bat_02",
+      "internalEnabled": true,
+      "persistentID": 69
+    },
+    {
+      "Type": "StandardInventory",
       "GearJSON": "{\"Ver\":1,\"Name\":\"MACO Drillhead\",\"Packet\":{\"Comps\":{\"Length\":7,\"a\":{\"c\":2,\"v\":28},\"b\":{\"c\":3,\"v\":162},\"c\":{\"c\":4,\"v\":40},\"d\":{\"c\":44,\"v\":13},\"e\":{\"c\":48,\"v\":15},\"f\":{\"c\":50,\"v\":11}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"MACO Drillhead\"}}}",
       "name": "Spear",
       "internalEnabled": true,
       "persistentID": 54
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"IsoCo Stinger\",\"Packet\":{\"Comps\":{\"Length\":7,\"a\":{\"c\":2,\"v\":28},\"b\":{\"c\":3,\"v\":162},\"c\":{\"c\":4,\"v\":40},\"d\":{\"c\":44,\"v\":16},\"e\":{\"c\":48,\"v\":18},\"f\":{\"c\":50,\"v\":13}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"MACO Drillhead\"}}}",
+      "name": "Spear_02",
+      "internalEnabled": true,
+      "persistentID": 70
     },
     {
       "Type": "StandardInventory",
@@ -296,6 +345,27 @@
       "persistentID": 25
     },
     {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Kovac Sledgehammer\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":11},\"e\":{\"c\":46,\"v\":12},\"f\":{\"c\":48,\"v\":6},\"g\":{\"c\":50,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Sledgehammer\"}}}",
+      "name": "Sledgehammer",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Santonian Mallet\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":6},\"e\":{\"c\":46,\"v\":9},\"f\":{\"c\":48,\"v\":10},\"g\":{\"c\":50,\"v\":8}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Mallet\"}}}",
+      "name": "Mallet",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "Type": "StandardInventory",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"MACO Gavel\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":5},\"e\":{\"c\":46,\"v\":3},\"f\":{\"c\":48,\"v\":5},\"g\":{\"c\":50,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Gavel\"}}}",
+      "name": "Gavel",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
       "Type": "SpawnedInLevel",
       "GearJSON": "{\"Ver\":1,\"Name\":\"Mechatronic SGB3\",\"Packet\":{\"Comps\":{\"Length\":12,\"a\":{\"c\":1,\"v\":12},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":3},\"f\":{\"c\":12,\"v\":22},\"g\":{\"c\":16,\"v\":8},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":39,\"v\":1},\"j\":{\"c\":40,\"v\":4},\"k\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Mechatronic SGB3\"}}}",
       "name": "LevelSpawned_Security_Turret_Burst",
@@ -303,5 +373,5 @@
       "persistentID": 37
     }
   ],
-  "LastPersistentID": 67
+  "LastPersistentID": 70
 }

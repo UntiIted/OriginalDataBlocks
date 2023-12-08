@@ -119,6 +119,11 @@ DimensionData: DimensionData
             Boolean: Enabled
             (enum) TERM_Command: TerminalCommand
             (enum) TERM_CommandRule: TerminalCommandRule
+            String: AchievementKey
+            Int32: SustainedEventSlotIndex
+            Int32: SustainedEventStateCount
+            Single: SustainedEventStateDuration
+            Single: SustainedEventDelay
             String: WorldEventObjectFilter
          (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData
@@ -195,6 +200,11 @@ DimensionData: DimensionData
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    Boolean: IsOutside
    Single: LightAzimuth

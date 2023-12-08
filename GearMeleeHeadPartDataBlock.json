@@ -27,6 +27,18 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Spear_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Head",
+        "BundleShard": "S11"
+      },
+      "Aligns": [],
+      "name": "Head_Spear_2",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Bat_1.prefab",
         "GearCategoryFilter": 0,
         "AssetBundle": "Gear_Melee_Head",
@@ -146,5 +158,5 @@
       "persistentID": 11
     }
   ],
-  "LastPersistentID": 14
+  "LastPersistentID": 16
 }

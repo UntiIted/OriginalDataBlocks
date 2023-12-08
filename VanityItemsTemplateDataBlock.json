@@ -357,6 +357,86 @@
       "persistentID": 149
     },
     {
+      "publicName": "Snapjaw RX-A1 Herus",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear017B/Headgear017B.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear017.png",
+      "name": "Headgear017B",
+      "internalEnabled": true,
+      "persistentID": 154
+    },
+    {
+      "publicName": "Storax Rocker N",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear018/Headgear018.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear018.png",
+      "name": "Headgear018",
+      "internalEnabled": true,
+      "persistentID": 150
+    },
+    {
+      "publicName": "Storax Tegu Legacy",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear018B/Headgear018B.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear018.png",
+      "name": "Headgear018B",
+      "internalEnabled": true,
+      "persistentID": 155
+    },
+    {
+      "publicName": "Quantex Forge Red",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear019/Headgear019.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear019.png",
+      "name": "Headgear019",
+      "internalEnabled": true,
+      "persistentID": 151
+    },
+    {
+      "publicName": "Gunnar Dual Vision Rogue",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear020/Headgear020.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear020.png",
+      "name": "Headgear020",
+      "internalEnabled": true,
+      "persistentID": 152
+    },
+    {
+      "publicName": "Gunnar Twin Scepter II",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear020B/Headgear020B.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear020.png",
+      "name": "Headgear020B",
+      "internalEnabled": true,
+      "persistentID": 157
+    },
+    {
+      "publicName": "Argon Fenrir LG",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear021/Headgear021.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear021.png",
+      "name": "Headgear021",
+      "internalEnabled": true,
+      "persistentID": 153
+    },
+    {
+      "publicName": "Garuga Alloy T17",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear021B/Headgear021B.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear021.png",
+      "name": "Headgear021B",
+      "internalEnabled": true,
+      "persistentID": 158
+    },
+    {
       "publicName": "KOVAC GREEN GUARD",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityB/Headgear016SecurityB.prefab",
@@ -435,6 +515,16 @@
       "name": "Torso003Woods",
       "internalEnabled": true,
       "persistentID": 17
+    },
+    {
+      "publicName": "Qantex Windbeater",
+      "type": "Torso",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Torsos/Torso003WoodsB/Torso003WoodsB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Torso003Woods.png",
+      "name": "Torso003WoodsB",
+      "internalEnabled": true,
+      "persistentID": 130
     },
     {
       "publicName": "Kovac Pro-Car Elite",
@@ -647,6 +737,16 @@
       "persistentID": 43
     },
     {
+      "publicName": "Marsh Formidable",
+      "type": "Legs",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs005BishopC/Legs005BishopC.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Legs005Bishop.png",
+      "name": "Legs005BishopC",
+      "internalEnabled": true,
+      "persistentID": 143
+    },
+    {
       "publicName": "Braveer Pathfinder TR",
       "type": "Legs",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Legs/Legs006/Legs006_New.prefab",
@@ -845,6 +945,16 @@
       "name": "Backpack012Garden",
       "internalEnabled": true,
       "persistentID": 82
+    },
+    {
+      "publicName": "KitHauler Galaxy",
+      "type": "Backpack",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Backpacks/Backpack012GardenB/Backpack012GardenB.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Backpack012Garden.png",
+      "name": "Backpack012GardenB",
+      "internalEnabled": true,
+      "persistentID": 138
     },
     {
       "publicName": "Outwear PM8",
@@ -1137,6 +1247,16 @@
       "persistentID": 126
     },
     {
+      "publicName": "Poison Lividus",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette030.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette030",
+      "internalEnabled": true,
+      "persistentID": 127
+    },
+    {
       "publicName": "Roughneck Robigo",
       "type": "Palette",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette031.prefab",
@@ -1147,6 +1267,16 @@
       "persistentID": 128
     },
     {
+      "publicName": "Last Lazarus",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette032.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette032",
+      "internalEnabled": true,
+      "persistentID": 129
+    },
+    {
       "publicName": "Salvos Underworld",
       "type": "Palette",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette033.prefab",
@@ -1155,6 +1285,16 @@
       "name": "Palette033",
       "internalEnabled": true,
       "persistentID": 133
+    },
+    {
+      "publicName": "Decem",
+      "type": "Palette",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Palettes/Palette034.prefab",
+      "DropWeight": 1.0,
+      "icon": "",
+      "name": "Palette034",
+      "internalEnabled": true,
+      "persistentID": 159
     },
     {
       "publicName": "SANTONIAN VESTIS",
@@ -1187,5 +1327,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 151
+  "LastPersistentID": 159
 }

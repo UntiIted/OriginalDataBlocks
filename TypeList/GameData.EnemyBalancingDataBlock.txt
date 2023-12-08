@@ -21,6 +21,12 @@ Single: TagTime
 Single: EnemyCollisionRadius
 Single: EnemyCollisionPlayerMovementReduction
 Single: EnemyCollisionMinimumMoveSpeedModifier
+Single: ScoutTentaclesMoveOutMultiplier
+Single: ScoutTentaclesMoveInTime
+Single: ScoutTentaclesMoveInDetectedTime
+Single: ScoutTentacleSourceExpansionOffset
+Vector2: ScoutTentacleAngleMinMax
+Int32: ScoutTentacleCount
 String: name
 Boolean: internalEnabled
 UInt32: persistentID

@@ -33,6 +33,18 @@
         "BundleShard": "S20"
       },
       "Aligns": [],
+      "name": "Pommel_Spear_2",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Pommels/Pommel_Spear_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": "Gear_Melee_Pommel",
+        "BundleShard": "S20"
+      },
+      "Aligns": [],
       "name": "Pommel_Spear_1",
       "internalEnabled": true,
       "persistentID": 11
@@ -122,5 +134,5 @@
       "persistentID": 8
     }
   ],
-  "LastPersistentID": 12
+  "LastPersistentID": 13
 }

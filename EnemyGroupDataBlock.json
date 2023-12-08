@@ -816,6 +816,57 @@
       "persistentID": 54
     },
     {
+      "Type": "PureDetect",
+      "Difficulty": "MegaBoss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 6.0,
+      "ScoreInAreaPaddingMulti": 3.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Scout",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Pure Detect MegaBoss Scout R8B1",
+      "internalEnabled": true,
+      "persistentID": 82
+    },
+    {
+      "Type": "PureDetect",
+      "Difficulty": "Biss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 6.0,
+      "ScoreInAreaPaddingMulti": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Scout",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Pure Detect Biss Nightmare Scout",
+      "internalEnabled": true,
+      "persistentID": 83
+    },
+    {
+      "Type": "PureDetect",
+      "Difficulty": "Buss",
+      "SpawnPlacementType": "Align_1",
+      "MaxScore": 6.0,
+      "ScoreInAreaPaddingMulti": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Scout",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Pure Detect Buss Nightmare Scout",
+      "internalEnabled": true,
+      "persistentID": 85
+    },
+    {
       "Type": "Detect",
       "Difficulty": "Easy",
       "SpawnPlacementType": "Default",
@@ -902,6 +953,23 @@
     },
     {
       "Type": "Detect",
+      "Difficulty": "Biss",
+      "SpawnPlacementType": "Default",
+      "MaxScore": 4.0,
+      "ScoreInAreaPaddingMulti": 3.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "Lurker",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Striker Berserks",
+      "internalEnabled": true,
+      "persistentID": 80
+    },
+    {
+      "Type": "Detect",
       "Difficulty": "Buss",
       "SpawnPlacementType": "Default",
       "MaxScore": 4.0,
@@ -916,6 +984,23 @@
       "name": "Cluster Shooter",
       "internalEnabled": true,
       "persistentID": 81
+    },
+    {
+      "Type": "PureSneak",
+      "Difficulty": "MiniBoss",
+      "SpawnPlacementType": "Align_0",
+      "MaxScore": 4.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": "PureSneak",
+          "Distribution": "Rel_100"
+        }
+      ],
+      "name": "Detect Lurker Megaboss_Align0",
+      "internalEnabled": true,
+      "persistentID": 84
     },
     {
       "Type": "Hunter",
@@ -1311,5 +1396,5 @@
       "persistentID": 75
     }
   ],
-  "LastPersistentID": 84
+  "LastPersistentID": 85
 }

@@ -147,6 +147,10 @@
     {
       "AboveBlockID": 229,
       "LabelText": "Communication List"
+    },
+    {
+      "AboveBlockID": 369,
+      "LabelText": "Narrative"
     }
   ],
   "Blocks": [
@@ -16281,7 +16285,3812 @@
       "name": "CL-ToolRefillPackHere",
       "internalEnabled": true,
       "persistentID": 368
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3409998570,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 2620422495,
+                "A": false,
+                "B": true,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 3048408072,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 1350930042,
+                "A": false,
+                "B": true,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 3387336103,
+                "A": false,
+                "B": false,
+                "C": true,
+                "D": false,
+                "UNI": false,
+                "exit": 1.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 318897959,
+                "A": false,
+                "B": false,
+                "C": false,
+                "D": true,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G",
+            "conditions": []
+          },
+          "ActorB": {
+            "charFilter": "Char_T"
+          },
+          "ActorC": {
+            "charFilter": "Char_F"
+          },
+          "ActorD": {
+            "charFilter": "Char_O"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 106816883,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 2468391768,
+                "A": false,
+                "B": true,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G, Char_T"
+          },
+          "ActorB": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2552000261,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "test",
+      "internalEnabled": true,
+      "persistentID": 369
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1651450081,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1142032124
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1651450081,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1651424707
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          },
+          "ActorB": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1651450081,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3966571558
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorC": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1651450081,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 727855377
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          },
+          "ActorD": {
+            "charFilter": -1
+          }
+        }
+      ],
+      "name": "NT_ALTNuclearFinal ",
+      "internalEnabled": true,
+      "persistentID": 370
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3536212925,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4251056840
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3536212925,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4123131488
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          },
+          "ActorB": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3536212925,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3909276550
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorC": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3536212925,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2753426144
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          },
+          "ActorD": {
+            "charFilter": -1
+          }
+        }
+      ],
+      "name": "NT_ALT_HandDatacubes ",
+      "internalEnabled": true,
+      "persistentID": 371
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3437074275,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2862424046
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3437074275,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 54458592
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          },
+          "ActorB": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3437074275,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4009979266
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorC": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3437074275,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2100602923
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          },
+          "ActorD": {
+            "charFilter": -1
+          }
+        }
+      ],
+      "name": "NT_ALTBetrayed ",
+      "internalEnabled": true,
+      "persistentID": 372
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2914581285,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "4_seconds_of_silence ",
+      "internalEnabled": true,
+      "persistentID": 373
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 785236672,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 394580904
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 785236672,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1716821710
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          },
+          "ActorB": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 785236672,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3002974464
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorC": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 785236672,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 917647922
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          },
+          "ActorD": {
+            "charFilter": -1
+          }
+        }
+      ],
+      "name": "NT_ALTBetrayed_2 ",
+      "internalEnabled": true,
+      "persistentID": 374
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2134573373,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3174608614
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2134573373,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 332005093
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          },
+          "ActorB": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2134573373,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1508587242
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorC": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2134573373,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2053733815
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          },
+          "ActorD": {
+            "charFilter": -1
+          }
+        }
+      ],
+      "name": "NT_ALTLastStand ",
+      "internalEnabled": true,
+      "persistentID": 375
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [],
+      "name": "6_seconds_of_silence ",
+      "internalEnabled": true,
+      "persistentID": 376
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2940539834,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1841605912
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2940539834,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2925601233
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          },
+          "ActorB": {
+            "charFilter": -1
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2940539834,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 878311658
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2940539834,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1044949113
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_ALTLastStand_2 ",
+      "internalEnabled": true,
+      "persistentID": 377
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "OncePerExpedition",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1882883083,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1882883083,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1882883083,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorC": {
+            "charFilter": 0
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1882883083,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_AltMicroDrive ",
+      "internalEnabled": true,
+      "persistentID": 378
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4264060956,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2137311713
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4264060956,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4017384058
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4264060956,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3215436437
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4264060956,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 56182844
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGMicroDriveStart ",
+      "internalEnabled": true,
+      "persistentID": 379
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 642523320,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 652760348
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 642523320,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1103947010
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 642523320,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 396591812
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 642523320,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1054320379
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGMicroDrive ",
+      "internalEnabled": true,
+      "persistentID": 380
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2005794184,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 588799967
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2005794184,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4213425966
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2005794184,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1580900489
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2005794184,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 728510290
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGMicroDriveDone ",
+      "internalEnabled": true,
+      "persistentID": 381
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "OncePerExpedition",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2605653050,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2605653050,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2605653050,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2605653050,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_AltDoorHelp ",
+      "internalEnabled": true,
+      "persistentID": 382
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3703539571,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3703539571,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3703539571,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3703539571,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_AltPowerHelp ",
+      "internalEnabled": true,
+      "persistentID": 383
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3056813335,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3056813335,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3056813335,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3056813335,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_AltSchaefferMeetKDS ",
+      "internalEnabled": true,
+      "persistentID": 384
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3854782055,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4265282966
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3854782055,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1568616825
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3854782055,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1677838761
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3854782055,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3977356919
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGGasD2Start ",
+      "internalEnabled": true,
+      "persistentID": 385
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4245449699,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2686527118
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4245449699,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3978658120
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4245449699,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3779316446
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4245449699,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1085327659
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGSchaefferDoorTaunt ",
+      "internalEnabled": true,
+      "persistentID": 386
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3762393711,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 465093090
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3762393711,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1048094643
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3762393711,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1048094643
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3762393711,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2520941008
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGDoorHelpStart ",
+      "internalEnabled": true,
+      "persistentID": 387
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2111207629,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1914122641
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2111207629,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1026392875
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2111207629,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1171789279
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2111207629,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3129993351
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGDoorHelp ",
+      "internalEnabled": true,
+      "persistentID": 388
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1337472177,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1337472177,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1337472177,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1337472177,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGDoorHelpDone ",
+      "internalEnabled": true,
+      "persistentID": 389
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2108059398,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 965101800
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2108059398,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 292122255
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2108059398,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1466615585
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2108059398,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1540989140
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGPowerHelpStart ",
+      "internalEnabled": true,
+      "persistentID": 390
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348759886,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3628629708
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348759886,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2031351850
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348759886,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1225194315
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348759886,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2123077079
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGPowerHelp ",
+      "internalEnabled": true,
+      "persistentID": 391
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348266054,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2041914119
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348266054,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1269352910
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348266054,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 972833746
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F",
+            "conditions": []
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 348266054,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3157425380
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGPowerHelpDone ",
+      "internalEnabled": true,
+      "persistentID": 392
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2344747968,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1290908755
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2344747968,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 275868446
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2344747968,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3987229465
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2344747968,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1251872993
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGSchaefferThreatResponse ",
+      "internalEnabled": true,
+      "persistentID": 393
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1056827037,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1460309182
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1056827037,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2233160717
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1056827037,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3594807373
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 1056827037,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3633961653
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGSchaefferDrown ",
+      "internalEnabled": true,
+      "persistentID": 394
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2185136911,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3126987717
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2185136911,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2519970337
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2185136911,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 513154260
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 2185136911,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4294258131
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGSchaefferDead ",
+      "internalEnabled": true,
+      "persistentID": 395
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3400020980,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 769319647
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3400020980,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1037529617
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3400020980,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2479150773
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3400020980,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 566199841
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGGasD2End ",
+      "internalEnabled": true,
+      "persistentID": 396
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 385215898,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3633965807
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 385215898,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1196892166
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 385215898,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 962134633
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 385215898,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1196892166
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGAskMeetKDSStart ",
+      "internalEnabled": true,
+      "persistentID": 397
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3597372394,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2519460817
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3597372394,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1636069373
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3597372394,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2027992978
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3597372394,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 4215886121
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGAskMeetKDS ",
+      "internalEnabled": true,
+      "persistentID": 398
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3550753837,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1779195767
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3550753837,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2919468163
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3550753837,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2045077453
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 3550753837,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 206459231
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OG_AskMeetKDSDone ",
+      "internalEnabled": true,
+      "persistentID": 399
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 347780222,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 342625113
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 347780222,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3942489592
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 347780222,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1497286761
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 347780222,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2259046050
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGNuclearFinal ",
+      "internalEnabled": true,
+      "persistentID": 400
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 791641065,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 469514297
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 791641065,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 354668999
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 791641065,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3020173088
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 791641065,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 352121401
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGAskDatacubesStart ",
+      "internalEnabled": true,
+      "persistentID": 401
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 811095731,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 896706785
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 811095731,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3640254019
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_T"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 811095731,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 3416647239
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          }
+        },
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 811095731,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1764081812
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "NT_OGAskDatacubes ",
+      "internalEnabled": true,
+      "persistentID": 402
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 4208901936,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 4260691937,
+                "A": false,
+                "B": true,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 667830862,
+                "A": false,
+                "B": false,
+                "C": true,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 3630673947,
+                "A": false,
+                "B": false,
+                "C": false,
+                "D": true,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_F"
+          },
+          "ActorB": {
+            "charFilter": "Char_T"
+          },
+          "ActorC": {
+            "charFilter": "Char_G"
+          },
+          "ActorD": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "JungleScenario_1",
+      "internalEnabled": true,
+      "persistentID": 403
+    },
+    {
+      "priority": "TeamEvent",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [
+        {
+          "structure": {
+            "enabled": true,
+            "weight": 1.0,
+            "lines": [
+              {
+                "lineEvent": 585793458,
+                "A": true,
+                "B": false,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 453878651
+              },
+              {
+                "lineEvent": 4260691937,
+                "A": false,
+                "B": true,
+                "C": false,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 0
+              },
+              {
+                "lineEvent": 2104320063,
+                "A": false,
+                "B": false,
+                "C": true,
+                "D": false,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 1146244563
+              },
+              {
+                "lineEvent": 3630673947,
+                "A": false,
+                "B": false,
+                "C": false,
+                "D": true,
+                "UNI": false,
+                "exit": 0.0,
+                "Subtitle": 2335130650
+              }
+            ]
+          },
+          "ActorA": {
+            "charFilter": "Char_G"
+          },
+          "ActorB": {
+            "charFilter": "Char_T"
+          },
+          "ActorC": {
+            "charFilter": "Char_F"
+          },
+          "ActorD": {
+            "charFilter": "Char_O"
+          }
+        }
+      ],
+      "name": "JungleScenario_2",
+      "internalEnabled": true,
+      "persistentID": 404
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [],
+      "name": "JungleScenario_3",
+      "internalEnabled": true,
+      "persistentID": 405
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [],
+      "name": "JungleScenario_4",
+      "internalEnabled": true,
+      "persistentID": 406
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [],
+      "name": "NT_AreWeSafe ",
+      "internalEnabled": true,
+      "persistentID": 410
+    },
+    {
+      "priority": "IdleTalk",
+      "probabilityToTrigger": "Always",
+      "triggerInterval": "Unlimited",
+      "randomDelay": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "tensionLimit": "Low",
+      "dramaFilter": {
+        "Exploration": true,
+        "Alert": true,
+        "Sneaking": true,
+        "Encounter": true,
+        "Combat": true
+      },
+      "dialogAlternatives": [],
+      "name": "NT_DoYouHear ",
+      "internalEnabled": true,
+      "persistentID": 411
     }
   ],
-  "LastPersistentID": 368
+  "LastPersistentID": 412
 }

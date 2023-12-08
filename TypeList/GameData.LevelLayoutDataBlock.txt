@@ -85,6 +85,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnApproachDoor
       (enum) eWardenObjectiveEventType: Type
@@ -137,6 +142,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnUnlockDoor
       (enum) eWardenObjectiveEventType: Type
@@ -189,6 +199,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnOpenDoor
       (enum) eWardenObjectiveEventType: Type
@@ -241,6 +256,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnDoorScanStart
       (enum) eWardenObjectiveEventType: Type
@@ -293,6 +313,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnDoorScanDone
       (enum) eWardenObjectiveEventType: Type
@@ -345,6 +370,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WardenObjectiveEventData>: EventsOnBossDeath
       (enum) eWardenObjectiveEventType: Type
@@ -397,6 +427,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    List<WorldEventFromSourceData>: EventsOnTrigger
       String: WorldEventTriggerObjectFilter
@@ -450,6 +485,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    ProgressionPuzzleData: ProgressionPuzzleToEnter
       (enum) eProgressionPuzzleType: PuzzleType
@@ -528,6 +568,11 @@ List<ExpeditionZoneData>: Zones
       Boolean: Enabled
       (enum) TERM_Command: TerminalCommand
       (enum) TERM_CommandRule: TerminalCommandRule
+      String: AchievementKey
+      Int32: SustainedEventSlotIndex
+      Int32: SustainedEventStateCount
+      Single: SustainedEventStateDuration
+      Single: SustainedEventDelay
       String: WorldEventObjectFilter
    ActiveEnemyWaveData: ActiveEnemyWave
       Boolean: HasActiveEnemyWave
@@ -588,6 +633,11 @@ List<ExpeditionZoneData>: Zones
          Boolean: Enabled
          (enum) TERM_Command: TerminalCommand
          (enum) TERM_CommandRule: TerminalCommandRule
+         String: AchievementKey
+         Int32: SustainedEventSlotIndex
+         Int32: SustainedEventStateCount
+         Single: SustainedEventStateDuration
+         Single: SustainedEventDelay
          String: WorldEventObjectFilter
    List<EnemySpawningData>: EnemySpawningInZone
       (enum) eEnemyGroupType: GroupType
@@ -697,6 +747,11 @@ List<ExpeditionZoneData>: Zones
             Boolean: Enabled
             (enum) TERM_Command: TerminalCommand
             (enum) TERM_CommandRule: TerminalCommandRule
+            String: AchievementKey
+            Int32: SustainedEventSlotIndex
+            Int32: SustainedEventStateCount
+            Single: SustainedEventStateDuration
+            Single: SustainedEventDelay
             String: WorldEventObjectFilter
          (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData
@@ -799,6 +854,11 @@ List<ExpeditionZoneData>: Zones
             Boolean: Enabled
             (enum) TERM_Command: TerminalCommand
             (enum) TERM_CommandRule: TerminalCommandRule
+            String: AchievementKey
+            Int32: SustainedEventSlotIndex
+            Int32: SustainedEventStateCount
+            Single: SustainedEventStateDuration
+            Single: SustainedEventDelay
             String: WorldEventObjectFilter
          (enum) TERM_CommandRule: SpecialCommandRule
       TerminalStartStateData: StartingStateData

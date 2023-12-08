@@ -5284,6 +5284,54 @@
         "FunctionComponentLinks": [
           [],
           [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          []
+        ],
+        "Compositions": [
+          {
+            "weight": 1.0,
+            "prefab": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Lab_large_open_2600x2000x800/Lab_Custom_GC_V01.prefab",
+            "function": "GeneratorCluster",
+            "Shard": "S7"
+          }
+        ],
+        "AssetBundleName": "Complex_Tech",
+        "Group": 11,
+        "FunctionPotential": 6.0,
+        "RotationSnap": 0,
+        "RotationNoise": 0.0,
+        "EditorMesh": "",
+        "BoundingVolume": 0.0
+      },
+      "name": "Lab_Custom_GC",
+      "internalEnabled": true,
+      "persistentID": 80
+    },
+    {
+      "CommonData": {
+        "FunctionComponentLinks": [
+          [],
+          [],
           [
             4
           ],
@@ -7090,5 +7138,5 @@
       "persistentID": 58
     }
   ],
-  "LastPersistentID": 79
+  "LastPersistentID": 80
 }

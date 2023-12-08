@@ -113,6 +113,63 @@
       "name": "Respawner_Sack",
       "internalEnabled": true,
       "persistentID": 6
+    },
+    {
+      "On": true,
+      "RegisterForNodeUpdate": false,
+      "RandomType": "SessionSeed",
+      "Path": "Assets/AssetPrefabs/Characters/Enemies/Infestation/infested_body_04_ceiling.prefab",
+      "Path_OnNode": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_womb_litter_01.prefab",
+      "PlacementType": "OnNodes_Ceiling_UpOnly",
+      "RadiusToAvoidMasked": 2.5,
+      "MaxHeightFromNodes": 20.0,
+      "MinHeightFromNodes": 3.0,
+      "PushOutScaleAlongNormal": -0.1,
+      "SpreadScale": 3.0,
+      "ClusterChance": 0.05,
+      "MinScale": 1.0,
+      "MaxScale": 2.0,
+      "OnNodeSpawnChance": 0.0,
+      "OnNodeNormalDotLimit": 0.8,
+      "OnNodeRotateWithSurface": true,
+      "SpawnConstraints": "None",
+      "UsePrefabsBasedOnDistane": false,
+      "PrefabDistancePairs": [
+        {
+          "DistancePrefabPath": "Assets/AssetPrefabs/Characters/Enemies/Infestation/infested_body_04_ceiling.prefab",
+          "DistancePrefabOnNodePath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_womb_litter_01.prefab",
+          "DistanceMin": 5.0,
+          "DistanceMax": 15.0
+        }
+      ],
+      "name": "Corpses",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "On": true,
+      "RegisterForNodeUpdate": false,
+      "RandomType": "SessionSeed",
+      "Path": "Assets/AssetPrefabs/Characters/Enemies/Infestation/infested_tentacle_base_01.prefab",
+      "Path_OnNode": "",
+      "PlacementType": "OnNodes_Ceiling_UpOnly",
+      "RadiusToAvoidMasked": 2.5,
+      "MaxHeightFromNodes": 25.0,
+      "MinHeightFromNodes": 3.0,
+      "PushOutScaleAlongNormal": 0.55,
+      "SpreadScale": 1.5,
+      "ClusterChance": 0.1,
+      "MinScale": 0.5,
+      "MaxScale": 1.0,
+      "OnNodeSpawnChance": 0.0,
+      "OnNodeNormalDotLimit": 0.8,
+      "OnNodeRotateWithSurface": true,
+      "SpawnConstraints": "None",
+      "UsePrefabsBasedOnDistane": false,
+      "PrefabDistancePairs": [],
+      "name": "Parasite",
+      "internalEnabled": true,
+      "persistentID": 9
     }
   ],
   "LastPersistentID": 9
