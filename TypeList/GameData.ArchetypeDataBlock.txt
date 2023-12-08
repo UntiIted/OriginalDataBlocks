@@ -46,6 +46,7 @@ Single: Sentry_RotationSpeed
 Single: Sentry_DetectionMaxRange
 Single: Sentry_DetectionMaxAngle
 Boolean: Sentry_FireTowardsTargetInsteadOfForward
+Boolean: Sentry_ForceAimTowardsBody
 Single: Sentry_LongRangeThreshold
 Single: Sentry_ShortRangeThreshold
 Boolean: Sentry_LegacyEnemyDetection

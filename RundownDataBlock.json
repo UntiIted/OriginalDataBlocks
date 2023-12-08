@@ -14863,7 +14863,7 @@
           "Descriptive": {
             "Prefix": "R6AX",
             "PublicName": "Dust",
-            "IsExtraExpedition": true,
+            "IsExtraExpedition": false,
             "SkipExpNumberInName": true,
             "UseCustomMatchmakingTier": true,
             "CustomMatchmakingTier": "TierB",
@@ -15530,7 +15530,7 @@
           "Descriptive": {
             "Prefix": "R6BX",
             "PublicName": "Flux",
-            "IsExtraExpedition": true,
+            "IsExtraExpedition": false,
             "SkipExpNumberInName": true,
             "UseCustomMatchmakingTier": true,
             "CustomMatchmakingTier": "TierC",
@@ -16420,7 +16420,7 @@
           "Descriptive": {
             "Prefix": "R6CX",
             "PublicName": "Ascent",
-            "IsExtraExpedition": true,
+            "IsExtraExpedition": false,
             "SkipExpNumberInName": true,
             "UseCustomMatchmakingTier": true,
             "CustomMatchmakingTier": "TierD",

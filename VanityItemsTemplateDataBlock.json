@@ -347,6 +347,16 @@
       "persistentID": 85
     },
     {
+      "publicName": "Santonian Skinwalker",
+      "type": "Helmet",
+      "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear017/Headgear017.prefab",
+      "DropWeight": 1.0,
+      "icon": "Assets/Source/UI/VanityItemIcons/Headgear017.png",
+      "name": "Headgear017",
+      "internalEnabled": true,
+      "persistentID": 149
+    },
+    {
       "publicName": "KOVAC GREEN GUARD",
       "type": "Helmet",
       "prefab": "Assets/AssetPrefabs/Characters/Players/Clothes/Headgears/Headgear016SecurityB/Headgear016SecurityB.prefab",
@@ -1177,5 +1187,5 @@
       "persistentID": 99
     }
   ],
-  "LastPersistentID": 143
+  "LastPersistentID": 151
 }

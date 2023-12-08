@@ -2253,7 +2253,7 @@
           "StringData": "CARBINE_RELOAD_1_MAG_OUT"
         },
         {
-          "TriggerTime": 0.7,
+          "TriggerTime": 0.5,
           "Type": "MagazineAction",
           "StringData": "drop"
         },
@@ -2268,7 +2268,7 @@
           "StringData": "carbine_reload_3_grab_mag"
         },
         {
-          "TriggerTime": 0.0,
+          "TriggerTime": 0.9,
           "Type": "MagazineAction",
           "StringData": "show"
         },
