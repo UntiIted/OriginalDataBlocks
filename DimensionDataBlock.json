@@ -3147,7 +3147,7 @@
                   {
                     "LineType": "SpinningWaitNoDone",
                     "Output": "...",
-                    "Time": 300.0
+                    "Time": 15.0
                   },
                   {
                     "LineType": "Normal",
@@ -3891,7 +3891,7 @@
                   {
                     "LineType": "SpinningWaitNoDone",
                     "Output": "...",
-                    "Time": 300.0
+                    "Time": 15.0
                   },
                   {
                     "LineType": "Normal",

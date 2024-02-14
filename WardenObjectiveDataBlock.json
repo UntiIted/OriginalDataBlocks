@@ -22194,52 +22194,6 @@
           ],
           "Events": [
             {
-              "Type": "AddToTimer",
-              "Condition": {
-                "ConditionIndex": -1,
-                "IsTrue": false
-              },
-              "Trigger": "OnStart",
-              "ChainPuzzle": 0,
-              "UseStaticBioscanPoints": false,
-              "Layer": "MainLayer",
-              "DimensionIndex": "Reality",
-              "LocalIndex": "Zone_0",
-              "Delay": 0.0,
-              "Duration": 1320.0,
-              "ClearDimension": false,
-              "WardenIntel": 0,
-              "CustomSubObjectiveHeader": 0,
-              "CustomSubObjective": 0,
-              "SoundID": 0,
-              "SoundSubtitle": 0,
-              "DialogueID": 0,
-              "FogSetting": 0,
-              "FogTransitionDuration": 0.0,
-              "EnemyWaveData": {
-                "WaveSettings": 0,
-                "WavePopulation": 0,
-                "AreaDistance": 2,
-                "SpawnDelay": 0.0,
-                "TriggerAlarm": false,
-                "IntelMessage": 0
-              },
-              "EnemyID": 0,
-              "Position": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "Count": 0,
-              "Enabled": false,
-              "TerminalCommand": "None",
-              "TerminalCommandRule": "Normal",
-              "SustainedEventSlotIndex": 0,
-              "SustainedEventStateCount": 0,
-              "SustainedEventStateDuration": 0.0,
-              "SustainedEventDelay": 0.0
-            },
-            {
               "Type": "UnlockSecurityDoor",
               "Condition": {
                 "ConditionIndex": -1,
@@ -31726,7 +31680,7 @@
           "Layer": "MainLayer",
           "DimensionIndex": "Reality",
           "LocalIndex": "Zone_0",
-          "Delay": 157.5,
+          "Delay": 160.0,
           "Duration": 0.0,
           "ClearDimension": false,
           "WardenIntel": 0,
@@ -43574,7 +43528,11 @@
       "FogTransitionDurationOnElevatorLand": 0.0,
       "OnActivateOnSolveItem": true,
       "WavesOnActivate": [],
-      "EventsOnActivate": [
+      "EventsOnActivate": [],
+      "StopAllWavesBeforeGotoWin": true,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
+      "EventsOnGotoWin": [
         {
           "Type": "SetFogSetting",
           "Condition": {
@@ -44519,7 +44477,7 @@
           "FogSetting": 0,
           "FogTransitionDuration": 0.0,
           "EnemyWaveData": {
-            "WaveSettings": 226,
+            "WaveSettings": 330,
             "WavePopulation": 39,
             "AreaDistance": 2,
             "SpawnDelay": 0.0,
@@ -44588,10 +44546,6 @@
           "SustainedEventDelay": 0.0
         }
       ],
-      "StopAllWavesBeforeGotoWin": true,
-      "WavesOnGotoWin": [],
-      "WaveOnGotoWinTrigger": "OnObjectiveCompleted",
-      "EventsOnGotoWin": [],
       "EventsOnGotoWinTrigger": "OnObjectiveCompleted",
       "FogTransitionDataOnGotoWin": 0,
       "FogTransitionDurationOnGotoWin": 0.0,
@@ -47228,7 +47182,7 @@
           "FogSetting": 0,
           "FogTransitionDuration": 0.0,
           "EnemyWaveData": {
-            "WaveSettings": 244,
+            "WaveSettings": 327,
             "WavePopulation": 7,
             "AreaDistance": 3,
             "SpawnDelay": 30.0,
@@ -47320,7 +47274,7 @@
           "FogSetting": 0,
           "FogTransitionDuration": 0.0,
           "EnemyWaveData": {
-            "WaveSettings": 311,
+            "WaveSettings": 328,
             "WavePopulation": 60,
             "AreaDistance": 2,
             "SpawnDelay": 30.0,
@@ -60603,23 +60557,23 @@
           "Layer": "MainLayer",
           "DimensionIndex": "Reality",
           "LocalIndex": "Zone_0",
-          "Delay": 5.0,
+          "Delay": 3.0,
           "Duration": 0.0,
           "ClearDimension": false,
           "WardenIntel": 0,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
-          "SoundID": 1190355274,
+          "SoundID": 0,
           "SoundSubtitle": 0,
           "DialogueID": 0,
           "FogSetting": 0,
           "FogTransitionDuration": 0.0,
           "EnemyWaveData": {
-            "WaveSettings": 100,
-            "WavePopulation": 1,
+            "WaveSettings": 54,
+            "WavePopulation": 56,
             "AreaDistance": 2,
             "SpawnDelay": 0.0,
-            "TriggerAlarm": true,
+            "TriggerAlarm": false,
             "IntelMessage": 0
           },
           "EnemyID": 0,
@@ -60655,17 +60609,17 @@
           "WardenIntel": 0,
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
-          "SoundID": 0,
+          "SoundID": 1190355274,
           "SoundSubtitle": 0,
           "DialogueID": 0,
           "FogSetting": 0,
           "FogTransitionDuration": 0.0,
           "EnemyWaveData": {
-            "WaveSettings": 54,
-            "WavePopulation": 56,
+            "WaveSettings": 100,
+            "WavePopulation": 1,
             "AreaDistance": 2,
             "SpawnDelay": 0.0,
-            "TriggerAlarm": false,
+            "TriggerAlarm": true,
             "IntelMessage": 0
           },
           "EnemyID": 0,

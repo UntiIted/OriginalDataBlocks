@@ -26,6 +26,7 @@ Single: crouchFootstepLength
 Single: throttleSmoothAcc
 Single: throttleSmoothStop
 Single: throttleSmoothVertical
+Single: quickStrafeTime
 Single: jumpVelInitial
 Single: jumpGravityMulDefault
 Single: jumpGravityMulButtonReleased
@@ -116,6 +117,10 @@ Boolean: StaminaEnableAffectMeleeSpeed
 Single: StaminaHighMeleeSpeedModifier
 Single: StaminaLowMeleeSpeedModifier
 Single: StaminaMeleeSpeedCurveExponent
+Boolean: StaminaEnableAffectStrafeSpeed
+Single: StaminaHighStrafeSpeedModifier
+Single: StaminaLowStrafeSpeedModifier
+Single: StaminaStrafeSpeedCurveExponent
 Single: StaminaExhaustedAudioThreshold
 Single: StaminaWasTiredAudioThreshold
 Single: StaminaRestedAudioThreshold
@@ -128,6 +133,7 @@ ActionCost: StaminaSneakCost
 ActionCost: StaminaWalkCost
 ActionCost: StaminaRunCost
 ActionCost: StaminaCrouchEnterCost
+ActionCost: StaminaQuickStrafeCost
 Single: defaultDialogLineDelay
 Single: shortDialogCooldown
 Single: mediumDialogCooldown

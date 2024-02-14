@@ -4734,7 +4734,7 @@
           "DisablePlayerVoicelines": false,
           "ExcludeFromProgression": false,
           "HideOnLocked": false,
-          "HideRolePlayDataOnLocked": false,
+          "HideRolePlayDataOnLocked": true,
           "Accessibility": "UnlockedByExpedition",
           "UnlockedByExpedition": {
             "Tier": "TierA",
@@ -4971,7 +4971,7 @@
           "DisablePlayerVoicelines": false,
           "ExcludeFromProgression": false,
           "HideOnLocked": false,
-          "HideRolePlayDataOnLocked": false,
+          "HideRolePlayDataOnLocked": true,
           "Accessibility": "UnlockedByExpedition",
           "UnlockedByExpedition": {
             "Tier": "TierB",
@@ -5600,7 +5600,7 @@
           "DisablePlayerVoicelines": false,
           "ExcludeFromProgression": false,
           "HideOnLocked": false,
-          "HideRolePlayDataOnLocked": false,
+          "HideRolePlayDataOnLocked": true,
           "Accessibility": "UnlockedByExpedition",
           "UnlockedByExpedition": {
             "Tier": "TierB",
@@ -6347,7 +6347,7 @@
           "DisablePlayerVoicelines": false,
           "ExcludeFromProgression": false,
           "HideOnLocked": false,
-          "HideRolePlayDataOnLocked": false,
+          "HideRolePlayDataOnLocked": true,
           "Accessibility": "UnlockedByExpedition",
           "UnlockedByExpedition": {
             "Tier": "TierC",
@@ -7024,7 +7024,7 @@
           "DisablePlayerVoicelines": false,
           "ExcludeFromProgression": false,
           "HideOnLocked": false,
-          "HideRolePlayDataOnLocked": false,
+          "HideRolePlayDataOnLocked": true,
           "Accessibility": "UnlockedByExpedition",
           "UnlockedByExpedition": {
             "Tier": "TierD",

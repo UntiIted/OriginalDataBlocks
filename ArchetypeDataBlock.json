@@ -1031,7 +1031,7 @@
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 9,
       "DefaultReloadTime": 3.3,
-      "CostOfBullet": 6.5,
+      "CostOfBullet": 5.74,
       "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1125,7 +1125,7 @@
       ],
       "AimTransitionTime": 0.35,
       "AimSequence": [],
-      "BurstDelay": 0.3,
+      "BurstDelay": 0.2,
       "BurstShotCount": 3,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
@@ -1169,7 +1169,7 @@
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 40,
       "DefaultReloadTime": 3.5,
-      "CostOfBullet": 1.77,
+      "CostOfBullet": 1.595,
       "ShotDelay": 0.13,
       "ShellCasingSize": 1.5,
       "ShellCasingSpeedRange": {
@@ -1376,7 +1376,7 @@
       "PrecisionDamageMulti": 0.87,
       "DefaultClipSize": 12,
       "DefaultReloadTime": 2.3,
-      "CostOfBullet": 5.9,
+      "CostOfBullet": 5.89,
       "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1722,7 +1722,7 @@
       "DefaultClipSize": 2,
       "DefaultReloadTime": 3.5,
       "CostOfBullet": 17.5,
-      "ShotDelay": 1.3,
+      "ShotDelay": 0.8,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -1997,7 +1997,7 @@
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 8,
       "DefaultReloadTime": 3.0,
-      "CostOfBullet": 11.0,
+      "CostOfBullet": 9.55,
       "ShotDelay": 0.6,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3003,9 +3003,9 @@
       "FireMode": "Burst",
       "RecoilDataID": 18,
       "DamageBoosterEffect": "PistolDamage",
-      "Damage": 3.05,
+      "Damage": 3.2,
       "DamageFalloff": {
-        "x": 7.0,
+        "x": 10.0,
         "y": 47.0
       },
       "StaggerDamageMulti": 1.0,
@@ -3074,7 +3074,7 @@
       "DamageBoosterEffect": "MachinePistolDamage",
       "Damage": 1.9,
       "DamageFalloff": {
-        "x": 5.0,
+        "x": 7.0,
         "y": 35.0
       },
       "StaggerDamageMulti": 1.0,

@@ -2075,6 +2075,32 @@
       "m_wavePauseMin": 1.0,
       "m_wavePauseMax": 25.0,
       "m_populationFilter": [
+        "Boss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 1.0,
+      "m_overrideWaveSpawnType": false,
+      "m_survivalWaveSpawnType": "InRelationToClosestAlivePlayer",
+      "m_populationPointsTotal": 1.0,
+      "m_populationPointsPerWaveStart": 1.0,
+      "m_populationPointsPerWaveEnd": 1.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 1.0,
+      "m_populationPointsPerGroupEnd": 1.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Finite 1 B",
+      "internalEnabled": true,
+      "persistentID": 329
+    },
+    {
+      "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 1.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 8.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 25.0,
+      "m_populationFilter": [
         "MiniBoss"
       ],
       "m_filterType": "Include",
@@ -2800,6 +2826,32 @@
     },
     {
       "m_pauseBeforeStart": 0.0,
+      "m_pauseBetweenGroups": 240.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 2.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "MiniBoss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+      "m_overrideWaveSpawnType": true,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": 1.0,
+      "m_populationPointsPerWaveStart": 1.0,
+      "m_populationPointsPerWaveEnd": 1.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 1.0,
+      "m_populationPointsPerGroupEnd": 1.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Trickle 1-240 MB ForReal",
+      "internalEnabled": true,
+      "persistentID": 330
+    },
+    {
+      "m_pauseBeforeStart": 0.0,
       "m_pauseBetweenGroups": 180.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 2.0,
@@ -3220,7 +3272,7 @@
     },
     {
       "m_pauseBeforeStart": 1.0,
-      "m_pauseBetweenGroups": 8.0,
+      "m_pauseBetweenGroups": 10.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 8.0,
       "m_wavePauseMin": 1.0,
@@ -3235,12 +3287,12 @@
       "m_overrideWaveSpawnType": true,
       "m_survivalWaveSpawnType": "FromElevatorDirection",
       "m_populationPointsTotal": -1.0,
-      "m_populationPointsPerWaveStart": 10.0,
-      "m_populationPointsPerWaveEnd": 20.0,
+      "m_populationPointsPerWaveStart": 7.0,
+      "m_populationPointsPerWaveEnd": 14.0,
       "m_populationPointsMinPerGroup": 5.0,
       "m_populationPointsPerGroupStart": 5.0,
       "m_populationPointsPerGroupEnd": 10.0,
-      "m_populationRampOverTime": 150.0,
+      "m_populationRampOverTime": 300.0,
       "name": "Trickle 6-20 SSpMb From Elevator R8B4",
       "internalEnabled": true,
       "persistentID": 325
@@ -4450,6 +4502,33 @@
       "persistentID": 320
     },
     {
+      "m_pauseBeforeStart": 0.0,
+      "m_pauseBetweenGroups": 45.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 15.0,
+      "m_populationFilter": [
+        "Standard",
+        "MiniBoss"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+      "m_overrideWaveSpawnType": true,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 2.0,
+      "m_populationPointsPerWaveEnd": 2.0,
+      "m_populationPointsMinPerGroup": 2.0,
+      "m_populationPointsPerGroupStart": 2.0,
+      "m_populationPointsPerGroupEnd": 2.0,
+      "m_populationRampOverTime": 45.0,
+      "name": "Trickle 2-15 SM R8B4 exit bigs",
+      "internalEnabled": true,
+      "persistentID": 331
+    },
+    {
       "m_pauseBeforeStart": 4.0,
       "m_pauseBetweenGroups": 10.0,
       "m_wavePauseMin_atCost": 1.0,
@@ -4742,6 +4821,32 @@
       "persistentID": 311
     },
     {
+      "m_pauseBeforeStart": 1.0,
+      "m_pauseBetweenGroups": 25.0,
+      "m_wavePauseMin_atCost": 1.0,
+      "m_wavePauseMax_atCost": 8.0,
+      "m_wavePauseMin": 1.0,
+      "m_wavePauseMax": 25.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Exclude",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 1.0,
+      "m_overrideWaveSpawnType": true,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 4.0,
+      "m_populationPointsPerWaveEnd": 4.0,
+      "m_populationPointsMinPerGroup": 4.0,
+      "m_populationPointsPerGroupStart": 4.0,
+      "m_populationPointsPerGroupEnd": 4.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Trickle 2-20  M from Elevator_R8E1",
+      "internalEnabled": true,
+      "persistentID": 328
+    },
+    {
       "m_pauseBeforeStart": 60.0,
       "m_pauseBetweenGroups": 60.0,
       "m_wavePauseMin_atCost": 1.0,
@@ -4870,6 +4975,32 @@
       "name": "Exit Trickle 4-10 S R4D2_L3",
       "internalEnabled": true,
       "persistentID": 244
+    },
+    {
+      "m_pauseBeforeStart": 5.0,
+      "m_pauseBetweenGroups": 10.0,
+      "m_wavePauseMin_atCost": 5.0,
+      "m_wavePauseMax_atCost": 10.0,
+      "m_wavePauseMin": 5.0,
+      "m_wavePauseMax": 20.0,
+      "m_populationFilter": [
+        "Weakling"
+      ],
+      "m_filterType": "Include",
+      "m_chanceToRandomizeSpawnDirectionPerWave": 1.5,
+      "m_chanceToRandomizeSpawnDirectionPerGroup": 1.0,
+      "m_overrideWaveSpawnType": true,
+      "m_survivalWaveSpawnType": "FromElevatorDirection",
+      "m_populationPointsTotal": -1.0,
+      "m_populationPointsPerWaveStart": 1000.0,
+      "m_populationPointsPerWaveEnd": 1000.0,
+      "m_populationPointsMinPerGroup": 1.0,
+      "m_populationPointsPerGroupStart": 3.0,
+      "m_populationPointsPerGroupEnd": 3.0,
+      "m_populationRampOverTime": 0.0,
+      "name": "Exit Trickle 4-10 S R4D2_R8E1",
+      "internalEnabled": true,
+      "persistentID": 327
     },
     {
       "m_pauseBeforeStart": 3.0,
@@ -8355,5 +8486,5 @@
       "persistentID": 188
     }
   ],
-  "LastPersistentID": 326
+  "LastPersistentID": 331
 }
